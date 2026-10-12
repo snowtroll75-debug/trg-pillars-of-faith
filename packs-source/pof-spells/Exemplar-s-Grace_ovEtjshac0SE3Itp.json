@@ -1,0 +1,92 @@
+{
+  "_id": "ovEtjshac0SE3Itp",
+  "name": "Exemplar's Grace",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 1,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "bonus",
+        "target": "targets",
+        "chooseFrom": "savesOrRankedSkills",
+        "label": "Exemplar's Grace",
+        "bonusType": "status",
+        "value": 1
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Select one additional eligible saving throw or skill",
+        "mods": {
+          "choiceExtra": 1
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Target one additional willing creature. Each target receives the same selected benefit",
+        "mods": {
+          "extraTargets": 1
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Archivist",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Enchantment",
+    "description": "ARCHIVIST ENCHANTMENT UTILITY\nArchivist Specialist Spell\nCast 1 AP (verbal)\nRange 30 feet\nTargets 1 willing creature\nDuration 1 minute\n\nYou recount a deed attributed to a saint, prophet, divine champion or other sacred exemplar, allowing the target to emulate one fragment of their excellence.\nWhen casting the spell, choose one of the following:\nFortitude;\nReflex;\nWill; or\none skill in which you possess at least 1 rank.\nThe target gains a +1-status bonus to the selected saving throw or skill for the duration.\n\nWarping Options:\n+2 PP: Select one additional eligible saving throw or skill.\n+2 PP: Target one additional willing creature. Each target receives the same selected benefit.\n\nPillars of Faith, Chapter 10. Choose Fortitude, Reflex, Will or a skill you have a rank in: +1 status on it, chosen at the cast."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ovEtjshac0SE3Itp"
+}

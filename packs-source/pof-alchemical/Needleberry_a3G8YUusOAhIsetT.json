@@ -1,0 +1,93 @@
+{
+  "_id": "a3G8YUusOAhIsetT",
+  "name": "Needleberry",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: temperate or cold thickets.\n\nNeedleberry bushes protect their fruit with long, glassy thorns and grow most thickly along wind-scoured ridges. The narrow crimson berries end in hard points, making them painful to harvest without heavy gloves. Hunters preserve them in brine; bitten whole, they taste strongly of iron and produce a brief, intense steadiness in the hands and eyes. For 3 rounds, you gain a +1-item bonus to ranged weapon attack rolls.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Needleberry",
+          "duration": "3 rounds",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Needleberry",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 1,
+                  "bonusType": "item",
+                  "label": "Needleberry",
+                  "scope": "Ranged weapon attack rolls (tick on a ranged attack)",
+                  "when": {
+                    "checkTypes": [
+                      "attack"
+                    ]
+                  },
+                  "auto": false,
+                  "oneShot": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: temperate or cold thickets.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 2,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 50,
+        "tablePrice": 50,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!a3G8YUusOAhIsetT"
+}

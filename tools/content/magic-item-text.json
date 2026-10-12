@@ -1,0 +1,1099 @@
+{
+ "armourRunes": {
+  "ANCHORED SOUL": {
+   "traits": "INVESTED SOUL WARDING",
+   "lines": [
+    "The rune resembles a knot tied around a small central circle. When hostile spiritual power presses against its wearer, the knot appears to tighten.",
+    "You gain a +2-item bonus to saving throws against possession and effects that forcibly remove, control or displace your soul.",
+    "Whenever you successfully resist a possession attempt, you are aware that something attempted to enter or control you, even if the effect would normally conceal its presence."
+   ],
+   "level": 7,
+   "price": 3000,
+   "usage": "inscribed onto armour",
+   "weight": ""
+  },
+  "INTERCESSION": {
+   "traits": "CHANCE INVESTED SOUL WARDING",
+   "lines": [
+    "Activate Reaction",
+    "Trigger An ally within 10 feet fails a saving throw against Fear, possession or an effect with the Soul trait",
+    "Frequency 1/day",
+    "The shield's inscription depicts one figure standing between another and a descending hand.",
+    "The triggering ally may reroll the saving throw and must use the second result.",
+    "If the rerolled save succeeds, the shield emits a brief tone or flash appropriate to the tradition in which the rune was created."
+   ],
+   "level": 9,
+   "price": 4200,
+   "usage": "inscribed onto a shield",
+   "weight": ""
+  },
+  "LAST VIGIL": {
+   "traits": "HEALING INVESTED SOUL",
+   "lines": [
+    "Activate Reaction",
+    "Trigger You regain Hit Points from a spell with the Healing trait",
+    "Frequency 1/day",
+    "The rune resembles a burning candle whose flame never quite touches the wick.",
+    "After the healing is resolved, reduce either Fatigued or Sickened by 1. If the triggering spell required at least 4 PP, you may instead reduce Dazed or Weakened by 1, or 6 PP Injured by 1.",
+    "The rune does not increase the amount of HP restored."
+   ],
+   "level": 6,
+   "price": 2000,
+   "usage": "inscribed onto armour",
+   "weight": ""
+  },
+  "MARTYR'S AEGIS": {
+   "traits": "HEALING INVESTED WARDING",
+   "lines": [
+    "Activate Reaction",
+    "Trigger An ally within 10 feet suffers HP damage",
+    "Frequency 1/minute",
+    "Two figures are etched into the rune: one kneeling, the other standing before them with arms spread.",
+    "After all Resistance and DR affecting the ally have been applied, you may transfer up to half of the remaining HP damage to yourself. The ally suffers the remaining damage, and you suffer the transferred amount.",
+    "Damage transferred by Martyr's Aegis cannot be reduced by your own Resistance, Base DR or temporary HP; cannot itself be redirected or transferred; and retains its original damage type. You cannot transfer more damage than would reduce you to 1 HP."
+   ],
+   "level": 11,
+   "price": null,
+   "armourPrice": 11000,
+   "shieldPrice": 7700,
+   "usage": "inscribed onto armour or shield",
+   "weight": ""
+  },
+  "SANCTUARY": {
+   "traits": "FOCUS INVESTED SOUL WARDING",
+   "lines": [
+    "Activate Engage (1 AP)",
+    "Requirement The rune is ready",
+    "Concentric circles spread across the item when activated, forming the impression of a doorway that cannot quite be crossed.",
+    "For 1 minute, you emanate a 10-foot spiritual sanctuary. You and willing allies within the aura gain a +2-status bonus to saving throws against Fear, possession, Soul Drain and effects with the Soul trait.",
+    "The rune then becomes expended and may be restored using Refocus."
+   ],
+   "level": 11,
+   "price": null,
+   "armourPrice": 11000,
+   "shieldPrice": 7700,
+   "usage": "inscribed onto armour or shield",
+   "weight": ""
+  },
+  "SOUL MIRROR": {
+   "traits": "INVESTED SOUL WARDING",
+   "lines": [
+    "Activate Reaction",
+    "Trigger You achieve a Critical or Heroic saving throw against a possession effect",
+    "Frequency 1/minute",
+    "The shield's surface becomes briefly reflective, but the face visible within it belongs to whatever attempted to enter the wielder.",
+    "The creature or entity responsible for the possession attempt must make a Will saving throw against your Level DC.",
+    "Soul Mirror does not reveal an entity that could not otherwise be perceived and does not force an existing possessor out of a host.",
+    "Critical: It is unaffected.",
+    "Success: It becomes Frightened 1 until the end of its next turn.",
+    "Failure: It becomes Frightened 2 and cannot attempt to possess you again for 1 minute.",
+    "Fumble: It becomes Frightened 3 and cannot attempt to possess any creature for 1 minute."
+   ],
+   "level": 12,
+   "price": 11200,
+   "usage": "inscribed onto a shield",
+   "weight": ""
+  },
+  "SOUL WARD": {
+   "traits": "INVESTED SOUL WARDING",
+   "lines": [
+    "Activate Reaction",
+    "Trigger You would gain Soul Drain",
+    "Frequency 1/minute",
+    "Fine silver lines radiate outward from a stylised heart, flaring briefly when something attempts to tear at the wearer's essence.",
+    "Reduce the amount of Soul Drain gained by 5, to a minimum of 0.",
+    "If the armour possesses a Potency III or greater rune, reduce the Soul Drain by 10 instead. The rune cannot reduce Soul Drain already possessed by the wearer."
+   ],
+   "level": 11,
+   "price": 11000,
+   "usage": "inscribed onto armour",
+   "weight": ""
+  },
+  "VEILWATCH": {
+   "traits": "INSIGHT INVESTED SOUL",
+   "lines": [
+    "When viewed from the corner of the eye, the rune appears to contain shapes moving behind its engraved lines.",
+    "You gain Spirit Sense as a tertiary sense. When Searching, you can detect the presence and general direction of disembodied spirits, incorporeal Undead, haunts and active possession within range.",
+    "Veilwatch does not provide exact location, identity or allegiance and does not by itself allow you to target an entity you cannot otherwise perceive."
+   ],
+   "level": 7,
+   "price": 3000,
+   "usage": "inscribed onto armour",
+   "weight": ""
+  }
+ },
+ "weaponRunes": {
+  "BANISHING": {
+   "traits": "ESSENCE INVESTED INVOCATION SOUL",
+   "lines": [
+    "Activate Free (0 AP)",
+    "Trigger Once per round when the weapon inflicts a Critical hit upon a disembodied spirit, incorporeal Undead or possessing entity",
+    "The rune resembles an open doorway crossed by a single violent stroke.",
+    "The target suffers 2d6 secondary essence damage and must attempt a Will saving throw against your Level DC.",
+    "Critical: The target is unaffected beyond the additional damage.",
+    "Success: It cannot attempt possession until the beginning of your next turn.",
+    "Failure: It cannot attempt possession for 1 minute.",
+    "Fumble: As Failure. If it is currently possessing a creature, immediately attempt to Counteract the possession using your level as the Counteract level. If the Counteract succeeds, the possession ends normally."
+   ],
+   "level": 12,
+   "price": 11000,
+   "usage": "any weapon",
+   "weight": ""
+  },
+  "EXORCIST": {
+   "traits": "ESSENCE INVESTED SOUL",
+   "lines": [
+    "The inscription lies along the striking surface rather than beneath it, its lines seeming to continue beyond the physical edge of the weapon.",
+    "The weapon may strike incorporeal spirits and incorporeal Undead normally, provided you can perceive them.",
+    "If you can perceive or otherwise validly target an entity possessing another creature, you may attack the possessing entity without damaging the host. The rune does not make a hidden possessor visible and does not allow you to target one where the possession effect explicitly prevents it from being separately targeted."
+   ],
+   "level": 10,
+   "price": 8000,
+   "usage": "any weapon",
+   "weight": ""
+  },
+  "MERCIFUL": {
+   "traits": "HEALING INVESTED SOUL",
+   "lines": [
+    "The rune resembles a blade halted an instant before touching a reclining figure.",
+    "Whenever an attack with the weapon would reduce a living creature to 0 HP, you may choose to have the creature become Stable immediately after resolving the attack. The attack still inflicts its normal damage and may still cause Injuries, but it cannot kill the target through excess damage from that Strike unless you choose not to invoke the rune.",
+    "Merciful has no special effect on creatures destroyed outright at 0 HP or creatures that do not use the normal Dying rules."
+   ],
+   "level": 5,
+   "price": 1250,
+   "usage": "any weapon",
+   "weight": ""
+  },
+  "REMEMBRANCE": {
+   "traits": "INSIGHT INVESTED",
+   "lines": [
+    "Activate Free (0 AP)",
+    "Trigger Once per round when you inflict a Critical hit",
+    "Names and half-completed sentences appear momentarily across the weapon whenever it bites deeply into an enemy.",
+    "You may immediately attempt a Recall Knowledge check against the creature struck as a Free (0 AP) action.",
+    "If the creature is already one of your Studied Targets or Subjects of Inquisition, you instead gain a +2-item bonus to the check. Repeated Recall Knowledge attempts remain subject to the normal rules."
+   ],
+   "level": 7,
+   "price": 3000,
+   "usage": "any weapon",
+   "weight": ""
+  },
+  "REQUIEM": {
+   "traits": "ESSENCE INVESTED INVOCATION",
+   "lines": [
+    "Funerary script spirals along the weapon, growing cold whenever it approaches a creature sustained beyond death.",
+    "The first successful Strike you make each round against a creature with the Undead or Unliving trait inflicts additional secondary essence damage."
+   ],
+   "usage": "any weapon",
+   "weight": ""
+  },
+  "REQUIEM I": {
+   "traits": "",
+   "lines": [
+    "The weapon inflicts 1d6 damage."
+   ],
+   "level": 6,
+   "price": 1400
+  },
+  "REQUIEM II": {
+   "traits": "",
+   "lines": [
+    "The weapon inflicts 2d6 damage."
+   ],
+   "level": 11,
+   "price": 8000
+  },
+  "REQUIEM III": {
+   "traits": "",
+   "lines": [
+    "The weapon inflicts 3d6 damage."
+   ],
+   "level": 16,
+   "price": 60000
+  },
+  "SOULCHAIN": {
+   "traits": "INVESTED SAVE SOUL WARDING",
+   "lines": [
+    "Activate Free (0 AP)",
+    "Trigger Once per round after a successful Strike",
+    "Duration Until the beginning of your next turn",
+    "Fine spectral chains radiate from the wound for an instant before vanishing into the target's shadow.",
+    "The target must make a Will saving throw against your Level DC.",
+    "Critical: The target is unaffected.",
+    "Success: The target cannot voluntarily use possession until the beginning of your next turn.",
+    "Failure: The target cannot voluntarily become Incorporeal, leave its current host through possession, begin a new possession or transfer its soul into another vessel for the duration.",
+    "Fumble: As Failure. If the target is currently possessing another creature, it must immediately attempt a new saving throw against the possession-ending conditions of the effect that created the possession. If that effect provides no such saving throw, the GM may allow an opposed level based Will save."
+   ],
+   "level": 12,
+   "price": 11000,
+   "usage": "any melee weapon",
+   "weight": ""
+  },
+  "VOWKEEPER": {
+   "traits": "DIVINITY INVESTED SOUL",
+   "lines": [
+    "Requirement You possess a Deific Aspect",
+    "The rune is never completed by its crafter. The final line appears only when the weapon is invested by someone capable of giving it meaning.",
+    "During your daily preparations, speak a short vow consistent with the Edicts of your Deific Aspect. The vow must describe a concrete duty you reasonably expect to pursue that day.",
+    "While you are actively acting in furtherance of that vow, the weapon adds your class bonus to damage rolls.",
+    "If you knowingly violate the spoken vow, the rune becomes inactive until your next daily preparations. A trivial, inevitable or deliberately self-serving vow provides no benefit; the GM has final judgement over whether a proposed vow represents a meaningful obligation."
+   ],
+   "level": 9,
+   "price": 6000,
+   "usage": "any weapon",
+   "weight": ""
+  }
+ },
+ "specificArmour": {
+  "AEGIS OF THE PILGRIM CHOIR": {
+   "traits": "AURA FOCUS INVESTED SOUL WARDING",
+   "lines": [
+    "Every inch of this towering shield bears tiny inscriptions naming roads, hospices, shrines and people who once offered shelter to travellers. No two surviving Aegises bear exactly the same names.",
+    "This Expert Processional Aegis has the following statistics:",
+    "ACP -4; DB +5; HP 68; DR 2",
+    "Traits Expert, Potency II, Sanctuary",
+    "It retains the Processional Aegis's ability to be planted as a small portable shrine. Appropriate use still grants its normal bonus to Perform Last Rites or Observe Sacred Custom."
+   ],
+   "level": 12,
+   "price": 15750,
+   "usage": "held shield",
+   "weight": "22 lbs"
+  },
+  "BULWARK OF THE SWORN GATE": {
+   "traits": "AURA FOCUS INVESTED SOUL WARDING",
+   "lines": [
+    "The armour is deliberately severe: blackened steel, squared shoulders and a closed helm bearing only a vertical silver line. The line represents a doorway. The person wearing the armour represents the reason it remains closed.",
+    "This Master Oathguard Plate has the following statistics:",
+    "ACP -6; MAX DEX 4; DR 7; DB +3; HP 135; Speed -10",
+    "Traits Anchored Soul, Full, Helm, Master, Metal, Potency III, Rigid, Sanctuary",
+    "You retain the Oathguard Plate's normal +1 item bonus to checks and saving throws made to resist Shove, Trip or forced physical movement whenever you have not moved since the beginning of your current turn. You also gain a +2-item bonus to saving throws against possession and effects that forcibly remove, control or displace your soul."
+   ],
+   "level": 14,
+   "price": 38850,
+   "usage": "worn armour",
+   "weight": "55 lbs"
+  },
+  "GRAVEWARDEN'S VIGIL COAT": {
+   "traits": "INSIGHT INVESTED SOUL WARDING",
+   "lines": [
+    "The first Vigil Coats were supposedly made for grave custodians who had discovered that the occupants of a cemetery were not always the most dangerous things attempting to enter it.",
+    "This Expert Gravewarden Coat has the following statistics:",
+    "ACP -2; MAX DEX 5; DR 4; DB +2; HP 60; Speed 0",
+    "Traits Anchored Soul, Expert, Full, Metal, Potency II, Veilwatch",
+    "You retain the mundane Gravewarden Coat's +1 item bonus to Fortitude saves against airborne disease and inhaled poison. Its Anchored Soul rune protects against possession and soul displacement, while Veilwatch grants Spirit Sense as a tertiary sense with a range of 30 feet."
+   ],
+   "level": 10,
+   "price": 9030,
+   "usage": "worn armour",
+   "weight": "24 lbs"
+  },
+  "HOSPICE VESTMENT OF THE LAST LAMP": {
+   "traits": "HEALING INVESTED WARDING",
+   "lines": [
+    "This immaculate white-and-grey Hospice Jack is covered with narrow embroidered lines resembling rays from a candle flame. Its many pockets always seem to place the required bandage or instrument beneath the wearer's hand.",
+    "This Expert Hospice Jack has the following statistics:",
+    "ACP 0; MAX DEX 8; DR 2; DB +2; HP 32; Speed 0",
+    "Traits Expert, Potency II, Light (Special), Cure PP 4 (Special)",
+    "The integrated medical equipment counts as an Expert healer's kit for Administer First Aid and may be accessed without first drawing a healer's kit.",
+    "Activate Command (2 AP); Frequency at will.",
+    "The armour allows the wearer to cast Light as an innate spell.",
+    "Activate Command (2 AP); Frequency 3/day.",
+    "The armour allows the wearer to cast Cure as a PP 4 innate spell."
+   ],
+   "level": 8,
+   "price": 5030,
+   "usage": "worn armour",
+   "weight": "8 lbs"
+  },
+  "PLATE OF THE SEALED SEPULCHRE": {
+   "traits": "INVESTED SOUL WARDING",
+   "lines": [
+    "Every seam of this blackened plate can be sealed. The visor closes without leaving so much as a breathing slit, yet the wearer continues to breathe normally. Funeral inscriptions run along the inside of the plates where nobody else can see them.",
+    "This Master Sepulchral Plate has the following statistics:",
+    "ACP -5; MAX DEX 4; DR 6; DB +3; HP 123; Speed -5",
+    "Traits Anchored Soul, Full, Helm, Master, Metal, Potency III, Rigid, Soul Ward",
+    "You retain the armour's normal +1 item bonus to Fortitude saves against disease and poison transmitted through contact or inhalation. You possess Resistance to essence damage from Soul Warding."
+   ],
+   "level": 13,
+   "price": 33650,
+   "usage": "worn armour",
+   "weight": "48 lbs"
+  },
+  "RELIQUARY SHIELD OF THE FIRST WITNESS": {
+   "traits": "DIVINITY INVESTED SOUL WARDING",
+   "lines": [
+    "The inner compartment of this polished silver shield is divided into dozens of tiny, padded recesses. Some examples contain bone fragments, others scraps of scripture, fragments of broken holy symbols or the sealing wax from famous oaths.",
+    "This Expert Reliquary Shield has the following statistics:",
+    "ACP -1; DB +4; HP 57; DR 2",
+    "Traits Expert, Intercession, Potency II",
+    "The shield retains the normal waterproof reliquary compartment of a Reliquary Shield."
+   ],
+   "level": 11,
+   "price": 8850,
+   "usage": "held shield",
+   "weight": "8 lbs"
+  }
+ },
+ "specificWeapons": {
+  "ASHEN CENSER": {
+   "traits": "ESSENCE INVESTED SOUL",
+   "lines": [
+    "The perforations in the head of this blackened Censer Flail form dozens of tiny funerary symbols. When incense burns within it, the smoke moves towards unseen things rather than following the wind.",
+    "The weapon has the following statistics:",
+    "AB +2; Damage 1d8+1 B; Size M; FDC 18",
+    "Traits Disarm, Expert, Exorcist, Potency II, Sweep",
+    "While incense is burning within the Ashen Censer, disembodied spirits and incorporeal Undead within 10 feet of its smoke become faintly outlined. You can perceive them sufficiently clearly to attack them with the Ashen Censer.",
+    "The weapon's Exorcist property allows its attacks to affect incorporeal spirits normally. If a possessing entity can legally be targeted separately from its host, you may also strike it without damaging the host."
+   ],
+   "level": 10,
+   "price": 9640,
+   "usage": "held weapon",
+   "weight": "6 lbs"
+  },
+  "BLOOM OF THE ANCESTRAL GROVE": {
+   "traits": "HEALING INSIGHT INVESTED SOUL VERDANT",
+   "lines": [
+    "Pale fungal growth constantly covers the haft of this Myrathi scythe. When scraped away it returns before sunrise, bearing tiny patterns which older Myrathi insist resemble remembered faces.",
+    "The weapon has the following statistics:",
+    "AB +3; Damage 1d8+2 S; Size L; FDC 20",
+    "Traits Master, Potency III, Reach, Remembrance, Requiem I, Sweep, Trip",
+    "Once per round when you score a Critical hit, you may immediately attempt a Recall Knowledge check concerning the target as a Free (0 AP) action. The first successful Strike each round against an Undead or Unliving creature inflicts 1d6 secondary essence damage."
+   ],
+   "level": 14,
+   "price": 28500,
+   "usage": "held weapon",
+   "weight": "8 lbs"
+  },
+  "CHAIN OF CONTRITION": {
+   "traits": "INVESTED HEALING",
+   "lines": [
+    "The weights at either end of this chain are engraved with admonitions against vengeance. The inscriptions have not prevented generations of temple wardens from striking people with it, but they have prevented many of those people from dying.",
+    "The weapon has the following statistics:",
+    "AB +2; Damage 1d6+1 B; Size M; FDC 18",
+    "Traits Disarm, Expert, Merciful, Nonlethal, Potency II, Reach, Trip",
+    "Whenever an attack with the Chain of Contrition would reduce a living creature to 0 HP, you may cause the target to become Stable immediately after resolving the attack."
+   ],
+   "level": 7,
+   "price": 2880,
+   "usage": "held weapon",
+   "weight": "6 lbs"
+  },
+  "HOOK OF THE LAST PASSAGE": {
+   "traits": "ESSENCE INVESTED SOUL WARDING",
+   "lines": [
+    "The hook appears badly tarnished until brought near an incorporeal spirit, at which point its entire head takes on the cold silver sheen of moonlit iron.",
+    "The weapon has the following statistics:",
+    "AB +3; Damage 1d8+2 P; Size L; FDC 18",
+    "Traits Cold Iron, Disarm, Master, Potency III, Reach, Requiem I, Soulchain, Trip",
+    "The first successful Strike each round against an Undead or Unliving creature inflicts 1d6 secondary essence damage."
+   ],
+   "level": 13,
+   "price": 24435,
+   "usage": "held weapon",
+   "weight": "8 lbs"
+  },
+  "TESTAMENT OF THE UNBROKEN LINE": {
+   "traits": "DIVINITY INSIGHT INVESTED SOUL",
+   "lines": [
+    "The broad blade is covered edge to edge with inscriptions, but the writing is never quite complete. When invested, an empty band of metal appears near the guard, waiting for the wielder to add something of their own.",
+    "The weapon has the following statistics:",
+    "AB +3; Damage 1d8+2 S; Size M; FDC 16",
+    "Traits Balanced, Master, Potency III, Remembrance, Requiem I, Versatile P, Vowkeeper",
+    "During daily preparations, speak a meaningful vow consistent with the Edicts of your Deific Aspect. While acting directly in furtherance of that vow, you gain a +1-item bonus to damage rolls made with the weapon. Once per day when you score a Critical hit while pursuing the vow, the attack inflicts 1d6 additional essence damage. If you knowingly violate the vow, this benefit ends until your next daily preparations.",
+    "Additionally, once per round when you score a Critical hit, you may immediately attempt a Recall Knowledge check against the creature struck as a Free (0 AP) action. The spoken vow appears across the previously blank section of blade until the next daily preparation. A wielder without a Deific Aspect can still use the weapon normally but cannot benefit from Vowkeeper."
+   ],
+   "level": 13,
+   "price": 22435,
+   "usage": "held weapon",
+   "weight": "4 lbs"
+  },
+  "WAYKEEPER": {
+   "traits": "ESSENCE INVESTED INVOCATION SOUL",
+   "lines": [
+    "Eshari stories claim that the first Waykeeper was carried by a funerary escort who walked for nine days beside a dead king because the king's spirit refused to believe that he had died. At the end of the road the spear was planted in the ground, the king finally looked behind him and saw his own funeral procession.",
+    "The weapon has the following statistics:",
+    "AB +3; Damage 1d8+2 P; Size L; FDC 18",
+    "Traits Banishing, Brace, Exorcist, Master, Potency III, Reach, Requiem I, Versatile S",
+    "The first successful Strike each round against an Undead or Unliving creature inflicts 1d6 secondary essence damage. The spear may strike incorporeal spirits normally if you can perceive them."
+   ],
+   "level": 14,
+   "price": 32440,
+   "usage": "held weapon",
+   "weight": "7 lbs"
+  },
+  "WITNESS": {
+   "traits": "DIVINITY INSIGHT INVESTED",
+   "lines": [
+    "This broad-faced Oath Hammer makes an unnaturally clear tone when struck against stone. The sound is said to linger until every person present has either honoured what they promised or admitted that they did not.",
+    "The weapon has the following statistics:",
+    "AB +2; Damage 1d8+1 B; Size M; FDC 16",
+    "Traits AR 4, Expert, Potency II, Remembrance, Shove, Vowkeeper",
+    "When you deliberately use Witness to ceremonially mark the beginning of a formal oath, vow, contract or sworn testimony, the hammer magically remembers the exact significant wording for 1 year.",
+    "While invested to the weapon, you may spend 1 AP with the Concentrate trait to recall any oath recorded in this way exactly as it was spoken. Witness can retain a number of oaths equal to its item level. When another is added beyond this limit, the oldest is forgotten.",
+    "If you possess a Divine Aspect, you may also speak a daily vow using the weapon's Vowkeeper property."
+   ],
+   "level": 11,
+   "price": 11030,
+   "usage": "held weapon",
+   "weight": "6 lbs"
+  }
+ },
+ "wondrous": {
+  "ANCESTOR'S LOCKET": {
+   "traits": "INSIGHT INVESTED SOUL",
+   "lines": [
+    "This small silver locket contains no portrait. When opened, its polished interior occasionally reflects a face that is not quite the wearer's own.",
+    "You gain a +1-status bonus to saving throws against effects that alter, erase, suppress or replace your memories or identity. You may also use the Past-Life Insight ability:",
+    "Past-Life Insight",
+    "Activate Free (0 AP)",
+    "Trigger You attempt a Recall Knowledge check",
+    "Frequency 1/day",
+    "You gain Advantage on the triggering check."
+   ],
+   "level": 5,
+   "price": 1350,
+   "usage": "worn",
+   "weight": "-"
+  },
+  "ARCHIVIST'S CONCORDANCE": {
+   "traits": "DIVINITY INSIGHT INVESTED",
+   "lines": [
+    "Every Concordance looks unfinished. References continue into empty margins, new indexing tabs appear between pages and passages written in one hand acquire cross-references written in another overnight.",
+    "You gain a +2-status bonus to Religion and Linguistics checks specifically involving sacred texts, doctrine, liturgy or the comparison of religious writings.",
+    "A character with Recite from the Text asl gains Perfect Reference:"
+   ],
+   "level": 9,
+   "price": 6000,
+   "usage": "held book",
+   "weight": "4 lbs"
+  },
+  "PERFECT REFERENCE": {
+   "traits": "",
+   "lines": [
+    "Activate Free (0 AP)",
+    "Frequency 1/day",
+    "Requirements You possess Recite from the Text",
+    "You use Recite from the Text as a Free (0 AP) action instead of its normal action cost. All other requirements remain unchanged.",
+    "An Archivist may use the Concordance as their Prayer Book."
+   ]
+  },
+  "BELL OF THE LAST ROAD": {
+   "traits": "DIVINITY INVESTED SOUL",
+   "lines": [
+    "The sound of this small bronze handbell carries very little distance, yet corpses seem strangely peaceful after hearing it.",
+    "You gain a +2-status bonus to Perform Last Rites while using the bell as part of the rite.",
+    "You also gain the Final Toll ability:"
+   ],
+   "level": 8,
+   "price": 5000,
+   "usage": "held in 1 hand",
+   "weight": "2 lbs"
+  },
+  "FINAL TOLL": {
+   "traits": "",
+   "lines": [
+    "Activate 1 minute",
+    "Frequency 1/day",
+    "Target One corpse within 10 feet",
+    "The bell casts Last Rite upon the target without requiring PP. The spell otherwise functions normally.",
+    "If a disembodied spirit belonging to the deceased is willingly present when the bell is rung, it immediately understands that the rite has been performed upon its remains."
+   ]
+  },
+  "BONEGLASS MONOCLE": {
+   "traits": "INSIGHT INVESTED",
+   "lines": [
+    "The lens is made from cloudy translucent material traditionally claimed to be powdered bone fused into glass. Looking through it gives healthy flesh an unsettlingly anatomical appearance.",
+    "You gain a +2-status bonus to Examine the Dead and Perform Autopsy. When examining a corpse, you also gain a +2-status bonus to checks made to identify evidence of disease, poison, possession, magical transformation or supernatural interference with the body.",
+    "You also gain the Read Vital Traces ability:"
+   ],
+   "level": 7,
+   "price": 3000,
+   "usage": "worn",
+   "weight": "-"
+  },
+  "READ VITAL TRACES": {
+   "traits": "",
+   "lines": [
+    "Activate Interact (2 AP)",
+    "Frequency 1/day",
+    "The monocle reproduces the informational effects of Vital Diagnosis, except the target must be a creature or corpse you can physically examine through the lens. It does not grant the Healer trait or allow access to other Healer Specialist Spells."
+   ]
+  },
+  "CENSER OF QUIET THRESHOLDS": {
+   "traits": "AURA DIVINITY INVESTED SOUL WARDING",
+   "lines": [
+    "Four tiny silver doors are worked into the sides of this black iron censer. Whenever a spirit enters the smoke, one of them appears briefly to close.",
+    "The censer can burn any ordinary incense. While incense burns within it, willing creatures within 20 feet gain a +1-status bonus to saving throws against possession and effects with the Soul trait. A possessing entity does not receive this benefit through its host.",
+    "You also gain the Reveal the Unseen ability:"
+   ],
+   "level": 9,
+   "price": 6000,
+   "usage": "held or placed",
+   "weight": "4 lbs"
+  },
+  "REVEAL THE UNSEEN": {
+   "traits": "",
+   "lines": [
+    "Activate Command (1 AP)",
+    "Frequency 1/day",
+    "Requirement Incense is currently burning",
+    "For 1-minute, disembodied spirits and incorporeal Undead within the smoke become faintly outlined and may be perceived sufficiently clearly to determine their location. This does not remove Incorporeal, reveal allegiance or allow mundane weapons to affect them."
+   ]
+  },
+  "CORD OF THE SWORN WORD": {
+   "traits": "DIVINITY INVESTED SOUL",
+   "lines": [
+    "The cord begins completely white. Each oath formally sworn upon it leaves behind a permanent-coloured thread woven inexplicably through its fibres.",
+    "You gain a +2-status bonus to saving throws against magical effects attempting to compel you to knowingly violate a solemn oath you have freely undertaken. This protection does not apply to casual promises or an oath obtained through supernatural coercion.",
+    "You also gain the Seal the Word ability:"
+   ],
+   "level": 7,
+   "price": 3000,
+   "usage": "worn around wrist, neck or waist",
+   "weight": "-"
+  },
+  "SEAL THE WORD": {
+   "traits": "",
+   "lines": [
+    "Activate 1 minute",
+    "Frequency 1/day",
+    "Targets Up to two willing creatures",
+    "The cord casts Oathseal upon the targets. The resulting oath remains recorded as a pattern within the cord for its duration."
+   ]
+  },
+  "GRAVE-MEMORY BEADS": {
+   "traits": "DIVINITY INSIGHT INVESTED",
+   "lines": [
+    "Each dark stone bead carries the name of someone whose death taught its former owner something worth remembering.",
+    "You gain a +1-status bonus to Religion and Occultism checks made to Recall Knowledge concerning Undead, Unliving creatures, funerary practices, necromancy and the passage of souls.",
+    "You also gain the Voice of the Dead ability:"
+   ],
+   "level": 6,
+   "price": 2000,
+   "usage": "worn",
+   "weight": "-"
+  },
+  "VOICE OF THE DEAD": {
+   "traits": "",
+   "lines": [
+    "Activate Command (1 AP)",
+    "Frequency 1/day",
+    "For 10 minutes, you may communicate with a corpse as though using Dead Tongue, subject to all normal limitations of that spell."
+   ]
+  },
+  "HANDS OF MERCY": {
+   "traits": "DIVINITY HEALING INVESTED",
+   "lines": [
+    "These cream-coloured gloves never retain bloodstains. Their palms bear a simple embroidered image of one hand supporting another.",
+    "You gain a +2-status bonus to Medicine checks.",
+    "You also gain the Steady Gift ability:"
+   ],
+   "level": 10,
+   "price": 8000,
+   "usage": "worn gloves",
+   "weight": "-"
+  },
+  "STEADY GIFT": {
+   "traits": "",
+   "lines": [
+    "Activate Reaction",
+    "Trigger You cast a spell with the Healing trait that rolls one or more dice to restore HP",
+    "Frequency 1/day",
+    "After rolling the spell's healing dice, select one healing die and maximise it. If you are a Healer with the Lifebinder Calling, you may maximise two dice instead."
+   ]
+  },
+  "LANTERN OF THE VEIL": {
+   "traits": "FOCUS INSIGHT INVESTED LIGHT SOUL",
+   "lines": [
+    "No fuel burns within this lantern. Its pale light seems to illuminate empty air more brightly than walls or furniture.",
+    "The lantern produces light in a 20-foot radius. Disembodied spirits and incorporeal Undead within the light appear as faint translucent forms. This reveals their location but does not identify them.",
+    "You also gain the Open the Lantern ability:"
+   ],
+   "level": 10,
+   "price": 8000,
+   "usage": "held in 1 hand",
+   "weight": "3 lbs"
+  },
+  "OPEN THE LANTERN": {
+   "traits": "",
+   "lines": [
+    "Activate Engage (1 AP)",
+    "For 10 minutes, you gain the effects of Veil Sight. The ability becomes expended and may be restored through Refocus."
+   ]
+  },
+  "MANTLE OF MANY LIVES": {
+   "traits": "INSIGHT INVESTED SOUL",
+   "lines": [
+    "Its fabric is made from hundreds of narrow strips, each dyed according to a different era or tradition. The wearer occasionally remembers how to fasten clasps that have not existed for centuries.",
+    "You gain a +2-status bonus to saving throws against magical memory alteration and effects that suppress or alter personal identity.",
+    "You also gain the Borrowed Experience ability:"
+   ],
+   "level": 10,
+   "price": 8000,
+   "usage": "worn cloak",
+   "weight": "2 lbs"
+  },
+  "BORROWED EXPERIENCE": {
+   "traits": "",
+   "lines": [
+    "Activate Concentrate (1 AP)",
+    "Frequency 1/day",
+    "Select one skill in which you possess no ranks. For 10 minutes, treat yourself as possessing 1 rank in that skill. This grants access to skill actions requiring 1 rank but does not satisfy prerequisites for feats, classes, archetypes or other permanent character options.",
+    "If you are Rhevani, you instead treat yourself as possessing 2 ranks, subject to your normal maximum ranks."
+   ]
+  },
+  "PILGRIM'S WAYSTONE": {
+   "traits": "DIVINITY INSIGHT INVESTED",
+   "lines": [
+    "These palm-sized stones are engraved on one side with a road and on the other with a doorway. A Waystone grows faintly warmer when its bearer travels towards a place where they were once genuinely welcomed.",
+    "You gain a +2-status bonus to Survival checks made to navigate, avoid becoming lost or follow recognised pilgrimage routes. When you first invest the stone, designate one settlement, shrine, sanctuary or other fixed place you have personally visited. While on the same plane, you always know its general direction.",
+    "You also gain the Walk the Road ability:"
+   ],
+   "level": 7,
+   "price": 3000,
+   "usage": "worn or carried",
+   "weight": "1 lb"
+  },
+  "WALK THE ROAD": {
+   "traits": "",
+   "lines": [
+    "Activate Command (1 AP)",
+    "Frequency 1/day",
+    "You gain the effects of Long Stride. The Waystone does not reveal a safe route or distance to the designated location."
+   ]
+  },
+  "RELIQUARY OF THE FIRST INSCRIPTION": {
+   "traits": "DIVINITY INSIGHT INVESTED",
+   "lines": [
+    "The crystal-sided box is normally empty. Sacred symbols reflected in its surfaces briefly acquire additional strokes, as though an invisible annotator is correcting them.",
+    "You gain a +2-status bonus to Religion and Linguistics checks made to identify, translate or interpret prayers, sacred symbols, religious doctrine and ritual formulae."
+   ],
+   "level": 8,
+   "price": 5000,
+   "usage": "worn",
+   "weight": "1 lb"
+  },
+  "SHROUD OF BORROWED WARMTH": {
+   "traits": "ALTERATION INVESTED SHADOW UNLIVING",
+   "lines": [
+    "Requirement You possess the Unliving trait",
+    "The cloth is cold when removed but once wrapped around an Unliving bearer it develops the warmth, tiny movements and imperfections expected of mortal flesh.",
+    "While invested, your body feels warm to the touch; you appear to breathe; if your form is capable of having a pulse, one can be detected; and ordinary signs of death such as corpse pallor, grave chill or obvious smell are concealed.",
+    "You gain a +2-status bonus to Deception checks made specifically to conceal that you are Unliving. The shroud cannot conceal obviously impossible anatomy, such as a Skeleton having no flesh, nor can it fool magical detection capable of identifying the Unliving trait."
+   ],
+   "level": 6,
+   "price": 2400,
+   "usage": "worn cloak or funerary shroud",
+   "weight": "2 lbs"
+  },
+  "SPIRIT-SPEAKER'S MASK": {
+   "traits": "INVESTED SHAMAN SPIRIT",
+   "lines": [
+    "The mask is deliberately expressionless. Its mouth is closed, because according to its makers the important part of speaking with spirits is learning when not to speak.",
+    "You gain a +2-status bonus to Diplomacy, Nature or Occultism checks made specifically to communicate or negotiate with spirits. Only one of these skills applies to any individual check."
+   ],
+   "level": 9,
+   "price": 6000,
+   "usage": "worn mask",
+   "weight": "1 lb"
+  },
+  "STOLE OF DIVINE INSIGHT": {
+   "traits": "ALTERATION INVESTED",
+   "lines": [
+    "This long ceremonial stole is woven from soft ivory cloth threaded with gold and marked at either end with symbols representing contemplation, revelation and the watchful eyes of the divine. Although commonly worn by priests, seers and wandering holy folk, no particular faith claims its design. When invested, the cloth settles lightly upon the shoulders and the wearer's awareness seems to extend beyond the immediate senses. Small changes in tone become significant, instinct warns of unseen danger and moments of quiet contemplation reveal truths that reason alone might overlook.",
+    "When you invest the stole, you gain a status bonus to your Wisdom ability score based upon the items level.",
+    "After wearing the stole (invested) for 24 hours, it becomes difficult to remove it. If you remove the stole, you gain a status penalty to your Wisdom ability score for the next 24 hours equal to the item’s bonus. This penalty cannot be removed by any means short of a PP 20+ spell."
+   ],
+   "usage": "worn",
+   "weight": "1 lb"
+  },
+  "STOLE OF DIVINE INSIGHT I": {
+   "traits": "",
+   "lines": [
+    "The status bonus is +1."
+   ],
+   "level": 5,
+   "price": 1250
+  },
+  "STOLE OF DIVINE INSIGHT II": {
+   "traits": "",
+   "lines": [
+    "The status bonus is +2."
+   ],
+   "level": 9,
+   "price": 6000
+  },
+  "STOLE OF DIVINE INSIGHT III": {
+   "traits": "",
+   "lines": [
+    "The status bonus is +3."
+   ],
+   "level": 13,
+   "price": 24000
+  },
+  "STOLE OF DIVINE INSIGHT IV": {
+   "traits": "",
+   "lines": [
+    "The status bonus is +4."
+   ],
+   "level": 17,
+   "price": 120000
+  },
+  "THREAD OF THE RETURNING SOUL": {
+   "traits": "DIVINITY INVESTED SOUL WARDING",
+   "lines": [
+    "The red thread appears fragile enough to break with a fingernail. Nobody has ever successfully cut one while its wearer was dying.",
+    "Activate R; Trigger You die",
+    "Frequency 1/day",
+    "The thread immediately casts Anchor the Departing Soul upon you with a duration of 24 hours."
+   ],
+   "level": 12,
+   "price": 10000,
+   "usage": "worn around the wrist or neck",
+   "weight": "-"
+  },
+  "WREATH OF LIVING SPORES": {
+   "traits": "INVESTED PLANT VERDANT WARDING",
+   "lines": [
+    "Soft moss, pale mushrooms and tiny flowering growths live permanently upon this woven circlet. Attempts to remove them simply cause another species to emerge the following morning.",
+    "You gain a +2-status bonus to saving throws against Disease, Poison and harmful fungal or spore effects."
+   ],
+   "level": 6,
+   "price": 2000,
+   "usage": "worn around head or shoulders",
+   "weight": "-"
+  }
+ },
+ "relics": {
+  "LANTERN OF THE LAST ROAD": {
+   "traits": "INVESTED RARE SOUL WARDING",
+   "lines": [
+    "Eshari tradition insists that this lantern has never been extinguished. Sceptics point out that nobody agrees which of several surviving lanterns is actually the original.",
+    "The lantern illuminates a 30-foot radius. While carrying it, you gain Spirit Sense 60 feet and may perceive spirits detected by that sense sufficiently clearly to target them. You possess Resistance to essence damage.",
+    "Willing allies within the lantern's light gain a +2-status bonus to saving throws against possession and effects with the Soul trait.",
+    "You also gain the Open the Last Road and Close the Gate abilities:"
+   ],
+   "level": 17,
+   "price": 120000,
+   "usage": "held in 1 hand",
+   "weight": "4 lbs"
+  },
+  "OPEN THE LAST ROAD": {
+   "traits": "",
+   "lines": [
+    "Activate 3 AP",
+    "Frequency 1/day",
+    "Duration 10 minutes",
+    "For the duration, willing disembodied spirits within 60 feet may manifest sufficiently to be seen and heard by everyone present. A spirit may end its own manifestation at any time. During the effect, hostile possession attempts originating within the area suffer a -2-status penalty to the relevant check or save DC."
+   ]
+  },
+  "CLOSE THE GATE": {
+   "traits": "",
+   "lines": [
+    "Activate 2 AP",
+    "You may automatically remove a possessing spirit from target. The spirit is banished and may not possess that target again."
+   ]
+  },
+  "TABLET OF THE FIRST TESTAMENT": {
+   "traits": "DIVINITY INSIGHT INVESTED RARE",
+   "lines": [
+    "Rarity Unique",
+    "The black stone tablet appears completely blank until touched. Writing then emerges across its surface in the reader's own script, although no two readers report seeing precisely the same words.",
+    "You can read and understand any written sacred or liturgical language, although this does not automatically decipher mundane codes, magical ciphers or deliberately meaningless text. You gain a +4-status bonus to Religion and Linguistics checks concerning doctrine, sacred writing, prophecy or religious symbolism."
+   ],
+   "level": 15,
+   "price": 62500,
+   "usage": "held in 1 or 2 hands",
+   "weight": "6 lbs"
+  }
+ },
+ "charged": {
+  "ROD OF INTERCESSION": {
+   "traits": "INVESTED ROD SOUL WARDING",
+   "lines": [
+    "Six silver bands encircle this dark wooden rod. Each is engraved with a different traditional symbol for the mortal soul.",
+    "Activate You attempt a Counteract check against possession, a Soul-trait effect or an effect forcibly binding, controlling or displacing a soul.",
+    "Action Free",
+    "Expend 2 PP from the rod to gain a +2-item bonus to the triggering Counteract check.",
+    "The rod also briefly vibrates when within 5 feet of a possessed creature."
+   ],
+   "level": 8,
+   "price": 2500,
+   "usage": "held in 1 hand",
+   "weight": "2 lbs",
+   "pp": 10,
+   "recharge": 1
+  },
+  "ROD OF MERCIFUL CHANNELING": {
+   "traits": "HEALING INVESTED ROD SOUL",
+   "lines": [
+    "The ivory shaft divides near its head into two carved hands, one supporting the other.",
+    "Activate You cast a spell with the Healing trait that restores HP.",
+    "Action Free",
+    "Expend 1 PP from the rod. After resolving the spell normally, select one creature that regained HP from it. That creature regains an additional 1d8 HP.",
+    "A creature may receive this additional healing only once from a single spell regardless of other abilities affecting it."
+   ],
+   "level": 8,
+   "price": 2500,
+   "usage": "held in 1 hand",
+   "weight": "2 lbs",
+   "pp": 10,
+   "recharge": 1
+  },
+  "ROD OF SCHOLARLY RECALL": {
+   "traits": "INSIGHT INVESTED ROD",
+   "lines": [
+    "Tiny rotating rings around the head contain abbreviated symbols for dozens of scholarly disciplines.",
+    "Activate You attempt Recall Knowledge, Identify Power, Analyse Scripture, Recognise Doctrine or Trace Religious Provenance",
+    "Action Free",
+    "Expend 2 PP from the rod to gain Advantage on the triggering check."
+   ],
+   "level": 7,
+   "price": 1800,
+   "usage": "held in 1 hand",
+   "weight": "2 lbs",
+   "pp": 10,
+   "recharge": 1
+  },
+  "STAFF OF QUIET GRAVES": {
+   "traits": "DIVINITY INVESTED SOUL STAFF WARDING",
+   "lines": [
+    "Black iron bands divide this ash-grey staff into seven sections. Burial prayers are carved upside-down into each band so that they can be read correctly when the staff is planted beside a grave.",
+    "Activate Cast a Spell; Effect You expend the required PP to cast a spell from its list.",
+    "Craft Requirements Supply one casting of all listed spells at the indicated PP cost"
+   ],
+   "level": 13,
+   "price": 20000,
+   "usage": "held in 1 hand",
+   "weight": "4 lbs",
+   "spells": "Hallowed Rest (2), Veil Sight (4), Exorcise (8), Threshold Ward (10)",
+   "pp": 26,
+   "recharge": 3
+  },
+  "STAFF OF RETURNING MEMORY": {
+   "traits": "DIVINITY INSIGHT INVESTED SOUL STAFF WARDING",
+   "lines": [
+    "Every previous bearer has carved a name somewhere upon the wood. New owners often find names they are certain they recognise but cannot explain why.",
+    "You gain a +2-item bonus to saving throws against magical effects that alter, suppress, erase or replace memory.",
+    "Activate Cast a Spell; Effect You expend the required PP to cast a spell from its list.",
+    "Craft Requirements Supply one casting of all listed spells at the indicated PP cost"
+   ],
+   "level": 15,
+   "price": 47000,
+   "usage": "held in 1 hand",
+   "weight": "4 lbs",
+   "spells": "Hallowed Rest (2), Litany of Remembrance (6), Restore Memory (12)",
+   "pp": 30,
+   "recharge": 3
+  },
+  "STAFF OF SACRED CONCORDANCE": {
+   "traits": "DIVINITY INSIGHT INVESTED STAFF",
+   "lines": [
+    "Thin strips of parchment have somehow grown into the polished wood of this staff. The writing upon them changes whenever the bearer encounters an unfamiliar doctrine.",
+    "While wielding the staff, you gain a +1-item bonus to Analyse Scripture, Compare Testaments and Recognise Doctrine.",
+    "Activate Cast a Spell; Effect You expend the required PP to cast a spell from its list.",
+    "Craft Requirements Supply one casting of all listed spells at the indicated PP cost"
+   ],
+   "level": 10,
+   "price": 6500,
+   "usage": "held in 1 hand",
+   "weight": "4 lbs",
+   "spells": "Hallowed Rest (2), Oathseal (2), Veil Sight (4), Litany of Remembrance (6)",
+   "pp": 20,
+   "recharge": 2
+  },
+  "STAFF OF SPIRIT ROADS": {
+   "traits": "INVESTED SPIRIT STAFF VERDANT",
+   "lines": [
+    "Roots coil naturally around the shaft of this living staff. Small patches of fungus appear, fruit and disappear according to the terrain through which the bearer travels.",
+    "While wielding the staff, you gain a +1-item bonus to Nature checks involving spirits, fungi or natural spiritual phenomena.",
+    "Activate Cast a Spell; Effect You expend the required PP to cast a spell from its list.",
+    "Craft Requirements Supply one casting of all listed spells at the indicated PP cost"
+   ],
+   "level": 13,
+   "price": 20450,
+   "usage": "held in 1 hand",
+   "weight": "4 lbs",
+   "spells": "Fungal Ward (2), Memory of Stone (4), Mycelial Message (4), Breath of the Land (6), Rooted Soul (10)",
+   "pp": 26,
+   "recharge": 3
+  },
+  "STAFF OF THE HOSPICE": {
+   "traits": "HEALING INVESTED SOUL STAFF",
+   "lines": [
+    "This white ash staff is capped with a small silver lamp. The lamp has no flame, but glows softly whenever somebody nearby is seriously wounded.",
+    "Activate Cast a Spell; Effect You expend the required PP to cast a spell from its list.",
+    "Craft Requirements Supply one casting of all listed spells at the indicated PP cost"
+   ],
+   "level": 10,
+   "price": 6500,
+   "usage": "held in 1 hand",
+   "weight": "4 lbs",
+   "spells": "Cure (2), Restoration (2), Share Burden (4), Soul Sanctuary (8)",
+   "pp": 20,
+   "recharge": 2
+  }
+ },
+ "consumables": {
+  "ASHES OF FINAL PASSAGE": {
+   "traits": "CONSUMABLE DIVINITY SOUL WARDING",
+   "lines": [
+    "The grey-white ash is traditionally collected from the cremation fires of people whose funerary rites were completed without dispute.",
+    "Activate 1 minute",
+    "Scatter the ashes over a corpse while speaking the deceased's name, if known. For 24 hours, any magical effect attempting to possess the corpse, animate it as Undead or bind the deceased creature's soul to its remains must first successfully Counteract the ashes. Use item level 3 for the Counteract level.",
+    "The ashes do not prevent resurrection, reincarnation or communication with a willing dead creature."
+   ],
+   "level": 3,
+   "price": 100,
+   "usage": "applied to one corpse",
+   "weight": "-"
+  },
+  "CANDLE OF THE QUIET VIGIL": {
+   "traits": "CONSUMABLE DIVINITY MENTAL WARDING",
+   "lines": [
+    "The blue wax burns without shortening until the magic is exhausted.",
+    "Activate Interact (2 AP)",
+    "The candle burns for 8 hours, providing dim light within 10 feet. A willing creature that spends at least 1 hour resting within its light gains a +2-status bonus to saving throws against Fear, possession and harmful dream effects until it completes its next Full Rest.",
+    "A creature may benefit from only one Candle of the Quiet Vigil between Full Rests."
+   ],
+   "level": 4,
+   "price": 150,
+   "usage": "placed",
+   "weight": "-"
+  },
+  "CONSECRATED GRAVE SALT": {
+   "traits": "CONSUMABLE DIVINITY SOUL WARDING",
+   "lines": [
+    "The grains are mixed with silver dust and fragments of funerary prayer written on paper thin enough to crumble between the fingers.",
+    "Activate 3 AP",
+    "Scatter a packet across a 10-foot line or around one 5-foot square. The salt remains active for 10 minutes. A disembodied spirit or incorporeal Undead attempting to cross the salt must attempt a Will saving throw against the item's Level DC.",
+    "Corporeal creatures, including Unliving characters, can cross normally. Disturbing or washing away the salt destroys the ward.",
+    "Critical: It crosses normally.",
+    "Success: It crosses but becomes Weakened 1 until the end of its next turn.",
+    "Failure: It cannot cross until the beginning of its next turn.",
+    "Fumble: It cannot voluntarily cross the salt for 1 minute."
+   ],
+   "level": 6,
+   "price": 400,
+   "usage": "scattered upon a surface",
+   "weight": "1 lb"
+  },
+  "EMBALMER'S BLACK RESIN": {
+   "traits": "CONSUMABLE HEALING SOUL UNLIVING",
+   "lines": [
+    "The resin smells of myrrh, iron and cold earth. On contact with dead flesh, it moves into cracks and wounds as though drawn there.",
+    "Activate Interact (1 minute)",
+    "The target must possess the Unliving trait. It regains 3d8 HP.",
+    "If the target is a Skeleton, Zombie, Ghoul or Mummy, it also reduces Bleed by 1d4 if that form is capable of suffering Bleed. The resin has no effect on a living creature or ordinary inanimate corpse."
+   ],
+   "level": 6,
+   "price": 400,
+   "usage": "applied to one Unliving creature",
+   "weight": "1 lb"
+  },
+  "INCENSE OF THE OPEN VEIL": {
+   "traits": "CONSUMABLE INCENSE INSIGHT SOUL",
+   "lines": [
+    "The pale smoke refuses to pass through the space occupied by a spirit, curling around otherwise invisible forms.",
+    "Activate Interact (2 AP)",
+    "The incense burns for 10 minutes and fills a 20-foot radius. Disembodied spirits and incorporeal Undead within the smoke become faintly outlined and can be perceived sufficiently clearly to determine their location.",
+    "The incense does not identify them, reveal allegiance, remove Incorporeal or permit mundane attacks to harm a creature they could not normally affect."
+   ],
+   "level": 5,
+   "price": 250,
+   "usage": "burned in a censer",
+   "weight": "-"
+  },
+  "MEMORY SPORES": {
+   "traits": "CONSUMABLE INSIGHT MYRATHI PLANT",
+   "lines": [
+    "The sealed glass bulb contains a single silver fungal puff which dissolves the moment it reaches the lungs.",
+    "Activate Interact (1 AP)",
+    "For the next 10 minutes, you may activate the spores once before attempting Recall Knowledge. You gain Advantage on the check.",
+    "If you have no ranks in the skill being used, treat yourself as possessing 1 rank for that check only. After that check, the effect ends. Memory Spores do not allow a character to know something that could never reasonably be discovered through Recall Knowledge."
+   ],
+   "level": 5,
+   "price": 250,
+   "usage": "inhaled",
+   "weight": "-"
+  },
+  "OATH-WAX SEAL": {
+   "traits": "CONSUMABLE DIVINITY WARDING",
+   "lines": [
+    "The crimson wax accepts only one impression. Once hardened, the image cannot be removed intact.",
+    "Activate 1 minute",
+    "When applied, designate up to six creatures. For 1-week, designated creatures immediately know if the seal is broken.",
+    "When broken, the wax leaves a faint glowing mark upon the creature or object responsible for breaking it. The mark lasts 1 hour and can be seen through ordinary clothing. The seal does not prevent access and provides no information about the breaker beyond the visible mark."
+   ],
+   "level": 3,
+   "price": 100,
+   "usage": "applied to a closed object, letter or document",
+   "weight": "-"
+  },
+  "PILGRIM'S WAYBREAD": {
+   "traits": "CONSUMABLE DIVINITY HEALING",
+   "lines": [
+    "The dense bread never tastes particularly good, but everyone who eats it remembers the meal as warmer than it actually was.",
+    "Activate 10 minutes",
+    "After eating the bread, you gain the nourishment of a full meal and sufficient water for one day. For 8 hours, you gain a +2-status bonus to checks and saving throws against Exhaustion caused by travel, forced marching, hunger, thirst or ordinary environmental hardship.",
+    "It provides no benefit against magically inflicted Fatigued or Exhaustion unless that effect specifically represents physical deprivation."
+   ],
+   "level": 3,
+   "price": 100,
+   "usage": "eaten",
+   "weight": "1 lb"
+  },
+  "SOULGUARD TALISMAN": {
+   "traits": "CONSUMABLE SOUL WARDING",
+   "lines": [
+    "The small clay tablet is deliberately made fragile. A soul that needs protecting is considered more valuable than the object protecting it.",
+    "Activate Reaction",
+    "Trigger You fail a saving throw against possession, Soul Drain or an effect with the Soul trait",
+    "Break the talisman. You reroll the triggering saving throw and must use the second result. The talisman is destroyed regardless of the new result."
+   ],
+   "level": 7,
+   "price": 600,
+   "usage": "worn",
+   "weight": "-"
+  },
+  "SPIRIT OFFERING TOKEN": {
+   "traits": "CONSUMABLE SPIRIT",
+   "lines": [
+    "Tokens vary tremendously: carved food, tiny musical instruments, miniature houses, flowers of precious metal and abstract representations of warmth, memory or companionship.",
+    "Activate Interact (1 AP)",
+    "Choose one spirit with sufficient awareness to communicate within 30 feet. For 10 minutes, you gain a +2-status bonus to Diplomacy checks made to Make an Impression, Request or negotiate with that spirit.",
+    "If the spirit is willing but normally unable to manifest visibly or audibly, it may do so sufficiently to communicate for the duration. The token cannot summon a spirit that is not present, compel negotiation or force a spirit to answer questions."
+   ],
+   "level": 4,
+   "price": 150,
+   "usage": "held in 1 hand",
+   "weight": "-"
+  },
+  "THREAD OF CONTINUITY": {
+   "traits": "CONSUMABLE SOUL WARDING",
+   "lines": [
+    "The red thread must be tied by another person. Traditionally that person speaks the wearer's full name while making the knot.",
+    "Activate 1 minute",
+    "The thread remains active for 24 hours. The first time during that period you would be affected by magic that erases, replaces or suppresses your memories or personal identity, the thread activates.",
+    "You gain Advantage on the associated saving throw. If the effect does not normally allow a saving throw, it must instead Counteract the thread before affecting you. The thread burns away when activated."
+   ],
+   "level": 8,
+   "price": 900,
+   "usage": "tied around the wrist or neck",
+   "weight": "-"
+  },
+  "VIAL OF SANCTIFIED DEW": {
+   "traits": "CONSUMABLE DIVINITY HEALING SOUL",
+   "lines": [
+    "The liquid is gathered before dawn from a place where somebody was once healed without payment or obligation.",
+    "Activate Interact (2 AP)",
+    "Drink the vial or administer it to an adjacent willing or helpless creature. Choose one: reduce Soul Drain by 5; reduce Dazed by 1; reduce Weakened by 1; or grant a +4-status bonus to the next saving throw against possession attempted within 1 hour.",
+    "The same creature cannot benefit from another Vial of Sanctified Dew until after a Full Rest."
+   ],
+   "level": 8,
+   "price": 900,
+   "usage": "held in 1 hand",
+   "weight": "-"
+  }
+ }
+}

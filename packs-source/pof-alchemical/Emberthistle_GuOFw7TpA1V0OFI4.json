@@ -1,0 +1,97 @@
+{
+  "_id": "GuOFw7TpA1V0OFI4",
+  "name": "Emberthistle",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: temperate or warm dry plains.\n\nEmberthistle is a russet weed crowned by a barbed seedhead that glows like a banked coal after sunset. The plant thrives where grassfires have passed, pushing new growth through warm ash within days. Crushing the prepared seedhead produces a glowing paste that spellcasters smear across the fingers or lips. The next time you deal fire damage within 1 minute, increase one damage roll by 1d4. The dose is then expended.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Emberthistle",
+          "duration": "1 minute",
+          "effects": [
+            {
+              "kind": "declare",
+              "target": "self",
+              "label": "Emberthistle",
+              "flags": {
+                "nextSpellDamage": {
+                  "label": "Emberthistle",
+                  "damageTypes": [
+                    "fire"
+                  ],
+                  "dice": "1d4"
+                },
+                "strikeRider": {
+                  "label": "Emberthistle",
+                  "dice": "1d4",
+                  "damageType": "fire",
+                  "whenDamageTypes": [
+                    "fire"
+                  ],
+                  "once": true,
+                  "spendOnHit": true
+                }
+              },
+              "text": "the next time you deal fire damage within 1 minute — a fire spell or a Strike that deals fire — that damage roll gains +1d4; the dose is then spent"
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: temperate or warm dry plains.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 2,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 50,
+        "tablePrice": 50,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GuOFw7TpA1V0OFI4"
+}

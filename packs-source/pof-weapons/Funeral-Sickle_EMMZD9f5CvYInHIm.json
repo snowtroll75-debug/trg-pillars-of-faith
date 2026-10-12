@@ -1,0 +1,56 @@
+{
+  "_id": "EMMZD9f5CvYInHIm",
+  "name": "Funeral Sickle",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 2,
+    "price": 12,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Agile, Finesse, Trip, Versatile P",
+    "attackBonus": 0,
+    "damage": "1d4",
+    "damageType": "slashing",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 16,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Knife",
+    "category": "Simple",
+    "size": "small",
+    "itemLevel": 0,
+    "description": "Originally intended for cutting shrouds, grave flowers and ritual cords, this compact sickle has developed into a favoured defensive weapon of funeral attendants.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!EMMZD9f5CvYInHIm"
+}

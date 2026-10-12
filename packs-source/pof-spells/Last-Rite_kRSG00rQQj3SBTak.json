@@ -1,0 +1,88 @@
+{
+  "_id": "kRSG00rQQj3SBTak",
+  "name": "Last Rite",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": "1 minute",
+    "range": "Touch",
+    "area": "",
+    "targets": "1 corpse",
+    "duration": "24 hours",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Any effect that would possess the corpse, animate it as Undead or bind its soul to the remains must first Counteract Last Rite. Resurrection, reincarnation, willing communion, examination and preservation are unaffected."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 7 days",
+        "mods": {
+          "durationText": "7 days"
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the duration to 1 month",
+        "mods": {
+          "durationText": "1 month"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Archivist",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Soul, Warding",
+    "description": "ARCHIVIST SOUL UTILITY WARDING\nArchivist Specialist Spell\nCast 1 minute (material, verbal)\nRange Touch\nTargets 1 corpse\nDuration 24 hours\n\nYou perform a concise but magically binding funerary rite intended to protect the dead from interference.\nAny magical effect attempting to possess the corpse, animate it as an Undead creature or bind the deceased creature's soul to its remains must first successfully Counteract Last Rite.\nThe spell does not prevent resurrection, reincarnation, communication with the willing dead or magic that merely examines or preserves the corpse.\n\nWarping Options:\n+2 PP: Increase the duration to 7 days.\n+4 PP: Increase the duration to 1 month.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kRSG00rQQj3SBTak"
+}

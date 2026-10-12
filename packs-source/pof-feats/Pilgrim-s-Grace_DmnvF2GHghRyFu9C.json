@@ -1,0 +1,77 @@
+{
+  "_id": "DmnvF2GHghRyFu9C",
+  "name": "Pilgrim's Grace",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Culture 1 rank",
+    "active": true,
+    "description": "<p>Years of entering unfamiliar shrines taught you that respect travels farther than certainty.</p>\n<p>Prerequisites Culture 1 rank</p>\n<p>When you achieve at least a Success using Observe Sacred Custom, the circumstance bonus granted by that action applies to all appropriate Diplomacy checks involving that religious community for 1 hour rather than only the next check.</p>\n<p>Furthermore, after successfully Observing Sacred Custom, you may use Culture instead of Diplomacy to Make an Impression upon a member of that tradition.</p>\n<p>Make an Impression is offered from your Culture skill. The lasting bonus is a rule for the table: Observe Sacred Custom queues its bonus for one check as printed, and with this feat you keep applying it to Diplomacy against that community for the hour.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "INzrasTjmlud9h6B",
+      "name": "Pilgrim's Grace: lasting custom",
+      "img": "icons/svg/book.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featNote": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "After a Success on Observe Sacred Custom, its circumstance bonus applies to all appropriate Diplomacy checks with that religious community for 1 hour, not only the next check.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!DmnvF2GHghRyFu9C.INzrasTjmlud9h6B"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DmnvF2GHghRyFu9C"
+}

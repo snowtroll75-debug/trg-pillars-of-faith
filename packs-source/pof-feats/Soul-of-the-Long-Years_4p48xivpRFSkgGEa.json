@@ -1,0 +1,103 @@
+{
+  "_id": "4p48xivpRFSkgGEa",
+  "name": "Soul of the Long Years",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5",
+    "active": true,
+    "description": "<p>ELF</p>\n<p>An immortal life gives the soul time to become exceptionally certain of the shape it is meant to hold.<br>You gain a +1-racial bonus to saving throws against possession, Soul Drain and effects with the Soul trait.<br>If you are at least 100 years old, you also gain a +2-racial bonus to Recall Knowledge checks concerning religious, spiritual or historical events that occurred during your lifetime, provided you could reasonably have encountered accounts of those events.</p>\n<p>Prerequisites Level 5</p>\n<p>Works automatically: +1 racial to saves is pre-ticked against Soul-trait and possession effects and offered against Soul Drain; the +2 to Recall Knowledge about your own lifetime is offered.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Elf",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Soul of the Long Years",
+          "scope": "Saving throws against possession, Soul Drain and Soul-trait effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "soul",
+              "possession"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        },
+        {
+          "kind": "modifier",
+          "label": "Soul of the Long Years",
+          "scope": "Saving throws against possession, Soul Drain and Soul-trait effects",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          "value": 1,
+          "type": "race"
+        },
+        {
+          "kind": "modifier",
+          "label": "Soul of the Long Years",
+          "scope": "Recall Knowledge concerning religious, spiritual or historical events during your own lifetime (100 years or older)",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "recallKnowledge"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4p48xivpRFSkgGEa"
+}

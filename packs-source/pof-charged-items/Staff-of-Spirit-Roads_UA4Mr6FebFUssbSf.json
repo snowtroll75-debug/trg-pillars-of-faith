@@ -1,0 +1,103 @@
+{
+  "_id": "UA4Mr6FebFUssbSf",
+  "name": "Staff of Spirit Roads",
+  "img": "icons/svg/oak.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 4,
+    "price": 20450,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Invested, Spirit, Staff, Verdant",
+    "description": "Usage held in 1 hand; Weight 4 lbs. Power Points 26; Recharge 3 per day.\n\nRoots coil naturally around the shaft of this living staff. Small patches of fungus appear, fruit and disappear according to the terrain through which the bearer travels.\n\nWhile wielding the staff, you gain a +1-item bonus to Nature checks involving spirits, fungi or natural spiritual phenomena.\n\nActivate Cast a Spell; Effect You expend the required PP to cast a spell from its list.\n\nCraft Requirements Supply one casting of all listed spells at the indicated PP cost\n\nSpells: Fungal Ward (2 PP), Memory of Stone (4 PP), Mycelial Message (4 PP), Breath of the Land (6 PP), Rooted Soul (10 PP).\n\nOn the sheet: a staff: its five spells are cast from the item's PP; +1 item is offered on Nature about spirits and fungi while it is held.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 26,
+    "itemSize": "medium",
+    "itemLevel": 13,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "chargedItem": {
+        "kind": "staff",
+        "maximumPP": 26,
+        "flexible": false,
+        "recharge": 3,
+        "printedRecharge": 3,
+        "printedPowerPoints": 26,
+        "correctedFromPrinted": false,
+        "spells": [
+          {
+            "name": "Fungal Ward",
+            "pp": 2
+          },
+          {
+            "name": "Memory of Stone",
+            "pp": 4
+          },
+          {
+            "name": "Mycelial Message",
+            "pp": 4
+          },
+          {
+            "name": "Breath of the Land",
+            "pp": 6
+          },
+          {
+            "name": "Rooted Soul",
+            "pp": 10
+          }
+        ],
+        "weaponForm": {
+          "base": "Staff",
+          "quality": "standard",
+          "material": "",
+          "runes": ""
+        }
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Staff of Spirit Roads",
+          "scope": "Nature checks involving spirits, fungi or natural spiritual phenomena",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "nature"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UA4Mr6FebFUssbSf"
+}

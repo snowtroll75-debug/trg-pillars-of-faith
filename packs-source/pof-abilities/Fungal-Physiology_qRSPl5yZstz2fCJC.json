@@ -1,0 +1,80 @@
+{
+  "_id": "qRSPl5yZstz2fCJC",
+  "name": "Fungal Physiology",
+  "img": "icons/svg/aura.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>You gain a +2 racial bonus to saving throws against disease and poison.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "traits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Fungal Physiology",
+          "scope": "Saving throws against disease and poison",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "disease",
+              "poison"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        },
+        {
+          "kind": "modifier",
+          "label": "Fungal Physiology",
+          "scope": "Saving throws against a disease or poison that carries neither trait — tick if this roll is one",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "disease",
+                "poison"
+              ]
+            }
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!qRSPl5yZstz2fCJC"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "5lvaLvvI9Z0ff6oo",
+  "name": "Anchored Soul",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 3000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Invested, Soul, Warding",
+    "description": "The rune resembles a knot tied around a small central circle. When hostile spiritual power presses against its wearer, the knot appears to tighten.\n\nYou gain a +2-item bonus to saving throws against possession and effects that forcibly remove, control or displace your soul.\n\nWhenever you successfully resist a possession attempt, you are aware that something attempted to enter or control you, even if the effect would normally conceal its presence.\n\nInscribed onto armour.\n\nOn the sheet: Applied automatically: the +2 is pre-ticked on a save against a Soul or possession effect, offered otherwise. The awareness clause is a card line when a save against possession succeeds.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 7,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "anchoredSoul",
+        "tier": 1,
+        "on": [
+          "armour"
+        ],
+        "automation": "conditional"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!5lvaLvvI9Z0ff6oo"
+}

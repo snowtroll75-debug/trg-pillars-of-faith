@@ -1,0 +1,62 @@
+{
+  "_id": "lfDG4w1YykHvm3IC",
+  "name": "Spell-Wise Defence",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Spellcraft 5 ranks, Spell Recognition",
+    "active": true,
+    "description": "<p>ADEPT</p>\n<p>Knowing exactly what is being cast gives you an instant to prepare the right defence.<br>When you successfully identify a spell or magical effect before attempting a saving throw against it, you gain advantage on the saving throw.<br>This is in addition to any bonus already received from Spell Recognition.</p>\n<p>Prerequisites Spellcraft 5 ranks, Spell Recognition</p>\n<p>Works automatically: advantage is offered on saves with the book's wording — tick when you identified the spell first.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "advantage",
+          "label": "Spell-Wise Defence",
+          "scope": "A saving throw against a spell or magical effect you successfully identified before attempting it",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ]
+          }
+        }
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lfDG4w1YykHvm3IC"
+}

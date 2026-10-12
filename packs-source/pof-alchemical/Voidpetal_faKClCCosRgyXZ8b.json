@@ -1,0 +1,97 @@
+{
+  "_id": "faKClCCosRgyXZ8b",
+  "name": "Voidpetal",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 85,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: planar scars and regions touched by shadow.\n\nVoidpetal has a colourless stem and a blossom so dark that its surface seems hollow. Its petals fold away from every source of light, even turning beneath one another to escape a lantern's glow. Ground with powdered pearl, the flower produces an ink-black draught that leaves the drinker's pupils ringed in grey. For 10 minutes, you gain a +2-item bonus to saving throws against Darkness and Illusion effects.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Voidpetal",
+          "duration": "10 minutes",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Voidpetal",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "item",
+                  "label": "Voidpetal",
+                  "scope": "Saving throws against Darkness and Illusion effects",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "traits": [
+                      "darkness",
+                      "illusion"
+                    ]
+                  },
+                  "auto": true,
+                  "oneShot": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: planar scars and regions touched by shadow.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 3,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 85,
+        "tablePrice": 85,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!faKClCCosRgyXZ8b"
+}

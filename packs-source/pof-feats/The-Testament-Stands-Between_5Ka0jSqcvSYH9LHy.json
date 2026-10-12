@@ -1,0 +1,49 @@
+{
+  "_id": "5Ka0jSqcvSYH9LHy",
+  "name": "The Testament Stands Between",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Tharos heritage, Interlocking Script, Level 10",
+    "active": true,
+    "description": "<p>DIVINITY KETHRANI WARDING</p>\n<p>The protective passages spread across your arms and chest whenever another creature is threatened.<br>When you use Warding Word upon an ally, that ally also gains Resistance to the triggering.</p>\n<p>Prerequisites Tharos heritage, Interlocking Script, Level 10</p>\n<p>Works automatically: Warding Word's Use also puts Resistance on the ally for the round. The book's sentence ends \"Resistance to the triggering\" — the damage type of the triggering attack is assumed; flagged for Graham.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Divinity, Warding",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!5Ka0jSqcvSYH9LHy"
+}

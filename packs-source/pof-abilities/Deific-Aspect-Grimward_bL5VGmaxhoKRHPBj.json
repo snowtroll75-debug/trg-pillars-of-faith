@@ -1,0 +1,49 @@
+{
+  "_id": "bL5VGmaxhoKRHPBj",
+  "name": "Deific Aspect (Grimward)",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>As a Grimward, you must select a Divine Aspect representing the religious authority, sacred principle or theological tradition from which your mandate originates. Your Divine Aspect grants you the following benefits, as appropriate to the aspect selected:<br>• Edicts: a selection of edicts that must be followed.<br>• Anathema: actions or behaviours that violate your sacred responsibilities.<br>• Suggested Ethics: select one appropriate ethic for your character.<br>• Deific Skill: you gain the associated skill as a class skill.<br>• Specialist Spell: at 1st level, you gain one appropriate PP 1 Specialist Spell granted by your Divine Aspect.<br>• Bonus Spells: the bonus spells granted by your Divine Aspect are added to your Grimward repertoire and are always available once you meet their normal casting requirements.<br>• Favoured Weapon: you gain proficiency with your Divine Aspect's favoured weapon if you do not already possess it, and a +1-class bonus to attacks made with that weapon.</p>\n<p>Pick your Divine Aspect from the sheet's Divine Aspect slot: it grants its deific skill, its bonus spells (added to your repertoire as you meet their level), one PP 1 specialist spell of its list, and its favoured weapon — proficiency and the +1 class attack bonus.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!bL5VGmaxhoKRHPBj"
+}

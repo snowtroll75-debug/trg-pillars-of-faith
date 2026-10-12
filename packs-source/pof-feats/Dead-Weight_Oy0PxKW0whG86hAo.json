@@ -1,0 +1,92 @@
+{
+  "_id": "Oy0PxKW0whG86hAo",
+  "name": "Dead Weight",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 6",
+    "active": true,
+    "description": "<p>UNLIVING-ZOMBIE</p>\n<p>Prerequisites Level 6</p>\n<p>Your body hangs with grave-heavy inertia, making you difficult to move once you plant yourself.</p>\n<p>Your corpse-body is difficult to shift. You gain a +2 racial bonus to checks and DCs against Shove, Trip, forced movement, and attempts to move you while grabbed or restrained.</p>\n<p>Works automatically: +2 racial to the Fortitude DC (and, for Trip, the Acrobatics DC) Shove, Trip and Reposition are rolled against. A save against forced movement offers +2 racial.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Zombie",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "defenceDC": [
+        {
+          "dc": "fortitudeDC",
+          "value": 2,
+          "label": "Dead Weight",
+          "scope": "Against Shove, Trip and attempts to move you",
+          "when": {
+            "actions": [
+              "shoveAttack",
+              "tripAttack",
+              "reposition"
+            ]
+          }
+        },
+        {
+          "dc": "skillDC:acrobatics",
+          "value": 2,
+          "label": "Dead Weight",
+          "scope": "Against Trip",
+          "when": {
+            "actions": [
+              "tripAttack"
+            ]
+          }
+        }
+      ],
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Dead Weight",
+          "scope": "Checks against forced movement, or being moved while grabbed or restrained",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save",
+              "skill"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "unliving",
+      "unlivingGroup": "zombie"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Oy0PxKW0whG86hAo"
+}

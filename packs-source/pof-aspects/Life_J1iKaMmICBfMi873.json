@@ -1,0 +1,50 @@
+{
+  "_id": "J1iKaMmICBfMi873",
+  "name": "Life",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Life venerates vitality itself: birth, health, growth and the stubborn refusal of living things to surrender. Where Mercy concerns compassion and the relief of suffering, Life is concerned more fundamentally with the preservation and flourishing of living beings. Common symbols include a green shoot emerging from cracked stone, a newborn held within an adult palm, a heart encircled by leaves and a spring overflowing its basin.\n\nEdicts: Preserve life where reasonably possible. Heal injury and disease. Protect those giving or sustaining new life. Encourage healthy growth. Oppose needless killing and destruction.\n\nAnathema: Kill solely for amusement or convenience. Deliberately spread disease among the innocent. Destroy healthy life without purpose. Withhold readily available lifesaving aid solely through indifference. Deliberately render a healthy creature barren without just cause.\n\nSuggested Ethics: Altruism, Benevolence, Harmony\n\nClass Skill: Nature\n\nSpecialist Spells: Banish Fatigue (1), Delayed Respite (1), Soothing Words (1), Wash Away Sin (1), Death's Defiance (7), Reincarnated Embrace (7), Renewal's Touch (7), Unity (7)\n\nBonus Spells: Cure (2); Restoration (2); Remove Disease (6); Resurrection (12)\n\nFavoured Weapon: Club\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Good",
+    "edicts": "Preserve life where reasonably possible. Heal injury and disease. Protect those giving or sustaining new life. Encourage healthy growth. Oppose needless killing and destruction.",
+    "anathema": "Kill solely for amusement or convenience. Deliberately spread disease among the innocent. Destroy healthy life without purpose. Withhold readily available lifesaving aid solely through indifference. Deliberately render a healthy creature barren without just cause.",
+    "suggestedEthics": "Altruism, Benevolence, Harmony",
+    "classSkill": "Nature",
+    "favouredWeapon": "Club",
+    "specialistSpells": "Banish Fatigue, Delayed Respite, Soothing Words, Wash Away Sin, Death's Defiance, Reincarnated Embrace, Renewal's Touch, Unity",
+    "bonusSpells": "2: Cure, 2: Restoration, 6: Remove Disease, 12: Resurrection"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Altruism",
+        "Benevolence",
+        "Harmony"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!J1iKaMmICBfMi873"
+}

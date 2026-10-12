@@ -1,0 +1,49 @@
+{
+  "_id": "FoOIUnbF8L0JRfpP",
+  "name": "Rejuvenating Surge",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 4 ranks",
+    "active": true,
+    "description": "<p>HEALER</p>\n<p>Your magic surges through your allies, restoring not just their health, but their energy and stamina as well.<br>Whenever you restore HP to a creature using a Healing spell, that creature gains a +1-status bonus to attack rolls and damage rolls for 1 round.<br>If the triggering spell requires 6 PP or more, this bonus increases to +2.<br>If the triggering spell requires 10 PP or more, the target also gains a +5-foot status bonus to Speed for 1 round.</p>\n<p>Prerequisites Medicine 4 ranks</p>\n<p>Use after a Healing spell (target the creature, enter the PP): +1 status to attacks and damage (+2 at 6 PP; +5 ft Speed at 10 PP) lands as a one-round effect.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FoOIUnbF8L0JRfpP"
+}

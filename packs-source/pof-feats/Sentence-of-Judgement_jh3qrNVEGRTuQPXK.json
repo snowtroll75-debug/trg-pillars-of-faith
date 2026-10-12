@@ -1,0 +1,49 @@
+{
+  "_id": "jh3qrNVEGRTuQPXK",
+  "name": "Sentence of Judgement",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Korath heritage",
+    "active": true,
+    "description": "<p>ESSENCE KETHRANI</p>\n<p>The Testament does not pronounce guilt, but once judgement is invoked it demands consequence.<br>Whenever you successfully Demoralise a creature, the first time you inflict HP damage upon that creature before the end of your next turn, you inflict an additional 1d6 secondary Essence damage.<br>This additional damage can occur only once from each successful use of Demoralise.</p>\n<p>Prerequisites Korath heritage</p>\n<p>Use after a successful Demoralise (target the creature): a strike rider — your first damaging Strike against it before the end of your next turn adds +1d6 Essence (added to the damage roll automatically).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Essence",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jh3qrNVEGRTuQPXK"
+}

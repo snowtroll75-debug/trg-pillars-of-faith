@@ -1,0 +1,50 @@
+{
+  "_id": "y6iJRKs2i5Q7VjKK",
+  "name": "Undeath",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Undeath rejects the idea that mortality possesses any inherent sanctity. Flesh fails; memory fades and kingdoms collapse because mortals permit death to erase what they have built. Followers of Undeath seek permanence through necromancy, discipline and mastery over the dead. The most sophisticated traditions establish rigid hierarchies in which intelligent undead rule, lesser undead serve and mortal life is regarded as an unfinished state. Its symbols include an extinguished candle that continues to cast light, an hourglass containing unmoving sand and a crowned skull bearing an open third eye.\nSelecting the Aspect of Undeath does not grant the Undead or Unliving trait, nor any of the abilities presented in Chapter 8. It is a doctrine and source of divine devotion, not a transformation.\n\nEdicts: Master the principles of undeath and necromancy. Preserve valuable knowledge, authority and ability beyond mortal death. Bring lesser undead under disciplined control. Restrain hunger and other instincts that threaten established order. Support the deliberate pursuit of deathless existence.\n\nAnathema: Destroy a useful or sanctioned undead creature merely because it is undead. Permit uncontrolled undead to threaten an established community. Willingly surrender deathlessness without compelling purpose. Create undead recklessly without provision for their control. Teach restricted necromantic rites to those incapable of properly controlling what they create.\n\nSuggested Ethics: Ambition, Discipline, Malevolence\n\nClass Skill: Occultism\n\nSpecialist Spells: Reaper's Resonance (1), Sickly Ray (1), Touch of Undeath (1), Veiled Presence (1), Fateful Temptation (7), Stasis (7), Unliving Vitality (7), Veiled Secret (7)\n\nBonus Spells: Detect Undead (0); Dead Tongue (2); Create Undead (4); Deathless (10)\n\nFavoured Weapon: Polearm\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Evil, Order",
+    "edicts": "Master the principles of undeath and necromancy. Preserve valuable knowledge, authority and ability beyond mortal death. Bring lesser undead under disciplined control. Restrain hunger and other instincts that threaten established order. Support the deliberate pursuit of deathless existence.",
+    "anathema": "Destroy a useful or sanctioned undead creature merely because it is undead. Permit uncontrolled undead to threaten an established community. Willingly surrender deathlessness without compelling purpose. Create undead recklessly without provision for their control. Teach restricted necromantic rites to those incapable of properly controlling what they create.",
+    "suggestedEthics": "Ambition, Discipline, Malevolence",
+    "classSkill": "Occultism",
+    "favouredWeapon": "Polearm",
+    "specialistSpells": "Reaper's Resonance, Sickly Ray, Touch of Undeath, Veiled Presence, Fateful Temptation, Stasis, Unliving Vitality, Veiled Secret",
+    "bonusSpells": "1: Detect Undead, 2: Dead Tongue, 4: Create Undead, 10: Deathless"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Ambition",
+        "Discipline",
+        "Malevolence"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!y6iJRKs2i5Q7VjKK"
+}

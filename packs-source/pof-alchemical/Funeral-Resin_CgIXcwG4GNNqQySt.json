@@ -1,0 +1,102 @@
+{
+  "_id": "CgIXcwG4GNNqQySt",
+  "name": "Funeral Resin",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 20,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Incense",
+    "description": "<strong>Usage burned in a censer; Activate Interact (2 AP).</strong>\n\nDense aromatic resin masks the odours of decomposition. One dose burns for 1 hour and fills a 10-foot radius. Creatures within the smoke gain a +2-item bonus to Fortitude saves against becoming Sickened solely because of mundane foul odours.\n\nOn the sheet: Burns for 1 hour and fills a 10-foot radius: the bonus is given to every creature in the smoke when it is lit.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "alchemical",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Funeral Resin",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Funeral Resin",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "item",
+                  "label": "Funeral Resin",
+                  "scope": "Fortitude saves against becoming Sickened solely because of mundane foul odours",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "subjects": [
+                      "fortitude"
+                    ]
+                  },
+                  "auto": false,
+                  "oneShot": false
+                }
+              ]
+            }
+          ],
+          "nearby": {
+            "radius": 10,
+            "includeSelf": true,
+            "label": "creature in the smoke"
+          },
+          "note": "Burns for 1 hour and fills a 10-foot radius: the bonus is given to every creature in the smoke when it is lit."
+        }
+      },
+      "alchemical": {
+        "section": "Other",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 20,
+        "tablePrice": 20,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CgIXcwG4GNNqQySt"
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "QGwMdg8FiCVhhnvK",
+  "name": "Faultless Casting",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>UNLIVING-LICH</p>\n<p>Cold intellect and dead nerves let you shape magic without fear or flinch.</p>\n<p>All spells you cast are treated as though you were using Defensive Casting. Defensive Casting checks for your spells are Medium (+0) rather than Very Hard (DC +5).</p>\n<p>Works automatically: every spell you cast is cast defensively, at +0 to its Casting DC rather than +5.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Lich",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "l8dmB4gQ7heyb03A",
+      "name": "Faultless Casting: Faultless Casting",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "defensiveCasting": {
+            "label": "Faultless Casting",
+            "always": true,
+            "dcAdd": 0
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "All your spells are cast defensively; the Defensive Casting DC is +0.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!QGwMdg8FiCVhhnvK.l8dmB4gQ7heyb03A"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "lich"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QGwMdg8FiCVhhnvK"
+}

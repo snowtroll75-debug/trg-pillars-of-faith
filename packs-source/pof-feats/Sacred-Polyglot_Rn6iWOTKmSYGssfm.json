@@ -1,0 +1,67 @@
+{
+  "_id": "Rn6iWOTKmSYGssfm",
+  "name": "Sacred Polyglot",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Linguistics 3 ranks",
+    "active": true,
+    "description": "<p>Religious language is rarely just language; the same word can become law, prayer or accusation depending upon who speaks it.<br>You gain a +2-circumstance bonus to Linguistics checks involving liturgical languages, ancient religious terminology, sacred names and ritual formulae.<br>When you successfully Analyse Scripture written in a language you do not speak fluently, you may understand its religious terminology sufficiently to attempt an appropriate Religion or Lore check concerning the text without suffering an additional language penalty.</p>\n<p>Prerequisites Linguistics 3 ranks</p>\n<p>Works automatically: +2 circumstance is offered on Linguistics checks with the book's wording; reading a scripture's terminology without a language penalty is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Sacred Polyglot",
+          "scope": "Linguistics involving liturgical languages, ancient religious terminology, sacred names and ritual formulae",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "linguistics"
+            ]
+          },
+          "value": 2,
+          "type": "circumstance"
+        }
+      ],
+      "bookCategory": "general"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Rn6iWOTKmSYGssfm"
+}

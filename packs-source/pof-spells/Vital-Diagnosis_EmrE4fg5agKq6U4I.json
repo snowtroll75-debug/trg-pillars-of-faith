@@ -1,0 +1,100 @@
+{
+  "_id": "EmrE4fg5agKq6U4I",
+  "name": "Vital Diagnosis",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 1,
+    "range": "Touch",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "You learn the target's current and maximum HP, Dying, Injured and Soul Drain, whether Disease, Poison, a Curse or possession affects it, and whether something blocks healing."
+      },
+      {
+        "kind": "conditional",
+        "label": "Vital Diagnosis",
+        "target": "self",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Vital Diagnosis",
+            "scope": "The next Medicine, Identify Spiritual Affliction or Counteract check against one detected affliction, within 10 minutes",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "skill",
+                "spellcraft"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Gain the bonus against two detected afflictions",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Healer",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": false,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Insight",
+    "description": "HEALER INSIGHT UTILITY\nHealer Specialist Spell\nCast 1 AP (somatic)\nRange Touch\nTargets 1 willing creature\n\nYou read the target's physical and spiritual condition as patterns of disrupted vitality.\nYou immediately learn its current and maximum HP; its current Dying, Injured and Soul Drain values; whether it is currently affected by Disease, Poison, a Curse or possession; and whether a supernatural effect is directly interfering with its ability to receive healing.\nYou do not automatically learn the identity, source or mechanics of a concealed affliction.\nChoose one detected affliction. You gain a +2-status bonus to the next Medicine, Identify Spiritual Affliction or Counteract check you make against that affliction within 10 minutes.\n\nWarping Options:\n+2 PP: Gain the bonus against two detected afflictions.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!EmrE4fg5agKq6U4I"
+}

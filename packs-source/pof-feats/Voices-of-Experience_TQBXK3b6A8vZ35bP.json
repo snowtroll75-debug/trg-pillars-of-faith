@@ -1,0 +1,49 @@
+{
+  "_id": "TQBXK3b6A8vZ35bP",
+  "name": "Voices of Experience",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Ancestor Spirit Guide, Level 5",
+    "active": true,
+    "description": "<p>SHAMAN SPIRIT</p>\n<p>Your guide no longer provides only memories. For a few moments, it lends you the habits that created them.<br>When you activate Manifest Spirit, select any one skill.<br>For the duration, you may treat yourself as possessing ranks in that skill equal to half your Shaman level, to a maximum of your normal maximum ranks. If you already possess more ranks, use your existing ranks.<br>Be aware that this does not grant a class bonus to the skill.</p>\n<p>Prerequisites Ancestor Spirit Guide, Level 5</p>\n<p>Works through Manifest Spirit (Ancestor): its Use asks for the skill and the effect treats you as having half your level in ranks for the trained gates (the ranks themselves are yours to note).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Spirit, Shaman",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TQBXK3b6A8vZ35bP"
+}

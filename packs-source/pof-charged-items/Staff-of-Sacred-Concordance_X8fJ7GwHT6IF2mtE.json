@@ -1,0 +1,101 @@
+{
+  "_id": "X8fJ7GwHT6IF2mtE",
+  "name": "Staff of Sacred Concordance",
+  "img": "icons/svg/oak.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 4,
+    "price": 6500,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Insight, Invested, Staff",
+    "description": "Usage held in 1 hand; Weight 4 lbs. Power Points 20; Recharge 2 per day.\n\nThin strips of parchment have somehow grown into the polished wood of this staff. The writing upon them changes whenever the bearer encounters an unfamiliar doctrine.\n\nWhile wielding the staff, you gain a +1-item bonus to Analyse Scripture, Compare Testaments and Recognise Doctrine.\n\nActivate Cast a Spell; Effect You expend the required PP to cast a spell from its list.\n\nCraft Requirements Supply one casting of all listed spells at the indicated PP cost\n\nSpells: Hallowed Rest (2 PP), Oathseal (2 PP), Veil Sight (4 PP), Litany of Remembrance (6 PP).\n\nOn the sheet: a staff: its four spells are cast from the item's PP; +1 item is pre-ticked on Analyse Scripture, Compare Testaments and Recognise Doctrine while it is held.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 20,
+    "itemSize": "medium",
+    "itemLevel": 10,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "chargedItem": {
+        "kind": "staff",
+        "maximumPP": 20,
+        "flexible": false,
+        "recharge": 2,
+        "printedRecharge": 2,
+        "printedPowerPoints": 20,
+        "correctedFromPrinted": false,
+        "spells": [
+          {
+            "name": "Hallowed Rest",
+            "pp": 2
+          },
+          {
+            "name": "Oathseal",
+            "pp": 2
+          },
+          {
+            "name": "Veil Sight",
+            "pp": 4
+          },
+          {
+            "name": "Litany of Remembrance",
+            "pp": 6
+          }
+        ],
+        "weaponForm": {
+          "base": "Staff",
+          "quality": "standard",
+          "material": "",
+          "runes": ""
+        }
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Staff of Sacred Concordance",
+          "scope": "Analyse Scripture, Compare Testaments and Recognise Doctrine",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "analyseScripture",
+              "compareTestaments",
+              "recogniseDoctrine"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!X8fJ7GwHT6IF2mtE"
+}

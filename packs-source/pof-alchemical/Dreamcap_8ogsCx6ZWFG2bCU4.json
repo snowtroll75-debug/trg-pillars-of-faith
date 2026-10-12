@@ -1,0 +1,99 @@
+{
+  "_id": "8ogsCx6ZWFG2bCU4",
+  "name": "Dreamcap",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 85,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: fey-touched forests and regions bordering the Dimension of Dreams.\n\nDreamcap is a soft violet mushroom patterned with pale whorls that slowly shift when watched from the corner of the eye. It grows beneath ancient trees where sleepers commonly report vivid or shared dreams. The cap is sweetened with honey and eaten immediately before resting, bringing a deep sleep filled with indistinct but soothing visions. For the next 8 hours, ordinary noise and uncomfortable surroundings do not prevent you from sleeping, and you gain advantage on saving throws against dream and nightmare effects. Dreamcap does not protect against effects that prevent or magically interrupt sleep.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Dreamcap",
+          "duration": "8 hours",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Dreamcap",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "advantage",
+                  "label": "Dreamcap",
+                  "scope": "Saving throws against dream and nightmare effects",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "traits": [
+                      "dream",
+                      "nightmare"
+                    ]
+                  },
+                  "auto": false,
+                  "oneShot": false
+                }
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "Ordinary noise and uncomfortable surroundings do not prevent you from sleeping. Dreamcap does not protect against effects that prevent or magically interrupt sleep."
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: fey-touched forests and regions bordering the Dimension of Dreams.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 3,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 85,
+        "tablePrice": 85,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8ogsCx6ZWFG2bCU4"
+}

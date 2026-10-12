@@ -1,0 +1,145 @@
+{
+  "_id": "DGSyH9RctD2wQoF3",
+  "name": "Rhevani",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "race",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Race",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>The Rhevani are a people of returning souls, mortals whose lives are threaded through centuries of death and rebirth. Every Rhevani carries within them fragments of earlier incarnations: a half-remembered face, an instinctive movement, a forgotten prayer or the certainty that they have stood in a place they have never visited. “I do not fear that I will die. I fear only which parts of me the next life will remember.” - Serai Velan, Keeper of the Seventh Memory</p>\n<p>The central tension within Rhevani culture is the relationship between continuity and individuality. Reincarnation is accepted as fact, but the returning soul is not considered the same thing as the returning person. A child who remembers being a soldier three centuries ago is still a child. They do not inherit that soldier's authority, marriage, profession or possessions merely because fragments of the old life remain within them.<br>This distinction lies at the heart of Rhevani law. Property ordinarily passes through conventional living inheritance, while obligations connected directly to the soul are considered individually. An ancient vow might survive reincarnation if the returning Rhevani willingly acknowledges it, but few communities permit creditors to pursue a child for debts incurred by a previous incarnation. The question becomes much more difficult when sacred obligations, unfinished guardianships or magically binding promises are involved.<br>Most settlements maintain a Hall of Memory, containing ledgers recording births, deaths, unusual childhood recollections, distinctive marks, significant vows and the dying words of those who consented to have them preserved. These records are not merely genealogical. They are tools used during the Rite of Remembering, when elders compare emerging memories with preserved accounts of the dead. Skilled investigators deliberately seek contradictions as readily as similarities, since false identification of a returning soul can damage several families at once.<br>Rhevani children are encouraged to describe spontaneous memories but discouraged from being coached. Asking a child repeatedly whether they remember a particular person is considered deeply irresponsible. Wealthy families have occasionally attempted to manufacture evidence that a prestigious ancestor has returned among them, and several infamous historical disputes began when rival houses claimed the same child as the reincarnation of an important figure.<br>Death itself is consequently treated with sadness but little fear. Funerals concentrate less upon promises of reunion and more upon release. The deceased is remembered, their current life is formally declared complete, and the community expresses the hope that whatever returns will be allowed to become something new. Attempts to preserve a soul indefinitely within a corpse, gem, phylactery or similar vessel are especially abhorrent to many Rhevani, who consider such practices the theft of every future life that soul might otherwise have lived.<br>Rhevani relationships with organised religion vary widely. Some see reincarnation as evidence of a greater divine design, while others regard it as a natural property of souls requiring no deity at all. Ancestor worship is uncommon in its strictest sense because the ancestor may already be alive again somewhere else. Instead, Rhevani tend to honour lives rather than permanently distinct ancestral spirits.</p>\n<p>Adventurers occupy an important place within Rhevani culture. Travelling allows unresolved memories to be tested against real places and historical evidence. Some leave home because they repeatedly dream of a ruined tower, forgotten battlefield or unknown face. Others deliberately flee communities obsessed with identifying their previous incarnation. For many Rhevani, adventure is ultimately an attempt to answer a deceptively difficult question: what belongs to my soul, and what belongs only to me?<br>DESCRIPTION<br>Rhevani resemble humans in broad form, standing between 5 and 6½ feet tall and weighing between 110 and 220 pounds. Rhevani resemble humans closely enough that at a distance they are often mistaken for them. They possess the same broad variation in complexion, build, facial structure and hair colour, although generations of intermarriage within Rhevani communities have produced certain features that outsiders sometimes describe as unusually symmetrical or strangely familiar. It is not uncommon for someone meeting a Rhevani for the first time to experience the uncomfortable sensation that they have seen that face before.<br>The eyes provide the clearest indication of Rhevani ancestry. Rather than a single band of colour, a Rhevani iris contains two or more concentric rings, sometimes of subtly different shades and sometimes of dramatically contrasting colours. Gold may surround blue, grey may break into green, or several increasingly pale rings may radiate from the pupil. Rhevani poets describe these as the circles of the returning soul, although scholars have never established any relationship between the number of rings and the number of previous incarnations.<br>Many Rhevani also possess echo-scars, pale birthmarks resembling wounds, burns, brands or ritual incisions. These marks are present from birth and do not normally cause pain. In rare cases, an echo-scar corresponds closely to the recorded death of an earlier incarnation. Such discoveries are treated seriously but cautiously; Rhevani communities have learned through painful experience that resemblance alone is not proof of spiritual continuity.<br>Dress varies considerably between communities, but Rhevani commonly incorporate objects associated with memory into their clothing. Small portrait medallions, copied signatures, fragments of old letters and tokens inherited from identified past lives may be worn beside possessions belonging entirely to the current incarnation. This mixture is deliberate. A Rhevani is expected to acknowledge who they might once have been without allowing the dead to consume the person they are now.<br>Rhevani reach physical adulthood at around 20 years of age and normally live between 110 and 150 years. The soul may return many times, but each incarnation possesses an entirely new body. A starting Rhevani character has an initial age of 19+2d6 years.</p>\n<p>RACIAL MECHANICS</p>\n<p>Ability Modifiers Int +1, Wis +1, Cha +1, Con -1; Size: Medium; Speed: 25 feet; Power Points: 0</p>\n<p>LANGUAGES</p>\n<p>Core Languages: Low Tongue, Rhevic; Additional Languages: Choose from any common or regional language.</p>\n<p>SPECIALIST SKILLS</p>\n<p>You gain Rhevani Lore and Soul Lore as specialist skills.</p>\n<p>OTHER ABILITIES</p>\n<p>Continuity of Self, Past-Life Echo — granted as ability items when the race is added.</p>\n<p>HERITAGES</p>\n<p>Once you have selected the Rhevani race you must select one of the Rhevani heritages: Arathi, Dornai, Sevrai, Thaeli, Velori.</p>",
+    "abilityModifiers": "Int +1, Wis +1, Cha +1, Con -1",
+    "maximumSize": "",
+    "languages": "Core: Low Tongue, Rhevic. Additional: common, regional.",
+    "coreLanguages": "Low Tongue, Rhevic",
+    "additionalLanguages": "common, regional",
+    "languageChoices": "",
+    "grantedFeats": "",
+    "racialAbilities": "Continuity of Self, Past-Life Echo",
+    "grantedWeapons": "",
+    "grantedSpells": "",
+    "specialistSkills": "Rhevani Lore, Soul Lore"
+  },
+  "effects": [
+    {
+      "_id": "4VjnRPlrWKys5i40",
+      "name": "Rhevani: ability modifiers",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.intelligence.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.wisdom.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.charisma.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.constitution.racial",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Int +1, Wis +1, Cha +1, Con -1",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!DGSyH9RctD2wQoF3.4VjnRPlrWKys5i40"
+    },
+    {
+      "_id": "whs0xIFtoECaypdT",
+      "name": "Rhevani: size and speed",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.identity.size",
+          "mode": 5,
+          "value": "medium",
+          "priority": 10
+        },
+        {
+          "key": "system.combat.movement.land",
+          "mode": 5,
+          "value": "25",
+          "priority": 10
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Medium size and a base land speed of 25 feet.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!DGSyH9RctD2wQoF3.whs0xIFtoECaypdT"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DGSyH9RctD2wQoF3"
+}

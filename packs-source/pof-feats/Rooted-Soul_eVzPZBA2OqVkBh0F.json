@@ -1,0 +1,81 @@
+{
+  "_id": "eVzPZBA2OqVkBh0F",
+  "name": "Rooted Soul",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10",
+    "active": true,
+    "description": "<p>MYRATHI</p>\n<p>Body, memory and spirit cling to one another as tightly as mycelium clings to ancient earth.<br>You gain Advantage on saving throws against possession and effects that forcibly remove, displace or separate your soul from your body.</p>\n<p>Prerequisites Level 10</p>\n<p>Works automatically: advantage on saves against possession is pre-ticked by trait and offered against soul-displacing effects.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "advantage",
+          "label": "Rooted Soul",
+          "scope": "Saving throws against possession and effects that forcibly remove, displace or separate your soul",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "possession"
+            ]
+          }
+        },
+        {
+          "kind": "advantage",
+          "label": "Rooted Soul",
+          "scope": "Saving throws against possession and effects that forcibly remove, displace or separate your soul",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "possession"
+              ]
+            }
+          }
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!eVzPZBA2OqVkBh0F"
+}

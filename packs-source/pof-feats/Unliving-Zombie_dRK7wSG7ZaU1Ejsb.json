@@ -1,0 +1,50 @@
+{
+  "_id": "dRK7wSG7ZaU1Ejsb",
+  "name": "Unliving Zombie",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 2",
+    "active": true,
+    "description": "<p>ARCHETYPE UNLIVING</p>\n<p>Prerequisites Level 2</p>\n<p>Your body is animated by corpse-vitality and unnatural hunger.</p>\n<p>You are not a mindless shambling corpse, but death has left its mark upon every motion. Your flesh is heavy with grave-cold endurance, your senses are drawn to the pulse of living essence, and a terrible hunger gnaws at the edge of your will. You gain the Shared Unliving Base Mods, Endless Hunger and Life Sense.</p>\n<p>Grants Darkvision, the Shared Unliving Base Mods, Endless Hunger and Life Sense (tertiary, full range). One Unliving archetype per character.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Darkvision, Shared Unliving Base Mods, Endless Hunger, Life Sense",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dRK7wSG7ZaU1Ejsb"
+}

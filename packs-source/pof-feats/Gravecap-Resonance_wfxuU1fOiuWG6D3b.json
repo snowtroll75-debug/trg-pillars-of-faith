@@ -1,0 +1,87 @@
+{
+  "_id": "wfxuU1fOiuWG6D3b",
+  "name": "Gravecap Resonance",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Morrai growth",
+    "active": true,
+    "description": "<p>MYRATHI</p>\n<p>The ancient burial Blooms have taught your spirit how to bend without becoming detached from the body.<br>You gain a +2-racial bonus to saving throws against Soul Drain, possession and effects with the Soul trait.</p>\n<p>Prerequisites Morrai growth</p>\n<p>Works automatically: +2 racial to saves is pre-ticked against Soul-trait and possession effects and offered against Soul Drain.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Gravecap Resonance",
+          "scope": "Saving throws against Soul Drain, possession and Soul-trait effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "soul",
+              "possession"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        },
+        {
+          "kind": "modifier",
+          "label": "Gravecap Resonance",
+          "scope": "Saving throws against Soul Drain, possession and Soul-trait effects",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!wfxuU1fOiuWG6D3b"
+}

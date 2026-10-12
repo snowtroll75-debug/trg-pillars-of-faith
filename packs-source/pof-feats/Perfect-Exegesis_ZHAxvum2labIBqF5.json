@@ -1,0 +1,49 @@
+{
+  "_id": "ZHAxvum2labIBqF5",
+  "name": "Perfect Exegesis",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 17, Rapid Reference",
+    "active": true,
+    "description": "<p>ARCHIVIST</p>\n<p>You no longer merely remember the words of a sacred formula. In the instant you find the passage, you understand precisely why every word, pause and invocation was placed there.<br>Whenever you cast a spell through Recite from the Text, reduce that spell's Casting Difficulty by 2.<br>If the spell requires one or more creatures to attempt a saving throw, increase its Save DC by 1.<br>These benefits apply only to the spell immediately cast through Recite from the Text. They do not apply to later castings of the same spell merely because it remains recorded within your Prayer Book.</p>\n<p>Prerequisites Level 17, Rapid Reference</p>\n<p>Works through Recite from the Text: its card notes the −2 Casting Difficulty and +1 Save DC for the recited spell — apply them in the cast dialog.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Archivist",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZHAxvum2labIBqF5"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "Yf87EvLTIAQIq65r",
+  "name": "Liturgical Book",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 25,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Stores Spells",
+    "description": "<p>Granted by the Liturgist archetype. Open this item's own sheet to record the four Divinity spells you can cast when the feat is taken, and further eligible Divinity spells learned from written sources. During daily preparation select one recorded spell: a learned caster treats it as memorised (it does not count against the memorised total); an instinctive caster adds it to the repertoire for the day. Liturgy of Prayer reaches one in the moment.</p>",
+    "slot": "",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "itemSize": "T",
+    "itemLevel": 1,
+    "heldHands": 0,
+    "formulae": "",
+    "gearCategory": "Goods",
+    "gearCategoryInferred": true,
+    "spellbookContainer": true
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Yf87EvLTIAQIq65r"
+}

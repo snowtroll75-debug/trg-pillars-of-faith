@@ -1,0 +1,49 @@
+{
+  "_id": "DcaE9HlE0G0rLtUy",
+  "name": "Sanctioned Strike",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 4,
+    "prerequisites": "Grimward 4th level",
+    "active": true,
+    "description": "<p>At 4th level, all weapon and unarmed attacks you make against your Judged Subject are treated as magical for the purpose of overcoming Resistance and Immunity. This does not grant the weapon a magical item bonus or any other magical weapon properties.</p>\n<p>Works automatically: while you hold this, your Judgement marks the Subject so your weapon and unarmed attacks against it count as magical for Resistance and Immunity.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 4
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DcaE9HlE0G0rLtUy"
+}

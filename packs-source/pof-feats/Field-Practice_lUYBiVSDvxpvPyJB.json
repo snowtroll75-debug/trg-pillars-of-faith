@@ -1,0 +1,49 @@
+{
+  "_id": "lUYBiVSDvxpvPyJB",
+  "name": "Field Practice",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>FOLKWARDEN</p>\n<p>There is a considerable difference between performing a rite correctly and performing it correctly while everyone else is waiting for you.<br>Select two of the following Folk Rites: Warding Charm, Brew Remedy, Ward the Threshold or Read the Signs.<br>The selected rites take 1 minute to perform rather than 10 minutes.<br>This feat does not reduce Lay to Rest.</p>\n<p>Use to choose the two rites that take 1 minute — recorded on the feat; the rites' cards say so.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Folkwarden",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lUYBiVSDvxpvPyJB"
+}

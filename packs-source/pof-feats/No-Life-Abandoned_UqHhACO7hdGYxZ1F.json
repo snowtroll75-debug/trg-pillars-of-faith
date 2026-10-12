@@ -1,0 +1,85 @@
+{
+  "_id": "UqHhACO7hdGYxZ1F",
+  "name": "No Life Abandoned",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Avenor heritage, Level 5",
+    "active": true,
+    "description": "<p>DIVINITY HEALING KETHRANI</p>\n<p>The Verse of Mercy refuses to distinguish between those who deserve saving and those who merely need it.<br>Whenever you restore HP to another living creature with a spell or Medicine action, if that creature currently has half its maximum HP or fewer, increase the healing by an amount equal to half your level, minimum 1. This additional healing applies only once per creature from each spell or action.<br>Furthermore, you may use Stabilise upon a creature regardless of its ethics, religion or relationship to you; no religious restriction can prevent your racial Stabilise from functioning.</p>\n<p>Prerequisites Avenor heritage, Level 5</p>\n<p>Works automatically: a healing spell you cast on another creature at half its HP or fewer heals half your level more (minimum 1), once per creature per spell. A Medicine action's healing is by hand; Stabilise works on anyone.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Divinity, Healing",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "3LN5T4U5E8Cq1wr1",
+      "name": "No Life Abandoned: Mercy's healing",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "healingRider": {
+            "label": "No Life Abandoned",
+            "lowHalfBonus": "halfLevel"
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Healing you cast on another living creature at half its maximum HP or fewer is increased by half your level (minimum 1).",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!UqHhACO7hdGYxZ1F.3LN5T4U5E8Cq1wr1"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UqHhACO7hdGYxZ1F"
+}

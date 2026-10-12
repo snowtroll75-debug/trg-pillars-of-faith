@@ -1,0 +1,56 @@
+{
+  "_id": "Jy9gIzLEDew8nqnW",
+  "name": "Merciful",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 1250,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Healing, Invested, Soul",
+    "description": "The rune resembles a blade halted an instant before touching a reclining figure.\n\nWhenever an attack with the weapon would reduce a living creature to 0 HP, you may choose to have the creature become Stable immediately after resolving the attack. The attack still inflicts its normal damage and may still cause Injuries, but it cannot kill the target through excess damage from that Strike unless you choose not to invoke the rune.\n\nMerciful has no special effect on creatures destroyed outright at 0 HP or creatures that do not use the normal Dying rules.\n\nInscribed onto a weapon.\n\nOn the sheet: Offered the moment a blow with the weapon reduces a living creature to 0 HP: a yes leaves it Stable (Dying 1, the next Dying Check cannot worsen it). The damage and any injury stand.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 5,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "merciful",
+        "tier": 1,
+        "on": [
+          "weapon"
+        ],
+        "automation": "event"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Jy9gIzLEDew8nqnW"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "niSzUFPtVMqpVAvc",
+  "name": "Expel Possessor",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 possessed creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Attempt to Counteract the possession. Critical: it ends; the entity cannot possess the same host for 24 hours. Success: it ends; 1 minute. Failure: it remains. Fumble: it remains and this spell cannot target it again until the beginning of your next turn. +2 circumstance to the check with the +4 PP warp."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 4,
+        "text": "Gain a +2-circumstance bonus to the Counteract check",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Shaman",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Soul, Spirit, Warding",
+    "description": "SHAMAN SOUL SPIRIT UTILITY WARDING\nShaman Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nTargets 1 possessed creature\n\nYou call upon the host's own spirit and force the intruder away from it.\nAttempt to Counteract the possession.\nCritical: The possession ends. The possessing entity cannot attempt to possess the same host again for 24 hours.\nSuccess: The possession ends. The entity cannot attempt to possess the same host again for 1 minute.\nFailure: The possession remains.\nFumble: The possession remains and Expel Possessor cannot target that particular possession again until the beginning of your next turn.\nEnding possession does not automatically destroy or banish the possessing entity. If it can normally exist outside the host, it appears or remains according to the rules of the possession effect.\n\nWarping Options:\n+4 PP: Gain a +2-circumstance bonus to the Counteract check.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!niSzUFPtVMqpVAvc"
+}

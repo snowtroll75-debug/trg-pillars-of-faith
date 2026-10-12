@@ -1,0 +1,78 @@
+{
+  "_id": "i5hEzhmjxygTyJ2R",
+  "name": "Glowmoss",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 25,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: underground caves and tunnels.\n\nGlowmoss grows as soft green cushions in caves where running water carries traces of unusual minerals. In darkness it shines with a cold yellow light, brightening noticeably when touched or disturbed. Prepared with clear resin, the crushed moss becomes a sticky luminous paste favoured by miners, shrine-keepers and underground scouts. It adheres to stone, wood or metal and shines as brightly as a torch for 1 hour. Covering the treated surface blocks the light, and water does not extinguish it.\n\nOn the sheet: The paste is on the surface it was applied to; covering it blocks the light, and water does not extinguish it.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Glowmoss",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "light",
+              "target": "self",
+              "source": "torch"
+            }
+          ],
+          "note": "The paste is on the surface it was applied to; covering it blocks the light, and water does not extinguish it."
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: underground caves and tunnels.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 25,
+        "tablePrice": 25,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!i5hEzhmjxygTyJ2R"
+}

@@ -1,0 +1,97 @@
+{
+  "_id": "DwMNdOMErk08J9hN",
+  "name": "Reliquary Seeker",
+  "img": "icons/svg/book.svg",
+  "type": "background",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Background",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>You devoted yourself to finding sacred objects that had been lost, stolen or forgotten. Some relics were genuine, others were elaborate frauds, and more than one proved dangerous to everyone who tried to possess it. Your experience taught you to examine provenance, symbolism and the stories surrounding an object before accepting claims of holiness at face value.</p>\n<p>BONUS FEAT</p>\n<p>Relic Appraiser</p>\n<p>SKILL BONUSES</p>\n<p>Culture, Perception, Religion</p>\n<p>SPECIALIST SKILL</p>\n<p>Relic Lore</p>\n<p>WEALTH</p>\n<p>1</p>",
+    "grantedFeats": "Relic Appraiser",
+    "grantedSpells": "",
+    "skillBonuses": "Culture, Perception, Religion",
+    "specialistSkill": "Relic Lore",
+    "special": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "",
+    "wealth": "1"
+  },
+  "effects": [
+    {
+      "_id": "9l2wnNOpLNP4rC3w",
+      "name": "Reliquary Seeker: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.culture.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.perception.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.religion.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 class bonus to Culture, Perception, Religion.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!DwMNdOMErk08J9hN.9l2wnNOpLNP4rC3w"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Relic Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DwMNdOMErk08J9hN"
+}

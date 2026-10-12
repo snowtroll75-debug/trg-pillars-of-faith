@@ -1,0 +1,76 @@
+{
+  "_id": "ue7wGBl3J5PjS7x9",
+  "name": "Keeper at the Threshold",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 15, Soul-Hardened",
+    "active": true,
+    "description": "<p>AURA ESHARI</p>\n<p>Those who stand beside you feel their souls settle more firmly into their bodies.<br>While you are conscious, allies within 10 feet gain a +1-status bonus to saving throws against possession, Soul Drain and effects with the Soul trait.</p>\n<p>Prerequisites Level 15, Soul-Hardened</p>\n<p>Works automatically as an aura: allies within 10 feet get +1 status to saves against possession, Soul Drain and Soul-trait effects — offered in their save dialogs while they stand near you (an ally-aura conditional).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Aura",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "auras": [
+        {
+          "id": "keeper-at-the-threshold",
+          "name": "Keeper at the Threshold",
+          "kind": "ally",
+          "radius": 10,
+          "triggers": [
+            "turnStart",
+            "enter"
+          ],
+          "save": "",
+          "appliesTo": "Allies",
+          "outcomes": {},
+          "immunitySeconds": 0,
+          "text": "AURA ESHARI\nWhile you are conscious, allies within 10 feet gain a +1-status bonus to saving throws against possession, Soul Drain and effects with the Soul trait.",
+          "grants": {
+            "kind": "modifier",
+            "value": 1,
+            "type": "status",
+            "traits": [
+              "soul",
+              "possession"
+            ],
+            "scope": "saving throws against possession, Soul Drain and Soul-trait effects"
+          }
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ue7wGBl3J5PjS7x9"
+}

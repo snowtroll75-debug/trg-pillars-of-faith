@@ -1,0 +1,49 @@
+{
+  "_id": "9xV4XaiaYYNOvn1P",
+  "name": "Methodical Investigator",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Perception 3 ranks",
+    "active": true,
+    "description": "<p>You have refined one investigative technique until it has become a professional speciality.<br>Select one of the following actions: Examine the Dead, Interpret Haunt, Recognise Doctrine, Sense Outside Influence, Trace Possession or Trace Religious Provenance.<br>You gain a +2-class bonus to checks made using the selected action.<br>You may select Methodical Investigator more than once, choosing a different action each time.</p>\n<p>Prerequisites Perception 3 ranks</p>\n<p>Use to choose the action: +2 class is then pre-ticked on it. Take the feat again for another action.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": true,
+    "repeatLimit": 6,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "general"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9xV4XaiaYYNOvn1P"
+}

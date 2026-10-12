@@ -1,0 +1,93 @@
+{
+  "_id": "D840t1YgMlrBJC0j",
+  "name": "Mycelial Message",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "verdant",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 4,
+    "castAP": "1 minute",
+    "range": "1 mile",
+    "area": "",
+    "targets": "1 creature you have met",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "A message of up to twenty-five words to a creature you have met, within range, in contact with soil, roots or fungus; it may reply in twenty-five. It fails silently if the target cannot be reached."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the range to 10 miles",
+        "mods": {
+          "rangeOverride": "10 miles"
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the range to 100 miles",
+        "mods": {
+          "rangeOverride": "100 miles"
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Send the same message to up to five eligible creatures",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": false,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Linguistic, Plant",
+    "description": "LINGUISTIC PLANT UTILITY\nTradition verdant\nCast 1 minute (material, somatic)\nRange 1 mile\nTargets 1 creature you have met\n\nYou press your hands against soil, roots or fungal growth and release a message into the living network beneath the land.\nIf the target is within range, on the same plane and in contact with natural soil, roots or fungal growth, it receives a message of up to twenty-five words. The target may immediately reply with up to twenty-five words.\nThe spell fails without revealing why if the target cannot be reached through the natural world. Open ocean, wholly artificial environments and planar boundaries prevent transmission.\n\nWarping Options:\n+2 PP: Increase the range to 10 miles.\n+4 PP: Increase the range to 100 miles.\n+2 PP: Send the same message to up to five eligible creatures.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!D840t1YgMlrBJC0j"
+}

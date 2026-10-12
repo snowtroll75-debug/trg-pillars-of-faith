@@ -1,0 +1,69 @@
+{
+  "_id": "f87Gf2lNCBQAt5Ik",
+  "name": "Sworn Testimony",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Sense Motive 1 rank",
+    "active": true,
+    "description": "<p>Promises have rhythms of their own, and you have heard enough of them to recognise the places where people leave themselves room to escape.</p>\n<p>Prerequisites Sense Motive 1 rank</p>\n<p>Whenever you deliberately witness a creature make a formal oath, vow, contract or promise, you can accurately recall the significant wording of that declaration for one month.</p>\n<p>During that period, you gain a +4 circumstance bonus to Detect Deception checks against that creature when the conversation specifically concerns the terms, meaning or fulfilment of the witnessed promise.</p>\n<p>This feat does not reveal whether the creature will ultimately keep the oath.</p>\n<p>The +4 is offered on every Detect Deception check with the book's wording — tick when the conversation concerns a witnessed promise.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Sworn Testimony",
+          "scope": "Detect Deception against a creature whose oath you witnessed, when the conversation concerns that promise's terms, meaning or fulfilment",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "senseMotive"
+            ],
+            "actions": [
+              "detectDeception"
+            ]
+          },
+          "value": 4,
+          "type": "circumstance"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!f87Gf2lNCBQAt5Ik"
+}

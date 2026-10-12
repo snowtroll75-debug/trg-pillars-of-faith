@@ -1,0 +1,57 @@
+{
+  "_id": "gm4o5zMwrk5o20fe",
+  "name": "Spirit Walker",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Nature 2 ranks, Meditation or Mental Focus 2 ranks, Non-Shaman",
+    "active": true,
+    "description": "<p>ADEPT</p>\n<p>Something unseen has begun travelling beside you. Whether you sought it or it sought you is considerably less important than the fact that it has stayed.<br>Choose one Shaman Spirit Guide: Ancestor, Beast, Elemental, Land or Veil.<br>You gain that Spirit Guide's specialist skill and Spirit Boon.<br>You also gain Manifest Spirit as a Focus ability and gain the Manifestation associated with your chosen Spirit Guide.<br>Finally, you may learn feats possessing the Shaman (Adept) trait.</p>\n<p>Prerequisites Nature 2 ranks, Meditation or Mental Focus 2 ranks, Non-Shaman</p>\n<p>Progression Requirements Meditation or Mental Focus +10 ranks, chosen when this feat is selected</p>\n<p>Works automatically: Use this feat to choose your Spirit Guide (Ancestor, Beast, Elemental, Land or Veil — its specialist skill and Spirit Boon arrive with it); Manifest Spirit arrives as a Focus ability and manifests that guide; Shaman class feats open to you.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Manifest Spirit",
+    "grantedFeats": "",
+    "progressionRequirements": "Meditation or Mental Focus +10 ranks, chosen when this feat is selected"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "abilityChoices": [
+        "Ancestor Spirit",
+        "Beast Spirit",
+        "Elemental Spirit",
+        "Land Spirit",
+        "Veil Spirit"
+      ],
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gm4o5zMwrk5o20fe"
+}

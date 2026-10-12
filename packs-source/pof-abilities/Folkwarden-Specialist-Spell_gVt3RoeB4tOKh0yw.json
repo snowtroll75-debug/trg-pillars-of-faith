@@ -1,0 +1,49 @@
+{
+  "_id": "gVt3RoeB4tOKh0yw",
+  "name": "Folkwarden Specialist Spell",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>At 1st level, you gain one PP 1 Folkwarden Specialist Spell of your choice.<br>Folkwarden Specialist Spells are presented in Chapter 9 and concentrate on charms, remedies, wards, omens and practical Verdant workings.<br>Additional Folkwarden Specialist Spells may be learned through the normal Specialist Spell feat and Folkwarden class feats.</p>\n<p>Use to choose your PP 1 Folkwarden Specialist Spell from the Grimoire (Bitter Charm, Blackthorn Warning, Hearthsign, Hedgeward, Red Thread, Steady Hands); Use again to change it.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gVt3RoeB4tOKh0yw"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "TiVKb3ZZxoxUowRh",
+  "name": "Second Calling",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 9",
+    "active": true,
+    "description": "<p>HEALER</p>\n<p>Experience has taught you that suffering rarely respects professional boundaries.<br>Select a second Healer's Calling. You gain its Specialist Skill and Calling Ability.<br>Your original Calling remains your primary Calling for any ability that specifically refers to it.</p>\n<p>Prerequisites Level 9</p>\n<p>Use to choose your second Healer's Calling: it arrives as an ability with its specialist skill and ability.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "abilityChoices": [
+        "Chirurgeon",
+        "Lifebinder",
+        "Purifier",
+        "Soul Tender",
+        "Sanctuary Keeper"
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TiVKb3ZZxoxUowRh"
+}

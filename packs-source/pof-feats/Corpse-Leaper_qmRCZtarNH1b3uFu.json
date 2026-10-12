@@ -1,0 +1,83 @@
+{
+  "_id": "qmRCZtarNH1b3uFu",
+  "name": "Corpse Leaper",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 4",
+    "active": true,
+    "description": "<p>MOVEMENT UNLIVING-GHOUL</p>\n<p>Prerequisites Level 4</p>\n<p>Your limbs coil and spring with the predatory tension of a carrion hunter.</p>\n<p>You gain Natural Leaper. When you take the High Jump action, you may jump a distance up to half your land Speed without making a check. When you take the Long Jump action, you may leap up to your land Speed without taking an action. You ignore the penalty for lacking a running start on these checks.</p>\n<p>Works automatically (Natural Leaper): a High Jump up to half your land Speed needs no check; a Long Jump up to your land Speed needs no check and no action; never the run-up penalty.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Movement, Unliving-Ghoul",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "CPWaCeBnyu7rtCo6",
+      "name": "Corpse Leaper: Natural Leaper",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "naturalLeaper": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "High Jump to half Speed and Long Jump to Speed without a check; no running-start penalty.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!qmRCZtarNH1b3uFu.CPWaCeBnyu7rtCo6"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "ghoul"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!qmRCZtarNH1b3uFu"
+}

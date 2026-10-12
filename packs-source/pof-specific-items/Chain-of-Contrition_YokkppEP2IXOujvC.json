@@ -1,0 +1,89 @@
+{
+  "_id": "YokkppEP2IXOujvC",
+  "name": "Chain of Contrition",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 6,
+    "price": 2880,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Disarm, Expert, Merciful, Nonlethal, Potency II, Reach, Trip",
+    "attackBonus": 0,
+    "damage": "1d6",
+    "damageType": "bludgeoning",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 18,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Flail",
+    "category": "Martial",
+    "size": "medium",
+    "itemLevel": 7,
+    "description": "The weights at either end of this chain are engraved with admonitions against vengeance. The inscriptions have not prevented generations of temple wardens from striking people with it, but they have prevented many of those people from dying.\n\nWhenever an attack with the Chain of Contrition would reduce a living creature to 0 HP, you may cause the target to become Stable immediately after resolving the attack.\n\nStatistics: AB +2; Damage 1d6+1 B; Size M; FDC 18.\n\nTraits Disarm, Expert, Merciful, Nonlethal, Potency II, Reach, Trip.\n\nOn the sheet: an Expert Penitent Chain with Potency II and Merciful (a felled living creature may be left Stable).\n\nPillars of Faith, Chapter 11.",
+    "quality": "expert",
+    "material": "",
+    "runes": "Potency II, Merciful",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 2,
+            "printed": "Potency II"
+          },
+          {
+            "key": "merciful",
+            "label": "Merciful",
+            "tier": 1,
+            "printed": "Merciful"
+          }
+        ],
+        "runeText": "Potency II, Merciful",
+        "traits": [
+          "Disarm",
+          "Expert",
+          "Merciful",
+          "Nonlethal",
+          "Potency II",
+          "Reach",
+          "Trip"
+        ],
+        "quality": "expert",
+        "material": "",
+        "printedItemBonus": 2
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!YokkppEP2IXOujvC"
+}

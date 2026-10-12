@@ -1,0 +1,364 @@
+{
+ "armour": [
+  {
+   "name": "Hospice Jack",
+   "category": "Light",
+   "level": 1,
+   "price": 130,
+   "acp": 0,
+   "maxDex": 7,
+   "dr": 2,
+   "hp": 20,
+   "speed": 0,
+   "weight": 8,
+   "traits": ""
+  },
+  {
+   "name": "Pilgrim's Coat",
+   "category": "Light",
+   "level": 1,
+   "price": 90,
+   "acp": 0,
+   "maxDex": 8,
+   "dr": 1,
+   "hp": 15,
+   "speed": 0,
+   "weight": 6,
+   "traits": ""
+  },
+  {
+   "name": "Gravewarden Coat",
+   "category": "Medium",
+   "level": 2,
+   "price": 280,
+   "acp": -2,
+   "maxDex": 4,
+   "dr": 4,
+   "hp": 45,
+   "speed": 0,
+   "weight": 24,
+   "traits": "Full, Metal"
+  },
+  {
+   "name": "Ossuary Lamellar",
+   "category": "Medium",
+   "level": 2,
+   "price": 300,
+   "acp": -2,
+   "maxDex": 4,
+   "dr": 4,
+   "hp": 50,
+   "speed": 0,
+   "weight": 22,
+   "traits": "Rigid"
+  },
+  {
+   "name": "Sepulchral Plate",
+   "category": "Heavy",
+   "level": 3,
+   "price": 650,
+   "acp": -6,
+   "maxDex": 2,
+   "dr": 6,
+   "hp": 90,
+   "speed": -5,
+   "weight": 48,
+   "traits": "Full, Helm, Metal, Rigid"
+  },
+  {
+   "name": "Oathguard Plate",
+   "category": "Heavy",
+   "level": 4,
+   "price": 850,
+   "acp": -7,
+   "maxDex": 2,
+   "dr": 7,
+   "hp": 100,
+   "speed": -10,
+   "weight": 55,
+   "traits": "Full, Helm, Metal, Rigid"
+  }
+ ],
+ "shields": [
+  {
+   "name": "Censer Buckler",
+   "price": 70,
+   "level": 1,
+   "db": 1,
+   "acp": 0,
+   "weight": 4,
+   "dr": 0,
+   "hp": 10
+  },
+  {
+   "name": "Reliquary Shield",
+   "price": 100,
+   "level": 1,
+   "db": 2,
+   "acp": -1,
+   "weight": 8,
+   "dr": 1,
+   "hp": 15
+  },
+  {
+   "name": "Vigil Shield",
+   "price": 120,
+   "level": 1,
+   "db": 2,
+   "acp": -1,
+   "weight": 9,
+   "dr": 1,
+   "hp": 15
+  },
+  {
+   "name": "Ossuary Board",
+   "price": 180,
+   "level": 2,
+   "db": 3,
+   "acp": -3,
+   "weight": 18,
+   "dr": 1,
+   "hp": 25
+  },
+  {
+   "name": "Processional Aegis",
+   "price": 230,
+   "level": 2,
+   "db": 3,
+   "acp": -4,
+   "weight": 22,
+   "dr": 1,
+   "hp": 25
+  }
+ ],
+ "weapons": [
+  {
+   "name": "Bloom Scythe",
+   "category": "Exotic",
+   "price": 45,
+   "level": 0,
+   "damage": "1d8 S",
+   "size": "L",
+   "fdc": 20,
+   "weight": 8,
+   "group": "Polearm",
+   "traits": "Reach, Sweep, Trip, Myrathi"
+  },
+  {
+   "name": "Censer Flail",
+   "category": "Martial",
+   "price": 40,
+   "level": 0,
+   "damage": "1d8 B",
+   "size": "M",
+   "fdc": 18,
+   "weight": 6,
+   "group": "Flail",
+   "traits": "Disarm, Sweep"
+  },
+  {
+   "name": "Crozier",
+   "category": "Simple",
+   "price": 15,
+   "level": 0,
+   "damage": "1d6 B",
+   "size": "M",
+   "fdc": 16,
+   "weight": 4,
+   "group": "Club",
+   "traits": "Shove, Trip"
+  },
+  {
+   "name": "Funeral Sickle",
+   "category": "Simple",
+   "price": 12,
+   "level": 0,
+   "damage": "1d4 S",
+   "size": "S",
+   "fdc": 16,
+   "weight": 2,
+   "group": "Knife",
+   "traits": "Agile, Finesse, Trip, Versatile P"
+  },
+  {
+   "name": "Grave Hook",
+   "category": "Martial",
+   "price": 35,
+   "level": 0,
+   "damage": "1d8 P",
+   "size": "L",
+   "fdc": 18,
+   "weight": 8,
+   "group": "Polearm",
+   "traits": "Disarm, Reach, Trip"
+  },
+  {
+   "name": "Last-Road Spear",
+   "category": "Exotic",
+   "price": 40,
+   "level": 0,
+   "damage": "1d8 P",
+   "size": "L",
+   "fdc": 18,
+   "weight": 7,
+   "group": "Spear",
+   "traits": "Brace, Reach, Versatile S, Eshari"
+  },
+  {
+   "name": "Oath Hammer",
+   "category": "Martial",
+   "price": 30,
+   "level": 0,
+   "damage": "1d8 B",
+   "size": "M",
+   "fdc": 16,
+   "weight": 6,
+   "group": "Hammer",
+   "traits": "AR 2, Shove"
+  },
+  {
+   "name": "Penitent Chain",
+   "category": "Martial",
+   "price": 30,
+   "level": 0,
+   "damage": "1d6 B",
+   "size": "M",
+   "fdc": 18,
+   "weight": 6,
+   "group": "Flail",
+   "traits": "Disarm, Nonlethal, Reach, Trip"
+  },
+  {
+   "name": "Testament Blade",
+   "category": "Exotic",
+   "price": 35,
+   "level": 0,
+   "damage": "1d8 S",
+   "size": "M",
+   "fdc": 16,
+   "weight": 4,
+   "group": "Sword",
+   "traits": "Balanced, Versatile P, Kethrani"
+  }
+ ],
+ "tools": [
+  {
+   "name": "Archivist's Travel Desk",
+   "level": 1,
+   "price": 45,
+   "weight": 12,
+   "effect": "+1 Analyse Scripture and Compare Testaments"
+  },
+  {
+   "name": "Autopsy Roll",
+   "level": 1,
+   "price": 35,
+   "weight": 5,
+   "effect": "+1 Examine the Dead and Perform Autopsy"
+  },
+  {
+   "name": "Doctrine Folio",
+   "level": 1,
+   "price": 30,
+   "weight": 3,
+   "effect": "+1 doctrine/provenance checks for one faith"
+  },
+  {
+   "name": "Funerary Kit",
+   "level": 1,
+   "price": 25,
+   "weight": 8,
+   "effect": "+1 Preserve Remains and Perform Last Rites"
+  },
+  {
+   "name": "Grave Surveyor's Kit",
+   "level": 1,
+   "price": 25,
+   "weight": 6,
+   "effect": "+1 Search involving burial sites"
+  },
+  {
+   "name": "Listening Chimes",
+   "level": 1,
+   "price": 20,
+   "weight": 2,
+   "effect": "+1 Interpret Haunt where physical disturbance occurs"
+  },
+  {
+   "name": "Reliquary Case",
+   "level": 0,
+   "price": 20,
+   "weight": 4,
+   "effect": "Protective waterproof container"
+  },
+  {
+   "name": "Ritual Vestment Roll",
+   "level": 1,
+   "price": 30,
+   "weight": 5,
+   "effect": "+1 Conceal Faith when impersonating one faith"
+  },
+  {
+   "name": "Shrine Mason's Kit",
+   "level": 1,
+   "price": 40,
+   "weight": 10,
+   "effect": "+1 Crafting involving shrines, crypts and tombs"
+  },
+  {
+   "name": "Testimony Kit",
+   "level": 0,
+   "price": 10,
+   "weight": 2,
+   "effect": "Preserves statements, seals and signatures"
+  },
+  {
+   "name": "Vigil Censer",
+   "level": 0,
+   "price": 8,
+   "weight": 2,
+   "effect": "Burns incense safely for 1 hour"
+  },
+  {
+   "name": "Waterproof Bookcase",
+   "level": 0,
+   "price": 12,
+   "weight": 2,
+   "effect": "Protects one large book or several scrolls"
+  }
+ ],
+ "descriptions": {
+  "Hospice Jack": "This reinforced quilted coat was developed by battlefield chirurgeons and temple hospices. Narrow pockets contain splints, bandages and basic instruments where they can be reached quickly. A properly stocked Hospice Jack counts as a basic healer's kit for the purpose of Administer First Aid, although not for Treat Wounds, surgery or other more involved Medicine actions.",
+  "Pilgrim's Coat": "A long reversible travelling coat with concealed pockets, removable insignia and hidden loops for religious jewellery. When the wearer uses Conceal Faith, they gain a +1-item bonus provided that any physical evidence of their actual faith is small enough to be hidden within the coat. It cannot conceal supernatural evidence or an object too large to hide.",
+  "Gravewarden Coat": "A mail-lined leather coat with close-fitting gloves, a high collar and a replaceable cloth breathing veil. Originally designed for crypt custodians and corpse collectors, it grants a +1-item bonus to Fortitude saves against airborne disease and inhaled poison while all of its protective components are worn.",
+  "Ossuary Lamellar": "Lacquered bone, horn and dense leather plates overlap across the chest and limbs. The design developed among cultures where good metal was scarce but large burial grounds were not. Ossuary Lamellar grants +1 DR against slashing damage. Despite its appearance, it possesses no connection to the souls of those from whose remains it may have been fashioned.",
+  "Oathguard Plate": "Temple guards traditionally spend long hours motionless before doorways, thrones and sacred precincts. The wide sabatons and carefully weighted plates of this armour reflect that practice. If you have not moved since the beginning of your current turn, you gain a +1-item bonus on checks and saving throws made to resist Shove, Trip or forced physical movement.",
+  "Sepulchral Plate": "Designed for expeditions into sealed tombs, the faceplate, neck and joints can be closed with leather gaskets and waxed cloth. You gain a +1-item bonus to Fortitude saves against disease and poison transmitted by contact or inhalation. The armour provides no protection against magical effects merely because they originate within a tomb.",
+  "Censer Buckler": "A small metal buckler with a perforated incense chamber behind its central boss. One dose of incense may be placed within it and lit normally. While wielding the shield, the incense can continue burning without occupying another hand. The buckler does not itself modify the effects of the incense.",
+  "Reliquary Shield": "A reinforced compartment inside the shield can hold one Tiny item such as a holy symbol, document, vial, bone fragment or small relic. The compartment is waterproof. An object inside cannot normally be separately targeted until the compartment is opened or the shield is Broken.",
+  "Vigil Shield": "The inner face contains a folding brace upon which a small book, ledger or prayer text can be secured. You can consult the secured book while wielding the shield without requiring an additional hand to hold it. Turning pages or exchanging books still requires the normal Interact action.",
+  "Ossuary Board": "A brutal rectangular shield traditionally constructed from layered timber, hide and ornamental bone. A Shield Bash made with an Ossuary Board gains the Shove trait.",
+  "Processional Aegis": "These tall icon-bearing shields accompany religious processions but are equally capable of stopping arrows. You may spend 2 AP to plant the shield securely. While planted, it cannot provide you with its normal shield benefits, but it functions as a small portable shrine or ceremonial surface. Appropriate use grants a +1-item bonus to Perform Last Rites or Observe Sacred Custom.",
+  "Bloom Scythe": "Developed from Myrathi cultivation tools used to harvest fungal growth without damaging the underlying mycelium. The long crescent blade makes it particularly effective at sweeping attacks and hooking limbs.",
+  "Censer Flail": "Its perforated metal head serves both as a functional censer and a weapon. Incense can be burned inside it outside combat or while wielded. Attacking with a burning Censer Flail does not inflict fire damage - the hot coals are protected inside the chamber.",
+  "Crozier": "A reinforced shepherd's crook used by travelling priests, mendicants and rural spirit-speakers. Its hooked end makes it unexpectedly effective at pulling a foe from their footing.",
+  "Funeral Sickle": "Originally intended for cutting shrouds, grave flowers and ritual cords, this compact sickle has developed into a favoured defensive weapon of funeral attendants.",
+  "Grave Hook": "A long-shafted iron hook developed for moving bodies, pulling coffins and retrieving objects from unsafe crypts. Grave Wardens rapidly discovered that the same design was effective at dragging hostile creatures off balance.",
+  "Last-Road Spear": "Traditionally carried by Eshari funerary escorts, the broad blade and rear-facing hook allow it to be used against charging opponents or to control a corpse without approaching too closely.",
+  "Oath Hammer": "Part ceremonial gavel, part military hammer. Its compact flanged head can deform armour, while its broad reverse face is traditionally struck against stone when witnessing a formal oath.",
+  "Penitent Chain": "A length of heavy chain terminating in padded or iron weights. Some ascetic orders use lighter versions during ritual discipline; Grimwards and temple guards developed the considerably less symbolic battlefield form.",
+  "Testament Blade": "A straight, broad-sided sword particularly associated with Kethrani guardians. The flat blade provides ample space for inscriptions and records of oaths, although those markings confer no supernatural properties.",
+  "Archivist's Travel Desk": "A folding writing surface containing magnifying lenses, page weights, rulers, reference marks and spaces for inks. It takes 1 minute to deploy. While seated or standing at the deployed desk, you gain a +1-item bonus to Analyse Scripture and Compare Testaments.",
+  "Autopsy Roll": "Fine knives, probes, shears, measuring cord, bone saw and labelled evidence containers. It counts as appropriate tools for Perform Autopsy and grants a +1-item bonus to Examine the Dead and Perform Autopsy.",
+  "Doctrine Folio": "When purchased, select one religion, Divine Aspect or defined religious tradition. The folio contains symbols, terminology, recognised rites, historical variants and notes on vestments. It grants a +1-item bonus to Recognise Doctrine and Trace Religious Provenance involving that tradition. A different folio is required for another tradition.",
+  "Funerary Kit": "Shroud cloth, cord, needles, scented oils, basic preservative compounds and the mundane ceremonial implements required by several common burial traditions. It grants a +1-item bonus to Preserve Remains and Perform Last Rites.",
+  "Grave Surveyor's Kit": "Measuring line, soil probes, sounding hammer, narrow shovel and marker pegs. You gain a +1-item bonus to Search checks specifically made to locate disturbed graves, concealed burial chambers, recently opened tombs or physical tampering with burial sites.",
+  "Listening Chimes": "A collapsible stand bearing extremely fine bells, suspended threads and weighted needles. It does not detect spirits. Instead, it reveals tiny movements of air, vibration or surfaces. It grants a +1-item bonus to Interpret Haunt only when the haunt produces a physical manifestation capable of disturbing the apparatus.",
+  "Reliquary Case": "A padded, lockable, waterproof box. It has Hardness 5 and 10 HP. Its contents cannot normally be damaged without first opening, bypassing or destroying the case.",
+  "Ritual Vestment Roll": "Select one religion when purchasing the kit. It contains mundane symbols, garments, cords and accessories typical of that tradition. When using Conceal Faith to impersonate a member of that religion, you gain a +1-item bonus. It provides no actual theological knowledge; Chapter 4's normal provision for Religion, Culture or Lore checks still applies.",
+  "Shrine Mason's Kit": "Fine chisels, plumb lines, measuring cords and carving tools. It grants a +1-item bonus to Crafting checks involving the construction, repair or examination of shrines, tombs, crypt seals, memorials and religious stonework.",
+  "Testimony Kit": "Wax tablets, numbered seals, cords, writing implements and impression wax used by Oath Witnesses and Grimwards. It allows testimony and physical evidence to be systematically labelled. At the GM's discretion, properly recorded evidence prevents mundane details such as wording, measurements or the order in which items were found from being forgotten later.",
+  "Vigil Censer": "A sturdy covered censer with a sand-filled base. It can safely burn one incense consumable for up to 1 hour and can be set down without extinguishing it.",
+  "Waterproof Bookcase": "Particularly popular with Archivists. A waxed-leather and thin-metal case capable of holding one large book or several scrolls. Its contents are protected from ordinary rain, immersion of less than 1 minute and routine travel damage."
+ }
+}

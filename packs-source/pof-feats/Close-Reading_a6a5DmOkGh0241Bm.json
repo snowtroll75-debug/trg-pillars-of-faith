@@ -1,0 +1,49 @@
+{
+  "_id": "a6a5DmOkGh0241Bm",
+  "name": "Close Reading",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Linguistics 3 ranks",
+    "active": true,
+    "description": "<p>You have learned that the most important part of a text is often the sentence someone tried to remove.<br>When using Analyse Scripture, treat a Partial result as a Success.<br>When you achieve a Critical result, you may also determine whether a significant alteration was probably accidental, the result of repeated copying, or deliberately introduced.</p>\n<p>Prerequisites Linguistics 3 ranks</p>\n<p>Works automatically: a Partial on Analyse Scripture resolves as a Success (the card says so); the accidental-or-deliberate reading on a Critical is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "general"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!a6a5DmOkGh0241Bm"
+}

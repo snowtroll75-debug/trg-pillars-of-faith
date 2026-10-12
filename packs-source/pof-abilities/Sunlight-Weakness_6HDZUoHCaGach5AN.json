@@ -1,0 +1,53 @@
+{
+  "_id": "6HDZUoHCaGach5AN",
+  "name": "Sunlight Weakness",
+  "img": "icons/svg/skull.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "An Unliving Archetype",
+    "active": true,
+    "description": "<p>If this creature begins its turn in sunlight, it is injured 2 and slowed 2 for as long as it remains in the sunlight.</p>\n<p>Works automatically when the GM marks your scene Sunlit (or your token In sunlight): at the start of your turn you become injured 2 and slowed 2, lifted when the scene or token is marked out of the sun. A scene marked neither posts the reminder card, as for any creature.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "creatureAbility": {
+        "printedTraits": "",
+        "printedAction": "",
+        "printedArea": "",
+        "derives": {
+          "turnStart": {
+            "kind": "sunlight",
+            "severity": "weakness"
+          }
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6HDZUoHCaGach5AN"
+}

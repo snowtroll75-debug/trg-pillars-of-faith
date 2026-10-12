@@ -1,0 +1,158 @@
+{
+  "_id": "evY29JyI0C0NBlsv",
+  "name": "Iron Will of the Tomb",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 4",
+    "active": true,
+    "description": "<p>UNLIVING-MUMMY</p>\n<p>Prerequisites Level 4</p>\n<p>Funerary rites have sealed your thoughts behind layers of ancient command, dust and embalming wards.</p>\n<p>You gain a +2 racial bonus to Will saves against fear effects and mental effects that would charm, compel, possess, confuse, control, or otherwise overwhelm your will. In addition, once per round when you fail such a Will save, you may harden your mind into sepulchral stillness. You become Slowed 1 until the end of your next turn and treat the failed save as a success instead. You cannot use this benefit if you are unconscious, unable to act, or already unable to gain AP on your next turn.</p>\n<p>Works automatically: +2 racial on Will saves against fear and mental effects (pre-ticked where the save's traits say so, offered otherwise); once a round a failed such save may become a Success at the cost of slowed 1 until the end of your next turn — asked after any reroll.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Mummy",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "K2WZMcHW1ICPbH2D",
+      "name": "Iron Will of the Tomb: Sepulchral stillness",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "saveConvert": {
+            "label": "Iron Will of the Tomb",
+            "saves": [
+              "will"
+            ],
+            "traits": [
+              "fear",
+              "mental",
+              "charm",
+              "compulsion",
+              "possession",
+              "confusion"
+            ],
+            "from": [
+              "failure",
+              "fumble",
+              "blunder"
+            ],
+            "cost": {
+              "condition": "slowed",
+              "value": 1
+            },
+            "oncePerRound": true
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Once per round, a failed Will save against fear or mind control may be treated as a success; you become slowed 1 until the end of your next turn.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!evY29JyI0C0NBlsv.K2WZMcHW1ICPbH2D"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Iron Will of the Tomb",
+          "scope": "Will saves against fear and mind-controlling mental effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "will"
+            ],
+            "traits": [
+              "fear",
+              "mental",
+              "charm",
+              "compulsion",
+              "possession",
+              "confusion"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        },
+        {
+          "kind": "modifier",
+          "label": "Iron Will of the Tomb",
+          "scope": "Will saves against fear and mind-controlling mental effects",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "will"
+            ],
+            "not": {
+              "traits": [
+                "fear",
+                "mental",
+                "charm",
+                "compulsion",
+                "possession",
+                "confusion"
+              ]
+            }
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "unliving",
+      "unlivingGroup": "mummy"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!evY29JyI0C0NBlsv"
+}

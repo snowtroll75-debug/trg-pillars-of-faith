@@ -1,0 +1,49 @@
+{
+  "_id": "9VgZyuxOWiMYqwC7",
+  "name": "Final Toll",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Kelvan heritage, Toll of Passage, Level 10",
+    "active": true,
+    "description": "<p>AUDITORY DIVINITY ESHARI FOCUS</p>\n<p>Some spirits require one final reminder that their claim upon the living has ended.<br>When you use Sacred Toll against an Undead or Unliving creature, you may declare it a Final Toll before the saving throw is rolled. In addition to Sacred Toll's normal effects:<br>Partial The target cannot use Reactions for 1 round.<br>Failure The target cannot use Reactions and suffers a -1-status penalty to attack rolls for 1 round.<br>Fumble or Blunder The target suffers the Failure effects and becomes Slowed 1 for 1 round.<br>After using Final Toll, Sacred Toll is expended even if another ability would normally allow it to remain available, and it must be restored using Refocus.</p>\n<p>Prerequisites Kelvan heritage, Toll of Passage, Level 10</p>\n<p>Works through Sacred Toll: declare a Final Toll before the save — the card's ladder (no reactions; −1 status to attacks; Slowed 1) is applied by hand from the result. Sacred Toll is then expended regardless.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Auditory, Divinity, Focus",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9VgZyuxOWiMYqwC7"
+}

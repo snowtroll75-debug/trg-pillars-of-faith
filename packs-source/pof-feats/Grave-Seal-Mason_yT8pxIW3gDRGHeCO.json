@@ -1,0 +1,49 @@
+{
+  "_id": "yT8pxIW3gDRGHeCO",
+  "name": "Grave-Seal Mason",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Ancestral Stone, Level 5, Stone Lore 3 ranks",
+    "active": true,
+    "description": "<p>DWARF</p>\n<p>To a dwarf, closing a tomb is not simply construction. The final stone is a promise that what has been laid to rest will remain there.<br>Whenever you use Ancestral Stone to Perform Last Rites upon remains interred within a stone tomb, crypt, cairn, sarcophagus or similar structure and achieve a Success or better, you may incorporate a Grave Seal into the interment.<br>For the duration of the protection granted by Perform Last Rites, the protected remains cannot normally be animated as an Undead or Unliving creature.<br>An effect specifically attempting to overcome this protection must first successfully Counteract your Grave Seal. For this purpose, treat the Grave Seal as a Warding effect with a level equal to your character level.<br>If the remains are removed from the protected stone structure, or the structure is deliberately breached sufficiently to expose the remains, the Grave Seal immediately ends.</p>\n<p>Prerequisites Ancestral Stone, Level 5, Stone Lore 3 ranks</p>\n<p>A rule for the table: a Grave Seal (Warding, your level) on a Success or better with Ancestral Stone.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Dwarf",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!yT8pxIW3gDRGHeCO"
+}

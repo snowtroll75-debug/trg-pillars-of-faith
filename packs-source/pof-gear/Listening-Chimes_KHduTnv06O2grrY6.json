@@ -1,0 +1,65 @@
+{
+  "_id": "KHduTnv06O2grrY6",
+  "name": "Listening Chimes",
+  "img": "icons/svg/chest.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 2,
+    "price": 20,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "",
+    "description": "A collapsible stand bearing extremely fine bells, suspended threads and weighted needles. It does not detect spirits. Instead, it reveals tiny movements of air, vibration or surfaces. It grants a +1-item bonus to Interpret Haunt only when the haunt produces a physical manifestation capable of disturbing the apparatus.\n\nPillars of Faith, Chapter 6.",
+    "slot": "",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "itemSize": "S",
+    "itemLevel": 1,
+    "heldHands": 0,
+    "formulae": "",
+    "gearCategory": "Kits & Tools",
+    "gearCategoryInferred": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "goodsConditionals": [
+        {
+          "value": 1,
+          "type": "item",
+          "label": "a physical manifestation",
+          "scope": "Interpret Haunt when the haunt produces a physical manifestation",
+          "when": {
+            "actions": [
+              "interpretHaunt"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KHduTnv06O2grrY6"
+}

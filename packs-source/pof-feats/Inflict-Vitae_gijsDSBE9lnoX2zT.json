@@ -1,0 +1,51 @@
+{
+  "_id": "gijsDSBE9lnoX2zT",
+  "name": "Inflict Vitae",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>UNLIVING-LICH</p>\n<p>You can turn necromantic power outward as a focused wound against the living essence.</p>\n<p>You gain Inflict as an innate spell with the focus trait.</p>\n<p>Grants Inflict as an innate spell with the Focus trait.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Lich",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "Inflict",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true,
+      "bookCategory": "unliving",
+      "unlivingGroup": "lich"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gijsDSBE9lnoX2zT"
+}

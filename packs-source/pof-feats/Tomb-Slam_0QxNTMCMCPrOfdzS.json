@@ -1,0 +1,51 @@
+{
+  "_id": "0QxNTMCMCPrOfdzS",
+  "name": "Tomb Slam",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 4",
+    "active": true,
+    "description": "<p>UNLIVING-MUMMY</p>\n<p>Prerequisites Level 4</p>\n<p>Your preserved limbs strike with the heavy certainty of a sealed tomb door.</p>\n<p>You gain a Slam natural attack that deals 1d8 bludgeoning damage and has agile, finesse, and magical traits.</p>\n<p>Grants Tomb Slam (1d8 bludgeoning; agile, finesse, magical).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Mummy",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "",
+    "grantedWeapons": "Slam (Unliving Mummy)"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "mummy"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0QxNTMCMCPrOfdzS"
+}

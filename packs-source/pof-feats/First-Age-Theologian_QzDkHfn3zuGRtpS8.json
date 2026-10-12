@@ -1,0 +1,72 @@
+{
+  "_id": "QzDkHfn3zuGRtpS8",
+  "name": "First Age Theologian",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Religion or Planes 1 rank",
+    "active": true,
+    "description": "<p>ASCENDAN</p>\n<p>Your people remember beliefs that vanished before many mortal nations possessed written language.<br>You may use Intelligence instead of Wisdom for Religion checks made to Recall Knowledge, Recognise Doctrine or Identify Spiritual Affliction when the subject concerns Eternals, Divine Aspects or an ancient religious tradition.<br>You also gain a +1-racial bonus to these checks.</p>\n<p>Prerequisites Religion or Planes 1 rank</p>\n<p>Works automatically: +1 racial is offered on Religion checks with the book's wording; using Intelligence in place of Wisdom is for the table.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Ascendan",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "First Age Theologian",
+          "scope": "Religion checks concerning Eternals, Divine Aspects or an ancient religious tradition",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "religion"
+            ],
+            "actions": [
+              "recallKnowledge",
+              "recogniseDoctrine",
+              "identifySpiritualAffliction"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QzDkHfn3zuGRtpS8"
+}

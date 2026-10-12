@@ -1,0 +1,56 @@
+{
+  "_id": "NS6kPX7LMxnuzJoN",
+  "name": "Life Sense",
+  "img": "icons/svg/skull.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "An Unliving Archetype",
+    "active": true,
+    "description": "<p>Lifesense allows a creature to sense the vital essence of living and undead creatures as a tertiary sense. The sense can distinguish between the positive energy animating living creatures and the negative energy animating undead creatures, much as sight distinguishes colours.</p>\n<p>Life Sense (Pillars of Faith, Chapter 9). A tertiary sense at full range, as Graham ruled for the Codex's own Life Sense (11 Aug 2026): it finds living and undead creatures and tells the two apart.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "creatureAbility": {
+        "printedTraits": "",
+        "printedAction": "",
+        "printedArea": "",
+        "derives": {
+          "sense": {
+            "category": "tertiary",
+            "special": true,
+            "fullRange": true,
+            "name": "Life Sense",
+            "finds": "living and undead creatures (and tells them apart)"
+          }
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NS6kPX7LMxnuzJoN"
+}

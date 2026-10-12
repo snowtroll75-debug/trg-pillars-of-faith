@@ -1,0 +1,89 @@
+{
+  "_id": "BEwqR8Luc0nBgpzZ",
+  "name": "Blood Renewal",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 6",
+    "active": true,
+    "description": "<p>HEALING SOUL UNLIVING VAMPIRE</p>\n<p>Prerequisites Level 6</p>\n<p>Blood does more than sustain you; it restores the splendour death stole from your flesh.</p>\n<p>When you use Drink Blood, the Soul Drain inflicted and HP restored increase by 5. At 12th level, this increase becomes 10 instead of 5.</p>\n<p>Works through Drink Blood: Soul Drain and healing +5, +10 from 12th level.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healing, Soul, Unliving-Vampire",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "NFIJ2ENTCJS81XQ5",
+      "name": "Blood Renewal: Blood Renewal",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "drinkBloodBonus": {
+            "label": "Blood Renewal",
+            "value": 5,
+            "atLevel": {
+              "12": 10
+            }
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Drink Blood's Soul Drain and healing +5 (+10 from 12th level).",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!BEwqR8Luc0nBgpzZ.NFIJ2ENTCJS81XQ5"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "vampire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BEwqR8Luc0nBgpzZ"
+}

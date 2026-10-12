@@ -1,0 +1,52 @@
+{
+  "_id": "yZKbKbXimwUlhpRA",
+  "name": "Drink Blood",
+  "img": "icons/svg/skull.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "An Unliving Archetype",
+    "active": true,
+    "description": "<p>FLOURISH SOUL</p>\n<p>Action 1 AP</p>\n<p>Requirement A target within reach is grabbed, immobilised, paralysed, unconscious, or willing.</p>\n<p>The vampire bites and feeds. This is automatic for all listed conditions except grabbed, which requires an Athletics check against the target's Fortitude DC. The target takes Soul Drain 10, and the vampire heals the same number of HP.</p>\n<p>Use (1 AP): target one creature in reach. The requirement is read from its conditions (willing is asked); a grabbed target needs your Athletics against its Fortitude DC. It takes Soul Drain 10 (+5 with Blood Renewal, +10 from 12th level) and you heal what landed. TRG Prime's own Drink Blood automation.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Flourish, Soul"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "creatureAbility": {
+        "printedTraits": "FLOURISH SOUL",
+        "printedAction": "Action 1 AP; Requirement A target within reach is grabbed, immobilised, paralysed, unconscious, or willing.",
+        "printedArea": "",
+        "activation": {
+          "kind": "action",
+          "ap": 1,
+          "requirement": "A target within reach is grabbed, immobilised, paralysed, unconscious, or willing"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!yZKbKbXimwUlhpRA"
+}

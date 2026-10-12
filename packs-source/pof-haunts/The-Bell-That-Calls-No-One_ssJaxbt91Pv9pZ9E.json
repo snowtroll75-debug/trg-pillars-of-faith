@@ -1,0 +1,78 @@
+{
+  "_id": "ssJaxbt91Pv9pZ9E",
+  "name": "The Bell That Calls No One",
+  "type": "npc",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "identity": {
+      "level": 4,
+      "size": "medium"
+    },
+    "details": {
+      "traits": "Auditory, Fear, Haunt",
+      "biography": "<p>The remains of a small chapel contain a bell rope even though the bell tower collapsed decades ago. At irregular intervals the rope twitches as though pulled from above.</p>"
+    },
+    "combat": {
+      "initiative": {
+        "other": 0
+      }
+    },
+    "gm": {
+      "role": "Haunt",
+      "notes": "<p><strong>The Bell That Calls No One</strong> — Level 4 haunt (Pillars of Faith, Chapter 8). Its Level DC is 18.</p>\n<p><strong>Anchor</strong> The buried chapel bell beneath the collapsed tower.</p>\n<p><strong>Resolution</strong> Recover the buried bell and hang it somewhere it can sound openly again. The final toll must be rung at sunrise while the names of those buried beneath the chapel are read aloud.</p>",
+      "peril": {
+        "enabled": true,
+        "detection": "Perception DC 18; Religion DC 18, Rank 1",
+        "disable": "Religion DC 18 to recite the chapel's funerary response or Occultism DC 20 to disrupt the supernatural resonance. Success suppresses the haunt until sunrise.",
+        "successes": 1,
+        "onDisable": "suppressed",
+        "suppressFor": "",
+        "state": "armed",
+        "actionType": "reaction",
+        "trigger": "A creature pulls the rope, speaks loudly within the ruined chapel after sunset or disturbs remains buried beneath the floor.",
+        "effectText": "A deafening bell rings from beneath the earth. All living creatures within 30 feet attempt a Will save against DC 18.\nCritical Unaffected.\nSuccess Frightened 1 until the end of the creature's next turn.\nPartial Frightened 2.\nFailure Frightened 3.\nFumble Frightened 3 and Dazed 1 until the end of the creature's next turn.\nBlunder Frightened 4 and Dazed 1 for 1 round.\nA deaf creature is immune to this effect.",
+        "routine": "",
+        "anchor": "The buried chapel bell beneath the collapsed tower.",
+        "resolution": "Recover the buried bell and hang it somewhere it can sound openly again. The final toll must be rung at sunrise while the names of those buried beneath the chapel are read aloud.",
+        "reset": "1 hour.",
+        "disableBonuses": "",
+        "spiritPresence": true,
+        "noBody": true,
+        "automation": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "The Bell That Calls No One",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/svg/aura.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "haunt": true,
+      "source": "Pillars of Faith"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.629.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!ssJaxbt91Pv9pZ9E"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "fla5MFai9hR3hLX4",
+  "name": "Vampiric Spawn",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 14",
+    "active": true,
+    "description": "<p>UNLIVING VAMPIRE</p>\n<p>Prerequisites Level 14</p>\n<p>Those who die under your hunger may rise again as lesser echoes of your curse.</p>\n<p>A living humanoid slain by your Drink Blood or by a natural attack that inflicts Soul Drain may rise as a Vampire at dusk on the following day. The resulting undead gains the Spawn trait and may be controlled by you (see Fiends & Fables).</p>\n<p>A rule for the table: a living humanoid slain by Drink Blood or a Soul-Drain natural attack may rise as a Vampire spawn at dusk the following day (Fiends & Fables).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Vampire",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "vampire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fla5MFai9hR3hLX4"
+}

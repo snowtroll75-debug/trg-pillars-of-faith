@@ -1,0 +1,49 @@
+{
+  "_id": "23aSTCBpVtWryHm6",
+  "name": "Consequence Written",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Korath heritage, Sentence of Judgement, Level 5",
+    "active": true,
+    "description": "<p>KETHRANI</p>\n<p>The Verse of Judgement remembers those it has named.<br>Whenever you successfully Demoralise a creature, you may mark it with your Testament until the end of your next turn.<br>The first time that creature inflicts HP damage upon you or one of your allies before the mark ends, it suffers Essence damage equal to your level. A creature can trigger Consequence Written only once from each successful Demoralise.</p>\n<p>Prerequisites Korath heritage, Sentence of Judgement, Level 5</p>\n<p>Use after a successful Demoralise (target the creature): a one-round mark effect on it; when it first damages you or an ally, it suffers Essence damage equal to your level — the card says how much.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!23aSTCBpVtWryHm6"
+}

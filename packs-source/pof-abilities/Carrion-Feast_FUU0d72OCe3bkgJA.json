@@ -1,0 +1,39 @@
+{
+  "_id": "FUU0d72OCe3bkgJA",
+  "name": "Carrion Feast",
+  "img": "icons/svg/skull.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "An Unliving Archetype",
+    "active": true,
+    "description": "<p>MANIPULATE</p>\n<p>Action 1 AP</p>\n<p>The ghoul consumes the flesh of an adjacent creature that has died within the last hour regaining 1d6 HP. The ghoul may only gain this benefit once from each body.</p>\n<p>Use (1 AP): target an adjacent corpse that died within the last hour — regain 1d6 HP (3d6 with Greater Carrion Feast), once from each body; the body is marked so it cannot feed you twice.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Manipulate"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FUU0d72OCe3bkgJA"
+}

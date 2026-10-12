@@ -1,0 +1,64 @@
+{
+  "_id": "8Nfj0HNW8C8rEH9Q",
+  "name": "Rod of Merciful Channeling",
+  "img": "icons/svg/wing.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 2,
+    "price": 2500,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Healing, Invested, Rod, Soul",
+    "description": "Usage held in 1 hand; Weight 2 lbs. Power Points 10; Recharge 1 per day.\n\nThe ivory shaft divides near its head into two carved hands, one supporting the other.\n\nActivate You cast a spell with the Healing trait that restores HP.\n\nAction Free\n\nExpend 1 PP from the rod. After resolving the spell normally, select one creature that regained HP from it. That creature regains an additional 1d8 HP.\n\nA creature may receive this additional healing only once from a single spell regardless of other abilities affecting it.\n\nOn the sheet: held, after a Healing spell restores HP the rod offers 1 PP for +1d8 to one creature it healed.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 10,
+    "itemSize": "medium",
+    "itemLevel": 8,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "chargedItem": {
+        "kind": "rod",
+        "maximumPP": 10,
+        "flexible": false,
+        "recharge": 1,
+        "printedRecharge": 1,
+        "printedPowerPoints": 10,
+        "correctedFromPrinted": false,
+        "spells": []
+      },
+      "healingRider": {
+        "label": "Rod of Merciful Channeling",
+        "extraDice": "1d8",
+        "oneTarget": true,
+        "ppCost": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8Nfj0HNW8C8rEH9Q"
+}

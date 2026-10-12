@@ -1,0 +1,70 @@
+{
+  "_id": "TgCM5gz6Xti0t9Z8",
+  "name": "Lantern of the Veil",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 3,
+    "price": 8000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Focus, Insight, Invested, Light, Soul",
+    "description": "Usage held in 1 hand; Weight 3 lbs.\n\nNo fuel burns within this lantern. Its pale light seems to illuminate empty air more brightly than walls or furniture.\n\nThe lantern produces light in a 20-foot radius. Disembodied spirits and incorporeal Undead within the light appear as faint translucent forms. This reveals their location but does not identify them.\n\nYou also gain the Open the Lantern ability:\n\nOpen the Lantern:\n\nActivate Engage (1 AP)\n\nFor 10 minutes, you gain the effects of Veil Sight. The ability becomes expended and may be restored through Refocus.\n\nOn the sheet: Open the Lantern is Veil Sight as an innate Focus spell (Refocus restores it). Its 20-foot light and the outline of spirits within it are the table's.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 10,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": false,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "spell",
+            "spell": "Veil Sight",
+            "frequency": "focus",
+            "label": "Open the Lantern",
+            "castAP": 1,
+            "duration": "10 minutes",
+            "note": "Engage (1 AP); 10 minutes; expended until Refocus"
+          }
+        ]
+      },
+      "light": {
+        "source": "torch",
+        "radiusFeet": 20
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TgCM5gz6Xti0t9Z8"
+}

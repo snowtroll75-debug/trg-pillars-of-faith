@@ -1,0 +1,49 @@
+{
+  "_id": "mE9KqWDi27uZAHOt",
+  "name": "Prayer Book",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Stores Spells",
+    "description": "<p>Granted for free the moment a character takes the Archivist class. Open this item's own sheet to see the book grow — six PP 2 Divinity spells at 1st level, two more every level after — and to add spells to it as slots open up. Being in the book is not the same as knowing it for the day: memorise from it at daily preparation (the Magic tab's Memorisation card) before a spell in it can be cast, or Recite from the Text to reach one in the moment.</p>\n<p>The book may hold prayers of religions other than your own; recording a prayer is not accepting it. Specialist spells cannot be learned by copying them in.</p>",
+    "slot": "",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "itemSize": "T",
+    "itemLevel": 1,
+    "heldHands": 0,
+    "formulae": "",
+    "gearCategory": "Goods",
+    "gearCategoryInferred": true,
+    "spellbookContainer": true
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mE9KqWDi27uZAHOt"
+}

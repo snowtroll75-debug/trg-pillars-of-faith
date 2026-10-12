@@ -1,0 +1,50 @@
+{
+  "_id": "yudxQ05z0HiAlHR1",
+  "name": "Wrath",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Vengeful Cataclysm is the divine embodiment of wrath unbound, an aspect that revels in the chaos of destruction and the passionate purge of all that is weak or corrupt. Often depicted as a towering, horned figure shrouded in storm-tossed flames and crackling energy, this aspect wields an ever-burning weapon that scorches the heavens and the earth alike. Symbols associated with Vengeful Cataclysm include shattered chains, scorched sigils, blazing infernos, and swirling tempest clouds - all representing the endless cycle of ruin and renewal wrought by uncontrolled anger.\n\nEdicts: Followers of Vengeful Cataclysm must embrace and channel their inner wrath to dismantle institutions of order and complacency, seeking out and inciting disorder wherever they find stagnant authority or oppression. They are commanded to show no mercy to those who exhibit weakness, indecision, or hypocrisy, for such failings make one unworthy of divine favour. Justice must be swift and absolute, delivering unrelenting retribution upon any who defy or betray the principles of unyielding wrath.\n\nAnathema: It is anathema to show mercy or restraint in battle, as hesitation or kindness in the face of the enemy is a betrayal of divine principles. Followers must never submit to laws, traditions, or any form of organized control, for yielding to order contradicts the very essence of chaotic retribution. To negotiate with enemies, compromise, or temper one's wrath for the sake of diplomacy is to reject the fundamental truth that true change comes only through destruction and renewal.\n\nSuggested Ethics: Anarchy, Malevolence, Nihilism\n\nClass Skill: Athletics\n\nSpecialist Spells: Arc of Fire (1), Banish Fatigue (1), Deflect Flame (7), Devastating Might (7), Physical Surge (1), Resilient Fortitude (7), War Cry (7), Weapon Surge (1)\n\nBonus Spells: Orb of Fire (0); Burning Hands (2); Fireball (6); Wall of Fire (8)\n\nFavoured Weapon: Hammer\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Chaos, Evil",
+    "edicts": "Followers of Vengeful Cataclysm must embrace and channel their inner wrath to dismantle institutions of order and complacency, seeking out and inciting disorder wherever they find stagnant authority or oppression. They are commanded to show no mercy to those who exhibit weakness, indecision, or hypocrisy, for such failings make one unworthy of divine favour. Justice must be swift and absolute, delivering unrelenting retribution upon any who defy or betray the principles of unyielding wrath.",
+    "anathema": "It is anathema to show mercy or restraint in battle, as hesitation or kindness in the face of the enemy is a betrayal of divine principles. Followers must never submit to laws, traditions, or any form of organized control, for yielding to order contradicts the very essence of chaotic retribution. To negotiate with enemies, compromise, or temper one's wrath for the sake of diplomacy is to reject the fundamental truth that true change comes only through destruction and renewal.",
+    "suggestedEthics": "Anarchy, Malevolence, Nihilism",
+    "classSkill": "Athletics",
+    "favouredWeapon": "Hammer",
+    "specialistSpells": "Arc of Fire, Banish Fatigue, Deflect Flame, Devastating Might, Physical Surge, Resilient Fortitude, War Cry, Weapon Surge",
+    "bonusSpells": "1: Orb of Fire, 2: Burning Hands, 6: Fireball, 8: Wall of Fire"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Anarchy",
+        "Malevolence",
+        "Nihilism"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!yudxQ05z0HiAlHR1"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "CmehxEOyqHDCDiKP",
+  "name": "Warding Charm",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>CONCENTRATE MANIPULATE VERDANT WARDING<br>Action 10 minutes<br>You fashion a small protective charm from appropriate materials: a knotted cord, carved token, herb bundle, inscribed stone, nail, feather or similar object.<br>Choose one of the following protections when you create the charm:<br>Mind Fear effects, effects with the Mental trait and supernatural Sleep effects.<br>Soul Possession, Soul Drain and effects with the Soul trait.<br>Hex Effects with the Curse trait.<br>The charm becomes one of your active Preparations. A creature carrying the charm may activate it as a Reaction immediately before attempting an eligible saving throw. The creature gains a circumstance bonus to the triggering saving throw equal to half your Folkwarden class bonus (round up). The charm is then expended.</p>\n<p>Use: choose the protection (two for a Charmwright), then the charm lands as an effect on you or the targeted creature carrying the circumstance bonus (half your class bonus, rounded up) pre-ticked on matching saves. It is one of your Preparations; delete the effect when it is expended.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "Concentrate, Manipulate, Verdant, Warding",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CmehxEOyqHDCDiKP"
+}

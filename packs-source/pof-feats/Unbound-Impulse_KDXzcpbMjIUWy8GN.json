@@ -1,0 +1,62 @@
+{
+  "_id": "KDXzcpbMjIUWy8GN",
+  "name": "Unbound Impulse",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Chaos-Blooded, Level 5",
+    "active": true,
+    "description": "<p>Your mind refuses to remain where another power attempts to place it.<br>You gain Advantage on saving throws against effects that would inflict the Stunned condition.<br>Once per day, when you would gain Stunned, reduce the value of Stunned gained by 1, to a minimum of 0.</p>\n<p>Prerequisites Chaos-Blooded, Level 5</p>\n<p>Works automatically: advantage on saves against Stunned effects is offered with the book's wording; Use spends the day's reduction of one Stunned gained.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "advantage",
+          "label": "Unbound Impulse",
+          "scope": "Saving throws against effects that would inflict the Stunned condition",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ]
+          }
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KDXzcpbMjIUWy8GN"
+}

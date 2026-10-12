@@ -1,0 +1,49 @@
+{
+  "_id": "aGGkYrPcLx9kM4bz",
+  "name": "Perfected Aberration",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 15",
+    "active": true,
+    "description": "<p>FOCUS MORROWMADE</p>\n<p>For a brief period, your body abandons even the pretence of natural anatomy, restructuring itself into whatever configuration best permits survival.<br>Action 1 AP; Duration 1 minute<br>Your altered physiology enters a state of violent adaptation.<br>For the duration:<br>You gain Fast Healing 1.<br>You gain Immunity to Bleed.<br>You have advantage on saving throws against Disease and Poison.<br>You have advantage on saving throws and flat checks made to resist, reduce or recover from critical injuries and magical effects that transform, mutate or otherwise alter your physical body.<br>Your Base DR increases by 1.<br>Your physical form visibly changes while Perfected Aberration is active. Bones may shift beneath the skin, wounds seal incorrectly, redundant eyes open, scar tissue plates itself across vulnerable organs or limbs bend at impossible angles.</p>\n<p>Prerequisites Level 15</p>\n<p>Use (1 AP, Focus): a one-minute effect with Fast Healing 1 (a note), Bleed immunity, Base DR +1, and advantage on saves against Disease and Poison and against body-altering effects pre-ticked or offered.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Morrowmade",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Focus",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!aGGkYrPcLx9kM4bz"
+}

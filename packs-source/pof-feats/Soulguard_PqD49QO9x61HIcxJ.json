@@ -1,0 +1,89 @@
+{
+  "_id": "PqD49QO9x61HIcxJ",
+  "name": "Soulguard",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "BAB +4",
+    "active": true,
+    "description": "<p>MARTIAL</p>\n<p>Discipline of body has taught you to anchor the spirit as firmly as your stance.<br>You gain a +1-class bonus to saving throws against Fear, possession, Soul Drain and effects with the Soul trait.<br>Whenever you successfully resist possession, you immediately recognise that something attempted to control or enter you.</p>\n<p>Prerequisites BAB +4</p>\n<p>Works automatically: +1 class to saves is pre-ticked against Fear-, Soul- and Possession-trait effects and offered against Soul Drain.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Martial",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Soulguard",
+          "scope": "Saving throws against Fear, possession, Soul Drain and Soul-trait effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "fear",
+              "soul",
+              "possession"
+            ]
+          },
+          "value": 1,
+          "type": "class"
+        },
+        {
+          "kind": "modifier",
+          "label": "Soulguard",
+          "scope": "Saving throws against Fear, possession, Soul Drain and Soul-trait effects",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "fear",
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          "value": 1,
+          "type": "class"
+        }
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PqD49QO9x61HIcxJ"
+}

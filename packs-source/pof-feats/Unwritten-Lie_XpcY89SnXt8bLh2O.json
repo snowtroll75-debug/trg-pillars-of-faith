@@ -1,0 +1,49 @@
+{
+  "_id": "XpcY89SnXt8bLh2O",
+  "name": "Unwritten Lie",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Serel heritage",
+    "active": true,
+    "description": "<p>KETHRANI</p>\n<p>Falsehood leaves gaps in the Testament where truth should have been.<br>Whenever you successfully Detect Deception from a creature, you gain Advantage on the next saving throw or Sense Motive check you make against an Illusion, Charm, Compulsion or deceptive supernatural effect created by that creature within the next minute.</p>\n<p>Prerequisites Serel heritage</p>\n<p>Use after a successful Detect Deception (target the creature): a one-minute effect with advantage pre-ticked on saves from that creature and offered on Sense Motive against it.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XpcY89SnXt8bLh2O"
+}

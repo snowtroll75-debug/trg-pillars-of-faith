@@ -1,0 +1,93 @@
+{
+  "_id": "VuSKqxbUGED9kEay",
+  "name": "Exorcise",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 8,
+    "castAP": 3,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 possessed creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "counteractRoll",
+        "target": "targets",
+        "label": "the possession",
+        "outcomes": {
+          "critical": "The possession ends, and the entity cannot attempt to possess the same creature again for 24 hours.",
+          "success": "The possession ends, and the entity cannot attempt to possess the same creature again for 1 minute.",
+          "failure": "The possession remains.",
+          "fumble": "The possession remains, and you cannot Exorcise it again until the beginning of your next turn."
+        }
+      },
+      {
+        "kind": "note",
+        "text": "Ending the possession does not destroy the entity; if it can manifest outside the host, resolve its separation by the possession effect. Warped: +1 circumstance to the Counteract check per +1 PP (max +12) — pre-filled in the Counteract dialog's circumstance box. Left blank, the DC is the Level DC of the possessor's level."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Gain a +1-circumstance bonus to the Counteract check (max +12)",
+        "mods": {
+          "bonusValue": 1,
+          "bonusMax": 12
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Soul, Warding",
+    "description": "SOUL UTILITY WARDING\nTradition divinity\nCast 3 AP (somatic, verbal)\nRange 30 feet\nTargets 1 possessed creature\n\nYou invoke divine authority against an entity occupying a body or soul that is not its own.\nAttempt to Counteract the possession.\nCritical: The possession ends. The possessing entity cannot attempt to possess the same creature again for 24 hours.\nSuccess: The possession ends. The entity cannot attempt to possess the same creature again for 1 minute.\nFailure: The possession remains.\nFumble: The possession remains and you cannot attempt to Exorcise that possession again until the beginning of your next turn.\nEnding the possession does not destroy the possessing entity. If it can normally manifest outside the host, resolve its separation according to the possession effect.\n\nWarping Options:\n+1 PP: Gain a +1-circumstance bonus to the Counteract check (max +12).\n\nPillars of Faith, Chapter 10. The Counteract is rolled (enter the possessor's level) and its rung printed; ending the possession is the GM's."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VuSKqxbUGED9kEay"
+}

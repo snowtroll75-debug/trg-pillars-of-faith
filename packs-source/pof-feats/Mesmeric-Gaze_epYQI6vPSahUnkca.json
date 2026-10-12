@@ -1,0 +1,50 @@
+{
+  "_id": "epYQI6vPSahUnkca",
+  "name": "Mesmeric Gaze",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Velvet Voice, Level 5",
+    "active": true,
+    "description": "<p>ETHEREAL FOCUS VESPERYN</p>\n<p>Your eyes hold the stillness of the grave, and those who meet them sometimes forget why they intended to look away.<br>You gain Charm Kind as an Ethereal innate spell with the Focus trait. You may target only living humanoids with this spell.<br>When using Charm Kind in this way, the effect need not manifest as obvious spellcasting. Unless the target successfully resists the spell or another creature has reason to recognise supernatural influence, your gaze and conversation may appear entirely mundane.</p>\n<p>Prerequisites Velvet Voice, Level 5</p>\n<p>Works automatically: Charm Kind is an innate Ethereal spell with the Focus trait on your spell list (living humanoids only — a note on the cast). The book's prerequisite names \"Velvet Gaze\"; the feat printed is Velvet Voice.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Vesperyn",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Ethereal, Focus",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "Charm Kind",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true,
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!epYQI6vPSahUnkca"
+}

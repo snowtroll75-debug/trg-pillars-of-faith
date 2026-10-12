@@ -1,0 +1,49 @@
+{
+  "_id": "oTTKSoB2VwESivJE",
+  "name": "Guiding Luminescence",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Lumeri growth",
+    "active": true,
+    "description": "<p>MYRATHI</p>\n<p>The lights upon your body pulse in several directions at once, each glow carrying a different fragment of guidance.<br>Whenever you cast Guidance using the innate spell granted by your Lumeri growth, you may target two creatures within range rather than one.</p>\n<p>Prerequisites Lumeri growth</p>\n<p>Works automatically: your innate Guidance offers a free warp for a second target in the Warp? dialog.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oTTKSoB2VwESivJE"
+}

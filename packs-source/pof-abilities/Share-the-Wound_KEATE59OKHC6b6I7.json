@@ -1,0 +1,39 @@
+{
+  "_id": "KEATE59OKHC6b6I7",
+  "name": "Share the Wound",
+  "img": "icons/svg/upgrade.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Martyr archetype",
+    "active": true,
+    "description": "<p>FOCUS HEALING SOUL</p>\n<p>Action R; Trigger An ally within 30 feet suffers HP damage.</p>\n<p>After the damage has been determined, reduce the HP damage suffered by the ally by an amount up to your level + your magical ability modifier. You lose the same number of Hit Points. This HP loss cannot be reduced by Resistance, Base DR, temporary HP or another effect and cannot itself be redirected to another creature. You cannot use Share the Wound if doing so would reduce you below 1 HP.</p>\n<p>Use as the Reaction (Focus): target the ally, enter the amount (capped at your level + magical ability modifier and at what would leave you at 1 HP); they regain it and you lose it.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Focus, Healing, Soul"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KEATE59OKHC6b6I7"
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "AM1nlXuEPzMYqGWI",
+  "name": "Reliquary of the First Inscription",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 5000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Insight, Invested",
+    "description": "Usage worn; Weight 1 lb.\n\nThe crystal-sided box is normally empty. Sacred symbols reflected in its surfaces briefly acquire additional strokes, as though an invisible annotator is correcting them.\n\nYou gain a +2-status bonus to Religion and Linguistics checks made to identify, translate or interpret prayers, sacred symbols, religious doctrine and ritual formulae.\n\nOn the sheet: +2 status is offered on Religion and Linguistics about prayers, symbols, doctrine and ritual.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 8,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": false,
+        "activate": "",
+        "frequency": "",
+        "abilities": []
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Reliquary of the First Inscription",
+          "scope": "Religion and Linguistics checks to identify, translate or interpret prayers, sacred symbols, religious doctrine and ritual formulae",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "religion",
+              "linguistics"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AM1nlXuEPzMYqGWI"
+}

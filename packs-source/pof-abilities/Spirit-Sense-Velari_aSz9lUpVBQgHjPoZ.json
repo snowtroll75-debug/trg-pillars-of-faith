@@ -1,0 +1,56 @@
+{
+  "_id": "aSz9lUpVBQgHjPoZ",
+  "name": "Spirit Sense (Velari)",
+  "img": "icons/svg/aura.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Your Spirit Sense reaches 60 feet (Velari heritage). When you use Search (Perception), you can detect the presence and general direction of disembodied spirits, incorporeal undead, haunts and active possession within 60 feet. You cannot determine exact location, identity or allegiance through this sense alone. Spirit Sense is blocked by 1 foot of stone, 1 inch of common metal or any thickness of lead.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "traits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "creatureAbility": {
+        "printedTraits": "",
+        "printedAction": "",
+        "printedArea": "",
+        "derives": {
+          "sense": {
+            "category": "tertiary",
+            "modality": "spiritual",
+            "fixedFeet": 60,
+            "finds": "disembodied spirits, incorporeal undead, haunts and active possession"
+          }
+        },
+        "source": "Pillars of Faith, Chapter 2 (Velari)"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!aSz9lUpVBQgHjPoZ"
+}

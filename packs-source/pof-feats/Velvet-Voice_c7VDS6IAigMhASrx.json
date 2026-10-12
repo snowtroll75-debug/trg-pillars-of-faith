@@ -1,0 +1,83 @@
+{
+  "_id": "c7VDS6IAigMhASrx",
+  "name": "Velvet Voice",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5",
+    "active": true,
+    "description": "<p>VESPERYN</p>\n<p>There is something compelling in your voice: a cadence that invites confidence even when instinct warns you that you should not be trusted.<br>You gain a +1 racial bonus to Diplomacy and Bluff (Deception) checks made against living humanoids that can hear and understand you.<br>Furthermore, the target does not automatically recognise that supernatural influence contributed to your extraordinary persuasiveness.<br>Be aware that this feat does not compel a creature to act against its interests and is not itself a magical charm effect.</p>\n<p>Prerequisites Level 5</p>\n<p>Works automatically: +1 racial is offered on Diplomacy and Bluff checks with the book's wording.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Vesperyn",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Velvet Voice",
+          "scope": "Diplomacy checks against living humanoids that can hear and understand you",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "diplomacy"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        },
+        {
+          "kind": "modifier",
+          "label": "Velvet Voice",
+          "scope": "Bluff checks against living humanoids that can hear and understand you",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "bluff"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!c7VDS6IAigMhASrx"
+}

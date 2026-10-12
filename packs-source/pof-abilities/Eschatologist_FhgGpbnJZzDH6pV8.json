@@ -1,0 +1,100 @@
+{
+  "_id": "FhgGpbnJZzDH6pV8",
+  "name": "Eschatologist",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Archivist 1st level",
+    "active": true,
+    "description": "<p>Your studies concern mortality and everything claimed to lie beyond it. You compare funerary texts, accounts of resurrection, descriptions of the afterlife and testimony concerning souls, ghosts and undeath. Few Archivists possess a more detailed understanding of what cultures believe happens when the heart stops beating - and fewer still are comfortable with how often those beliefs contradict observable evidence.<br>Specialist Skill Soul Lore<br>Specialist Spells Last Rite (1), Anchor the Departing Soul (7)<br>Scholar of the Last Road: You gain a +1-class bonus to saving throws against Soul Drain, possession and effects with the Soul trait. You also gain advantage when attempting to Recall Knowledge about Undead, Unliving creatures, souls and effects concerned directly with death or resurrection.</p>\n<p>Scholar of the Last Road — +1 class to saves is pre-ticked against Soul-trait effects and offered against Soul Drain and possession; advantage on Recall Knowledge is offered with the book's wording.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Archivist",
+    "traits": "",
+    "grantedSpells": "1: Last Rite, 7: Anchor the Departing Soul",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Archivist",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Soul Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Scholar of the Last Road",
+          "scope": "Saving throws against Soul Drain, possession and Soul-trait effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "soul"
+            ]
+          },
+          "value": 1,
+          "type": "class"
+        },
+        {
+          "kind": "modifier",
+          "label": "Scholar of the Last Road",
+          "scope": "Saving throws against Soul Drain, possession and Soul-trait effects",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "soul"
+              ]
+            }
+          },
+          "value": 1,
+          "type": "class"
+        },
+        {
+          "kind": "advantage",
+          "label": "Scholar of the Last Road",
+          "scope": "Recall Knowledge about Undead, Unliving creatures, souls, death or resurrection",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "recallKnowledge"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FhgGpbnJZzDH6pV8"
+}

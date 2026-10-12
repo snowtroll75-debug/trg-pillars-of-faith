@@ -1,0 +1,82 @@
+{
+  "_id": "VAAPYtuYCRadQBdb",
+  "name": "Blood-Scent",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5",
+    "active": true,
+    "description": "<p>VESPERYN</p>\n<p>The scent of living blood reaches you with impossible clarity, carrying information that ordinary senses could never perceive.<br>You gain Blood Sense as a tertiary sense with a range of 30 feet.<br>Blood Sense You can detect the presence and general direction of living creatures within range that are currently suffering from a Bleed effect or have been reduced to half their maximum HP or fewer. Blood Sense does not reveal a creature's exact location, identity, current HP or the nature of its injuries.<br>Furthermore, you gain a +2 racial bonus to Track (Survival) checks when following a trail containing fresh blood.</p>\n<p>Prerequisites Level 5</p>\n<p>Works automatically: Blood Sense (30 ft, tertiary) is on your senses list; +2 racial to Track is offered with the book's wording.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Vesperyn",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "creatureAbility": {
+        "printedTraits": "",
+        "printedAction": "",
+        "printedArea": "",
+        "derives": {
+          "sense": {
+            "category": "tertiary",
+            "modality": "olfactory",
+            "fixedFeet": 30,
+            "name": "Blood Sense",
+            "finds": "living creatures suffering a Bleed effect or at half their maximum HP or fewer"
+          }
+        },
+        "source": "Pillars of Faith, Chapter 5 (Blood-Scent)"
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Blood-Scent",
+          "scope": "Track checks following a trail containing fresh blood",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "track"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VAAPYtuYCRadQBdb"
+}

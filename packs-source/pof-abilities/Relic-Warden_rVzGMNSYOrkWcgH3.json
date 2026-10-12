@@ -1,0 +1,50 @@
+{
+  "_id": "rVzGMNSYOrkWcgH3",
+  "name": "Relic Warden",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>Not every threat has a heartbeat. You investigate corrupted relics, dangerous sacred objects, desecrated shrines and magical artefacts whose legends conceal more than they reveal.<br>Specialist Skill Relic Lore<br>Object Of Inquiry: You may use Inquisition against a magic item, haunt, ward, magical trap or other persistent magical effect instead of a creature. When doing so, you gain the normal Inquisition bonus to checks made to locate, identify, understand, disable or Counteract it. An object or effect cannot normally become Judged and does not receive the combat effects of Judgement unless another ability specifically allows it.</p>\n<p>Object of Inquiry — Inquisition's Use accepts a typed name, so a relic, haunt, ward or trap can be your Subject; the offered class bonus covers locating, identifying, understanding, disabling and Counteracting it.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Relic Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rVzGMNSYOrkWcgH3"
+}

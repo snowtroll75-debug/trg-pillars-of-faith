@@ -1,0 +1,89 @@
+{
+  "_id": "GDODeHSIe44adKzl",
+  "name": "Green Witness",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": "1 minute",
+    "range": "touch",
+    "area": "",
+    "targets": "1 living plant rooted in the surrounding area",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Ask one of the six printed questions about events within 30 feet of the plant in the previous hour (8 or 24 hours with a warp); the answer is truthful but limited to what rooted growth could retain."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Ask one additional question",
+        "mods": {}
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the period examined to 8 hours",
+        "mods": {}
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the period examined to 24 hours",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Druid",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Insight, Plant",
+    "description": "DRUID INSIGHT PLANT UTILITY\nDruid Specialist Spell\nCast 1 minute (somatic, verbal)\nRange touch\nTargets 1 living plant rooted in the surrounding area\n\nYou place your hand against a tree, bush, grass, fungus or other rooted living growth and allow your awareness to spread briefly through it and the surrounding soil.\nThe plant does not speak. Instead, you perceive traces of recent disturbance recorded within its movement, roots, broken fibres, displaced soil and Verdant resonance.\nSelect one of the following questions concerning events within 30 feet of the plant during the previous hour:\nDid one or more creatures of Small size or larger pass through this area?\nWhat general direction did the most recent such creature or group travel?\nWas significant bloodshed or violence committed nearby?\nWas the surrounding vegetation recently burned, poisoned, cut or otherwise deliberately damaged?\nHas an obvious unnatural or magical disturbance affected the local living environment?\nWhat was the approximate size of the largest creature to pass nearby?\nThe answer is truthful but limited to information the local vegetation could reasonably retain.\nGreen Witness does not identify individual creatures, reveal names, read thoughts or reproduce conversations.\nA plant that was not present when the event occurred cannot reveal information about it.\n\nWarping Options:\n+2 PP: Ask one additional question.\n+2 PP: Increase the period examined to 8 hours.\n+2 PP: Increase the period examined to 24 hours.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GDODeHSIe44adKzl"
+}

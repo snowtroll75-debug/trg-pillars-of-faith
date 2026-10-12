@@ -1,0 +1,50 @@
+{
+  "_id": "e1SgOqnWQm5fD5at",
+  "name": "Mercy",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Mercy governs compassion offered when vengeance would be easier. Its icons commonly depict an open hand between a raised weapon and a kneeling figure. Followers establish hospices, negotiate surrenders, ransom prisoners, minister to condemned criminals and seek alternatives to suffering wherever those alternatives genuinely exist.\nMercy is not helplessness. Its priests are permitted to fight, imprison dangerous creatures and even kill when no reasonable means of protecting others remains. The sacred principle is that suffering must never become desirable merely because the victim is an enemy.\n\nEdicts: Relieve suffering where reasonably possible. Accept sincere surrender. Give the repentant an opportunity to make restitution. Heal without demanding that suffering first be deserved. Seek reconciliation where it does not place others in unnecessary danger.\n\nAnathema: Torture a creature. Kill a helpless enemy who could safely be spared. Withhold life-saving assistance solely from hatred or vengeance. Inflict unnecessary suffering as punishment. Pretend cruelty is justice merely because the victim has committed wrongdoing.\n\nSuggested Ethics: Altruism, Benevolence, Harmony\n\nClass Skill: Diplomacy\n\nSpecialist Spells: Banish Fatigue (1), Delayed Respite (1), Soothing Words (1), Wash Away Sin (1), Death's Defiance (7), Protector's Sphere (7), Renewal's Touch (7), Unity (7)\n\nBonus Spells: Cure (2); Calm (4); Death Ward (10); Resurrection (12)\n\nFavoured Weapon: Club\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Good",
+    "edicts": "Relieve suffering where reasonably possible. Accept sincere surrender. Give the repentant an opportunity to make restitution. Heal without demanding that suffering first be deserved. Seek reconciliation where it does not place others in unnecessary danger.",
+    "anathema": "Torture a creature. Kill a helpless enemy who could safely be spared. Withhold life-saving assistance solely from hatred or vengeance. Inflict unnecessary suffering as punishment. Pretend cruelty is justice merely because the victim has committed wrongdoing.",
+    "suggestedEthics": "Altruism, Benevolence, Harmony",
+    "classSkill": "Diplomacy",
+    "favouredWeapon": "Club",
+    "specialistSpells": "Banish Fatigue, Delayed Respite, Soothing Words, Wash Away Sin, Death's Defiance, Protector's Sphere, Renewal's Touch, Unity",
+    "bonusSpells": "2: Cure, 4: Calm, 10: Death Ward, 12: Resurrection"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Altruism",
+        "Benevolence",
+        "Harmony"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!e1SgOqnWQm5fD5at"
+}

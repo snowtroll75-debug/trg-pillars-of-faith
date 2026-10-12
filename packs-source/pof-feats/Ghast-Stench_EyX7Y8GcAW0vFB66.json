@@ -1,0 +1,97 @@
+{
+  "_id": "EyX7Y8GcAW0vFB66",
+  "name": "Ghast Stench",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10",
+    "active": true,
+    "description": "<p>AURA SAVE UNLIVING-GHOUL</p>\n<p>Prerequisites Level 10</p>\n<p>The corruption clinging to your flesh becomes a choking grave-reek.</p>\n<p>You emanate a 10-foot stench aura. Living creatures beginning their turn in the aura or entering it must attempt a Fortitude save with the following results:</p>\n<p>Success the target is unaffected.</p>\n<p>Failure the creature is sickened 1.</p>\n<p>Fumble the creature is sickened 1 and slowed 1 for as long as it remains sickened.</p>\n<p>A creature that saves against your Ghast Stench is immune to your aura for 1 minute.</p>\n<p>Works automatically: a 10-foot aura; a living creature starting its turn in it or entering it rolls Fortitude against your Level DC — Failure sickened 1; Fumble sickened 1 and slowed 1 while sickened. A creature that saves is immune for 1 minute.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Aura, Save, Unliving-Ghoul",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "auras": [
+        {
+          "id": "ghast-stench",
+          "kind": "save",
+          "name": "Ghast Stench",
+          "radius": 10,
+          "triggers": [
+            "turnStart",
+            "enter"
+          ],
+          "save": "fortitude",
+          "livingOnly": true,
+          "appliesTo": "Living creatures",
+          "traits": [
+            "aura"
+          ],
+          "immunitySeconds": 60,
+          "immunityOn": "success",
+          "outcomes": {
+            "success": "unaffected",
+            "failure": "sickened 1",
+            "fumble": "sickened 1 and slowed 1 for as long as it remains sickened"
+          },
+          "conditions": {
+            "heroic": [],
+            "critical": [],
+            "success": [],
+            "failure": [
+              {
+                "key": "sickened",
+                "value": 1
+              }
+            ],
+            "fumble": [
+              {
+                "key": "sickened",
+                "value": 1
+              },
+              {
+                "key": "slowed",
+                "value": 1,
+                "endsWith": "sickened"
+              }
+            ]
+          }
+        }
+      ],
+      "bookCategory": "unliving",
+      "unlivingGroup": "ghoul"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!EyX7Y8GcAW0vFB66"
+}

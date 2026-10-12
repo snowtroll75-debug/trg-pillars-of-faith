@@ -1,0 +1,50 @@
+{
+  "_id": "JjBgwWiviQdSsp97",
+  "name": "Knowledge",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Knowledge venerates understanding obtained through study, observation and honest inquiry. It differs from Revelation because knowledge need not arrive through prophecy or supernatural insight: a carefully maintained ledger, a dissected specimen and a corrected historical record may all be equally sacred. Its symbols include an open book beneath an eye, a lamp beside a stack of tablets and a key laid across a written page.\n\nEdicts: Seek accurate knowledge. Preserve useful records. Investigate before reaching conclusions. Teach knowledge responsibly. Correct dangerous falsehoods. Distinguish evidence from belief or assumption.\n\nAnathema: Knowingly falsify scholarship. Destroy unique knowledge merely to monopolise it. Suppress useful truth solely to protect your own status. Deliberately teach something you know to be false. Refuse to correct a dangerous error for which you are responsible.\n\nSuggested Ethics: Adaptability, Ambition, Prudence\n\nClass Skill: Arcana\n\nSpecialist Spells: Guiding Stone (1), Revelation Divine (1), Seer's Vision (1), Truthful Words (1), Revealing Glance (7), Unity (7), Veiled Secret (7), Vigilant Eye (7)\n\nBonus Spells: Deific Knowing (2); Augury (4); Divine Vision (8); Commune (10)\n\nFavoured Weapon: Club\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Balance",
+    "edicts": "Seek accurate knowledge. Preserve useful records. Investigate before reaching conclusions. Teach knowledge responsibly. Correct dangerous falsehoods. Distinguish evidence from belief or assumption.",
+    "anathema": "Knowingly falsify scholarship. Destroy unique knowledge merely to monopolise it. Suppress useful truth solely to protect your own status. Deliberately teach something you know to be false. Refuse to correct a dangerous error for which you are responsible.",
+    "suggestedEthics": "Adaptability, Ambition, Prudence",
+    "classSkill": "Arcana",
+    "favouredWeapon": "Club",
+    "specialistSpells": "Guiding Stone, Revelation Divine, Seer's Vision, Truthful Words, Revealing Glance, Unity, Veiled Secret, Vigilant Eye",
+    "bonusSpells": "2: Deific Knowing, 4: Augury, 8: Divine Vision, 10: Commune"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Adaptability",
+        "Ambition",
+        "Prudence"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!JjBgwWiviQdSsp97"
+}

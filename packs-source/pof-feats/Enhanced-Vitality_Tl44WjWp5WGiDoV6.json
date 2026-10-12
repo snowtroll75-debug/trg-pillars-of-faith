@@ -1,0 +1,49 @@
+{
+  "_id": "Tl44WjWp5WGiDoV6",
+  "name": "Enhanced Vitality",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 4 ranks",
+    "active": true,
+    "description": "<p>HEALER</p>\n<p>Your mastery of healing magic strengthens the restorative power of your spells, allowing you to remove greater afflictions.<br>When you use Restorative Hands, the amount by which the selected condition is reduced increases according to the PP required to cast the triggering spell:<br>Fatigued or Sickened: Reduce by 1 per complete 2 PP spent (for example, a 4 PP spell reduces the condition by 2 instead of 1).<br>Dazed or Weakened: Reduce by 1 per complete 4 PP spent (for example, an 8 PP spell reduces the condition by 2 instead of 1).<br>Injured: Reduce by 1 per complete 6 PP spent (for example, a 12 PP spell reduces the condition by 2 instead of 1).<br>Soul Drain: Reduce by 5 per complete 8 PP spent (for example, a 16 PP spell reduces Soul Drain by 10 instead of 5).<br>Doomed: Reduce by 1 per complete 10 PP spent (for example, a 20 PP spell reduces Doomed by 2 instead of 1).</p>\n<p>Prerequisites Medicine 4 ranks</p>\n<p>Works through Restorative Hands: the reduction scales with the PP entered.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Tl44WjWp5WGiDoV6"
+}

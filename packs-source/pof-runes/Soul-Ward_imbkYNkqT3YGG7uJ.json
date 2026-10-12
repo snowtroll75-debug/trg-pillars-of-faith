@@ -1,0 +1,56 @@
+{
+  "_id": "imbkYNkqT3YGG7uJ",
+  "name": "Soul Ward",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 11000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Invested, Soul, Warding",
+    "description": "Activate Reaction\n\nTrigger You would gain Soul Drain\n\nFrequency 1/minute\n\nFine silver lines radiate outward from a stylised heart, flaring briefly when something attempts to tear at the wearer's essence.\n\nReduce the amount of Soul Drain gained by 5, to a minimum of 0.\n\nIf the armour possesses a Potency III or greater rune, reduce the Soul Drain by 10 instead. The rune cannot reduce Soul Drain already possessed by the wearer.\n\nInscribed onto armour.\n\nOn the sheet: Applied automatically: Soul Drain you gain is reduced by 5 — by 10 while the armour bears Potency III or better — once a minute. Never Soul Drain you already carry.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 11,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "soulWard",
+        "tier": 1,
+        "on": [
+          "armour"
+        ],
+        "automation": "event"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!imbkYNkqT3YGG7uJ"
+}

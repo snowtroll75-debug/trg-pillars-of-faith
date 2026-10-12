@@ -1,0 +1,88 @@
+{
+  "_id": "hTdUJZDGNvUBuF7R",
+  "name": "Call Minor Spirit",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": "1 minute",
+    "range": "",
+    "area": "30-foot emanation",
+    "targets": "",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "A willing minor spirit connected to the place, object, feature or recent event may manifest enough to communicate with you and those you designate. Nothing is summoned, compelled or made tangible."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the area to a 100-foot emanation",
+        "mods": {
+          "areaOverride": "100-foot emanation"
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 10 minutes",
+        "mods": {
+          "durationText": "10 minutes"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Shaman",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Spirit",
+    "description": "SHAMAN SPIRIT UTILITY\nShaman Specialist Spell\nCast 1 minute (material, verbal)\nArea 30-foot emanation\nDuration 1 minute\n\nYou extend an invitation into the unseen world.\nIf an appropriate willing minor spirit is present within the area, it may manifest sufficiently to communicate with you and creatures you designate.\nThe spirit must possess some connection to the immediate location, object, natural feature or recent spiritual event. The spell cannot summon a particular deceased creature, compel an unwilling spirit, create a spirit where none exists or grant the spirit information it does not already possess.\nManifestation through this spell does not make the spirit physically tangible and does not grant it any additional ability to attack, manipulate objects or be attacked.\n\nWarping Options:\n+2 PP: Increase the area to a 100-foot emanation.\n+2 PP: Increase the duration to 10 minutes.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hTdUJZDGNvUBuF7R"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "wtyOZM0A2903eYvn",
+  "name": "Stand Over the Dead",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Morrin heritage, Level 5",
+    "active": true,
+    "description": "<p>ESHARI</p>\n<p>Nothing reaches the remains entrusted to you without first passing through you.<br>You gain a +2-racial bonus to saving throws and skill checks made to resist being Shoved, Tripped or forcibly moved.<br>In addition, whenever you are adjacent to a corpse, reliquary or helpless creature that you have deliberately chosen to guard, you gain a +1-circumstance bonus to DB.<br>You may designate what you are guarding as a Free (0 AP) action on your turn. You may guard only one creature, corpse or object at a time.</p>\n<p>Prerequisites Morrin heritage, Level 5</p>\n<p>Works automatically: +2 racial is offered on checks and saves to resist being moved; Use to name what you guard — +1 circumstance to DB lands on your sheet while you stand by it (Use again to stand down).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Stand Over the Dead",
+          "scope": "Saving throws and skill checks to resist being Shoved, Tripped or forcibly moved",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save",
+              "skill",
+              "attribute"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!wtyOZM0A2903eYvn"
+}

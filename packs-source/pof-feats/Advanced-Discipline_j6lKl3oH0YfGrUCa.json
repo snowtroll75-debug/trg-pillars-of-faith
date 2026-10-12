@@ -1,0 +1,49 @@
+{
+  "_id": "j6lKl3oH0YfGrUCa",
+  "name": "Advanced Discipline",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 8",
+    "active": true,
+    "description": "<p>GRIMWARD</p>\n<p>Your specialist training has been developed into a technique recognized amongst the most experienced members of your order.<br>Your Inquisitorial Discipline gains the following additional benefit:<br>Exorcist - Expel the Intruder: Whenever you successfully Counteract possession affecting another creature, that creature gains a +2-status bonus to saving throws against possession for 24 hours.<br>Grave Warden - Restless End: Judgement secondary damage against Undead or Unliving creatures increases by 1d6 when you choose to inflict it as Essence damage.<br>Hexbreaker - Unravelled Working: When you Critically succeed on a Counteract check against an effect created by your Judged Subject, the Subject suffers a -1-status penalty to Spellcraft checks until the end of its next turn.<br>Relic Warden - Condemn the Object: An object or persistent magical effect that is your Subject may now become Judged. Your Judgement attack and damage bonuses apply to checks, attacks or spells capable of damaging, disabling or Counteracting it.<br>Truthseeker - No Refuge in Falsehood: Your Judged Subject cannot gain a circumstance bonus against you from mundane disguise, Feinting or deliberate deception.</p>\n<p>Prerequisites Level 8</p>\n<p>Works through Judgement and Inquisition: the card names your discipline's advanced benefit; Grave Warden's extra 1d6 rides the Judgement rider when you choose Essence.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Grimward",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!j6lKl3oH0YfGrUCa"
+}

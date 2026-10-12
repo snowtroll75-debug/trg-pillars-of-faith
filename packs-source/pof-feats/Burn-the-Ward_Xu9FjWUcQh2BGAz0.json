@@ -1,0 +1,49 @@
+{
+  "_id": "Xu9FjWUcQh2BGAz0",
+  "name": "Burn the Ward",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10, Hearthkeeper Tradition",
+    "active": true,
+    "description": "<p>FOLKWARDEN VERDANT WARDING</p>\n<p>Sometimes the circle is not meant to survive the night. Sometimes it only has to survive one terrible moment.<br>Action Reaction; Trigger A willing creature within one of your Wards the Threshold fails a saving throw against an effect for which the ward grants a bonus.<br>You immediately end that Ward the Threshold.<br>The triggering creature rerolls the saving throw with Advantage and uses the better result.<br>The Preparation is lost when the ward ends.</p>\n<p>Prerequisites Level 10, Hearthkeeper Tradition</p>\n<p>Use as the Reaction: ends your Ward the Threshold (its effects come off everyone) and the card says the triggering creature rerolls with advantage.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Verdant, Warding, Folkwarden",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Xu9FjWUcQh2BGAz0"
+}

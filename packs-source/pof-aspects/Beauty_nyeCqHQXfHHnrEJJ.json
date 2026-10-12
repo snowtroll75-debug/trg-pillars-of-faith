@@ -1,0 +1,50 @@
+{
+  "_id": "nyeCqHQXfHHnrEJJ",
+  "name": "Beauty",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Beauty teaches that existence should contain more than survival. Art, music, architecture, graceful movement and the splendour of the natural world can elevate mortal lives and express truths that ordinary language cannot. Beauty is distinguished from Decadence by its desire to create and share rather than merely consume. Common symbols include an open flower, a flawless mirror, a many-stringed instrument and a rising sun reflected through coloured glass.\n\nEdicts: Create or preserve things of genuine beauty. Encourage artistic expression. Protect irreplaceable works of art. Bring beauty into bleak places. Use art and expression to inspire, console or reconcile.\n\nAnathema: Destroy a unique work of beauty solely through spite. Deliberately mutilate something simply to make it ugly. Suppress harmless artistic expression to enforce conformity. Coerce another creature's affection or admiration. Excuse cruelty merely because it is aesthetically pleasing.\n\nSuggested Ethics: Benevolence, Harmony, Autonomy\n\nClass Skill: Artistry\n\nSpecialist Spells: Revelation Divine (1), Soothing Words (1), Truthful Words (1), Veiled Presence (1), False Arrogance (7), Revealing Glance (7), Unity (7), Veiled Secret (7)\n\nBonus Spells: Light (0); Charm Kind (2); Aura (4); Heroism (6)\n\nFavoured Weapon: Sword\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Good",
+    "edicts": "Create or preserve things of genuine beauty. Encourage artistic expression. Protect irreplaceable works of art. Bring beauty into bleak places. Use art and expression to inspire, console or reconcile.",
+    "anathema": "Destroy a unique work of beauty solely through spite. Deliberately mutilate something simply to make it ugly. Suppress harmless artistic expression to enforce conformity. Coerce another creature's affection or admiration. Excuse cruelty merely because it is aesthetically pleasing.",
+    "suggestedEthics": "Benevolence, Harmony, Autonomy",
+    "classSkill": "Artistry",
+    "favouredWeapon": "Sword",
+    "specialistSpells": "Revelation Divine, Soothing Words, Truthful Words, Veiled Presence, False Arrogance, Revealing Glance, Unity, Veiled Secret",
+    "bonusSpells": "1: Light, 2: Charm Kind, 4: Aura, 6: Heroism"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Benevolence",
+        "Harmony",
+        "Autonomy"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nyeCqHQXfHHnrEJJ"
+}

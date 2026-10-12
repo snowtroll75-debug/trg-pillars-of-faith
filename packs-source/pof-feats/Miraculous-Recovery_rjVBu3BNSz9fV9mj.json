@@ -1,0 +1,49 @@
+{
+  "_id": "rjVBu3BNSz9fV9mj",
+  "name": "Miraculous Recovery",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 12 ranks, Resurgent Healing",
+    "active": true,
+    "description": "<p>FOCUS HEALER METAMAGIC</p>\n<p>With a touch, you can push the boundaries of mortal endurance and bring back those thought lost.<br>PP Cost +4<br>When you cast a Healing spell on a creature that died within the last round, that creature returns to life with HP equal to half the amount that the spell would normally restore.<br>The creature's body must be present and capable of receiving healing, and its soul must be free and willing to return. Being restored to life through Miraculous Recovery counts as being restored to life for all normal effects and consequences, including any reduction to Death State. It cannot restore a creature that died from old age.<br>Miraculous Recovery is then expended and must be restored using Refocus.</p>\n<p>Prerequisites Medicine 12 ranks, Resurgent Healing</p>\n<p>Use (Focus, +4 PP metamagic) when casting a Healing spell on a creature dead within the round: spends the use; the card says they return at half the healing — set HP by hand.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Focus, Metamagic, Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rjVBu3BNSz9fV9mj"
+}

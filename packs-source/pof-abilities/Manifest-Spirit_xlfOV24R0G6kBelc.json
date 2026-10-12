@@ -1,0 +1,49 @@
+{
+  "_id": "xlfOV24R0G6kBelc",
+  "name": "Manifest Spirit",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>CONCENTRATE FOCUS SPIRIT<br>Action 1 AP<br>Duration 1 minute<br>You allow your Spirit Guide to manifest more completely around and through you.<br>The manifestation may appear as spectral figures, animal features, swirling leaves, elemental light, ancestral voices or another effect appropriate to your guide.<br>You gain the Manifestation ability associated with your Spirit Guide for the duration.<br>You may dismiss the manifestation as a Free (0 AP) action.</p>\n<p>Use: spends 1 AP and the Focus use and puts your guide's one-minute manifestation on your sheet as an effect; Use again to dismiss it early.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "Concentrate, Focus, Spirit",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xlfOV24R0G6kBelc"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "GU7wD4yXIh6tjUha",
+  "name": "Guide the Last Road",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10, Religion 3 ranks",
+    "active": true,
+    "description": "<p>ESHARI</p>\n<p>You have performed enough funerals to know that haste need not mean disrespect.<br>You may Perform Last Rites in 1 minute rather than 10 minutes. When you do so, improve the protection provided by the action:<br>Critical Protection lasts 1 month.<br>Success Protection lasts 7 days.<br>Partial Protection lasts 24 hours.<br>All other rules for Perform Last Rites remain unchanged.</p>\n<p>Prerequisites Level 10, Religion 3 ranks</p>\n<p>Works automatically: Perform Last Rites takes 1 minute and its card prints the longer protections (1 month / 7 days / 24 hours).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GU7wD4yXIh6tjUha"
+}

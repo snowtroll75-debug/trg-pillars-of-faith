@@ -1,0 +1,88 @@
+{
+  "_id": "FDnHhvEXCAcio5a5",
+  "name": "Deepened Bond",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 7,
+    "prerequisites": "Shaman 7th level",
+    "active": true,
+    "description": "<p>At 7th level, your Spirit Guide can remain closer to the physical world.<br>Whenever you successfully Refocus an expended Shaman Focus ability, you may choose Manifest Spirit or Spirit Intercession and restore that ability in addition to the ability you were attempting to restore.<br>You cannot restore the same ability twice.</p>\n<p>Works automatically: a successful Refocus also restores Manifest Spirit or Spirit Intercession (chosen when both are spent) on the same timing.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "kyUHnlC4Cte4P658",
+      "name": "Deepened Bond: Refocus",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "refocusAlsoRestores": {
+            "label": "Deepened Bond",
+            "names": [
+              "Manifest Spirit",
+              "Spirit Intercession"
+            ]
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "A successful Refocus also restores Manifest Spirit or Spirit Intercession.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!FDnHhvEXCAcio5a5.kyUHnlC4Cte4P658"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 7
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FDnHhvEXCAcio5a5"
+}

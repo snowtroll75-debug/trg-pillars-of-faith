@@ -1,0 +1,96 @@
+{
+  "_id": "X5bibgjsMlVvqyNg",
+  "name": "Hook of the Last Passage",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 8,
+    "price": 24435,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Cold Iron, Disarm, Master, Potency III, Reach, Requiem I, Soulchain, Trip",
+    "attackBonus": 0,
+    "damage": "1d8",
+    "damageType": "piercing",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 18,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Polearm",
+    "category": "Martial",
+    "size": "large",
+    "itemLevel": 13,
+    "description": "The hook appears badly tarnished until brought near an incorporeal spirit, at which point its entire head takes on the cold silver sheen of moonlit iron.\n\nThe first successful Strike each round against an Undead or Unliving creature inflicts 1d6 secondary essence damage.\n\nStatistics: AB +3; Damage 1d8+2 P; Size L; FDC 18.\n\nTraits Cold Iron, Disarm, Master, Potency III, Reach, Requiem I, Soulchain, Trip.\n\nOn the sheet: a Master cold-iron Grave Hook with Potency III, Requiem I and Soulchain (after a hit, once a round, the creature's Will save against your Level DC).\n\nPillars of Faith, Chapter 11.",
+    "quality": "master",
+    "material": "coldIron",
+    "runes": "Potency III, Requiem I, Soulchain",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 3,
+            "printed": "Potency III"
+          },
+          {
+            "key": "requiem",
+            "label": "Requiem",
+            "tier": 1,
+            "printed": "Requiem I"
+          },
+          {
+            "key": "soulchain",
+            "label": "Soulchain",
+            "tier": 1,
+            "printed": "Soulchain"
+          }
+        ],
+        "runeText": "Potency III, Requiem I, Soulchain",
+        "traits": [
+          "Cold Iron",
+          "Disarm",
+          "Master",
+          "Potency III",
+          "Reach",
+          "Requiem I",
+          "Soulchain",
+          "Trip"
+        ],
+        "quality": "master",
+        "material": "coldIron",
+        "printedItemBonus": 3
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!X5bibgjsMlVvqyNg"
+}

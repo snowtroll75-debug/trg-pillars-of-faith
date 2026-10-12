@@ -1,0 +1,68 @@
+{
+  "_id": "AwWbBK9JnMlGeqMn",
+  "name": "Rod of Scholarly Recall",
+  "img": "icons/svg/wing.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 2,
+    "price": 1800,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Insight, Invested, Rod",
+    "description": "Usage held in 1 hand; Weight 2 lbs. Power Points 10; Recharge 1 per day.\n\nTiny rotating rings around the head contain abbreviated symbols for dozens of scholarly disciplines.\n\nActivate You attempt Recall Knowledge, Identify Power, Analyse Scripture, Recognise Doctrine or Trace Religious Provenance\n\nAction Free\n\nExpend 2 PP from the rod to gain Advantage on the triggering check.\n\nOn the sheet: held, the rod offers Advantage for 2 PP on Recall Knowledge, Identify Power, Analyse Scripture, Recognise Doctrine and Trace Religious Provenance.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 10,
+    "itemSize": "medium",
+    "itemLevel": 7,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "chargedItem": {
+        "kind": "rod",
+        "maximumPP": 10,
+        "flexible": false,
+        "recharge": 1,
+        "printedRecharge": 1,
+        "printedPowerPoints": 10,
+        "correctedFromPrinted": false,
+        "spells": [],
+        "checkAdvantage": {
+          "actions": [
+            "recallKnowledge",
+            "identifyPower",
+            "analyseScripture",
+            "recogniseDoctrine",
+            "traceReligiousProvenance"
+          ],
+          "cost": 2
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AwWbBK9JnMlGeqMn"
+}

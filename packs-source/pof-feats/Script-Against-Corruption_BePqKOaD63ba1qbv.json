@@ -1,0 +1,85 @@
+{
+  "_id": "BePqKOaD63ba1qbv",
+  "name": "Script Against Corruption",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5",
+    "active": true,
+    "description": "<p>KETHRANI</p>\n<p>Hostile power struggles to overwrite words that no mortal hand placed upon you.<br>The racial bonus granted by Sacred Inscription against Curse effects increases from +1 to +2.<br>Whenever you successfully save against a Curse, you also immediately recognise that the effect was a curse, even if its normal rules would conceal that information.</p>\n<p>Prerequisites Level 5</p>\n<p>Works automatically: this feat adds the second +1 beside Sacred Inscription's, pre-ticked on saves against Curse-trait effects.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Script Against Corruption",
+          "scope": "Saving throws against Curse effects (the second point of Sacred Inscription's bonus)",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "curse"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        },
+        {
+          "kind": "modifier",
+          "label": "Script Against Corruption",
+          "scope": "Saving throws against Curse effects (the second point of Sacred Inscription's bonus)",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "curse"
+              ]
+            }
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BePqKOaD63ba1qbv"
+}

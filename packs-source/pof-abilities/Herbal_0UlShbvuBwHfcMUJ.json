@@ -1,0 +1,50 @@
+{
+  "_id": "0UlShbvuBwHfcMUJ",
+  "name": "Herbal",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>You understand that the difference between medicine and poison is frequently a matter of quantity, timing and preparation.<br>Specialist Skill Herbalism Lore<br>Deep Stores Whenever you use Brew Remedy, you create two doses of the same remedy. The two doses collectively count as only one active Preparation. The Preparation ends when both doses have been consumed, applied or destroyed.</p>\n<p>Deep Stores — Brew Remedy's Use creates two doses for one Preparation.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Herbalism Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0UlShbvuBwHfcMUJ"
+}

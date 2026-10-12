@@ -1,0 +1,51 @@
+{
+  "_id": "ffWQmodos2aDWuJo",
+  "name": "Bony Hand",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>UNLIVING-LICH</p>\n<p>Your hand becomes a necromantic instrument, striking flesh and soul together.</p>\n<p>You gain a Bony Hand natural attack. It deals 1d8 bludgeoning damage plus 1d6 essence damage and has the agile, finesse, and magical traits.</p>\n<p>Grants Bony Hand (1d8 bludgeoning + 1d6 essence; agile, finesse, magical).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Lich",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "",
+    "grantedWeapons": "Bony Hand (Unliving Lich)"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "lich"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ffWQmodos2aDWuJo"
+}

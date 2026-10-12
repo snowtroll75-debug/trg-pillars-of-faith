@@ -1,0 +1,102 @@
+{
+  "_id": "AlFzLX8asWDjlkMN",
+  "name": "Waykeeper",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 7,
+    "price": 32440,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Banishing, Brace, Exorcist, Master, Potency III, Reach, Requiem I, Versatile S",
+    "attackBonus": 0,
+    "damage": "1d8",
+    "damageType": "piercing",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 18,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Spear",
+    "category": "Exotic",
+    "size": "large",
+    "itemLevel": 14,
+    "description": "Eshari stories claim that the first Waykeeper was carried by a funerary escort who walked for nine days beside a dead king because the king's spirit refused to believe that he had died. At the end of the road the spear was planted in the ground, the king finally looked behind him and saw his own funeral procession.\n\nThe first successful Strike each round against an Undead or Unliving creature inflicts 1d6 secondary essence damage. The spear may strike incorporeal spirits normally if you can perceive them.\n\nStatistics: AB +3; Damage 1d8+2 P; Size L; FDC 18.\n\nTraits Banishing, Brace, Exorcist, Master, Potency III, Reach, Requiem I, Versatile S.\n\nOn the sheet: a Master Last-Road Spear with Potency III, Banishing, Exorcist and Requiem I.\n\nPillars of Faith, Chapter 11.",
+    "quality": "master",
+    "material": "",
+    "runes": "Potency III, Banishing, Exorcist, Requiem I",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 3,
+            "printed": "Potency III"
+          },
+          {
+            "key": "banishing",
+            "label": "Banishing",
+            "tier": 1,
+            "printed": "Banishing"
+          },
+          {
+            "key": "exorcist",
+            "label": "Exorcist",
+            "tier": 1,
+            "printed": "Exorcist"
+          },
+          {
+            "key": "requiem",
+            "label": "Requiem",
+            "tier": 1,
+            "printed": "Requiem I"
+          }
+        ],
+        "runeText": "Potency III, Banishing, Exorcist, Requiem I",
+        "traits": [
+          "Banishing",
+          "Brace",
+          "Exorcist",
+          "Master",
+          "Potency III",
+          "Reach",
+          "Requiem I",
+          "Versatile S"
+        ],
+        "quality": "master",
+        "material": "",
+        "printedItemBonus": 3
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AlFzLX8asWDjlkMN"
+}

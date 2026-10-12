@@ -1,0 +1,65 @@
+{
+  "_id": "4xThBHsfCh6FEEB7",
+  "name": "Beacon for the Departing",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Lumari heritage, Lantern of the Last Road, Level 5",
+    "active": true,
+    "description": "<p>AURA DIVINITY ESHARI</p>\n<p>Your lantern-light falls upon more than the physical world.<br>While your racial light is active, disembodied spirits and incorporeal undead within 10 feet cannot benefit from Concealment against you merely because they are incorporeal or spiritually manifested.<br>In addition, a living ally within your light who is Dying gains a +1-status bonus to Dying recovery checks. Your light does not reveal creatures that are genuinely Invisible for another reason.</p>\n<p>Prerequisites Lumari heritage, Lantern of the Last Road, Level 5</p>\n<p>A rule for the table while your light is active (the aura's +1 status to a Dying ally's recovery checks is offered in that dialog).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Aura, Divinity",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Beacon for the Departing",
+          "scope": "A Dying recovery check by a living ally within your active light",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "flat",
+              "save"
+            ]
+          },
+          "value": 1,
+          "type": "status"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4xThBHsfCh6FEEB7"
+}

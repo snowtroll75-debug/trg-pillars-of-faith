@@ -1,0 +1,143 @@
+{
+  "_id": "m0DML4YnmxNr3HqZ",
+  "name": "Threshold Ward",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 10,
+    "castAP": "10 minutes",
+    "range": "touch",
+    "area": "20-foot line (one doorway, gate, arch or other opening no more than 20 feet across)",
+    "targets": "",
+    "duration": "8 hours",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "entryCheck",
+        "target": "area",
+        "label": "Threshold Ward",
+        "save": "will",
+        "crossingOnly": true,
+        "gate": [
+          {
+            "traits": [
+              "spirit"
+            ]
+          },
+          {
+            "types": [
+              "undead"
+            ],
+            "incorporeal": true
+          }
+        ],
+        "degrees": {
+          "critical": {
+            "text": "crosses normally",
+            "unaffected": true
+          },
+          "success": {
+            "text": "crosses, but becomes Weakened 1 until the end of its next turn",
+            "rows": [
+              {
+                "kind": "condition",
+                "target": "targets",
+                "condition": "weakened",
+                "value": 1,
+                "duration": "1 round"
+              }
+            ]
+          },
+          "failure": {
+            "text": "cannot cross the ward for 1 minute",
+            "pushBack": true,
+            "bar": 60
+          },
+          "fumble": {
+            "text": "cannot voluntarily cross the ward for the duration",
+            "pushBack": true,
+            "bar": "spell"
+          }
+        }
+      },
+      {
+        "kind": "note",
+        "text": "An effect establishing possession through the ward, or moving a disembodied spirit across it by Teleportation or similar magic, must first Counteract Threshold Ward. Ordinary corporeal creatures, corporeal Undead and Unliving characters cross freely."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Protect an opening up to 40 feet across",
+        "mods": {
+          "areaOverride": "40-foot line (an opening up to 40 feet across)"
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the duration to 1 day",
+        "mods": {
+          "durationText": "1 day"
+        }
+      },
+      {
+        "ppCost": 6,
+        "text": "Increase the duration to 1 week",
+        "mods": {
+          "durationText": "1 week"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Soul, Warding",
+    "description": "SOUL UTILITY WARDING\nTradition divinity\nCast 10 minutes (material, somatic, verbal)\nRange touch\nArea one doorway, gate, arch or other opening no more than 20 feet across\nDuration 8 hours\n\nYou establish a spiritual boundary across the chosen threshold.\nA disembodied spirit or incorporeal Undead attempting to cross the boundary must attempt a Will saving throw.\nCritical: The creature crosses normally.\nSuccess: The creature crosses but becomes Weakened 1 until the end of its next turn.\nFailure: The creature cannot cross the ward for 1 minute.\nFumble: The creature cannot voluntarily cross the ward for duration.\nAn effect attempting to establish possession through the ward, or to move a disembodied spirit across it using Teleportation or similar magic, must first successfully Counteract Threshold Ward. The ward does not prevent ordinary corporeal creatures, including corporeal Undead or Unliving characters, from physically crossing the threshold.\n\nWarping Options:\n+2 PP: Protect an opening up to 40 feet across.\n+4 PP: Increase the duration to 1 day.\n+6 PP: Increase the duration to 1 week.\n\nPillars of Faith, Chapter 10. The ward is a line Region across the opening: a disembodied spirit or incorporeal Undead crossing it rolls the Will save, and Failure or Fumble puts it back outside."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!m0DML4YnmxNr3HqZ"
+}

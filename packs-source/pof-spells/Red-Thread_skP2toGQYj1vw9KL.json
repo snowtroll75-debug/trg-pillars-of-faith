@@ -1,0 +1,91 @@
+{
+  "_id": "skP2toGQYj1vw9KL",
+  "name": "Red Thread",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": "1 minute",
+    "range": "touch",
+    "area": "",
+    "targets": "2 willing creatures",
+    "duration": "8 hours",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Each of the two creatures always knows the other's general direction while within 1 mile on the same plane."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the range to 10 miles",
+        "mods": {}
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase duration to 24 hours",
+        "mods": {
+          "durationText": "24 hours"
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the range to 100 miles",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Folkwarden",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": false,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Insight",
+    "description": "FOLKWARDEN INSIGHT UTILITY\nFolkwarden Specialist Spell\nCast 1 minute (material, somatic)\nRange touch\nTargets 2 willing creatures\nDuration 8 hours\n\nYou tie, loop or symbolically divide a length of red thread between two creatures, creating a faint sympathetic connection.\nWhile the creatures remain within 1 mile of one another and upon the same plane, each always knows the general direction of the other.\nRed Thread does not reveal exact distance, location, physical condition or a route through intervening obstacles. If the creatures move beyond the spell's range, the connection becomes imperceptible until they return within range.\nThe physical thread need not remain intact once the spell has been cast.\n\nWarping Options:\n+2 PP: Increase the range to 10 miles.\n+2 PP: Increase duration to 24 hours.\n+4 PP: Increase the range to 100 miles.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!skP2toGQYj1vw9KL"
+}

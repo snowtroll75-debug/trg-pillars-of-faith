@@ -1,0 +1,63 @@
+{
+  "_id": "pZnyXc6BFVcf6ONt",
+  "name": "Fangs (Vesperyn)",
+  "img": "systems/trg-prime/assets/weapons/claw.png",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 0,
+    "equipped": true,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Agile, Finesse",
+    "description": "<p>Hunter's Fangs (Pillars of Faith, Chapter 5). Whenever your Fangs inflict a critical injury upon a living creature capable of bleeding, that creature also gains Bleed 1.</p>",
+    "attackBonus": 0,
+    "damage": "1d6",
+    "damageType": "piercing",
+    "baseDamage": 0,
+    "hands": 0,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 5,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Brawling",
+    "category": "Unarmed",
+    "size": "medium",
+    "itemLevel": 0,
+    "quality": "standard",
+    "material": "",
+    "superiorTraits": "",
+    "loaded": true,
+    "reloadProgress": 0,
+    "usedQuickLoadThisRound": false,
+    "spinBonus": 0,
+    "attackedThisTurn": false,
+    "natural": true
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {}
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!pZnyXc6BFVcf6ONt"
+}

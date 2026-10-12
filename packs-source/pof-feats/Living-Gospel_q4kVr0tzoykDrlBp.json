@@ -1,0 +1,49 @@
+{
+  "_id": "q4kVr0tzoykDrlBp",
+  "name": "Living Gospel",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 15",
+    "active": true,
+    "description": "<p>DIVINITY KETHRANI</p>\n<p>Entire prayers now emerge upon your flesh overnight, complete in languages you sometimes do not recognize.<br>During your daily preparations, select one, non-Specialist Divinity spell with a base PP cost of 4 or less.<br>Until your next daily preparations, you may cast that spell as a Divinity innate spell with the Focus trait.</p>\n<p>Prerequisites Level 15</p>\n<p>Use at daily preparation: choose any non-specialist Divinity spell of base PP 4 or less — it lands as an innate Focus spell until your next choice.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Divinity",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!q4kVr0tzoykDrlBp"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "ZJTgYRnZp4yUnyc7",
+  "name": "Doctrinal Recall",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Religion or Linguistics 1 rank",
+    "active": true,
+    "description": "<p>Years spent comparing teachings allow you to recognise religious ideas even when they are expressed in unfamiliar language.</p>\n<p>Prerequisites Religion or Linguistics 1 rank</p>\n<p>When using Recognise Doctrine, you may use Religion, Linguistics or Culture, whichever has the highest bonus. Use the selected skill's ranks to meet the action's Rank requirement.</p>\n<p>Furthermore, when you achieve a Success or better on Recognise Doctrine, you gain a +1 circumstance bonus to your next Recall Knowledge or Analyse Scripture check concerning the same doctrine within the next hour.</p>\n<p>Recognise Doctrine is offered from your Religion, Linguistics and Culture skills alike — invoke it from whichever is highest. After a Success or better, press Use to queue the +1 circumstance bonus for the follow-up check.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "pofAutomation": "doctrinalRecall"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZJTgYRnZp4yUnyc7"
+}

@@ -1,0 +1,69 @@
+{
+  "_id": "YUabxjG4nyBFEJ75",
+  "name": "Fey-Soul Listener",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Nature 1 rank",
+    "active": true,
+    "description": "<p>GNOME</p>\n<p>The distinction between fey whim, natural spirit and mortal superstition has become much easier for you to hear.<br>You gain Spirit Lore as a specialist skill.<br>When using Trace Possession or Interpret Haunt against a Fey creature, a natural spirit or an effect created by one, you may use Nature instead of Occultism. Use your Nature ranks to meet the action's Rank requirement.<br>You gain a +1-racial bonus to checks made in this way.</p>\n<p>Prerequisites Nature 1 rank</p>\n<p>Works automatically: Spirit Lore is added to your specialist skills; Nature offers Trace Possession and Interpret Haunt to you, and +1 racial is offered on them with the book's wording.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Gnome",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Spirit Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Fey-Soul Listener",
+          "scope": "Trace Possession or Interpret Haunt against a Fey creature, a natural spirit or an effect one created",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "tracePossession",
+              "interpretHaunt"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!YUabxjG4nyBFEJ75"
+}

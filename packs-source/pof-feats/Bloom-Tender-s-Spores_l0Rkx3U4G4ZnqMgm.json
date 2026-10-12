@@ -1,0 +1,49 @@
+{
+  "_id": "l0Rkx3U4G4ZnqMgm",
+  "name": "Bloom-Tender's Spores",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Vaelori growth, Restorative Spores, Level 5",
+    "active": true,
+    "description": "<p>HEALING MYRATHI VERDANT</p>\n<p>Where others see rot, you see material waiting to become life again.<br>You may use Preserve Remains using Nature instead of Medicine.<br>When you achieve a Success or better on Preserve Remains, fungal growth stabilises the corpse without significantly disfiguring it.<br>Furthermore, whenever your racial Purify successfully Counteracts an affliction, the target gains a +1-status bonus to its next Fortitude saving throw made within the next minute.</p>\n<p>Prerequisites Vaelori growth, Restorative Spores, Level 5</p>\n<p>Works automatically: Nature offers Preserve Remains to you; the +1 status after a successful Purify is queued by Use (target the creature).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healing, Verdant",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!l0Rkx3U4G4ZnqMgm"
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "ehziF8LAyZWzzDBm",
+  "name": "Spirit-Speaker's Mask",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 6000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Invested, Shaman, Spirit",
+    "description": "Usage worn mask; Weight 1 lb.\n\nThe mask is deliberately expressionless. Its mouth is closed, because according to its makers the important part of speaking with spirits is learning when not to speak.\n\nYou gain a +2-status bonus to Diplomacy, Nature or Occultism checks made specifically to communicate or negotiate with spirits. Only one of these skills applies to any individual check.\n\nOn the sheet: +2 status is offered on Diplomacy, Nature and Occultism to communicate with spirits.\n\nPillars of Faith, Chapter 11.",
+    "slot": "head",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 9,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": true,
+        "activate": "",
+        "frequency": "",
+        "abilities": []
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Spirit-Speaker's Mask",
+          "scope": "Diplomacy, Nature or Occultism checks to communicate or negotiate with spirits (one skill per check)",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "diplomacy",
+              "nature",
+              "occultism"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ehziF8LAyZWzzDBm"
+}

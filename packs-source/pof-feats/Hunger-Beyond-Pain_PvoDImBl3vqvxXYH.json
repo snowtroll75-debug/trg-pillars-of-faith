@@ -1,0 +1,96 @@
+{
+  "_id": "PvoDImBl3vqvxXYH",
+  "name": "Hunger Beyond Pain",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 12",
+    "active": true,
+    "description": "<p>HEALING SOUL UNLIVING-ZOMBIE</p>\n<p>Prerequisites Level 12</p>\n<p>The fall of living prey briefly quiets the endless hunger burning inside your corpse.</p>\n<p>When you reduce a living creature to 0 HP with your Bite or Slam, you regain HP equal to your level plus your Constitution modifier, minimum 1. You can gain this healing once per round.</p>\n<p>Works automatically: felling a living creature with Grave Bite or Corpse Slam heals you your level + Constitution modifier (minimum 1), once a round.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healing, Soul, Unliving-Zombie",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "PXHOht9gBgzDIZzX",
+      "name": "Hunger Beyond Pain: Hunger Beyond Pain",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "onFell": {
+            "label": "Hunger Beyond Pain",
+            "weaponNames": [
+              "Bite (Unliving Zombie)",
+              "Slam (Unliving Zombie)"
+            ],
+            "living": true,
+            "heal": {
+              "level": true,
+              "ability": "constitution",
+              "min": 1
+            },
+            "oncePerRound": true
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Reducing a living creature to 0 HP with your Bite or Slam heals level + Con (min 1), once per round.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!PvoDImBl3vqvxXYH.PXHOht9gBgzDIZzX"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "zombie"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PvoDImBl3vqvxXYH"
+}

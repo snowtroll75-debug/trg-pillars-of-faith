@@ -1,0 +1,95 @@
+{
+  "_id": "apjuYdqObGh3KnNh",
+  "name": "Wail of the Departed (Spell-like)",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "save",
+    "level": 0,
+    "ppCost": 0,
+    "castAP": 2,
+    "range": "",
+    "area": "60-foot emanation",
+    "targets": "Creatures within 60 feet that can hear you",
+    "duration": "",
+    "defence": "Will",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "frightened",
+        "value": 2,
+        "onSave": [
+          "failure"
+        ]
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "frightened",
+        "value": 4,
+        "onSave": [
+          "fumble",
+          "blunder"
+        ]
+      },
+      {
+        "kind": "tempImmunity",
+        "target": "targets",
+        "label": "Wail of the Departed",
+        "length": "1 minute",
+        "onSave": [
+          "heroic",
+          "critical",
+          "success"
+        ]
+      }
+    ],
+    "warps": [],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "unlimited",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Auditory, Fear",
+    "description": "<p>AUDITORY FEAR SAVE UNLIVING-GHOST</p>\n<p>Prerequisites Level 8, Essence Attacks</p>\n<p>Your grief tears loose as a keening cry that freezes courage in the living.</p>\n<p>Action: 2 AP</p>\n<p>You emit a sorrowful wail affecting creatures within a 60-foot radius that can hear you. Each affected creature must attempt a Will save. On a failure, it becomes frightened 2. On a fumble, it becomes frightened 4. On a success, the creature is immune to your Wail of the Departed for 1 minute.</p>\n<p>An Unliving Ghost feat (Pillars of Faith, Chapter 9), granted as an innate spell-like at will: no PP, a level-based Will save. A creature that saves is immune to your Wail for 1 minute.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!apjuYdqObGh3KnNh"
+}

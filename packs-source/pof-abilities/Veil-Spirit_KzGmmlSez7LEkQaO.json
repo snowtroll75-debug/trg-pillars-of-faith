@@ -1,0 +1,64 @@
+{
+  "_id": "KzGmmlSez7LEkQaO",
+  "name": "Veil Spirit",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>Your guide exists close to the uncertain boundary between embodied life and the unseen world.<br>It may be a departed ancestor, a spirit that never possessed a mortal body or something whose true nature remains unclear even to you.<br>Specialist Skill Veil Lore.<br>Spirit Boon – Second Sight: You gain Spirit Sense as a tertiary sense.<br>When using Search (Perception), you can detect the presence and general direction of disembodied spirits, incorporeal undead, haunts and active possession within 30 feet.<br>You cannot determine exact location, identity or allegiance from Spirit Sense alone.<br>Manifestation – Part the Veil: While Manifest Spirit is active:<br>• the range of your Spirit Sense increases to 60 feet;<br>• you gain Resistance to essence damage;<br>• you can perceive spirits detected by Spirit Sense sufficiently clearly to target them, provided they are otherwise within range and Line of Effect; and<br>• your spells treat incorporeal spirits as though you possessed the normal means required to affect them.<br>This ability does not allow a spell to affect a creature that would otherwise be completely immune to that spell for reasons unrelated to incorporeality.</p>\n<p>Second Sight — Spirit Sense (30 feet, tertiary) is on your senses list. Part the Veil is what Manifest Spirit applies.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Veil Lore",
+      "creatureAbility": {
+        "printedTraits": "",
+        "printedAction": "",
+        "printedArea": "",
+        "derives": {
+          "sense": {
+            "category": "tertiary",
+            "modality": "spiritual",
+            "fixedFeet": 30,
+            "finds": "disembodied spirits, incorporeal undead, haunts and active possession"
+          }
+        },
+        "source": "Pillars of Faith, Chapter 3 (Veil Spirit)"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KzGmmlSez7LEkQaO"
+}

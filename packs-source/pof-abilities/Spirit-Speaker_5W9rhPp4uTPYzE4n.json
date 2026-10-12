@@ -1,0 +1,50 @@
+{
+  "_id": "5W9rhPp4uTPYzE4n",
+  "name": "Spirit Speaker",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>You perceive the world as something inhabited rather than empty.<br>You gain Spirit Lore as a specialist skill.<br>You may use Nature instead of Occultism when attempting checks to identify, understand or interact with spirits, haunts, possession and other phenomena specifically involving the spirit world.<br>Furthermore, you can communicate with a willing spirit within 30 feet, even where ordinary language would be insufficient, provided that the spirit possesses sufficient awareness to communicate at all.<br>This ability does not compel a spirit to answer you, make it friendly or grant intelligence to an otherwise mindless entity.<br>You also do not automatically recognise every Undead or incorporeal creature as a spirit. Spirits, souls, haunts, Undead and Unliving creatures are distinct; the individual creature or effect determines what it actually is.</p>\n<p>Spirit Lore is added to your specialist skills as this ability lands, and Nature offers Trace Possession and Interpret Haunt (the Chapter 4 Occultism actions) to you.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Spirit Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!5W9rhPp4uTPYzE4n"
+}

@@ -1,0 +1,65 @@
+{
+  "_id": "4DMvoB8Q0VjLe0Ep",
+  "name": "Velari",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Velari devote themselves to watching the Veil. They train from childhood to recognise subtle disturbances, unusual behaviour and the tiny inconsistencies that may betray possession.<br>This can make Velari unnerving companions. They notice pauses in conversation, glance towards empty corners and sometimes interrupt ordinary activity to investigate something nobody else perceived. Among the Eshari these behaviours are signs of professional attention rather than eccentricity. Velari make excellent haunt investigators, exorcists and guardians of places where spiritual boundaries have become dangerously thin.<br>The range of your Spirit Sense increases to 60 feet, and you gain a +1 racial bonus to Perception checks made to locate spirits, haunts, possession and undead creatures.</p>",
+    "sourceRace": "Eshari",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "Spirit Sense (Velari)",
+    "removedAbilities": "Spirit Sense",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Velari",
+          "scope": "Perception checks to locate spirits, haunts, possession or undead creatures — tick if this check is one",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "perception"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4DMvoB8Q0VjLe0Ep"
+}

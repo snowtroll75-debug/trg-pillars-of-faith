@@ -1,0 +1,68 @@
+{
+  "_id": "xTeHPH6sUPBvqJIq",
+  "name": "Beast Spirit",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>Your Spirit Guide embodies the instinctive qualities of an animal or collection of animals.<br>It need not correspond to a literal animal that once lived. A wolf spirit might represent pack loyalty and pursuit rather than the soul of a particular wolf.<br>Specialist Skill Animal Lore<br>Spirit Boon – Wild Understanding: You may communicate with animals on a rudimentary level through posture, emotion, sound and spiritual intuition.<br>You gain a +2-class bonus to checks made to communicate with animals.<br>Manifestation – Beast Within: While Manifest Spirit is active:<br>• your Speed increases by 10 feet;<br>• you gain Scent as a tertiary sense; and<br>• you gain a +1-dodge bonus to DB.<br>Spectral claws, antlers, feathers, scales, eyes or other features of your Spirit Guide may become visible around your body.</p>\n<p>Wild Understanding — +2 class is offered on Handle Animal checks with the book's wording. Beast Within is what Manifest Spirit applies.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Animal Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Wild Understanding",
+          "scope": "Checks to communicate with animals",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "handleAnimal"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xTeHPH6sUPBvqJIq"
+}

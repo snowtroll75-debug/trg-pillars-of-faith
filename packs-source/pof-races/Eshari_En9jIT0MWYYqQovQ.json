@@ -1,0 +1,145 @@
+{
+  "_id": "En9jIT0MWYYqQovQ",
+  "name": "Eshari",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "race",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Race",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>The Eshari are living custodians of death, a sombre people whose senses reach toward the boundary crossed by departing souls. They are neither undead nor creatures of the grave; rather, they regard themselves as wardens of the final passage, protecting the dead from those who would bind, devour or corrupt them.<br>“The dead rarely trouble the living without reason. Find the reason, and you will find the hand that should concern you.” - Maera Kelvan, Bell-Warden</p>\n<p>Eshari civilisation is structured around the concept of the Last Road. They disagree among themselves about what awaits at its end, but most accept that death involves a transition that should occur without coercion. Their sacred responsibility lies at the threshold, not beyond it.<br>Consequently, Eshari culture is remarkably tolerant of differing beliefs about the afterlife. An Eshari funeral attendant may perform rites for a religion they do not personally follow because the rite exists for the deceased and their family rather than for the attendant. Learning foreign funerary customs is considered a respectable form of scholarship, and experienced Eshari can often identify a culture from its treatment of the dead as readily as another scholar might identify it from language or clothing.<br>Death is highly visible in Eshari settlements without being oppressive. Memorial walls stand beside markets. Funeral houses occupy central rather than peripheral districts. Children are taught the names of recently deceased neighbours and are encouraged to understand what death means rather than being hidden from it.<br>Every established community maintains at least one open lantern, traditionally kept burning throughout the night. The practice symbolises that no departing soul should be forced to travel entirely alone. Travellers who die far from home are frequently carried to these lanterns while arrangements are made for whatever rites their own people require.<br>Service to the dead also extends to protecting the living. Eshari distinguish sharply between a genuinely restless spirit and a corpse being manipulated by something else. Their investigators therefore ask why before reaching for weapons. A haunting created by betrayal may require justice. A soul trapped by necromancy requires release. A predatory entity exploiting grief requires destruction. Simply destroying every manifestation of the dead is regarded as ignorance masquerading as courage.<br>Soul-binding is among the most serious offences recognised by Eshari culture. Animating empty remains can itself be controversial, but trapping a conscious soul, forcing possession or deliberately preventing the dead from passing onward is regarded far more severely. Those who hunt such practitioners often travel for years following rumours of spirit prisons, stolen remains and fraudulent mediums.<br>Eshari families do not regard funerary professions as inherently religious. A Bell-Warden might be a devout priest, philosophical sceptic or outright atheist. The Last Road is a cultural understanding of death rather than proof of any specific god.</p>\n<p>DESCRIPTION<br>Eshari are tall, fine-boned humanoids who usually stand between 5½ and 7 feet tall. Their skin ranges from near-white ivory through shades of ash and slate to deep charcoal, often possessing a smooth, muted quality that seems to absorb rather than reflect bright light.<br>Their eyes are distinctive. The eye itself is dark and glossy, while thin rings of white, pale blue or silver surround the iris. Under low light these rings can appear faintly luminous, giving an Eshari gaze an intensity that has contributed to generations of exaggerated stories about them being able to see souls directly.<br>Hair is commonly black, grey, silver or colourless and may begin losing pigment comparatively early in life. Many Eshari wear it long during periods of mourning or service and cut it when a major obligation to the dead has been completed, although customs vary considerably between funerary traditions.<br>The strangest characteristic is their shadow. In dim light an Eshari's shadow occasionally appears to move an instant after they do. The effect is slight—often dismissed by observers as fatigue or flickering illumination—but sufficiently consistent that the Eshari themselves regard it as evidence that some part of them stands fractionally closer to the Veil than other living peoples.<br>Their clothing tends towards practical ceremonial garments: layered robes, long coats, gloves, veils and easily removable insignia identifying their funerary role. Bells, lanterns and memorial tokens are common accessories, though outsiders often mistake professional tools for religious symbols.<br>Eshari reach adulthood at around 18 years of age and commonly live for 160 to 200 years. A starting Eshari character has an initial age of 18+2d6 years.</p>\n<p>RACIAL MECHANICS</p>\n<p>Ability Modifiers Con +1, Wis +1, Cha +1, Str -1; Size: Medium; Speed: 25 feet; Power Points: 0</p>\n<p>LANGUAGES</p>\n<p>Core Languages: Low Tongue, Vesperic; Additional Languages: Choose from any common or regional language.</p>\n<p>SPECIALIST SKILLS</p>\n<p>You gain Eshari Lore and Spirit Lore as specialist skills.</p>\n<p>OTHER ABILITIES</p>\n<p>Nightvision, Soul Warden, Spirit Sense — granted as ability items when the race is added.</p>\n<p>HERITAGES</p>\n<p>Once you have selected the Eshari race you must select one of the Eshari heritages: Ashen, Kelvan, Lumari, Velari, Morrin.</p>",
+    "abilityModifiers": "Con +1, Wis +1, Cha +1, Str -1",
+    "maximumSize": "",
+    "languages": "Core: Low Tongue, Vesperic. Additional: common, regional.",
+    "coreLanguages": "Low Tongue, Vesperic",
+    "additionalLanguages": "common, regional",
+    "languageChoices": "",
+    "grantedFeats": "",
+    "racialAbilities": "Nightvision, Soul Warden, Spirit Sense",
+    "grantedWeapons": "",
+    "grantedSpells": "",
+    "specialistSkills": "Eshari Lore, Spirit Lore"
+  },
+  "effects": [
+    {
+      "_id": "XAg4PCYHLquNwxat",
+      "name": "Eshari: ability modifiers",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.constitution.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.wisdom.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.charisma.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.strength.racial",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Con +1, Wis +1, Cha +1, Str -1",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!En9jIT0MWYYqQovQ.XAg4PCYHLquNwxat"
+    },
+    {
+      "_id": "AxiDQR78BM1N685R",
+      "name": "Eshari: size and speed",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.identity.size",
+          "mode": 5,
+          "value": "medium",
+          "priority": 10
+        },
+        {
+          "key": "system.combat.movement.land",
+          "mode": 5,
+          "value": "25",
+          "priority": 10
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Medium size and a base land speed of 25 feet.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!En9jIT0MWYYqQovQ.AxiDQR78BM1N685R"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!En9jIT0MWYYqQovQ"
+}

@@ -1,0 +1,96 @@
+{
+  "_id": "pjRiCOv6eqQcEe8a",
+  "name": "Quietroot",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: any ruins or abandoned settlements.\n\nQuietroot is a dark, knotted bulb most often found beneath the collapsed thresholds of abandoned buildings. It makes no sound when cut, crushed or dropped, and folklore claims that it grows wherever a household's last words went unheard. Mixed with wax and fine ash, it becomes a dull salve rubbed across boots, buckles and other loose equipment. For 10 minutes, you gain a +2-item bonus to Stealth checks where the sound you make is relevant.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Quietroot",
+          "duration": "10 minutes",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Quietroot",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "item",
+                  "label": "Quietroot",
+                  "scope": "Stealth checks where the sound you make is relevant",
+                  "when": {
+                    "checkTypes": [
+                      "skill"
+                    ],
+                    "subjects": [
+                      "stealth"
+                    ]
+                  },
+                  "auto": false,
+                  "oneShot": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: any ruins or abandoned settlements.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 2,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 50,
+        "tablePrice": 50,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!pjRiCOv6eqQcEe8a"
+}

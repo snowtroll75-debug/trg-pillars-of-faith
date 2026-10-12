@@ -1,0 +1,49 @@
+{
+  "_id": "zkvqNGMwqaKzjDAV",
+  "name": "Twin Manifestation",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 17, Second Guide",
+    "active": true,
+    "description": "<p>SHAMAN SPIRIT</p>\n<p>Two spirits answer at once, their manifestations weaving together around you.<br>Whenever you activate Manifest Spirit, you may manifest both Spirit Guides simultaneously.<br>You gain both Manifestation abilities for the duration. Manifest Spirit is still a single Focus ability and is restored normally.</p>\n<p>Prerequisites Level 17, Second Guide</p>\n<p>Works automatically: Manifest Spirit's Use manifests both guides at once.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Spirit, Shaman",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zkvqNGMwqaKzjDAV"
+}

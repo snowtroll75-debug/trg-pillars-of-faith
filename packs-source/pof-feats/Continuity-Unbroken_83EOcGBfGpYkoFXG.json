@@ -1,0 +1,49 @@
+{
+  "_id": "83EOcGBfGpYkoFXG",
+  "name": "Continuity Unbroken",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10",
+    "active": true,
+    "description": "<p>CHANCE FOCUS RHEVANI</p>\n<p>You know your own soul too well to surrender it easily.<br>Action R; Trigger You fail a saving throw against possession or a Mental effect that would alter, erase or suppress your memories, personality or identity.<br>Reroll the triggering saving throw with Advantage and use the better result. Continuity Unbroken is then expended and must be restored using Refocus.</p>\n<p>Prerequisites Level 10</p>\n<p>Use as the Reaction (Focus): spends the use and the reaction; reroll the failed save with advantage from your sheet.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Chance, Focus",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!83EOcGBfGpYkoFXG"
+}

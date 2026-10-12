@@ -1,0 +1,149 @@
+{
+  "_id": "PTPc9EDZUenud2vW",
+  "name": "Rooted Soul",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "verdant",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 10,
+    "castAP": 2,
+    "range": "touch",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "10 minutes",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Rooted Soul",
+        "target": "targets",
+        "grants": [
+          {
+            "kind": "advantage",
+            "label": "Rooted Soul",
+            "scope": "Saving throws against possession (while standing on natural earth, stone or living vegetation)",
+            "auto": true,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "traits": [
+                "possession"
+              ]
+            }
+          },
+          {
+            "kind": "advantage",
+            "label": "Rooted Soul",
+            "scope": "Saving throws against possession (while standing on natural earth, stone or living vegetation) — tick if this save qualifies",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "not": {
+                "traits": [
+                  "possession"
+                ]
+              }
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 4,
+            "type": "status",
+            "label": "Rooted Soul",
+            "scope": "Saving throws against unwanted Teleportation or effects that would forcibly move your soul",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ]
+            }
+          },
+          {
+            "kind": "advantage",
+            "label": "Rooted Soul",
+            "scope": "Checks and saving throws to resist being Shoved, Tripped or physically moved against your will",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save",
+                "skill",
+                "attribute"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "text": "An effect that would teleport or possess the target without a save must first Counteract Rooted Soul. No benefit while flying, swimming off the ground or otherwise off the natural world."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Affect one additional target",
+        "mods": {
+          "extraTargets": 1
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "The target retains the benefits while within 10 feet of natural ground rather than requiring direct contact. 1049-179500",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Earth, Soul, Warding",
+    "description": "EARTH SOUL UTILITY WARDING\nTradition verdant\nCast 2 AP (somatic, verbal)\nRange touch\nTargets 1 willing creature\nDuration 10 minutes\n\nThe target's body and soul become spiritually anchored to the living world.\nWhile standing upon natural earth, stone or living vegetation, the target gains:\nAdvantage on saving throws against possession;\na +4-status bonus to saving throws against unwanted Teleportation or effects that would forcibly move its soul;\nAdvantage on checks and saving throws made to resist being Shoved, Tripped or physically moved against its will.\nIf an effect would forcibly teleport or possess the target without allowing a saving throw, that effect must first successfully Counteract Rooted Soul. The spell provides no benefit while the target is flying, swimming without touching the ground or otherwise completely separated from the natural world.\n\nWarping Options:\n+1 PP: Affect one additional target.\n+4 PP: The target retains the benefits while within 10 feet of natural ground rather than requiring direct contact. 1049-179500\n\nPillars of Faith, Chapter 10. Advantage against possession and against being moved, and +4 status against soul-moving Teleportation, are scoped rows on the target — while it stands on natural ground."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PTPc9EDZUenud2vW"
+}

@@ -1,0 +1,145 @@
+{
+  "_id": "tS30xCATYqEQyA55",
+  "name": "Myrathi",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "race",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Race",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>The Myrathi are fungal humanoids linked to vast ancestral mycelia beneath the earth. When one of their people dies, the body is not entombed or burned but planted, allowing memory and personality to seep into a living network known as the Ancestral Bloom.<br>“We bury no wisdom. We plant it.” - Thren Vaelori, Speaker Beneath the Roots</p>\n<p>A Myrathi settlement is built as much below ground as above it. The centre of Myrathi civilisation is the Ancestral Bloom. A mature settlement is less a collection of buildings than a living organism spread across and beneath the surrounding land. Homes, halls and gardens exist above ground, but below them stretches the mycelial network containing centuries of accumulated memory.<br>The dead are planted rather than buried. The body is placed into prepared soil and joined to the Bloom. Decomposition is not hidden or regarded as desecration; it is the final act through which the deceased returns nourishment and experience to the community.<br>This practice produces significant misunderstanding with other cultures. Myrathi can find embalming deeply strange, interpreting the deliberate prevention of decomposition as refusing to allow the dead to finish giving themselves back to the world. Most nevertheless respect foreign funerary customs and understand that handling another people's dead without permission is a serious offence.<br>What enters the Bloom is not a fully conscious person. Memories fragment. Skills become impressions. Emotional associations persist long after names have disappeared. One ancestor may remember the smell of a particular poison but not who used it; another may preserve decades of agricultural knowledge while every personal relationship has faded.<br>Consequently, ancestral communion is rarely simple. Myrathi sayings describe the Bloom as a room filled with a thousand elderly relatives trying to answer the same question at once. Wisdom lies in recognising which memory matters.<br>This has also prevented the development of absolute ancestor worship. The dead were people, and people could be mistaken. A recurring Myrathi principle states that memory deserves attention, not obedience.<br>Myrathi kinship is strongly connected to the Bloom in which someone was raised. Biological parentage matters but belonging to the same ancestral network can be equally significant. Individuals adopted into another settlement may eventually contribute so much experience that future generations regard them as inseparable from that Bloom's ancestry.<br>Travellers therefore perform an important cultural function. A Myrathi adventurer is not necessarily leaving their community behind; they may be extending its experience. Returning travellers spend long periods describing what they have seen, meditating in contact with the mycelium and deliberately committing memories to the network.<br>Destroyed Blooms are among the greatest tragedies imaginable to Myrathi. Survivors sometimes preserve a fragment of living mycelium and carry it for years in specially prepared containers, searching for suitable ground where the ancestral network can be established again.</p>\n<p>DESCRIPTION<br>Myrathi are upright fungal humanoids standing between 4½ and 6½ feet tall. Myrathi are unmistakably non-human. Their bodies are formed from dense fibrous flesh arranged around a flexible internal lattice rather than conventional bone. Their silhouettes nevertheless remain broadly humanoid: two arms, two legs, a head and an upright stance, although individuals vary far more dramatically than most flesh-and-blood peoples.<br>Colour ranges from pale cream, ivory and ochre through rust-red, violet, indigo and near-black. Some possess relatively smooth surfaces resembling thick mushroom stems, while others develop bark-like plates, layered gills or overlapping fungal ridges.<br>The head is particularly variable. Many Myrathi possess broad cap-like crests, sometimes close to the skull and sometimes extending dramatically beyond it. Others develop fan-shaped structures, layered shelves or crowns of smaller growths. Fine sensory filaments may hang from the scalp, chin or shoulders and can resemble hair when viewed from a distance.<br>Bioluminescence is common but not universal. Small points of blue, green, violet, amber or white light may form beneath the skin, around gills or along the edges of a cap. These lights can subtly change in brightness according to physical condition and emotional state, though interpretation requires familiarity with the individual.<br>Myrathi clothing is designed around bodies that may continue changing shape during adulthood. Wrapped cloth, cords, belts and layered panels are preferred over rigid tailoring. Armour produced by Myrathi craftspeople often incorporates natural gaps for caps, gills and sensory growths. Wood, woven fungus, hardened fibre, polished shell and cultivated leather-like materials are common decorative elements.<br>To outsiders, Myrathi frequently smell faintly of earth, rain, leaves or mushrooms. Individual colonies develop distinctive scents due to the fungi cultivated around their settlements, allowing experienced Myrathi travellers to identify someone's home Bloom before hearing their accent.<br>Myrathi mature rapidly, reaching adulthood at around 12 years of age, and usually live between 90 and 120 years. An individual body is mortal, but its memories may persist in an Ancestral Bloom for centuries. A starting Myrathi character has an initial age of 11+1d8 years.</p>\n<p>RACIAL MECHANICS</p>\n<p>Ability Modifiers Con +1, Int +1, Wis +1, Dex -1; Size: Medium; Speed: 25 feet; Power Points: 0</p>\n<p>LANGUAGES</p>\n<p>Core Languages: Low Tongue, Mycelic; Additional Languages: Choose from any common or regional language.</p>\n<p>SPECIALIST SKILLS</p>\n<p>You gain Myrathi Lore and Ancestor Lore as specialist skills.</p>\n<p>OTHER ABILITIES</p>\n<p>Fungal Physiology, Ancestral Communion — granted as ability items when the race is added.</p>\n<p>HERITAGES</p>\n<p>Once you have selected the Myrathi race you must select one of the Myrathi heritages (Growths): Karuum, Lumeri, Morrai, Nethri, Vaelori.</p>",
+    "abilityModifiers": "Con +1, Int +1, Wis +1, Dex -1",
+    "maximumSize": "",
+    "languages": "Core: Low Tongue, Mycelic. Additional: common, regional.",
+    "coreLanguages": "Low Tongue, Mycelic",
+    "additionalLanguages": "common, regional",
+    "languageChoices": "",
+    "grantedFeats": "",
+    "racialAbilities": "Fungal Physiology, Ancestral Communion",
+    "grantedWeapons": "",
+    "grantedSpells": "",
+    "specialistSkills": "Myrathi Lore, Ancestor Lore"
+  },
+  "effects": [
+    {
+      "_id": "AudHcvuYtvXkd7qy",
+      "name": "Myrathi: ability modifiers",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.constitution.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.intelligence.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.wisdom.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.dexterity.racial",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Con +1, Int +1, Wis +1, Dex -1",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!tS30xCATYqEQyA55.AudHcvuYtvXkd7qy"
+    },
+    {
+      "_id": "tZLtQ8PQiD5seIgB",
+      "name": "Myrathi: size and speed",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.identity.size",
+          "mode": 5,
+          "value": "medium",
+          "priority": 10
+        },
+        {
+          "key": "system.combat.movement.land",
+          "mode": 5,
+          "value": "25",
+          "priority": 10
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Medium size and a base land speed of 25 feet.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!tS30xCATYqEQyA55.tZLtQ8PQiD5seIgB"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!tS30xCATYqEQyA55"
+}

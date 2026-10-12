@@ -1,0 +1,49 @@
+{
+  "_id": "az7Qb5EYTYlDdAYe",
+  "name": "Lifeline",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Healer 1st level",
+    "active": true,
+    "description": "<p>DIVINITY FOCUS HEALING SOUL<br>Action R<br>Trigger A living ally within 30 feet would gain the Dying condition because damage reduced them to 0 HP.<br>You instinctively seize the creature's fading life before it slips beyond your reach. The triggering creature instead remains at 1 HP and does not gain the Dying condition from the triggering damage. The creature gains Fatigued 1 from the tremendous strain placed upon its body.<br>Persistent damage, Bleed and other ongoing effects caused by the triggering attack are not removed.<br>Lifeline cannot prevent an effect that kills the target outright.</p>\n<p>Use as the Reaction: spends the Focus use and the reaction, sets the targeted ally to 1 HP with no Dying, and applies Fatigued 1.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "Divinity, Focus, Healing, Soul",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!az7Qb5EYTYlDdAYe"
+}

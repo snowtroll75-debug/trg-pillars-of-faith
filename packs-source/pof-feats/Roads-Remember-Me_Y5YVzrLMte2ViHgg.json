@@ -1,0 +1,49 @@
+{
+  "_id": "Y5YVzrLMte2ViHgg",
+  "name": "Roads Remember Me",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Sevrai heritage",
+    "active": true,
+    "description": "<p>RHEVANI</p>\n<p>There are roads your feet recognize even when you have never walked them in this life.<br>When you use Past-Life Echo to select Survival, its duration increases to 10 minutes.<br>During this period, you also gain Advantage on Sense Direction and Track checks.</p>\n<p>Prerequisites Sevrai heritage</p>\n<p>Works automatically: Past-Life Echo (Survival) lasts 10 minutes when you Use it, with advantage pre-ticked on Sense Direction and Track for the duration.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Y5YVzrLMte2ViHgg"
+}

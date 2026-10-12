@@ -1,0 +1,71 @@
+{
+  "_id": "hXOAPVU1cYESEnIm",
+  "name": "Zombie Fortitude",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 8",
+    "active": true,
+    "description": "<p>UNLIVING-ZOMBIE</p>\n<p>Prerequisites Level 8</p>\n<p>Even ruin struggles to finish what death has already claimed.</p>\n<p>Effect: You gain Unliving Fortitude. Furthermore, you gain a +2 racial bonus on the saving throw granted by that feat when the triggering damage is not essence damage and is not a damage type to which you have Weakness.</p>\n<p>Grants Unliving Fortitude, and its save takes +2 racial (it fires only when the damage is neither essence nor a type you are weak to, which is the condition the bonus prints).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Zombie",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "Unliving Fortitude"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Zombie Fortitude",
+          "scope": "The Unliving Fortitude save",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "fortitude"
+            ],
+            "actions": [
+              "deathGuard"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "unliving",
+      "unlivingGroup": "zombie"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hXOAPVU1cYESEnIm"
+}

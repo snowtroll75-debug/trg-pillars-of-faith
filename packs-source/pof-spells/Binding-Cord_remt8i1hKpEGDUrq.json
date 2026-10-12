@@ -1,0 +1,120 @@
+{
+  "_id": "remt8i1hKpEGDUrq",
+  "name": "Binding Cord",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "save",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "60 feet",
+    "area": "",
+    "targets": "1 creature",
+    "duration": "see text",
+    "defence": "Will",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "bonus",
+        "target": "targets",
+        "slot": "speed",
+        "bonusType": "status",
+        "value": -5,
+        "onSave": [
+          "success"
+        ]
+      },
+      {
+        "kind": "bonus",
+        "target": "targets",
+        "slot": "allSpeeds",
+        "bonusType": "status",
+        "value": -10,
+        "onSave": [
+          "failure",
+          "fumble",
+          "blunder"
+        ]
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "immobilised",
+        "value": 1,
+        "onSave": [
+          "fumble",
+          "blunder"
+        ]
+      },
+      {
+        "kind": "note",
+        "text": "Success: −5 ft until the end of its next turn. Failure: −10 ft to all Speeds for 1 minute and no Teleportation. Fumble: as Failure and Immobilised until the end of its next turn. No tether; forced movement works normally."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the range by 30 feet",
+        "mods": {
+          "rangeOverride": "90 feet"
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Target one additional creature within range",
+        "mods": {
+          "extraTargets": 1
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Folkwarden",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Enchantment",
+    "description": "ENCHANTMENT FOLKWARDEN SAVE\nFolkwarden Specialist Spell\nCast 2 AP (material, verbal)\nRange 60 feet\nTargets 1 creature\nSaving Throw Will\nDuration see text\n\nYou tighten a knotted cord, braided grass, twisted root or symbolic binding and impose that restraint upon the target's movements.\nCritical: The target is unaffected.\nSuccess: The target suffers a -5-foot status penalty to its Speed until the end of its next turn.\nFailure: The target suffers a -10-foot status penalty to all Speeds for 1 minute and cannot use Teleportation effects during that time.\nFumble: As Failure, and the target is also Immobilised until the end of its next turn.\nBinding Cord does not physically tether the target to you or prevent forced movement.\nDestroying or dropping the material cord after the spell is cast does not end the effect.\n\nWarping Options:\n+2 PP: Increase the range by 30 feet.\n+2 PP: Target one additional creature within range.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!remt8i1hKpEGDUrq"
+}

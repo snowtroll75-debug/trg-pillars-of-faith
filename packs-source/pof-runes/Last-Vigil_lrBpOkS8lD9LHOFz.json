@@ -1,0 +1,56 @@
+{
+  "_id": "lrBpOkS8lD9LHOFz",
+  "name": "Last Vigil",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 2000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Healing, Invested, Soul",
+    "description": "Activate Reaction\n\nTrigger You regain Hit Points from a spell with the Healing trait\n\nFrequency 1/day\n\nThe rune resembles a burning candle whose flame never quite touches the wick.\n\nAfter the healing is resolved, reduce either Fatigued or Sickened by 1. If the triggering spell required at least 4 PP, you may instead reduce Dazed or Weakened by 1, or 6 PP Injured by 1.\n\nThe rune does not increase the amount of HP restored.\n\nInscribed onto armour.\n\nOn the sheet: Offered after a Healing-trait spell heals you, once a day: which condition to reduce, from those the spell's PP reached and you hold.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 6,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "lastVigil",
+        "tier": 1,
+        "on": [
+          "armour"
+        ],
+        "automation": "event"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lrBpOkS8lD9LHOFz"
+}

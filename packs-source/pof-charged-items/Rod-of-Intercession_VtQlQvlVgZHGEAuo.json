@@ -1,0 +1,67 @@
+{
+  "_id": "VtQlQvlVgZHGEAuo",
+  "name": "Rod of Intercession",
+  "img": "icons/svg/wing.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 2,
+    "price": 2500,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Invested, Rod, Soul, Warding",
+    "description": "Usage held in 1 hand; Weight 2 lbs. Power Points 10; Recharge 1 per day.\n\nSix silver bands encircle this dark wooden rod. Each is engraved with a different traditional symbol for the mortal soul.\n\nActivate You attempt a Counteract check against possession, a Soul-trait effect or an effect forcibly binding, controlling or displacing a soul.\n\nAction Free\n\nExpend 2 PP from the rod to gain a +2-item bonus to the triggering Counteract check.\n\nThe rod also briefly vibrates when within 5 feet of a possessed creature.\n\nOn the sheet: held, the rod offers +2 item for 2 PP on a Spellcraft check — take it on a Counteract against possession or a Soul effect. Its vibration near a possessed creature is a note.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 10,
+    "itemSize": "medium",
+    "itemLevel": 8,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "chargedItem": {
+        "kind": "rod",
+        "maximumPP": 10,
+        "flexible": false,
+        "recharge": 1,
+        "printedRecharge": 1,
+        "printedPowerPoints": 10,
+        "correctedFromPrinted": false,
+        "spells": [],
+        "checkBonus": {
+          "checkTypes": [
+            "spellcraft"
+          ],
+          "cost": 2,
+          "value": 2,
+          "type": "item",
+          "scope": "a Counteract check against possession, a Soul-trait effect or an effect binding, controlling or displacing a soul"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VtQlQvlVgZHGEAuo"
+}

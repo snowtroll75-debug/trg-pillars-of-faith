@@ -1,0 +1,57 @@
+{
+  "_id": "mZRBDLqgvxzZyZfS",
+  "name": "Martyr's Aegis",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 11000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Healing, Invested, Warding",
+    "description": "Activate Reaction\n\nTrigger An ally within 10 feet suffers HP damage\n\nFrequency 1/minute\n\nTwo figures are etched into the rune: one kneeling, the other standing before them with arms spread.\n\nAfter all Resistance and DR affecting the ally have been applied, you may transfer up to half of the remaining HP damage to yourself. The ally suffers the remaining damage, and you suffer the transferred amount.\n\nDamage transferred by Martyr's Aegis cannot be reduced by your own Resistance, Base DR or temporary HP; cannot itself be redirected or transferred; and retains its original damage type. You cannot transfer more damage than would reduce you to 1 HP.\n\nArmour price 11,000 gp; shield price 7,700 gp.\n\nInscribed onto armour or a shield.\n\nOn the sheet: Offered automatically, once a minute: when an ally within 10 feet takes HP damage, the wearer may take up to half of what remains after the ally's defences — not reduced by the wearer's own, not passed on, never below 1 HP. The prompt appears to whoever applies the damage (usually the GM).\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 11,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "martyrsAegis",
+        "tier": 1,
+        "on": [
+          "armour",
+          "shield"
+        ],
+        "automation": "event"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mZRBDLqgvxzZyZfS"
+}

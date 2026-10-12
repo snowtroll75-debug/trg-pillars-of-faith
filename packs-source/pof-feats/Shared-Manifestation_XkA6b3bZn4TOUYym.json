@@ -1,0 +1,49 @@
+{
+  "_id": "XkA6b3bZn4TOUYym",
+  "name": "Shared Manifestation",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 13, Manifest Spirit",
+    "active": true,
+    "description": "<p>FLOURISH SHAMAN SPIRIT</p>\n<p>Your guide briefly extends part of its presence around another creature.<br>Action 1 AP<br>Requirements Manifest Spirit is currently active.<br>Select one willing ally within 30 feet. Until the beginning of your next turn, that ally gains one benefit from your currently active Manifestation:<br>Ancestor: Advantage on Recall Knowledge or Sense Motive checks.<br>Beast: +10 feet Speed.<br>Elemental: Resistance to your selected elemental damage type.<br>Land: +1 Base DR.<br>Veil: Resistance to Essence damage.</p>\n<p>Prerequisites Level 13, Manifest Spirit</p>\n<p>Use (1 AP; target the ally) while Manifest Spirit is active: the guide's shared benefit lands on them as a one-round effect.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Flourish, Spirit, Shaman",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XkA6b3bZn4TOUYym"
+}

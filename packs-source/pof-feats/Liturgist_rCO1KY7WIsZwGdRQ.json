@@ -1,0 +1,50 @@
+{
+  "_id": "rCO1KY7WIsZwGdRQ",
+  "name": "Liturgist",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Divinity caster, Linguistics 2 ranks, Religion 2 ranks, Non-Archivist",
+    "active": true,
+    "description": "<p>ADEPT</p>\n<p>You have learned that prayer can be studied as carefully as any arcane formula. Your personal collection of liturgies is smaller than an Archivist's great Prayer Book, but it contains sacred workings you can call upon when required.<br>You gain a Liturgical Book.<br>When you select this feat, record four Divinity spells that you are currently capable of casting within the book.<br>During your daily preparations, select one spell recorded within your Liturgical Book.<br>If you are a learned caster, that spell is considered memorised until your next daily preparations and does not count against your normal number of memorised spells.<br>If you are an instinctive caster, temporarily add that spell to your repertoire until your next daily preparations.<br>You may add further eligible Divinity spells to your Liturgical Book using the normal rules for learning spells from written sources.<br>You also gain the Liturgy of Prayer action.<br>LITURGY OF PRAYER<br>CONCENTRATE<br>Action 1 AP; Frequency 1/day<br>Requirements You have your Liturgical Book available and are able to read or otherwise consult it.<br>You rapidly locate a familiar passage, annotation or alternative formulation before invoking a prepared prayer.<br>Select one Divinity spell that you do not currently have memorised, but which is recorded in your Prayer Book. You may cast this spell immediately (using its normal AP cost). If the spell is not cast before the end of your turn, the ability is wasted.<br>Finally, you may select feats possessing the Archivist (Adept) trait.</p>\n<p>Prerequisites Divinity caster, Linguistics 2 ranks, Religion 2 ranks, Non-Archivist</p>\n<p>Progression Requirements Linguistics +10 ranks</p>\n<p>Works automatically: the Liturgical Book arrives as a spellbook gear item (record four spells you can cast) and Liturgy of Prayer as a once-a-day ability; the daily selection is a rule for the table (prepare it, or add it to your repertoire, by hand); Archivist class feats open to you.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Liturgy of Prayer",
+    "grantedFeats": "",
+    "progressionRequirements": "Linguistics +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rCO1KY7WIsZwGdRQ"
+}

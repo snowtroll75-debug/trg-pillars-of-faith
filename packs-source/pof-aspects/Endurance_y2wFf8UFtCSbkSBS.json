@@ -1,0 +1,50 @@
+{
+  "_id": "y2wFf8UFtCSbkSBS",
+  "name": "Endurance",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Endurance venerates perseverance: the ability to continue when comfort, certainty and strength have all begun to fail. Its followers include long-distance pilgrims, soldiers holding impossible positions, labourers, ascetics and ordinary people who refuse to abandon a worthy responsibility simply because it has become difficult. Its symbols are usually practical rather than ornate: an unbroken chain, a weathered standing stone, a boot worn smooth by the road or a candle that has burned almost to its base.\n\nEdicts: Persevere through hardship in pursuit of worthy obligations. Prepare yourself for adversity. Conserve essential resources. Help others endure when their strength falters. Finish responsibilities you have willingly accepted.\n\nAnathema: Abandon a solemn duty merely because it becomes difficult. Deliberately weaken someone who depends upon you. Waste essential survival resources while danger remains. Surrender to hardship before reasonable means of continuing have been exhausted.\n\nSuggested Ethics: Discipline, Justice, Prudence\n\nClass Skill: Athletics\n\nSpecialist Spells: Banish Fatigue (1), Physical Surge (1), Protective Ward (1), Weapon Surge (1), Devastating Might (7), Resilient Fortitude (7), Stasis (7), Vigilant Eye (7)\n\nBonus Spells: Endure Elements (4); Heroism (6); Deific Enhancement (6); Death Ward (10)\n\nFavoured Weapon: Hammer\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Order",
+    "edicts": "Persevere through hardship in pursuit of worthy obligations. Prepare yourself for adversity. Conserve essential resources. Help others endure when their strength falters. Finish responsibilities you have willingly accepted.",
+    "anathema": "Abandon a solemn duty merely because it becomes difficult. Deliberately weaken someone who depends upon you. Waste essential survival resources while danger remains. Surrender to hardship before reasonable means of continuing have been exhausted.",
+    "suggestedEthics": "Discipline, Justice, Prudence",
+    "classSkill": "Athletics",
+    "favouredWeapon": "Hammer",
+    "specialistSpells": "Banish Fatigue, Physical Surge, Protective Ward, Weapon Surge, Devastating Might, Resilient Fortitude, Stasis, Vigilant Eye",
+    "bonusSpells": "4: Endure Elements, 6: Heroism, 6: Deific Enhancement, 10: Death Ward"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Discipline",
+        "Justice",
+        "Prudence"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!y2wFf8UFtCSbkSBS"
+}

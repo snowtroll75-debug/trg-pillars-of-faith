@@ -1,0 +1,49 @@
+{
+  "_id": "8lBVzb5N3pnVD8w4",
+  "name": "Bell-Warden's Ear",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>ESHARI</p>\n<p>To another Eshari the unseen world is a distant murmur. You have learned to distinguish the voices.<br>When Spirit Sense detects a presence, you can distinguish whether the disturbance is caused by a disembodied spirit, incorporeal undead, haunt or active possession.<br>You also know whether the presence is within 10, 20 or 30 feet of you. If a Critical Search result detects the presence, you determine its exact location if it lies within the normal range of your Spirit Sense.<br>You still do not automatically learn its identity or intentions.</p>\n<p>A rule for the table: what Spirit Sense tells you is finer — kind and distance band, exact location on a Critical Search.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8lBVzb5N3pnVD8w4"
+}

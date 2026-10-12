@@ -1,0 +1,49 @@
+{
+  "_id": "J01hUUATMm7WQDfP",
+  "name": "Judgement",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>Evidence is more dangerous than suspicion.<br>When you achieve at least a Success on Detect Deception, Identify Magic, Recall Knowledge, a check made to identify one of your Subject's supernatural abilities, or a check made to recognise possession, corruption, a curse or transformation affecting your Subject, you may place the Subject under Judgement.<br>The creature remains Judged for as long as it remains your Subject of Inquisition. Against your Judged Subject:<br>• You gain a +1-circumstance bonus to attack rolls against the Subject.<br>• You gain a +1-circumstance bonus to saving throws against effects created by the Subject.<br>• Once per round, the first time you successfully inflict HP damage upon the Subject with a Strike or Grimward spell, you inflict +1d6 secondary damage.<br>• This additional damage increases to 2d6 at 9th level and 3d6 at 17th level.<br>The additional damage is of the same type as the triggering attack unless another Grimward ability or feat changes it.</p>\n<p>Use once you have earned it: your Subject becomes Judged — +1 circumstance to attack rolls against that creature and to saves against its effects are pre-ticked when the roll knows who is involved, and the card states the secondary damage your level grants (1d6; 2d6 at 9th; 3d6 at 17th). Use again to withdraw Judgement.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!J01hUUATMm7WQDfP"
+}

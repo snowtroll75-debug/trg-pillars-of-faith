@@ -1,0 +1,49 @@
+{
+  "_id": "CMBUPZ79pQbdpz6G",
+  "name": "Brew Remedy",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>MANIPULATE<br>Action 10 minutes<br>Requirements You possess healer's tools, suitable herbs or comparable materials.<br>You prepare a medicinal draught, powdered herb mixture, poultice or other traditional remedy. Choose Disease or Poison when creating the remedy.<br>The remedy becomes one of your active Preparations. A creature may consume or apply the remedy as an Interact action (1 AP). For 1 hour, the creature gains a circumstance bonus to saving throws against the chosen type of affliction equal to half your Folkwarden class bonus (round up). If the creature is already afflicted, this bonus applies to eligible saving throws made against that affliction during the duration.<br>The Preparation ends when consumed or applied. Brew Remedy is not magical healing and does not automatically remove an affliction.</p>\n<p>Use: choose Disease or Poison; the remedy lands as a one-hour effect on the targeted creature (or you) with the bonus pre-ticked on matching saves. An Herbal Folkwarden brews two doses for one Preparation.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "Manipulate",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CMBUPZ79pQbdpz6G"
+}

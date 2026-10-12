@@ -1,0 +1,82 @@
+{
+  "_id": "LJvylcfYavo5djka",
+  "name": "Truthseeker",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>Truthseekers investigate deception, false prophecy, disguised creatures and those who use magic to manufacture belief. They are often unpopular within their own religious institutions. This is generally considered evidence that they are doing their job properly.<br>Specialist Skill Interrogation Lore<br>Piercing Scrutiny: You gain Advantage on Detect Deception checks against your Subject of Inquisition. If you successfully Detect Deception from your Subject, you may immediately place it under Judgement without spending an additional action. You also gain a +1-class bonus to saving throws against illusion effects created by your Judged Subject.</p>\n<p>Piercing Scrutiny — advantage on Detect Deception is offered with the book's wording; +1 class to saves against illusion effects is offered likewise. A successful Detect Deception on your Subject lets you Use Judgement at no action cost.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Interrogation Lore",
+      "conditionals": [
+        {
+          "kind": "advantage",
+          "label": "Piercing Scrutiny",
+          "scope": "Detect Deception against your Subject of Inquisition",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "detectDeception"
+            ]
+          }
+        },
+        {
+          "kind": "modifier",
+          "label": "Piercing Scrutiny",
+          "scope": "Saving throws against illusion effects created by your Judged Subject",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "illusion"
+            ]
+          },
+          "value": 1,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LJvylcfYavo5djka"
+}

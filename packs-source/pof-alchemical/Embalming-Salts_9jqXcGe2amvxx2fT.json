@@ -1,0 +1,76 @@
+{
+  "_id": "9jqXcGe2amvxx2fT",
+  "name": "Embalming Salts",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 25,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable",
+    "description": "<strong>Usage applied to one corpse; Activate as part of Preserve Remains.</strong>\n\nMixed salts, alum and aromatic preservatives absorb moisture and inhibit ordinary decay. You gain a +2-item bonus to the Preserve Remains check for which the salts are used. One packet is consumed regardless of the result.\n\nOn the sheet: One packet is consumed regardless of the result.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "as part of Preserve Remains",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "alchemical",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Embalming Salts",
+          "pending": {
+            "value": 2,
+            "type": "item",
+            "label": "Embalming Salts",
+            "scope": "the Preserve Remains check the salts are used for"
+          },
+          "note": "One packet is consumed regardless of the result."
+        }
+      },
+      "alchemical": {
+        "section": "Other",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 25,
+        "tablePrice": 25,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9jqXcGe2amvxx2fT"
+}

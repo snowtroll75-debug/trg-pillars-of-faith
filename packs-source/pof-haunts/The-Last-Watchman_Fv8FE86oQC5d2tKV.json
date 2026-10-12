@@ -1,0 +1,78 @@
+{
+  "_id": "Fv8FE86oQC5d2tKV",
+  "name": "The Last Watchman",
+  "type": "npc",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "identity": {
+      "level": 10,
+      "size": "medium"
+    },
+    "details": {
+      "traits": "Haunt, Spirit, Warding",
+      "biography": "<p>An ancient gate remains guarded by the spirit of a soldier who died before learning that the war had ended. Unlike most haunts, the Watchman is an actual conscious Spirit whose repeated challenge has merged with the gate's supernatural defences.</p>"
+    },
+    "combat": {
+      "initiative": {
+        "other": 0
+      }
+    },
+    "gm": {
+      "role": "Haunt",
+      "notes": "<p><strong>The Last Watchman</strong> — Level 10 haunt (Pillars of Faith, Chapter 8). Its Level DC is 24.</p>\n<p><strong>Anchor</strong> The Watchman's rusted ceremonial spear, buried beneath the gatehouse.</p>\n<p><strong>Resolution</strong> Present credible evidence that the conflict ended and perform a proper release from duty. The Watchman must willingly accept the evidence.<br>Destroying his spear instead causes the spirit to become Hostile and removes the possibility of suppressing the haunt through Diplomacy until the spear is repaired or ritually replaced.</p>",
+      "peril": {
+        "enabled": true,
+        "detection": "Spirit Sense automatically reveals a spiritual presence; Perception DC 24 or Religion/Spirit Lore DC 24 identifies that it is concentrated around the gate.",
+        "disable": "Diplomacy, Religion or Spirit Lore DC 24. Three successes are required to convince the Watchman to suspend his challenge. Successes need not come from the same character.\nThe spirit can communicate normally with a character capable of perceiving it.",
+        "successes": 1,
+        "onDisable": "suppressed",
+        "suppressFor": "",
+        "state": "armed",
+        "actionType": "reaction",
+        "trigger": "A creature passes beneath the gate without providing the military countersign.",
+        "effectText": "The Watchman manifests and demands identification. A creature may spend 1 AP responding before the haunt resolves. Providing the correct historical countersign prevents the effect. Otherwise, the triggering creature attempts a Will save against DC 24.\nCritical/Success Unaffected.\nPartial Frightened 1.\nFailure Frightened 2 and unable to move through the gate until the end of its next turn.\nFumble Frightened 3 and unable to cross the threshold for 1 minute.\nBlunder As Fumble and the spirit marks the creature as an enemy. The target suffers a -2-circumstance penalty to further social checks against the Watchman until evidence is provided that the war has ended.",
+        "routine": "",
+        "anchor": "The Watchman's rusted ceremonial spear, buried beneath the gatehouse.",
+        "resolution": "Present credible evidence that the conflict ended and perform a proper release from duty. The Watchman must willingly accept the evidence.\nDestroying his spear instead causes the spirit to become Hostile and removes the possibility of suppressing the haunt through Diplomacy until the spear is repaired or ritually replaced.",
+        "reset": "Immediately.",
+        "disableBonuses": "",
+        "spiritPresence": true,
+        "noBody": true,
+        "automation": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "The Last Watchman",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/svg/aura.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "haunt": true,
+      "source": "Pillars of Faith"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.629.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!Fv8FE86oQC5d2tKV"
+}

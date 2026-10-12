@@ -1,0 +1,65 @@
+{
+  "_id": "r796LSxDdhtN4qdm",
+  "name": "Thread of the Returning Soul",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 10000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Invested, Soul, Warding",
+    "description": "Usage worn around the wrist or neck.\n\nThe red thread appears fragile enough to break with a fingernail. Nobody has ever successfully cut one while its wearer was dying.\n\nActivate R; Trigger You die\n\nFrequency 1/day\n\nThe thread immediately casts Anchor the Departing Soul upon you with a duration of 24 hours.\n\nOn the sheet: Anchor the Departing Soul is held as an innate spell (1/day, 24 hours): the thread casts it on you when you die — cast it then. The trigger is the table's.\n\nPillars of Faith, Chapter 11.",
+    "slot": "neck",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 12,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": true,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "spell",
+            "spell": "Anchor the Departing Soul",
+            "frequency": "daily",
+            "label": "Thread of the Returning Soul",
+            "duration": "24 hours",
+            "note": "cast on you the moment you die — the thread's reaction, 1/day"
+          }
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!r796LSxDdhtN4qdm"
+}

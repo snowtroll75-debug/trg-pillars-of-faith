@@ -1,0 +1,49 @@
+{
+  "_id": "h0Hn3Wgf9WddLorZ",
+  "name": "Redundant Anatomy",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5",
+    "active": true,
+    "description": "<p>MORROWMADE</p>\n<p>Organs lie where no surgeon expects them, blood flows through secondary vessels and structures that should be vital have somehow become optional.<br>Once per day, when you suffer a critical injury, you may reduce its severity by one step after the critical injury has been determined.<br>A Deadly critical injury becomes Serious, a Serious critical injury becomes Minor, and a Minor critical injury is negated.</p>\n<p>Prerequisites Level 5</p>\n<p>Use once per day after a critical injury is determined: spends the use and the card says the injury is one step less severe — apply the lesser result.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Morrowmade",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!h0Hn3Wgf9WddLorZ"
+}

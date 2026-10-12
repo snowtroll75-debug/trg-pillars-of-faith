@@ -1,0 +1,49 @@
+{
+  "_id": "HubFlCPdtSGZQjQx",
+  "name": "Adaptive Tissue",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10",
+    "active": true,
+    "description": "<p>FOCUS MORROWMADE</p>\n<p>Pain teaches your flesh. Once exposed to a form of harm, your body begins restructuring itself to ensure the same mistake is not repeated.<br>Action R; Trigger You suffer acid, cold, electricity, fire or poison damage.<br>After resolving the triggering damage, your body adapts to it.<br>You gain Resistance to the triggering damage type until the end of your next turn.<br>The adaptation may produce visible changes appropriate to the damage: heat-blackened scales, translucent insulating tissue, conductive metallic veins, hardened scar plates or other unsettling alterations.</p>\n<p>Prerequisites Level 10</p>\n<p>Use as the Reaction (Focus): choose the damage type just suffered; Resistance to it lands on your defences until the end of your next turn.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Morrowmade",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Focus",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HubFlCPdtSGZQjQx"
+}

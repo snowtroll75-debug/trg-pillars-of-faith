@@ -1,0 +1,49 @@
+{
+  "_id": "jtKZqvpyCP6Mj8HF",
+  "name": "Mercy Written Deep",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Avenor heritage",
+    "active": true,
+    "description": "<p>HEALING KETHRANI</p>\n<p>The Verse of Mercy brightens whenever another life begins to slip away.<br>Whenever you cast your racial Stabilise innate spell upon a creature, that creature gains a +2-status bonus to its next Dying recovery check made before the end of its next turn.</p>\n<p>Prerequisites Avenor heritage</p>\n<p>Use after casting your racial Stabilise (target the creature): queues +2 status on their next Dying recovery check.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healing",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jtKZqvpyCP6Mj8HF"
+}

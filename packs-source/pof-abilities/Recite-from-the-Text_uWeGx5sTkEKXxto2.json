@@ -1,0 +1,49 @@
+{
+  "_id": "uWeGx5sTkEKXxto2",
+  "name": "Recite from the Text",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Archivist 1st level",
+    "active": true,
+    "description": "<p>CONCENTRATE FOCUS<br>Action 1 AP<br>Requirements You have your Prayer Book available and are able to read or otherwise consult it.<br>You rapidly locate a familiar passage, annotation or alternative formulation before invoking a prepared prayer.<br>Select one Divinity spell that you do not currently have memorised, but which is recorded in your Prayer Book. You may cast this spell immediately (using its normal AP cost). If the spell is not cast before the end of your turn, the ability is wasted.</p>\n<p>Use: spends 1 AP and the Focus use, lets you pick a Prayer Book spell that is not memorised today, and marks it prepared so it can be cast now — cast it before your turn ends, then it drops out of today's list at your next daily preparation.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "Archivist",
+    "traits": "Concentrate, Focus",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Archivist",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!uWeGx5sTkEKXxto2"
+}

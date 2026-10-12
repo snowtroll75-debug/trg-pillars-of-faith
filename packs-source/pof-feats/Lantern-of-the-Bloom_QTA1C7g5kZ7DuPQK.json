@@ -1,0 +1,102 @@
+{
+  "_id": "QTA1C7g5kZ7DuPQK",
+  "name": "Lantern of the Bloom",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Lumeri growth, Guiding Luminescence, Level 5",
+    "active": true,
+    "description": "<p>AURA MYRATHI VERDANT</p>\n<p>Your luminescent nodules pulse with the slow rhythm of ancestral guidance.<br>You may increase your racial dim light to 30 feet.<br>While your light is active, allies within 10 feet who can see you gain a +1-status bonus to Sense Direction and saving throws against Fear.<br>Once per round when an ally affected by this aura receives the benefit of Guidance cast by you, that creature may also Step 5 feet as a Free (0 AP) action immediately after resolving the guided check.</p>\n<p>Prerequisites Lumeri growth, Guiding Luminescence, Level 5</p>\n<p>Works automatically: Bloom Light's Use offers the 30-foot radius; allies within 10 feet who can see your light get +1 status to Sense Direction and to saves against Fear (ally-aura conditionals). The free Step after a Guidance is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Aura, Verdant",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "auras": [
+        {
+          "id": "lantern-of-the-bloom-fear",
+          "name": "Lantern of the Bloom",
+          "kind": "ally",
+          "radius": 10,
+          "triggers": [
+            "turnStart",
+            "enter"
+          ],
+          "save": "",
+          "appliesTo": "Allies",
+          "outcomes": {},
+          "immunitySeconds": 0,
+          "text": "AURA MYRATHI VERDANT\nWhile your light is active, allies within 10 feet who can see you gain a +1-status bonus to Sense Direction and saving throws against Fear.",
+          "grants": {
+            "kind": "modifier",
+            "value": 1,
+            "type": "status",
+            "traits": [
+              "fear"
+            ],
+            "scope": "saving throws against Fear while the light is active"
+          }
+        },
+        {
+          "id": "lantern-of-the-bloom-direction",
+          "name": "Lantern of the Bloom",
+          "kind": "ally",
+          "radius": 10,
+          "triggers": [
+            "turnStart",
+            "enter"
+          ],
+          "save": "",
+          "appliesTo": "Allies",
+          "outcomes": {},
+          "immunitySeconds": 0,
+          "text": "AURA MYRATHI VERDANT\nWhile your light is active, allies within 10 feet who can see you gain a +1-status bonus to Sense Direction.",
+          "grants": {
+            "kind": "modifier",
+            "value": 1,
+            "type": "status",
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "senseDirection"
+            ],
+            "scope": "Sense Direction while the light is active"
+          }
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QTA1C7g5kZ7DuPQK"
+}

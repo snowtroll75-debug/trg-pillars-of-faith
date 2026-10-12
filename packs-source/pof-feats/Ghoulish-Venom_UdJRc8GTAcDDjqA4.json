@@ -1,0 +1,125 @@
+{
+  "_id": "UdJRc8GTAcDDjqA4",
+  "name": "Ghoulish Venom",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 8",
+    "active": true,
+    "description": "<p>POISON SAVE SOUL UNLIVING-GHOUL</p>\n<p>Prerequisites Level 8</p>\n<p>Your bite and claws carry a grave-stilling toxin that locks living muscle in place.</p>\n<p>When you inflict a critical injury with your Bite or Claws, the target must attempt a Fortitude save with the following results:</p>\n<p>Success the target is unaffected.</p>\n<p>Partial the target is slowed 1 for 1 round.</p>\n<p>Failure the target is paralyzed for 1 round.</p>\n<p>Fumble the target is paralyzed for 1 minute and may attempt a new Fortitude save at the end of each of its turns to end the paralysis.</p>\n<p>Works automatically: a critical injury with your Bite or Ghoul Claws makes the target save (Fortitude, your Level DC) — Partial slowed 1 for 1 round; Failure paralysed for 1 round; Fumble paralysed for 1 minute with a new save at the end of each of its turns.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Poison, Save, Soul, Unliving-Ghoul",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "6FgeAt3OSr0790RR",
+      "name": "Ghoulish Venom: Ghoulish Venom",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "afterStrikes": [
+            {
+              "key": "ghoulishVenom",
+              "label": "Ghoulish Venom",
+              "weaponNames": [
+                "Bite (Unliving Ghoul)",
+                "Claws (Unliving Ghoul)"
+              ],
+              "onCriticalInjury": true,
+              "save": "fortitude",
+              "outcomes": {
+                "success": "Unaffected.",
+                "partial": "Slowed 1 for 1 round.",
+                "failure": "Paralysed for 1 round.",
+                "fumble": "Paralysed for 1 minute; a new Fortitude save at the end of each of its turns ends it."
+              },
+              "conditions": {
+                "heroic": [],
+                "critical": [],
+                "success": [],
+                "partial": [
+                  {
+                    "key": "slowed",
+                    "value": 1,
+                    "rounds": 1
+                  }
+                ],
+                "failure": [
+                  {
+                    "key": "paralyzed",
+                    "rounds": 1
+                  }
+                ],
+                "fumble": [
+                  {
+                    "key": "paralyzed",
+                    "minutes": 1,
+                    "resave": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "On a critical injury with your Bite or Claws: Fortitude save ladder.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!UdJRc8GTAcDDjqA4.6FgeAt3OSr0790RR"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "ghoul"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UdJRc8GTAcDDjqA4"
+}

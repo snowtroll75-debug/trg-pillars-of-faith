@@ -1,0 +1,138 @@
+{
+  "_id": "gdBaGU2DdKISBEJg",
+  "name": "Hearthsign",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 1,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Hearthsign",
+        "target": "targets",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 1,
+            "type": "status",
+            "label": "Hearthsign",
+            "scope": "Will saving throws against Fear, Mental effects, possession and Soul effects",
+            "auto": true,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "subjects": [
+                "will"
+              ],
+              "traits": [
+                "fear",
+                "mental",
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 1,
+            "type": "status",
+            "label": "Hearthsign",
+            "scope": "Will saving throws against Fear, Mental effects, possession and Soul effects — tick if this save qualifies",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "subjects": [
+                "will"
+              ],
+              "not": {
+                "traits": [
+                  "fear",
+                  "mental",
+                  "soul",
+                  "possession"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Target one additional willing creature",
+        "mods": {
+          "extraTargets": 1
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the bonus by 1, to a maximum of +3",
+        "mods": {
+          "bonusValue": 1,
+          "bonusMax": 3
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Folkwarden",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": false,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Mental, Soul, Warding",
+    "description": "FOLKWARDEN MENTAL SOUL UTILITY WARDING\nFolkwarden Specialist Spell\nCast 1 AP (material, somatic)\nRange 30 feet\nTargets 1 willing creature\nDuration 1 minute\n\nYou trace or invoke a simple protective sign traditionally associated with hearth, home and personal safety.\nThe target gains a +1-status bonus to Will saving throws against:\nFear;\neffects with the Mental trait;\npossession; and\neffects with the Soul trait.\nHearthsign does not remove an effect already affecting the target.\n\nWarping Options:\n+1 PP: Target one additional willing creature.\n+2 PP: Increase the bonus by 1, to a maximum of +3.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gdBaGU2DdKISBEJg"
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "oXJdRSIDJSbRtxUD",
+  "name": "Spirit Ward",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 3,
+    "prerequisites": "Shaman 3rd level",
+    "active": true,
+    "description": "<p>At 3rd level, constant exposure to spiritual influence has made your own soul unusually difficult to disturb.<br>You gain a +2-class bonus to saving throws against possession, Soul Drain and effects with the Soul trait.<br>Furthermore, whenever you successfully resist possession, you immediately become aware that something attempted to enter or control you, even if the original effect would normally conceal that information.</p>\n<p>Works automatically: the +2 class bonus is pre-ticked on saves against Soul-trait effects and offered against possession and Soul Drain.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 3
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Spirit Ward",
+          "scope": "Saving throws against possession, Soul Drain and Soul-trait effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "soul",
+              "possession"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        },
+        {
+          "kind": "modifier",
+          "label": "Spirit Ward",
+          "scope": "Saving throws against possession, Soul Drain and Soul-trait effects",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          "value": 2,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oXJdRSIDJSbRtxUD"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "MUDWXeLuIeNkKCcI",
+  "name": "Measured Invocation",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Power Manipulation 3 ranks",
+    "active": true,
+    "description": "<p>ADEPT CONCENTRATE</p>\n<p>You carefully prepare the structure of your next spell.<br>Action 1 AP<br>The next spell you begin casting before the end of your turn gains a +1-circumstance bonus to its Spellcraft check.<br>If the spell produces a Fumble or worse casting result, you also gain a -5 modifier to any resulting Spell Fumble roll.</p>\n<p>Prerequisites Power Manipulation 3 ranks</p>\n<p>Use (1 AP): +1 circumstance to your next Spellcraft check this turn is queued, and the card notes the −5 to a Spell Fumble roll.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept, Concentrate",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MUDWXeLuIeNkKCcI"
+}

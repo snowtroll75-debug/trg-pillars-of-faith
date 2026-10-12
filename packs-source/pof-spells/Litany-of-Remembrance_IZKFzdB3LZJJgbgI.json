@@ -1,0 +1,121 @@
+{
+  "_id": "IZKFzdB3LZJJgbgI",
+  "name": "Litany of Remembrance",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 6,
+    "castAP": 2,
+    "range": "30 feet",
+    "area": "",
+    "targets": "up to 6 willing creatures",
+    "duration": "10 minutes",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Litany of Remembrance",
+        "target": "targets",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Litany of Remembrance",
+            "scope": "Recall Knowledge concerning history, religion, ancestry or culture",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "skill"
+              ],
+              "actions": [
+                "recallKnowledge"
+              ]
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Litany of Remembrance",
+            "scope": "Saving throws against effects that would alter, suppress, erase or replace memories or identity",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 1 hour",
+        "mods": {
+          "durationText": "1 hour"
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the bonuses by 1, maximum +4",
+        "mods": {
+          "bonusValue": 1,
+          "bonusMax": 4
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Auditory, Insight, Mental",
+    "description": "AUDITORY INSIGHT MENTAL UTILITY\nTradition divinity\nCast 2 AP (verbal)\nRange 30 feet\nTargets up to 6 willing creatures\nDuration 10 minutes\n\nYou recite names, deeds and fragments of remembered history, anchoring the identity of those who listen.\nAffected creatures gain a +2-status bonus to Recall Knowledge checks concerning history, religion, ancestry or culture.\nThey also gain a +2-status bonus to saving throws against effects that would alter, suppress, erase or replace their memories or identity.\nThis spell does not restore memories already removed before the spell was cast.\n\nWarping Options:\n+2 PP: Increase the duration to 1 hour.\n+2 PP: Increase the bonuses by 1, maximum +4.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IZKFzdB3LZJJgbgI"
+}

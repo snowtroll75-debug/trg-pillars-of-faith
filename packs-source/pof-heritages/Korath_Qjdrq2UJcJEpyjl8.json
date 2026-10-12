@@ -1,0 +1,100 @@
+{
+  "_id": "Qjdrq2UJcJEpyjl8",
+  "name": "Korath",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Korath markings form balanced lines, divided circles, watchful eyes and dense statements concerning actions and consequence. Their Testaments often become visibly more pronounced when witnessing a serious dispute.<br>Korath are frequently drawn towards law, investigation and positions of responsibility, though their concept of judgement is broader than punishment. The most respected Korath are known for patience and insistence upon evidence. The least respected decide that having the Verse of Judgement makes every personal opinion a divine verdict. Kethrani culture regards that mistake as both dangerous and embarrassingly common.<br>You gain a +1 racial bonus to Intimidate and Sense Motive checks. When you successfully Demoralise a creature, its frightened condition cannot be reduced below 1 until the end of your next turn.</p>",
+    "sourceRace": "Kethrani",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "Wc4102RN99OVfM3x",
+      "name": "Korath: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.intimidate.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.senseMotive.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 racial bonus to Intimidate and Sense Motive checks.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!Qjdrq2UJcJEpyjl8.Wc4102RN99OVfM3x"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "inflictedFloors": [
+        {
+          "action": "demoralise",
+          "condition": "frightened",
+          "value": 1,
+          "rounds": 2
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Qjdrq2UJcJEpyjl8"
+}

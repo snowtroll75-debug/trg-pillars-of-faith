@@ -1,0 +1,86 @@
+{
+  "_id": "rf3CZkw9sUjwezeM",
+  "name": "Grace beyond Need",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": "Reaction",
+    "range": "",
+    "area": "",
+    "targets": "1 creature healed by the triggering effect",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Offered when your healing spell restores more than the target's maximum: temporary HP equal to the excess, up to 10 + your Wisdom modifier (+5 per +2 PP warp). It does not stack with itself — the larger pool stands."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the maximum temporary HP by 5",
+        "mods": {}
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 10 minutes",
+        "mods": {
+          "durationText": "10 minutes"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Cleric",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Healing, Soul",
+    "description": "CLERIC HEALING SOUL UTILITY\nCleric Specialist Spell\nCast R (verbal)\nTrigger: A spell or use of Channels that you cast restores HP to a willing living creature, but some of that healing would be lost because the creature has reached its maximum HP.\nTargets 1 creature healed by the triggering effect\nDuration 1 minute\n\nRather than allowing divine grace to dissipate unused, you bind the surplus vitality around the recipient as a brief protective blessing.\nThe target gains temporary HP equal to the amount of excess healing that would otherwise have been lost to a maximum equal to:\n10 + your Wisdom modifier.\nTemporary HP granted by Grace Beyond Need does not stack with itself. If the target receives this spell again, it retains whichever amount of temporary HP is greater.\n\nWarping Options:\n+2 PP: Increase the maximum temporary HP by 5.\n+2 PP: Increase the duration to 10 minutes.\n\nPillars of Faith, Chapter 10. A Reaction offered automatically when one of your healing spells overflows a target's maximum: temporary HP from the excess."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rf3CZkw9sUjwezeM"
+}

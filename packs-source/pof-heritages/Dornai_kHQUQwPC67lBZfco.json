@@ -1,0 +1,83 @@
+{
+  "_id": "kHQUQwPC67lBZfco",
+  "name": "Dornai",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Dornai carry echoes of people who endured. Many past incarnations appear to have been guardians, rescuers, labourers, survivors and individuals who refused death long enough to complete some essential task. Dornai often describe moments of crisis as strangely familiar, accompanied by the certainty that they have been more exhausted, more wounded or more frightened before—and continued regardless.<br>Among Rhevani, Dornai are strongly associated with unfinished responsibilities. Families sometimes watch them carefully for signs of inherited vows, though wise elders discourage turning every stubborn child into the reincarnation of some legendary protector. Dornai themselves frequently develop a strong dislike of leaving work incomplete and are disproportionately represented among bodyguards, healers, rescuers and those who remain behind when others retreat. Your Death State increases by 2.</p>",
+    "sourceRace": "Rhevani",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "iYR6UAC3SkS2a9vT",
+      "name": "Dornai: Death State +2",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.deathState",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Your Death State increases by 2.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!kHQUQwPC67lBZfco.iYR6UAC3SkS2a9vT"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kHQUQwPC67lBZfco"
+}

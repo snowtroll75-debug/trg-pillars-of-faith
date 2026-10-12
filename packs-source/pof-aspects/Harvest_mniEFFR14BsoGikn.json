@@ -1,0 +1,50 @@
+{
+  "_id": "mniEFFR14BsoGikn",
+  "name": "Harvest",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Harvest represents the organised relationship between civilisation and the living land: planting, tending, reaping, storing and ensuring that enough remains for the next season. Unlike Nature, it accepts the deliberate cultivation and exploitation of the natural world but demands stewardship rather than exhaustion. Common symbols include sheaves of grain bound with cord, a sickle over a seed, a full granary and a basket divided between ripe produce and seed stock.\n\nEdicts: Cultivate productive land responsibly. Harvest at the proper time. Preserve seed and food for future need. Share essential stores during genuine famine. Respect the labour required to produce food. Leave enough that the cycle can continue.\n\nAnathema: Destroy crops without necessity. Knowingly exhaust productive land for short-term gain. Waste a harvest entrusted to you. Hoard essential food during famine purely to watch others suffer. Consume seed stock needed for the next planting without dire necessity.\n\nSuggested Ethics: Discipline, Harmony, Prudence\n\nClass Skill: Nature\n\nSpecialist Spells: Banish Fatigue (1), Guiding Stone (1), Physical Surge (1), Soothing Words (1), Element Ward (7), Renewal's Touch (7), Resilient Fortitude (7), Unity (7)\n\nBonus Spells: Goodberry (2); Purify (2); Entangle (4); Wall of Thorns (6)\n\nFavoured Weapon: Knife\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Balance, Order",
+    "edicts": "Cultivate productive land responsibly. Harvest at the proper time. Preserve seed and food for future need. Share essential stores during genuine famine. Respect the labour required to produce food. Leave enough that the cycle can continue.",
+    "anathema": "Destroy crops without necessity. Knowingly exhaust productive land for short-term gain. Waste a harvest entrusted to you. Hoard essential food during famine purely to watch others suffer. Consume seed stock needed for the next planting without dire necessity.",
+    "suggestedEthics": "Discipline, Harmony, Prudence",
+    "classSkill": "Nature",
+    "favouredWeapon": "Knife",
+    "specialistSpells": "Banish Fatigue, Guiding Stone, Physical Surge, Soothing Words, Element Ward, Renewal's Touch, Resilient Fortitude, Unity",
+    "bonusSpells": "2: Goodberry, 2: Purify, 4: Entangle, 6: Wall of Thorns"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Discipline",
+        "Harmony",
+        "Prudence"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mniEFFR14BsoGikn"
+}

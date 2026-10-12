@@ -1,0 +1,49 @@
+{
+  "_id": "PlvA5EtwUQERDFwc",
+  "name": "Remembered Liturgy",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Thaeli heritage, Prayer from Another Life, Level 5",
+    "active": true,
+    "description": "<p>DIVINITY RHEVANI</p>\n<p>Whole passages of worship occasionally return to you in voices that are not quite your own.<br>When you select the Divinity cantrip granted by Prayer from Another Life during daily preparations, also select one PP 2 Divinity spell.<br>You may cast that spell as a Divinity innate spell with the focus trait.</p>\n<p>Prerequisites Thaeli heritage, Prayer from Another Life, Level 5</p>\n<p>Use at daily preparation: choose a PP 2 Divinity spell — it lands as an innate Focus spell until your next choice.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Divinity",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PlvA5EtwUQERDFwc"
+}

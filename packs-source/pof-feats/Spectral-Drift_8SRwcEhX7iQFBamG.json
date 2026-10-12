@@ -1,0 +1,62 @@
+{
+  "_id": "8SRwcEhX7iQFBamG",
+  "name": "Spectral Drift",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 4",
+    "active": true,
+    "description": "<p>UNLIVING-GHOST</p>\n<p>Prerequisites Level 4</p>\n<p>You no longer quite agree with the ground beneath you.</p>\n<p>You gain a Fly Speed equal to your land Speed. You do not need to touch the ground while moving, though effects that can affect incorporeal creatures can still hinder you.</p>\n<p>Works automatically: a fly Speed equal to your land Speed (recomputed whenever your Speed changes).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Ghost",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "creatureAbility": {
+        "printedTraits": "",
+        "printedAction": "",
+        "printedArea": "",
+        "derives": {
+          "movement": {
+            "key": "fly",
+            "feet": 0,
+            "orLand": true
+          }
+        }
+      },
+      "bookCategory": "unliving",
+      "unlivingGroup": "ghost"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8SRwcEhX7iQFBamG"
+}

@@ -1,0 +1,98 @@
+{
+  "_id": "Np1zQJPlQWrbYdfL",
+  "name": "Mourner's Incense",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 25,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Incense",
+    "description": "<strong>Usage burned in a censer; Activate Interact (2 AP).</strong>\n\nA calming mixture of lavender, myrrh and several mild sedative herbs traditionally used during funerals and vigils. A creature that spends at least 10 minutes resting in the smoke gains a +1-item bonus to its next saving throw against a Fear or Emotion effect attempted within the following hour. A creature may benefit from Mourner's Incense only once per day.\n\nOn the sheet: A creature may benefit from Mourner's Incense only once per day.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "alchemical",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Mourner's Incense",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Mourner's Incense",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 1,
+                  "bonusType": "item",
+                  "label": "Mourner's Incense",
+                  "scope": "Your next saving throw against a Fear or Emotion effect within the hour (after 10 minutes resting in the smoke)",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "traits": [
+                      "fear",
+                      "emotion"
+                    ]
+                  },
+                  "auto": true,
+                  "oneShot": true
+                }
+              ]
+            }
+          ],
+          "note": "A creature may benefit from Mourner's Incense only once per day."
+        }
+      },
+      "alchemical": {
+        "section": "Other",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 25,
+        "tablePrice": 25,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Np1zQJPlQWrbYdfL"
+}

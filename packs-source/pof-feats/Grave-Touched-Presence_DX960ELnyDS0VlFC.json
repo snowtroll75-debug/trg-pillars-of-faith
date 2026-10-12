@@ -1,0 +1,69 @@
+{
+  "_id": "DX960ELnyDS0VlFC",
+  "name": "Grave-Touched Presence",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>CLASS UNLIVING</p>\n<p>A faint chill follows your words, and the living feel the grave looking back through your eyes.</p>\n<p>Living humanoids and intelligent undead instinctively recoil from you. Unless you conceal your nature, such creatures begin one attitude step worse toward you. You gain a +2 racial bonus to Intimidate and Sense Motive checks against undead.</p>\n<p>+2 racial is offered on Intimidate and Sense Motive checks (tick it against undead). The attitude step worse is the GM's.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Grave-Touched Presence",
+          "scope": "Intimidate and Sense Motive checks against undead",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "intimidate",
+              "senseMotive"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "unliving",
+      "unlivingGroup": "generic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DX960ELnyDS0VlFC"
+}

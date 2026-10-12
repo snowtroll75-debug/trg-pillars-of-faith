@@ -1,0 +1,110 @@
+{
+  "_id": "CR3nFLSIAHmUAxB0",
+  "name": "Bloom of Renewal",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "verdant",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 8,
+    "castAP": 3,
+    "range": "60 feet",
+    "area": "15-foot radius",
+    "targets": "",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "heal",
+        "target": "allies",
+        "formula": "3d8"
+      },
+      {
+        "kind": "conditionRelief",
+        "label": "Bloom of Renewal",
+        "target": "allies",
+        "condition": "fatigued",
+        "amount": 1,
+        "choices": [
+          "fatigued",
+          "sickened"
+        ]
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase healing by 1d8",
+        "mods": {
+          "healDice": "1d8"
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the radius by 5 feet",
+        "mods": {
+          "areaGrowth": 5
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Affected creatures may reduce both Fatigued and Sickened by 1",
+        "mods": {
+          "reliefConditions": [
+            "fatigued",
+            "sickened"
+          ]
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "allies",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Healing, Plant, Soul",
+    "description": "HEALING PLANT SOUL UTILITY\nTradition verdant\nCast 3 AP (somatic, verbal)\nRange 60 feet\nArea 15-foot radius\n\nLife erupts across the affected ground as flowers, fungi, shoots and moss flare briefly into supernatural growth.\nEach willing living creature within the area regains 3d8 Hit Points. Each healed creature may also reduce either Fatigued or Sickened by 1.\nThe vegetation produced is ordinary once the spell has resolved. It may wilt naturally if the environment cannot sustain it.\n\nWarping Options:\n+2 PP: Increase healing by 1d8.\n+2 PP: Increase the radius by 5 feet.\n+4 PP: Affected creatures may reduce both Fatigued and Sickened by 1.\n\nPillars of Faith, Chapter 10. Heals every willing living creature in the area; the relief row offers Fatigued or Sickened per creature (both with the +4 PP warp)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CR3nFLSIAHmUAxB0"
+}

@@ -1,0 +1,176 @@
+{
+  "_id": "bcTSBZBCv6IDfTQe",
+  "name": "The Hungry Reliquary",
+  "type": "npc",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "identity": {
+      "level": 15,
+      "size": "medium"
+    },
+    "details": {
+      "traits": "Divinity, Haunt, Spirit, Soul",
+      "biography": "<p>A golden reliquary contains the finger bone of a long-dead saint. Centuries of desperate prayer have created an Emergent Spirit around the relic. It genuinely wishes to answer every prayer placed before it and has gradually begun taking memory, health and identity from previous petitioners in order to \"give\" them to those who ask for aid.<br>The entity is not malicious.<br>It simply no longer understands that one person's suffering cannot be corrected by redistributing another person's life.</p>"
+    },
+    "combat": {
+      "initiative": {
+        "other": 75
+      }
+    },
+    "gm": {
+      "role": "Complex haunt",
+      "notes": "<p><strong>The Hungry Reliquary</strong> — Level 15 haunt (Pillars of Faith, Chapter 8). Its Level DC is 29.</p>\n<p><strong>Anchor</strong> The reliquary and the accumulated written petitions stored beneath it.</p>\n<p><strong>Resolution</strong> The spirit must be taught that healing without consent is not mercy. The PCs must recover the accumulated petitions, identify at least three occasions when one person's miracle corresponded with another person's unexplained suffering and confront the spirit with those consequences.<br>A successful sequence of social or spiritual interactions then convinces the entity to accept boundaries upon its intervention.<br>The reliquary need not be destroyed.<br>If resolved peacefully, the spirit remains as a non-hostile presence and may eventually become a valuable source of local knowledge.</p>",
+      "peril": {
+        "enabled": true,
+        "detection": "Religion or Spirit Lore DC 29, Rank 4; Spirit Sense reveals an unusually dense spiritual presence within the reliquary.",
+        "disable": "Religion DC 29, Spirit Lore DC 29 or Occultism DC 31. Five successes are required.\nEach successful check corrects one part of the accumulated spiritual pattern.\nDestroying a written petition before understanding it causes one accumulated success to be lost.",
+        "successes": 1,
+        "onDisable": "suppressed",
+        "suppressFor": "",
+        "state": "armed",
+        "actionType": "complex",
+        "trigger": "A creature within 30 feet sincerely asks for supernatural aid.",
+        "effectText": "The reliquary opens by itself. The requesting creature immediately regains 5d6 HP. Another random living creature within 60 feet loses the same amount of HP. This loss is essence damage and cannot reduce the victim below 1 HP during the initial trigger. The haunt then rolls Initiative.",
+        "routine": "Routine (3 AP): Redistribute Suffering (2 AP), Borrowed Memory (1 AP) — each is an ability on this sheet; Use rolls and applies it.",
+        "anchor": "The reliquary and the accumulated written petitions stored beneath it.",
+        "resolution": "The spirit must be taught that healing without consent is not mercy. The PCs must recover the accumulated petitions, identify at least three occasions when one person's miracle corresponded with another person's unexplained suffering and confront the spirit with those consequences.\nA successful sequence of social or spiritual interactions then convinces the entity to accept boundaries upon its intervention.\nThe reliquary need not be destroyed.\nIf resolved peacefully, the spirit remains as a non-hostile presence and may eventually become a valuable source of local knowledge.",
+        "reset": "1 hour.",
+        "disableBonuses": "",
+        "spiritPresence": true,
+        "noBody": true,
+        "automation": "hungry reliquary"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "The Hungry Reliquary",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/svg/aura.svg"
+    }
+  },
+  "items": [
+    {
+      "_id": "1WLdkDz3FUJjiEpK",
+      "name": "Redistribute Suffering",
+      "img": "icons/svg/aura.svg",
+      "type": "ability",
+      "system": {
+        "source": "Pillars of Faith",
+        "category": "Racial",
+        "tier": "",
+        "level": 0,
+        "prerequisites": "",
+        "active": true,
+        "description": "<p><strong>Healing, Soul</strong> — Action 2 AP</p>\n<p>The haunt selects the most visibly injured living creature within 60 feet.</p>\n<p>That creature heals 4d6 HP.</p>\n<p>A different random living creature within range suffers the same amount as essence damage with a Basic Will save against DC 29.</p>",
+        "usesPerDay": "",
+        "bonusUses": 0,
+        "usesValue": 0,
+        "sourceRace": "",
+        "sourceClass": "",
+        "traits": "Healing, Soul"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "trg-prime": {
+          "creatureAbility": {
+            "activation": {
+              "ap": 2
+            }
+          },
+          "perilEffect": "The haunt selects the most visibly injured living creature within 60 feet.\nThat creature heals 4d6 HP.\nA different random living creature within range suffers the same amount as essence damage with a Basic Will save against DC 29.",
+          "perilAutomation": "redistribute suffering"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.629.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!bcTSBZBCv6IDfTQe.1WLdkDz3FUJjiEpK"
+    },
+    {
+      "_id": "3uRhAAu6kraUk35U",
+      "name": "Borrowed Memory",
+      "img": "icons/svg/aura.svg",
+      "type": "ability",
+      "system": {
+        "source": "Pillars of Faith",
+        "category": "Racial",
+        "tier": "",
+        "level": 0,
+        "prerequisites": "",
+        "active": true,
+        "description": "<p><strong>Mental, Soul</strong> — Action 1 AP</p>\n<p>One creature within 60 feet attempts a Will save against DC 29.</p>\n<p>Critical Unaffected.</p>\n<p>Success The target momentarily forgets an unimportant detail.</p>\n<p>Partial The target becomes Dazed 1 until the end of its next turn.</p>\n<p>Failure The target loses access to one trained non-specialist skill selected randomly until the haunt is suppressed or the target completes a Full Rest.</p>\n<p>Fumble As Failure, and the target also forgets one significant personal memory until the haunt is suppressed.</p>\n<p>The lost memory is restored when the effect ends.</p>",
+        "usesPerDay": "",
+        "bonusUses": 0,
+        "usesValue": 0,
+        "sourceRace": "",
+        "sourceClass": "",
+        "traits": "Mental, Soul"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "trg-prime": {
+          "creatureAbility": {
+            "activation": {
+              "ap": 1
+            }
+          },
+          "perilEffect": "One creature within 60 feet attempts a Will save against DC 29.\nCritical Unaffected.\nSuccess The target momentarily forgets an unimportant detail.\nPartial The target becomes Dazed 1 until the end of its next turn.\nFailure The target loses access to one trained non-specialist skill selected randomly until the haunt is suppressed or the target completes a Full Rest.\nFumble As Failure, and the target also forgets one significant personal memory until the haunt is suppressed.\nThe lost memory is restored when the effect ends."
+        }
+      },
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.629.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!bcTSBZBCv6IDfTQe.3uRhAAu6kraUk35U"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "haunt": true,
+      "source": "Pillars of Faith"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.629.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!bcTSBZBCv6IDfTQe"
+}

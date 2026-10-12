@@ -1,0 +1,98 @@
+{
+  "_id": "h7qwZRll6y4ybOnd",
+  "name": "Quarantine Working",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "30 feet",
+    "area": "",
+    "targets": "One magic item, haunt, ward, magical trap or persistent magical effect",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "counteractPeril",
+        "target": "targets",
+        "suppress": {
+          "critical": "10 minutes",
+          "success": "1 minute"
+        }
+      },
+      {
+        "kind": "note",
+        "text": "Make a Counteract check against the item, haunt, ward, trap or effect. Critical: suppressed 10 minutes (1 hour with the +4 PP warp). Success: 1 minute. Failure: active. Fumble: active and not targetable again until the beginning of your next turn."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the range to 60 feet",
+        "mods": {
+          "rangeOverride": "60 feet"
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "On a Critical, suppress the effect for 1 hour",
+        "mods": {
+          "perilSuppress": {
+            "critical": "1 hour"
+          }
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Grimward",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Warding",
+    "description": "GRIMWARD UTILITY WARDING\nGrimward Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nTargets One magic item, haunt, ward, magical trap or persistent magical effect\n\nYou surround a dangerous magical working with a temporary containment lattice.\nMake a Counteract check against the target.\nCritical: The magical properties of the target are suppressed for 10 minutes.\nSuccess: They are suppressed for 1 minute.\nFailure: The effect remains active.\nFumble: The effect remains active and cannot be targeted by Quarantine Working again until the beginning of your next turn.\nSuppression does not destroy, identify or permanently disable the target. Mundane functions continue normally.\n\nWarping Options:\n+2 PP: Increase the range to 60 feet.\n+4 PP: On a Critical, suppress the effect for 1 hour.\n\nPillars of Faith, Chapter 10. Against a haunt or magical trap (target its token): the core rolls the Counteract and suppresses it — Critical 10 minutes (1 hour with the +4 PP warp), Success 1 minute; a Fumble or Blunder triggers it. Against an item, ward or effect, resolve the check from the note."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!h7qwZRll6y4ybOnd"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "kQGQmipYSOCUOtTE",
+  "name": "Pain",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Pain teaches that suffering strips away pretence. A creature in agony reveals its limits, loyalties and fears. Some adherents are brutal ascetics who deliberately test themselves; others are torturers, inquisitors and sadists who consider another creature's suffering a legitimate instrument of control. Its symbols include a barbed chain, a bloodied nail, a thorned circle and an eye held open by hooks.\n\nEdicts: Endure pain without allowing it to master you. Use suffering to expose weakness or enforce obedience. Ensure serious injuries inflicted upon you are answered. Regard scars as evidence of lessons learned. Inflict punishment upon those who defy your authority.\n\nAnathema: Show mercy merely because another creature suffers. Flee necessary pain when your purpose demands endurance. Allow a grave injury against you to pass entirely unanswered. Inflict meaningless suffering when it could instead serve punishment, intimidation or instruction.\n\nSuggested Ethics: Ambition, Discipline, Malevolence\n\nClass Skill: Intimidate\n\nSpecialist Spells: Physical Surge (1), Reaper's Resonance (1), Sickly Ray (1), Song of Despair (1), Coercive Retribution (7), Devastating Might (7), False Arrogance (7), Resilient Fortitude (7)\n\nBonus Spells: Delay Pain (4); Death Knell (4); Enervation (12); Symbol of Pain (12)\n\nFavoured Weapon: Flail\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Evil",
+    "edicts": "Endure pain without allowing it to master you. Use suffering to expose weakness or enforce obedience. Ensure serious injuries inflicted upon you are answered. Regard scars as evidence of lessons learned. Inflict punishment upon those who defy your authority.",
+    "anathema": "Show mercy merely because another creature suffers. Flee necessary pain when your purpose demands endurance. Allow a grave injury against you to pass entirely unanswered. Inflict meaningless suffering when it could instead serve punishment, intimidation or instruction.",
+    "suggestedEthics": "Ambition, Discipline, Malevolence",
+    "classSkill": "Intimidate",
+    "favouredWeapon": "Flail",
+    "specialistSpells": "Physical Surge, Reaper's Resonance, Sickly Ray, Song of Despair, Coercive Retribution, Devastating Might, False Arrogance, Resilient Fortitude",
+    "bonusSpells": "4: Delay Pain, 4: Death Knell, 12: Enervation, 12: Symbol of Pain"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Ambition",
+        "Discipline",
+        "Malevolence"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kQGQmipYSOCUOtTE"
+}

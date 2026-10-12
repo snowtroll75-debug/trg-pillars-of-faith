@@ -1,0 +1,50 @@
+{
+  "_id": "0V2gmK13c85FzAa9",
+  "name": "Eternal Resurgence",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 18",
+    "active": true,
+    "description": "<p>UNLIVING-LICH</p>\n<p>Prerequisites Level 18</p>\n<p>Your phylactery learns to rebuild you faster, drinking from nearby life to hasten your return.</p>\n<p>Your Phylactery of Eternal Resurgence rebuilds you more efficiently. While your essence is rebuilding through the phylactery, its regeneration improves from Regeneration 1/hour to Regeneration 2/hour. When the phylactery successfully siphons living creatures within 30 feet, the regeneration rate is doubled from its current value for the relevant regeneration interval.</p>\n<p>Special: The phylactery remains a unique invested soul item with 200 HP, Hardness 20, immunity to non-magical weapons, magic resistance, and Incredibly Hard (DC +10) detection difficulty unless another rule modifies it.</p>\n<p>Works through the Phylactery of Eternal Resurgence's Use: Regeneration 2/hour instead of 1/hour, doubled again by a successful siphon.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Lich",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "lich"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0V2gmK13c85FzAa9"
+}

@@ -1,0 +1,110 @@
+{
+  "_id": "CvY8PZpKmCH3sFel",
+  "name": "Bulwark of the Sworn Gate",
+  "img": "icons/svg/shield.svg",
+  "type": "armour",
+  "system": {
+    "quantity": 1,
+    "weight": 55,
+    "price": 38850,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 135,
+      "max": 135
+    },
+    "traits": "Anchored Soul, Full, Helm, Master, Metal, Potency III, Rigid, Sanctuary",
+    "category": "Heavy",
+    "material": "Metal",
+    "isHelmet": true,
+    "dr": 7,
+    "hardness": 0,
+    "penalty": -6,
+    "proficiency": "",
+    "maxDexBonus": 4,
+    "speedPenalty": -10,
+    "itemLevel": 14,
+    "coversTorso": true,
+    "coversArms": true,
+    "coversLegs": true,
+    "description": "The armour is deliberately severe: blackened steel, squared shoulders and a closed helm bearing only a vertical silver line. The line represents a doorway. The person wearing the armour represents the reason it remains closed.\n\nYou retain the Oathguard Plate's normal +1 item bonus to checks and saving throws made to resist Shove, Trip or forced physical movement whenever you have not moved since the beginning of your current turn. You also gain a +2-item bonus to saving throws against possession and effects that forcibly remove, control or displace your soul.\n\nStatistics: ACP -6; MAX DEX 4; DR 7; DB +3; HP 135; Speed -10.\n\nTraits Anchored Soul, Full, Helm, Master, Metal, Potency III, Rigid, Sanctuary.\n\nOn the sheet: a Master Oathguard Plate with Potency III, Anchored Soul (+2 item against possession and soul displacement) and Sanctuary. The Oathguard's +1 item against Shove, Trip and forced movement is still offered.\n\nPillars of Faith, Chapter 11.",
+    "quality": "master",
+    "runes": "Potency III, Anchored Soul, Sanctuary",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Oathguard Plate",
+          "scope": "Checks and saving throws to resist Shove, Trip or forced movement, if you have not moved since the beginning of your turn",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save",
+              "skill",
+              "attribute"
+            ]
+          }
+        }
+      ],
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 3,
+            "printed": "Potency III"
+          },
+          {
+            "key": "anchoredSoul",
+            "label": "Anchored Soul",
+            "tier": 1,
+            "printed": "Anchored Soul"
+          },
+          {
+            "key": "sanctuary",
+            "label": "Sanctuary",
+            "tier": 1,
+            "printed": "Sanctuary"
+          }
+        ],
+        "runeText": "Potency III, Anchored Soul, Sanctuary",
+        "traits": [
+          "Anchored Soul",
+          "Full",
+          "Helm",
+          "Master",
+          "Metal",
+          "Potency III",
+          "Rigid",
+          "Sanctuary"
+        ],
+        "quality": "master",
+        "material": "metal",
+        "printedItemBonus": 3
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CvY8PZpKmCH3sFel"
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "sD9gBZ2UxHcJgWIb",
+  "name": "Touch of Healing",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 2,
+    "range": "touch",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "heal",
+        "target": "targets",
+        "formula": "2d6"
+      },
+      {
+        "kind": "note",
+        "text": "Cast with a somatic OR a verbal component (either satisfies it). On yourself: 1 AP, verbal only."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "The amount of healing increases by 1d6",
+        "mods": {
+          "healDice": "1d6"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Healer",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": false,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Healing, Soul",
+    "description": "HEALING SOUL UTILITY\nBirthright Eternity\nCast 2 AP (somatic or verbal)\nRange touch; Targets 1 willing creature\n\nYou touch channels healing energy into your target. The target is restored of 2d6 hit points.\nWhen targeting yourself with this spell, the casting component becomes verbal and the AP is 1.\n\nWarping Options:\n+1 PP: The amount of healing increases by 1d6.\n\nFrom the Eldritch Arts sourcebook, carried by Pillars of Faith until that module ships. The Healer's 1st-level Specialist Spell."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "borrowedFrom": "Eldritch Arts",
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sD9gBZ2UxHcJgWIb"
+}

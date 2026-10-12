@@ -1,0 +1,94 @@
+{
+  "_id": "Aj5IdcqyqJG1aKDs",
+  "name": "Wreath of Living Spores",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 2000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Invested, Plant, Verdant, Warding",
+    "description": "Usage worn around head or shoulders.\n\nSoft moss, pale mushrooms and tiny flowering growths live permanently upon this woven circlet. Attempts to remove them simply cause another species to emerge the following morning.\n\nYou gain a +2-status bonus to saving throws against Disease, Poison and harmful fungal or spore effects.\n\nOn the sheet: +2 status is pre-ticked on saves against Disease and Poison effects and offered against fungal or spore effects.\n\nPillars of Faith, Chapter 11.",
+    "slot": "head",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 6,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": true,
+        "activate": "",
+        "frequency": "",
+        "abilities": []
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Wreath of Living Spores",
+          "scope": "Saving throws against Disease, Poison and harmful fungal or spore effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "disease",
+              "poison"
+            ]
+          }
+        },
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Wreath of Living Spores",
+          "scope": "Saving throws against harmful fungal or spore effects",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "disease",
+                "poison"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Aj5IdcqyqJG1aKDs"
+}

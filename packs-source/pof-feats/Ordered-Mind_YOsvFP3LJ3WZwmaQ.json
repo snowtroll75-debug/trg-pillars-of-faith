@@ -1,0 +1,83 @@
+{
+  "_id": "YOsvFP3LJ3WZwmaQ",
+  "name": "Ordered Mind",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Order-Blooded, Level 5",
+    "active": true,
+    "description": "<p>Your thoughts arrange themselves around immutable internal laws.<br>You gain Advantage on saving throws against Confusion and Fear effects.</p>\n<p>Prerequisites Order-Blooded, Level 5</p>\n<p>Works automatically: advantage on saves against Confusion and Fear effects, pre-ticked by trait and offered otherwise.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "advantage",
+          "label": "Ordered Mind",
+          "scope": "Saving throws against Confusion and Fear effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "confusion",
+              "fear"
+            ]
+          }
+        },
+        {
+          "kind": "advantage",
+          "label": "Ordered Mind",
+          "scope": "Saving throws against Confusion and Fear effects",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "confusion",
+                "fear"
+              ]
+            }
+          }
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!YOsvFP3LJ3WZwmaQ"
+}

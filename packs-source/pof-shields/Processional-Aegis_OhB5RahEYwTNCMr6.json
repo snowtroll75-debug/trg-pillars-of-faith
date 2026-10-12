@@ -1,0 +1,72 @@
+{
+  "_id": "OhB5RahEYwTNCMr6",
+  "name": "Processional Aegis",
+  "img": "icons/svg/shield.svg",
+  "type": "shield",
+  "system": {
+    "quantity": 1,
+    "weight": 22,
+    "price": 230,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 25,
+      "max": 25
+    },
+    "traits": "",
+    "dr": 1,
+    "hardness": 0,
+    "brokenThreshold": 0,
+    "proficiency": "",
+    "penalty": -4,
+    "defenceBonus": 3,
+    "category": "heavy",
+    "metal": true,
+    "itemLevel": 2,
+    "shieldBashDamage": "1d6",
+    "shieldBashFumbleDC": 8,
+    "shieldBashDamageType": "bludgeoning",
+    "description": "These tall icon-bearing shields accompany religious processions but are equally capable of stopping arrows. You may spend 2 AP to plant the shield securely. While planted, it cannot provide you with its normal shield benefits, but it functions as a small portable shrine or ceremonial surface. Appropriate use grants a +1-item bonus to Perform Last Rites or Observe Sacred Custom.\n\nOn the sheet: +1 item is offered on Perform Last Rites and Observe Sacred Custom — tick while the shield is planted (its DB is yours to unequip meanwhile).\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Processional Aegis",
+          "scope": "Perform Last Rites or Observe Sacred Custom while the shield is planted (2 AP; no shield benefits meanwhile)",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "performLastRites",
+              "observeSacredCustom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OhB5RahEYwTNCMr6"
+}

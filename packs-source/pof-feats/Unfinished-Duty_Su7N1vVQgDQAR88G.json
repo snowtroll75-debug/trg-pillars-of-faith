@@ -1,0 +1,49 @@
+{
+  "_id": "Su7N1vVQgDQAR88G",
+  "name": "Unfinished Duty",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Dornai heritage",
+    "active": true,
+    "description": "<p>RHEVANI</p>\n<p>Some souls have become very practiced at refusing to leave before the work is finished.<br>Once per day, when your Dying condition would increase at the end of your turn, it does not increase.<br>This ability does not remove Dying, restore Hit Points or prevent an effect that kills you outright.</p>\n<p>Prerequisites Dornai heritage</p>\n<p>Use once per day at the end of a turn on which Dying would increase: spends the use; the card records that Dying does not increase — the GM leaves it as it stands.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Su7N1vVQgDQAR88G"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "DG0W1HYWAb5q7dH9",
+  "name": "Last-Road Spear",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 7,
+    "price": 40,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Brace, Reach, Versatile S, Eshari",
+    "attackBonus": 0,
+    "damage": "1d8",
+    "damageType": "piercing",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 18,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Spear",
+    "category": "Exotic",
+    "size": "large",
+    "itemLevel": 0,
+    "description": "Traditionally carried by Eshari funerary escorts, the broad blade and rear-facing hook allow it to be used against charging opponents or to control a corpse without approaching too closely.\n\nBrace is printed as a trait; the core weapons carry no Brace rule, so it is a note for the table.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DG0W1HYWAb5q7dH9"
+}

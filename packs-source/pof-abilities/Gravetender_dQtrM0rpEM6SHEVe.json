@@ -1,0 +1,68 @@
+{
+  "_id": "dQtrM0rpEM6SHEVe",
+  "name": "Gravetender",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>You learned the customs surrounding death long before you learned to fear the dead themselves.<br>Specialist Skill Burial Lore<br>Quiet Passage You gain a +2-class bonus to checks made as part of Lay to Rest. Furthermore, increase the duration of a successful Lay to Rest by one step: Partial becomes 1 week, Success becomes 1 month, Critical becomes 1 year and Heroic remains effective until the remains are deliberately desecrated, destroyed or the rite is successfully Counteracted.</p>\n<p>Quiet Passage — the +2 class bonus is pre-ticked on Lay to Rest checks; read the duration one step up the ladder.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Burial Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Quiet Passage",
+          "scope": "Lay to Rest checks",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "layToRest"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dQtrM0rpEM6SHEVe"
+}

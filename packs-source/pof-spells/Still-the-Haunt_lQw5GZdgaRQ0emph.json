@@ -1,0 +1,93 @@
+{
+  "_id": "lQw5GZdgaRQ0emph",
+  "name": "Still the Haunt",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 9,
+    "castAP": 2,
+    "range": "60 feet",
+    "area": "",
+    "targets": "1 haunt you can perceive",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "counteractPeril",
+        "target": "targets",
+        "suppress": {
+          "critical": "24 hours",
+          "success": "1 hour",
+          "failure": "until the beginning of your next turn"
+        }
+      },
+      {
+        "kind": "note",
+        "text": "A suppressed haunt cannot trigger, attack or produce its supernatural effects, but it still exists and resumes normally when the suppression ends. Still the Haunt does not resolve the events, emotions or spiritual circumstances responsible for creating the haunt."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 4,
+        "text": "Double the duration produced by a Critical or Success",
+        "mods": {
+          "perilSuppress": {
+            "critical": "48 hours",
+            "success": "2 hours"
+          }
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Shaman",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Spirit, Warding",
+    "description": "SHAMAN SPIRIT UTILITY WARDING\nShaman Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 60 feet\nTargets 1 haunt you can perceive\n\nRather than destroying a haunting presence, you force it into temporary stillness.\nAttempt to Counteract the haunt.\nCritical: The haunt is suppressed for 24 hours.\nSuccess: The haunt is suppressed for 1 hour.\nFailure: The haunt is suppressed until the beginning of your next turn.\nFumble: The haunt is unaffected.\nA suppressed haunt cannot trigger, attack or produce its supernatural effects, but it still exists and resumes normally when the suppression ends. Still the Haunt does not resolve the events, emotions or spiritual circumstances responsible for creating the haunt.\n\nWarping Options:\n+4 PP: Double the duration produced by a Critical or Success.\n\nPillars of Faith, Chapter 10. Target the haunt's token and cast: the Counteract check opens on its level and Level DC, and the haunt is suppressed for the rung's span (Critical 24 hours, Success 1 hour, Failure until the beginning of your next turn; the +4 PP warp doubles the first two). A Fumble or Blunder triggers it (Chapter 12)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lQw5GZdgaRQ0emph"
+}

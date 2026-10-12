@@ -1,0 +1,81 @@
+{
+  "_id": "t3ziO761pgCw8Mbg",
+  "name": "Spirit Rebuke",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "attack",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 2,
+    "range": "60 feet",
+    "area": "",
+    "targets": "1 disembodied spirit, incorporeal Undead, directly targetable haunt or possessing entity that you can perceive",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "2d6",
+    "damage": {
+      "formula": "2d6",
+      "type": "essence",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "If the target is possessing another creature, the damage lands on the possessor, not the host."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Increase the damage by 1d6 (max 10d6)",
+        "mods": {
+          "damageDice": "1d6"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Shaman",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Essence, Invocation, Spirit",
+    "description": "ATTACK ESSENCE INVOCATION SHAMAN SPIRIT\nShaman Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 60 feet\nTargets 1 disembodied spirit, incorporeal Undead, directly targetable haunt or possessing entity that you can perceive\nBase Damage 1d6\n\nYou lash a spirit with a violent pulse of resonance.\nOn a successful spell attack, the target suffers 2d6 essence damage.\nIf the target is currently possessing another creature, Spirit Rebuke damages the possessing entity rather than its host.\n\nWarping Options:\n+1 PP: Increase the damage by 1d6 (max 10d6).\n\nPillars of Faith, Chapter 10. A spell attack for essence damage; the book's Base Damage line (1d6) and text (2d6) disagree — 2d6 is shipped, flagged for Graham."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!t3ziO761pgCw8Mbg"
+}

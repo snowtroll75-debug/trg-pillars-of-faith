@@ -1,0 +1,95 @@
+{
+  "_id": "Z9Mg5sEWxSMfzOo0",
+  "name": "Unliving Skeleton",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 2",
+    "active": true,
+    "description": "<p>ARCHETYPE UNLIVING</p>\n<p>Prerequisites Level 2</p>\n<p>Your body has become a conscious skeletal remnant rather than a mindless animated corpse.</p>\n<p>You retain agency, memory and personality, but your flesh has fallen away, and your bones are now held together by necromantic force rather than sinew. Your body is cold, hollow and unsettlingly durable, moving with the dry scrape of grave-bone and the faint whisper of the magic that sustains you. You gain the Shared Unliving Base Mods, Base DR 1 and Immunity to Bleed.</p>\n<p>Grants Darkvision and the Shared Unliving Base Mods; Base DR +1 and immunity to Bleed. One Unliving archetype per character (the picker hides the others once one is taken, and a second is refused); it has no progression requirements and does not stop you taking a regular archetype.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Darkvision, Shared Unliving Base Mods",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "WbjVqUWWU47vfuZU",
+      "name": "Unliving Skeleton: Skeleton",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.naturalArmourBase.natural",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", bleed",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Base DR +1; immune to Bleed.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!Z9Mg5sEWxSMfzOo0.WbjVqUWWU47vfuZU"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Z9Mg5sEWxSMfzOo0"
+}

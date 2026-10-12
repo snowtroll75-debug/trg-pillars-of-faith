@@ -1,0 +1,71 @@
+{
+  "_id": "5p2D9UAONjlpQ9pb",
+  "name": "Oathguard Plate",
+  "img": "icons/svg/shield.svg",
+  "type": "armour",
+  "system": {
+    "quantity": 1,
+    "weight": 55,
+    "price": 850,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 100,
+      "max": 100
+    },
+    "traits": "Full, Helm, Metal, Rigid",
+    "category": "Heavy",
+    "material": "Metal",
+    "isHelmet": true,
+    "dr": 7,
+    "hardness": 0,
+    "penalty": -7,
+    "proficiency": "",
+    "maxDexBonus": 2,
+    "speedPenalty": -10,
+    "itemLevel": 4,
+    "coversTorso": true,
+    "coversArms": true,
+    "coversLegs": true,
+    "description": "Temple guards traditionally spend long hours motionless before doorways, thrones and sacred precincts. The wide sabatons and carefully weighted plates of this armour reflect that practice. If you have not moved since the beginning of your current turn, you gain a +1-item bonus on checks and saving throws made to resist Shove, Trip or forced physical movement.\n\nOn the sheet: +1 item is offered on checks and saves to resist being Shoved, Tripped or moved — tick when you have not moved this turn.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Oathguard Plate",
+          "scope": "Checks and saving throws to resist Shove, Trip or forced movement, if you have not moved since the beginning of your turn",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save",
+              "skill",
+              "attribute"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!5p2D9UAONjlpQ9pb"
+}

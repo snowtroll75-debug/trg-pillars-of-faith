@@ -1,0 +1,49 @@
+{
+  "_id": "JNadVwpDoq1iQ2VJ",
+  "name": "Swift Mender",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 4 ranks",
+    "active": true,
+    "description": "<p>HEALER METAMAGIC</p>\n<p>Your expertise allows you to heal others with incredible speed, mending wounds in the blink of an eye.<br>PP Cost +4<br>Reduce the AP cost required to cast a spell with the Healing trait by 1, to a minimum of 1 AP.</p>\n<p>Prerequisites Medicine 4 ranks</p>\n<p>Works automatically: every Healing spell's Warp? dialog offers \"+4 PP: 1 AP less (minimum 1)\" to you.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Metamagic, Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!JNadVwpDoq1iQ2VJ"
+}

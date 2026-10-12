@@ -1,0 +1,51 @@
+{
+  "_id": "zQRFIc9hucBo1hDw",
+  "name": "Oathkeeper",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Sense Motive 2 ranks, Culture or Religion 2 ranks",
+    "active": true,
+    "description": "<p>Words matter. A promise freely given creates no chain that can be seen, yet you have learned that some bonds are stronger precisely because nothing forces them to be kept.<br>You gain Sacred Law as a specialist skill.<br>Sacred Law may be used to Recall Knowledge or Research formal oaths, contracts, religious laws, sworn obligations, traditional vows and the customs by which promises are witnessed, fulfilled, transferred or released.<br>You may also use Sacred Law to examine the wording of an oath or contract and recognise ambiguities, conflicting obligations or deliberate loopholes. This does not reveal whether a creature is lying, whether it intends to honour an agreement or whether an oath is morally justified.<br>During your daily preparations, you may declare one Solemn Vow.<br>A Solemn Vow must describe a specific and meaningful obligation that you freely undertake. It must be possible to clearly fulfil, fail or abandon the vow and must place a genuine obligation upon your behaviour. Broad statements of personal philosophy, trivial promises, inevitable actions and declarations designed solely to obtain the benefits of this archetype do not qualify. The GM determines whether a proposed vow is sufficiently meaningful.<br>You may have only one Solemn Vow at a time.<br>You also gain the Vowbound Resolve action:<br>VOWBOUND RESOLVE<br>CONCENTRATE FOCUS<br>Action R; Trigger You fail a saving throw or skill check while directly attempting to fulfil your Solemn Vow.<br>Your commitment steadies you when failure would place your promise in jeopardy.<br>Reroll the triggering saving throw or skill check with Advantage and use the better result.<br>Vowbound Resolve is then expended and must be restored using Refocus.</p>\n<p>Prerequisites Sense Motive 2 ranks, Culture or Religion 2 ranks</p>\n<p>Progression Requirements Any qualifying knowledge skill +10 ranks</p>\n<p>Works automatically: Sacred Law is added to your specialist skills and Vowbound Resolve arrives as a Focus reaction ability; Use this feat at daily preparation to record your Solemn Vow.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Vowbound Resolve",
+    "grantedFeats": "",
+    "progressionRequirements": "Any qualifying knowledge skill +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Sacred Law",
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zQRFIc9hucBo1hDw"
+}

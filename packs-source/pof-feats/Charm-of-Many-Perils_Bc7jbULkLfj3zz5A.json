@@ -1,0 +1,49 @@
+{
+  "_id": "Bc7jbULkLfj3zz5A",
+  "name": "Charm of Many Perils",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 14, Charmwright Tradition",
+    "active": true,
+    "description": "<p>FOLKWARDEN</p>\n<p>Every knot means something. By the time you finish, there are rather a lot of knots.<br>Whenever you create a Warding Charm, you may select all protection categories available to you instead of the two granted by Many-Layered Charm.<br>The charm still provides its bonus against only the triggering saving throw and is expended according to its normal number of activations.<br>If you possess Body Charm, Body is included amongst the available categories.</p>\n<p>Prerequisites Level 14, Charmwright Tradition</p>\n<p>Works automatically: Warding Charm's Use takes every protection at once.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Folkwarden",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Bc7jbULkLfj3zz5A"
+}

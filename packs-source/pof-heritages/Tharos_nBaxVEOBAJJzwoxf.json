@@ -1,0 +1,44 @@
+{
+  "_id": "nBaxVEOBAJJzwoxf",
+  "name": "Tharos",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Tharos Testaments form walls, nested circles, interlocking lines and script wrapping protectively around joints, hearts and vital organs. When their innate protective power manifests, these patterns briefly flare with light.<br>Tharos commonly become guards, carers and defenders, but the Verse is interpreted as protection rather than aggression. The oldest Tharos teaching warns that a shield can become a cage if the person behind it is never permitted to choose their own danger. Consequently, mature Tharos place considerable importance upon distinguishing protection from control.<br>You gain Warding Word.<br>WARDING WORD<br>DIVINITY FOCUS WARDING<br>Action R<br>Trigger You or an ally within 10 feet is targeted by an attack<br>The protective script upon your body flashes with sudden light. The target of the triggering attack gains a +1-status bonus to DB against that attack.</p>",
+    "sourceRace": "Kethrani",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "Warding Word",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nBaxVEOBAJJzwoxf"
+}

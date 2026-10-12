@@ -1,0 +1,84 @@
+{
+  "_id": "ZxBQuCXkkB51ez1N",
+  "name": "Read Omen",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": "1 minute",
+    "range": "",
+    "area": "",
+    "targets": "",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Name a course of action you will begin within 10 minutes; the GM answers Auspicious, Dangerous, Divided or Obscured for its most significant likely consequence in the following 10 minutes. Symbolic and imprecise by design."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "The course of action may begin within the next hour, and the omen considers its consequences during the following hour",
+        "mods": {}
+      },
+      {
+        "ppCost": 4,
+        "text": "Name two mutually exclusive courses of action and receive an omen for each",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Archivist",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Insight",
+    "description": "ARCHIVIST INSIGHT UTILITY\nArchivist Specialist Spell\nCast 1 minute (material, verbal)\n\nYou name one specific course of action that you intend to begin within the next 10 minutes and seek a fragmentary impression of its likely consequences.\nOn a successful casting, the GM gives you one of the following omens concerning the most significant likely consequence occurring during the following 10 minutes:\nAuspicious: The course appears likely to produce a beneficial outcome.\nDangerous: The course appears likely to lead towards significant harm or misfortune.\nDivided: Meaningful beneficial and harmful consequences are both apparent.\nObscured: The outcome depends too heavily upon unknown decisions, random events or circumstances beyond the spell's ability to predict.\nThe omen is deliberately symbolic and imprecise. It does not reveal a particular creature, event, location, method or exact consequence.\n\nWarping Options:\n+2 PP: The course of action may begin within the next hour, and the omen considers its consequences during the following hour.\n+4 PP: Name two mutually exclusive courses of action and receive an omen for each.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZxBQuCXkkB51ez1N"
+}

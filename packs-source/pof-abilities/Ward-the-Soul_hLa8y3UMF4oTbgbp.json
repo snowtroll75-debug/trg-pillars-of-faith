@@ -1,0 +1,39 @@
+{
+  "_id": "hLa8y3UMF4oTbgbp",
+  "name": "Ward the Soul",
+  "img": "icons/svg/upgrade.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Veil Warden archetype",
+    "active": true,
+    "description": "<p>FOCUS SOUL</p>\n<p>Action R; Trigger An ally within 30 feet attempts a saving throw against possession, Soul Drain or an effect with the Soul trait.</p>\n<p>The ally gains a +2-circumstance bonus to the triggering saving throw.</p>\n<p>Use as the Reaction (Focus): target the ally; +2 circumstance is queued for their save.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Focus, Soul"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hLa8y3UMF4oTbgbp"
+}

@@ -1,0 +1,108 @@
+{
+  "_id": "7H7mhZPBnAaLeUf8",
+  "name": "Lifeblossom",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 525,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: hidden temperate or warm groves.\n\nLifeblossom is a many-petalled golden flower that grows only in secluded groves untouched by axe or plough. Its fragrance resembles fresh bread and clean rain, while insects and small animals instinctively shelter among its roots. Warm golden light appears within the petals when they are crushed into a restorative cordial. You regain 4d6+8 Hit Points, stop all bleeding and gain a +2-item bonus to the next saving throw you attempt against disease within 24 hours.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 7
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Lifeblossom",
+          "duration": "24 hours",
+          "effects": [
+            {
+              "kind": "heal",
+              "target": "self",
+              "formula": "4d6+8"
+            },
+            {
+              "kind": "conditionRelief",
+              "label": "Lifeblossom",
+              "target": "self",
+              "condition": "bleeding",
+              "amount": 99
+            },
+            {
+              "kind": "conditional",
+              "label": "Lifeblossom",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "item",
+                  "label": "Lifeblossom",
+                  "scope": "The next saving throw you attempt against disease within 24 hours",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "traits": [
+                      "disease"
+                    ]
+                  },
+                  "auto": true,
+                  "oneShot": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: hidden temperate or warm groves.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 7,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 525,
+        "tablePrice": 525,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!7H7mhZPBnAaLeUf8"
+}

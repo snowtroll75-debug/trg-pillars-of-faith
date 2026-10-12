@@ -1,0 +1,39 @@
+{
+  "_id": "NrGYU95iweNJNvIW",
+  "name": "Inquisition (Inquisitor)",
+  "img": "icons/svg/upgrade.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Inquisitor archetype",
+    "active": true,
+    "description": "<p>CONCENTRATE</p>\n<p>Action 1 AP</p>\n<p>You designate one creature as the Subject of your Inquisition, following the normal Grimward rules, except that you gain a +1 class bonus to the appropriate investigative checks against your Subject rather than the Grimward's class bonus. A feat requiring Judgement cannot be used unless you gain that ability from another source.</p>\n<p>Use: spends 1 AP and names your Subject (the targeted token, or a name you type); +1 class is then offered in the dialog of Detect Deception, Identify Power, Recall Knowledge, Research, Search, Study Target, Track and Sense Motive checks. Use again to change or end.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Concentrate"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NrGYU95iweNJNvIW"
+}

@@ -1,0 +1,89 @@
+{
+  "_id": "IDFZgCfhZnYnoKsd",
+  "name": "Memory of Stone",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "verdant",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 4,
+    "castAP": "1 minute",
+    "range": "touch",
+    "area": "",
+    "targets": "one natural stone, earthen surface or exposed area of natural ground",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "The GM gives a brief sensory impression of the most significant disturbance at or within 10 feet of the stone in the previous 24 hours."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Read impressions up to 1 week old",
+        "mods": {}
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the surrounding area to 30 feet",
+        "mods": {}
+      },
+      {
+        "ppCost": 4,
+        "text": "Read impressions up to 1 month old",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Earth, Insight, Revelation",
+    "description": "EARTH INSIGHT REVELATION UTILITY\nTradition verdant\nCast 1 minute (somatic, verbal)\nRange touch\nTargets one natural stone, earthen surface or exposed area of natural ground\n\nYou awaken the faint impressions retained by the land.\nYou receive a brief sensory impression of the most significant physical or spiritual disturbance that affected the target or occurred within 10 feet of it during the previous 24 hours.\nThe impression lasts no more than several seconds and may include vibration, pressure, sound, temperature, strong emotion or spiritual disturbance, and indistinct visual impressions where appropriate.\nThe land does not possess human understanding. It cannot answer questions, identify a creature by name or provide facts it could not physically or spiritually have experienced.\n\nWarping Options:\n+2 PP: Read impressions up to 1 week old.\n+2 PP: Increase the surrounding area to 30 feet.\n+4 PP: Read impressions up to 1 month old.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IDFZgCfhZnYnoKsd"
+}

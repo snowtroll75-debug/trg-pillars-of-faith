@@ -1,0 +1,134 @@
+{
+  "_id": "BC93uClu3eBx5oD6",
+  "name": "Shared Unliving Base Mods",
+  "img": "icons/svg/skull.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "An Unliving Archetype",
+    "active": true,
+    "description": "<p>A character with any Unliving Archetype gains the following shared base modifications.</p>\n<p>A character with any Unliving Archetype gains the following shared base modifications.</p>\n<p>-----------------------------------------------------------------------------------------------------------------------------------------------<br>  SHARED BASE MOD                 RULES EFFECT<br>  ------------------------------- ---------------------------------------------------------------------------------------------------------------<br>  Darkvision                      The character gains Darkvision. If the character already has Darkvision, this grant has no additional effect.</p>\n<p>Immunity to Disease             The character is immune to disease effects.</p>\n<p>Immunity to Soul Drain          The character is immune to Soul Drain.</p>\n<p>Immunity to Subdual             The character is immune to subdual damage and subdual effects.</p>\n<p>No Need to Breathe              The character does not need to breathe and cannot suffocate from lack of air.<br>  -----------------------------------------------------------------------------------------------------------------------------------------------</p>\n<p>On the sheet: the Unliving trait (Requiem, Embalmer's Black Resin and every \"Unliving trait\" rule read it); immunity to disease (the Disease trait), Soul Drain, subdual damage and effects, and the Suffocating condition; no breath to hold (the drowning and suffocation rules pass the character over). Darkvision is a separate ability the archetype grants, and a second grant of it is skipped.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": ""
+  },
+  "effects": [
+    {
+      "_id": "s6UGcEMINcNyNo67",
+      "name": "Shared Unliving Base Mods: Unliving",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.details.traits",
+          "mode": 2,
+          "value": ", Unliving",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", disease",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", soul drain",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", subdual",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", suffocating",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "The Unliving trait; immune to disease, Soul Drain, subdual damage and effects, and suffocation.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!BC93uClu3eBx5oD6.s6UGcEMINcNyNo67"
+    },
+    {
+      "_id": "DMmRsVOIkmUlsGJa",
+      "name": "Shared Unliving Base Mods: No need to breathe",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "doesNotBreathe": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Does not need to breathe and cannot suffocate from lack of air.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!BC93uClu3eBx5oD6.DMmRsVOIkmUlsGJa"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BC93uClu3eBx5oD6"
+}

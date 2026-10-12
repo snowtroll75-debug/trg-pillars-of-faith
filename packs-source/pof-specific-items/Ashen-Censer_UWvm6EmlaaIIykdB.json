@@ -1,0 +1,87 @@
+{
+  "_id": "UWvm6EmlaaIIykdB",
+  "name": "Ashen Censer",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 6,
+    "price": 9640,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Disarm, Expert, Exorcist, Potency II, Sweep",
+    "attackBonus": 0,
+    "damage": "1d8",
+    "damageType": "bludgeoning",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 18,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Flail",
+    "category": "Martial",
+    "size": "medium",
+    "itemLevel": 10,
+    "description": "The perforations in the head of this blackened Censer Flail form dozens of tiny funerary symbols. When incense burns within it, the smoke moves towards unseen things rather than following the wind.\n\nWhile incense is burning within the Ashen Censer, disembodied spirits and incorporeal Undead within 10 feet of its smoke become faintly outlined. You can perceive them sufficiently clearly to attack them with the Ashen Censer.\n\nThe weapon's Exorcist property allows its attacks to affect incorporeal spirits normally. If a possessing entity can legally be targeted separately from its host, you may also strike it without damaging the host.\n\nStatistics: AB +2; Damage 1d8+1 B; Size M; FDC 18.\n\nTraits Disarm, Expert, Exorcist, Potency II, Sweep.\n\nOn the sheet: an Expert Censer Flail with Potency II and Exorcist (strikes incorporeal spirits and incorporeal Undead normally). The outline of spirits within 10 feet of its burning incense is a note.\n\nPillars of Faith, Chapter 11.",
+    "quality": "expert",
+    "material": "",
+    "runes": "Potency II, Exorcist",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 2,
+            "printed": "Potency II"
+          },
+          {
+            "key": "exorcist",
+            "label": "Exorcist",
+            "tier": 1,
+            "printed": "Exorcist"
+          }
+        ],
+        "runeText": "Potency II, Exorcist",
+        "traits": [
+          "Disarm",
+          "Expert",
+          "Exorcist",
+          "Potency II",
+          "Sweep"
+        ],
+        "quality": "expert",
+        "material": "",
+        "printedItemBonus": 2
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UWvm6EmlaaIIykdB"
+}

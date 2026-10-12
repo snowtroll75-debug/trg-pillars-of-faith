@@ -1,0 +1,49 @@
+{
+  "_id": "I46ZWBD6IpRdKXAf",
+  "name": "Read the Signs",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>CONCENTRATE INVESTIGATION<br>Action 10 minutes<br>You study the subtle signs within your surroundings: tracks, disturbed vegetation, insect behaviour, birdsong, weather, smoke, water, fungal growth, animal remains, unusual silence and countless other details.<br>Make a Nature or Survival check against a DC determined by the GM, normally the Area Level DC modified by the age and obscurity of the signs.<br>Heroic You may ask four questions.<br>Critical You may ask three questions.<br>Success You may ask two questions.<br>Partial You may ask one question.<br>Failure You cannot draw a reliable conclusion.<br>Fumble You misunderstand the signs. The GM may provide one plausible but incorrect conclusion.<br>Appropriate questions include what significant creature or group passed through the area recently, the general direction in which it travelled, what natural hazard presents the greatest immediate danger, whether the local environment is behaving unnaturally, whether a significant supernatural disturbance has affected the area, or where the nearest likely source of shelter, fresh water or another ordinary natural resource can be found.<br>The GM may permit other questions where appropriate. Read the Signs cannot reveal information that has left no physical, behavioural or environmental trace.</p>\n<p>Rolled as a skill action from Nature or Survival (10 minutes) against the DC the GM sets; the card prints the question ladder.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "Concentrate, Investigation",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!I46ZWBD6IpRdKXAf"
+}

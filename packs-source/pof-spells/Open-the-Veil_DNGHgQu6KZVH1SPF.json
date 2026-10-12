@@ -1,0 +1,96 @@
+{
+  "_id": "DNGHgQu6KZVH1SPF",
+  "name": "Open the Veil",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 11,
+    "castAP": 2,
+    "range": "",
+    "area": "20-foot emanation",
+    "targets": "",
+    "duration": "Sustained (1 minute)",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "sense",
+        "target": "allies",
+        "category": "tertiary",
+        "detects": "disembodied spirits, incorporeal Undead, manifested haunts and separately targetable possessing entities",
+        "rollWith": "Perception"
+      },
+      {
+        "kind": "note",
+        "text": "Spells and magical attacks by affected creatures treat incorporeal spirits as though the attacker had the means to affect them. Incorporeal is not removed; mundane weapons gain nothing."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the emanation by 10 feet",
+        "mods": {
+          "areaGrowth": 10
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "The spell no longer requires Sustaining and lasts for 1 minute",
+        "mods": {
+          "endsSustain": true,
+          "durationText": "1 minute"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": true,
+    "sustainType": "duration",
+    "areaTargeting": "allies",
+    "specialist": true,
+    "specialistClass": "Shaman",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Aura, Spirit",
+    "description": "AURA SHAMAN SPIRIT UTILITY\nShaman Specialist Spell\nCast 2 AP (somatic, verbal)\nArea 20-foot emanation\nDuration Sustained, up to 1 minute\n\nThe boundary between the physical and spiritual world becomes temporarily transparent around you.\nYou and willing allies within the area can perceive disembodied spirits, incorporeal Undead, manifested haunts and possessing entities where the possession effect allows the entity to be separately targeted. Those creatures are perceived clearly enough to be targeted.\nFurthermore, spells and magical attacks made by affected creatures treat incorporeal spirits as though the attacker possessed the normal means required to affect them.\nThis does not remove the Incorporeal trait, allow mundane weapons to affect creatures they could not normally harm, reveal an entity's identity or allegiance, expose a possession whose rules explicitly prevent the possessor from being targeted, or bypass an Immunity unrelated to incorporeality.\n\nWarping Options:\n+2 PP: Increase the emanation by 10 feet.\n+4 PP: The spell no longer requires Sustaining and lasts for 1 minute.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DNGHgQu6KZVH1SPF"
+}

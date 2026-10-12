@@ -1,0 +1,97 @@
+{
+  "_id": "qc27z3ZcGpDFDiFn",
+  "name": "Sacred Chirurgeon",
+  "img": "icons/svg/book.svg",
+  "type": "background",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Background",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>You trained in a religious infirmary where prayer accompanied practical medicine rather than replacing it. You learned to cut, stitch, splint and cleanse while priests dealt with matters of soul and spirit. Your hands are steady around blood and pain, and you have seen enough suffering to know that faith is most useful when accompanied by competent treatment.</p>\n<p>BONUS FEAT</p>\n<p>Sanctified Treatment</p>\n<p>SKILL BONUSES</p>\n<p>Medicine, Religion, Sense Motive</p>\n<p>SPECIALIST SKILL</p>\n<p>Chirurgery</p>\n<p>WEALTH</p>\n<p>1</p>",
+    "grantedFeats": "Sanctified Treatment",
+    "grantedSpells": "",
+    "skillBonuses": "Medicine, Religion, Sense Motive",
+    "specialistSkill": "Chirurgery",
+    "special": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "",
+    "wealth": "1"
+  },
+  "effects": [
+    {
+      "_id": "eWI11iZznCTVyYiH",
+      "name": "Sacred Chirurgeon: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.medicine.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.religion.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.senseMotive.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 class bonus to Medicine, Religion, Sense Motive.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!qc27z3ZcGpDFDiFn.eWI11iZznCTVyYiH"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Chirurgery"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!qc27z3ZcGpDFDiFn"
+}

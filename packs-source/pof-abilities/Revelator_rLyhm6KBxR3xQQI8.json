@@ -1,0 +1,50 @@
+{
+  "_id": "rLyhm6KBxR3xQQI8",
+  "name": "Revelator",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Archivist 1st level",
+    "active": true,
+    "description": "<p>You study prophecy, visions, omens and religious experiences in which knowledge appears to arrive without any identifiable mortal source. Rather than accepting every revelation at face value, you compare patterns across centuries of prophetic records. A genuine vision, a hallucination, deliberate fraud and supernatural manipulation can all look remarkably similar to somebody who desperately wants to believe.<br>Specialist Skill Prophecy Lore<br>Specialist Spells Read Omen (1), Unfold the Future (7)<br>Calculated Portent: During your daily preparation, select Fortitude, Reflex or Will. Once before your next daily preparation, when you or an ally within 30 feet attempts the selected saving throw, you may use a Reaction to grant that creature advantage to the saving throw. You must declare the use of Calculated Portent before the result of the saving throw is resolved. Once used, the portent is expended.</p>\n<p>Calculated Portent — Use once to select the day's saving throw (Fortitude, Reflex or Will); Use again to spend the portent as a Reaction, granting advantage on that save to you or an ally within 30 feet. One use per day, restored at daily preparation.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "Archivist",
+    "traits": "",
+    "grantedSpells": "1: Read Omen, 7: Unfold the Future",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Archivist",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Prophecy Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rLyhm6KBxR3xQQI8"
+}

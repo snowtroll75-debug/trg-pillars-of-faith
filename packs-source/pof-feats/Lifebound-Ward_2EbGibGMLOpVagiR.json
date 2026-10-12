@@ -1,0 +1,49 @@
+{
+  "_id": "2EbGibGMLOpVagiR",
+  "name": "Lifebound Ward",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 10 ranks",
+    "active": true,
+    "description": "<p>HEALER</p>\n<p>You shield your allies with a magical bond that tethers their vitality to your own healing power.<br>When a Healing spell you cast restores HP to an ally, you may choose a second ally within 30 feet of the original target. The second ally regains HP equal to half the amount restored to the original target.<br>LifeBound Ward may trigger only once per spell. The secondary healing cannot trigger LifeBound Ward again and does not copy any other effect of the original spell unless another ability specifically states otherwise.</p>\n<p>Prerequisites Medicine 10 ranks</p>\n<p>Use after a Healing spell (target the second ally, enter the amount the first regained): they regain half.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!2EbGibGMLOpVagiR"
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "Eet6QmXyc4kx0CE1",
+  "name": "Poltergeist Hurling",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 6",
+    "active": true,
+    "description": "<p>UNLIVING-GHOST</p>\n<p>Prerequisites Level 6</p>\n<p>Unseen force answers your anger, throwing small objects as though seized by invisible hands.</p>\n<p>You gain Hurling as an ethereal innate cantrip which you may cast at will. Objects moved this way appear to be seized by unseen hands unless you deliberately manifest while using the effect.</p>\n<p>Grants Hurling as an innate cantrip you cast at will (no Focus trait, no use to spend).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Ghost",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "Hurling",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true,
+      "grantedSpellUses": {
+        "Hurling": "unlimited"
+      },
+      "bookCategory": "unliving",
+      "unlivingGroup": "ghost"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Eet6QmXyc4kx0CE1"
+}

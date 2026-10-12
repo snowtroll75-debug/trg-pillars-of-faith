@@ -1,0 +1,72 @@
+{
+  "_id": "MDWPUTFuskHAM5Vw",
+  "name": "Mummy Rot (Disease)",
+  "type": "affliction",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "afflictionType": "disease",
+    "traits": "Curse, Disease, Soul",
+    "level": 0,
+    "savingThrow": "fortitude",
+    "rarity": "common",
+    "rarityModifier": 0,
+    "incubation": "",
+    "duration": "Until cured",
+    "maxStage": 2,
+    "stages": [
+      {
+        "effect": "Carrier with no visible effect.",
+        "interval": "1 minute",
+        "conditions": [],
+        "conditionDuration": "",
+        "damage": "",
+        "damageType": "",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      },
+      {
+        "effect": "4d6 essence damage and Injured 1 for 1 day. This damage cannot be healed until the curse is removed and the disease cured.",
+        "interval": "1 day",
+        "conditions": [
+          {
+            "key": "injured",
+            "value": 1
+          }
+        ],
+        "conditionDuration": "",
+        "damage": "4d6",
+        "damageType": "essence",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      }
+    ],
+    "incubating": false,
+    "currentStage": 0,
+    "description": "<p>The curse preserving you can pass into those shattered by your embalmed fists.</p>\n<p>When you inflict a critical injury with your Slam, the target must attempt a Fortitude save against Mummy Rot. The disease level is equal to your level. Stage 1: carrier with no visible effect for 1 minute. Stage 2: 4d6 essence damage and Injured 1 for 1 day. Damage inflicted by Mummy Rot cannot be healed until the curse is removed and the disease is cured. A creature can be exposed to your Mummy Rot only once per day.</p>\n<p>Spread by Mummy Rot (Unliving Mummy) at the mummy's level. Stage 1 lasts 1 minute; stage 2's interval is a day, as its Injured is. Damage it inflicts cannot be healed until the curse is removed and the disease cured — the table's.</p>",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "pofDisease": true
+    }
+  },
+  "_stats": {
+    "systemId": "trg-prime",
+    "systemVersion": "3.627.0",
+    "coreVersion": "14",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MDWPUTFuskHAM5Vw"
+}

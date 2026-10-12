@@ -1,0 +1,49 @@
+{
+  "_id": "Lwpshggxb6kUsZ2g",
+  "name": "Deep Bloom Memory",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5",
+    "active": true,
+    "description": "<p>MYRATHI</p>\n<p>When your own knowledge fails, older minds reach upward through the roots.<br>When Ancestral Communion affects a Recall Knowledge check using a non-specialist skill in which you possess no ranks, you may make that check as though you possessed 1 rank in the skill.<br>Be aware that this does not grant access to specialist skills.</p>\n<p>Prerequisites Level 5</p>\n<p>Works automatically: Ancestral Communion's Use waives the trained gate for one Recall Knowledge in a non-specialist skill you have no ranks in.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Lwpshggxb6kUsZ2g"
+}

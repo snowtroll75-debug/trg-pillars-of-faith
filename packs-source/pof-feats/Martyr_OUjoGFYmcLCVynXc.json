@@ -1,0 +1,50 @@
+{
+  "_id": "OUjoGFYmcLCVynXc",
+  "name": "Martyr",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Ability to cast a spell with the Healing trait, Medicine 3 ranks, Mental Focus 2 ranks",
+    "active": true,
+    "description": "<p>ADEPT</p>\n<p>Your understanding of healing has reached an uncomfortable conclusion: sometimes the quickest way to save another person is to suffer in their place.<br>You gain the Share the Wound action:<br>SHARE THE WOUND<br>FOCUS HEALING SOUL<br>Action R; Trigger An ally within 30 feet suffers HP damage.<br>After the damage has been determined, reduce the HP damage suffered by the ally by an amount up to your level + your magical ability modifier. You lose the same number of Hit Points.<br>This HP loss cannot be reduced by Resistance, Base DR, temporary HP or another effect and cannot itself be redirected to another creature.<br>You cannot use Share the Wound if doing so would reduce you below 1 HP.</p>\n<p>Prerequisites Ability to cast a spell with the Healing trait, Medicine 3 ranks, Mental Focus 2 ranks</p>\n<p>Progression Requirements Medicine +10 ranks</p>\n<p>Works automatically: Share the Wound arrives as a Focus reaction ability.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Share the Wound",
+    "grantedFeats": "",
+    "progressionRequirements": "Medicine +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OUjoGFYmcLCVynXc"
+}

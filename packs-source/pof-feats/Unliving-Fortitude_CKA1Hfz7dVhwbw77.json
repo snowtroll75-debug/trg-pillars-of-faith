@@ -1,0 +1,90 @@
+{
+  "_id": "CKA1Hfz7dVhwbw77",
+  "name": "Unliving Fortitude",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 8",
+    "active": true,
+    "description": "<p>CLASS SOUL UNLIVING</p>\n<p>Prerequisites Level 8</p>\n<p>Necromantic force claws you back from the instant of collapse.</p>\n<p>If damage would reduce you to 0 HP, make an opposed, level-based Fortitude saving throw. On a success, you drop to 1 HP instead. This feat has no effect if the triggering damage is essence damage or a damage type to which you have Weakness.</p>\n<p>Works automatically: a blow that would take you to 0 HP asks a Fortitude save against the attacker's Level DC (your own when there is no attacker); a success leaves you at 1 HP. Not against essence damage or a type you are weak to.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Soul, Unliving",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "lzqDAgzrotH3qqud",
+      "name": "Unliving Fortitude: Unliving Fortitude",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "deathGuard": {
+            "label": "Unliving Fortitude",
+            "save": "fortitude",
+            "exceptDamageTypes": [
+              "essence"
+            ],
+            "exceptWeakness": true
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "If damage would reduce you to 0 HP, an opposed level-based Fortitude save; on a success, 1 HP instead.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!CKA1Hfz7dVhwbw77.lzqDAgzrotH3qqud"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "generic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CKA1Hfz7dVhwbw77"
+}

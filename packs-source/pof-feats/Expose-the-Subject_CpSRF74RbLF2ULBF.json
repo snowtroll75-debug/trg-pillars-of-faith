@@ -1,0 +1,49 @@
+{
+  "_id": "CpSRF74RbLF2ULBF",
+  "name": "Expose the Subject",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 6",
+    "active": true,
+    "description": "<p>AUDITORY GRIMWARD</p>\n<p>You identify a behaviour, weakness or supernatural tell that your allies can exploit.<br>Action 1 AP<br>Requirements Your Judged Subject is within 60 feet, and you can perceive it.<br>Until the beginning of your next turn, allies within 30 feet who can hear and understand you gain a +1-circumstance bonus to saving throws against effects created by your Judged Subject.<br>At 12th level, they also gain a +1-circumstance bonus to the first attack roll they make against that Subject during the duration.</p>\n<p>Prerequisites Level 6</p>\n<p>Use (1 AP; target your Judged Subject): every targeted ally — target them too — gets +1 circumstance to saves from that creature until your next turn (and from 12th, +1 circumstance to their first attack against it).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Auditory, Grimward",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CpSRF74RbLF2ULBF"
+}

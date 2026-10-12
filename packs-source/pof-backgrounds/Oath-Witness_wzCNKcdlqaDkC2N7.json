@@ -1,0 +1,97 @@
+{
+  "_id": "wzCNKcdlqaDkC2N7",
+  "name": "Oath Witness",
+  "img": "icons/svg/book.svg",
+  "type": "background",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Background",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>You served as a recognised witness to vows, contracts, reconciliations and sacred promises. Your presence did not make an oath magical, but it made the words difficult to deny later. Years spent observing nervous petitioners, ambitious nobles and desperate families taught you to hear hesitation and recognise when someone is shaping a promise to leave themselves an escape.</p>\n<p>BONUS FEAT</p>\n<p>Sworn Testimony</p>\n<p>SKILL BONUSES</p>\n<p>Culture, Diplomacy, Sense Motive</p>\n<p>SPECIALIST SKILL</p>\n<p>Sacred Law</p>\n<p>WEALTH</p>\n<p>1</p>",
+    "grantedFeats": "Sworn Testimony",
+    "grantedSpells": "",
+    "skillBonuses": "Culture, Diplomacy, Sense Motive",
+    "specialistSkill": "Sacred Law",
+    "special": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "",
+    "wealth": "1"
+  },
+  "effects": [
+    {
+      "_id": "T4VhAx8b1ngdzucw",
+      "name": "Oath Witness: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.culture.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.diplomacy.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.senseMotive.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 class bonus to Culture, Diplomacy, Sense Motive.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!wzCNKcdlqaDkC2N7.T4VhAx8b1ngdzucw"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Sacred Law"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!wzCNKcdlqaDkC2N7"
+}

@@ -1,0 +1,223 @@
+{
+  "_id": "tovFH68WQYLdxBBo",
+  "name": "The Choir Beneath the Floor",
+  "type": "npc",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "identity": {
+      "level": 12,
+      "size": "medium"
+    },
+    "details": {
+      "traits": "Auditory, Complex, Haunt, Mental",
+      "biography": "<p>Beneath an abandoned sanctuary, hundreds of barely audible voices repeat a hymn whose final verse was never completed. Dust rises from the floor in time with unseen breathing.</p>"
+    },
+    "combat": {
+      "initiative": {
+        "other": 60
+      }
+    },
+    "gm": {
+      "role": "Complex haunt",
+      "notes": "<p><strong>The Choir Beneath the Floor</strong> — Level 12 haunt (Pillars of Faith, Chapter 8). Its Level DC is 26.</p>\n<p><strong>Anchor</strong> The sealed communal crypt beneath the sanctuary.</p>\n<p><strong>Resolution</strong> Open the crypt and discover that the congregation was deliberately sealed inside during a plague. Complete the final verse while properly recording the identities of the dead and performing suitable funerary rites.<br>Merely opening the crypt does not resolve the haunt.</p>",
+      "peril": {
+        "enabled": true,
+        "detection": "Perception DC 26, Occultism or Religion DC 26, Rank 3",
+        "disable": "Religion DC 26 to correctly continue the interrupted liturgy, Occultism DC 26 to break part of the repeating supernatural pattern, or Performance DC 28 to establish a competing rhythm. Four successes are required.",
+        "successes": 1,
+        "onDisable": "suppressed",
+        "suppressFor": "",
+        "state": "armed",
+        "actionType": "complex",
+        "trigger": "At least three living creatures enter the sanctuary or somebody begins singing within it.",
+        "effectText": "The buried congregation joins the song. Every living creature in the sanctuary attempts a Will save against DC 26. On a Failure or worse, it becomes Frightened 2. The haunt rolls Initiative.",
+        "routine": "Routine (3 AP): Rising Verse (1 AP), Borrowed Voice (1 AP), Final Note (1 AP) — each is an ability on this sheet; Use rolls and applies it.",
+        "anchor": "The sealed communal crypt beneath the sanctuary.",
+        "resolution": "Open the crypt and discover that the congregation was deliberately sealed inside during a plague. Complete the final verse while properly recording the identities of the dead and performing suitable funerary rites.\nMerely opening the crypt does not resolve the haunt.",
+        "reset": "Sunset on the following day.",
+        "disableBonuses": "",
+        "spiritPresence": true,
+        "noBody": true,
+        "automation": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "The Choir Beneath the Floor",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/svg/aura.svg"
+    }
+  },
+  "items": [
+    {
+      "_id": "iy5fpi5WYSkpyiae",
+      "name": "Rising Verse",
+      "img": "icons/svg/aura.svg",
+      "type": "ability",
+      "system": {
+        "source": "Pillars of Faith",
+        "category": "Racial",
+        "tier": "",
+        "level": 0,
+        "prerequisites": "",
+        "active": true,
+        "description": "<p><strong>Auditory, Mental</strong> — Action 1 AP</p>\n<p>The volume increases. All creatures able to hear the choir attempt a Will save against DC 26.</p>\n<p>On a Failure, increase Frightened by 1.</p>\n<p>On a Fumble, increase Frightened by 2.</p>\n<p>A creature whose Frightened condition would exceed 4 instead becomes Dazed 1 until the end of its next turn for each additional point that could not be applied.</p>",
+        "usesPerDay": "",
+        "bonusUses": 0,
+        "usesValue": 0,
+        "sourceRace": "",
+        "sourceClass": "",
+        "traits": "Auditory, Mental"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "trg-prime": {
+          "creatureAbility": {
+            "activation": {
+              "ap": 1
+            }
+          },
+          "perilEffect": "The volume increases. All creatures able to hear the choir attempt a Will save against DC 26.\nOn a Failure, increase Frightened by 1.\nOn a Fumble, increase Frightened by 2.\nA creature whose Frightened condition would exceed 4 instead becomes Dazed 1 until the end of its next turn for each additional point that could not be applied."
+        }
+      },
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.629.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!tovFH68WQYLdxBBo.iy5fpi5WYSkpyiae"
+    },
+    {
+      "_id": "cnzv2eexjBDifAVV",
+      "name": "Borrowed Voice",
+      "img": "icons/svg/aura.svg",
+      "type": "ability",
+      "system": {
+        "source": "Pillars of Faith",
+        "category": "Racial",
+        "tier": "",
+        "level": 0,
+        "prerequisites": "",
+        "active": true,
+        "description": "<p><strong>Auditory, Soul</strong> — Action 1 AP</p>\n<p>One creature within 60 feet attempts a Will save against DC 26.</p>\n<p>Success Unaffected.</p>\n<p>Partial The target cannot willingly speak until the beginning of its next turn.</p>\n<p>Failure The target involuntarily sings with the choir until the end of its next turn and cannot use Auditory actions requiring deliberate speech.</p>\n<p>Fumble As Failure for 1 minute. The target may attempt a new Will save at the end of each turn to end the effect.</p>",
+        "usesPerDay": "",
+        "bonusUses": 0,
+        "usesValue": 0,
+        "sourceRace": "",
+        "sourceClass": "",
+        "traits": "Auditory, Soul"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "trg-prime": {
+          "creatureAbility": {
+            "activation": {
+              "ap": 1
+            }
+          },
+          "perilEffect": "One creature within 60 feet attempts a Will save against DC 26.\nSuccess Unaffected.\nPartial The target cannot willingly speak until the beginning of its next turn.\nFailure The target involuntarily sings with the choir until the end of its next turn and cannot use Auditory actions requiring deliberate speech.\nFumble As Failure for 1 minute. The target may attempt a new Will save at the end of each turn to end the effect."
+        }
+      },
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.629.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!tovFH68WQYLdxBBo.cnzv2eexjBDifAVV"
+    },
+    {
+      "_id": "S0x38evTShEp4Pd1",
+      "name": "Final Note",
+      "img": "icons/svg/aura.svg",
+      "type": "ability",
+      "system": {
+        "source": "Pillars of Faith",
+        "category": "Racial",
+        "tier": "",
+        "level": 0,
+        "prerequisites": "",
+        "active": true,
+        "description": "<p><strong>Force</strong> — Action 1 AP</p>\n<p>The choir strikes a supernatural resonance through the building. Every creature touching the floor suffers 3d6 force damage with a Basic Fortitude save against DC 26.</p>",
+        "usesPerDay": "",
+        "bonusUses": 0,
+        "usesValue": 0,
+        "sourceRace": "",
+        "sourceClass": "",
+        "traits": "Force"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "trg-prime": {
+          "creatureAbility": {
+            "activation": {
+              "ap": 1
+            }
+          },
+          "perilEffect": "The choir strikes a supernatural resonance through the building. Every creature touching the floor suffers 3d6 force damage with a Basic Fortitude save against DC 26."
+        }
+      },
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.629.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!tovFH68WQYLdxBBo.S0x38evTShEp4Pd1"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "haunt": true,
+      "source": "Pillars of Faith"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.629.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!tovFH68WQYLdxBBo"
+}

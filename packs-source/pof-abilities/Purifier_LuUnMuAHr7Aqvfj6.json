@@ -1,0 +1,65 @@
+{
+  "_id": "LuUnMuAHr7Aqvfj6",
+  "name": "Purifier",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Healer 1st level",
+    "active": true,
+    "description": "<p>Your gift is particularly sensitive to things that should not be within the body. Poison, disease, corruption and magical afflictions feel discordant to you, as though the patient's life is trying to reject something it cannot remove unaided.<br>Specialist Skill Affliction Lore<br>Cleansing Hands: You gain a +2-circumstance bonus to Counteract checks made to remove disease, poison or curses using a spell with the Healing trait. When you successfully Counteract such an affliction, the target also gains a +2-circumstance bonus to its next saving throw against that same affliction if some part of it remains active.</p>\n<p>Cleansing Hands — the +2 circumstance bonus is offered on Spellcraft rolls with the book's wording (tick it for a Counteract against disease, poison or a curse with a Healing spell); the target's follow-up +2 is a note for the table.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Affliction Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Cleansing Hands",
+          "scope": "Counteract checks to remove disease, poison or curses with a Healing-trait spell",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "spellcraft"
+            ]
+          },
+          "value": 2,
+          "type": "circumstance"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LuUnMuAHr7Aqvfj6"
+}

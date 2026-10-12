@@ -1,0 +1,49 @@
+{
+  "_id": "sAuTlPmAIpW9HTox",
+  "name": "Reconstruct Target",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>INVESTIGATION<br>You are trained to reconstruct the identity of a creature from the traces it leaves behind. When using the Study Target action, you do not need to be able to see or directly observe a creature. Instead, you may Study a creature by examining sufficient evidence that can reasonably be attributed to that specific individual.<br>Suitable evidence might include blood, hair or other physical remains; tracks or repeated signs of passage; handwriting or a distinctive personal document; a weapon or possession strongly associated with the creature; magical residue produced by one of its abilities; remains of creatures it has attacked; several reliable witness descriptions; a detailed portrait or accurate physical representation; records describing its methods, habits or appearance; or a combination of lesser clues that together establish a specific identity.<br>Simply knowing a creature's name, ancestry, general description or reputation is not sufficient. The GM determines whether the available evidence is adequate.<br>When you Study Target in this manner, use the normal Study Target action and its normal time modifiers. The appropriate skill depends upon the evidence being examined. Common examples include Perception or Survival for physical traces, Religion for religious symbols or divine residue, Occultism or Power Manipulation for magical effects, Linguistics or Culture for documents, Sense Motive for behaviour and testimony, or an appropriate Lore or knowledge skill for creature-specific evidence.<br>On a Success, the creature becomes one of your normal Studied Targets, even though you have never encountered it personally. A Fumble follows the normal Study Target rules: you believe the reconstruction is correct, but something within the evidence has led you to an incorrect conclusion.</p>\n<p>A rule for the table: Study Target from evidence, with the skill the evidence calls for.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "Investigation",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sAuTlPmAIpW9HTox"
+}

@@ -1,0 +1,68 @@
+{
+  "_id": "UuJ8HYyDnDCQzGIH",
+  "name": "Ancestral Stone",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Stone Lore 1 rank",
+    "active": true,
+    "description": "<p>DWARF</p>\n<p>Dwarven memorials are not merely markers. Properly worked stone is expected to remember.<br>You gain Burial Lore as a specialist skill.<br>When using Perform Last Rites upon a corpse that is being interred within a stone tomb, crypt, cairn or similar funerary structure, you may use Stone Lore instead of Religion. Use your Stone Lore ranks to meet the action's Rank requirement.<br>You also gain a +2-racial bonus to this check.</p>\n<p>Prerequisites Stone Lore 1 rank</p>\n<p>Works automatically: Burial Lore is added to your specialist skills; the +2 racial is offered on Perform Last Rites with the book's wording (roll it from Religion — a specialist skill cannot carry an action).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Dwarf",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Burial Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Ancestral Stone",
+          "scope": "Perform Last Rites upon a corpse interred within a stone tomb, crypt, cairn or similar structure",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "performLastRites"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UuJ8HYyDnDCQzGIH"
+}

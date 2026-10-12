@@ -1,0 +1,73 @@
+{
+  "_id": "SXvs0f8rc18SvmuR",
+  "name": "Living Index",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Sapiren heritage",
+    "active": true,
+    "description": "<p>KETHRANI</p>\n<p>Names, diagrams and references appear across your Testament like the index of an impossible library.<br>You gain one additional Lore specialist skill of your choice.<br>Furthermore, you gain a +1-racial bonus to Recall Knowledge checks made in which you possess at least 1 rank.</p>\n<p>Prerequisites Sapiren heritage</p>\n<p>Use to name your extra Lore specialist skill; +1 racial to Recall Knowledge is offered with the book's wording.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "specialistChoice": {
+        "label": "One additional Lore specialist skill",
+        "prompt": "The Lore your Testament indexes",
+        "placeholder": "e.g. Temple Lore",
+        "suffix": "Lore"
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Living Index",
+          "scope": "Recall Knowledge with a skill in which you have at least 1 rank",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "recallKnowledge"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SXvs0f8rc18SvmuR"
+}

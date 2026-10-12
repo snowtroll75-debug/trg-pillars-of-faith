@@ -1,0 +1,95 @@
+{
+  "_id": "rKOHiRBLUUOzzf63",
+  "name": "Still Corpse",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 6",
+    "active": true,
+    "description": "<p>CLASS UNLIVING</p>\n<p>Prerequisites Level 6</p>\n<p>Venom finds no warm blood to corrupt and no living organs to still.</p>\n<p>You no longer need to eat or sleep. You gain Immunity to Sleep and Fatigue. You may still rest, keep watch, meditate, or lie dormant, but ordinary hunger, starvation, exhaustion from lack of sleep, and magical sleep do not affect you.</p>\n<p>Works automatically: immunity to sleep effects and to the Fatigued condition. Not needing to eat or sleep is the table's.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "joBraIf7S5FVxGxE",
+      "name": "Still Corpse: Sleep and fatigue",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", sleep",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", fatigued",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Immune to sleep and Fatigued.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!rKOHiRBLUUOzzf63.joBraIf7S5FVxGxE"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "generic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rKOHiRBLUUOzzf63"
+}

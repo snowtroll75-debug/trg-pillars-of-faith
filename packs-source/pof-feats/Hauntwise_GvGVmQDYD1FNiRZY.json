@@ -1,0 +1,49 @@
+{
+  "_id": "GvGVmQDYD1FNiRZY",
+  "name": "Hauntwise",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Occultism 3 ranks",
+    "active": true,
+    "description": "<p>Repeated exposure has taught you that supernatural repetitions have rules, even when those rules are unpleasant.<br>When you successfully use Interpret Haunt, you gain a +2-circumstance bonus to the next saving throw or skill check you make against that haunt within the next hour.<br>On a Critical result, you may also grant this bonus to one ally who hears your explanation.</p>\n<p>Prerequisites Occultism 3 ranks</p>\n<p>Use after a successful Interpret Haunt: queues +2 circumstance for your next save or check against that haunt (target an ally first to give it to them on a Critical).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "general"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GvGVmQDYD1FNiRZY"
+}

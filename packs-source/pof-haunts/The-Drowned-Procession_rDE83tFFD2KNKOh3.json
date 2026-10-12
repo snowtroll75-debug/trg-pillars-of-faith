@@ -1,0 +1,175 @@
+{
+  "_id": "rDE83tFFD2KNKOh3",
+  "name": "The Drowned Procession",
+  "type": "npc",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "identity": {
+      "level": 6,
+      "size": "medium"
+    },
+    "details": {
+      "traits": "Cold, Haunt, Movement, Soul",
+      "biography": "<p>Water gathers upon dry ground in footprints. The sound of distant bells comes from beneath nearby water. When manifested, a translucent crowd runs through the area, endlessly repeating the final moments of a bridge or ferry disaster.</p>"
+    },
+    "combat": {
+      "initiative": {
+        "other": 30
+      }
+    },
+    "gm": {
+      "role": "Complex haunt",
+      "notes": "<p><strong>The Drowned Procession</strong> — Level 6 haunt (Pillars of Faith, Chapter 8). Its Level DC is 20.</p>\n<p><strong>Anchor</strong> A memorial bearing an incomplete list of the dead.</p>\n<p><strong>Resolution</strong> Discover the complete identities of the dead and restore every omitted name to the memorial. If anybody was deliberately excluded, the reason for that exclusion must also be publicly acknowledged.</p>",
+      "peril": {
+        "enabled": true,
+        "detection": "Perception DC 20; Nature, Occultism or Spirit Lore DC 20",
+        "disable": "Occultism, Religion or Nature DC 20. Three successes are required. A Critical counts as two successes and a Heroic result as three.\nEach successful check represents stabilising part of the repeating memory through prayer, spiritual redirection or recognising and correcting part of the historical pattern.",
+        "successes": 1,
+        "onDisable": "suppressed",
+        "suppressFor": "",
+        "state": "armed",
+        "actionType": "complex",
+        "trigger": "The local water level rises above a particular flood mark while living creatures are within 60 feet of the site.",
+        "effectText": "The drowned procession manifests. Every creature within 30 feet attempts a Will save against DC 20. On a Failure or worse, the creature becomes Frightened 2. Roll Initiative.",
+        "routine": "Routine (3 AP): Surging Crowd (1 AP), Drowning Memory (2 AP) — each is an ability on this sheet; Use rolls and applies it.",
+        "anchor": "A memorial bearing an incomplete list of the dead.",
+        "resolution": "Discover the complete identities of the dead and restore every omitted name to the memorial. If anybody was deliberately excluded, the reason for that exclusion must also be publicly acknowledged.",
+        "reset": "The next time the water rises above the flood mark.",
+        "disableBonuses": "",
+        "spiritPresence": true,
+        "noBody": true,
+        "automation": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "The Drowned Procession",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/svg/aura.svg"
+    }
+  },
+  "items": [
+    {
+      "_id": "YZ2Us3w5BwXzhsnJ",
+      "name": "Surging Crowd",
+      "img": "icons/svg/aura.svg",
+      "type": "ability",
+      "system": {
+        "source": "Pillars of Faith",
+        "category": "Racial",
+        "tier": "",
+        "level": 0,
+        "prerequisites": "",
+        "active": true,
+        "description": "<p><strong>Haunt, Movement</strong> — Action 1 AP</p>\n<p>One 15-foot line within the haunt's area fills with panicked spectral figures.</p>\n<p>Creatures in the line attempt a Reflex save against DC 20.</p>\n<p>Success Unaffected.</p>\n<p>Partial The creature is pushed 5 feet.</p>\n<p>Failure The creature is pushed 10 feet and falls Prone.</p>\n<p>Fumble The creature is pushed 15 feet, falls Prone and becomes Frightened 1.</p>\n<p>Movement produced by this effect preferentially carries creatures towards nearby water where possible.</p>",
+        "usesPerDay": "",
+        "bonusUses": 0,
+        "usesValue": 0,
+        "sourceRace": "",
+        "sourceClass": "",
+        "traits": "Haunt, Movement"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "trg-prime": {
+          "creatureAbility": {
+            "activation": {
+              "ap": 1
+            }
+          },
+          "perilEffect": "One 15-foot line within the haunt's area fills with panicked spectral figures.\nCreatures in the line attempt a Reflex save against DC 20.\nSuccess Unaffected.\nPartial The creature is pushed 5 feet.\nFailure The creature is pushed 10 feet and falls Prone.\nFumble The creature is pushed 15 feet, falls Prone and becomes Frightened 1.\nMovement produced by this effect preferentially carries creatures towards nearby water where possible."
+        }
+      },
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.629.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rDE83tFFD2KNKOh3.YZ2Us3w5BwXzhsnJ"
+    },
+    {
+      "_id": "tLJRfz3efkr3xxXb",
+      "name": "Drowning Memory",
+      "img": "icons/svg/aura.svg",
+      "type": "ability",
+      "system": {
+        "source": "Pillars of Faith",
+        "category": "Racial",
+        "tier": "",
+        "level": 0,
+        "prerequisites": "",
+        "active": true,
+        "description": "<p><strong>Cold, Soul</strong> — Action 2 AP</p>\n<p>One creature within 30 feet hears water filling its lungs.</p>\n<p>The target attempts a Basic Will save against DC 20 and suffers 3d6 cold damage.</p>\n<p>On a Failure or worse the target also cannot speak until the end of its next turn as it coughs spectral water.</p>",
+        "usesPerDay": "",
+        "bonusUses": 0,
+        "usesValue": 0,
+        "sourceRace": "",
+        "sourceClass": "",
+        "traits": "Cold, Soul"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "trg-prime": {
+          "creatureAbility": {
+            "activation": {
+              "ap": 2
+            }
+          },
+          "perilEffect": "One creature within 30 feet hears water filling its lungs.\nThe target attempts a Basic Will save against DC 20 and suffers 3d6 cold damage.\nOn a Failure or worse the target also cannot speak until the end of its next turn as it coughs spectral water."
+        }
+      },
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.629.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!rDE83tFFD2KNKOh3.tLJRfz3efkr3xxXb"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "haunt": true,
+      "source": "Pillars of Faith"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.629.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!rDE83tFFD2KNKOh3"
+}

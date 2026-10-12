@@ -1,0 +1,100 @@
+{
+  "_id": "NHRXYi8DgimFm5SL",
+  "name": "Eternis Bloom",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 4375,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb Uncommon",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: immortal glades and timeless planar enclaves.\n\nEternis bloom is a pearl-coloured flower from places where time barely moves. While rooted it never wilts, and fallen dew remains motionless upon its petals until deliberately disturbed. Harvesting the flower is an exacting ritual, for a careless cut can reduce the entire plant to centuries of dust in an instant. Its preserved nectar arrests the body's passage through time without restoring what has already been lost. For 1 week after consuming it, you do not physically age and gain a +4-item bonus to saving throws against magical ageing effects. Eternis Bloom does not reverse existing ageing, and repeated doses do not extend this duration until the current dose ends.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 13
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Eternis Bloom",
+          "duration": "7 days",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Eternis Bloom",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 4,
+                  "bonusType": "item",
+                  "label": "Eternis Bloom",
+                  "scope": "Saving throws against magical ageing effects",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "traits": [
+                      "ageing"
+                    ]
+                  },
+                  "auto": false,
+                  "oneShot": false
+                }
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "You do not physically age for the week. It does not reverse existing ageing; a second dose does not extend the duration until this one ends."
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: immortal glades and timeless planar enclaves.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 13,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 4375,
+        "tablePrice": 4375,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NHRXYi8DgimFm5SL"
+}

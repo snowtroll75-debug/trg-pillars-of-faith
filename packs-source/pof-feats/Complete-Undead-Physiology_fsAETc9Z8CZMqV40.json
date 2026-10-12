@@ -1,0 +1,145 @@
+{
+  "_id": "fsAETc9Z8CZMqV40",
+  "name": "Complete Undead Physiology",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 14",
+    "active": true,
+    "description": "<p>CLASS UNLIVING</p>\n<p>Prerequisites Level 14</p>\n<p>Your transformation settles into the full stillness of undeath.</p>\n<p>You gain any of the following standard Undead immunities that you do not already possess: Bleed, Poison, Sleep, Paralysis and Stunning. You also no longer need to eat, breathe, or sleep if you did not already have those traits.</p>\n<p>Be aware, this feat does not remove your PC Death State and does not cause you to be automatically destroyed at 0 HP.</p>\n<p>Works automatically: immunity to Bleed, poison, sleep, Paralyzed and Stunned (those you already have add nothing). Your Death State is unchanged.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "aJwXHNKO8FaRBNnY",
+      "name": "Complete Undead Physiology: Undead immunities",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", bleed",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", poison",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", sleep",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", paralyzed",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.immunities",
+          "mode": 2,
+          "value": ", stunned",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Immune to Bleed, poison, sleep, Paralyzed and Stunned.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!fsAETc9Z8CZMqV40.aJwXHNKO8FaRBNnY"
+    },
+    {
+      "_id": "B7OUa5r3nXYDyJDg",
+      "name": "Complete Undead Physiology: No need to breathe",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "doesNotBreathe": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Does not need to breathe.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!fsAETc9Z8CZMqV40.B7OUa5r3nXYDyJDg"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "generic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fsAETc9Z8CZMqV40"
+}

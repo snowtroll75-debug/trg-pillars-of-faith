@@ -1,0 +1,87 @@
+{
+  "_id": "rJXXtn7QklPmNDQu",
+  "name": "Impossible Anatomy",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10",
+    "active": true,
+    "description": "<p>MORROWMADE</p>\n<p>Your skeleton no longer determines where your body ends. Joints loosen, ribs fold and flesh moves around obstacles with wet, deliberate purpose.<br>You gain a +2 racial bonus to Escape checks and checks made to resist or escape a Grapple.<br>Furthermore, you can move through spaces designed for creatures one Size category smaller than you without treating those spaces as impassable, provided there is physically sufficient space for your body to squeeze through.<br>Movement through such a space is Difficult Terrain.<br>Armour, rigid equipment or another physical obstruction may prevent you from using this ability at the GM's discretion.</p>\n<p>Prerequisites Level 10</p>\n<p>Works automatically: +2 racial is pre-ticked on Escape and offered on checks to resist a Grapple; squeezing through a smaller space is a rule for the table.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Morrowmade",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Impossible Anatomy",
+          "scope": "Escape checks",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "escape"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        },
+        {
+          "kind": "modifier",
+          "label": "Impossible Anatomy",
+          "scope": "Checks to resist or escape a Grapple",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill",
+              "save",
+              "attribute"
+            ],
+            "not": {
+              "actions": [
+                "escape"
+              ]
+            }
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rJXXtn7QklPmNDQu"
+}

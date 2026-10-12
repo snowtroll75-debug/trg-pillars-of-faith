@@ -1,0 +1,49 @@
+{
+  "_id": "PZyo9vLfaX3GDh9S",
+  "name": "Folk Alchemy",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>At 1st level, your knowledge of herbs, minerals, resins, extracts and traditional remedies extends naturally into the practical science of alchemy.<br>You gain the Alchemist archetype feat as a bonus feat. You do not expend a class feat pick to gain this archetype and may gain it even if you do not meet its normal prerequisites.<br>You gain all of the normal benefits of the Alchemist archetype, including the Alchemical Crafting feat and proficiency with alchemical weapons. Crafting is already a Folkwarden class skill and therefore gaining it as a class skill again provides no additional benefit.<br>The Alchemist archetype gained through Folk Alchemy does not impose its normal Progression Requirements upon you. You are not required to attain Crafting +10 ranks before selecting another archetype feat.</p>\n<p>The Alchemist archetype feat is granted by the class itself (its own grants — Alchemical Crafting — follow), and because the class hands it over its Progression Requirements are waived in the feat picker.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PZyo9vLfaX3GDh9S"
+}

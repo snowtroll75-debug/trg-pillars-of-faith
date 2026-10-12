@@ -1,0 +1,50 @@
+{
+  "_id": "noHqDoqAmIiR9aKM",
+  "name": "Unliving Vampire",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 2",
+    "active": true,
+    "description": "<p>ARCHETYPE UNLIVING</p>\n<p>Prerequisites Level 2</p>\n<p>Your death has become elegant, predatory and sustained by stolen blood.</p>\n<p>You walk the line between nobility and hunger, restored by the life you take from others. Your flesh knits at unnatural speed, your thirst can draw strength from the veins of the helpless, and the sun itself recoils from what you have become. You gain the Shared Unliving Base Mods, Fast Healing, Drink Blood and Sunlight Weakness.</p>\n<p>Grants Darkvision, the Shared Unliving Base Mods, Fast Healing 1 (suppressed in sunlight), Drink Blood (Use) and Sunlight Weakness (applied by the GM's Sunlit scene or token mark). One Unliving archetype per character.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Darkvision, Shared Unliving Base Mods, Fast Healing, Drink Blood, Sunlight Weakness",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!noHqDoqAmIiR9aKM"
+}

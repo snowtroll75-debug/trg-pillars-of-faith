@@ -1,0 +1,106 @@
+{
+  "_id": "pf9LHMQJ2wcjcYC8",
+  "name": "Pilgrim of Many Lives",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Sevrai heritage, Level 5",
+    "active": true,
+    "description": "<p>RHEVANI</p>\n<p>Some roads are new only to the person you are today.<br>Your Speed increases by an additional 5 feet.<br>Whenever you use Past-Life Echo to select Survival, you also ignore the first 5 feet of additional movement imposed by natural difficult terrain and gain a +2-racial bonus to Sense Direction.<br>Once per day, when you Fumble a Sense Direction check, treat the result as a Failure instead.</p>\n<p>Prerequisites Sevrai heritage, Level 5</p>\n<p>Works automatically: +5 ft Speed is on your sheet; +2 racial to Sense Direction is pre-ticked while Past-Life Echo (Survival) is active; a Fumble on Sense Direction resolves as a Failure once a day (this feat's use).</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "5GZV0ApcQsRhZRpp",
+      "name": "Pilgrim of Many Lives: Speed",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.movement.land.other",
+          "mode": 2,
+          "value": "5",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+5 feet Speed.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!pf9LHMQJ2wcjcYC8.5GZV0ApcQsRhZRpp"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Pilgrim of Many Lives",
+          "scope": "Sense Direction while Past-Life Echo (Survival) is active",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "senseDirection"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!pf9LHMQJ2wcjcYC8"
+}

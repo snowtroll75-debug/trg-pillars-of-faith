@@ -1,0 +1,91 @@
+{
+  "_id": "kbEnQAYUlEBV06tq",
+  "name": "Star Fern",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 525,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: astral conjunction sites and high mountains.\n\nStar fern grows at great altitude in soil exposed to clear night skies and rare astral conjunctions. Its midnight fronds are speckled like the heavens, and faint points of light travel slowly across them in patterns learned astronomers can recognise. The prepared leaves dissolve upon the tongue in a flash of cold radiance, briefly aligning body, mind and spirit. Until the start of your next turn, you have advantage on all saving throws.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 7
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Star Fern",
+          "duration": "until the start of your next turn",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Star Fern",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "advantage",
+                  "label": "Star Fern",
+                  "scope": "All saving throws",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ]
+                  },
+                  "auto": true,
+                  "oneShot": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: astral conjunction sites and high mountains.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 7,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 525,
+        "tablePrice": 525,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kbEnQAYUlEBV06tq"
+}

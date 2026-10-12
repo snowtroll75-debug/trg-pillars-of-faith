@@ -1,0 +1,51 @@
+{
+  "_id": "xFb5J65qAaDtO74A",
+  "name": "Corpse Slam",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 4",
+    "active": true,
+    "description": "<p>UNLIVING-ZOMBIE</p>\n<p>Prerequisites Level 4</p>\n<p>Your hunger manifests in a corpse-strong jaw and teeth that tear with dreadful persistence.</p>\n<p>You gain a Slam natural attack that deals 1d8 bludgeoning damage and has agile, finesse, magical, and versatile piercing traits.</p>\n<p>Grants Corpse Slam (1d8 bludgeoning; agile, finesse, magical, versatile piercing).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Zombie",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "",
+    "grantedWeapons": "Slam (Unliving Zombie)"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "zombie"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xFb5J65qAaDtO74A"
+}

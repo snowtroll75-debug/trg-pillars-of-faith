@@ -1,0 +1,50 @@
+{
+  "_id": "OoXMjm5EkU3Y0Ep4",
+  "name": "Keeper of the Old Ways",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>You gain Folk Lore as a specialist skill.<br>Folk Lore covers local superstition, protective customs, traditional remedies, household rites, burial practices, taboos, omens and the ways ordinary communities understand supernatural events.<br>You may use Folk Lore in place of Culture, Nature, Religion or Occultism when the check specifically concerns a folk practice, traditional remedy, omen, superstition, local taboo or customary protection. Folk Lore does not replace those skills for their broader uses. You might use Folk Lore to recognise why thorn branches have been tied above every doorway in a village, but not to identify an unrelated Arcane spell simply because the villagers are frightened of it.<br>Be aware that Folk Lore is unique to this class and cannot be selected as specialist skill by any other class.</p>\n<p>Folk Lore is added to your specialist skills as this ability lands.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Folk Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OoXMjm5EkU3Y0Ep4"
+}

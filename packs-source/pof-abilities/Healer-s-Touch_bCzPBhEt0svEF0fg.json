@@ -1,0 +1,49 @@
+{
+  "_id": "bCzPBhEt0svEF0fg",
+  "name": "Healer's Touch",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Healer 1st level",
+    "active": true,
+    "description": "<p>CONCENTRATE ESSENCE FOCUS HEALING<br>Action R<br>Trigger You or an ally within 10 feet regain Hit Points from a healing spell you cast.<br>All targets regain additional HP equal to the amount of PP required to cast the spell (or your level in the case of an innate spell).</p>\n<p>Use as the Reaction: spends the Focus use and the reaction, asks the PP the spell cost (or your level for an innate one) and heals every targeted creature by that much.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "Concentrate, Essence, Focus, Healing",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!bCzPBhEt0svEF0fg"
+}

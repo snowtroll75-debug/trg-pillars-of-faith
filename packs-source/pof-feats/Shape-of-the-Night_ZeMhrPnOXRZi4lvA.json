@@ -1,0 +1,51 @@
+{
+  "_id": "ZeMhrPnOXRZi4lvA",
+  "name": "Shape of the Night",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 8",
+    "active": true,
+    "description": "<p>ALTERATION UNLIVING VAMPIRE</p>\n<p>Prerequisites Level 8</p>\n<p>Your body remembers older predatory shapes beneath the skin.</p>\n<p>You gain Shape of the Animal as an ethereal innate spell with the focus trait, but you may assume only bat or wolf forms. The form must be selected each time you use the spell.</p>\n<p>Grants Shape of the Animal as an innate spell with the Focus trait; only bat or wolf forms, chosen each time.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Alteration, Unliving-Vampire",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "Shape Of The Animal",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true,
+      "bookCategory": "unliving",
+      "unlivingGroup": "vampire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZeMhrPnOXRZi4lvA"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "gQOov2h7tVX7BWFq",
+  "name": "Warding Word",
+  "img": "icons/svg/aura.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Action R; Trigger You or an ally within 10 feet is targeted by an attack</p>\n<p>The protective script upon your body flashes with sudden light. The target of the triggering attack gains a +1 status bonus to DB against that attack.</p>\n<p>Use: target the creature being attacked (or nobody, for yourself); the +1 status bonus to DB is applied to them until the end of the current turn, the reaction is spent in combat, and the Focus use is spent (restored by Refocus).</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "traits": "Divinity, Focus, Warding"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gQOov2h7tVX7BWFq"
+}

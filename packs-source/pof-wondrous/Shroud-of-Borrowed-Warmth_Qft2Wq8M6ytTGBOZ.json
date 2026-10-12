@@ -1,0 +1,83 @@
+{
+  "_id": "Qft2Wq8M6ytTGBOZ",
+  "name": "Shroud of Borrowed Warmth",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 2,
+    "price": 2400,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Alteration, Invested, Shadow, Unliving",
+    "description": "Usage worn cloak or funerary shroud; Weight 2 lbs.\n\nRequirement You possess the Unliving trait\n\nThe cloth is cold when removed but once wrapped around an Unliving bearer it develops the warmth, tiny movements and imperfections expected of mortal flesh.\n\nWhile invested, your body feels warm to the touch; you appear to breathe; if your form is capable of having a pulse, one can be detected; and ordinary signs of death such as corpse pallor, grave chill or obvious smell are concealed.\n\nYou gain a +2-status bonus to Deception checks made specifically to conceal that you are Unliving. The shroud cannot conceal obviously impossible anatomy, such as a Skeleton having no flesh, nor can it fool magical detection capable of identifying the Unliving trait.\n\nOn the sheet: +2 status is offered on Deception to conceal that you are Unliving; the concealed signs of death are the card's words. Requires the Unliving trait.\n\nPillars of Faith, Chapter 11.",
+    "slot": "shoulders",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 6,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": true,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "note",
+            "value": 0,
+            "reported": true,
+            "requiresTrait": "unliving",
+            "label": "Shroud of Borrowed Warmth",
+            "note": "Requires the Unliving trait: you feel warm, appear to breathe, show a pulse where your form can, and ordinary signs of death are concealed (not impossible anatomy, nor magical detection of the Unliving trait)."
+          }
+        ]
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Shroud of Borrowed Warmth",
+          "scope": "Deception checks to conceal that you are Unliving",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "deception"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Qft2Wq8M6ytTGBOZ"
+}

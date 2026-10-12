@@ -1,0 +1,89 @@
+{
+  "_id": "ZQLUb3RHW36u4vn4",
+  "name": "Spiritual Reserve",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Meditation 5 ranks",
+    "active": true,
+    "description": "<p>ADEPT</p>\n<p>Your disciplined recovery draws just a little more power back into reach.<br>Whenever you achieve a Critical or Heroic result on Power Recovery, recover 1 additional PP per caster level.</p>\n<p>Prerequisites Meditation 5 ranks</p>\n<p>Works automatically: a Critical or Heroic Power Recovery during a rest recovers 1 more PP per caster level.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "6mpMumG7yx9j930u",
+      "name": "Spiritual Reserve: Power Recovery",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "powerRecoveryExtra": {
+            "label": "Spiritual Reserve",
+            "degrees": [
+              "critical",
+              "heroic"
+            ],
+            "perCasterLevel": 1
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "A Critical or Heroic Power Recovery recovers 1 additional PP per caster level.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!ZQLUb3RHW36u4vn4.6mpMumG7yx9j930u"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZQLUb3RHW36u4vn4"
+}

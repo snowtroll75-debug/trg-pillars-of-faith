@@ -1,0 +1,91 @@
+{
+  "_id": "X9h3wBM8MdmbmeEm",
+  "name": "Essence Attacks",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 4",
+    "active": true,
+    "description": "<p>UNLIVING-GHOST</p>\n<p>Prerequisites Level 4</p>\n<p>Your strikes pass through armour and flesh to scrape directly across the animating spirit.</p>\n<p>When you make an unarmed attack or natural attack, you may have the attack deal essence damage instead of its normal physical damage type. The attack remains magical.</p>\n<p>Works automatically: an unarmed or natural attack asks before the roll whether to deal essence instead (as Versatile does); an essence strike counts as magical.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Ghost",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "6DkqS2EkfAKj1nKt",
+      "name": "Essence Attacks: Essence Attacks",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "strikeTypeOption": {
+            "type": "essence",
+            "label": "Essence Attacks",
+            "scope": [
+              "natural",
+              "unarmed"
+            ],
+            "magical": true
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Unarmed and natural attacks may deal essence damage instead; they count as magical.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!X9h3wBM8MdmbmeEm.6DkqS2EkfAKj1nKt"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "ghost"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!X9h3wBM8MdmbmeEm"
+}

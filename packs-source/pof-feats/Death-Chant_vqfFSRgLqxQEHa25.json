@@ -1,0 +1,49 @@
+{
+  "_id": "vqfFSRgLqxQEHa25",
+  "name": "Death Chant",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>AUDITORY EMOTION ORC</p>\n<p>When one of your companions falls, you roar their name and deeds loudly enough that death itself might hear the challenge.<br>Action R<br>Trigger A living ally within 30 feet gains the Dying condition as a result of HP damage.<br>The triggering ally gains a +1-status bonus to their next Dying recovery check made before the end of their next turn. You gain a +1-status bonus to attack rolls against the creature that caused the triggering damage until the end of your next turn, if that creature is known to you.<br>A creature may benefit from your Death Chant only once per day.</p>\n<p>Use as the Reaction (target the fallen ally, then the attacker if you can): queues the ally's +1 status to their next Dying recovery check, and puts +1 status to attacks against the attacker on you until the end of your next turn.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Orc",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Auditory, Emotion",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!vqfFSRgLqxQEHa25"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "Mthhf3agUmfulC5p",
+  "name": "Predator's Manifestation",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Beast Spirit Guide, Level 5",
+    "active": true,
+    "description": "<p>SHAMAN SPIRIT</p>\n<p>The spectral animal surrounding you has begun to leave very physical wounds.<br>While Manifest Spirit is active, you gain a natural claw, bite, horn or similar unarmed attack appropriate to your guide.<br>The attack inflicts 1d6 base Slashing, Piercing or Bludgeoning damage, chosen when this feat is selected, and possesses the Magical trait.<br>At 11th level, its base damage increases to 1d8. You use your normal unarmed attack bonus.</p>\n<p>Prerequisites Beast Spirit Guide, Level 5</p>\n<p>Use to choose the damage type: while Manifest Spirit (Beast) is active a Magical natural attack (1d6; 1d8 from 11th) is added to your weapons and removed with the manifestation.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Spirit, Shaman",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Mthhf3agUmfulC5p"
+}

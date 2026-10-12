@@ -1,0 +1,79 @@
+{
+  "_id": "zRUrjsVFuiKLC6XS",
+  "name": "Mantle of Many Lives",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 2,
+    "price": 8000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Insight, Invested, Soul",
+    "description": "Usage worn cloak; Weight 2 lbs.\n\nIts fabric is made from hundreds of narrow strips, each dyed according to a different era or tradition. The wearer occasionally remembers how to fasten clasps that have not existed for centuries.\n\nYou gain a +2-status bonus to saving throws against magical memory alteration and effects that suppress or alter personal identity.\n\nYou also gain the Borrowed Experience ability:\n\nBorrowed Experience:\n\nActivate Concentrate (1 AP)\n\nFrequency 1/day\n\nSelect one skill in which you possess no ranks. For 10 minutes, treat yourself as possessing 1 rank in that skill. This grants access to skill actions requiring 1 rank but does not satisfy prerequisites for feats, classes, archetypes or other permanent character options.\n\nIf you are Rhevani, you instead treat yourself as possessing 2 ranks, subject to your normal maximum ranks.\n\nOn the sheet: +2 status is offered on saves against memory and identity effects; Use grants 1 rank (a Rhevani: 2) in a skill you have none in, for 10 minutes (1/day).\n\nPillars of Faith, Chapter 11.",
+    "slot": "shoulders",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 10,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": true,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "use",
+            "automation": "borrowedExperience",
+            "activation": "Concentrate (1 AP)",
+            "frequency": "daily",
+            "label": "Borrowed Experience"
+          }
+        ]
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Mantle of Many Lives",
+          "scope": "Saving throws against magical memory alteration and effects that suppress or alter personal identity",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zRUrjsVFuiKLC6XS"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "UAVID2h7YmDzvRbF",
+  "name": "Soulchain",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 11000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Invested, Save, Soul, Warding",
+    "description": "Activate Free (0 AP)\n\nTrigger Once per round after a successful Strike\n\nDuration Until the beginning of your next turn\n\nFine spectral chains radiate from the wound for an instant before vanishing into the target's shadow.\n\nThe target must make a Will saving throw against your Level DC.\n\nCritical: The target is unaffected.\n\nSuccess: The target cannot voluntarily use possession until the beginning of your next turn.\n\nFailure: The target cannot voluntarily become Incorporeal, leave its current host through possession, begin a new possession or transfer its soul into another vessel for the duration.\n\nFumble: As Failure. If the target is currently possessing another creature, it must immediately attempt a new saving throw against the possession-ending conditions of the effect that created the possession. If that effect provides no such saving throw, the GM may allow an opposed level based Will save.\n\nInscribed onto a weapon.\n\nOn the sheet: Applied automatically after a hit, once a round: the creature's Will save against your Level DC and the printed ladder on the damage card. A Fumble's second save is the table's.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 12,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "soulchain",
+        "tier": 1,
+        "on": [
+          "weapon"
+        ],
+        "automation": "event"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UAVID2h7YmDzvRbF"
+}

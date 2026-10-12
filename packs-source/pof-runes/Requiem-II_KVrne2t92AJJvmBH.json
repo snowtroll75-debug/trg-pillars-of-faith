@@ -1,0 +1,56 @@
+{
+  "_id": "KVrne2t92AJJvmBH",
+  "name": "Requiem II",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 8000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Essence, Invested, Invocation",
+    "description": "Funerary script spirals along the weapon, growing cold whenever it approaches a creature sustained beyond death.\n\nThe first successful Strike you make each round against a creature with the Undead or Unliving trait inflicts additional secondary essence damage.\n\nThe weapon inflicts 2d6 damage.\n\nInscribed onto a weapon.\n\nOn the sheet: Applied automatically on the damage card: the tier's essence on the first hit each round against a creature with the Undead or Unliving trait.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 11,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "requiem",
+        "tier": 2,
+        "on": [
+          "weapon"
+        ],
+        "automation": "damage"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KVrne2t92AJJvmBH"
+}

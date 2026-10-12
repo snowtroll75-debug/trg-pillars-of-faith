@@ -1,0 +1,352 @@
+{
+  "_id": "Q9yhQZmSfguspbre",
+  "name": "Healer",
+  "img": "icons/svg/book.svg",
+  "type": "class",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "",
+    "tier": "Adept",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Some people learn to heal. Others are born unable to ignore suffering.<br>You possess an instinctive connection to the force that preserves mortal life. You may understand that power as divine grace, an expression of compassion, a sacred calling, an inherited blessing or simply something that has always existed within you. Whatever its origin, when another creature is wounded you can feel the disruption almost as keenly as if the injury were your own.<br>Unlike a Cleric, your power does not depend upon formal doctrine, a prayer book or service to a particular Divine Aspect. You may be deeply religious, completely secular or uncertain where your abilities originate. What defines you is not who you worship, but what you do with the power you possess.<br>Healers learn to recognise the difference between injury and illness, between a wounded body and a wounded soul. Their magic can close torn flesh, stabilise the dying and remove afflictions, but experienced Healers understand that preservation sometimes requires more than restoring Hit Points. Fear, poison, exhaustion, spiritual damage and supernatural corruption can kill just as surely as a blade.<br>Most Healers receive practical medical training alongside their supernatural abilities. A spell can save a life in seconds, but bandages, clean instruments and somebody who understands anatomy remain useful long after Power Points have been exhausted.<br>In battle, you rarely seek the centre of the fight. Your role is to keep companions standing, intervene when a wound would otherwise prove fatal and repair the damage that survives the encounter.<br>You may want to play a Healer if you want to be the party's premier restorative character, combining full spellcasting with Medicine, emergency intervention and powerful abilities that improve healing without preventing you from learning other Divinity magic.<br>A Healer does not ask whether someone deserves saving. There will be time for judgement when they are no longer bleeding.</p>\n<p>MAGICAL TRADITION<br>You are a Divinity instinctive spellcaster. You do not memorise spells or maintain a prayer book. Your magic manifests instinctively in response to need, refined through experience rather than formal preparation.<br>At 1st level, you automatically add Cure and Restoration to your repertoire. These spells do not count against the normal number of spells you learn through your class.<br>You also select two additional PP 2 Divinity spells and add them to your repertoire.<br>At 2nd level and every level, thereafter, select one additional Divinity spell that you are capable of casting and add it to your repertoire. You may cast any spell in your repertoire whenever you meet its casting requirements and possess sufficient PP. You do not need to memorise spells during daily preparation.<br>Beginning at 5th level, whenever you gain a Healer level you may also replace one spell in your repertoire with another Divinity spell that you are capable of casting.</p>\n<p>CANTRIPS<br>At 1st level, you automatically learn Stabilise. You also learn two additional Divinity cantrips of your choice. These cantrips are instinctive and do not need to be memorised.</p>\n<p>SPECIALIST SPELLS<br>At 1st level, you gain Touch of Healing as a Specialist Spell. You may learn additional spells with the Healer trait through the Specialist Spell feat and Healer class feats presented in Chapter 5.</p>\n<p>CONTROL LEVELS<br>For the purposes of determining Control Levels, you gain +1 Control Level per Healer level.</p>",
+    "classType": "Adept",
+    "keyAbilityScores": "Wisdom (min +2), Charisma, Constitution",
+    "classSkills": "Culture, Diplomacy, Linguistics, Medicine, Meditation, Mental Focus, Nature, Perception, Power Manipulation, Religion, Sense Motive",
+    "grantedFeats": "",
+    "classAbilities": "1: Gift of Healing, 1: Healer's Touch, 1: Restorative Hands, 1: Lifeline, 1: Healer's Calling, 3: Restorative Overflow",
+    "proficiencies": "You are proficient with light armour. You are proficient with all simple weapons.",
+    "hitPoints": 6,
+    "skillPoints": 6,
+    "magicalTradition": "divinity",
+    "magicalAbility": "wisdom",
+    "casterStyle": "instinctive",
+    "repertoireCategory": "",
+    "memorisationStyle": "",
+    "cantripsPerDay": 0,
+    "spellBookFirstPicks": 0,
+    "grantedGear": "",
+    "grantedSpells": "1: Cure, 1: Restoration, 1: Stabilise, 1: Touch of Healing",
+    "progression": [
+      {
+        "level": 1,
+        "bab": 0,
+        "bdb": 0,
+        "fortitude": 3,
+        "reflex": 0,
+        "will": 6,
+        "bonusFeats": 0,
+        "casterLevel": 1,
+        "pp": 4,
+        "bsb": 1
+      },
+      {
+        "level": 2,
+        "bab": 1,
+        "bdb": 1,
+        "fortitude": 4,
+        "reflex": 1,
+        "will": 7,
+        "bonusFeats": 0,
+        "casterLevel": 2,
+        "pp": 8,
+        "bsb": 2
+      },
+      {
+        "level": 3,
+        "bab": 1,
+        "bdb": 1,
+        "fortitude": 5,
+        "reflex": 2,
+        "will": 8,
+        "bonusFeats": 0,
+        "casterLevel": 3,
+        "pp": 12,
+        "bsb": 3
+      },
+      {
+        "level": 4,
+        "bab": 2,
+        "bdb": 2,
+        "fortitude": 6,
+        "reflex": 3,
+        "will": 9,
+        "bonusFeats": 0,
+        "casterLevel": 4,
+        "pp": 16,
+        "bsb": 4
+      },
+      {
+        "level": 5,
+        "bab": 2,
+        "bdb": 2,
+        "fortitude": 7,
+        "reflex": 4,
+        "will": 10,
+        "bonusFeats": 1,
+        "casterLevel": 5,
+        "pp": 20,
+        "bsb": 5
+      },
+      {
+        "level": 6,
+        "bab": 3,
+        "bdb": 3,
+        "fortitude": 8,
+        "reflex": 5,
+        "will": 11,
+        "bonusFeats": 1,
+        "casterLevel": 6,
+        "pp": 24,
+        "bsb": 6
+      },
+      {
+        "level": 7,
+        "bab": 3,
+        "bdb": 3,
+        "fortitude": 9,
+        "reflex": 6,
+        "will": 12,
+        "bonusFeats": 1,
+        "casterLevel": 7,
+        "pp": 28,
+        "bsb": 7
+      },
+      {
+        "level": 8,
+        "bab": 4,
+        "bdb": 4,
+        "fortitude": 10,
+        "reflex": 7,
+        "will": 13,
+        "bonusFeats": 1,
+        "casterLevel": 8,
+        "pp": 32,
+        "bsb": 8
+      },
+      {
+        "level": 9,
+        "bab": 4,
+        "bdb": 4,
+        "fortitude": 11,
+        "reflex": 8,
+        "will": 14,
+        "bonusFeats": 1,
+        "casterLevel": 9,
+        "pp": 36,
+        "bsb": 9
+      },
+      {
+        "level": 10,
+        "bab": 5,
+        "bdb": 5,
+        "fortitude": 12,
+        "reflex": 9,
+        "will": 15,
+        "bonusFeats": 2,
+        "casterLevel": 10,
+        "pp": 40,
+        "bsb": 10
+      },
+      {
+        "level": 11,
+        "bab": 5,
+        "bdb": 5,
+        "fortitude": 13,
+        "reflex": 10,
+        "will": 16,
+        "bonusFeats": 2,
+        "casterLevel": 11,
+        "pp": 44,
+        "bsb": 11
+      },
+      {
+        "level": 12,
+        "bab": 6,
+        "bdb": 6,
+        "fortitude": 14,
+        "reflex": 11,
+        "will": 17,
+        "bonusFeats": 2,
+        "casterLevel": 12,
+        "pp": 48,
+        "bsb": 12
+      },
+      {
+        "level": 13,
+        "bab": 6,
+        "bdb": 6,
+        "fortitude": 15,
+        "reflex": 12,
+        "will": 18,
+        "bonusFeats": 2,
+        "casterLevel": 13,
+        "pp": 52,
+        "bsb": 13
+      },
+      {
+        "level": 14,
+        "bab": 7,
+        "bdb": 7,
+        "fortitude": 16,
+        "reflex": 13,
+        "will": 19,
+        "bonusFeats": 2,
+        "casterLevel": 14,
+        "pp": 56,
+        "bsb": 14
+      },
+      {
+        "level": 15,
+        "bab": 7,
+        "bdb": 7,
+        "fortitude": 17,
+        "reflex": 14,
+        "will": 20,
+        "bonusFeats": 3,
+        "casterLevel": 15,
+        "pp": 60,
+        "bsb": 15
+      },
+      {
+        "level": 16,
+        "bab": 8,
+        "bdb": 8,
+        "fortitude": 18,
+        "reflex": 15,
+        "will": 21,
+        "bonusFeats": 3,
+        "casterLevel": 16,
+        "pp": 64,
+        "bsb": 16
+      },
+      {
+        "level": 17,
+        "bab": 8,
+        "bdb": 8,
+        "fortitude": 19,
+        "reflex": 16,
+        "will": 22,
+        "bonusFeats": 3,
+        "casterLevel": 17,
+        "pp": 68,
+        "bsb": 17
+      },
+      {
+        "level": 18,
+        "bab": 9,
+        "bdb": 9,
+        "fortitude": 20,
+        "reflex": 17,
+        "will": 23,
+        "bonusFeats": 3,
+        "casterLevel": 18,
+        "pp": 72,
+        "bsb": 18
+      },
+      {
+        "level": 19,
+        "bab": 9,
+        "bdb": 9,
+        "fortitude": 21,
+        "reflex": 18,
+        "will": 24,
+        "bonusFeats": 3,
+        "casterLevel": 19,
+        "pp": 76,
+        "bsb": 19
+      },
+      {
+        "level": 20,
+        "bab": 10,
+        "bdb": 10,
+        "fortitude": 22,
+        "reflex": 19,
+        "will": 25,
+        "bonusFeats": 4,
+        "casterLevel": 20,
+        "pp": 80,
+        "bsb": 20
+      }
+    ],
+    "cantripsKnown": 2,
+    "wealth": "1"
+  },
+  "effects": [
+    {
+      "_id": "SEeyejGmM7Qy5vuc",
+      "name": "Healer: Control Levels",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.magic.controlBonusPerLevel",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 Control Level per Healer level.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!Q9yhQZmSfguspbre.SEeyejGmM7Qy5vuc"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "abilityLevels": {
+        "Gift of Healing": 1,
+        "Healer's Touch": 1,
+        "Restorative Hands": 1,
+        "Lifeline": 1,
+        "Healer's Calling": 1,
+        "Restorative Overflow": 3
+      },
+      "repertoire": {
+        "pickStep": 1,
+        "pickFrom": 2,
+        "swapStep": 1,
+        "swapFrom": 5
+      },
+      "magicalNote": "You are a Divinity instinctive spellcaster. You do not memorise spells or maintain a prayer book. Your magic manifests instinctively in response to need, refined through experience rather than formal preparation.\nAt 1st level, you automatically add Cure and Restoration to your repertoire. These spells do not count against the normal number of spells you learn through your class.\nYou also select two additional PP 2 Divinity spells and add them to your repertoire.\nAt 2nd level and every level, thereafter, select one additional Divinity spell that you are capable of casting and add it to your repertoire. You may cast any spell in your repertoire whenever you meet its casting requirements and possess sufficient PP. You do not need to memorise spells during daily preparation.\nBeginning at 5th level, whenever you gain a Healer level you may also replace one spell in your repertoire with another Divinity spell that you are capable of casting.",
+      "bonusFeatsNote": "At 5th level and every 5 levels thereafter, you gain an additional class feat. You must meet the prerequisites or possess the appropriate Healer or Adept class trait for the selected feat. You therefore gain bonus class feats at 5th, 10th, 15th and 20th level."
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Q9yhQZmSfguspbre"
+}

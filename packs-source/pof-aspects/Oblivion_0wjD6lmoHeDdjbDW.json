@@ -1,0 +1,50 @@
+{
+  "_id": "0wjD6lmoHeDdjbDW",
+  "name": "Oblivion",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Oblivion is not merely death. Death ends a life; Oblivion seeks to ensure that nothing meaningful remains afterwards. It is depicted as a featureless figure surrounded by blank tablets, extinguished candles and monuments from which every name has been chiselled away.\nIts followers believe that memory, history and legacy are weaknesses through which the past exercises power over the present. Some seek personal anonymity. Others practise a far more malicious doctrine, destroying the identities and histories of their enemies until even their victories become impossible to remember.\n\nEdicts: Erase the legacies of those you destroy. Undermine institutions sustained only by reverence for their past. Conceal your own true intentions and significance. Demonstrate that names, monuments and reputations are ultimately temporary.\n\nAnathema: Seek personal immortality through fame or memorial. Preserve a legacy purely because it is ancient. Restore a deliberately erased history when doing so serves no greater purpose of Oblivion. Allow sentimentality to prevent the destruction of a hated legacy.\n\nSuggested Ethics: Deception, Malevolence, Nihilism\n\nClass Skill: Deception\n\nSpecialist Spells: Sickly Ray (1), Silent Binding (1), Song of Despair (1), Veiled Presence (1), False Arrogance (7), Fateful Temptation (7), Stasis (7), Veiled Secret (7)\n\nBonus Spells: Bane (2); Silence (4); Memory Lapse (4); Disintegrate (12)\n\nFavoured Weapon: Flail\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Evil",
+    "edicts": "Erase the legacies of those you destroy. Undermine institutions sustained only by reverence for their past. Conceal your own true intentions and significance. Demonstrate that names, monuments and reputations are ultimately temporary.",
+    "anathema": "Seek personal immortality through fame or memorial. Preserve a legacy purely because it is ancient. Restore a deliberately erased history when doing so serves no greater purpose of Oblivion. Allow sentimentality to prevent the destruction of a hated legacy.",
+    "suggestedEthics": "Deception, Malevolence, Nihilism",
+    "classSkill": "Deception",
+    "favouredWeapon": "Flail",
+    "specialistSpells": "Sickly Ray, Silent Binding, Song of Despair, Veiled Presence, False Arrogance, Fateful Temptation, Stasis, Veiled Secret",
+    "bonusSpells": "2: Bane, 4: Silence, 4: Memory Lapse, 12: Disintegrate"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Deception",
+        "Malevolence",
+        "Nihilism"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0wjD6lmoHeDdjbDW"
+}

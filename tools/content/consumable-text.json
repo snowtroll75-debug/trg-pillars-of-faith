@@ -1,0 +1,815 @@
+{
+  "BLACKFIRE IVY": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "5",
+      "Price": "215 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Blackfire ivy grows across warm volcanic stone, its soot-black leaves drawing nourishment from heat rather than sunlight. Fine red veins brighten whenever flame passes nearby, and harvested cuttings remain hot enough to scorch cloth. Spellcasters consume the prepared leaf as a tightly rolled pellet, after which the veins beneath the tongue glow briefly red. The next fire spell you cast within 1-minute deals one additional damage die and negates each target's fire resistance. The dose is expended when the spell is cast."
+    ],
+    "terrain": "warm volcanic jungles."
+  },
+  "BLACK SAP": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Black sap is harvested from the wounds of gnarled trees growing in dead or blighted woodland. The resin wells up glossy and dark, hardening into brittle beads that smell of smoke and bitter almonds. Apothecaries boil it repeatedly to draw away its natural toxins, leaving a tar-like restorative that stains the teeth and tongue for several hours. When chewed, you regain 1d6 Hit Points."
+    ],
+    "terrain": "any dead or blighted forests."
+  },
+  "BRIGHTROOT": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Brightroot is a low, broad-leafed plant whose chalk-white taproot divides into dozens of fine, luminous fibres. Herbalists prize specimens dug at sunrise, when their sharp scent is strongest, and dry the roots in narrow twists that resemble lengths of pale cord. When chewed, the fibres release a clean, peppery oil that clears the senses and steadies the hands. For 1 hour, you gain a +2-item bonus to Medicine checks."
+    ],
+    "terrain": "any forests or grasslands."
+  },
+  "CRYSTAL BARK": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Crystal bark forms in thin translucent plates upon ancient trees whose roots reach deep mineral seams. Under sunlight the bark scatters small rainbows, and mature pieces chime softly against one another in the wind. It is shaved into brittle wafers and softened in mineral water until it can be chewed into a gritty paste that briefly hardens the flesh. For 1 hour, you gain DR 1. This temporary DR does not stack with DR granted by another consumable."
+    ],
+    "terrain": "ancient temperate or warm forests."
+  },
+  "DEEPMIRE LILY": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "3",
+      "Price": "85 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Deepmire lily floats upon black swamp water, anchored by a thick white bulb buried far below the mud. Its waxy flower smells faintly of clean linen, making a blooming patch conspicuous even amid stagnant pools. The bulb contains a powerful restorative sap that is pressed, filtered and drunk in a single bitter measure. Reduce your Fatigued condition by 1. You cannot benefit from Deepmire Lily again until you complete a Full Rest."
+    ],
+    "terrain": "any swamps."
+  },
+  "DIVINE NECTAR": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB RARE",
+    "fields": {
+      "Level": "18",
+      "Price": "35,000 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Divine nectar gathers in the chalices of celestial flowers that bloom only within the gardens of divine demesnes. A single luminous drop holds shifting colours and gives off the scent of whatever the observer associates with perfect health. It cannot be diluted or divided: lesser vessels crack around it, and any portion smaller than a complete dose evaporates as harmless golden mist. When consumed, you regain all Hit Points and Power Points, reduce Dying to 0, stop all bleeding, and remove the Drained, Fatigued, Frightened, Sickened, Stunned and Weakened conditions. You may also attempt an immediate new saving throw against one disease or poison affecting you. Divine Nectar cannot restore Conviction, reverse death, remove an Injury or end a permanent effect."
+    ],
+    "terrain": "celestial gardens and divine demesnes."
+  },
+  "DRAGON'S BREATH REED": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "3",
+      "Price": "85 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Dragon's breath reed grows around volcanic pools in clusters of scarlet, hollow stems. Each joint contains a resinous membrane that crackles when the reed is flexed and exhales a thread of hot smoke when pierced. The dried reed is burned in a shallow cup and its fierce vapour inhaled with care, warming the lungs until every breath tastes of ash. The next successful weapon or unarmed Strike you make within 1-minute deals an additional 1d6 fire damage. The dose is then expended."
+    ],
+    "terrain": "warm volcanic regions."
+  },
+  "DREAMCAP": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "3",
+      "Price": "85 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Dreamcap is a soft violet mushroom patterned with pale whorls that slowly shift when watched from the corner of the eye. It grows beneath ancient trees where sleepers commonly report vivid or shared dreams. The cap is sweetened with honey and eaten immediately before resting, bringing a deep sleep filled with indistinct but soothing visions. For the next 8 hours, ordinary noise and uncomfortable surroundings do not prevent you from sleeping, and you gain advantage on saving throws against dream and nightmare effects. Dreamcap does not protect against effects that prevent or magically interrupt sleep."
+    ],
+    "terrain": "fey-touched forests and regions bordering the Dimension of Dreams."
+  },
+  "DREAMTHORN": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB UNCOMMON",
+    "fields": {
+      "Level": "15",
+      "Price": "9,625 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Dreamthorn is a leafless silver briar that appears in nightmare realms and places repeatedly visited by prophetic dreams. Its thorns reflect sleepers rather than their surroundings, each tiny image showing a different expression or age. A single thorn is steeped in water until it vanishes, and the draught is consumed before entering a trance lasting 1 hour. Before the trance, ask one question concerning a goal, event or course of action likely to occur within the next week. During the prophetic dream, the GM provides a truthful answer, although it may be brief or symbolic. After benefiting from Dreamthorn, you are temporarily immune to it for 1 week."
+    ],
+    "terrain": "nightmare realms and places where prophetic dreams recur."
+  },
+  "DUSTCAP": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Dustcap is a squat grey mushroom found in abandoned workings and beneath timber supports. Its cap is covered by a dense layer of powder that puffs outward at the slightest vibration, while the fibrous flesh filters impurities from damp cave air. Once rendered harmless and finely milled, a carefully measured pinch coats the nose and throat with a dry protective film. For 30 minutes, you gain a +2-item bonus to Fortitude saves against inhaled poisons and airborne diseases."
+    ],
+    "terrain": "underground mines and tunnels."
+  },
+  "ECHO REED": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "6",
+      "Price": "350 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Echo reed appears where two planes press close together, rising in sparse stands around otherwise still water. Its hollow stem repeats words spoken nearby in a voice too faint for ordinary hearing, sometimes hours after the speaker has departed. A prepared section is held beneath the tongue until it dissolves, carrying deliberate thought along the same unseen resonance. For 10 minutes, you can communicate telepathically with creatures within 30 feet that possess a language. This does not allow you to read thoughts or overcome a language barrier."
+    ],
+    "terrain": "regions where two planes border one another."
+  },
+  "EMBERLEAF": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Emberleaf is a knee-high shrub with copper-red leaves and black stems that flourish in sunbaked soil. The leaves remain pleasantly warm long after they are picked, and flare briefly at the edges when laid upon hot stone. Prepared emberleaf is ground with salt into a rust-coloured paste and swallowed in a small pellet, spreading a protective warmth through the body. For 1 hour, you gain resistance to fire damage."
+    ],
+    "terrain": "temperate or warm plains and volcanic slopes."
+  },
+  "EMBERTHISTLE": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Emberthistle is a russet weed crowned by a barbed seedhead that glows like a banked coal after sunset. The plant thrives where grassfires have passed, pushing new growth through warm ash within days. Crushing the prepared seedhead produces a glowing paste that spellcasters smear across the fingers or lips. The next time you deal fire damage within 1 minute, increase one damage roll by 1d4. The dose is then expended."
+    ],
+    "terrain": "temperate or warm dry plains."
+  },
+  "ETERNIS BLOOM": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB UNCOMMON",
+    "fields": {
+      "Level": "13",
+      "Price": "4,375 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Eternis bloom is a pearl-coloured flower from places where time barely moves. While rooted it never wilts, and fallen dew remains motionless upon its petals until deliberately disturbed. Harvesting the flower is an exacting ritual, for a careless cut can reduce the entire plant to centuries of dust in an instant. Its preserved nectar arrests the body's passage through time without restoring what has already been lost. For 1 week after consuming it, you do not physically age and gain a +4-item bonus to saving throws against magical ageing effects. Eternis Bloom does not reverse existing ageing, and repeated doses do not extend this duration until the current dose ends."
+    ],
+    "terrain": "immortal glades and timeless planar enclaves."
+  },
+  "FROSTMINT": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Frostmint grows in tight blue-white clusters beneath snow shelves and along the shaded faces of high crags. Its serrated leaves are cold enough to numb bare fingers, and a freshly crushed sprig gives off the crisp scent of winter air. Mountain travellers steep it into a bitter tea or chew the prepared leaves before crossing exposed ground; either method leaves the breath steaming even in warm air. For 1 hour, you gain resistance to cold damage."
+    ],
+    "terrain": "any alpine or tundra."
+  },
+  "GHOSTPETAL": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Ghostpetal bears drooping grey flowers that are almost indistinguishable from mist in poor light. The petals turn translucent when bruised and leave a cool, faintly luminous film upon the skin, although the sheen vanishes when viewed directly. Grave-tenders sometimes plant it along cemetery walls, believing that its presence quietens restless spirits. For 10 minutes, you gain a +2-item bonus to Stealth checks made in dim light or darkness."
+    ],
+    "terrain": "any swamps or grave fields."
+  },
+  "GLOWMOSS": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Glowmoss grows as soft green cushions in caves where running water carries traces of unusual minerals. In darkness it shines with a cold yellow light, brightening noticeably when touched or disturbed. Prepared with clear resin, the crushed moss becomes a sticky luminous paste favoured by miners, shrine-keepers and underground scouts. It adheres to stone, wood or metal and shines as brightly as a torch for 1 hour. Covering the treated surface blocks the light, and water does not extinguish it."
+    ],
+    "terrain": "underground caves and tunnels."
+  },
+  "GODSBLOOD MOSS": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB UNCOMMON",
+    "fields": {
+      "Level": "11",
+      "Price": "2,185 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Godsblood moss grows in deep red mats across stones that have borne a divine manifestation, saintly martyrdom or miracle of lasting power. Gold-flecked veins pulse slowly through each living patch, quickening when touched by a wounded creature. Temple healers preserve it between sheets of consecrated linen and press the prepared moss directly against the body, where it dissolves into warm light. You regain 6d6+15 Hit Points, stop all bleeding and reduce one Injury by 2."
+    ],
+    "terrain": "divine demesnes and ancient holy sites."
+  },
+  "GREYSAP": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Greysap seeps from pale underground trees in thick chalky ropes, sealing any wound in the bark almost immediately. Raw Greysap is caustic, but repeated washing turns it into a cool, alkaline resin that miners carry in stoppered clay pots. It foams upon contact with corrosive substances and hardens into a protective crust. When applied to yourself or an adjacent creature, it ends one source of persistent acid damage and grants resistance to acid damage for 1 minute."
+    ],
+    "terrain": "underground forests and caverns."
+  },
+  "HEART OF ASH": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB UNCOMMON",
+    "fields": {
+      "Level": "14",
+      "Price": "6,560 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Heart of ash is a charcoal-black seed found at the centre of a rare fire-tree after its trunk has burned completely away. It beats faintly when held near flame and opens along glowing red seams when exposed to volcanic heat. The seed is ground into a dense black draught that burns like molten metal going down, though it leaves the drinker unmarked. For 10 minutes, you gain immunity to fire damage and treat extreme environmental heat as one severity lower."
+    ],
+    "terrain": "volcanic temples and the hottest regions of the Plane of Fire."
+  },
+  "HEARTVINE": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Heartvine is a thick jungle creeper with red veins visible beneath its translucent skin. Cut lengths pulse for a short time after harvesting and contract like living muscle when exposed to heat or pressure. Proper preparation removes its irritant sap and braids the soft inner strands into a chewy cord with a rich, iron taste. When bitten and swallowed, you regain 2d6+2 Hit Points."
+    ],
+    "terrain": "any jungles."
+  },
+  "IRONBLOOM": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Ironbloom forms dense rosettes of dark green leaves around a stem capped by a dull red flower. Its foliage feels metallic and produces a faint ringing sound when struck, so it must be dried and ground with a stone pestle before use. The resulting mineral-rich powder tastes of blood and wet earth but is valued by miners and soldiers for the resilience it imparts. For 1 hour, you gain a +1-item bonus to Fortitude saving throws."
+    ],
+    "terrain": "any hills or rocky plains."
+  },
+  "KING'S BLOOD": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "4",
+      "Price": "130 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "King's blood is a rare, carefully cultivated shrub with white bark, crimson leaves and clusters of dark red berries. Tradition claims the first cutting was watered with the blood of a dying monarch, and many royal houses still restrict its cultivation to palace physic gardens. Its thick crimson sap clots almost as soon as it is exposed to air and is swallowed from a silver spoon. You regain 2d6+6 Hit Points, stop up to 3 points of bleeding and gain a +2-item bonus to your next saving throw against poison attempted within 10 minutes."
+    ],
+    "terrain": "cultivated royal gardens and warm forests."
+  },
+  "KINGSHIELD MOSS": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "8",
+      "Price": "785 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Kingshield moss spreads across ruined battlements and old defensive earthworks in dense, shield-shaped patches. Its upper surface is springy and green, but the layers beneath harden like overlapping scales whenever they are pressed. Ground with oil, it forms a heavy paste traditionally daubed upon champions before a siege. Applied to the skin or armour, it hardens into overlapping scales. For 10 minutes, you gain DR 2 and a +1-item bonus to DB. Temporary DR from Kingshield Moss does not stack with DR granted by another consumable."
+    ],
+    "terrain": "fortress ruins and old defensive earthworks."
+  },
+  "LIFEBLOSSOM": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "7",
+      "Price": "525 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Lifeblossom is a many-petalled golden flower that grows only in secluded groves untouched by axe or plough. Its fragrance resembles fresh bread and clean rain, while insects and small animals instinctively shelter among its roots. Warm golden light appears within the petals when they are crushed into a restorative cordial. You regain 4d6+8 Hit Points, stop all bleeding and gain a +2-item bonus to the next saving throw you attempt against disease within 24 hours."
+    ],
+    "terrain": "hidden temperate or warm groves."
+  },
+  "MINDCROWN IVY": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB UNCOMMON",
+    "fields": {
+      "Level": "12",
+      "Price": "3,060 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Mindcrown ivy is a pale climbing plant whose crown-shaped leaves arrange themselves in ascending rings around old libraries, academies and towers of learning. Ink placed upon a fresh leaf separates into precise lines, while spoken words nearby sometimes leave fleeting patterns in its veins. When steeped into a clear, almost tasteless tea, the leaves sharpen concentration to an unnatural degree. For 1 hour, you gain a +2-item bonus to checks made as part of Concentrate or Mental actions and to Will saving throws against Mental effects."
+    ],
+    "terrain": "great libraries, arcane capitals and ancient academies."
+  },
+  "MINDLACE": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "3",
+      "Price": "85 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Mindlace is a delicate silvery vine that curls around broken wands, standing stones and the walls of long-used laboratories. Its leaves form repeating geometric patterns whose arrangement changes subtly from day to day. The vine is steeped in warm water until supple, then wrapped across the temples so that its faintly tingling sap can sharpen magical perception. For 1 hour, you gain a +1-item bonus to Spellcraft checks."
+    ],
+    "terrain": "ruined or inhabited arcane sites."
+  },
+  "MINDSEED": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Mindseed grows within pale, lantern-shaped pods that rattle softly when ripe. Each pod contains a handful of perfectly round black seeds marked by a thin silver seam. Scribes toast the seeds until the seam opens, then swallow them with warm water to produce a state of alert concentration and unusually ordered thought. For 1 hour, you gain a +2-item bonus to Recall Knowledge checks."
+    ],
+    "terrain": "temperate ruins, monastery gardens or cultivated ground."
+  },
+  "MISTWRAITH BLOOM": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "9",
+      "Price": "1,135 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Mistwraith bloom is a pallid, weightless flower found in cold wetlands and along haunted, fog-bound shores. It has no visible stem at dawn, seeming to float a finger's breadth above the water until direct sunlight touches it. When the prepared petals are crushed and inhaled, they dissolve into cold mist that spills across the user's skin. You become Invisible for 1 minute. The effect ends after you use a hostile action."
+    ],
+    "terrain": "cold swamps, fog lands and haunted coasts."
+  },
+  "MOONPETAL": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Moonpetal grows as a single ivory flower among a fan of dark, glossy leaves. The bloom remains tightly closed by day and opens only beneath moonlight, revealing silver pollen that drifts upwards rather than falling. The petals are gathered without iron tools and steeped into a silver-grey tea traditionally served before vigils and difficult negotiations. You gain advantage on the next saving throw you attempt against an Enchantment or Mental effect within 1 hour. The benefit ends after that saving throw."
+    ],
+    "terrain": "temperate forests and moonlit glades."
+  },
+  "NEEDLEBERRY": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Needleberry bushes protect their fruit with long, glassy thorns and grow most thickly along wind-scoured ridges. The narrow crimson berries end in hard points, making them painful to harvest without heavy gloves. Hunters preserve them in brine; bitten whole, they taste strongly of iron and produce a brief, intense steadiness in the hands and eyes. For 3 rounds, you gain a +1-item bonus to ranged weapon attack rolls."
+    ],
+    "terrain": "temperate or cold thickets."
+  },
+  "NIGHTSPIRE": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Nightspire is a midnight-blue vine that climbs exposed rock faces towards the highest available point. Its tiny star-shaped flowers open during storms and carry the clean scent of rain even after months of drying. Monastic herbalists wind the vine into a ring and steep it whole, producing a dark infusion that leaves the drinker calm, watchful and slightly distant. For 1 hour, you gain a +1-item bonus to Will saving throws."
+    ],
+    "terrain": "any mountains."
+  },
+  "OPHIDIAN FLOWER": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "8",
+      "Price": "785 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Ophidian flower bears a hooded green-and-gold bloom above leaves patterned like reptilian scales. When approached, the blossom sways towards nearby movement despite the absence of wind, and snakes are often found coiled harmlessly among its roots. Its bitter nectar is reduced to a thick syrup that slows the spread of venom through the blood. For 1 hour, you gain resistance to poison damage and a +4-item bonus to Fortitude saving throws against poison."
+    ],
+    "terrain": "temperate or warm jungles."
+  },
+  "PHOENIX ROOT": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "10",
+      "Price": "1,575 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Phoenix root is taken from a fire-loving shrub that germinates only in the ashes of a sacred blaze. The twisted root is blackened outside but vivid red within, and tiny sparks rise from it when cut. Once cured in smoke, it becomes warm when chewed and leaves a faint ember-like mark over the heart. For the next 24 hours, the first time you\u2019re Dying condition would exceed your Death State, your Dying condition is instead reduced to 0 and you regain 1 Hit Point. The effect then ends, and you increase your Fatigued condition by 1 as normal for recovering from Dying."
+    ],
+    "terrain": "sacred sites strongly associated with fire or rebirth."
+  },
+  "PRISM LOTUS": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB UNIQUE",
+    "fields": {
+      "Level": "20",
+      "Price": "96,250 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "The Prism Lotus is an impossible flower said to exist in only one place at any given time. Its roots take hold in water, stone, cloud or empty air with equal ease, while each translucent petal reflects a different future for whoever looks upon it. No two witnesses agree upon its colour, and paintings of the living bloom change subtly after important choices are made. When you consume it, choose Fate or Preservation. Fate: once within the next 24 hours, before rolling a d20 check, attack roll or saving throw, you may declare the result a Success without rolling; it cannot become a Critical or Heroic result. Preservation: for 24 hours, the first time you would die, negate only the death, reduce Dying to 0 and regain Hit Points equal to half your maximum. Either benefit ends once used."
+    ],
+    "terrain": "unique; only one living Prism Lotus is believed to exist at a time."
+  },
+  "QUIETROOT": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Quietroot is a dark, knotted bulb most often found beneath the collapsed thresholds of abandoned buildings. It makes no sound when cut, crushed or dropped, and folklore claims that it grows wherever a household's last words went unheard. Mixed with wax and fine ash, it becomes a dull salve rubbed across boots, buckles and other loose equipment. For 10 minutes, you gain a +2-item bonus to Stealth checks where the sound you make is relevant."
+    ],
+    "terrain": "any ruins or abandoned settlements."
+  },
+  "ROOT OF STONE": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "3",
+      "Price": "85 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Root of stone forces its way through mountain cracks, growing almost entirely beneath the rock and exposing only a tuft of stiff grey leaves. The root becomes encrusted with the minerals around it until it resembles a natural vein of ore. After long boiling it softens enough to be chewed into a gravel-like pulp that fills the body with ponderous strength. Reduce your Weakened condition by 1. You cannot benefit from Root of Stone again until you complete a Full Rest."
+    ],
+    "terrain": "any mountains."
+  },
+  "ROSE OF THORNS": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "3",
+      "Price": "85 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Rose of thorns produces a small, intensely red flower within a cage of black barbs. The plant is often found in ruined gardens where betrayal or violent jealousy once ended a household, though gardeners dispute whether this is cause or superstition. Its thick crimson sap is collected from the thorns and mixed into a clinging weapon dressing. You smear it over one melee weapon or up to 10 pieces of ammunition. The preparation remains potent for 1 minute. The first creature damaged by the treated weapon takes 2 bleed damage, after which the dose is expended."
+    ],
+    "terrain": "cursed gardens and temperate ruins."
+  },
+  "SILVERMOULD": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "3",
+      "Price": "85 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Silvermould spreads in branching metallic fans across coffins, burial stones and timber exposed to old grave dust. The mould is harmless to the touch but tarnishes ordinary metal and draws a bright sheen from genuine silver placed nearby. Alchemists suspend the dried spores in oil to create a thin, mirror-grey coating. You apply it to one melee weapon, one thrown weapon or up to 10 pieces of ammunition. For 1 hour, the treated weapon or ammunition counts as silver and deals 1 additional damage to creatures with a weakness to silver."
+    ],
+    "terrain": "any crypts, tombs or underground ruins."
+  },
+  "SOULVINE": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "4",
+      "Price": "130 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Soulvine sends pale runners through earth enriched by the remains of the dead, particularly beneath old battlefields and forgotten graves. Its heart-shaped leaves are almost transparent, and a cut stem gives off a single breath-like sigh before sealing itself. Healers warm a prepared length between their palms until it begins to pulse. When rubbed over the chest of an adjacent living creature with the Dying condition, reduce that creature's Dying condition by 1. Soulvine has no effect upon a dead creature."
+    ],
+    "terrain": "old battlefields and mass graves."
+  },
+  "STAR FERN": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "7",
+      "Price": "525 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Star fern grows at great altitude in soil exposed to clear night skies and rare astral conjunctions. Its midnight fronds are speckled like the heavens, and faint points of light travel slowly across them in patterns learned astronomers can recognise. The prepared leaves dissolve upon the tongue in a flash of cold radiance, briefly aligning body, mind and spirit. Until the start of your next turn, you have advantage on all saving throws."
+    ],
+    "terrain": "astral conjunction sites and high mountains."
+  },
+  "STORM ORCHID": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "5",
+      "Price": "215 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Storm orchid clings to wind-bent trees and cliff faces exposed to violent weather. Its blue petals are traced with branching white lines and close an instant before thunder sounds, reopening with a visible spark. The dried petals are burned in a covered censer; their smoke carries the scent of ozone and leaves the skin tingling for several minutes. For 1 hour, you gain resistance to electricity damage."
+    ],
+    "terrain": "storm-lashed coasts and tropical highlands."
+  },
+  "SWIFTFERN": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Swiftfern is a slender emerald fern whose divided fronds twitch whenever air moves around them. Even on a still day its leaves seem to lean towards the quickest route through nearby growth, a habit jungle guides use to identify hidden game trails. Its prepared sap is rubbed into the calves and soles, where it produces a restless tingling and lightness of step. For 5 minutes, you gain a +5-foot item bonus to Speed."
+    ],
+    "terrain": "any jungles."
+  },
+  "SUNVEIL": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Sunveil is a flat, yellow desert flower surrounded by a fringe of almost transparent petals. These petals fold tightly over the bloom at night, preserving a bead of fragrant amber oil at its centre. When the dried flower is crushed beneath the nose, it releases a warm vapour that floods the eyes with tears and clears spots from the vision. You remove the Dazzled condition unless it was caused by a permanent effect."
+    ],
+    "terrain": "temperate or warm deserts and plains."
+  },
+  "TANGLEWEED": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Tangleweed is a creeping marsh plant whose hooked fibres knot themselves around reeds, boots and passing animals. Once cut, the stems continue to coil for several minutes before becoming still. Herbalists pound the living fibres with thickening salts to produce a tacky green paste that contracts violently when warmed by blood. You spread this paste over one melee weapon or up to 10 pieces of ammunition. The preparation remains potent for 1 minute. The first creature damaged by the treated weapon must attempt a level-based Reflex saving throw. On a failure, it becomes Slowed 1 for 1 round. The dose is then expended.",
+      "Tangleweed is rarely welcomed by those who live near the marshes, for it seems to possess a spiteful instinct all its own. Its hooked tendrils creep through reed beds and along muddy banks, catching at hems, straps and exposed skin with enough persistence to trip the unwary or snare small animals until they exhaust themselves. Marshfolk tell stories of whole stretches of bog \u201cwaking\u201d after heavy rain, the weed shifting and tightening as though disturbed from sleep. Herbalists prize the plant precisely for this restless quality, harvesting it with hooked knives and thick gloves before crushing the still-coiling stems into a binding paste. Applied to steel or ammunition, the preparation clings like wet sinew, tightening violently when it meets warm blood and briefly robbing a struck foe of speed and freedom of movement."
+    ],
+    "terrain": "any marshes or swamps."
+  },
+  "THUNDERLEAF": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "3",
+      "Price": "85 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Thunderleaf grows close to the ground in windswept places, spreading broad silver leaves across exposed stone. Tiny sparks travel along its veins when storms approach, and the plant snaps shut an instant before lightning strikes nearby. Sailors chew strips of cured Thunderleaf for its sharp metallic taste and the nervous energy it sends through the limbs. For 1 hour, you gain a +1-item bonus to Reflex saving throws."
+    ],
+    "terrain": "coasts, stormlands and high plains."
+  },
+  "VOID LILY": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "9",
+      "Price": "1,135 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Void lily grows at planar rifts and in regions caught in permanent twilight. Its symmetrical blossom has alternating black and white petals that open only at dawn and dusk, revealing a centre in which no colour can be seen. Priests and mystics dry the petals separately before recombining them in a ceremonial draught said to reconcile certainty with doubt. You regain 1 Conviction Point, up to your normal maximum. After benefiting from Void Lily, you are temporarily immune to it for 1 week."
+    ],
+    "terrain": "planar rifts and regions of magical twilight."
+  },
+  "VOIDPETAL": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "3",
+      "Price": "85 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Voidpetal has a colourless stem and a blossom so dark that its surface seems hollow. Its petals fold away from every source of light, even turning beneath one another to escape a lantern's glow. Ground with powdered pearl, the flower produces an ink-black draught that leaves the drinker's pupils ringed in grey. For 10 minutes, you gain a +2-item bonus to saving throws against Darkness and Illusion effects."
+    ],
+    "terrain": "planar scars and regions touched by shadow."
+  },
+  "WITCHGRASS": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB",
+    "fields": {
+      "Level": "3",
+      "Price": "85 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Witchgrass grows in uneven circles across lonely moors, its grey-green blades always leaning away from the nearest settlement. Dew caught upon it tastes strongly of salt, and livestock refuse to graze where it flourishes. Bundles are dried above cold iron and burned during curse-breaking rites, giving off a sharp smoke that clings to hair and clothing. For 1 hour, you gain a +2-item bonus to saving throws against curses."
+    ],
+    "terrain": "temperate or cold moors."
+  },
+  "WORLDROOT FRAGMENT": {
+    "section": "herb",
+    "traits": "CONSUMABLE HERB RARE",
+    "fields": {
+      "Level": "16",
+      "Price": "14,000 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "A worldroot fragment is a living splinter taken from the root of a tree whose branches touch several worlds. The grain shifts between unfamiliar colours, and soil from any realm clings to it as though freshly watered. Even separated from the parent tree, the fragment slowly grows new rootlets that reach towards nearby living creatures. When consumed, it anchors the user's life to the stubborn vitality of the world-tree. For 24 hours, increase your Death State by 1. This increase does not stack with another Worldroot Fragment. When the effect ends, reduce your Dying condition to your normal Death State if it is currently higher."
+    ],
+    "terrain": "the roots of world-trees and primeval planar nexuses."
+  },
+  "ARCHIVE SEALANT": {
+    "section": "other",
+    "traits": "CONSUMABLE",
+    "fields": {
+      "Level": "0",
+      "Price": "3 gp",
+      "Usage": "applied to documents",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "A clear mixture of wax, oil and resin. One application protects approximately twenty pages against ordinary water and damp for one week. It does not protect against fire, acid or deliberate destruction."
+    ],
+    "terrain": ""
+  },
+  "BLOOM CULTURE": {
+    "section": "other",
+    "traits": "CONSUMABLE MYRATHI",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "applied to one corpse",
+      "Activate": "10 minutes"
+    },
+    "body": [
+      "This sealed packet contains selected Myrathi fungi and nutrient paste. Once established upon an ordinary corpse, natural decomposition accelerates rapidly. After 24 hours, the remains have decomposed approximately as much as they ordinarily would in one month. Bloom Culture cannot affect an Undead or Unliving creature, overcome magical preservation or destroy a corpse protected by supernatural means."
+    ],
+    "terrain": ""
+  },
+  "EMBALMING SALTS": {
+    "section": "other",
+    "traits": "CONSUMABLE",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "applied to one corpse",
+      "Activate": "as part of Preserve Remains"
+    },
+    "body": [
+      "Mixed salts, alum and aromatic preservatives absorb moisture and inhibit ordinary decay. You gain a +2-item bonus to the Preserve Remains check for which the salts are used. One packet is consumed regardless of the result."
+    ],
+    "terrain": ""
+  },
+  "EVIDENCE POWDER": {
+    "section": "other",
+    "traits": "CONSUMABLE",
+    "fields": {
+      "Level": "1",
+      "Price": "20 gp",
+      "Usage": "applied to an object or 5-foot area",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "A mixture of fine charcoal, chalk and metallic dust reveals fingerprints, recent handling, disturbed dust and fine scratches. You gain a +2-item bonus to the next Search, Examine the Dead or similar check made to identify physical evidence in the treated area. It cannot reveal magical, spiritual or incorporeal traces."
+    ],
+    "terrain": ""
+  },
+  "FUNERAL RESIN": {
+    "section": "other",
+    "traits": "CONSUMABLE INCENSE",
+    "fields": {
+      "Level": "1",
+      "Price": "20 gp",
+      "Usage": "burned in a censer",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "Dense aromatic resin masks the odours of decomposition. One dose burns for 1 hour and fills a 10-foot radius. Creatures within the smoke gain a +2-item bonus to Fortitude saves against becoming Sickened solely because of mundane foul odours."
+    ],
+    "terrain": ""
+  },
+  "MOURNER'S INCENSE": {
+    "section": "other",
+    "traits": "CONSUMABLE INCENSE",
+    "fields": {
+      "Level": "1",
+      "Price": "25 gp",
+      "Usage": "burned in a censer",
+      "Activate": "Interact (2 AP)"
+    },
+    "body": [
+      "A calming mixture of lavender, myrrh and several mild sedative herbs traditionally used during funerals and vigils. A creature that spends at least 10 minutes resting in the smoke gains a +1-item bonus to its next saving throw against a Fear or Emotion effect attempted within the following hour. A creature may benefit from Mourner's Incense only once per day."
+    ],
+    "terrain": ""
+  },
+  "PURIFYING LYE": {
+    "section": "other",
+    "traits": "CONSUMABLE",
+    "fields": {
+      "Level": "1",
+      "Price": "15 gp",
+      "Usage": "applied to tools or surfaces",
+      "Activate": "10 minutes"
+    },
+    "body": [
+      "A harsh soap-and-lye preparation used in hospices, mortuaries and plague houses. One dose thoroughly cleans one set of medical tools or approximately a 5-foot square surface, removing ordinary blood, rot and biological contamination. It does not remove magical disease, poison, curses or supernatural contamination."
+    ],
+    "terrain": ""
+  },
+  "VIGIL DRAUGHT": {
+    "section": "other",
+    "traits": "ALCHEMICAL CONSUMABLE",
+    "fields": {
+      "Level": "2",
+      "Price": "50 gp",
+      "Usage": "held in 1 hand",
+      "Activate": "Interact (1 AP)"
+    },
+    "body": [
+      "A fiercely bitter stimulant traditionally drunk by guards conducting all-night vigils. For 1 hour, you ignore the penalties imposed by Fatigued 1. The condition is not removed and its duration continues normally. When the effect ends, any remaining Fatigued condition immediately affects you normally. You cannot benefit from another Vigil Draught until you have completed a Full Rest."
+    ],
+    "terrain": ""
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "ungFXFRJpeJxlaC9",
+  "name": "Godsblood Moss",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 2185,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb Uncommon",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: divine demesnes and ancient holy sites.\n\nGodsblood moss grows in deep red mats across stones that have borne a divine manifestation, saintly martyrdom or miracle of lasting power. Gold-flecked veins pulse slowly through each living patch, quickening when touched by a wounded creature. Temple healers preserve it between sheets of consecrated linen and press the prepared moss directly against the body, where it dissolves into warm light. You regain 6d6+15 Hit Points, stop all bleeding and reduce one Injury by 2.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 11
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Godsblood Moss",
+          "effects": [
+            {
+              "kind": "heal",
+              "target": "self",
+              "formula": "6d6+15"
+            },
+            {
+              "kind": "conditionRelief",
+              "label": "Godsblood Moss",
+              "target": "self",
+              "condition": "bleeding",
+              "amount": 99
+            },
+            {
+              "kind": "conditionRelief",
+              "label": "Godsblood Moss",
+              "target": "self",
+              "condition": "injured",
+              "amount": 2
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: divine demesnes and ancient holy sites.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 11,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 2185,
+        "tablePrice": 2185,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ungFXFRJpeJxlaC9"
+}

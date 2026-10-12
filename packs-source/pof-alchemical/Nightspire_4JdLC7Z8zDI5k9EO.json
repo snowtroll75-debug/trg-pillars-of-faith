@@ -1,0 +1,79 @@
+{
+  "_id": "4JdLC7Z8zDI5k9EO",
+  "name": "Nightspire",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: any mountains.\n\nNightspire is a midnight-blue vine that climbs exposed rock faces towards the highest available point. Its tiny star-shaped flowers open during storms and carry the clean scent of rain even after months of drying. Monastic herbalists wind the vine into a ring and steep it whole, producing a dark infusion that leaves the drinker calm, watchful and slightly distant. For 1 hour, you gain a +1-item bonus to Will saving throws.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Nightspire",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "bonus",
+              "target": "self",
+              "slot": "will",
+              "bonusType": "item",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: any mountains.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 2,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 50,
+        "tablePrice": 50,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4JdLC7Z8zDI5k9EO"
+}

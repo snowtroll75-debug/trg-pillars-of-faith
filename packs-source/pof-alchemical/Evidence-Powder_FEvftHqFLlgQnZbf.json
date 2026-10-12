@@ -1,0 +1,76 @@
+{
+  "_id": "FEvftHqFLlgQnZbf",
+  "name": "Evidence Powder",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 20,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable",
+    "description": "<strong>Usage applied to an object or 5-foot area; Activate Interact (2 AP).</strong>\n\nA mixture of fine charcoal, chalk and metallic dust reveals fingerprints, recent handling, disturbed dust and fine scratches. You gain a +2-item bonus to the next Search, Examine the Dead or similar check made to identify physical evidence in the treated area. It cannot reveal magical, spiritual or incorporeal traces.\n\nOn the sheet: It cannot reveal magical, spiritual or incorporeal traces.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "alchemical",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Evidence Powder",
+          "pending": {
+            "value": 2,
+            "type": "item",
+            "label": "Evidence Powder",
+            "scope": "the next Search, Examine the Dead or similar check to identify physical evidence in the treated area"
+          },
+          "note": "It cannot reveal magical, spiritual or incorporeal traces."
+        }
+      },
+      "alchemical": {
+        "section": "Other",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 20,
+        "tablePrice": 20,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FEvftHqFLlgQnZbf"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "o8kbWdXjNlFpRdlM",
+  "name": "The Veil",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "The Veil represents the boundary separating embodied life from spirits, souls and the dead. It is neither an aspect of death nor an enemy of spirits. Instead, it governs proper passage and proper boundaries. Its symbol is usually a closed gate beneath a pale moon, a curtain divided by a single vertical line, or two hands almost - but not quite - touching.\nFollowers include funeral attendants, exorcists, mediums and guardians of haunted places. They are taught that speaking with the dead is not the same as imprisoning them and that willing spiritual communion must never be confused with possession.\n\nEdicts: Protect the boundary between living creatures and intrusive spirits. Help the dead pass on when they genuinely seek release. Distinguish willing communion from possession. Treat corpses and lingering souls with appropriate respect. Resolve haunts by understanding their cause where possible.\n\nAnathema: Bind an unwilling soul for convenience. Force possession upon another creature. Desecrate remains solely for amusement or profit. Prevent a willing spirit from departing merely because you wish to continue speaking with it.\n\nSuggested Ethics: Equilibrium, Discipline, Prudence\n\nClass Skill: Occultism\n\nSpecialist Spells: Guiding Stone (1), Reaper's Resonance (1), Revelation Divine (1), Silent Binding (1), Purge the Unlife (7), Reincarnated Embrace (7), Revealing Glance (7), Vigilant Eye (7)\n\nBonus Spells: Detect Undead (0); Hide from Undead (2); Speak with Dead (6); Death Ward (10)\n\nFavoured Weapon: Knife\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Balance, Order",
+    "edicts": "Protect the boundary between living creatures and intrusive spirits. Help the dead pass on when they genuinely seek release. Distinguish willing communion from possession. Treat corpses and lingering souls with appropriate respect. Resolve haunts by understanding their cause where possible.",
+    "anathema": "Bind an unwilling soul for convenience. Force possession upon another creature. Desecrate remains solely for amusement or profit. Prevent a willing spirit from departing merely because you wish to continue speaking with it.",
+    "suggestedEthics": "Equilibrium, Discipline, Prudence",
+    "classSkill": "Occultism",
+    "favouredWeapon": "Knife",
+    "specialistSpells": "Guiding Stone, Reaper's Resonance, Revelation Divine, Silent Binding, Purge the Unlife, Reincarnated Embrace, Revealing Glance, Vigilant Eye",
+    "bonusSpells": "1: Detect Undead, 2: Hide from Undead, 6: Speak with Dead, 10: Death Ward"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Equilibrium",
+        "Discipline",
+        "Prudence"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!o8kbWdXjNlFpRdlM"
+}

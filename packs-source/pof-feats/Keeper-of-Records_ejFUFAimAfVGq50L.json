@@ -1,0 +1,77 @@
+{
+  "_id": "ejFUFAimAfVGq50L",
+  "name": "Keeper of Records",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Culture or Linguistics 1 rank",
+    "active": true,
+    "description": "<p>You know where institutions hide information - and which apparently meaningless entry usually reveals it.</p>\n<p>Prerequisites Culture or Linguistics 1 rank</p>\n<p>When using Research to investigate historical, religious or institutional records, reduce the time required by half.</p>\n<p>When using Compare Testaments, a Partial result is treated as a Success for the purpose of determining whether the texts differ, although you still cannot determine which version is older or authoritative unless your actual result would normally allow it.</p>\n<p>On Compare Testaments a Partial is resolved as a Success for you automatically (the card says so); the older/authoritative caveat stands. The Research time halving is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "aNfNeXXW4EsGnyRS",
+      "name": "Keeper of Records: Research",
+      "img": "icons/svg/book.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featNote": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Research into historical, religious or institutional records takes half the usual time.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!ejFUFAimAfVGq50L.aNfNeXXW4EsGnyRS"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ejFUFAimAfVGq50L"
+}

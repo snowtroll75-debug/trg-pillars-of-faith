@@ -1,0 +1,73 @@
+{
+  "_id": "TeAxlgf9RYQaYxIr",
+  "name": "Silvermould",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 85,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: any crypts, tombs or underground ruins.\n\nSilvermould spreads in branching metallic fans across coffins, burial stones and timber exposed to old grave dust. The mould is harmless to the touch but tarnishes ordinary metal and draws a bright sheen from genuine silver placed nearby. Alchemists suspend the dried spores in oil to create a thin, mirror-grey coating. You apply it to one melee weapon, one thrown weapon or up to 10 pieces of ammunition. For 1 hour, the treated weapon or ammunition counts as silver and deals 1 additional damage to creatures with a weakness to silver.\n\nOn the sheet: The treated weapon counts as silver and deals 1 additional damage to creatures with a weakness to silver.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "oil": {
+          "kind": "material",
+          "material": "silver",
+          "weaponDuration": "1 hour",
+          "ammoDuration": "1 hour",
+          "ammoCount": 10
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: any crypts, tombs or underground ruins.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 3,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 85,
+        "tablePrice": 85,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TeAxlgf9RYQaYxIr"
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "Lq1HF3xlzWyT6ovX",
+  "name": "Sacred Marginalia",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>ARCHIVIST</p>\n<p>Your Prayer Book has ceased to resemble an organised volume and begun to resemble an argument conducted across several generations.<br>You gain a +2-class bonus to Linguistics checks made to Learn a Spell from a written Divinity source.<br>Whenever you successfully copy a Divinity spell into your Prayer Book, the time and mundane material cost required are halved.<br>In addition, immediately add four Divinity spells that you are capable of casting to your Prayer Book.</p>\n<p>Works automatically: +2 class is offered on Linguistics with the book's wording; the four extra Prayer Book spells and the halved copying cost are for the table (add them to the book from its own sheet).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Archivist",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Sacred Marginalia",
+          "scope": "Linguistics checks to Learn a Spell from a written Divinity source",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "linguistics"
+            ],
+            "actions": [
+              "learnSpell"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        }
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Lq1HF3xlzWyT6ovX"
+}

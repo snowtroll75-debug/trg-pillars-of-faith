@@ -1,0 +1,93 @@
+{
+  "_id": "qVUciX6mDVSPuT0v",
+  "name": "Veil Sight",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 4,
+    "castAP": 2,
+    "range": "",
+    "area": "",
+    "targets": "",
+    "duration": "10 minutes",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "sense",
+        "target": "self",
+        "category": "tertiary",
+        "detects": "disembodied spirits, incorporeal Undead, manifested haunts and active possessing entities",
+        "rollWith": "Perception"
+      },
+      {
+        "kind": "note",
+        "text": "Entities perceived can be targeted if within Line of Effect. Incorporeal is not removed and identity is not revealed."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 1 hour",
+        "mods": {
+          "durationText": "1 hour"
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "You gain a +2-status bonus to Search checks made to locate spirits, haunts or evidence of possession",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Detection, Insight, Soul",
+    "description": "DETECTION INSIGHT SOUL UTILITY\nTradition divinity\nCast 2 AP (somatic, verbal)\nDuration 10 minutes\n\nYour vision extends partially beyond the physical world.\nYou can perceive disembodied spirits, incorporeal Undead, manifested haunts and the presence of an active possessing entity within another creature.\nEntities perceived through Veil Sight can be seen clearly enough to target if they are otherwise within Line of Effect.\nThe spell does not remove Incorporeal, allow mundane weapons to affect incorporeal creatures, automatically identify spirits or reveal their allegiance. A possessing entity appears as a second spiritual presence associated with the host, but the spell does not automatically identify it or allow it to be targeted if the possession effect normally prevents this.\n\nWarping Options:\n+2 PP: Increase the duration to 1 hour.\n+4 PP: You gain a +2-status bonus to Search checks made to locate spirits, haunts or evidence of possession.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!qVUciX6mDVSPuT0v"
+}

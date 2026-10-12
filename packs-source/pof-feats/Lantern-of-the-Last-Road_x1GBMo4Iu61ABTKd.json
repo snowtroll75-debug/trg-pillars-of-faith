@@ -1,0 +1,75 @@
+{
+  "_id": "x1GBMo4Iu61ABTKd",
+  "name": "Lantern of the Last Road",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Lumari heritage",
+    "active": true,
+    "description": "<p>ESHARI</p>\n<p>Your light is not merely illumination; it is an old promise that nobody needs to travel the final road alone.<br>You may increase the dim light naturally emitted by your Lumari heritage from 10 feet to 30 feet.<br>While your light is active, allies within 10 feet of you gain a +1-status bonus to saving throws against Fear effects.</p>\n<p>Prerequisites Lumari heritage</p>\n<p>Works automatically: Lantern Glow's Use offers the 30-foot radius; allies within 10 feet of your active light get +1 status to saves against Fear (an ally-aura conditional, pre-ticked by trait).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "auras": [
+        {
+          "id": "lantern-of-the-last-road",
+          "name": "Lantern of the Last Road",
+          "kind": "ally",
+          "radius": 10,
+          "triggers": [
+            "turnStart",
+            "enter"
+          ],
+          "save": "",
+          "appliesTo": "Allies",
+          "outcomes": {},
+          "immunitySeconds": 0,
+          "text": "ESHARI\nWhile your light is active, allies within 10 feet of you gain a +1-status bonus to saving throws against Fear effects.",
+          "grants": {
+            "kind": "modifier",
+            "value": 1,
+            "type": "status",
+            "traits": [
+              "fear"
+            ],
+            "scope": "saving throws against Fear effects while the light is active"
+          }
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!x1GBMo4Iu61ABTKd"
+}

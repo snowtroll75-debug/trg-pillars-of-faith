@@ -1,0 +1,79 @@
+{
+  "_id": "reVXeBB1vTJX4l7A",
+  "name": "Sever Soulchain",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 14,
+    "castAP": "1 minute",
+    "range": "touch",
+    "area": "",
+    "targets": "1 creature, corpse or object associated with a bound soul",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Select one soul-binding effect on the target and attempt to Counteract it. Critical: it ends; a living creature reduces Soul Drain by 10 and gains +4 status against the same source for 24 hours. Success: it ends. Failure: intact. Fumble: intact, and you cannot target it again for 24 hours."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 4,
+        "text": "Attempt to sever one additional soul-binding effect associated with the same target",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Essence, Healing, Soul",
+    "description": "ESSENCE HEALING SOUL UTILITY\nTradition divinity\nCast 1 minute (material, somatic, verbal)\nRange touch\nTargets 1 creature, corpse or object associated with a bound soul\n\nYou strike at supernatural bonds holding a soul where it does not belong.\nSelect one magical effect that imprisons a soul, binds a soul to a creature, corpse, location or object, forcibly displaces a soul, maintains possession, or directly controls a soul. Attempt to Counteract the effect.\nCritical: The effect ends. If the affected creature is living, reduce its Soul Drain by 10 and it gains a +4-status bonus against the same source attempting to affect its soul again for 24 hours.\nSuccess: The effect ends.\nFailure: The bond remains intact.\nFumble: The bond remains intact and cannot be targeted by another casting of Sever Soulchain from you for 24 hours.\nThe spell does not resurrect the dead, compel an unwilling soul to return to a body or destroy a soul merely because its bond has been severed.\n\nWarping Options:\n+4 PP: Attempt to sever one additional soul-binding effect associated with the same target.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!reVXeBB1vTJX4l7A"
+}

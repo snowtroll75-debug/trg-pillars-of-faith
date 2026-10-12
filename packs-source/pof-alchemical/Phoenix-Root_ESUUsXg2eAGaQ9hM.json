@@ -1,0 +1,87 @@
+{
+  "_id": "ESUUsXg2eAGaQ9hM",
+  "name": "Phoenix Root",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 1575,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: sacred sites strongly associated with fire or rebirth.\n\nPhoenix root is taken from a fire-loving shrub that germinates only in the ashes of a sacred blaze. The twisted root is blackened outside but vivid red within, and tiny sparks rise from it when cut. Once cured in smoke, it becomes warm when chewed and leaves a faint ember-like mark over the heart. For the next 24 hours, the first time you’re Dying condition would exceed your Death State, your Dying condition is instead reduced to 0 and you regain 1 Hit Point. The effect then ends, and you increase your Fatigued condition by 1 as normal for recovering from Dying.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 10
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Phoenix Root",
+          "duration": "24 hours",
+          "effects": [
+            {
+              "kind": "declare",
+              "target": "self",
+              "label": "Phoenix Root",
+              "flags": {
+                "deathGuard": {
+                  "label": "Phoenix Root",
+                  "auto": true,
+                  "trigger": "death",
+                  "heal": "1",
+                  "once": true
+                }
+              },
+              "text": "for 24 hours, the first time your Dying would exceed your Death State, Dying drops to 0 and you regain 1 HP (Fatigued +1, as for recovering from Dying); it then ends"
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: sacred sites strongly associated with fire or rebirth.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 10,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 1575,
+        "tablePrice": 1575,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ESUUsXg2eAGaQ9hM"
+}

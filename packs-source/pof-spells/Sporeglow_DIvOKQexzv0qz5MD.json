@@ -1,0 +1,102 @@
+{
+  "_id": "DIvOKQexzv0qz5MD",
+  "name": "Sporeglow",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "verdant",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 0,
+    "castAP": 1,
+    "range": "touch",
+    "area": "",
+    "targets": "a patch of fungus, moss or living plant matter",
+    "duration": "1 hour",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [
+      {
+        "threshold": 5,
+        "recurring": false,
+        "damageDice": "",
+        "saveDC": 0,
+        "attack": 0,
+        "text": "Increase the radius to 20 feet."
+      },
+      {
+        "threshold": 10,
+        "recurring": false,
+        "damageDice": "",
+        "saveDC": 0,
+        "attack": 0,
+        "text": "The light increases illumination by two steps."
+      }
+    ],
+    "effects": [
+      {
+        "kind": "lightShift",
+        "target": "targets",
+        "steps": 1,
+        "radiusFeet": 10,
+        "byCasterLevel": [
+          {
+            "cl": 5,
+            "radiusFeet": 20
+          },
+          {
+            "cl": 10,
+            "steps": 2
+          }
+        ]
+      }
+    ],
+    "warps": [],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": false,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Alteration, Cantrip, Light",
+    "description": "ALTERATION CANTRIP LIGHT UTILITY\nTradition verdant\nCast 1 AP (somatic)\nRange touch\nTargets a patch of fungus, moss or living plant matter\nDuration 1 hour\n\nThe target begins to glow with soft natural luminescence, increasing the illumination level by one step within 10 feet.\nYou determine the general hue when casting the spell. The light produces no heat and does not harm the affected organism.\n\nCaster Level Modifications:\nCL 5: Increase the radius to 20 feet.\nCL 10: The light increases illumination by two steps.\n\nPillars of Faith, Chapter 10. A light-step circle on the target: one step brighter within 10 feet — 20 feet from CL 5, two steps from CL 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DIvOKQexzv0qz5MD"
+}

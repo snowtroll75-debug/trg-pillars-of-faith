@@ -1,0 +1,49 @@
+{
+  "_id": "gQFWFSXZa8WLKNe8",
+  "name": "Spirit Intercession",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>CHANCE CONCENTRATE FOCUS SPIRIT<br>Action R; Trigger you fail a saving throw<br>Your Spirit Guide warns, shields or momentarily strengthens you.<br>Reroll the triggering saving throw and use the better result.<br>Spirit Intercession is then expended and must be restored through Refocus.<br>At 7th level, you may also use Spirit Intercession when an ally within 30 feet fails a saving throw. The ally must be capable of benefiting from your Spirit Guide's intervention; Line of Effect is required.</p>\n<p>Use as the Reaction: spends the Focus use and the reaction; reroll the failed save (yours, or from 7th an ally's within 30 feet) and keep the better result.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "Chance, Concentrate, Focus, Spirit",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gQFWFSXZa8WLKNe8"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "7TI1M5sS1Pxkiq1C",
+  "name": "Fellowship",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "The aspect of Fellowship embodies the strength created when individuals willingly stand together. It is the divinity of the shared meal, the neighbour who comes when the bell is rung, the shield wall that closes around the wounded and the stranger offered a place beside the fire. Its most common symbol is an open hearth surrounded by an unbroken circle.\nFellowship does not demand conformity. A community in which nobody may disagree is merely another form of tyranny. Its faithful are instead taught that differences become strengths when people accept responsibility for one another.\n\nEdicts: Offer reasonable aid to those within your community. Extend hospitality to peaceful strangers. Share burdens that would overwhelm one person alone. Reconcile divisions where possible. Protect those who have been isolated, abandoned or excluded unjustly.\n\nAnathema: Betray a companion for personal convenience or profit. Abuse the obligations of hospitality. Deliberately turn a community against an innocent member. Abandon companions in genuine danger when you could reasonably aid them.\n\nSuggested Ethics: Altruism, Benevolence, Harmony\n\nClass Skill: Diplomacy\n\nSpecialist Spells: Banish Fatigue (1), Protective Ward (1), Soothing Words (1), Wellspring of Valour (1), Protector's Sphere (7), Resilient Fortitude (7), Unity (7), Vigilant Eye (7)\n\nBonus Spells: Guidance (0); Bless (2); Aid (4); Courage (6)\n\nFavoured Weapon: Club\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Good",
+    "edicts": "Offer reasonable aid to those within your community. Extend hospitality to peaceful strangers. Share burdens that would overwhelm one person alone. Reconcile divisions where possible. Protect those who have been isolated, abandoned or excluded unjustly.",
+    "anathema": "Betray a companion for personal convenience or profit. Abuse the obligations of hospitality. Deliberately turn a community against an innocent member. Abandon companions in genuine danger when you could reasonably aid them.",
+    "suggestedEthics": "Altruism, Benevolence, Harmony",
+    "classSkill": "Diplomacy",
+    "favouredWeapon": "Club",
+    "specialistSpells": "Banish Fatigue, Protective Ward, Soothing Words, Wellspring of Valour, Protector's Sphere, Resilient Fortitude, Unity, Vigilant Eye",
+    "bonusSpells": "1: Guidance, 2: Bless, 4: Aid, 6: Courage"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Altruism",
+        "Benevolence",
+        "Harmony"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!7TI1M5sS1Pxkiq1C"
+}

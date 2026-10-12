@@ -1,0 +1,95 @@
+{
+  "_id": "BHjgKqoAjULF9Y5N",
+  "name": "Second Heart",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 11,
+    "castAP": 2,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 willing living creature",
+    "duration": "10 minutes",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "declare",
+        "target": "targets",
+        "label": "Second Heart",
+        "flags": {
+          "deathGuard": {
+            "label": "Second Heart",
+            "auto": true,
+            "once": true,
+            "notOutright": true,
+            "needsDeathState": true
+          }
+        }
+      },
+      {
+        "kind": "note",
+        "text": "Persistent damage and other ongoing effects stay. Not against an effect that kills outright, Death State, old age, or an effect that forbids healing or intervention."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Target one additional willing creature within range",
+        "mods": {
+          "extraTargets": 1
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Healer",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Healing, Soul, Warding",
+    "description": "HEALER HEALING SOUL UTILITY WARDING\nHealer Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nTargets 1 willing living creature\nDuration 10 minutes\n\nYou place a reserve of vital force around the target's heart and soul.\nThe first time during the duration that HP damage would reduce the target to 0 HP and cause it to gain the Dying condition, the target instead remains at 1 HP, does not gain Dying from that damage and Second Heart ends.\nPersistent damage and other ongoing effects are not removed.\nSecond Heart cannot prevent an effect that kills the target outright, death caused by exceeding Death State, death through old age, destruction of a creature that does not use the normal Dying rules, or an effect that explicitly prevents healing or intervention.\n\nWarping Options:\n+2 PP: Target one additional willing creature within range.\n\nPillars of Faith, Chapter 10. A death guard on the target: the first blow that would drop it to 0 HP leaves it on 1 HP, and the spell ends."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BHjgKqoAjULF9Y5N"
+}

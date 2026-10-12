@@ -1,0 +1,66 @@
+{
+  "_id": "BKgRGF0ktqoht2ci",
+  "name": "Hagiographer",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Archivist 1st level",
+    "active": true,
+    "description": "<p>You specialise in the lives and deeds of those believed to have touched the divine directly: saints, prophets, chosen champions, divine servants, avatars and the Eternals. Hagiographers compare miraculous accounts against historical evidence, track relics, reconstruct lost pilgrimages and attempt to distinguish genuine intervention from centuries of exaggeration.<br>Specialist Skill Eternal Lore<br>Specialist Spells Exemplar's Grace (1), Saintly Intercession (7)<br>Lives of the Exemplars: You gain Advantage on Recall Knowledge checks concerning Eternals, divine servants, avatars, saints, sacred relics and historically recorded miracles. When you successfully identify such a creature, you may also ask for one piece of information concerning its known religious significance, traditional behaviour or recorded weaknesses as part of the same check.</p>\n<p>Lives of the Exemplars — advantage on Recall Knowledge is offered with the book's wording; the extra question is yours to ask on a success.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Archivist",
+    "traits": "",
+    "grantedSpells": "1: Exemplar's Grace, 7: Saintly Intercession",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Archivist",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Eternal Lore",
+      "conditionals": [
+        {
+          "kind": "advantage",
+          "label": "Lives of the Exemplars",
+          "scope": "Recall Knowledge about Eternals, divine servants, avatars, saints, relics or recorded miracles",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "recallKnowledge"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BKgRGF0ktqoht2ci"
+}

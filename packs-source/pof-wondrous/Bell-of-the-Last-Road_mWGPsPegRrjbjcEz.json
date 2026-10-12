@@ -1,0 +1,82 @@
+{
+  "_id": "mWGPsPegRrjbjcEz",
+  "name": "Bell of the Last Road",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 2,
+    "price": 5000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Invested, Soul",
+    "description": "Usage held in 1 hand; Weight 2 lbs.\n\nThe sound of this small bronze handbell carries very little distance, yet corpses seem strangely peaceful after hearing it.\n\nYou gain a +2-status bonus to Perform Last Rites while using the bell as part of the rite.\n\nYou also gain the Final Toll ability:\n\nFinal Toll:\n\nActivate 1 minute\n\nFrequency 1/day\n\nTarget One corpse within 10 feet\n\nThe bell casts Last Rite upon the target without requiring PP. The spell otherwise functions normally.\n\nIf a disembodied spirit belonging to the deceased is willingly present when the bell is rung, it immediately understands that the rite has been performed upon its remains.\n\nOn the sheet: +2 status is pre-ticked on Perform Last Rites; Final Toll is Last Rite as an innate spell, 1/day, for no PP.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 8,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": false,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "spell",
+            "spell": "Last Rite",
+            "frequency": "daily",
+            "label": "Final Toll",
+            "note": "1 minute; one corpse within 10 feet; no PP"
+          }
+        ]
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Bell of the Last Road",
+          "scope": "Perform Last Rites, with the bell as part of the rite",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "performLastRites"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mWGPsPegRrjbjcEz"
+}

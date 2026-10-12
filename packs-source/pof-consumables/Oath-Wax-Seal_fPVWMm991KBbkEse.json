@@ -1,0 +1,59 @@
+{
+  "_id": "fPVWMm991KBbkEse",
+  "name": "Oath-Wax Seal",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 100,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Divinity, Warding",
+    "description": "Usage applied to a closed object, letter or document. Activate 1 minute.\n\nThe crimson wax accepts only one impression. Once hardened, the image cannot be removed intact.\n\nWhen applied, designate up to six creatures. For 1-week, designated creatures immediately know if the seal is broken.\n\nWhen broken, the wax leaves a faint glowing mark upon the creature or object responsible for breaking it. The mark lasts 1 hour and can be seen through ordinary clothing. The seal does not prevent access and provides no information about the breaker beyond the visible mark.\n\nOn the sheet: used, the card records the seal and its week.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "1 minute",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Oath-Wax Seal",
+          "effects": [
+            {
+              "kind": "note",
+              "text": "Applied to a closed object, letter or document: up to six designated creatures know for 1 week if the seal is broken; the breaker carries a faint glowing mark for 1 hour, visible through clothing. It prevents nothing and tells nothing more."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fPVWMm991KBbkEse"
+}

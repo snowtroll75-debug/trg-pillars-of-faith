@@ -1,0 +1,65 @@
+{
+  "_id": "ZGc5mUNXJ0dMjdLq",
+  "name": "Grave Surveyor's Kit",
+  "img": "icons/svg/chest.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 6,
+    "price": 25,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "",
+    "description": "Measuring line, soil probes, sounding hammer, narrow shovel and marker pegs. You gain a +1-item bonus to Search checks specifically made to locate disturbed graves, concealed burial chambers, recently opened tombs or physical tampering with burial sites.\n\nPillars of Faith, Chapter 6.",
+    "slot": "",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "itemSize": "S",
+    "itemLevel": 1,
+    "heldHands": 0,
+    "formulae": "",
+    "gearCategory": "Kits & Tools",
+    "gearCategoryInferred": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "goodsConditionals": [
+        {
+          "value": 1,
+          "type": "item",
+          "label": "searching burial sites",
+          "scope": "Search for disturbed graves, concealed burial chambers, opened tombs or tampering with burial sites",
+          "when": {
+            "actions": [
+              "search"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZGc5mUNXJ0dMjdLq"
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "wk8vCyPI7QSnSXd8",
+  "name": "Archive Sealant",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 3,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable",
+    "description": "<strong>Usage applied to documents; Activate Interact (2 AP).</strong>\n\nA clear mixture of wax, oil and resin. One application protects approximately twenty pages against ordinary water and damp for one week. It does not protect against fire, acid or deliberate destruction.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "alchemical",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Archive Sealant",
+          "effects": [
+            {
+              "kind": "note",
+              "text": "Protects approximately twenty pages against ordinary water and damp for one week. Not against fire, acid or deliberate destruction."
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Other",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 0,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 3,
+        "tablePrice": 3,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!wk8vCyPI7QSnSXd8"
+}

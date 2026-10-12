@@ -1,0 +1,56 @@
+{
+  "_id": "96kCeGurI8UEuyaz",
+  "name": "Soul Mirror",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 11200,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Invested, Soul, Warding",
+    "description": "Activate Reaction\n\nTrigger You achieve a Critical or Heroic saving throw against a possession effect\n\nFrequency 1/minute\n\nThe shield's surface becomes briefly reflective, but the face visible within it belongs to whatever attempted to enter the wielder.\n\nThe creature or entity responsible for the possession attempt must make a Will saving throw against your Level DC.\n\nSoul Mirror does not reveal an entity that could not otherwise be perceived and does not force an existing possessor out of a host.\n\nCritical: It is unaffected.\n\nSuccess: It becomes Frightened 1 until the end of its next turn.\n\nFailure: It becomes Frightened 2 and cannot attempt to possess you again for 1 minute.\n\nFumble: It becomes Frightened 3 and cannot attempt to possess any creature for 1 minute.\n\nInscribed onto a shield.\n\nOn the sheet: Offered automatically, once a minute: after a Critical or Heroic save against a possession-trait effect, the possessor (when the roll knows it) rolls Will against your Level DC — Success: Frightened 1 until the end of its next turn; Failure: Frightened 2 and it cannot possess you for 1 minute; Fumble: Frightened 3 and it cannot possess anyone for 1 minute. Without a known possessor the card asks the GM to roll it.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 12,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "soulMirror",
+        "tier": 1,
+        "on": [
+          "shield"
+        ],
+        "automation": "event"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!96kCeGurI8UEuyaz"
+}

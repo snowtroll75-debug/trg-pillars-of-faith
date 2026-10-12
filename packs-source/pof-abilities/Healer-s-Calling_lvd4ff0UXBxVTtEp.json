@@ -1,0 +1,56 @@
+{
+  "_id": "lvd4ff0UXBxVTtEp",
+  "name": "Healer's Calling",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Healer 1st level",
+    "active": true,
+    "description": "<p>No two Healers approach suffering in quite the same way. At 1st level, select a Healer's Calling representing the form of healing toward which your instincts and training are most strongly drawn. Your Calling grants you a Specialist Skill and a unique ability.<br>The available Callings are Chirurgeon, Lifebinder, Purifier, Soul Tender and Sanctuary Keeper.</p>\n<p>Use to choose: the calling arrives as its own ability with its specialist skill and unique ability.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 1
+      },
+      "abilityChoices": [
+        "Chirurgeon",
+        "Lifebinder",
+        "Purifier",
+        "Soul Tender",
+        "Sanctuary Keeper"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lvd4ff0UXBxVTtEp"
+}

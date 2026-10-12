@@ -1,0 +1,49 @@
+{
+  "_id": "oZQpUwxqvHtXPJxF",
+  "name": "Ancestral Chorus",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 15, Deep Bloom Memory",
+    "active": true,
+    "description": "<p>MYRATHI</p>\n<p>When you listen now, you no longer hear one memory. You hear the Bloom.<br>Whenever you use Ancestral Communion, a Success on the affected Recall Knowledge check is treated as a Critical result.</p>\n<p>Prerequisites Level 15, Deep Bloom Memory</p>\n<p>Works automatically: a Success on a Recall Knowledge check made under Ancestral Communion resolves as a Critical (the card says so).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oZQpUwxqvHtXPJxF"
+}

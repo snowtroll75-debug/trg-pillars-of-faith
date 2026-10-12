@@ -1,0 +1,53 @@
+{
+  "_id": "lEU8zXtYzCCI68Nc",
+  "name": "Spirit Presence (Template)",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "identity": {
+      "level": 1,
+      "size": "medium"
+    },
+    "details": {
+      "traits": "Spirit",
+      "biography": "<p>A spirit that exists principally as an NPC, a source of information or a supernatural influence. If it enters combat or begins producing effects equivalent to hostile creature abilities, give it an appropriate creature stat block (Pillars of Faith, Chapter 8).</p>"
+    },
+    "gm": {
+      "role": "Spirit Presence",
+      "notes": "<p><strong>Level</strong> X — its Level DC is level + 14. Set the level on the sheet.</p>\n<p><strong>Nature</strong> The spirit's broad classification (Ancestor, Beast, Elemental, Land, Veil or Emergent).</p>\n<p><strong>Awareness</strong> What the spirit understands and how intelligently it can interact.</p>\n<p><strong>Manifestation</strong> How it becomes perceptible.</p>\n<p><strong>Communication</strong> How it communicates.</p>\n<p><strong>Anchor</strong> Any Anchor, if one exists.</p>\n<p><strong>Disposition</strong> Its initial attitude and general personality (set the Disposition field too).</p>\n<p><strong>Desire</strong> What the spirit currently wants.</p>\n<p><strong>Influence</strong> Any minor supernatural effects it can produce outside a creature stat block.</p>\n<p><strong>Resolution</strong> Circumstances that cause it to leave, become peaceful or otherwise cease to matter.</p>"
+    }
+  },
+  "prototypeToken": {
+    "name": "Spirit",
+    "actorLink": false,
+    "disposition": 0,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "spiritPresence": true,
+      "source": "Pillars of Faith"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.629.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!lEU8zXtYzCCI68Nc"
+}

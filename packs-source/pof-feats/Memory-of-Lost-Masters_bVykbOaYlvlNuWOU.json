@@ -1,0 +1,49 @@
+{
+  "_id": "bVykbOaYlvlNuWOU",
+  "name": "Memory of Lost Masters",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Velori heritage, Lost Scholarship, Level 5",
+    "active": true,
+    "description": "<p>RHEVANI</p>\n<p>The teachers of vanished schools still correct you from somewhere beyond memory.<br>Whenever you use Lost Scholarship to gain temporary access to a Lore specialist skill, you gain Advantage on the first check you make using that specialist skill before Past-Life Echo ends.<br>Furthermore, if that check achieves a Critical or Heroic result, Past-Life Echo is not expended and does not need to be restored through Refocus after that use. Its current duration still ends normally.</p>\n<p>Prerequisites Velori heritage, Lost Scholarship, Level 5</p>\n<p>Works automatically: Lost Scholarship's temporary Lore is offered advantage on its first check, and a Critical or Heroic on that check gives Past-Life Echo's use back.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!bVykbOaYlvlNuWOU"
+}

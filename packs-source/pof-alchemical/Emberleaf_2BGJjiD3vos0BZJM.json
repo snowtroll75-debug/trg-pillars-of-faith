@@ -1,0 +1,79 @@
+{
+  "_id": "2BGJjiD3vos0BZJM",
+  "name": "Emberleaf",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 25,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: temperate or warm plains and volcanic slopes.\n\nEmberleaf is a knee-high shrub with copper-red leaves and black stems that flourish in sunbaked soil. The leaves remain pleasantly warm long after they are picked, and flare briefly at the edges when laid upon hot stone. Prepared emberleaf is ground with salt into a rust-coloured paste and swallowed in a small pellet, spreading a protective warmth through the body. For 1 hour, you gain resistance to fire damage.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Emberleaf",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "defence",
+              "target": "self",
+              "field": "resistance",
+              "value": "fire",
+              "note": "(resistance to fire)"
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: temperate or warm plains and volcanic slopes.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 25,
+        "tablePrice": 25,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!2BGJjiD3vos0BZJM"
+}

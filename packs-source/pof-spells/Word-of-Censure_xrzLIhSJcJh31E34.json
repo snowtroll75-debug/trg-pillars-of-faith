@@ -1,0 +1,119 @@
+{
+  "_id": "xrzLIhSJcJh31E34",
+  "name": "Word of Censure",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "save",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "60 feet",
+    "area": "",
+    "targets": "1 creature that can hear and understand you",
+    "duration": "See text",
+    "defence": "Will",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "frightened",
+        "value": 1,
+        "onSave": [
+          "success"
+        ]
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "frightened",
+        "value": 2,
+        "onSave": [
+          "failure"
+        ]
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "frightened",
+        "value": 3,
+        "onSave": [
+          "fumble",
+          "blunder"
+        ]
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "dazed",
+        "value": 1,
+        "onSave": [
+          "fumble",
+          "blunder"
+        ]
+      },
+      {
+        "kind": "note",
+        "text": "On a Failure or worse the target also cannot use Reactions until the end of its next turn."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 4,
+        "text": "Affect one additional creature within 30 feet of the original target",
+        "mods": {
+          "extraTargets": 1
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Archivist",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Auditory, Enchantment, Mental",
+    "description": "ARCHIVIST AUDITORY ENCHANTMENT MENTAL SAVE\nArchivist Specialist Spell\nCast 2 AP (verbal)\nRange 60 feet\nTargets 1 creature that can hear and understand you\nSaving Throw Will\nDuration See text\n\nYou deliver a formal condemnation in language carrying centuries of theological authority.\nCritical: The target is unaffected.\nSuccess: The target becomes Frightened 1 until the end of its next turn.\nFailure: The target becomes Frightened 2 and cannot use Reactions until the end of its next turn.\nFumble: The target becomes Frightened 3, cannot use Reactions and becomes Dazed 1 until the end of its next turn.\nWord of Censure is supernatural condemnation, not supernatural judgement. It provides no information concerning guilt, morality, ethics or whether the target actually deserves censure.\n\nWarping Options:\n+4 PP: Affect one additional creature within 30 feet of the original target.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xrzLIhSJcJh31E34"
+}

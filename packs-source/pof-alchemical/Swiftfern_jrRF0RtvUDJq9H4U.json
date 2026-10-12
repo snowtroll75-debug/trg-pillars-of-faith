@@ -1,0 +1,79 @@
+{
+  "_id": "jrRF0RtvUDJq9H4U",
+  "name": "Swiftfern",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 25,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: any jungles.\n\nSwiftfern is a slender emerald fern whose divided fronds twitch whenever air moves around them. Even on a still day its leaves seem to lean towards the quickest route through nearby growth, a habit jungle guides use to identify hidden game trails. Its prepared sap is rubbed into the calves and soles, where it produces a restless tingling and lightness of step. For 5 minutes, you gain a +5-foot item bonus to Speed.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Swiftfern",
+          "duration": "5 minutes",
+          "effects": [
+            {
+              "kind": "bonus",
+              "target": "self",
+              "slot": "speed",
+              "bonusType": "item",
+              "value": 5
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: any jungles.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 25,
+        "tablePrice": 25,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jrRF0RtvUDJq9H4U"
+}

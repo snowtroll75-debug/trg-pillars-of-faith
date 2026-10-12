@@ -1,0 +1,86 @@
+{
+  "_id": "vy0y1BJUjGBhD69x",
+  "name": "Practical Counsel",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 2,
+    "prerequisites": "Folkwarden 2nd level",
+    "active": true,
+    "description": "<p>At 2nd level, your experience allows you to help others through explanation, diagnosis, preparation and warning rather than simply performing a task yourself.<br>Whenever you use Aid in this way, you may make the Aid check using any appropriate Folkwarden class skill, Folk Lore or one of your Folk Tradition specialist skills instead of the skill normally required, provided that your knowledge can reasonably contribute to the task.<br>If you achieve at least a Success on the Aid check, increase the circumstance bonus granted by 1, to a maximum of +4. This does not change the AP cost, DC or other normal rules for Aid.<br>If your assistance is verbal, the recipient must be able to hear and understand you. Practical Counsel does not remove physical requirements that are essential to performing the task and cannot be used to replace an attack roll when using Aid Offensive or Aid Defensive.</p>\n<p>Works automatically: Aid from whichever class skill or lore row fits (the Aid is rolled from the row you choose), and a Success or better grants 1 more (to +4).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "exNZ39WEGLU8i7Cm",
+      "name": "Practical Counsel: Aid",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "aidBoost": {
+            "label": "Practical Counsel",
+            "value": 1,
+            "max": 4
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "A Success or better on an Aid check grants a circumstance bonus 1 higher, to a maximum of +4.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!vy0y1BJUjGBhD69x.exNZ39WEGLU8i7Cm"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 2
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!vy0y1BJUjGBhD69x"
+}

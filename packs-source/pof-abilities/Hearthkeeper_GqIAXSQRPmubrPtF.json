@@ -1,0 +1,50 @@
+{
+  "_id": "GqIAXSQRPmubrPtF",
+  "name": "Hearthkeeper",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>You specialise in protecting homes, families, camps and the places in which people gather.<br>Specialist Skill Hearth Lore<br>Safe Hearth The radius of your Ward the Threshold increases from 10 feet to 20 feet. When warding a single ordinary room of comparable size, you may instead shape the ward around the room boundaries rather than using an exact emanation.</p>\n<p>Safe Hearth — Ward the Threshold reaches 20 feet, or the room's boundary.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Hearth Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GqIAXSQRPmubrPtF"
+}

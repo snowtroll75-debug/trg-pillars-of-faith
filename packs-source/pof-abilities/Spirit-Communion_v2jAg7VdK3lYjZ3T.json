@@ -1,0 +1,49 @@
+{
+  "_id": "v2jAg7VdK3lYjZ3T",
+  "name": "Spirit Communion",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>Your relationship with the unseen world allows you to acquire magic that does not normally form part of your repertoire.<br>During your daily preparation you commune with your Spirit Guide.<br>At the end of this communion, select one PP 2 Ethereal spell. You temporarily add that spell to your repertoire.<br>The spell remains in your repertoire until your next daily preparation, at which point the knowledge fades.<br>At 6th level, you may use Spirit Communion to add two spells with a maximum PP of 4. At 12th level three spells with a maximum PP of 10 and at 18th level 4 spells with a maximum PP of 14.</p>\n<p>Use at daily preparation: pick the day's Ethereal spell(s) — one PP 2 at 1st; two to PP 4 at 6th; three to PP 10 at 12th; four to PP 14 at 18th. They join your spell list until you Use again, which clears yesterday's.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!v2jAg7VdK3lYjZ3T"
+}

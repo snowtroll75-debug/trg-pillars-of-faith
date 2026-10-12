@@ -1,0 +1,56 @@
+{
+  "_id": "LCRXKBACgcVhgltv",
+  "name": "Exorcist (Rune)",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 8000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Essence, Invested, Soul",
+    "description": "The inscription lies along the striking surface rather than beneath it, its lines seeming to continue beyond the physical edge of the weapon.\n\nThe weapon may strike incorporeal spirits and incorporeal Undead normally, provided you can perceive them.\n\nIf you can perceive or otherwise validly target an entity possessing another creature, you may attack the possessing entity without damaging the host. The rune does not make a hidden possessor visible and does not allow you to target one where the possession effect explicitly prevents it from being separately targeted.\n\nInscribed onto a weapon.\n\nOn the sheet: Applied automatically: an incorporeal creature's immunity to non-magical attacks and its resistance do not apply to this weapon (Ghost Touch's rail). Striking a possessor without its host is the table's.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 10,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "exorcist",
+        "tier": 1,
+        "on": [
+          "weapon"
+        ],
+        "automation": "event"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LCRXKBACgcVhgltv"
+}

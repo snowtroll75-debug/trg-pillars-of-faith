@@ -1,0 +1,82 @@
+{
+  "_id": "aKjJI0ecTMOrLvDX",
+  "name": "Memory Spores",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 250,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Insight, Myrathi, Plant",
+    "description": "Usage inhaled. Activate Interact (1 AP).\n\nThe sealed glass bulb contains a single silver fungal puff which dissolves the moment it reaches the lungs.\n\nFor the next 10 minutes, you may activate the spores once before attempting Recall Knowledge. You gain Advantage on the check.\n\nIf you have no ranks in the skill being used, treat yourself as possessing 1 rank for that check only. After that check, the effect ends. Memory Spores do not allow a character to know something that could never reasonably be discovered through Recall Knowledge.\n\nOn the sheet: inhaled: Advantage is pre-ticked on your next Recall Knowledge within 10 minutes and spent by it.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "Interact (1 AP)",
+    "itemLevel": 5
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Memory Spores",
+          "duration": "10 minutes",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Memory Spores",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "advantage",
+                  "label": "Memory Spores",
+                  "scope": "One Recall Knowledge check within 10 minutes (untrained: counts as 1 rank for that check)",
+                  "when": {
+                    "checkTypes": [
+                      "skill"
+                    ],
+                    "actions": [
+                      "recallKnowledge"
+                    ]
+                  },
+                  "auto": true,
+                  "oneShot": true
+                }
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "If you have no ranks in the skill, treat yourself as possessing 1 rank for that check only."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!aKjJI0ecTMOrLvDX"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "0JJRK7VNaa0TylCf",
+  "name": "Thread of Continuity",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 900,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Soul, Warding",
+    "description": "Usage tied around the wrist or neck. Activate 1 minute.\n\nThe red thread must be tied by another person. Traditionally that person speaks the wearer's full name while making the knot.\n\nThe thread remains active for 24 hours. The first time during that period you would be affected by magic that erases, replaces or suppresses your memories or personal identity, the thread activates.\n\nYou gain Advantage on the associated saving throw. If the effect does not normally allow a saving throw, it must instead Counteract the thread before affecting you. The thread burns away when activated.\n\nOn the sheet: tied on by another: Advantage is offered on saves for 24 hours and spent by the first memory or identity effect; the Counteract clause is a note.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "1 minute",
+    "itemLevel": 8
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Thread of Continuity",
+          "duration": "24 hours",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Thread of Continuity",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "advantage",
+                  "label": "Thread of Continuity",
+                  "scope": "The saving throw against the first magic that would erase, replace or suppress your memories or identity (24 hours)",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ]
+                  },
+                  "auto": false,
+                  "oneShot": true
+                }
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "An effect that allows no save must instead Counteract the thread (level 8) before affecting you. The thread burns away when it activates."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0JJRK7VNaa0TylCf"
+}

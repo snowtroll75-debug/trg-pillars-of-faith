@@ -1,0 +1,97 @@
+{
+  "_id": "Fq1pAD4yVcc675gP",
+  "name": "Battlefield Chaplain",
+  "img": "icons/svg/book.svg",
+  "type": "background",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Background",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>You carried faith into places where sermons were drowned by steel. Whether attached to a formal army, a mercenary company or a desperate militia, you tended the frightened, witnessed final words and reminded exhausted soldiers why they still stood. You may have left military service behind, but you remain accustomed to offering calm when everyone around you expects to die.</p>\n<p>BONUS FEAT</p>\n<p>Voice of Resolve</p>\n<p>SKILL BONUSES</p>\n<p>Diplomacy, Medicine, Religion</p>\n<p>SPECIALIST SKILL</p>\n<p>Chaplaincy Lore</p>\n<p>WEALTH</p>\n<p>1</p>",
+    "grantedFeats": "Voice of Resolve",
+    "grantedSpells": "",
+    "skillBonuses": "Diplomacy, Medicine, Religion",
+    "specialistSkill": "Chaplaincy Lore",
+    "special": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "",
+    "wealth": "1"
+  },
+  "effects": [
+    {
+      "_id": "9ShY3OzJQwpoC7oo",
+      "name": "Battlefield Chaplain: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.diplomacy.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.medicine.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.religion.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 class bonus to Diplomacy, Medicine, Religion.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!Fq1pAD4yVcc675gP.9ShY3OzJQwpoC7oo"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Chaplaincy Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Fq1pAD4yVcc675gP"
+}

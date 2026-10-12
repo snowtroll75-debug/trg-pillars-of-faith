@@ -1,0 +1,83 @@
+{
+  "_id": "zkX6EMn95fBTESlS",
+  "name": "Nethri",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Nethri possess exceptionally fine sensory filaments along the head, neck and limbs. These structures constantly exchange minute chemical and spiritual signals with surrounding Myrathi, creating a subtle level of communication outsiders rarely notice.<br>Nethri gatherings can therefore appear unnaturally quiet. Entire conversations may take place through tiny changes of posture, scent and transmitted impressions before a spoken word becomes necessary. This does not make Nethri a hive mind—individual thought remains entirely distinct—but it does give them a reputation for emotional sensitivity and an ability to recognise tension within a group before anybody openly acknowledges it.<br>You gain a +1 racial bonus to Sense Motive checks. In addition, you can communicate silently with willing Myrathi within 60 feet, provided you share a language and neither of you is completely sealed away from the surrounding air.</p>",
+    "sourceRace": "Myrathi",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "Silent Exchange",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "3OSRIa09cIZuNxc7",
+      "name": "Nethri: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.senseMotive.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 racial bonus to Sense Motive checks.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!zkX6EMn95fBTESlS.3OSRIa09cIZuNxc7"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zkX6EMn95fBTESlS"
+}

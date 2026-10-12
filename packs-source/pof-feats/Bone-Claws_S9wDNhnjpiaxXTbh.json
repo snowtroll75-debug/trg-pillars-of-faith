@@ -1,0 +1,51 @@
+{
+  "_id": "S9wDNhnjpiaxXTbh",
+  "name": "Bone Claws",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 4",
+    "active": true,
+    "description": "<p>UNLIVING-SKELETON</p>\n<p>Prerequisites Level 4</p>\n<p>Your fingers lengthen into hooked grave-bone, sharp enough to rake flesh and scrape armour.</p>\n<p>You gain the claws natural attack. Your claws deal 1d6 slashing damage and have agile, finesse, magical, and versatile piercing traits.</p>\n<p>Grants Bone Claws (1d6 slashing; agile, finesse, magical, versatile piercing).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Skeleton",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "",
+    "grantedWeapons": "Claws (Unliving Skeleton)"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "skeleton"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!S9wDNhnjpiaxXTbh"
+}

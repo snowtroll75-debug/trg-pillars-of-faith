@@ -1,0 +1,382 @@
+{
+ "archetype": {
+  "UNLIVING SKELETON": {
+   "traits": "ARCHETYPE UNLIVING",
+   "prerequisites": "Level 2",
+   "body": "Your body has become a conscious skeletal remnant rather than a mindless animated corpse.\n\nYou retain agency, memory and personality, but your flesh has fallen away, and your bones are now held together by necromantic force rather than sinew. Your body is cold, hollow and unsettlingly durable, moving with the dry scrape of grave-bone and the faint whisper of the magic that sustains you. You gain the Shared Unliving Base Mods, Base DR 1 and Immunity to Bleed."
+  },
+  "UNLIVING ZOMBIE": {
+   "traits": "ARCHETYPE UNLIVING",
+   "prerequisites": "Level 2",
+   "body": "Your body is animated by corpse-vitality and unnatural hunger.\n\nYou are not a mindless shambling corpse, but death has left its mark upon every motion. Your flesh is heavy with grave-cold endurance, your senses are drawn to the pulse of living essence, and a terrible hunger gnaws at the edge of your will. You gain the Shared Unliving Base Mods, Endless Hunger and Life Sense."
+  },
+  "UNLIVING GHOUL": {
+   "traits": "ARCHETYPE UNLIVING",
+   "prerequisites": "Level 2",
+   "body": "Your rebirth has made you a carrion-fed predator, driven by grave-hunger and sharpened instinct.\n\nYour dead flesh has tightened into something lean, vicious and corpse starved. The scent of recent death stirs your strength, and your teeth have become weapons suited to tearing meat from bone. You gain the Shared Unliving Base Mods, Carrion Feast and a Bite Attack."
+  },
+  "UNLIVING MUMMY": {
+   "traits": "ARCHETYPE UNLIVING",
+   "prerequisites": "Level 2",
+   "body": "Your corpse has been preserved by funerary rites, embalming curses and the dry patience of the tomb.\n\nYou are bound together by linen, resin, grave-dust and old ritual power. Your body no longer rots in the ordinary manner; it endures as a sealed relic of death, stubbornly resistant to blade and hammer but vulnerable to cleansing flame. You gain the Shared Unliving Base Mods, Resistance to Physical damage and Weakness to Fire."
+  },
+  "UNLIVING VAMPIRE": {
+   "traits": "ARCHETYPE UNLIVING",
+   "prerequisites": "Level 2",
+   "body": "Your death has become elegant, predatory and sustained by stolen blood.\n\nYou walk the line between nobility and hunger, restored by the life you take from others. Your flesh knits at unnatural speed, your thirst can draw strength from the veins of the helpless, and the sun itself recoils from what you have become. You gain the Shared Unliving Base Mods, Fast Healing, Drink Blood and Sunlight Weakness."
+  },
+  "UNLIVING GHOST": {
+   "traits": "ARCHETYPE UNLIVING",
+   "prerequisites": "Level 2",
+   "body": "Your soul has slipped loose from the flesh yet refuses to pass beyond the mortal world.\n\nYou are a lingering presence, half memory and half necromantic residue, able to move through the world without fully belonging to it. Your form is spectral and difficult to harm by mundane means, but powers that strike the spirit or force the dead into shape are especially dangerous to you. You gain the Shared Unliving Base Mods, the Incorporeal trait, Weakness to Essence and Weakness to Force."
+  },
+  "UNLIVING LICH": {
+   "traits": "ARCHETYPE UNLIVING",
+   "prerequisites": "Level 12",
+   "body": "Your mortality has been severed and your soul bound into a vessel of eternal resurgence.\n\nThrough forbidden rite, cold intellect and deliberate necromancy, you have crossed the threshold into lichdom. Your body is now only the outward instrument of a soul anchored elsewhere, making ordinary destruction an inconvenience rather than an end. You gain the Shared Unliving Base Mods, Immunity to Bleed and the Phylactery of Eternal Resurgence."
+  }
+ },
+ "generic": {
+  "BLOODLESS FRAME": {
+   "traits": "CLASS UNLIVING",
+   "prerequisites": "",
+   "body": "Your body has shed the last fragile habits of living blood.\n\nYou gain Immunity to Bleed. This does not grant any additional benefit if you already have Immunity to Bleed from your Unliving Archetype or another source."
+  },
+  "GRAVE-TOUCHED PRESENCE": {
+   "traits": "CLASS UNLIVING",
+   "prerequisites": "",
+   "body": "A faint chill follows your words, and the living feel the grave looking back through your eyes.\n\nLiving humanoids and intelligent undead instinctively recoil from you. Unless you conceal your nature, such creatures begin one attitude step worse toward you. You gain a +2 racial bonus to Intimidate and Sense Motive checks against undead."
+  },
+  "SENSE THE LIVING": {
+   "traits": "CLASS UNLIVING",
+   "prerequisites": "Level 4",
+   "body": "The pulse of life shines to you like a lantern in a crypt.\n\nYou gain Life Sense. If you already have Life Sense, you instead gain a +2 racial bonus to Perception checks made to locate living or undead creatures with Life Sense."
+  },
+  "POISONLESS FLESH": {
+   "traits": "CLASS UNLIVING",
+   "prerequisites": "Level 6",
+   "body": "Venom finds no warm blood to corrupt and no living organs to still.\n\nYour dead body no longer carries poison through living blood or breath. You gain Immunity to Poison."
+  },
+  "STILL CORPSE": {
+   "traits": "CLASS UNLIVING",
+   "prerequisites": "Level 6",
+   "body": "Venom finds no warm blood to corrupt and no living organs to still.\n\nYou no longer need to eat or sleep. You gain Immunity to Sleep and Fatigue. You may still rest, keep watch, meditate, or lie dormant, but ordinary hunger, starvation, exhaustion from lack of sleep, and magical sleep do not affect you."
+  },
+  "DEAD NERVES": {
+   "traits": "CLASS UNLIVING",
+   "prerequisites": "Level 8",
+   "body": "Pain, shock and muscular seizure fade into irrelevant memories of a living body.\n\nEffect: Your body no longer responds to nerve shock or muscular seizure. You gain Immunity to Paralysis and Stunning."
+  },
+  "UNLIVING FORTITUDE": {
+   "traits": "CLASS SOUL UNLIVING",
+   "prerequisites": "Level 8",
+   "body": "Necromantic force claws you back from the instant of collapse.\n\nIf damage would reduce you to 0 HP, make an opposed, level-based Fortitude saving throw. On a success, you drop to 1 HP instead. This feat has no effect if the triggering damage is essence damage or a damage type to which you have Weakness."
+  },
+  "NECROTIC CONSTITUTION": {
+   "traits": "CLASS UNLIVING",
+   "prerequisites": "Level 10",
+   "body": "The power sustaining you thickens into a stronger corpse-vitality.\n\nYou gain a +1 racial bonus to Constitution. This is a racial bonus from your Unliving nature and does not stack with another +1 Constitution racial bonus gained from the Undead type."
+  },
+  "COMPLETE UNDEAD PHYSIOLOGY": {
+   "traits": "CLASS UNLIVING",
+   "prerequisites": "Level 14",
+   "body": "Your transformation settles into the full stillness of undeath.\n\nYou gain any of the following standard Undead immunities that you do not already possess: Bleed, Poison, Sleep, Paralysis and Stunning. You also no longer need to eat, breathe, or sleep if you did not already have those traits.\n\nBe aware, this feat does not remove your PC Death State and does not cause you to be automatically destroyed at 0 HP."
+  }
+ },
+ "skeleton": {
+  "BONE CLAWS": {
+   "traits": "UNLIVING-SKELETON",
+   "prerequisites": "Level 4",
+   "body": "Your fingers lengthen into hooked grave-bone, sharp enough to rake flesh and scrape armour.\n\nYou gain the claws natural attack. Your claws deal 1d6 slashing damage and have agile, finesse, magical, and versatile piercing traits."
+  },
+  "BONE STRIDE": {
+   "traits": "MOVEMENT UNLIVING-SKELETON",
+   "prerequisites": "Level 4",
+   "body": "Without flesh to slow you, your hollow frame moves with a dry and unsettling swiftness.\n\nYour land Speed increases by 5 feet. This is a static Speed increase and is not multiplied by other effects unless those effects explicitly multiply all Speed bonuses."
+  },
+  "OSSIFIED FRAME": {
+   "traits": "UNLIVING-SKELETON",
+   "prerequisites": "Level 6",
+   "body": "Your bones thicken into hardened grave-ivory, resisting blades and points that would shear lesser skeletons apart.\n\nYou gain Resistance to Piercing damage and Resistance to Slashing damage. This Resistance is static and follows the normal TRG Prime Resistance rules."
+  },
+  "GRAVEBONE WARDS": {
+   "traits": "UNLIVING-SKELETON",
+   "prerequisites": "Level 8",
+   "body": "Old necromantic residue collects in your bones, grounding shocks and turning aside hungry flame.\n\nNecromantic residue hardens your bones against elemental shocks. You gain Resistance to Electricity damage and Resistance to Fire damage."
+  },
+  "TOUGHENED BONES": {
+   "traits": "UNLIVING-SKELETON",
+   "prerequisites": "Level 10",
+   "body": "Your frame is no longer ordinary bone, but dense gravebone that splinters, locks and reforms under punishing blows.\n\nYour Base DR increases by 1."
+  }
+ },
+ "zombie": {
+  "GRAVE BITE": {
+   "traits": "UNLIVING-ZOMBIE",
+   "prerequisites": "Level 4",
+   "body": "Your hunger manifests in a corpse-strong jaw and teeth that tear with dreadful persistence.\n\nYou gain a Bite natural attack that deals 1d6 piercing damage and has finesse and magical traits."
+  },
+  "CORPSE SLAM": {
+   "traits": "UNLIVING-ZOMBIE",
+   "prerequisites": "Level 4",
+   "body": "Your hunger manifests in a corpse-strong jaw and teeth that tear with dreadful persistence.\n\nYou gain a Slam natural attack that deals 1d8 bludgeoning damage and has agile, finesse, magical, and versatile piercing traits."
+  },
+  "DEAD WEIGHT": {
+   "traits": "UNLIVING-ZOMBIE",
+   "prerequisites": "Level 6",
+   "body": "Your body hangs with grave-heavy inertia, making you difficult to move once you plant yourself.\n\nYour corpse-body is difficult to shift. You gain a +2 racial bonus to checks and DCs against Shove, Trip, forced movement, and attempts to move you while grabbed or restrained."
+  },
+  "ZOMBIE FORTITUDE": {
+   "traits": "UNLIVING-ZOMBIE",
+   "prerequisites": "Level 8",
+   "body": "Even ruin struggles to finish what death has already claimed.\n\nEffect: You gain Unliving Fortitude. Furthermore, you gain a +2 racial bonus on the saving throw granted by that feat when the triggering damage is not essence damage and is not a damage type to which you have Weakness."
+  },
+  "PLAGUE CARRIER": {
+   "traits": "UNLIVING-ZOMBIE",
+   "prerequisites": "Level 10, Grave Bite or Corpse Slam",
+   "body": "Your bite and blows carry the rot that animates you.\n\nWhen you inflict a critical injury with your Bite or Slam, the target must attempt a Fortitude save against Zombie Plague. The disease level is equal to your level. A creature can be exposed to your Zombie Plague only once per day."
+  },
+  "HUNGER BEYOND PAIN": {
+   "traits": "HEALING SOUL UNLIVING-ZOMBIE",
+   "prerequisites": "Level 12",
+   "body": "The fall of living prey briefly quiets the endless hunger burning inside your corpse.\n\nWhen you reduce a living creature to 0 HP with your Bite or Slam, you regain HP equal to your level plus your Constitution modifier, minimum 1. You can gain this healing once per round."
+  }
+ },
+ "ghoul": {
+  "GHOUL CLAWS": {
+   "traits": "UNLIVING-GHOUL",
+   "prerequisites": "Level 4",
+   "body": "Your hands become hooked grave-talons made for tearing meat from bone.\n\nYou gain the claws natural attack. Your claws deal 1d6 slashing damage and have agile, finesse, magical, and versatile piercing traits."
+  },
+  "CORPSE LEAPER": {
+   "traits": "MOVEMENT UNLIVING-GHOUL",
+   "prerequisites": "Level 4",
+   "body": "Your limbs coil and spring with the predatory tension of a carrion hunter.\n\nYou gain Natural Leaper. When you take the High Jump action, you may jump a distance up to half your land Speed without making a check. When you take the Long Jump action, you may leap up to your land Speed without taking an action. You ignore the penalty for lacking a running start on these checks."
+  },
+  "GREATER CARRION FEAST": {
+   "traits": "HEALING UNLIVING-GHOUL",
+   "prerequisites": "Level 6",
+   "body": "Fresh death nourishes you more deeply, knitting wounds with each corpse-fed mouthful.\n\nYour Carrion Feast restores 3d6 HP instead of 1d6 HP. You still gain this benefit only once from each body."
+  },
+  "GHOULISH VENOM": {
+   "traits": "POISON SAVE SOUL UNLIVING-GHOUL",
+   "prerequisites": "Level 8",
+   "body": "Your bite and claws carry a grave-stilling toxin that locks living muscle in place.\n\nWhen you inflict a critical injury with your Bite or Claws, the target must attempt a Fortitude save with the following results:\n\nSuccess the target is unaffected.\n\nPartial the target is slowed 1 for 1 round.\n\nFailure the target is paralyzed for 1 round.\n\nFumble the target is paralyzed for 1 minute and may attempt a new Fortitude save at the end of each of its turns to end the paralysis."
+  },
+  "GHAST STENCH": {
+   "traits": "AURA SAVE UNLIVING-GHOUL",
+   "prerequisites": "Level 10",
+   "body": "The corruption clinging to your flesh becomes a choking grave-reek.\n\nYou emanate a 10-foot stench aura. Living creatures beginning their turn in the aura or entering it must attempt a Fortitude save with the following results:\n\nSuccess the target is unaffected.\n\nFailure the creature is sickened 1.\n\nFumble the creature is sickened 1 and slowed 1 for as long as it remains sickened.\n\nA creature that saves against your Ghast Stench is immune to your aura for 1 minute."
+  },
+  "GHOUL FEVER": {
+   "traits": "DISEASE SAVE SOUL UNLIVING-GHOUL",
+   "prerequisites": "Level 10",
+   "body": "Your corpse-hunger can spread as a feverish curse in the blood of those you maul.\n\nWhen you inflict a critical injury with your Bite, the target must attempt a Fortitude save against Ghoul Fever. The disease level is equal to your level. A creature can be exposed to your Ghoul Fever only once per day."
+  }
+ },
+ "mummy": {
+  "TOMB SLAM": {
+   "traits": "UNLIVING-MUMMY",
+   "prerequisites": "Level 4",
+   "body": "Your preserved limbs strike with the heavy certainty of a sealed tomb door.\n\nYou gain a Slam natural attack that deals 1d8 bludgeoning damage and has agile, finesse, and magical traits."
+  },
+  "IRON WILL OF THE TOMB": {
+   "traits": "UNLIVING-MUMMY",
+   "prerequisites": "Level 4",
+   "body": "Funerary rites have sealed your thoughts behind layers of ancient command, dust and embalming wards.\n\nYou gain a +2 racial bonus to Will saves against fear effects and mental effects that would charm, compel, possess, confuse, control, or otherwise overwhelm your will. In addition, once per round when you fail such a Will save, you may harden your mind into sepulchral stillness. You become Slowed 1 until the end of your next turn and treat the failed save as a success instead. You cannot use this benefit if you are unconscious, unable to act, or already unable to gain AP on your next turn."
+  },
+  "DESICCATED STRENGTH": {
+   "traits": "UNLIVING-MUMMY",
+   "prerequisites": "Level 6",
+   "body": "Dry sinew and cursed wrappings bind your limbs with unnatural force.\n\nYou gain a +1 racial bonus to Strength. This represents the unnatural force of your preserved body."
+  },
+  "TOMB GUARDIAN": {
+   "traits": "UNLIVING-MUMMY",
+   "prerequisites": "Level 6",
+   "body": "You remember the architecture of burial, secrecy and ancient warning signs.\n\nEffect: You gain a +2 racial bonus to Search (Perception) and Track (Survival) checks made in tombs, crypts, ruins, burial sites, sealed chambers, and other funerary or ancient constructed spaces."
+  },
+  "AURA OF DESPAIR": {
+   "traits": "AURA DIVINITY FEAR UNLIVING-MUMMY",
+   "prerequisites": "Level 8",
+   "body": "Your presence carries the weight of sealed doom and the silence of the grave.\n\nYou emanate a 30-foot aura of despair. A living creature that begins its turn in the aura or enters it must attempt a Will save with the following results:\n\nHeroic The creature is unaffected.\n\nCritical The creature is frightened 1.\n\nSuccess The creature is frightened 2.\n\nPartial The creature is frightened 3.\n\nFailure The creature is frightened 3 and paralyzed for 1 round.\n\nFumble The creature is frightened 4 and paralyzed for 1 round.\n\nBlunder The creature collapses from fear and is reduced to 0 hit points, gaining unconscious condition.\n\nThe creature is immune to paralysis for 24 hours after making a save but not the fear."
+  },
+  "MUMMY ROT": {
+   "traits": "CURSE DISEASE SOUL UNLIVING-MUMMY",
+   "prerequisites": "Level 10, Tomb Slam",
+   "body": "The curse preserving you can pass into those shattered by your embalmed fists.\n\nWhen you inflict a critical injury with your Slam, the target must attempt a Fortitude save against Mummy Rot. The disease level is equal to your level. Stage 1: carrier with no visible effect for 1 minute. Stage 2: 4d6 essence damage and Injured 1 for 1 day. Damage inflicted by Mummy Rot cannot be healed until the curse is removed and the disease is cured. A creature can be exposed to your Mummy Rot only once per day."
+  }
+ },
+ "vampire": {
+  "CHARM OF THE NIGHT": {
+   "traits": "UNLIVING VAMPIRE",
+   "prerequisites": "Level 4",
+   "body": "Your voice carries the velvet pressure of the grave, beautiful and difficult to deny.\n\nYou gain Charm Kind as an ethereal innate spell with the focus trait."
+  },
+  "VAMPIRE CLAWS": {
+   "traits": "UNLIVING VAMPIRE",
+   "prerequisites": "Level 4",
+   "body": "Your hands sharpen into elegant predatory talons.\n\nYou gain a claws natural attack. Each claw deals 1d6 slashing damage and has agile, finesse, and magical traits."
+  },
+  "MIST VEIL": {
+   "traits": "UNLIVING VAMPIRE",
+   "prerequisites": "Level 4",
+   "body": "Gravity loosens its claim on you when the hunt carries you across walls and ceilings.\n\nYou gain Obscuring Mist as an ethereal innate spell with the focus trait."
+  },
+  "VAMPIRIC CLIMB": {
+   "traits": "UNLIVING VAMPIRE",
+   "prerequisites": "Level 6",
+   "body": "Gravity loosens its claim on you when the hunt carries you across walls and ceilings.\n\nYou gain Spider Climb as an innate spell with the focus trait."
+  },
+  "BLOOD RENEWAL": {
+   "traits": "HEALING SOUL UNLIVING VAMPIRE",
+   "prerequisites": "Level 6",
+   "body": "Blood does more than sustain you; it restores the splendour death stole from your flesh.\n\nWhen you use Drink Blood, the Soul Drain inflicted and HP restored increase by 5. At 12th level, this increase becomes 10 instead of 5."
+  },
+  "SHAPE OF THE NIGHT": {
+   "traits": "ALTERATION UNLIVING VAMPIRE",
+   "prerequisites": "Level 8",
+   "body": "Your body remembers older predatory shapes beneath the skin.\n\nYou gain Shape of the Animal as an ethereal innate spell with the focus trait, but you may assume only bat or wolf forms. The form must be selected each time you use the spell."
+  },
+  "GASEOUS ESCAPE": {
+   "traits": "ALTERATION UNLIVING VAMPIRE",
+   "prerequisites": "Level 10",
+   "body": "At the brink of destruction your body can dissolve into grave-mist and flee the killing blow.\n\nOnce per day, when you would be reduced to 0 HP, you may immediately become gaseous as if affected by Gaseous Form. This effect occurs before you resolve dying or destruction. You must still obey Sunlight Weakness while gaseous."
+  },
+  "DOMINATING GAZE": {
+   "traits": "UNLIVING VAMPIRE",
+   "prerequisites": "Level 12, Charm of the Night",
+   "body": "Your eyes become a trap for mortal will.\n\nYou gain Dominate as an ethereal innate spell with the focus trait. The target must be able to see or hear you, and the effect is visibly vampiric unless concealed by magic or circumstances."
+  },
+  "VAMPIRIC SPAWN": {
+   "traits": "UNLIVING VAMPIRE",
+   "prerequisites": "Level 14",
+   "body": "Those who die under your hunger may rise again as lesser echoes of your curse.\n\nA living humanoid slain by your Drink Blood or by a natural attack that inflicts Soul Drain may rise as a Vampire at dusk on the following day. The resulting undead gains the Spawn trait and may be controlled by you (see Fiends & Fables)."
+  }
+ },
+ "ghost": {
+  "SPECTRAL DRIFT": {
+   "traits": "UNLIVING-GHOST",
+   "prerequisites": "Level 4",
+   "body": "You no longer quite agree with the ground beneath you.\n\nYou gain a Fly Speed equal to your land Speed. You do not need to touch the ground while moving, though effects that can affect incorporeal creatures can still hinder you."
+  },
+  "ESSENCE ATTACKS": {
+   "traits": "UNLIVING-GHOST",
+   "prerequisites": "Level 4",
+   "body": "Your strikes pass through armour and flesh to scrape directly across the animating spirit.\n\nWhen you make an unarmed attack or natural attack, you may have the attack deal essence damage instead of its normal physical damage type. The attack remains magical."
+  },
+  "SUBTLE HAUNT": {
+   "traits": "UNLIVING-GHOST",
+   "prerequisites": "Level 6",
+   "body": "You blur into gloom, smoke and half-seen reflections like a memory refusing to settle.\n\nYou gain a +2 racial bonus to Stealth checks. While in dim light, darkness, mist, smoke, or supernatural gloom, you are concealed unless an observer can clearly perceive incorporeal creatures."
+  },
+  "POLTERGEIST HURLING": {
+   "traits": "UNLIVING-GHOST",
+   "prerequisites": "Level 6",
+   "body": "Unseen force answers your anger, throwing small objects as though seized by invisible hands.\n\nYou gain Hurling as an ethereal innate cantrip which you may cast at will. Objects moved this way appear to be seized by unseen hands unless you deliberately manifest while using the effect."
+  },
+  "GRAVE-COLD TOUCH": {
+   "traits": "UNLIVING-GHOST",
+   "prerequisites": "Level 8, Essence Attacks",
+   "body": "Unseen force answers your anger, throwing small objects as though seized by invisible hands.\n\nWhen you deal essence damage with an unarmed attack or natural attack, the attack also deals 1d6 cold damage. This secondary cold damage is not increased by critical injuries unless another rule specifically increases secondary damage."
+  },
+  "WAIL OF THE DEPARTED": {
+   "traits": "AUDITORY FEAR SAVE UNLIVING-GHOST",
+   "prerequisites": "Level 8, Essence Attacks",
+   "body": "Your grief tears loose as a keening cry that freezes courage in the living.\n\nAction: 2 AP\n\nYou emit a sorrowful wail affecting creatures within a 60-foot radius that can hear you. Each affected creature must attempt a Will save. On a failure, it becomes frightened 2. On a fumble, it becomes frightened 4. On a success, the creature is immune to your Wail of the Departed for 1 minute."
+  }
+ },
+ "lich": {
+  "BONY HAND": {
+   "traits": "UNLIVING-LICH",
+   "prerequisites": "",
+   "body": "Your hand becomes a necromantic instrument, striking flesh and soul together.\n\nYou gain a Bony Hand natural attack. It deals 1d8 bludgeoning damage plus 1d6 essence damage and has the agile, finesse, and magical traits."
+  },
+  "INFLICT VITAE": {
+   "traits": "UNLIVING-LICH",
+   "prerequisites": "",
+   "body": "You can turn necromantic power outward as a focused wound against the living essence.\n\nYou gain Inflict as an innate spell with the focus trait."
+  },
+  "FAULTLESS CASTING": {
+   "traits": "UNLIVING-LICH",
+   "prerequisites": "",
+   "body": "Cold intellect and dead nerves let you shape magic without fear or flinch.\n\nAll spells you cast are treated as though you were using Defensive Casting. Defensive Casting checks for your spells are Medium (+0) rather than Very Hard (DC +5)."
+  },
+  "PARALYTIC TOUCH": {
+   "traits": "SAVE SOUL UNLIVING-LICH",
+   "prerequisites": "",
+   "body": "The necromancy in your hand can still the body with a scholar's precision.\n\nWhen your Bony Hand attack inflicts a critical injury, the target must attempt a Fortitude save. On a failure, it is paralysed for 1 round. On a fumble, it is paralysed for 1 minute and falls prone. On a blunder, it is paralysed permanently and falls prone. The saving throw is Hard (DC +2) if the critical injury is Serious and Very Hard (DC +5) if the critical injury is Deadly."
+  },
+  "NECROMANTIC RESISTANCES": {
+   "traits": "UNLIVING-LICH",
+   "prerequisites": "Level 14",
+   "body": "Your body becomes a perfected vessel for old magic and selective ruin.\n\nYou gain Resistance to Piercing damage and Resistance to Slashing damage. In addition, choose Cold or Electricity. You gain Immunity to the chosen damage type."
+  },
+  "LICH AURA": {
+   "traits": "AURA FEAR SAVE UNLIVING-LICH",
+   "prerequisites": "Level 14",
+   "body": "The majesty of undeath gathers around you as a visible pressure on mortal courage.\n\nEffect: You gain Frightful Aura."
+  },
+  "SOUL-MAGIC DOMINION": {
+   "traits": "UNLIVING-LICH",
+   "prerequisites": "Level 16",
+   "body": "Your mastery of soul-magic hardens into the signature authority of lichdom.\n\nYou gain a +1 racial bonus to Spellcraft checks and spell save DCs for spells with the soul trait. This bonus applies only to your own spellcasting and innate spells."
+  },
+  "ETERNAL RESURGENCE": {
+   "traits": "UNLIVING-LICH",
+   "prerequisites": "Level 18",
+   "body": "Your phylactery learns to rebuild you faster, drinking from nearby life to hasten your return.\n\nYour Phylactery of Eternal Resurgence rebuilds you more efficiently. While your essence is rebuilding through the phylactery, its regeneration improves from Regeneration 1/hour to Regeneration 2/hour. When the phylactery successfully siphons living creatures within 30 feet, the regeneration rate is doubled from its current value for the relevant regeneration interval.\n\nSpecial: The phylactery remains a unique invested soul item with 200 HP, Hardness 20, immunity to non-magical weapons, magic resistance, and Incredibly Hard (DC +10) detection difficulty unless another rule modifies it."
+  }
+ },
+ "item": {
+  "PHYLACTERY OF ETERNAL RESURGENCE": {
+   "traits": "INVESTED SOUL UNIQUE",
+   "prerequisites": "",
+   "body": "Level 18; Price -\n\nUsage soul phylactery; Weight 2 lbs.\n\nThe Phylactery of Eternal Resurgence appears as a finely crafted obsidian amulet, adorned with intricate runes that pulse with dark energy. It emits a faint, ominous glow, hinting at the powerful necromantic magic contained within.\n\nThe phylactery serves as the vessel for the lich's immortal essence, anchoring its soul to the material plane. As long as the phylactery remains intact, the lich cannot be permanently killed. Upon the destruction of the lich's physical form, its essence retreats into the phylactery, which grants the lich Regeneration 1/hour whilst it rebuilds its physical form.\n\nThe phylactery is also able to siphon energy from nearby living creatures within 30 feet. Such creatures may make a Fortitude save to resist this effect. Failure, double the lich’s rate of regeneration with the excess hits inflicting soul drain to the targets.\n\nThe phylactery is extremely resistant to damage having 200 HP and a Hardness of 20. It is also impervious to non-magical weapons.\n\nThe phylactery has magic resistance and is very difficult to detect. Attempts to detect it through magical or mundane means are Incredibly Hard (DC +10)."
+  }
+ },
+ "reference": {
+  "CARRION FEAST": {
+   "traits": "MANIPULATE",
+   "prerequisites": "",
+   "body": "Action 1 AP\n\nThe ghoul consumes the flesh of an adjacent creature that has died within the last hour regaining 1d6 HP. The ghoul may only gain this benefit once from each body."
+  },
+  "DRINK BLOOD": {
+   "traits": "FLOURISH SOUL",
+   "prerequisites": "",
+   "body": "Action 1 AP\n\nRequirement A target within reach is grabbed, immobilised, paralysed, unconscious, or willing.\n\nThe vampire bites and feeds. This is automatic for all listed conditions except grabbed, which requires an Athletics check against the target's Fortitude DC. The target takes Soul Drain 10, and the vampire heals the same number of HP."
+  },
+  "ENDLESS HUNGER": {
+   "traits": "EVIL SOUL",
+   "prerequisites": "",
+   "body": "The creature must eat constantly. In most cases, the creature that has this trait is mindless or undead and seeks to eat living flesh using a sense such as Life Sense."
+  },
+  "FAST HEALING": {
+   "traits": "HEALING",
+   "prerequisites": "",
+   "body": "At the beginning of each of the character's turns, the character heals 1 HP. For Unliving Vampire, this healing is suppressed while Sunlight Weakness applies."
+  },
+  "FRIGHTFUL AURA": {
+   "traits": "AURA FEAR SAVE",
+   "prerequisites": "",
+   "body": "Action Free\n\nSome types of unnatural creature emanate an aura of fear which has a radius equal to 5 feet x the creature’s level. A being that first enters the area must attempt a level based Will save. Regardless of the result of the saving throw, the being is temporarily immune to Frightful Aura for 1 minute.\n\nCritical The creature is unaffected.\n\nSuccess The creature is frightened 1.\n\nPartial The creature is frightened 2.\n\nFailure The creature is frightened 3 and fleeing for 1 round.\n\nFumble The creature is frightened 4 and fleeing until the frightened condition is removed.\n\nBlunder The creature collapses from fear and is reduced to 0 hit points, gaining the unconscious condition."
+  },
+  "LIFE": {
+   "traits": "Lifesense allows a creature to sense the vital essence of living and undead creatures as a tertiary sense. The sense can distinguish between the positive energy animating living creatures and the negative energy animating undead creatures, much as sight distinguishes colours.",
+   "prerequisites": "",
+   "body": ""
+  },
+  "SUNLIGHT WEAKNESS": {
+   "traits": "If this creature begins its turn in sunlight, it is injured 2 and slowed 2 for as long as it remains in the sunlight.",
+   "prerequisites": "",
+   "body": ""
+  },
+  "UNDEAD FORTITUDE": {
+   "traits": "DIVINITY EVIL SOUL",
+   "prerequisites": "",
+   "body": "If damage reduces the creature to 0 hit points, it must make an opposed, level-based Fortitude saving throw, on a success, the creature drops to 1 hit point instead.\n\nBe aware that this ability has no effect if the damage type is essence or one that the creature has a weakness to."
+  }
+ },
+ "shared": {
+  "SHARED UNLIVING BASE MODS": "A character with any Unliving Archetype gains the following shared base modifications.\n\n  -----------------------------------------------------------------------------------------------------------------------------------------------\n  SHARED BASE MOD                 RULES EFFECT\n  ------------------------------- ---------------------------------------------------------------------------------------------------------------\n  Darkvision                      The character gains Darkvision. If the character already has Darkvision, this grant has no additional effect.\n\n  Immunity to Disease             The character is immune to disease effects.\n\n  Immunity to Soul Drain          The character is immune to Soul Drain.\n\n  Immunity to Subdual             The character is immune to subdual damage and subdual effects.\n\n  No Need to Breathe              The character does not need to breathe and cannot suffocate from lack of air.\n  -----------------------------------------------------------------------------------------------------------------------------------------------"
+ }
+}

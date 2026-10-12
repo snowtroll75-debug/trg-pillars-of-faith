@@ -1,0 +1,50 @@
+{
+  "_id": "sIgGbtDO29inEdMM",
+  "name": "Elemental Spirit",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>You are guided by one of the fundamental forces expressed within the natural world.<br>When selecting this guide, choose Acid, Cold, Electricity or Fire. This choice cannot normally be changed.<br>Specialist Skill Elemental Lore<br>Spirit Boon - Elemental: You gain a +1-class bonus to saving throws against effects possessing your selected elemental trait.<br>You also add an appropriate Verdant cantrip possessing that elemental trait to your repertoire. This is a bonus cantrip and does not count against your normal cantrips known.<br>Manifestation – Elemental Mantle: While Manifest Spirit is active, you gain Resistance to your selected damage type.<br>Furthermore, once per round when one of your Verdant spells inflicts damage of your selected type, one target damaged by that spell suffers an additional 1d6 secondary damage of the same type.<br>This damage increases to 2d6 at 9th level and 3d6 at 17th level.</p>\n<p>Use to choose Acid, Cold, Electricity or Fire: the +1 class save bonus is then pre-ticked against that trait, and the bonus cantrip is yours to add. Elemental Mantle is what Manifest Spirit applies.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Elemental Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sIgGbtDO29inEdMM"
+}

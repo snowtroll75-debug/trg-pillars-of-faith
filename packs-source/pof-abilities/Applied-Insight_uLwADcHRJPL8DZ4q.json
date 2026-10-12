@@ -1,0 +1,39 @@
+{
+  "_id": "uLwADcHRJPL8DZ4q",
+  "name": "Applied Insight",
+  "img": "icons/svg/upgrade.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Sage archetype",
+    "active": true,
+    "description": "<p>CONCENTRATE FOCUS</p>\n<p>Action 1 AP</p>\n<p>You may select any one Studied Target that you can see and gain one of the following modifiers until the beginning of your next turn:</p>\n<p>Opening You gain a +1-circumstance bonus to attack rolls against the Studied Target.<br>Warning You gain a +1-circumstance bonus to DB and saving throws against the Studied Target's attacks, spells and abilities.</p>\n<p>Use (1 AP, Focus): target the Studied Target and choose Opening or Warning — the bonus lands as a one-round effect scoped to that creature (attacks against it pre-ticked; DB and saves from it).</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Concentrate, Focus"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!uLwADcHRJPL8DZ4q"
+}

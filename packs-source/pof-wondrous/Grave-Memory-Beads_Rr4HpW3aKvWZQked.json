@@ -1,0 +1,88 @@
+{
+  "_id": "Rr4HpW3aKvWZQked",
+  "name": "Grave-Memory Beads",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 2000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Insight, Invested",
+    "description": "Usage worn.\n\nEach dark stone bead carries the name of someone whose death taught its former owner something worth remembering.\n\nYou gain a +1-status bonus to Religion and Occultism checks made to Recall Knowledge concerning Undead, Unliving creatures, funerary practices, necromancy and the passage of souls.\n\nYou also gain the Voice of the Dead ability:\n\nVoice of the Dead:\n\nActivate Command (1 AP)\n\nFrequency 1/day\n\nFor 10 minutes, you may communicate with a corpse as though using Dead Tongue, subject to all normal limitations of that spell.\n\nOn the sheet: +1 status is offered on Religion and Occultism Recall Knowledge about the dead; Voice of the Dead is Dead Tongue as an innate spell, 1/day, for 10 minutes.\n\nPillars of Faith, Chapter 11.",
+    "slot": "neck",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 6,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": true,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "spell",
+            "spell": "Dead Tongue",
+            "frequency": "daily",
+            "label": "Voice of the Dead",
+            "castAP": 1,
+            "duration": "10 minutes",
+            "note": "Command (1 AP); 10 minutes"
+          }
+        ]
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "status",
+          "label": "Grave-Memory Beads",
+          "scope": "Religion and Occultism Recall Knowledge concerning Undead, Unliving creatures, funerary practices, necromancy and the passage of souls",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "religion",
+              "occultism"
+            ],
+            "actions": [
+              "recallKnowledge"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Rr4HpW3aKvWZQked"
+}

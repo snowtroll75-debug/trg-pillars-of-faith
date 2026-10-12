@@ -1,0 +1,83 @@
+{
+  "_id": "fZowtzlMkYLsTKMH",
+  "name": "Apocryphist",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Archivist 1st level",
+    "active": true,
+    "description": "<p>You study the texts that others tried to destroy. Suppressed gospels, forbidden prayers, contradictory accounts of miracles and scriptures declared heretical all fall within your field. You do not necessarily believe these writings, but you understand that destroyed information is frequently the information somebody most feared being remembered.<br>Specialist Skill Heresy Lore<br>Specialist Spells Hidden Doctrine (1), Forbidden Name (7)<br>Forbidden Research: You gain a +2-circumstance bonus to checks made to identify or understand curses, corrupted Divinity magic, religious heresies, forbidden divine rites and deliberately concealed alterations to sacred texts. In addition, you gain a +1-circumstance bonus to Counteract checks against effects with either the Curse or Soul trait when you have successfully identified the effect.</p>\n<p>Forbidden Research — the +2 circumstance bonus is offered in the dialog of Identify Power, Recall Knowledge and Research checks with the book's wording; the +1 circumstance to Counteract checks is offered on Spellcraft rolls (tick it for a Counteract against a Curse or Soul effect you have identified).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Archivist",
+    "traits": "",
+    "grantedSpells": "1: Hidden Doctrine, 7: Forbidden Name",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Archivist",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Heresy Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Forbidden Research",
+          "scope": "Identifying or understanding curses, corrupted Divinity magic, heresies, forbidden rites or concealed alterations to sacred texts",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "identifyPower",
+              "recallKnowledge",
+              "research"
+            ]
+          },
+          "value": 2,
+          "type": "circumstance"
+        },
+        {
+          "kind": "modifier",
+          "label": "Forbidden Research",
+          "scope": "Counteract checks against an identified Curse- or Soul-trait effect",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "spellcraft"
+            ]
+          },
+          "value": 1,
+          "type": "circumstance"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fZowtzlMkYLsTKMH"
+}

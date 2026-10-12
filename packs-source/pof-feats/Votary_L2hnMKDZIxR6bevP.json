@@ -1,0 +1,50 @@
+{
+  "_id": "L2hnMKDZIxR6bevP",
+  "name": "Votary",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Religion 2 ranks",
+    "active": true,
+    "description": "<p>ADEPT</p>\n<p>Your devotion does not require ordination. You have bound yourself to a sacred principle through deliberate choice, and something has answered.<br>Select one Divine Aspect appropriate to your beliefs.<br>You adopt the Aspect's Edicts and Anathema.<br>You gain its Deific Skill as a class skill.<br>You gain proficiency with its Favoured Weapon if you do not already possess it.<br>You also gain the Aspect's PP 1 Specialist Spell as a Divinity innate spell with the Focus trait. Wisdom is your magical ability score for this spell.</p>\n<p>Prerequisites Religion 2 ranks</p>\n<p>Progression Requirements Religion +10 ranks</p>\n<p>A rule for the table with one automation: add your Divine Aspect from the sheet's Divine Aspect slot (its Edicts, Anathema, deific skill and favoured weapon follow); Use this feat to choose the Aspect's PP 1 specialist spell as a Divinity innate spell with the Focus trait (Wisdom-based).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "",
+    "progressionRequirements": "Religion +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!L2hnMKDZIxR6bevP"
+}

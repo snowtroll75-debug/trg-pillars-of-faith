@@ -1,0 +1,50 @@
+{
+  "_id": "fKyYgU83WqdWA3Hu",
+  "name": "Hunter's Fangs",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>VESPERYN</p>\n<p>The teeth inherited from your deathless ancestor have grown into proper weapons, and the taste of blood awakens instincts far older than you.<br>You gain the following natural attack:<br>Fangs Damage 1d6 P; FDC 5; Traits Agile, Finesse<br>Whenever your Fangs inflict a critical injury upon a living creature capable of bleeding, that creature also gains Bleed 1.</p>\n<p>Works automatically: Fangs (1d6 P, Agile, Finesse) arrive as a natural attack on your weapons; the Bleed 1 on a critical injury is a note on the attack.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Vesperyn",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "",
+    "grantedWeapons": "Fangs (Vesperyn)"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fKyYgU83WqdWA3Hu"
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "PjYelskmqQoeZEov",
+  "name": "Ossuary Lamellar",
+  "img": "icons/svg/shield.svg",
+  "type": "armour",
+  "system": {
+    "quantity": 1,
+    "weight": 22,
+    "price": 300,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 50,
+      "max": 50
+    },
+    "traits": "Rigid",
+    "category": "Medium",
+    "material": "",
+    "isHelmet": false,
+    "dr": 4,
+    "hardness": 0,
+    "penalty": -2,
+    "proficiency": "",
+    "maxDexBonus": 4,
+    "speedPenalty": 0,
+    "itemLevel": 2,
+    "coversTorso": true,
+    "coversArms": false,
+    "coversLegs": false,
+    "description": "Lacquered bone, horn and dense leather plates overlap across the chest and limbs. The design developed among cultures where good metal was scarce but large burial grounds were not. Ossuary Lamellar grants +1 DR against slashing damage. Despite its appearance, it possesses no connection to the souls of those from whose remains it may have been fashioned.\n\nOn the sheet: the +1 DR against slashing is a note — DR on the sheet is one number; apply it by hand when the damage is slashing.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PjYelskmqQoeZEov"
+}

@@ -1,0 +1,108 @@
+{
+  "_id": "GyVGkmtc4LjD4zaI",
+  "name": "King's Blood",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 130,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: cultivated royal gardens and warm forests.\n\nKing's blood is a rare, carefully cultivated shrub with white bark, crimson leaves and clusters of dark red berries. Tradition claims the first cutting was watered with the blood of a dying monarch, and many royal houses still restrict its cultivation to palace physic gardens. Its thick crimson sap clots almost as soon as it is exposed to air and is swallowed from a silver spoon. You regain 2d6+6 Hit Points, stop up to 3 points of bleeding and gain a +2-item bonus to your next saving throw against poison attempted within 10 minutes.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 4
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "King's Blood",
+          "duration": "10 minutes",
+          "effects": [
+            {
+              "kind": "heal",
+              "target": "self",
+              "formula": "2d6+6"
+            },
+            {
+              "kind": "conditionRelief",
+              "label": "King's Blood",
+              "target": "self",
+              "condition": "bleeding",
+              "amount": 3
+            },
+            {
+              "kind": "conditional",
+              "label": "King's Blood",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "item",
+                  "label": "King's Blood",
+                  "scope": "Your next saving throw against poison within 10 minutes",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "traits": [
+                      "poison"
+                    ]
+                  },
+                  "auto": true,
+                  "oneShot": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: cultivated royal gardens and warm forests.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 4,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 130,
+        "tablePrice": 130,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GyVGkmtc4LjD4zaI"
+}

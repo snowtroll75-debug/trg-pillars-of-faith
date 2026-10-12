@@ -1,0 +1,48 @@
+{
+  "_id": "N0imMRMAjP6muRBC",
+  "name": "Lumeri",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Lumeri possess clusters of bioluminescent nodules, luminous gills or softly glowing growths across the head, shoulders and upper body. Their light ranges from warm amber and pale green to cold blue or violet.<br>Traditionally they guide travellers through underground settlements and tend paths linking distant sections of a Bloom. Their association with illumination has also made them common spirit-speakers and ritual attendants. Myrathi symbolism treats their light as memory itself: something passed from one being to another without being diminished by sharing.<br>You emit dim light within 10 feet and can suppress or restore this light as a 1 AP action with the Concentrate trait. Furthermore, you gain Guidance as a verdant innate cantrip with the Focus trait.</p>",
+    "sourceRace": "Myrathi",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "Guidance",
+    "racialAbilities": "Bloom Light",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!N0imMRMAjP6muRBC"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "4G9UaeEBITwL4ltu",
+  "name": "Final Sanction",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 16",
+    "active": true,
+    "description": "<p>GRIMWARD</p>\n<p>Once the evidence is complete, hesitation serves only the creature you have hunted.<br>Once per round when you inflict Judgement secondary damage upon a creature, if that creature currently has half its maximum Hit Points or fewer, increase the Judgement damage by 1d6.<br>Furthermore, if you score a Critical hit against your Judged Subject, it suffers a -1-status penalty to DB until the beginning of your next turn.<br>Final Sanction does not imply moral guilt; it represents complete tactical understanding of your Subject.</p>\n<p>Prerequisites Level 16</p>\n<p>Works through Judgement: the rider adds 1d6 more when the Subject is at half HP or fewer (tick it on the damage card by hand — the roll does not see HP); a Critical's −1 status to DB is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Grimward",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4G9UaeEBITwL4ltu"
+}

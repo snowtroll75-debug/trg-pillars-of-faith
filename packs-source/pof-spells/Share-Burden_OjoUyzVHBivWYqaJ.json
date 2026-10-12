@@ -1,0 +1,101 @@
+{
+  "_id": "OjoUyzVHBivWYqaJ",
+  "name": "Share Burden",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 4,
+    "castAP": 2,
+    "range": "touch",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditionRelief",
+        "label": "Share Burden",
+        "target": "targets",
+        "condition": "fatigued",
+        "amount": 1,
+        "choices": [
+          "dazed",
+          "fatigued",
+          "frightened",
+          "sickened",
+          "weakened"
+        ],
+        "casterGains": true
+      },
+      {
+        "kind": "note",
+        "text": "Never Dying, Doomed, Injured or Soul Drain."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Transfer one additional point of the same condition",
+        "mods": {}
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the range to 30 feet",
+        "mods": {
+          "rangeOverride": "30 feet"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Healing, Soul",
+    "description": "HEALING SOUL UTILITY\nTradition divinity\nCast 2 AP (somatic, verbal)\nRange touch\nTargets 1 willing creature\n\nYou take a fragment of another creature's suffering into yourself.\nChoose one of the following conditions affecting the target: Dazed, Fatigued, Frightened, Sickened or Weakened.\nReduce the selected condition by 1. You immediately gain or increase the same condition by 1.\nIf you are immune to the selected condition, or another effect would prevent you from receiving it, Share Burden fails. This spell cannot transfer Dying, Doomed, Injured or Soul Drain.\n\nWarping Options:\n+2 PP: Transfer one additional point of the same condition.\n+2 PP: Increase the range to 30 feet.\n\nPillars of Faith, Chapter 10. The relief row offers which of the target's conditions to take down by 1; you then gain or increase the same condition by 1 yourself, on the card (an immunity refuses it)."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OjoUyzVHBivWYqaJ"
+}

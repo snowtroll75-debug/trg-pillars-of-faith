@@ -1,0 +1,93 @@
+{
+  "_id": "A6B7ZVoPzLKmXYyn",
+  "name": "Restorative Wave",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 3,
+    "range": "",
+    "area": "15-foot emanation",
+    "targets": "Any number of willing creatures within the area",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "heal",
+        "target": "allies",
+        "formula": "5d8"
+      },
+      {
+        "kind": "note",
+        "text": "Gift of Healing applies once to the spell, as normal."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase healing by 1d8",
+        "mods": {
+          "healDice": "1d8"
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the emanation by 5 feet",
+        "mods": {
+          "areaGrowth": 5
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "allies",
+    "specialist": true,
+    "specialistClass": "Healer",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Healing, Soul",
+    "description": "HEALER HEALING SOUL UTILITY\nHealer Specialist Spell\nCast 3 AP (somatic, verbal)\nArea 15-foot emanation\nTargets Any number of willing creatures within the area\n\nRestorative energy spreads outward from you in a warm pulse.\nEach eligible target regains 5d8 Hit Points. Gift of Healing still applies only once to the spell, as normal.\n\nWarping Options:\n+2 PP: Increase healing by 1d8.\n+2 PP: Increase the emanation by 5 feet.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!A6B7ZVoPzLKmXYyn"
+}

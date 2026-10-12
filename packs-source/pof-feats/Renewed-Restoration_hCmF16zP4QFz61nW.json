@@ -1,0 +1,49 @@
+{
+  "_id": "hCmF16zP4QFz61nW",
+  "name": "Renewed Restoration",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 6 ranks, Ability to cast the Restoration spell",
+    "active": true,
+    "description": "<p>HEALER METAMAGIC</p>\n<p>Your expertise allows you to restore those whose bodies have already endured the limits of ordinary restorative magic.<br>PP Cost +4<br>For this casting, the target ignores the normal once-per-day limit on benefiting from Restoration, allowing it to receive Restoration again even if it has already benefited from the spell that day.</p>\n<p>Prerequisites Medicine 6 ranks, Ability to cast the Restoration spell</p>\n<p>Works automatically: Restoration's Warp? dialog offers \"+4 PP: ignore the once-per-day limit\" to you.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Metamagic, Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hCmF16zP4QFz61nW"
+}

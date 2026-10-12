@@ -1,0 +1,86 @@
+{
+  "_id": "LGFoqWkDCnPMtZ5i",
+  "name": "Exorcist",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>You specialise in entities that enter, control or displace mortal souls. Possession is rarely as simple as destroying the possessing entity. Exorcists are trained to distinguish willing communion from supernatural coercion and to preserve the host whenever possible.<br>Specialist Skill Spirit Lore<br>Soul Sentinel: You gain a +2-class bonus to saving throws against possession and effects that forcibly remove, control or displace your soul. When your Judged Subject is currently possessing another creature, your attacks and Grimward spells may treat the possessing entity as the intended target whenever the effect is capable of affecting it.</p>\n<p>Soul Sentinel — the +2 class bonus is pre-ticked on saves against Possession-trait effects and offered against effects that remove, control or displace your soul.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Spirit Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Soul Sentinel",
+          "scope": "Saving throws against possession and effects that forcibly remove, control or displace your soul",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "possession"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        },
+        {
+          "kind": "modifier",
+          "label": "Soul Sentinel",
+          "scope": "Saving throws against possession and effects that forcibly remove, control or displace your soul",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "possession"
+              ]
+            }
+          },
+          "value": 2,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LGFoqWkDCnPMtZ5i"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "QBJcEWEwleskhq0K",
+  "name": "Oath Hammer",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 6,
+    "price": 30,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "AR 2, Shove",
+    "attackBonus": 0,
+    "damage": "1d8",
+    "damageType": "bludgeoning",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 2,
+    "proficiency": "",
+    "fumbleDC": 16,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Hammer",
+    "category": "Martial",
+    "size": "medium",
+    "itemLevel": 0,
+    "description": "Part ceremonial gavel, part military hammer. Its compact flanged head can deform armour, while its broad reverse face is traditionally struck against stone when witnessing a formal oath.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QBJcEWEwleskhq0K"
+}

@@ -1,0 +1,164 @@
+{
+  "_id": "FdxmFlbs8KGM03ZA",
+  "name": "Plate of the Sealed Sepulchre",
+  "img": "icons/svg/shield.svg",
+  "type": "armour",
+  "system": {
+    "quantity": 1,
+    "weight": 48,
+    "price": 33650,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 123,
+      "max": 123
+    },
+    "traits": "Anchored Soul, Full, Helm, Master, Metal, Potency III, Rigid, Soul Ward",
+    "category": "Heavy",
+    "material": "Metal",
+    "isHelmet": true,
+    "dr": 6,
+    "hardness": 0,
+    "penalty": -5,
+    "proficiency": "",
+    "maxDexBonus": 4,
+    "speedPenalty": -5,
+    "itemLevel": 13,
+    "coversTorso": true,
+    "coversArms": true,
+    "coversLegs": true,
+    "description": "Every seam of this blackened plate can be sealed. The visor closes without leaving so much as a breathing slit, yet the wearer continues to breathe normally. Funeral inscriptions run along the inside of the plates where nobody else can see them.\n\nYou retain the armour's normal +1 item bonus to Fortitude saves against disease and poison transmitted through contact or inhalation. You possess Resistance to essence damage from Soul Warding.\n\nStatistics: ACP -5; MAX DEX 4; DR 6; DB +3; HP 123; Speed -5.\n\nTraits Anchored Soul, Full, Helm, Master, Metal, Potency III, Rigid, Soul Ward.\n\nOn the sheet: a Master Sepulchral Plate with Potency III, Anchored Soul and Soul Ward (Soul Drain you gain is reduced by 10 under Potency III). The plate's +1 item against contact or inhaled disease and poison stands. Resistance to essence from Soul Warding is a note.\n\nPillars of Faith, Chapter 11.",
+    "quality": "master",
+    "runes": "Potency III, Anchored Soul, Soul Ward",
+    "superiorTraits": ""
+  },
+  "effects": [
+    {
+      "_id": "iCHb4qmyJxiAtHJA",
+      "name": "Plate of the Sealed Sepulchre: resistance to essence",
+      "img": "icons/svg/shield.svg",
+      "changes": [
+        {
+          "key": "system.combat.resistances",
+          "mode": 2,
+          "value": ", essence"
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "origin": "",
+      "duration": {},
+      "tint": "#ffffff",
+      "statuses": [],
+      "description": "Resistance to essence damage from Soul Warding, while the plate is worn.",
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "worn": true
+        }
+      },
+      "_key": "!items.effects!FdxmFlbs8KGM03ZA.iCHb4qmyJxiAtHJA"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Sepulchral Plate",
+          "scope": "Fortitude saves against disease and poison transmitted by contact or inhalation",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "fortitude"
+            ],
+            "traits": [
+              "disease",
+              "poison"
+            ]
+          }
+        },
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Sepulchral Plate",
+          "scope": "Fortitude saves against disease and poison by contact or inhalation — tick if this is one",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "fortitude"
+            ],
+            "not": {
+              "traits": [
+                "disease",
+                "poison"
+              ]
+            }
+          }
+        }
+      ],
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 3,
+            "printed": "Potency III"
+          },
+          {
+            "key": "anchoredSoul",
+            "label": "Anchored Soul",
+            "tier": 1,
+            "printed": "Anchored Soul"
+          },
+          {
+            "key": "soulWard",
+            "label": "Soul Ward",
+            "tier": 1,
+            "printed": "Soul Ward"
+          }
+        ],
+        "runeText": "Potency III, Anchored Soul, Soul Ward",
+        "traits": [
+          "Anchored Soul",
+          "Full",
+          "Helm",
+          "Master",
+          "Metal",
+          "Potency III",
+          "Rigid",
+          "Soul Ward"
+        ],
+        "quality": "master",
+        "material": "metal",
+        "printedItemBonus": 3
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FdxmFlbs8KGM03ZA"
+}

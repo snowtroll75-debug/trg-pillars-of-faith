@@ -1,0 +1,92 @@
+{
+  "_id": "Iu90OE1VvntVa2FV",
+  "name": "Velori",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Velori are haunted by learning. Their dreams contain classrooms whose walls have long collapsed, arguments with forgotten teachers and books that no surviving library possesses. A Velori may find an obsolete tool strangely intuitive or experience frustration when confronted with a problem they possess the emotional certainty of once knowing how to solve.<br>This often produces relentless scholars. Velori are strongly represented among Archivists, Folkwarden, historians and investigators, particularly those searching for lost knowledge. Others find the experience deeply frustrating: remembering that an answer once existed is not the same as remembering the answer itself. For such Velori, every recovered fragment of forgotten knowledge feels less like discovery and more like finally completing a sentence interrupted by death.<br>You gain an additional +1 racial bonus to Intelligence and may select any one Lore specialist skill appropriate to a former life.</p>",
+    "sourceRace": "Rhevani",
+    "abilityModifiers": "Int +1",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "ympds9BCO83l2ySU",
+      "name": "Velori: racial adjustments",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.intelligence.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Int +1",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!Iu90OE1VvntVa2FV.ympds9BCO83l2ySU"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "specialistChoice": {
+        "label": "Any one Lore specialist skill appropriate to a former life",
+        "prompt": "The Lore a former life studied",
+        "placeholder": "e.g. Lost Library Lore",
+        "suffix": "Lore"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Iu90OE1VvntVa2FV"
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "hZDxACjOvH1kjzlO",
+  "name": "Greysap",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: underground forests and caverns.\n\nGreysap seeps from pale underground trees in thick chalky ropes, sealing any wound in the bark almost immediately. Raw Greysap is caustic, but repeated washing turns it into a cool, alkaline resin that miners carry in stoppered clay pots. It foams upon contact with corrosive substances and hardens into a protective crust. When applied to yourself or an adjacent creature, it ends one source of persistent acid damage and grants resistance to acid damage for 1 minute.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Greysap",
+          "duration": "1 minute",
+          "effects": [
+            {
+              "kind": "defence",
+              "target": "self",
+              "field": "resistance",
+              "value": "acid",
+              "note": "(resistance to acid)"
+            },
+            {
+              "kind": "conditionRemove",
+              "target": "self",
+              "conditions": [],
+              "recurringType": "acid",
+              "count": 1,
+              "note": "One source of persistent acid damage ends."
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: underground forests and caverns.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 2,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 50,
+        "tablePrice": 50,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hZDxACjOvH1kjzlO"
+}

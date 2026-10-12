@@ -1,0 +1,49 @@
+{
+  "_id": "sBhhTDKA5ZpitB8A",
+  "name": "Read the Room (Expert)",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Sense Motive 5 ranks",
+    "active": true,
+    "description": "<p>EXPERT</p>\n<p>A room rarely says what its occupants are willing to admit.<br>After observing a group of creatures interacting for at least 1 minute, make a Sense Motive check against a DC determined by the GM.<br>Critical - You identify the dominant social relationship within the group and recognise one creature who is concealing significant hostility, fear or divided loyalty, if one exists.<br>Success - You determine the general emotional state of the group and who appears to possess the greatest influence.<br>Partial - You determine the general mood.<br>Failure - You learn nothing reliable.<br>Fumble - You draw an incorrect conclusion.<br>Read the Room does not reveal thoughts or automatically detect lies.</p>\n<p>Prerequisites Sense Motive 5 ranks</p>\n<p>Rolled as a Sense Motive skill action (1 minute) against the GM's DC; the card prints its ladder. Named \"(Expert)\" on the sheet because a core racial feat already bears the name.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Expert",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sBhhTDKA5ZpitB8A"
+}

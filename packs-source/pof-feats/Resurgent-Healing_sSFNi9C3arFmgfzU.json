@@ -1,0 +1,85 @@
+{
+  "_id": "sSFNi9C3arFmgfzU",
+  "name": "Resurgent Healing",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 6 ranks",
+    "active": true,
+    "description": "<p>HEALER</p>\n<p>Your magic reaches beyond normal limits, revitalising even those at death's door.<br>If you magically heal a creature that has the Dying condition, it regains half the normal amount of HP restored by the spell rather than being restored to 1 HP.<br>This feat may restore HP, but it does not remove injuries or reverse death through old age.</p>\n<p>Prerequisites Medicine 6 ranks</p>\n<p>Works automatically: a Dying creature you heal magically regains half the spell's healing (and the Dying step as normal).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "oADlF9wLY4C6ALzs",
+      "name": "Resurgent Healing: Dying creatures regain half",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "healingRider": {
+            "label": "Resurgent Healing",
+            "dyingHalf": true
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "A Dying creature you magically heal regains half the normal amount of HP.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!sSFNi9C3arFmgfzU.oADlF9wLY4C6ALzs"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sSFNi9C3arFmgfzU"
+}

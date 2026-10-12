@@ -1,0 +1,56 @@
+{
+  "_id": "zD4gKQ88W4Knc8zx",
+  "name": "Vowkeeper",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 6000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Invested, Soul",
+    "description": "Requirement You possess a Deific Aspect\n\nThe rune is never completed by its crafter. The final line appears only when the weapon is invested by someone capable of giving it meaning.\n\nDuring your daily preparations, speak a short vow consistent with the Edicts of your Deific Aspect. The vow must describe a concrete duty you reasonably expect to pursue that day.\n\nWhile you are actively acting in furtherance of that vow, the weapon adds your class bonus to damage rolls.\n\nIf you knowingly violate the spoken vow, the rune becomes inactive until your next daily preparations. A trivial, inevitable or deliberately self-serving vow provides no benefit; the GM has final judgement over whether a proposed vow represents a meaningful obligation.\n\nInscribed onto a weapon.\n\nOn the sheet: Offered on the weapon's damage rolls: your class bonus, ticked while you act in furtherance of the vow you spoke at daily preparation. The vow itself, and whether it was kept, is the table's.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 9,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "vowkeeper",
+        "tier": 1,
+        "on": [
+          "weapon"
+        ],
+        "automation": "conditional"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zD4gKQ88W4Knc8zx"
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "UpAdogWYUCfyBgRY",
+  "name": "Echo Reed",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 350,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: regions where two planes border one another.\n\nEcho reed appears where two planes press close together, rising in sparse stands around otherwise still water. Its hollow stem repeats words spoken nearby in a voice too faint for ordinary hearing, sometimes hours after the speaker has departed. A prepared section is held beneath the tongue until it dissolves, carrying deliberate thought along the same unseen resonance. For 10 minutes, you can communicate telepathically with creatures within 30 feet that possess a language. This does not allow you to read thoughts or overcome a language barrier.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 6
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Echo Reed",
+          "duration": "10 minutes",
+          "effects": [
+            {
+              "kind": "note",
+              "text": "You can communicate telepathically with creatures within 30 feet that possess a language. This does not allow you to read thoughts or overcome a language barrier."
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: regions where two planes border one another.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 6,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 350,
+        "tablePrice": 350,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UpAdogWYUCfyBgRY"
+}

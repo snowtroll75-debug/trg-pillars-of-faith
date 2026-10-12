@@ -1,0 +1,147 @@
+{
+  "_id": "4MF05nkpgybZmj4j",
+  "name": "Breath of the Land",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "verdant",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 6,
+    "castAP": 2,
+    "range": "",
+    "area": "20-foot emanation",
+    "targets": "",
+    "duration": "10 minutes",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Breath of the Land",
+        "target": "allies",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Breath of the Land",
+            "scope": "Fortitude saves against environmental hazards",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "subjects": [
+                "fortitude"
+              ]
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Breath of the Land",
+            "scope": "Saving throws against inhaled Poison, airborne Disease and harmful natural spores",
+            "auto": true,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "traits": [
+                "poison",
+                "disease"
+              ]
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Breath of the Land",
+            "scope": "Saving throws against inhaled Poison, airborne Disease and harmful natural spores — tick if this save qualifies",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "not": {
+                "traits": [
+                  "poison",
+                  "disease"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "text": "Ordinary natural difficult terrain costs 5 feet less additional movement (minimum the normal cost). No Resistance and no breathing where there is no air."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the emanation by 10 feet",
+        "mods": {
+          "areaGrowth": 10
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the duration to 1 hour",
+        "mods": {
+          "durationText": "1 hour"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "allies",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Air, Earth, Warding",
+    "description": "AIR EARTH UTILITY WARDING\nTradition verdant\nCast 2 AP (somatic, verbal)\nArea 20-foot emanation\nDuration 10 minutes\n\nFresh air, steady footing and the quiet resilience of the surrounding land follow you.\nYou and willing allies within the area gain:\na +2-status bonus to Fortitude saves against environmental hazards;\na +2-status bonus to saving throws against inhaled Poison, airborne Disease and harmful natural spores; and\nordinary natural difficult terrain costs 5 feet less additional movement, to a minimum of its normal movement cost.\nThe spell does not grant Resistance to elemental damage or permit breathing where no breathable atmosphere exists.\n\nWarping Options:\n+2 PP: Increase the emanation by 10 feet.\n+4 PP: Increase the duration to 1 hour.\n\nPillars of Faith, Chapter 10. The two +2 status save bonuses are scoped rows on you and your allies in the emanation; the terrain relief is a note."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4MF05nkpgybZmj4j"
+}

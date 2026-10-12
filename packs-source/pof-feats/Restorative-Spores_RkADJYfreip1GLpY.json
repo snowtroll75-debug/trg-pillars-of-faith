@@ -1,0 +1,49 @@
+{
+  "_id": "RkADJYfreip1GLpY",
+  "name": "Restorative Spores",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Vaelori growth",
+    "active": true,
+    "description": "<p>HEALING MYRATHI</p>\n<p>Your cleansing spores do more than remove corruption; they encourage damaged flesh to grow around what has been cleansed.<br>Whenever the Purify spell granted by your Vaelori growth successfully removes or Counteracts a poison, disease or similar physical affliction from a living creature, the target also regains Hit Points equal to your level.<br>A creature may receive this additional healing only once from each use of Purify.</p>\n<p>Prerequisites Vaelori growth</p>\n<p>Use after your Vaelori Purify Counteracts an affliction (target the creature): heals them by your level.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healing",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!RkADJYfreip1GLpY"
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "nzGQosJ36UEcd7oo",
+  "name": "Lifebinder",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Healer 1st level",
+    "active": true,
+    "description": "<p>Your gift manifests as raw vitality flowing from you into damaged flesh. Some Lifebinders describe seeing a wounded creature as a pattern of light filled with broken threads. Others experience nothing more supernatural than absolute certainty about where life is slipping away.<br>Specialist Skill Vitality Lore<br>Vital Surge: Once per round, when Gift of Healing applies to a creature, you may maximise the result of one healing die rolled by the triggering spell. If the spell restores only a fixed amount of Hit Points and rolls no healing dice, this ability has no additional effect.</p>\n<p>Vital Surge works automatically: once a round, one die of your healing spell is maximised on the card.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "kgFSkGXhCFNmsIf4",
+      "name": "Lifebinder: Vital Surge",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "healingRider": {
+            "label": "Vital Surge",
+            "maximiseOneDie": true,
+            "oncePerRound": true
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Once per round, one healing die of a spell you cast is maximised.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!nzGQosJ36UEcd7oo.kgFSkGXhCFNmsIf4"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Vitality Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nzGQosJ36UEcd7oo"
+}

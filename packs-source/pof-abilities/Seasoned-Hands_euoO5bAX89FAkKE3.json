@@ -1,0 +1,49 @@
+{
+  "_id": "euoO5bAX89FAkKE3",
+  "name": "Seasoned Hands",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 3,
+    "prerequisites": "Folkwarden 3rd level",
+    "active": true,
+    "description": "<p>At 3rd level, experience has taught you to recognise a dangerous mistake before you commit to it.<br>Whenever you Fumble a Folk Lore check, a check made as part of Read the Signs or Lay to Rest, or a Medicine check made to Treat Disease, Treat Toxin or Treat Wounds, treat the result as a Failure instead. You gain no information or benefit from the failed check but avoid the additional consequences of the Fumble.<br>Furthermore, when treating a non-magical Disease or Poison originating from a natural plant, animal, fungus or environmental substance, you may use Nature instead of Medicine for the check. This does not apply to manufactured alchemical toxins, supernatural afflictions or other substances that your knowledge of the natural world would not reasonably cover.</p>\n<p>Works automatically: a Fumble on Read the Signs, Lay to Rest, Treat Disease, Treat Toxin or Treat Wounds resolves as a Failure (the card says so), and Nature offers Treat Disease and Treat Toxin for natural afflictions.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 3
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!euoO5bAX89FAkKE3"
+}

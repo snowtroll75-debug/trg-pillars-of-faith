@@ -1,0 +1,81 @@
+{
+  "_id": "UxI9c4FAhWDJYvfF",
+  "name": "Staff of the Hospice",
+  "img": "icons/svg/oak.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 4,
+    "price": 6500,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Healing, Invested, Soul, Staff",
+    "description": "Usage held in 1 hand; Weight 4 lbs. Power Points 20; Recharge 2 per day.\n\nThis white ash staff is capped with a small silver lamp. The lamp has no flame, but glows softly whenever somebody nearby is seriously wounded.\n\nActivate Cast a Spell; Effect You expend the required PP to cast a spell from its list.\n\nCraft Requirements Supply one casting of all listed spells at the indicated PP cost\n\nSpells: Cure (2 PP), Restoration (2 PP), Share Burden (4 PP), Soul Sanctuary (8 PP).\n\nOn the sheet: a staff: its four spells are cast from the item's PP.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 20,
+    "itemSize": "medium",
+    "itemLevel": 10,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "chargedItem": {
+        "kind": "staff",
+        "maximumPP": 20,
+        "flexible": false,
+        "recharge": 2,
+        "printedRecharge": 2,
+        "printedPowerPoints": 20,
+        "correctedFromPrinted": false,
+        "spells": [
+          {
+            "name": "Cure",
+            "pp": 2
+          },
+          {
+            "name": "Restoration",
+            "pp": 2
+          },
+          {
+            "name": "Share Burden",
+            "pp": 4
+          },
+          {
+            "name": "Soul Sanctuary",
+            "pp": 8
+          }
+        ],
+        "weaponForm": {
+          "base": "Staff",
+          "quality": "standard",
+          "material": "",
+          "runes": ""
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UxI9c4FAhWDJYvfF"
+}

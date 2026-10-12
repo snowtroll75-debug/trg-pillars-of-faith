@@ -1,0 +1,95 @@
+{
+  "_id": "GG7izxEnecB6Athw",
+  "name": "Unliving Mummy",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 2",
+    "active": true,
+    "description": "<p>ARCHETYPE UNLIVING</p>\n<p>Prerequisites Level 2</p>\n<p>Your corpse has been preserved by funerary rites, embalming curses and the dry patience of the tomb.</p>\n<p>You are bound together by linen, resin, grave-dust and old ritual power. Your body no longer rots in the ordinary manner; it endures as a sealed relic of death, stubbornly resistant to blade and hammer but vulnerable to cleansing flame. You gain the Shared Unliving Base Mods, Resistance to Physical damage and Weakness to Fire.</p>\n<p>Grants Darkvision and the Shared Unliving Base Mods; resistance to physical damage (bludgeoning, piercing, slashing) and weakness to fire. One Unliving archetype per character.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Darkvision, Shared Unliving Base Mods",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "LhpmBbGPc8TaBnWA",
+      "name": "Unliving Mummy: Mummy",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.resistances",
+          "mode": 2,
+          "value": ", physical",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.weaknesses",
+          "mode": 2,
+          "value": ", fire",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Resistance to physical damage; weakness to fire.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!GG7izxEnecB6Athw.LhpmBbGPc8TaBnWA"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GG7izxEnecB6Athw"
+}

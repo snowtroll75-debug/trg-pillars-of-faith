@@ -1,0 +1,51 @@
+{
+  "_id": "l9lgA5HtSOuiMEsi",
+  "name": "Grave Bite",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 4",
+    "active": true,
+    "description": "<p>UNLIVING-ZOMBIE</p>\n<p>Prerequisites Level 4</p>\n<p>Your hunger manifests in a corpse-strong jaw and teeth that tear with dreadful persistence.</p>\n<p>You gain a Bite natural attack that deals 1d6 piercing damage and has finesse and magical traits.</p>\n<p>Grants Grave Bite (1d6 piercing; finesse, magical).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Zombie",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "",
+    "grantedWeapons": "Bite (Unliving Zombie)"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "zombie"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!l9lgA5HtSOuiMEsi"
+}

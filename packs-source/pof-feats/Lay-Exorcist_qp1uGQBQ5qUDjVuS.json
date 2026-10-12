@@ -1,0 +1,49 @@
+{
+  "_id": "qp1uGQBQ5qUDjVuS",
+  "name": "Lay Exorcist",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Religion 3 ranks",
+    "active": true,
+    "description": "<p>You have studied possession as a practical threat rather than a theological abstraction.<br>You may use Religion instead of Occultism when using Trace Possession or Interpret Haunt. Use your Religion ranks to meet those actions' Rank requirements.<br>If you achieve a Success or better using Trace Possession against a currently possessed creature, that creature gains a +1-circumstance bonus to its next saving throw to resist or end the possession before the end of its next turn.<br>This feat identifies and assists against possession; it does not itself Counteract it.</p>\n<p>Prerequisites Religion 3 ranks</p>\n<p>Works automatically: Religion offers Trace Possession and Interpret Haunt to you; Use after a Success or better on Trace Possession (target the possessed creature) to queue their +1 circumstance to the next save against the possession.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "general"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!qp1uGQBQ5qUDjVuS"
+}

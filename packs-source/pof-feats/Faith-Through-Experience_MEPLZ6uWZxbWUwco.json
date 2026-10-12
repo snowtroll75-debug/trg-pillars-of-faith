@@ -1,0 +1,49 @@
+{
+  "_id": "MEPLZ6uWZxbWUwco",
+  "name": "Faith Through Experience",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>CONVICTION HUMAN</p>\n<p>For many humans, conviction is not inherited from ancient blood or whispered by immortal ancestors. It is forged through experience, doubt, discovery and the moments when belief proves meaningful.<br>Once per day, when you achieve a Critical or Heroic result using any one of the following actions, you regain 1 Conviction Point:<br>Identify Spiritual Affliction, Interpret Haunt, Observe Sacred Custom, Perform Last Rites, Recognise Doctrine or Trace Possession.<br>You cannot increase your Conviction Points above your normal maximum Conviction Pool in this way.</p>\n<p>Use once per day after a Critical or Heroic on one of the six actions: regains 1 Conviction Point (to your maximum).</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Human",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Conviction",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MEPLZ6uWZxbWUwco"
+}

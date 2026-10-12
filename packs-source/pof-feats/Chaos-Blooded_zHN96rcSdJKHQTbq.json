@@ -1,0 +1,89 @@
+{
+  "_id": "zHN96rcSdJKHQTbq",
+  "name": "Chaos-Blooded",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Living character",
+    "active": true,
+    "description": "<p>HERITAGE</p>\n<p>The outer planes left something unpredictable in your blood, and certainty seems to loosen around you.<br>You gain the Chaos aligned trait and Nightvision.<br>Furthermore, you may cast Startle as a Divinity innate spell with the Focus trait.</p>\n<p>Prerequisites Living character</p>\n<p>Works automatically: the Chaos aligned trait joins your traits, Nightvision is granted, and Startle is an innate Divinity spell with the Focus trait on your spell list.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Heritage",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "Startle",
+    "grantedAbilities": "Nightvision",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "m2OvuXsDxhfySrRC",
+      "name": "Chaos-Blooded: aligned trait",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.details.traits",
+          "mode": 2,
+          "value": ", Chaos",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Chaos aligned trait.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!zHN96rcSdJKHQTbq.m2OvuXsDxhfySrRC"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true,
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zHN96rcSdJKHQTbq"
+}

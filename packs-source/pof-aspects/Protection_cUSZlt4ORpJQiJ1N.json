@@ -1,0 +1,50 @@
+{
+  "_id": "cUSZlt4ORpJQiJ1N",
+  "name": "Protection",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Protection represents the sacred obligation to stand between danger and those who cannot safely face it themselves. Its followers build walls, maintain sanctuaries, watch through the night and regard preparedness as an expression of devotion. Protection is not dominion: a prison does not become a sanctuary merely because its jailer claims to know what is best. Common symbols include a tower behind a shield, two hands cupped around a flame and an open doorway beneath a watchful eye.\n\nEdicts: Protect those entrusted to your care. Create and maintain places of safety. Prepare for foreseeable dangers. Defend refuges and sanctuaries. Place yourself between serious harm and those unable to defend themselves.\n\nAnathema: Abandon someone entrusted to your protection merely to avoid personal risk. Deliberately expose innocents to danger. Destroy a sanctuary without necessity. Use protection as a pretext to imprison or dominate those who pose no threat.\n\nSuggested Ethics: Benevolence, Discipline, Justice\n\nClass Skill: Perception\n\nSpecialist Spells: Protective Ward (1), Radiant Aegis (1), Sacrificing Shield (1), Wellspring of Valour (1), Protector's Sphere (7), Resilient Fortitude (7), Unity (7), Vigilant Eye (7)\n\nBonus Spells: Shield of Faith (2); Sanctuary (2); Aura (4); Death Ward (10)\n\nFavoured Weapon: Spear\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Good, Order",
+    "edicts": "Protect those entrusted to your care. Create and maintain places of safety. Prepare for foreseeable dangers. Defend refuges and sanctuaries. Place yourself between serious harm and those unable to defend themselves.",
+    "anathema": "Abandon someone entrusted to your protection merely to avoid personal risk. Deliberately expose innocents to danger. Destroy a sanctuary without necessity. Use protection as a pretext to imprison or dominate those who pose no threat.",
+    "suggestedEthics": "Benevolence, Discipline, Justice",
+    "classSkill": "Perception",
+    "favouredWeapon": "Spear",
+    "specialistSpells": "Protective Ward, Radiant Aegis, Sacrificing Shield, Wellspring of Valour, Protector's Sphere, Resilient Fortitude, Unity, Vigilant Eye",
+    "bonusSpells": "2: Shield of Faith, 2: Sanctuary, 4: Aura, 10: Death Ward"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Benevolence",
+        "Discipline",
+        "Justice"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!cUSZlt4ORpJQiJ1N"
+}

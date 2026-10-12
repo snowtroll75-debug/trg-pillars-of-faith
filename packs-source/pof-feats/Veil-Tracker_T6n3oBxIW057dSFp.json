@@ -1,0 +1,49 @@
+{
+  "_id": "T6n3oBxIW057dSFp",
+  "name": "Veil Tracker",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Velari heritage",
+    "active": true,
+    "description": "<p>ESHARI</p>\n<p>Spirits leave no footprints, but passage always leaves some kind of disturbance.<br>You may Track a disembodied spirit, possessing entity or incorporeal creature even when it leaves no physical trail. You may use Spirit Lore instead of Survival for this check.<br>You must have detected the creature using Spirit Sense within the previous hour or possess some other suitable spiritual trace associated with it.</p>\n<p>Prerequisites Velari heritage</p>\n<p>Works automatically: rolling Spirit Lore from the sheet offers Track, rolled with Spirit Lore. Whether a spirit left a trace to follow (Spirit Sense within the hour, or another spiritual trace) is the GM's.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!T6n3oBxIW057dSFp"
+}

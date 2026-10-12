@@ -1,0 +1,83 @@
+{
+  "_id": "4KGgwPFMpPaQD30X",
+  "name": "Rose of Thorns",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 85,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: cursed gardens and temperate ruins.\n\nRose of thorns produces a small, intensely red flower within a cage of black barbs. The plant is often found in ruined gardens where betrayal or violent jealousy once ended a household, though gardeners dispute whether this is cause or superstition. Its thick crimson sap is collected from the thorns and mixed into a clinging weapon dressing. You smear it over one melee weapon or up to 10 pieces of ammunition. The preparation remains potent for 1 minute. The first creature damaged by the treated weapon takes 2 bleed damage, after which the dose is expended.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Rose of Thorns",
+          "duration": "1 minute",
+          "effects": [
+            {
+              "kind": "strikeRider",
+              "target": "self",
+              "label": "Rose of Thorns",
+              "condition": "bleeding",
+              "conditionValue": 2,
+              "conditionRounds": 0,
+              "once": true,
+              "spendOnHit": true,
+              "weaponScoped": true
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: cursed gardens and temperate ruins.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 3,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 85,
+        "tablePrice": 85,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4KGgwPFMpPaQD30X"
+}

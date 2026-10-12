@@ -1,0 +1,84 @@
+{
+  "_id": "vDIQoQjksGGdcSAH",
+  "name": "Pilgrim's Waybread",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 100,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Divinity, Healing",
+    "description": "Usage eaten; Weight 1 lb. Activate 10 minutes.\n\nThe dense bread never tastes particularly good, but everyone who eats it remembers the meal as warmer than it actually was.\n\nAfter eating the bread, you gain the nourishment of a full meal and sufficient water for one day. For 8 hours, you gain a +2-status bonus to checks and saving throws against Exhaustion caused by travel, forced marching, hunger, thirst or ordinary environmental hardship.\n\nIt provides no benefit against magically inflicted Fatigued or Exhaustion unless that effect specifically represents physical deprivation.\n\nOn the sheet: eaten: the +2 status is offered on checks and saves against exhaustion for 8 hours.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "10 minutes",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Pilgrim's Waybread",
+          "duration": "8 hours",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Pilgrim's Waybread",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "status",
+                  "label": "Pilgrim's Waybread",
+                  "scope": "Checks and saving throws against Exhaustion from travel, forced marching, hunger, thirst or ordinary hardship (8 hours)",
+                  "when": {
+                    "checkTypes": [
+                      "save",
+                      "skill",
+                      "attribute",
+                      "flat"
+                    ]
+                  },
+                  "auto": false,
+                  "oneShot": false
+                }
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "A full meal and a day's water. No benefit against magically inflicted Fatigue or Exhaustion unless it represents physical deprivation."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!vDIQoQjksGGdcSAH"
+}

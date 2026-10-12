@@ -1,0 +1,49 @@
+{
+  "_id": "JCKg6q4cHidHEYaL",
+  "name": "Lay to Rest",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>CONCENTRATE MANIPULATE SOUL VERDANT WARDING<br>Action 10 minutes<br>Target One corpse or collection of substantially complete remains<br>You prepare the dead according to traditional funerary practices intended to protect the remains from necromantic misuse, possession and other violations of the natural passage between life and death.<br>Make a Medicine, Nature or Religion check against the deceased creature's Level DC. The GM determines an appropriate DC where the creature's level is unknown.<br>Heroic The remains are protected for 1 year.<br>Critical The remains are protected for 1 month.<br>Success The remains are protected for 1 week.<br>Partial The remains are protected for 24 hours.<br>Failure The rite provides no protection.<br>Fumble Something has been incorrectly prepared. You cannot attempt Lay to Rest upon those remains again until your next daily preparation.<br>While protected, an effect attempting to animate the remains as an Undead creature, possess the remains or bind another soul into them must first successfully Counteract your Lay to Rest.<br>Lay to Rest does not prevent ordinary decomposition, prevent communication with the dead, prevent resurrection, compel a departed soul to remain or depart, destroy an existing Undead creature or affect an Undead creature that has already been created from the remains.</p>\n<p>Rolled as a skill action from Medicine, Nature or Religion (10 minutes) against the deceased creature's Level DC; the card prints the protection ladder.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "Concentrate, Manipulate, Soul, Verdant, Warding",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!JCKg6q4cHidHEYaL"
+}

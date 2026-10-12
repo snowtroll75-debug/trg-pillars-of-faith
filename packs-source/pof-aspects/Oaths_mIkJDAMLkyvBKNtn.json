@@ -1,0 +1,50 @@
+{
+  "_id": "mIkJDAMLkyvBKNtn",
+  "name": "Oaths",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "The aspect of Oaths is the sacred weight of a promise freely given. Its temples serve as courts, neutral meeting places and halls of witness. The aspect is commonly represented by two hands clasped above a hammer, chain or sealed tablet.\nFollowers distinguish carefully between an oath and mere words. A promise obtained through deception or supernatural coercion has little sanctity; a vow knowingly and freely undertaken may bind a faithful person more securely than iron.\n\nEdicts: Keep promises you freely and knowingly make. Record important agreements clearly. Witness sacred oaths impartially. Hold powerful individuals to their sworn obligations as firmly as the weak. Speak plainly when establishing the terms of a vow.\n\nAnathema: Knowingly break a solemn oath without extraordinary justification. Bear false witness concerning a vow you formally witnessed. Deliberately exploit ambiguous wording to violate the clear intent of your promise. Swear falsely with the intention of deceiving another.\n\nSuggested Ethics: Discipline, Justice, Prudence\n\nClass Skill: Diplomacy\n\nSpecialist Spells: Protective Ward (1), Silent Binding (1), Truthful Words (1), Weapon Surge (1), Coercive Retribution (7), Resilient Fortitude (7), Revealing Glance (7), Vigilant Eye (7)\n\nBonus Spells: Command (2); Shield of Faith (2); Consecrate (6); Banishment (10)\n\nFavoured Weapon: Hammer\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Order",
+    "edicts": "Keep promises you freely and knowingly make. Record important agreements clearly. Witness sacred oaths impartially. Hold powerful individuals to their sworn obligations as firmly as the weak. Speak plainly when establishing the terms of a vow.",
+    "anathema": "Knowingly break a solemn oath without extraordinary justification. Bear false witness concerning a vow you formally witnessed. Deliberately exploit ambiguous wording to violate the clear intent of your promise. Swear falsely with the intention of deceiving another.",
+    "suggestedEthics": "Discipline, Justice, Prudence",
+    "classSkill": "Diplomacy",
+    "favouredWeapon": "Hammer",
+    "specialistSpells": "Protective Ward, Silent Binding, Truthful Words, Weapon Surge, Coercive Retribution, Resilient Fortitude, Revealing Glance, Vigilant Eye",
+    "bonusSpells": "2: Command, 2: Shield of Faith, 6: Consecrate, 10: Banishment"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Discipline",
+        "Justice",
+        "Prudence"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mIkJDAMLkyvBKNtn"
+}

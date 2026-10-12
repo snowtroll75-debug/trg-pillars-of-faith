@@ -1,0 +1,52 @@
+{
+  "_id": "ZBI78K005pUWvYh4",
+  "name": "Testimony Kit",
+  "img": "icons/svg/chest.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 2,
+    "price": 10,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "",
+    "description": "Wax tablets, numbered seals, cords, writing implements and impression wax used by Oath Witnesses and Grimwards. It allows testimony and physical evidence to be systematically labelled. At the GM's discretion, properly recorded evidence prevents mundane details such as wording, measurements or the order in which items were found from being forgotten later.\n\nPillars of Faith, Chapter 6.",
+    "slot": "",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "itemSize": "S",
+    "itemLevel": 0,
+    "heldHands": 0,
+    "formulae": "",
+    "gearCategory": "Kits & Tools",
+    "gearCategoryInferred": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZBI78K005pUWvYh4"
+}

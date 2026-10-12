@@ -1,0 +1,51 @@
+{
+  "_id": "ZIHvCWBF2Rkq9XLz",
+  "name": "Dominating Gaze",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 12, Charm of the Night",
+    "active": true,
+    "description": "<p>UNLIVING VAMPIRE</p>\n<p>Prerequisites Level 12, Charm of the Night</p>\n<p>Your eyes become a trap for mortal will.</p>\n<p>You gain Dominate as an ethereal innate spell with the focus trait. The target must be able to see or hear you, and the effect is visibly vampiric unless concealed by magic or circumstances.</p>\n<p>Grants Dominate as an innate spell with the Focus trait. The target must see or hear you; the effect is visibly vampiric.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Vampire",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "Dominate",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true,
+      "bookCategory": "unliving",
+      "unlivingGroup": "vampire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZIHvCWBF2Rkq9XLz"
+}

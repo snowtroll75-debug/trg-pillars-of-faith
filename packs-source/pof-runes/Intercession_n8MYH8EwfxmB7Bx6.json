@@ -1,0 +1,56 @@
+{
+  "_id": "n8MYH8EwfxmB7Bx6",
+  "name": "Intercession",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 4200,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Chance, Invested, Soul, Warding",
+    "description": "Activate Reaction\n\nTrigger An ally within 10 feet fails a saving throw against Fear, possession or an effect with the Soul trait\n\nFrequency 1/day\n\nThe shield's inscription depicts one figure standing between another and a descending hand.\n\nThe triggering ally may reroll the saving throw and must use the second result.\n\nIf the rerolled save succeeds, the shield emits a brief tone or flash appropriate to the tradition in which the rune was created.\n\nInscribed onto a shield.\n\nOn the sheet: Offered the moment an ally within 10 feet fails such a save (once a day; the shield's reaction): the save is rerolled and the second result stands.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 9,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "intercession",
+        "tier": 1,
+        "on": [
+          "shield"
+        ],
+        "automation": "event"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!n8MYH8EwfxmB7Bx6"
+}

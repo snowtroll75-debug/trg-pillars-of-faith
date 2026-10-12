@@ -1,0 +1,50 @@
+{
+  "_id": "4TKfuDmueHHw2Gxf",
+  "name": "Charmwright",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>You specialise in knots, carved tokens, herb bundles and other portable protections.<br>Specialist Skill Charm Lore<br>Many-Layered Charm Whenever you create a Warding Charm, select two of its protection categories instead of one. The charm is still expended after it is activated once, regardless of which protection triggered it.</p>\n<p>Many-Layered Charm — Warding Charm's Use offers two protections.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Charm Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4TKfuDmueHHw2Gxf"
+}

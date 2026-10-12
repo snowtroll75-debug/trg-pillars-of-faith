@@ -1,0 +1,95 @@
+{
+  "_id": "6CQp3HvZuUZ3NaKQ",
+  "name": "Bloom of the Ancestral Grove",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 8,
+    "price": 28500,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Master, Potency III, Reach, Remembrance, Requiem I, Sweep, Trip",
+    "attackBonus": 0,
+    "damage": "1d8",
+    "damageType": "slashing",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 20,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Polearm",
+    "category": "Exotic",
+    "size": "large",
+    "itemLevel": 14,
+    "description": "Pale fungal growth constantly covers the haft of this Myrathi scythe. When scraped away it returns before sunrise, bearing tiny patterns which older Myrathi insist resemble remembered faces.\n\nOnce per round when you score a Critical hit, you may immediately attempt a Recall Knowledge check concerning the target as a Free (0 AP) action. The first successful Strike each round against an Undead or Unliving creature inflicts 1d6 secondary essence damage.\n\nStatistics: AB +3; Damage 1d8+2 S; Size L; FDC 20.\n\nTraits Master, Potency III, Reach, Remembrance, Requiem I, Sweep, Trip.\n\nOn the sheet: a Master Bloom Scythe with Potency III, Remembrance (a Critical's card offers the free Recall Knowledge) and Requiem I (1d6 essence on the first hit each round against an Undead or Unliving creature).\n\nPillars of Faith, Chapter 11.",
+    "quality": "master",
+    "material": "",
+    "runes": "Potency III, Remembrance, Requiem I",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 3,
+            "printed": "Potency III"
+          },
+          {
+            "key": "remembrance",
+            "label": "Remembrance",
+            "tier": 1,
+            "printed": "Remembrance"
+          },
+          {
+            "key": "requiem",
+            "label": "Requiem",
+            "tier": 1,
+            "printed": "Requiem I"
+          }
+        ],
+        "runeText": "Potency III, Remembrance, Requiem I",
+        "traits": [
+          "Master",
+          "Potency III",
+          "Reach",
+          "Remembrance",
+          "Requiem I",
+          "Sweep",
+          "Trip"
+        ],
+        "quality": "master",
+        "material": "",
+        "printedItemBonus": 3
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6CQp3HvZuUZ3NaKQ"
+}

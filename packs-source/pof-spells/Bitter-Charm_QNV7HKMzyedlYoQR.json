@@ -1,0 +1,125 @@
+{
+  "_id": "QNV7HKMzyedlYoQR",
+  "name": "Bitter Charm",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 1,
+    "range": "touch",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Bitter Charm",
+        "target": "targets",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Bitter Charm",
+            "scope": "The first saving throw against a Disease or Poison effect (once; then the charm ends)",
+            "auto": true,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "traits": [
+                "disease",
+                "poison"
+              ]
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Bitter Charm",
+            "scope": "The first saving throw against a Disease or Poison effect (once; then the charm ends) — tick if this save qualifies",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "not": {
+                "traits": [
+                  "disease",
+                  "poison"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Target one additional willing creature",
+        "mods": {
+          "extraTargets": 1
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "The charm may provide its bonus twice before ending",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Folkwarden",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": false,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Healing, Warding",
+    "description": "FOLKWARDEN HEALING UTILITY WARDING\nFolkwarden Specialist Spell\nCast 1 AP (material, somatic)\nRange touch\nTargets 1 willing creature\nDuration 1 minute\n\nYou press a bitter herb, seed, sliver of bark or similarly traditional protective ingredient into the target's hand, beneath their tongue or against their skin.\nThe first time during the duration that the target attempts a saving throw against a Disease or Poison effect, it gains a +2-status bonus to that saving throw.\nBitter Charm then ends.\nThe spell does not remove an existing Disease or Poison and provides no protection against an effect merely because it originates from a poisonous creature if the effect itself does not possess an appropriate trait.\n\nWarping Options:\n+1 PP: Target one additional willing creature.\n+2 PP: The charm may provide its bonus twice before ending.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QNV7HKMzyedlYoQR"
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "hgW5dxnoGUaCdgt3",
+  "name": "Scholarly Exegesis",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Archivist 1st level",
+    "active": true,
+    "description": "<p>You have been trained to approach religion as a discipline of investigation rather than relying entirely upon intuition or faith.<br>When you make a Religion check to Recall Knowledge, identify a Divinity spell or magical effect, interpret religious doctrine, recognise sacred symbolism, study a religious rite or understand a sacred text, you may use Intelligence in place of the ability score normally associated with that check.<br>This does not change the ability score used for unrelated Religion actions where academic knowledge is irrelevant.</p>\n<p>Works automatically: on every Religion check a row offers Intelligence in place of Wisdom (the difference between the two) — tick it when the check is academic.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Archivist",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Archivist",
+        "level": 1
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Scholarly Exegesis",
+          "scope": "An academic Religion check — Intelligence in place of Wisdom",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "religion"
+            ]
+          },
+          "valueFrom": "intelligence-wisdom",
+          "type": "untyped"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hgW5dxnoGUaCdgt3"
+}

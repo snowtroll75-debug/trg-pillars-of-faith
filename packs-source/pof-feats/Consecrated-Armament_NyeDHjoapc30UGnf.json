@@ -1,0 +1,49 @@
+{
+  "_id": "NyeDHjoapc30UGnf",
+  "name": "Consecrated Armament",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "BAB +4, Divine Aspect",
+    "active": true,
+    "description": "<p>MARTIAL</p>\n<p>Your weapon has become inseparable from the vows under which you wield it.<br>Select the favoured weapon of your Divine Aspect. Attacks you make with that weapon are treated as Magical for the purpose of overcoming Resistance and Immunity.<br>Once per round, when you score a Critical hit with that weapon against an Undead creature, an Eternal creature of an opposing aligned trait, or a creature directly responsible for desecrating a site sacred to your Aspect, you inflict an additional 1d6 Essence damage.<br>The GM determines whether the final category applies; it should represent direct involvement rather than mere religious disagreement.</p>\n<p>Prerequisites BAB +4, Divine Aspect</p>\n<p>Use once to bind it to your Aspect's favoured weapon: attacks with that weapon count as Magical for Resistance and Immunity, and once a round a Critical hit with it against an Undead creature adds 1d6 Essence on the damage card. An opposing Eternal or a desecrator is the GM's call — the card says when the die did not fire.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Martial",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!NyeDHjoapc30UGnf"
+}

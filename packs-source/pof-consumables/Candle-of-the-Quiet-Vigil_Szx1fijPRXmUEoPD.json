@@ -1,0 +1,107 @@
+{
+  "_id": "Szx1fijPRXmUEoPD",
+  "name": "Candle of the Quiet Vigil",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 150,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Divinity, Mental, Warding",
+    "description": "Usage placed. Activate Interact (2 AP).\n\nThe blue wax burns without shortening until the magic is exhausted.\n\nThe candle burns for 8 hours, providing dim light within 10 feet. A willing creature that spends at least 1 hour resting within its light gains a +2-status bonus to saving throws against Fear, possession and harmful dream effects until it completes its next Full Rest.\n\nA creature may benefit from only one Candle of the Quiet Vigil between Full Rests.\n\nOn the sheet: used by the creature that rested an hour in its light: the +2 status rides their saves (pre-ticked against Fear, possession and dream effects) until their next Full Rest — the effect is written for 24 hours; end it at the Full Rest.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 4
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Candle of the Quiet Vigil",
+          "duration": "24 hours",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Candle of the Quiet Vigil",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "status",
+                  "label": "Candle of the Quiet Vigil",
+                  "scope": "Saving throws against Fear, possession and harmful dream effects (after an hour's rest in its light, until your next Full Rest)",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "traits": [
+                      "fear",
+                      "possession",
+                      "dream"
+                    ]
+                  },
+                  "auto": true,
+                  "oneShot": false
+                },
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "status",
+                  "label": "Candle of the Quiet Vigil",
+                  "scope": "Saving throws against Fear, possession and harmful dream effects — tick if this is one",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "not": {
+                      "traits": [
+                        "fear",
+                        "possession",
+                        "dream"
+                      ]
+                    }
+                  },
+                  "auto": false,
+                  "oneShot": false
+                }
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "Burns for 8 hours with dim light to 10 feet. One candle's benefit between Full Rests."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Szx1fijPRXmUEoPD"
+}

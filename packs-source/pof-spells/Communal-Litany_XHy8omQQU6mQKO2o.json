@@ -1,0 +1,111 @@
+{
+  "_id": "XHy8omQQU6mQKO2o",
+  "name": "Communal Litany",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "",
+    "area": "30-foot emanation",
+    "targets": "",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "declare",
+        "target": "targets",
+        "label": "Communal Litany",
+        "flags": {
+          "saveConvert": {
+            "label": "Communal Litany",
+            "saves": [
+              "fortitude",
+              "reflex",
+              "will"
+            ],
+            "traits": [
+              "curse",
+              "fear",
+              "mental",
+              "soul"
+            ],
+            "improve": true,
+            "uses": 1
+          }
+        }
+      },
+      {
+        "kind": "note",
+        "text": "The benefit is lost while outside the emanation and returns on re-entry if unused — the GM declines the offer for a creature outside it. With the +2 PP warp it may be used twice, never twice against the same effect."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the emanation by 10 feet",
+        "mods": {
+          "areaGrowth": 10
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "A creature may use the benefit twice during the duration, but never more than once against the same effect",
+        "mods": {
+          "declareUses": 1
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "allies",
+    "specialist": true,
+    "specialistClass": "Cleric",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Auditory, Soul",
+    "description": "AUDITORY CLERIC SOUL UTILITY\nCleric Specialist Spell\nCast 2 AP (verbal)\nArea 30-foot emanation\nDuration 1 minute\n\nYou begin a sustained litany of reassurance, doctrine and shared conviction. Those who hear you draw strength from the certainty of those standing beside them.\nYou and willing allies within the emanation gain the following benefit.\nOnce during the spell's duration, when an affected creature attempts a saving throw against an effect possessing the Curse, Fear, Mental or Soul trait, it may improve the final result of that saving throw by one degree.\nFailure becomes Partial.\nPartial becomes Success.\nFumble becomes Failure.\nBlunder becomes Fumble.\nA creature must decide to use this benefit after the saving throw is rolled but before its effects are resolved.\nOnce a creature has improved a saving throw using Communal Litany, it cannot benefit from the spell again during that casting.\nThe benefit is lost while outside the emanation but returns if the creature re-enters before the spell ends, provided it has not already used its benefit.\n\nWarping Options:\n+2 PP: Increase the emanation by 10 feet.\n+2 PP: A creature may use the benefit twice during the duration, but never more than once against the same effect.\n\nPillars of Faith, Chapter 10. Each ally in the emanation may improve one saving throw against a Curse, Fear, Mental or Soul effect by one degree — offered after the roll."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XHy8omQQU6mQKO2o"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "IndAGTlTxuv5HN7x",
+  "name": "Lifebearer",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Divinity caster, Medicine 2 ranks, Non-Healer",
+    "active": true,
+    "description": "<p>ADEPT</p>\n<p>Healing magic responds to you with an immediacy that suggests something deeper than ordinary magical training.<br>You gain the Healer's Touch Healer class ability:<br>You may also select either Medicine, Meditation or Religion as a class skill.<br>Finally, you may learn feats possessing the Healer (Adept) trait.</p>\n<p>Prerequisites Divinity caster, Medicine 2 ranks, Non-Healer</p>\n<p>Progression Requirements Medicine +10 ranks</p>\n<p>Works automatically: Healer's Touch arrives as a Focus ability; Use this feat to choose Medicine, Meditation or Religion as a class skill; Healer class feats open to you.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Healer's Touch",
+    "grantedFeats": "",
+    "progressionRequirements": "Medicine +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IndAGTlTxuv5HN7x"
+}

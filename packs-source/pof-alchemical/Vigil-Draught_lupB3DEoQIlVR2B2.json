@@ -1,0 +1,80 @@
+{
+  "_id": "lupB3DEoQIlVR2B2",
+  "name": "Vigil Draught",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Alchemical Consumable",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (1 AP).</strong>\n\nA fiercely bitter stimulant traditionally drunk by guards conducting all-night vigils. For 1 hour, you ignore the penalties imposed by Fatigued 1. The condition is not removed and its duration continues normally. When the effect ends, any remaining Fatigued condition immediately affects you normally. You cannot benefit from another Vigil Draught until you have completed a Full Rest.\n\nOn the sheet: The condition is not removed and its duration continues; when the effect ends any remaining Fatigued applies normally. You cannot benefit from another Vigil Draught until you have completed a Full Rest.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (1 AP)",
+    "itemLevel": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "elixir",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Vigil Draught",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "suppress",
+              "label": "Vigil Draught",
+              "target": "self",
+              "condition": "fatigued",
+              "amount": 1
+            }
+          ],
+          "note": "The condition is not removed and its duration continues; when the effect ends any remaining Fatigued applies normally. You cannot benefit from another Vigil Draught until you have completed a Full Rest."
+        }
+      },
+      "alchemical": {
+        "section": "Other",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 2,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 50,
+        "tablePrice": 50,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!lupB3DEoQIlVR2B2"
+}

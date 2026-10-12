@@ -1,0 +1,85 @@
+{
+  "_id": "XkAwzIo09atapXiR",
+  "name": "Living Concordance",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 13, Liturgical Revision",
+    "active": true,
+    "description": "<p>ARCHIVIST</p>\n<p>Your Prayer Book has become a web of references, alternate formulae and theological correspondences through which entire sections of your prepared magic can be reconstructed together.<br>Whenever you successfully use Spell Substitution to replace a memorised Divinity spell with another spell recorded within your Prayer Book, you may replace two memorised Divinity spells instead of one.<br>Select both replacement spells before making the check. Both replacement spells must be recorded within your Prayer Book, and you must be capable of casting them.<br>Make a single Meditation check using the higher Casting DC of the two replacement spells. The result applies to the entire substitution.<br>If the check fails, neither spell is replaced.<br>The restrictions governing when you may next use Spell Substitution are determined by the result of this single check as normal.</p>\n<p>Prerequisites Level 13, Liturgical Revision</p>\n<p>Works automatically: Spell Substitution asks for the higher Casting DC of two replacement spells and its card says both are swapped on a success, neither on a failure.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Archivist",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "lGkeB6CXs3HPu7He",
+      "name": "Living Concordance: Living Concordance",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "spellSubstitution": {
+            "count": 2,
+            "label": "Living Concordance"
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Spell Substitution replaces up to two memorised Divinity spells on one Meditation check, against the higher Casting DC.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!XkAwzIo09atapXiR.lGkeB6CXs3HPu7He"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XkAwzIo09atapXiR"
+}

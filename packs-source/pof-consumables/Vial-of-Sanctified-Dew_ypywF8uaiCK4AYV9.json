@@ -1,0 +1,126 @@
+{
+  "_id": "ypywF8uaiCK4AYV9",
+  "name": "Vial of Sanctified Dew",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 900,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Divinity, Healing, Soul",
+    "description": "Usage held in 1 hand. Activate Interact (2 AP).\n\nThe liquid is gathered before dawn from a place where somebody was once healed without payment or obligation.\n\nDrink the vial or administer it to an adjacent willing or helpless creature. Choose one: reduce Soul Drain by 5; reduce Dazed by 1; reduce Weakened by 1; or grant a +4-status bonus to the next saving throw against possession attempted within 1 hour.\n\nThe same creature cannot benefit from another Vial of Sanctified Dew until after a Full Rest.\n\nOn the sheet: drunk or administered (target an adjacent creature to feed it): choose one of the four effects at the Use; the Full Rest limit is a note.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 8
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Vial of Sanctified Dew",
+          "choose": [
+            {
+              "label": "Reduce Soul Drain by 5",
+              "effects": [
+                {
+                  "kind": "conditionRelief",
+                  "label": "Vial of Sanctified Dew",
+                  "target": "self",
+                  "condition": "soulDrain",
+                  "amount": 5
+                }
+              ]
+            },
+            {
+              "label": "Reduce Dazed by 1",
+              "effects": [
+                {
+                  "kind": "conditionRelief",
+                  "label": "Vial of Sanctified Dew",
+                  "target": "self",
+                  "condition": "dazed",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "label": "Reduce Weakened by 1",
+              "effects": [
+                {
+                  "kind": "conditionRelief",
+                  "label": "Vial of Sanctified Dew",
+                  "target": "self",
+                  "condition": "weakened",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "label": "+4 status to the next saving throw against possession (1 hour)",
+              "effects": [
+                {
+                  "kind": "conditional",
+                  "label": "Vial of Sanctified Dew",
+                  "target": "self",
+                  "grants": [
+                    {
+                      "kind": "modifier",
+                      "value": 4,
+                      "bonusType": "status",
+                      "label": "Vial of Sanctified Dew",
+                      "scope": "The next saving throw against possession within 1 hour",
+                      "when": {
+                        "checkTypes": [
+                          "save"
+                        ],
+                        "traits": [
+                          "possession"
+                        ]
+                      },
+                      "auto": true,
+                      "oneShot": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "kind": "note",
+              "text": "The same creature cannot benefit from another Vial of Sanctified Dew until after a Full Rest."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ypywF8uaiCK4AYV9"
+}

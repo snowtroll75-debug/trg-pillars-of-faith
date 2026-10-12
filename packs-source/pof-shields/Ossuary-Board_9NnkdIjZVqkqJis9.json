@@ -1,0 +1,53 @@
+{
+  "_id": "9NnkdIjZVqkqJis9",
+  "name": "Ossuary Board",
+  "img": "icons/svg/shield.svg",
+  "type": "shield",
+  "system": {
+    "quantity": 1,
+    "weight": 18,
+    "price": 180,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 25,
+      "max": 25
+    },
+    "traits": "",
+    "dr": 1,
+    "hardness": 0,
+    "brokenThreshold": 0,
+    "proficiency": "",
+    "penalty": -3,
+    "defenceBonus": 3,
+    "category": "heavy",
+    "metal": false,
+    "itemLevel": 2,
+    "shieldBashDamage": "1d6",
+    "shieldBashFumbleDC": 8,
+    "shieldBashDamageType": "bludgeoning",
+    "description": "A brutal rectangular shield traditionally constructed from layered timber, hide and ornamental bone. A Shield Bash made with an Ossuary Board gains the Shove trait.\n\nOn the sheet: the Shove on a Shield Bash is a note — resolve the Shove by hand after a hit.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9NnkdIjZVqkqJis9"
+}

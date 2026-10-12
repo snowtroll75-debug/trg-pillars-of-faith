@@ -1,0 +1,48 @@
+{
+  "_id": "wCGY02D8OG2rQ08r",
+  "name": "Lumari",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Lumari are lantern-bearers, escorts and comforters of the dying. Their softly luminous bodies have made them enduring symbols of the Last Road, and many Eshari communities choose Lumari to accompany funeral processions after sunset.<br>Their role extends far beyond ceremony. Lumari frequently become guides, hospice workers and travellers who seek those likely to die far from home. The light they carry is traditionally regarded not as something that drives darkness away, but as a promise that somebody remains present within it. Many Lumari therefore cultivate calm, patient personalities, remaining beside the frightened or dying long after others have found excuses to leave.<br>You emit dim light within 10 feet and can suppress or restore this light as a 1 AP action with the Concentrate trait. Furthermore, you gain Guidance as a divinity innate cantrip with the Focus trait.</p>",
+    "sourceRace": "Eshari",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "Guidance",
+    "racialAbilities": "Lantern Glow",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!wCGY02D8OG2rQ08r"
+}

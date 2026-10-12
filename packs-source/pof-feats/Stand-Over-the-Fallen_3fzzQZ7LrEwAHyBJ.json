@@ -1,0 +1,66 @@
+{
+  "_id": "3fzzQZ7LrEwAHyBJ",
+  "name": "Stand Over the Fallen",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "BAB +6",
+    "active": true,
+    "description": "<p>MARTIAL</p>\n<p>You refuse to let an enemy reach the helpless while you still have strength to stand.<br>While you are adjacent to a living ally who possesses the Dying condition, you gain a +1-circumstance bonus to DB and a +2-circumstance bonus to checks and saving throws made to resist being moved away from that ally.<br>In addition, enemies moving out of your reach while also adjacent to that Dying ally provoke an Attack of Opportunity from you if you possess an ability capable of making one.<br>The Attack of Opportunity gained from this feat still uses your reactions but provokes on any action regardless of whether that action normally avoids (such as Step or Mobility).</p>\n<p>Prerequisites BAB +6</p>\n<p>Works automatically: +2 circumstance against being moved is offered with the book's wording; Use to mark that you stand over a Dying ally — +1 circumstance to DB lands until you Use again. The Attack of Opportunity is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Martial",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Stand Over the Fallen",
+          "scope": "Checks and saving throws to resist being moved away from an adjacent Dying ally",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save",
+              "skill",
+              "attribute"
+            ]
+          },
+          "value": 2,
+          "type": "circumstance"
+        }
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!3fzzQZ7LrEwAHyBJ"
+}

@@ -1,0 +1,107 @@
+{
+  "_id": "JVvH0ZXHCHrFpflV",
+  "name": "Forbidden Name",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "save",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "60 feet",
+    "area": "",
+    "targets": "1 creature",
+    "duration": "See text",
+    "defence": "Will",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "weakened",
+        "value": 1,
+        "onSave": [
+          "success"
+        ]
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "weakened",
+        "value": 2,
+        "onSave": [
+          "failure"
+        ]
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "weakened",
+        "value": 3,
+        "onSave": [
+          "fumble",
+          "blunder"
+        ]
+      },
+      {
+        "kind": "note",
+        "text": "Requires: the target identified through Recall Knowledge, or its true name or sacred title. On a Fumble it also cannot become Invisible or Incorporeal or use Teleportation until the end of its next turn. Warped (+4 PP): Frightened 2 on a Failure or Fumble."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 4,
+        "text": "On a Failure or Fumble, the target also becomes Frightened 2 when the spell takes effect",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Archivist",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Enchantment, Mental, Soul",
+    "description": "ARCHIVIST ENCHANTMENT MENTAL SAVE SOUL\nArchivist Specialist Spell\nCast 2 AP (verbal)\nRange 60 feet\nTargets 1 creature\nSaving Throw Will\nDuration See text\n\nRequirements You have successfully identified the target through Recall Knowledge, or possess its true name, secret sacred title or another unique supernatural designation judged sufficient by the GM.\nYou pronounce a designation so exact that the target's own essence recognises it.\nCritical: The target is unaffected.\nSuccess: The target becomes Weakened 1 until the end of its next turn.\nFailure: The target becomes Weakened 2 for 1 minute.\nFumble: The target becomes Weakened 3 for 1 minute. Until the end of its next turn, it also cannot become Invisible or Incorporeal, nor use Teleportation effects.\n\nWarping Options:\n+4 PP: On a Failure or Fumble, the target also becomes Frightened 2 when the spell takes effect.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!JVvH0ZXHCHrFpflV"
+}

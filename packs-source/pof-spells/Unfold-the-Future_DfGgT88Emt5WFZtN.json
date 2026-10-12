@@ -1,0 +1,97 @@
+{
+  "_id": "DfGgT88Emt5WFZtN",
+  "name": "Unfold the Future",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "pending",
+        "target": "targets",
+        "label": "Portent (Unfold the Future)",
+        "swing": "advantage",
+        "scope": "Spend a Portent before an attack roll, saving throw or skill check — one per check",
+        "uses": 3,
+        "turns": 10
+      },
+      {
+        "kind": "note",
+        "text": "Unused Portents vanish when the spell ends (ten of the target's turns). A second target with the +4 PP warp holds its own three rather than sharing the pool."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 4,
+        "text": "Gain one additional Portent",
+        "mods": {
+          "heldUses": 1
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Target one additional willing creature. All affected creatures share the same pool of Portents",
+        "mods": {
+          "extraTargets": 1
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Archivist",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Insight",
+    "description": "ARCHIVIST INSIGHT UTILITY\nArchivist Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nTargets 1 willing creature\nDuration 1 minute\n\nYou unfold several possible moments from the creature's immediate future and leave them hanging at the edge of its perception.\nThe target gains three Portents.\nBefore attempting an attack roll, saving throw or skill check, the target may expend one Portent to gain Advantage on that check. The Portent must be expended before the roll is made.\nOnly one Portent may be expended on a single check. All unused Portents disappear when the spell ends.\n\nWarping Options:\n+4 PP: Gain one additional Portent.\n+4 PP: Target one additional willing creature. All affected creatures share the same pool of Portents.\n\nPillars of Faith, Chapter 10. Three Portents on the target: one offered advantage, ticked before a roll and counted down as it is spent."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DfGgT88Emt5WFZtN"
+}

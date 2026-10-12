@@ -1,0 +1,70 @@
+{
+  "_id": "AEAK2hhuoEbKlac3",
+  "name": "Consecrated Craft",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Crafting 1 rank",
+    "active": true,
+    "description": "<p>You understand that sacred craftsmanship is as much about meaning and placement as it is about stone, timber and metal.</p>\n<p>Prerequisites Crafting 1 rank</p>\n<p>You gain a +2 circumstance bonus to Create and Repair checks involving shrines, altars, reliquaries, funerary objects, holy symbols and other items primarily intended for religious or ritual use.</p>\n<p>You may also use Crafting instead of Culture when using Trace Religious Provenance upon a crafted religious object or architectural feature. Use your Crafting ranks to meet the action's Rank requirement.</p>\n<p>Be aware that this does not allow Crafting to identify magical properties.</p>\n<p>The +2 is offered on Create and Repair checks with the book's wording — tick when the object is religious or ritual. Trace Religious Provenance is offered from your Crafting skill as well as Culture.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Consecrated Craft",
+          "scope": "Create or Repair checks involving shrines, altars, reliquaries, funerary objects, holy symbols or other religious/ritual items",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "crafting"
+            ],
+            "actions": [
+              "create",
+              "repair"
+            ]
+          },
+          "value": 2,
+          "type": "circumstance"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AEAK2hhuoEbKlac3"
+}

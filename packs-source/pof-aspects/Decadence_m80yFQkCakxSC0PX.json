@@ -1,0 +1,50 @@
+{
+  "_id": "m80yFQkCakxSC0PX",
+  "name": "Decadence",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Decadence sanctifies appetite without restraint. Wealth exists to be displayed; pleasure exists to be consumed and anything sufficiently desirable justifies the means required to acquire it. Where Beauty creates something worth admiring, Decadence asks who gets to possess it - and why anyone else should be allowed a share.\nIts temples can be magnificent places of feasting, intoxicants, art, gambling and excess, frequently financed by populations that will never cross their doors. Common symbols include overflowing cups, jewelled masks, peacock feathers and fruit split open at the point of ripeness.\n\nEdicts: Pursue extraordinary pleasure and sensation. Conspicuously display wealth or status. Tempt others away from restraint. Turn privilege into personal gratification. Acquire luxuries that others cannot easily possess.\n\nAnathema: Practise lasting abstinence from moral conviction when indulgence is readily available. Surrender valuable luxuries without obtaining pleasure, influence or advantage in return. Deny yourself gratification solely because others lack the same opportunity. Destroy something desirable when it could instead be possessed or consumed.\n\nSuggested Ethics: Ambition, Deception, Malevolence\n\nClass Skill: Deception\n\nSpecialist Spells: Revelation Divine (1), Soothing Words (1), Song of Despair (1), Veiled Presence (1), False Arrogance (7), Fateful Temptation (7), Unity (7), Veiled Secret (7)\n\nBonus Spells: Charm Kind (2); Enthrall (6); Dominate (14); Deific Presence (18)\n\nFavoured Weapon: Sword\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Chaos, Evil",
+    "edicts": "Pursue extraordinary pleasure and sensation. Conspicuously display wealth or status. Tempt others away from restraint. Turn privilege into personal gratification. Acquire luxuries that others cannot easily possess.",
+    "anathema": "Practise lasting abstinence from moral conviction when indulgence is readily available. Surrender valuable luxuries without obtaining pleasure, influence or advantage in return. Deny yourself gratification solely because others lack the same opportunity. Destroy something desirable when it could instead be possessed or consumed.",
+    "suggestedEthics": "Ambition, Deception, Malevolence",
+    "classSkill": "Deception",
+    "favouredWeapon": "Sword",
+    "specialistSpells": "Revelation Divine, Soothing Words, Song of Despair, Veiled Presence, False Arrogance, Fateful Temptation, Unity, Veiled Secret",
+    "bonusSpells": "2: Charm Kind, 6: Enthrall, 14: Dominate, 18: Deific Presence"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Ambition",
+        "Deception",
+        "Malevolence"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!m80yFQkCakxSC0PX"
+}

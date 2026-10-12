@@ -1,0 +1,83 @@
+{
+  "_id": "XPGhPmZdBnRDFtSg",
+  "name": "Pilgrim's Waystone",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 3000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Insight, Invested",
+    "description": "Usage worn or carried; Weight 1 lb.\n\nThese palm-sized stones are engraved on one side with a road and on the other with a doorway. A Waystone grows faintly warmer when its bearer travels towards a place where they were once genuinely welcomed.\n\nYou gain a +2-status bonus to Survival checks made to navigate, avoid becoming lost or follow recognised pilgrimage routes. When you first invest the stone, designate one settlement, shrine, sanctuary or other fixed place you have personally visited. While on the same plane, you always know its general direction.\n\nYou also gain the Walk the Road ability:\n\nWalk the Road:\n\nActivate Command (1 AP)\n\nFrequency 1/day\n\nYou gain the effects of Long Stride. The Waystone does not reveal a safe route or distance to the designated location.\n\nOn the sheet: +2 status is offered on Survival to navigate; Walk the Road is Long Stride as an innate spell, 1/day. The designated place and its direction are the table's.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 7,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": false,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "spell",
+            "spell": "Long Stride",
+            "frequency": "daily",
+            "label": "Walk the Road",
+            "castAP": 1,
+            "note": "Command (1 AP)"
+          }
+        ]
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Pilgrim's Waystone",
+          "scope": "Survival checks to navigate, avoid becoming lost or follow a recognised pilgrimage route",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "survival"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XPGhPmZdBnRDFtSg"
+}

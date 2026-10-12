@@ -1,0 +1,99 @@
+{
+  "_id": "IUwPzWWNtRS17V3i",
+  "name": "Necromantic Resistances",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 14",
+    "active": true,
+    "description": "<p>UNLIVING-LICH</p>\n<p>Prerequisites Level 14</p>\n<p>Your body becomes a perfected vessel for old magic and selective ruin.</p>\n<p>You gain Resistance to Piercing damage and Resistance to Slashing damage. In addition, choose Cold or Electricity. You gain Immunity to the chosen damage type.</p>\n<p>Works automatically: resistance to piercing and slashing. Use to choose Cold or Electricity: the chosen immunity arrives as an ability.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Lich",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "FQol2ldUp8yzSKY6",
+      "name": "Necromantic Resistances: Resistances",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.resistances",
+          "mode": 2,
+          "value": ", piercing",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.resistances",
+          "mode": 2,
+          "value": ", slashing",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Resistance to piercing and slashing.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!IUwPzWWNtRS17V3i.FQol2ldUp8yzSKY6"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "abilityChoices": [
+        "Cold Immunity (Necromantic Resistances)",
+        "Electricity Immunity (Necromantic Resistances)"
+      ],
+      "bookCategory": "unliving",
+      "unlivingGroup": "lich"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IUwPzWWNtRS17V3i"
+}

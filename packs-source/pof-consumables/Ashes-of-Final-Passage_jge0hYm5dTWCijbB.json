@@ -1,0 +1,59 @@
+{
+  "_id": "jge0hYm5dTWCijbB",
+  "name": "Ashes of Final Passage",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 100,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Divinity, Soul, Warding",
+    "description": "Usage applied to one corpse. Activate 1 minute.\n\nThe grey-white ash is traditionally collected from the cremation fires of people whose funerary rites were completed without dispute.\n\nScatter the ashes over a corpse while speaking the deceased's name, if known. For 24 hours, any magical effect attempting to possess the corpse, animate it as Undead or bind the deceased creature's soul to its remains must first successfully Counteract the ashes. Use item level 3 for the Counteract level.\n\nThe ashes do not prevent resurrection, reincarnation or communication with a willing dead creature.\n\nOn the sheet: used, the card records the 24-hour ward; a Counteract against it is rolled from the card at level 3.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "1 minute",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Ashes of Final Passage",
+          "effects": [
+            {
+              "kind": "note",
+              "text": "Scattered over a corpse while speaking its name: for 24 hours, a magical effect that would possess the corpse, animate it as Undead or bind the soul to the remains must first Counteract the ashes at level 3. Resurrection, reincarnation and speaking with a willing dead creature are not prevented."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jge0hYm5dTWCijbB"
+}

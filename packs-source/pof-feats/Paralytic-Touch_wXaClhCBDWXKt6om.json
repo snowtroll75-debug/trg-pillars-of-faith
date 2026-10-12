@@ -1,0 +1,130 @@
+{
+  "_id": "wXaClhCBDWXKt6om",
+  "name": "Paralytic Touch",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>SAVE SOUL UNLIVING-LICH</p>\n<p>The necromancy in your hand can still the body with a scholar's precision.</p>\n<p>When your Bony Hand attack inflicts a critical injury, the target must attempt a Fortitude save. On a failure, it is paralysed for 1 round. On a fumble, it is paralysed for 1 minute and falls prone. On a blunder, it is paralysed permanently and falls prone. The saving throw is Hard (DC +2) if the critical injury is Serious and Very Hard (DC +5) if the critical injury is Deadly.</p>\n<p>Works automatically: a critical injury with Bony Hand makes the target save (Fortitude, your Level DC; +2 for a Serious injury, +5 for a Deadly one) — Failure paralysed 1 round; Fumble paralysed 1 minute and prone; Blunder paralysed permanently and prone.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Save, Soul, Unliving-Lich",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "M9Xw0nGG77VGCjUb",
+      "name": "Paralytic Touch: Paralytic Touch",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "afterStrikes": [
+            {
+              "key": "paralyticTouch",
+              "label": "Paralytic Touch",
+              "weaponNames": [
+                "Bony Hand (Unliving Lich)"
+              ],
+              "onCriticalInjury": true,
+              "save": "fortitude",
+              "dcBySeverity": {
+                "serious": 2,
+                "deadly": 5
+              },
+              "outcomes": {
+                "failure": "Paralysed for 1 round.",
+                "fumble": "Paralysed for 1 minute and falls prone.",
+                "blunder": "Paralysed permanently and falls prone."
+              },
+              "conditions": {
+                "heroic": [],
+                "critical": [],
+                "success": [],
+                "failure": [
+                  {
+                    "key": "paralyzed",
+                    "rounds": 1
+                  }
+                ],
+                "fumble": [
+                  {
+                    "key": "paralyzed",
+                    "minutes": 1
+                  },
+                  {
+                    "key": "prone"
+                  }
+                ],
+                "blunder": [
+                  {
+                    "key": "paralyzed"
+                  },
+                  {
+                    "key": "prone"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "On a critical injury with Bony Hand: Fortitude save ladder.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!wXaClhCBDWXKt6om.M9Xw0nGG77VGCjUb"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "lich"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!wXaClhCBDWXKt6om"
+}

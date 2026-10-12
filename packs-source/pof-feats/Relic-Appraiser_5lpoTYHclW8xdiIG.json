@@ -1,0 +1,66 @@
+{
+  "_id": "5lpoTYHclW8xdiIG",
+  "name": "Relic Appraiser",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Culture or Religion 1 rank",
+    "active": true,
+    "description": "<p>You have learned to separate sacred history from an enthusiastic seller's story.</p>\n<p>Prerequisites Culture or Religion 1 rank</p>\n<p>You gain a +2 circumstance bonus when using Trace Religious Provenance.</p>\n<p>On a Success or better, you can also estimate the object's mundane market value and determine whether its construction, age and provenance are consistent with claims made about it.</p>\n<p>On a Critical result, you gain a +1 circumstance bonus to the next Identify Power or Recall Knowledge check made concerning that object. Relic Appraiser does not itself reveal magical properties.</p>\n<p>The +2 circumstance bonus is applied automatically on Trace Religious Provenance checks.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Relic Appraiser",
+          "scope": "Trace Religious Provenance checks",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "traceReligiousProvenance"
+            ]
+          },
+          "value": 2,
+          "type": "circumstance"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!5lpoTYHclW8xdiIG"
+}

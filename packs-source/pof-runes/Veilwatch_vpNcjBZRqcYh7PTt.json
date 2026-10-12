@@ -1,0 +1,56 @@
+{
+  "_id": "vpNcjBZRqcYh7PTt",
+  "name": "Veilwatch",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 3000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Insight, Invested, Soul",
+    "description": "When viewed from the corner of the eye, the rune appears to contain shapes moving behind its engraved lines.\n\nYou gain Spirit Sense as a tertiary sense. When Searching, you can detect the presence and general direction of disembodied spirits, incorporeal Undead, haunts and active possession within range.\n\nVeilwatch does not provide exact location, identity or allegiance and does not by itself allow you to target an entity you cannot otherwise perceive.\n\nInscribed onto armour.\n\nOn the sheet: Applied automatically: Spirit Sense (30 feet, tertiary) joins your senses while the armour is worn. It gives presence and direction, never identity or a target.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 7,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "veilwatch",
+        "tier": 1,
+        "on": [
+          "armour"
+        ],
+        "automation": "applied"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!vpNcjBZRqcYh7PTt"
+}

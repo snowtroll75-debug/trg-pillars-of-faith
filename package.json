@@ -1,0 +1,15 @@
+{
+  "name": "trg-pillars-of-faith",
+  "private": true,
+  "type": "module",
+  "version": "0.9.3",
+  "scripts": {
+    "build:packs": "node tools/build-packs.mjs",
+    "verify": "node tools/verify-foundation.mjs && node tools/verify-classes.mjs && node tools/verify-feats.mjs && node tools/verify-grimoire.mjs && node tools/verify-equipment.mjs && node tools/verify-automation.mjs && node tools/verify-magic-items.mjs && node tools/verify-unliving.mjs && node tools/verify-haunts.mjs && node tools/verify-pass.mjs",
+    "build": "node tools/build-zip.mjs"
+  },
+  "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.4",
+    "classic-level": "^3.0.0"
+  }
+}

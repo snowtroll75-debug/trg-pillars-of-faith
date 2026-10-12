@@ -1,0 +1,88 @@
+{
+  "_id": "nsWTJKJ8NrkSfP4H",
+  "name": "Blackfire Ivy",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 215,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: warm volcanic jungles.\n\nBlackfire ivy grows across warm volcanic stone, its soot-black leaves drawing nourishment from heat rather than sunlight. Fine red veins brighten whenever flame passes nearby, and harvested cuttings remain hot enough to scorch cloth. Spellcasters consume the prepared leaf as a tightly rolled pellet, after which the veins beneath the tongue glow briefly red. The next fire spell you cast within 1-minute deals one additional damage die and negates each target's fire resistance. The dose is expended when the spell is cast.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 5
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Blackfire Ivy",
+          "duration": "1 minute",
+          "effects": [
+            {
+              "kind": "declare",
+              "target": "self",
+              "label": "Blackfire Ivy",
+              "flags": {
+                "nextSpellDamage": {
+                  "label": "Blackfire Ivy",
+                  "damageTypes": [
+                    "fire"
+                  ],
+                  "extraDie": true,
+                  "ignoreResistance": true
+                }
+              },
+              "text": "your next fire spell within 1 minute deals one additional damage die and ignores each target's fire resistance; the dose is spent at that cast"
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: warm volcanic jungles.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 5,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 215,
+        "tablePrice": 215,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nsWTJKJ8NrkSfP4H"
+}

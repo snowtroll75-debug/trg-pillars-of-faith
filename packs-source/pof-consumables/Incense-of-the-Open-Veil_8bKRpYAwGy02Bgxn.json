@@ -1,0 +1,60 @@
+{
+  "_id": "8bKRpYAwGy02Bgxn",
+  "name": "Incense of the Open Veil",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 250,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Incense, Insight, Soul",
+    "description": "Usage burned in a censer. Activate Interact (2 AP).\n\nThe pale smoke refuses to pass through the space occupied by a spirit, curling around otherwise invisible forms.\n\nThe incense burns for 10 minutes and fills a 20-foot radius. Disembodied spirits and incorporeal Undead within the smoke become faintly outlined and can be perceived sufficiently clearly to determine their location.\n\nThe incense does not identify them, reveal allegiance, remove Incorporeal or permit mundane attacks to harm a creature they could not normally affect.\n\nOn the sheet: used, the 10-minute effect and its card record the outline.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 5
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Incense of the Open Veil",
+          "duration": "10 minutes",
+          "effects": [
+            {
+              "kind": "note",
+              "text": "Burning for 10 minutes in a 20-foot radius: disembodied spirits and incorporeal Undead within the smoke are faintly outlined and their location can be determined. Not identity or allegiance; Incorporeal stands; mundane attacks still cannot reach them."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8bKRpYAwGy02Bgxn"
+}

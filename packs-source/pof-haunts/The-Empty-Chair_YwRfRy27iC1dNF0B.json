@@ -1,0 +1,78 @@
+{
+  "_id": "YwRfRy27iC1dNF0B",
+  "name": "The Empty Chair",
+  "type": "npc",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "identity": {
+      "level": 3,
+      "size": "medium"
+    },
+    "details": {
+      "traits": "Haunt, Mental",
+      "biography": "<p>One chair at a long dining table is always pulled slightly away from the others. Dust refuses to settle upon it. Anyone staring at the seat for too long develops the conviction that somebody important has been forgotten.</p>"
+    },
+    "combat": {
+      "initiative": {
+        "other": 0
+      }
+    },
+    "gm": {
+      "role": "Haunt",
+      "notes": "<p><strong>The Empty Chair</strong> — Level 3 haunt (Pillars of Faith, Chapter 8). Its Level DC is 17.</p>\n<p><strong>Anchor</strong> The chair.</p>\n<p><strong>Resolution</strong> The household deliberately erased one member from family history following a disgrace. Restore their portrait to the family gallery and speak their name during a shared meal.<br>Destroying the chair suppresses the haunt for 1 week but does not resolve it. When the haunt returns, another chair becomes the Anchor.</p>",
+      "peril": {
+        "enabled": true,
+        "detection": "Perception DC 17; Occultism or Religion DC 17",
+        "disable": "Occultism DC 17 or Religion DC 17. Speaking a remembered name while making the check grants a +2-circumstance bonus if that name belonged to somebody who once lived in the house.",
+        "successes": 1,
+        "onDisable": "suppressed",
+        "suppressFor": "",
+        "state": "armed",
+        "actionType": "reaction",
+        "trigger": "A meal begins with the chair left empty.",
+        "effectText": "Every creature within 20 feet that can see the chair attempts a Will save against DC 17.\nCritical Unaffected.\nSuccess The creature experiences a brief sense of loss.\nPartial Frightened 1.\nFailure Frightened 2 and Weakened 1 for 1 minute as grief overwhelms concentration.\nFumble Frightened 3 and Weakened 1 for 1 minute.",
+        "routine": "",
+        "anchor": "The chair.",
+        "resolution": "The household deliberately erased one member from family history following a disgrace. Restore their portrait to the family gallery and speak their name during a shared meal.\nDestroying the chair suppresses the haunt for 1 week but does not resolve it. When the haunt returns, another chair becomes the Anchor.",
+        "reset": "24 hours.",
+        "disableBonuses": "+2 circumstance: Speaking a remembered name that belonged to somebody who once lived in the house",
+        "spiritPresence": true,
+        "noBody": true,
+        "automation": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "The Empty Chair",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/svg/aura.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "haunt": true,
+      "source": "Pillars of Faith"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.629.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!YwRfRy27iC1dNF0B"
+}

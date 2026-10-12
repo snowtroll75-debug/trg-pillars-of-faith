@@ -1,0 +1,110 @@
+{
+  "_id": "EZDNbXzB4bFMVivp",
+  "name": "Witness",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 6,
+    "price": 11030,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "AR 4, Expert, Potency II, Remembrance, Shove, Vowkeeper",
+    "attackBonus": 0,
+    "damage": "1d8",
+    "damageType": "bludgeoning",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 2,
+    "proficiency": "",
+    "fumbleDC": 16,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Hammer",
+    "category": "Martial",
+    "size": "medium",
+    "itemLevel": 11,
+    "description": "This broad-faced Oath Hammer makes an unnaturally clear tone when struck against stone. The sound is said to linger until every person present has either honoured what they promised or admitted that they did not.\n\nWhen you deliberately use Witness to ceremonially mark the beginning of a formal oath, vow, contract or sworn testimony, the hammer magically remembers the exact significant wording for 1 year.\n\nWhile invested to the weapon, you may spend 1 AP with the Concentrate trait to recall any oath recorded in this way exactly as it was spoken. Witness can retain a number of oaths equal to its item level. When another is added beyond this limit, the oldest is forgotten.\n\nIf you possess a Divine Aspect, you may also speak a daily vow using the weapon's Vowkeeper property.\n\nStatistics: AB +2; Damage 1d8+1 B; Size M; FDC 16.\n\nTraits AR 4, Expert, Potency II, Remembrance, Shove, Vowkeeper.\n\nOn the sheet: an Expert Oath Hammer with Potency II, Remembrance and Vowkeeper. Its recorded oaths are recalled from the item's Use (1 AP, Concentrate); the hammer holds as many as its item level.\n\nPillars of Faith, Chapter 11.",
+    "quality": "expert",
+    "material": "",
+    "runes": "Potency II, Remembrance, Vowkeeper",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": false,
+        "activate": "1 AP (Concentrate)",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "use",
+            "automation": "recallOath",
+            "activation": "Concentrate (1 AP)",
+            "frequency": "atWill",
+            "label": "Recall an Oath"
+          }
+        ]
+      },
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 2,
+            "printed": "Potency II"
+          },
+          {
+            "key": "remembrance",
+            "label": "Remembrance",
+            "tier": 1,
+            "printed": "Remembrance"
+          },
+          {
+            "key": "vowkeeper",
+            "label": "Vowkeeper",
+            "tier": 1,
+            "printed": "Vowkeeper"
+          }
+        ],
+        "runeText": "Potency II, Remembrance, Vowkeeper",
+        "traits": [
+          "AR 4",
+          "Expert",
+          "Potency II",
+          "Remembrance",
+          "Shove",
+          "Vowkeeper"
+        ],
+        "quality": "expert",
+        "material": "",
+        "printedItemBonus": 2
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!EZDNbXzB4bFMVivp"
+}

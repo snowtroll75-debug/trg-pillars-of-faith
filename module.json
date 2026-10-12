@@ -1,0 +1,323 @@
+{
+  "id": "trg-pillars-of-faith",
+  "title": "TRG Prime: Pillars of Faith",
+  "description": "The Pillars of Faith sourcebook for TRG Prime — four new races (Eshari, Kethrani, Myrathi, Rhevani) and their heritages, twelve faith-flavoured backgrounds and their bonus feats, five classes (Archivist, Folkwarden, Grimward, Healer, Shaman), Chapter 4's skill actions, Chapter 5's feats and archetypes, Chapter 7's twenty-two Divine Aspects, Chapter 10's Grimoire (65 spells), Chapter 6's armour, shields, weapons, tools, fifty herbs and eight consumables, new traits and languages. Chapter 11's magic items and Chapter 9's Unliving archetypes, class feats and diseases. Chapter 8's nine sample haunts, the Spirit Presence template and a GM guide to running them.",
+  "version": "0.11.1",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.367"
+  },
+  "authors": [
+    {
+      "name": "Traris Games",
+      "url": "https://www.trarisgames.co.uk/"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "trg-prime",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.630.1"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/pillars-of-faith.mjs"
+  ],
+  "packs": [
+    {
+      "name": "pof-races",
+      "label": "Pillars of Faith: Races",
+      "path": "packs/pof-races",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "races"
+        }
+      }
+    },
+    {
+      "name": "pof-heritages",
+      "label": "Pillars of Faith: Heritages",
+      "path": "packs/pof-heritages",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "heritages"
+        }
+      }
+    },
+    {
+      "name": "pof-backgrounds",
+      "label": "Pillars of Faith: Backgrounds",
+      "path": "packs/pof-backgrounds",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "backgrounds"
+        }
+      }
+    },
+    {
+      "name": "pof-classes",
+      "label": "Pillars of Faith: Classes",
+      "path": "packs/pof-classes",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "classes"
+        }
+      }
+    },
+    {
+      "name": "pof-gear",
+      "label": "Pillars of Faith: Gear",
+      "path": "packs/pof-gear",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "gear"
+        }
+      }
+    },
+    {
+      "name": "pof-abilities",
+      "label": "Pillars of Faith: Abilities",
+      "path": "packs/pof-abilities",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "abilities"
+        }
+      }
+    },
+    {
+      "name": "pof-feats",
+      "label": "Pillars of Faith: Feats",
+      "path": "packs/pof-feats",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "feats"
+        }
+      }
+    },
+    {
+      "name": "pof-spells",
+      "label": "Pillars of Faith: Spells",
+      "path": "packs/pof-spells",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "spells"
+        }
+      }
+    },
+    {
+      "name": "pof-companions",
+      "label": "Pillars of Faith: Natural Attacks",
+      "path": "packs/pof-companions",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "companions"
+        }
+      }
+    },
+    {
+      "name": "pof-aspects",
+      "label": "Pillars of Faith: Divine Aspects",
+      "path": "packs/pof-aspects",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "divine-aspects"
+        }
+      }
+    },
+    {
+      "name": "pof-armour",
+      "label": "Pillars of Faith: Armour",
+      "path": "packs/pof-armour",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "armour"
+        }
+      }
+    },
+    {
+      "name": "pof-shields",
+      "label": "Pillars of Faith: Shields",
+      "path": "packs/pof-shields",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "shields"
+        }
+      }
+    },
+    {
+      "name": "pof-weapons",
+      "label": "Pillars of Faith: Weapons",
+      "path": "packs/pof-weapons",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "weapons"
+        }
+      }
+    },
+    {
+      "name": "pof-alchemical",
+      "label": "Pillars of Faith: Herbs & Consumables",
+      "path": "packs/pof-alchemical",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "alchemical"
+        }
+      }
+    },
+    {
+      "name": "pof-runes",
+      "label": "Pillars of Faith: Runes",
+      "path": "packs/pof-runes",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "runes"
+        }
+      }
+    },
+    {
+      "name": "pof-specific-items",
+      "label": "Pillars of Faith: Specific Magic Armour & Weapons",
+      "path": "packs/pof-specific-items",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "specific-items"
+        }
+      }
+    },
+    {
+      "name": "pof-wondrous",
+      "label": "Pillars of Faith: Wondrous Items & Relics",
+      "path": "packs/pof-wondrous",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "wondrous"
+        }
+      }
+    },
+    {
+      "name": "pof-charged-items",
+      "label": "Pillars of Faith: Charged Items",
+      "path": "packs/pof-charged-items",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "charged-items"
+        }
+      }
+    },
+    {
+      "name": "pof-consumables",
+      "label": "Pillars of Faith: Magical Consumables",
+      "path": "packs/pof-consumables",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "consumables"
+        }
+      }
+    },
+    {
+      "name": "pof-afflictions",
+      "label": "Pillars of Faith: Afflictions",
+      "path": "packs/pof-afflictions",
+      "type": "Item",
+      "system": "trg-prime",
+      "flags": {
+        "trg-prime": {
+          "extends": "afflictions"
+        }
+      }
+    },
+    {
+      "name": "pof-haunts",
+      "label": "Pillars of Faith: Haunts & Spirits",
+      "path": "packs/pof-haunts",
+      "type": "Actor",
+      "system": "trg-prime"
+    },
+    {
+      "name": "pof-journals",
+      "label": "Pillars of Faith: GM Guides",
+      "path": "packs/pof-journals",
+      "type": "JournalEntry"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Pillars of Faith",
+      "sorting": "m",
+      "packs": [
+        "pof-races",
+        "pof-heritages",
+        "pof-backgrounds",
+        "pof-classes",
+        "pof-abilities",
+        "pof-feats",
+        "pof-spells",
+        "pof-gear",
+        "pof-companions",
+        "pof-aspects",
+        "pof-armour",
+        "pof-shields",
+        "pof-weapons",
+        "pof-alchemical",
+        "pof-runes",
+        "pof-specific-items",
+        "pof-wondrous",
+        "pof-charged-items",
+        "pof-consumables",
+        "pof-afflictions",
+        "pof-haunts",
+        "pof-journals"
+      ]
+    }
+  ],
+  "flags": {
+    "trg-prime": {
+      "sourcebook": "Pillars of Faith"
+    }
+  },
+  "socket": true,
+  "manifest": "https://raw.githubusercontent.com/snowtroll75-debug/trg-pillars-of-faith/main/module.json",
+  "download": "https://github.com/snowtroll75-debug/trg-pillars-of-faith/releases/download/v0.11.1/trg-pillars-of-faith.zip"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "r1kR8TGflD5D2cWG",
+  "name": "Chorus without Words",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Nethri growth, Whisper Network, Level 5",
+    "active": true,
+    "description": "<p>MENTAL MYRATHI</p>\n<p>The distinction between speech, emotion and chemical signal has become increasingly unimportant to you.<br>Creatures connected to you through Whisper Network may communicate with one another through you while each remains within 60 feet of you, even if they are not Myrathi.<br>In addition, while connected, you can convey simple emotional impressions - danger, calm, urgency, uncertainty, approval or warning - even when you do not share a language. This does not permit detailed communication without a shared language.</p>\n<p>Prerequisites Nethri growth, Whisper Network, Level 5</p>\n<p>A rule for the table: Whisper Network's connected creatures may speak through you, and simple emotional impressions cross a language gap.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Mental",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!r1kR8TGflD5D2cWG"
+}

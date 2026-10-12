@@ -1,0 +1,81 @@
+{
+  "_id": "bxpVPvrjRDZmHybz",
+  "name": "Analytical Glance",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "arcane, divinity, ethereal",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 4,
+    "castAP": 1,
+    "range": "60 feet",
+    "area": "",
+    "targets": "1 Studied Target you can perceive",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "revealFact",
+        "target": "targets"
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Select one additional category",
+        "mods": {
+          "choiceExtra": 1
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": false,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Insight",
+    "description": "INSIGHT UTILITY\nTradition arcane, divinity, ethereal\nCast 1 AP (somatic)\nRange 60 feet\nTargets 1 Studied Target you can perceive\n\nYou magically correlate countless small observations into one useful conclusion.\nChoose one category:\nDefences: Learn which of the target's Fortitude, Reflex or Will saves is lowest.\nResilience: Learn one significant Resistance, Weakness or Immunity possessed by the target.\nMobility: Learn its principal movement types and Speeds.\nSenses: Learn its most significant unusual sense.\nCapability: Learn one significant offensive, defensive or reactive ability not already known to you.\nThe GM provides one accurate fact within the chosen category.\n\nWarping Options:\n+2 PP: Select one additional category.\n\nPillars of Faith, Chapter 10. Choose a category: Defences, Resilience, Mobility and Senses are read off the target's sheet and whispered to you and the GM; Capability is the GM's."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!bxpVPvrjRDZmHybz"
+}

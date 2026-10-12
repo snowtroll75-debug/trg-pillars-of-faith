@@ -1,0 +1,84 @@
+{
+  "_id": "h4FUucVMZkBCDLQ3",
+  "name": "Spirit Offering Token",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 150,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Spirit",
+    "description": "Usage held in 1 hand. Activate Interact (1 AP).\n\nTokens vary tremendously: carved food, tiny musical instruments, miniature houses, flowers of precious metal and abstract representations of warmth, memory or companionship.\n\nChoose one spirit with sufficient awareness to communicate within 30 feet. For 10 minutes, you gain a +2-status bonus to Diplomacy checks made to Make an Impression, Request or negotiate with that spirit.\n\nIf the spirit is willing but normally unable to manifest visibly or audibly, it may do so sufficiently to communicate for the duration. The token cannot summon a spirit that is not present, compel negotiation or force a spirit to answer questions.\n\nOn the sheet: offered to a spirit within 30 feet: +2 status is offered on Diplomacy with that spirit for 10 minutes.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "Interact (1 AP)",
+    "itemLevel": 4
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Spirit Offering Token",
+          "duration": "10 minutes",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Spirit Offering Token",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "status",
+                  "label": "Spirit Offering Token",
+                  "scope": "Diplomacy checks to Make an Impression, Request or negotiate with the one spirit the token was offered to (10 minutes)",
+                  "when": {
+                    "checkTypes": [
+                      "skill"
+                    ],
+                    "subjects": [
+                      "diplomacy"
+                    ]
+                  },
+                  "auto": false,
+                  "oneShot": false
+                }
+              ]
+            },
+            {
+              "kind": "note",
+              "text": "A willing spirit normally unable to manifest may do so enough to communicate for the duration. The token summons nothing and compels nothing."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!h4FUucVMZkBCDLQ3"
+}

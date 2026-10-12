@@ -1,0 +1,79 @@
+{
+  "_id": "4ckqWoAOnKBwqiyr",
+  "name": "Soulvine",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 130,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: old battlefields and mass graves.\n\nSoulvine sends pale runners through earth enriched by the remains of the dead, particularly beneath old battlefields and forgotten graves. Its heart-shaped leaves are almost transparent, and a cut stem gives off a single breath-like sigh before sealing itself. Healers warm a prepared length between their palms until it begins to pulse. When rubbed over the chest of an adjacent living creature with the Dying condition, reduce that creature's Dying condition by 1. Soulvine has no effect upon a dead creature.\n\nOn the sheet: Rubbed over the chest of an adjacent living creature with the Dying condition — feed it to them. No effect on a dead creature.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 4
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Soulvine",
+          "effects": [
+            {
+              "kind": "conditionRelief",
+              "label": "Soulvine",
+              "target": "self",
+              "condition": "dying",
+              "amount": 1
+            }
+          ],
+          "note": "Rubbed over the chest of an adjacent living creature with the Dying condition — feed it to them. No effect on a dead creature."
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: old battlefields and mass graves.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 4,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 130,
+        "tablePrice": 130,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4ckqWoAOnKBwqiyr"
+}

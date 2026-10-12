@@ -1,0 +1,97 @@
+{
+  "_id": "VikZXloQ0kL50cJ6",
+  "name": "Grave Custodian",
+  "img": "icons/svg/book.svg",
+  "type": "background",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Background",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Cemeteries, crypts and ossuaries were once your workplace. You maintained graves, repaired seals, recorded interments and watched for signs that the dead had been disturbed. Most nights were quiet. The nights that were not taught you why burial customs, wards and careful records matter. You have since left the graveyard behind, though you remain difficult to surprise among the dead.</p>\n<p>BONUS FEAT</p>\n<p>Grave Vigil</p>\n<p>SKILL BONUSES</p>\n<p>Crafting, Perception, Religion</p>\n<p>SPECIALIST SKILL</p>\n<p>Burial Lore</p>\n<p>WEALTH</p>\n<p>0</p>",
+    "grantedFeats": "Grave Vigil",
+    "grantedSpells": "",
+    "skillBonuses": "Crafting, Perception, Religion",
+    "specialistSkill": "Burial Lore",
+    "special": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "",
+    "wealth": "0"
+  },
+  "effects": [
+    {
+      "_id": "HOTqo4iiCFWQjqWL",
+      "name": "Grave Custodian: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.crafting.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.perception.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.religion.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 class bonus to Crafting, Perception, Religion.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!VikZXloQ0kL50cJ6.HOTqo4iiCFWQjqWL"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Burial Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VikZXloQ0kL50cJ6"
+}

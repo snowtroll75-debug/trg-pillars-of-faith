@@ -1,0 +1,79 @@
+{
+  "_id": "ylsGLuFGdUz8hrGP",
+  "name": "Mindlace",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 85,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: ruined or inhabited arcane sites.\n\nMindlace is a delicate silvery vine that curls around broken wands, standing stones and the walls of long-used laboratories. Its leaves form repeating geometric patterns whose arrangement changes subtly from day to day. The vine is steeped in warm water until supple, then wrapped across the temples so that its faintly tingling sap can sharpen magical perception. For 1 hour, you gain a +1-item bonus to Spellcraft checks.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Mindlace",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "bonus",
+              "target": "self",
+              "slot": "spellcraft",
+              "bonusType": "item",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: ruined or inhabited arcane sites.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 3,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 85,
+        "tablePrice": 85,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ylsGLuFGdUz8hrGP"
+}

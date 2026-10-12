@@ -1,0 +1,59 @@
+{
+  "_id": "hXEZcEbJcbVBHT36",
+  "name": "Consecrated Grave Salt",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 400,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Divinity, Soul, Warding",
+    "description": "Usage scattered upon a surface; Weight 1 lb. Activate 3 AP.\n\nThe grains are mixed with silver dust and fragments of funerary prayer written on paper thin enough to crumble between the fingers.\n\nScatter a packet across a 10-foot line or around one 5-foot square. The salt remains active for 10 minutes. A disembodied spirit or incorporeal Undead attempting to cross the salt must attempt a Will saving throw against the item's Level DC.\n\nCorporeal creatures, including Unliving characters, can cross normally. Disturbing or washing away the salt destroys the ward.\n\nCritical: It crosses normally.\n\nSuccess: It crosses but becomes Weakened 1 until the end of its next turn.\n\nFailure: It cannot cross until the beginning of its next turn.\n\nFumble: It cannot voluntarily cross the salt for 1 minute.\n\nOn the sheet: used, the card prints the ward and its ladder; the spirit's save is rolled from the card against the item's Level DC.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "3 AP",
+    "itemLevel": 6
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Consecrated Grave Salt",
+          "effects": [
+            {
+              "kind": "note",
+              "text": "Scattered across a 10-foot line or around one 5-foot square, active for 10 minutes: a disembodied spirit or incorporeal Undead crossing it makes a Will save against DC (the item's Level DC, level 6) — Critical: crosses; Success: crosses, Weakened 1 until the end of its next turn; Failure: cannot cross until the beginning of its next turn; Fumble: cannot voluntarily cross for 1 minute. Corporeal creatures cross freely; disturbing the salt ends it."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hXEZcEbJcbVBHT36"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "bwd14NX8CNbBJgtP",
+  "name": "Second Guide",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10",
+    "active": true,
+    "description": "<p>SHAMAN</p>\n<p>Another spirit has entered the relationship. Whether your original guide approves is a different question.<br>Select a second Spirit Guide. You gain its Specialist Skill and Spirit Boon.<br>Whenever you activate Manifest Spirit, choose which of your two Spirit Guides manifests. You gain only that guide's Manifestation for the duration.<br>Your original guide remains your primary guide for any effect requiring one.</p>\n<p>Prerequisites Level 10</p>\n<p>Use to choose your second Spirit Guide: it arrives as an ability with its specialist skill and Spirit Boon; Manifest Spirit then asks which guide manifests.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Shaman",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "abilityChoices": [
+        "Ancestor Spirit",
+        "Beast Spirit",
+        "Elemental Spirit",
+        "Land Spirit",
+        "Veil Spirit"
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!bwd14NX8CNbBJgtP"
+}

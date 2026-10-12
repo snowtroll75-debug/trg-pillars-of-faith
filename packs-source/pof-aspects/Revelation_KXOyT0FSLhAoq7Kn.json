@@ -1,0 +1,50 @@
+{
+  "_id": "KXOyT0FSLhAoq7Kn",
+  "name": "Revelation",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Revelation represents the moment hidden understanding becomes visible. Prophecy, recovered scripture, exposed deception and sudden spiritual insight all fall beneath its gaze. The aspect is traditionally shown as an open eye emerging from a closed book or a lamp illuminating writing that was previously invisible.\nRevelation teaches that truth is valuable precisely because it can be uncomfortable. Its followers therefore distrust prophets who demand belief without examination just as strongly as authorities who suppress inconvenient discoveries.\n\nEdicts: Seek hidden truths. Test prophecy against evidence wherever possible. Expose deliberate falsehoods that cause meaningful harm. Preserve genuine revelations for later study. Accept uncomfortable knowledge rather than rejecting it because it challenges existing belief.\n\nAnathema: Knowingly falsify prophecy or revelation. Suppress an important truth solely because it is inconvenient to you. Demand unquestioning obedience to an untested vision. Destroy genuine evidence to protect an established doctrine from criticism.\n\nSuggested Ethics: Ambition, Prudence, Adaptability\n\nClass Skill: Perception\n\nSpecialist Spells: Guiding Stone (1), Revelation Divine (1), Seer's Vision (1), Truthful Words (1), Fateful Temptation (7), Revealing Glance (7), Unity (7), Vigilant Eye (7)\n\nBonus Spells: Guidance (0); Augury (4); Divine Vision (8); Commune (10)\n\nFavoured Weapon: Sword\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Balance",
+    "edicts": "Seek hidden truths. Test prophecy against evidence wherever possible. Expose deliberate falsehoods that cause meaningful harm. Preserve genuine revelations for later study. Accept uncomfortable knowledge rather than rejecting it because it challenges existing belief.",
+    "anathema": "Knowingly falsify prophecy or revelation. Suppress an important truth solely because it is inconvenient to you. Demand unquestioning obedience to an untested vision. Destroy genuine evidence to protect an established doctrine from criticism.",
+    "suggestedEthics": "Ambition, Prudence, Adaptability",
+    "classSkill": "Perception",
+    "favouredWeapon": "Sword",
+    "specialistSpells": "Guiding Stone, Revelation Divine, Seer's Vision, Truthful Words, Fateful Temptation, Revealing Glance, Unity, Vigilant Eye",
+    "bonusSpells": "1: Guidance, 4: Augury, 8: Divine Vision, 10: Commune"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Ambition",
+        "Prudence",
+        "Adaptability"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KXOyT0FSLhAoq7Kn"
+}

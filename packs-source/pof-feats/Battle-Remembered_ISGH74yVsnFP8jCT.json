@@ -1,0 +1,49 @@
+{
+  "_id": "ISGH74yVsnFP8jCT",
+  "name": "Battle Remembered",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Arathi heritage",
+    "active": true,
+    "description": "<p>RHEVANI</p>\n<p>Your body remembers violence that your present mind has never experienced.<br>When you roll Initiative and your Past-Life Echo is available, you may activate Past-Life Echo as a Free (0 AP) action.<br>When activated in this way, you must select Acrobatics, Athletics, Intimidate, Perception or Survival as the skill recalled. Past-Life Echo is expended normally.</p>\n<p>Prerequisites Arathi heritage</p>\n<p>Works automatically: when your Initiative is rolled and Past-Life Echo is available, a card offers it as a Free action — Acrobatics, Athletics, Intimidate, Perception or Survival — and the Use is spent as normal.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ISGH74yVsnFP8jCT"
+}

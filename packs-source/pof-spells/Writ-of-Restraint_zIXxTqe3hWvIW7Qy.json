@@ -1,0 +1,122 @@
+{
+  "_id": "zIXxTqe3hWvIW7Qy",
+  "name": "Writ of Restraint",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "save",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "60 feet",
+    "area": "",
+    "targets": "Your Judged Subject",
+    "duration": "1 minute",
+    "defence": "Will",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "declare",
+        "target": "targets",
+        "label": "Writ of Restraint",
+        "onSave": [
+          "success"
+        ],
+        "flags": {
+          "fumbleNoReactions": true
+        },
+        "rounds": 1
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "slowed",
+        "value": 1,
+        "onSave": [
+          "failure"
+        ],
+        "noReactions": true,
+        "conditionSave": {
+          "save": "will",
+          "onSuccess": "end",
+          "label": "Writ of Restraint"
+        }
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "slowed",
+        "value": 2,
+        "onSave": [
+          "fumble",
+          "blunder"
+        ],
+        "thenValue": 1,
+        "firstRounds": 1,
+        "noReactions": true,
+        "conditionSave": {
+          "save": "will",
+          "onSuccess": "end",
+          "label": "Writ of Restraint"
+        }
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 3,
+        "text": "The target suffers a -2-status penalty to these subsequent Will sav",
+        "mods": {
+          "resaveModifier": -2
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Grimward",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Enchantment, Mental",
+    "description": "ENCHANTMENT GRIMWARD MENTAL SAVE\nGrimward Specialist Spell\nCast 2 AP (verbal)\nRange 60 feet\nTargets Your Judged Subject\nSaving Throw Will\nDuration 1 minute\n\nYou pronounce a binding sanction based upon everything you have learned about the Subject's behaviour.\nCritical: The target is unaffected.\nSuccess: The target cannot use Reactions until the end of its next turn.\nFailure: The target becomes Slowed 1 and cannot use Reactions for the duration.\nFumble: The target becomes Slowed 2 until the end of its next turn, then Slowed 1 for the remainder of the duration, and cannot use Reactions.\nAt the end of each of its turns, a target suffering the Failure or Fumble result may attempt a new Will saving throw. On a Success or better, the spell ends.\n\nWarping Options:\n+3 PP: The target suffers a -2-status penalty to these subsequent Will sav\n\nPillars of Faith, Chapter 10. Every rung is applied: no Reactions on a Success; Slowed with no Reactions on a Failure or Fumble (the Fumble's Slowed 2 steps down to 1 after a round), saved out of at the end of each of its turns."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zIXxTqe3hWvIW7Qy"
+}

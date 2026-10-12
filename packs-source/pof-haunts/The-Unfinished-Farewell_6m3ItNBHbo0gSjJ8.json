@@ -1,0 +1,78 @@
+{
+  "_id": "6m3ItNBHbo0gSjJ8",
+  "name": "The Unfinished Farewell",
+  "type": "npc",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "identity": {
+      "level": 1,
+      "size": "medium"
+    },
+    "details": {
+      "traits": "Auditory, Haunt, Mental",
+      "biography": "<p>A faint voice repeatedly attempts to say a final sentence but never reaches the last few words. Dust moves towards an empty bed as though somebody has just sat upon it.</p>"
+    },
+    "combat": {
+      "initiative": {
+        "other": 0
+      }
+    },
+    "gm": {
+      "role": "Haunt",
+      "notes": "<p><strong>The Unfinished Farewell</strong> — Level 1 haunt (Pillars of Faith, Chapter 8). Its Level DC is 15.</p>\n<p><strong>Anchor</strong> A bloodstained letter hidden beneath the bed.</p>\n<p><strong>Resolution</strong> Deliver the hidden letter to the person for whom it was written or truthfully establish that they are dead and place the letter with their remains.</p>",
+      "peril": {
+        "enabled": true,
+        "detection": "Perception DC 15 or Occultism DC 15",
+        "disable": "Occultism or Religion DC 15 to calm the manifestation and allow it to complete its final words. Success suppresses the haunt for 24 hours.",
+        "successes": 1,
+        "onDisable": "suppressed",
+        "suppressFor": "24 hours",
+        "state": "armed",
+        "actionType": "reaction",
+        "trigger": "A creature sleeps in the room or searches the bed.",
+        "effectText": "The voice suddenly speaks directly beside the triggering creature's ear. The target attempts a Will save against DC 15.\nCritical The target hears only a faint whisper and is unaffected.\nSuccess The target becomes uneasy but suffers no mechanical effect.\nPartial The target becomes Frightened 1.\nFailure The target becomes Frightened 2.\nFumble The target becomes Frightened 2 and cannot willingly approach the bed for 1 minute.\nBlunder As Fumble, but the target immediately spends its next available action moving away from the bed by the safest route available.",
+        "routine": "",
+        "anchor": "A bloodstained letter hidden beneath the bed.",
+        "resolution": "Deliver the hidden letter to the person for whom it was written or truthfully establish that they are dead and place the letter with their remains.",
+        "reset": "Midnight.",
+        "disableBonuses": "",
+        "spiritPresence": true,
+        "noBody": true,
+        "automation": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "The Unfinished Farewell",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/svg/aura.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "haunt": true,
+      "source": "Pillars of Faith"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.629.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!6m3ItNBHbo0gSjJ8"
+}

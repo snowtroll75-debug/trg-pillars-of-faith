@@ -1,0 +1,1889 @@
+{
+  "ANALYTICAL GLANCE": {
+    "section": "ordinary",
+    "pp": 4,
+    "traits": "INSIGHT UTILITY",
+    "fields": {
+      "Tradition": "arcane, divinity, ethereal",
+      "Cast": "1 AP (somatic)",
+      "Range": "60 feet",
+      "Targets": "1 Studied Target you can perceive"
+    },
+    "body": [
+      "You magically correlate countless small observations into one useful conclusion.",
+      "Choose one category:",
+      "Defences: Learn which of the target's Fortitude, Reflex or Will saves is lowest.",
+      "Resilience: Learn one significant Resistance, Weakness or Immunity possessed by the target.",
+      "Mobility: Learn its principal movement types and Speeds.",
+      "Senses: Learn its most significant unusual sense.",
+      "Capability: Learn one significant offensive, defensive or reactive ability not already known to you.",
+      "The GM provides one accurate fact within the chosen category."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Select one additional category."
+      }
+    ],
+    "casterLevel": []
+  },
+  "ANCESTRAL GROVE": {
+    "section": "ordinary",
+    "pp": 12,
+    "traits": "PLANT SOUL UTILITY WARDING",
+    "fields": {
+      "Tradition": "verdant",
+      "Cast": "10 minutes (material, somatic, verbal)",
+      "Area": "30-foot radius centred upon a living tree, significant fungal growth or other established natural feature",
+      "Duration": "1 hour"
+    },
+    "body": [
+      "You awaken the accumulated spiritual memory of a place, creating a temporary sanctuary where the living and the remembered can coexist.",
+      "Within the grove:",
+      "Willing living creatures gain a +2-status bonus Will saving throws against Fear, possession and effects with the Soul trait.",
+      "Corpses do not naturally decay.",
+      "A willing disembodied spirit connected to the location, the creatures present or remains within the area may manifest sufficiently to be seen, heard and communicated with.",
+      "Hostile possession effects originating within the area suffer a -2-status penalty to their Counteract or Spellcraft checks, as appropriate.",
+      "This manifestation does not compel a spirit to appear, answer questions or remain within the grove. It does not summon a particular deceased creature from another plane."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the radius by 10 feet."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the duration to 1 day."
+      },
+      {
+        "pp": 6,
+        "text": "Willing spirits manifested through the grove may remain visible and audible for the entire duration without requiring another magical effect."
+      }
+    ],
+    "casterLevel": []
+  },
+  "BLOOM OF RENEWAL": {
+    "section": "ordinary",
+    "pp": 8,
+    "traits": "HEALING PLANT SOUL UTILITY",
+    "fields": {
+      "Tradition": "verdant",
+      "Cast": "3 AP (somatic, verbal)",
+      "Range": "60 feet",
+      "Area": "15-foot radius"
+    },
+    "body": [
+      "Life erupts across the affected ground as flowers, fungi, shoots and moss flare briefly into supernatural growth.",
+      "Each willing living creature within the area regains 3d8 Hit Points. Each healed creature may also reduce either Fatigued or Sickened by 1.",
+      "The vegetation produced is ordinary once the spell has resolved. It may wilt naturally if the environment cannot sustain it."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase healing by 1d8."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the radius by 5 feet."
+      },
+      {
+        "pp": 4,
+        "text": "Affected creatures may reduce both Fatigued and Sickened by 1."
+      }
+    ],
+    "casterLevel": []
+  },
+  "BREATH OF THE LAND": {
+    "section": "ordinary",
+    "pp": 6,
+    "traits": "AIR EARTH UTILITY WARDING",
+    "fields": {
+      "Tradition": "verdant",
+      "Cast": "2 AP (somatic, verbal)",
+      "Area": "20-foot emanation",
+      "Duration": "10 minutes"
+    },
+    "body": [
+      "Fresh air, steady footing and the quiet resilience of the surrounding land follow you.",
+      "You and willing allies within the area gain:",
+      "a +2-status bonus to Fortitude saves against environmental hazards;",
+      "a +2-status bonus to saving throws against inhaled Poison, airborne Disease and harmful natural spores; and",
+      "ordinary natural difficult terrain costs 5 feet less additional movement, to a minimum of its normal movement cost.",
+      "The spell does not grant Resistance to elemental damage or permit breathing where no breathable atmosphere exists."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the emanation by 10 feet."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the duration to 1 hour."
+      }
+    ],
+    "casterLevel": []
+  },
+  "EXORCISE": {
+    "section": "ordinary",
+    "pp": 8,
+    "traits": "SOUL UTILITY WARDING",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "3 AP (somatic, verbal)",
+      "Range": "30 feet",
+      "Targets": "1 possessed creature"
+    },
+    "body": [
+      "You invoke divine authority against an entity occupying a body or soul that is not its own.",
+      "Attempt to Counteract the possession.",
+      "Critical: The possession ends. The possessing entity cannot attempt to possess the same creature again for 24 hours.",
+      "Success: The possession ends. The entity cannot attempt to possess the same creature again for 1 minute.",
+      "Failure: The possession remains.",
+      "Fumble: The possession remains and you cannot attempt to Exorcise that possession again until the beginning of your next turn.",
+      "Ending the possession does not destroy the possessing entity. If it can normally manifest outside the host, resolve its separation according to the possession effect."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Gain a +1-circumstance bonus to the Counteract check (max +12)."
+      }
+    ],
+    "casterLevel": []
+  },
+  "FINAL WHISPER": {
+    "section": "ordinary",
+    "pp": 0,
+    "traits": "AUDITORY CANTRIP SOUL UTILITY",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "R (verbal)",
+      "Trigger": "A willing living creature within 30 feet gains the Dying condition",
+      "Range": "30 feet",
+      "Targets": "the triggering creature"
+    },
+    "body": [
+      "You briefly hold the target at the threshold of consciousness, allowing them to speak despite their condition.",
+      "The target may immediately speak up to twenty words. They can speak only languages they normally know and cannot use this opportunity to Cast a Spell, activate an ability or perform another action.",
+      "The spell does not Stabilise the creature, alter its Dying condition or prevent death."
+    ],
+    "warps": [],
+    "casterLevel": [
+      {
+        "cl": 5,
+        "text": "Increase the range to 60 feet."
+      },
+      {
+        "cl": 10,
+        "text": "The target may speak up to fifty words."
+      }
+    ]
+  },
+  "FUNGAL WARD": {
+    "section": "ordinary",
+    "pp": 2,
+    "traits": "ALTERATION UTILITY WARDING",
+    "fields": {
+      "Tradition": "verdant",
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "touch",
+      "Targets": "1 willing creature",
+      "Duration": "1 hour"
+    },
+    "body": [
+      "A nearly invisible layer of harmless protective spores and natural microorganisms settles across the target.",
+      "The target gains a +2-status bonus to saving throws against Disease, Poison and harmful fungal or spore effects.",
+      "This spell does not protect against effects merely because they originated from a fungal creature if the effect itself is unrelated to disease, poison or spores."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Affect one additional target."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the duration to 8 hours."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the bonus by 1, maximum +4."
+      }
+    ],
+    "casterLevel": []
+  },
+  "HALLOWED REST": {
+    "section": "ordinary",
+    "pp": 2,
+    "traits": "MENTAL UTILITY WARDING",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "10 minutes (somatic, verbal)",
+      "Range": "touch",
+      "Targets": "1 willing creature",
+      "Duration": "until the target next completes a Full Rest or your next daily preparations"
+    },
+    "body": [
+      "You bless the target's coming rest, quietening nightmares and strengthening the boundary around their sleeping mind.",
+      "While sleeping, the target gains a +2-status bonus to saving throws against Fear, possession, dream effects and other Mental effects originating outside their own mind.",
+      "Mundane discomfort, ordinary nightmares and routine environmental noise cannot by themselves prevent the target from gaining the benefits of its rest. Actual danger, injury, hostile creatures and severe environmental conditions function normally."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Affect one additional target."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the saving throw bonus by 1, maximum +4."
+      }
+    ],
+    "casterLevel": []
+  },
+  "LITANY OF ENDURANCE": {
+    "section": "ordinary",
+    "pp": 6,
+    "traits": "AUDITORY ENCHANTMENT UTILITY",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "2 AP (verbal)",
+      "Area": "30-foot emanation",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You recite a measured litany of perseverance, strengthening those who hear you against exhaustion and hardship.",
+      "You and willing allies within the area gain a +2-status bonus to Fortitude saving throws against effects that cause Fatigued or arise from environmental hardship.",
+      "Furthermore, affected creatures treat their Fatigued condition as 1 lower for the purpose of determining its penalties. This does not actually reduce or remove Fatigued. If a creature leaves the area, its normal penalties immediately return."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the emanation by 10 feet."
+      },
+      {
+        "pp": 4,
+        "text": "Affected creatures cannot have their Fatigued condition increased above its current value while within the area."
+      }
+    ],
+    "casterLevel": []
+  },
+  "LITANY OF REMEMBRANCE": {
+    "section": "ordinary",
+    "pp": 6,
+    "traits": "AUDITORY INSIGHT MENTAL UTILITY",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "2 AP (verbal)",
+      "Range": "30 feet",
+      "Targets": "up to 6 willing creatures",
+      "Duration": "10 minutes"
+    },
+    "body": [
+      "You recite names, deeds and fragments of remembered history, anchoring the identity of those who listen.",
+      "Affected creatures gain a +2-status bonus to Recall Knowledge checks concerning history, religion, ancestry or culture.",
+      "They also gain a +2-status bonus to saving throws against effects that would alter, suppress, erase or replace their memories or identity.",
+      "This spell does not restore memories already removed before the spell was cast."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the duration to 1 hour."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the bonuses by 1, maximum +4."
+      }
+    ],
+    "casterLevel": []
+  },
+  "MEMORY OF STONE": {
+    "section": "ordinary",
+    "pp": 4,
+    "traits": "EARTH INSIGHT REVELATION UTILITY",
+    "fields": {
+      "Tradition": "verdant",
+      "Cast": "1 minute (somatic, verbal)",
+      "Range": "touch",
+      "Targets": "one natural stone, earthen surface or exposed area of natural ground"
+    },
+    "body": [
+      "You awaken the faint impressions retained by the land.",
+      "You receive a brief sensory impression of the most significant physical or spiritual disturbance that affected the target or occurred within 10 feet of it during the previous 24 hours.",
+      "The impression lasts no more than several seconds and may include vibration, pressure, sound, temperature, strong emotion or spiritual disturbance, and indistinct visual impressions where appropriate.",
+      "The land does not possess human understanding. It cannot answer questions, identify a creature by name or provide facts it could not physically or spiritually have experienced."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Read impressions up to 1 week old."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the surrounding area to 30 feet."
+      },
+      {
+        "pp": 4,
+        "text": "Read impressions up to 1 month old."
+      }
+    ],
+    "casterLevel": []
+  },
+  "MYCELIAL MESSAGE": {
+    "section": "ordinary",
+    "pp": 4,
+    "traits": "LINGUISTIC PLANT UTILITY",
+    "fields": {
+      "Tradition": "verdant",
+      "Cast": "1 minute (material, somatic)",
+      "Range": "1 mile",
+      "Targets": "1 creature you have met"
+    },
+    "body": [
+      "You press your hands against soil, roots or fungal growth and release a message into the living network beneath the land.",
+      "If the target is within range, on the same plane and in contact with natural soil, roots or fungal growth, it receives a message of up to twenty-five words. The target may immediately reply with up to twenty-five words.",
+      "The spell fails without revealing why if the target cannot be reached through the natural world. Open ocean, wholly artificial environments and planar boundaries prevent transmission."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the range to 10 miles."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the range to 100 miles."
+      },
+      {
+        "pp": 2,
+        "text": "Send the same message to up to five eligible creatures."
+      }
+    ],
+    "casterLevel": []
+  },
+  "OATHSEAL": {
+    "section": "ordinary",
+    "pp": 2,
+    "traits": "LINGUISTIC SOUL UTILITY",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "1 minute (somatic, verbal)",
+      "Range": "10 feet",
+      "Targets": "2 willing creatures",
+      "Duration": "1 day"
+    },
+    "body": [
+      "You magically witness a promise willingly exchanged between the targets.",
+      "Each target states an oath of no more than twenty-five words. For the duration, each target immediately knows if another target knowingly and deliberately violates the stated oath.",
+      "The spell does not compel anybody to obey the oath, determine whether a creature intends to break it, reveal where or how the oath was broken, or punish a creature for violating it.",
+      "An ambiguous oath remains ambiguous. The spell recognises the words sworn rather than what one participant privately hoped they meant."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Add one willing participant."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the duration to 1 week."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the duration to 1 month."
+      }
+    ],
+    "casterLevel": []
+  },
+  "RESTORE MEMORY": {
+    "section": "ordinary",
+    "pp": 12,
+    "traits": "HEALING INSIGHT MENTAL SOUL UTILITY",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "10 minutes (somatic, verbal)",
+      "Range": "touch",
+      "Targets": "1 willing creature"
+    },
+    "body": [
+      "You reconstruct memories and fragments of identity damaged by supernatural interference.",
+      "Attempt to Counteract each magical effect currently suppressing memories, erasing memories, replacing genuine memories with false ones, or altering the target's sense of personal identity. Make a separate Counteract check against each effect.",
+      "A successfully restored memory returns as the target originally experienced it. The spell does not make that memory objectively accurate; mistaken beliefs and imperfect recollection remain mistaken.",
+      "Restore Memory cannot create memories that were never formed or repair purely physical loss of brain function. It also does not automatically reveal that an apparently genuine memory was false unless that false memory was created through an effect successfully Counteracted by the spell."
+    ],
+    "warps": [
+      {
+        "pp": 4,
+        "text": "Target one additional willing creature."
+      }
+    ],
+    "casterLevel": []
+  },
+  "ROOTED SOUL": {
+    "section": "ordinary",
+    "pp": 10,
+    "traits": "EARTH SOUL UTILITY WARDING",
+    "fields": {
+      "Tradition": "verdant",
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "touch",
+      "Targets": "1 willing creature",
+      "Duration": "10 minutes"
+    },
+    "body": [
+      "The target's body and soul become spiritually anchored to the living world.",
+      "While standing upon natural earth, stone or living vegetation, the target gains:",
+      "Advantage on saving throws against possession;",
+      "a +4-status bonus to saving throws against unwanted Teleportation or effects that would forcibly move its soul;",
+      "Advantage on checks and saving throws made to resist being Shoved, Tripped or physically moved against its will.",
+      "If an effect would forcibly teleport or possess the target without allowing a saving throw, that effect must first successfully Counteract Rooted Soul. The spell provides no benefit while the target is flying, swimming without touching the ground or otherwise completely separated from the natural world."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Affect one additional target."
+      },
+      {
+        "pp": 4,
+        "text": "The target retains the benefits while within 10 feet of natural ground rather than requiring direct contact. 1049-179500"
+      }
+    ],
+    "casterLevel": []
+  },
+  "SEVER SOULCHAIN": {
+    "section": "ordinary",
+    "pp": 14,
+    "traits": "ESSENCE HEALING SOUL UTILITY",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "1 minute (material, somatic, verbal)",
+      "Range": "touch",
+      "Targets": "1 creature, corpse or object associated with a bound soul"
+    },
+    "body": [
+      "You strike at supernatural bonds holding a soul where it does not belong.",
+      "Select one magical effect that imprisons a soul, binds a soul to a creature, corpse, location or object, forcibly displaces a soul, maintains possession, or directly controls a soul. Attempt to Counteract the effect.",
+      "Critical: The effect ends. If the affected creature is living, reduce its Soul Drain by 10 and it gains a +4-status bonus against the same source attempting to affect its soul again for 24 hours.",
+      "Success: The effect ends.",
+      "Failure: The bond remains intact.",
+      "Fumble: The bond remains intact and cannot be targeted by another casting of Sever Soulchain from you for 24 hours.",
+      "The spell does not resurrect the dead, compel an unwilling soul to return to a body or destroy a soul merely because its bond has been severed."
+    ],
+    "warps": [
+      {
+        "pp": 4,
+        "text": "Attempt to sever one additional soul-binding effect associated with the same target."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SHARE BURDEN": {
+    "section": "ordinary",
+    "pp": 4,
+    "traits": "HEALING SOUL UTILITY",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "touch",
+      "Targets": "1 willing creature"
+    },
+    "body": [
+      "You take a fragment of another creature's suffering into yourself.",
+      "Choose one of the following conditions affecting the target: Dazed, Fatigued, Frightened, Sickened or Weakened.",
+      "Reduce the selected condition by 1. You immediately gain or increase the same condition by 1.",
+      "If you are immune to the selected condition, or another effect would prevent you from receiving it, Share Burden fails. This spell cannot transfer Dying, Doomed, Injured or Soul Drain."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Transfer one additional point of the same condition."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the range to 30 feet."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SOUL SANCTUARY": {
+    "section": "ordinary",
+    "pp": 8,
+    "traits": "SOUL UTILITY WARDING",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "touch",
+      "Targets": "1 willing creature",
+      "Duration": "10 minutes"
+    },
+    "body": [
+      "You reinforce the target's spiritual boundaries.",
+      "The target gains a +4-status bonus to saving throws against possession, a +4-status bonus to saving throws against Soul Drain and effects with the Soul trait, and Resistance to essence damage.",
+      "Soul Sanctuary does not remove possession or Soul Drain already affecting the target."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Affect one additional target."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the duration to 1 hour."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SPOREGLOW": {
+    "section": "ordinary",
+    "pp": 0,
+    "traits": "ALTERATION CANTRIP LIGHT UTILITY",
+    "fields": {
+      "Tradition": "verdant",
+      "Cast": "1 AP (somatic)",
+      "Range": "touch",
+      "Targets": "a patch of fungus, moss or living plant matter",
+      "Duration": "1 hour"
+    },
+    "body": [
+      "The target begins to glow with soft natural luminescence, increasing the illumination level by one step within 10 feet.",
+      "You determine the general hue when casting the spell. The light produces no heat and does not harm the affected organism."
+    ],
+    "warps": [],
+    "casterLevel": [
+      {
+        "cl": 5,
+        "text": "Increase the radius to 20 feet."
+      },
+      {
+        "cl": 10,
+        "text": "The light increases illumination by two steps."
+      }
+    ]
+  },
+  "THRESHOLD WARD": {
+    "section": "ordinary",
+    "pp": 10,
+    "traits": "SOUL UTILITY WARDING",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "10 minutes (material, somatic, verbal)",
+      "Range": "touch",
+      "Area": "one doorway, gate, arch or other opening no more than 20 feet across",
+      "Duration": "8 hours"
+    },
+    "body": [
+      "You establish a spiritual boundary across the chosen threshold.",
+      "A disembodied spirit or incorporeal Undead attempting to cross the boundary must attempt a Will saving throw.",
+      "Critical: The creature crosses normally.",
+      "Success: The creature crosses but becomes Weakened 1 until the end of its next turn.",
+      "Failure: The creature cannot cross the ward for 1 minute.",
+      "Fumble: The creature cannot voluntarily cross the ward for duration.",
+      "An effect attempting to establish possession through the ward, or to move a disembodied spirit across it using Teleportation or similar magic, must first successfully Counteract Threshold Ward. The ward does not prevent ordinary corporeal creatures, including corporeal Undead or Unliving characters, from physically crossing the threshold."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Protect an opening up to 40 feet across."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the duration to 1 day."
+      },
+      {
+        "pp": 6,
+        "text": "Increase the duration to 1 week."
+      }
+    ],
+    "casterLevel": []
+  },
+  "VEIL SIGHT": {
+    "section": "ordinary",
+    "pp": 4,
+    "traits": "DETECTION INSIGHT SOUL UTILITY",
+    "fields": {
+      "Tradition": "divinity",
+      "Cast": "2 AP (somatic, verbal)",
+      "Duration": "10 minutes"
+    },
+    "body": [
+      "Your vision extends partially beyond the physical world.",
+      "You can perceive disembodied spirits, incorporeal Undead, manifested haunts and the presence of an active possessing entity within another creature.",
+      "Entities perceived through Veil Sight can be seen clearly enough to target if they are otherwise within Line of Effect.",
+      "The spell does not remove Incorporeal, allow mundane weapons to affect incorporeal creatures, automatically identify spirits or reveal their allegiance. A possessing entity appears as a second spiritual presence associated with the host, but the spell does not automatically identify it or allow it to be targeted if the possession effect normally prevents this."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the duration to 1 hour."
+      },
+      {
+        "pp": 4,
+        "text": "You gain a +2-status bonus to Search checks made to locate spirits, haunts or evidence of possession."
+      }
+    ],
+    "casterLevel": []
+  },
+  "ANCHOR THE DEPARTING SOUL": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "ARCHIVIST SOUL UTILITY WARDING",
+    "fields": {
+      "Cast": "R (verbal)",
+      "Trigger": "A living creature within 30 feet dies",
+      "Range": "30 feet",
+      "Targets": "the triggering creature",
+      "Duration": "10 minutes"
+    },
+    "body": [
+      "At the instant of death, you bind the departing soul gently to the remains, preventing outside forces from claiming it.",
+      "For the duration:",
+      "the soul cannot be forcibly removed, destroyed, possessed or bound unless the effect first successfully Counteracts Anchor the Departing Soul;",
+      "the corpse cannot be animated by an effect that requires or manipulates the deceased creature's soul unless the spell is first Counteracted;",
+      "the creature remains a valid target for magic capable of returning it to life; and",
+      "time spent under Anchor the Departing Soul does not count towards ordinary limits based upon the number of minutes, hours or days since death.",
+      "The final benefit does not extend effects whose requirements refer specifically to death occurring during the current round, previous round or another explicitly combat-timed window.",
+      "The soul may willingly depart where another rule permits it to make that choice."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the duration to 1 hour."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the duration to 24 hours."
+      }
+    ],
+    "casterLevel": []
+  },
+  "BINDING CORD": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "ENCHANTMENT FOLKWARDEN SAVE",
+    "fields": {
+      "Cast": "2 AP (material, verbal)",
+      "Range": "60 feet",
+      "Targets": "1 creature",
+      "Saving Throw": "Will",
+      "Duration": "see text"
+    },
+    "body": [
+      "You tighten a knotted cord, braided grass, twisted root or symbolic binding and impose that restraint upon the target's movements.",
+      "Critical: The target is unaffected.",
+      "Success: The target suffers a -5-foot status penalty to its Speed until the end of its next turn.",
+      "Failure: The target suffers a -10-foot status penalty to all Speeds for 1 minute and cannot use Teleportation effects during that time.",
+      "Fumble: As Failure, and the target is also Immobilised until the end of its next turn.",
+      "Binding Cord does not physically tether the target to you or prevent forced movement.",
+      "Destroying or dropping the material cord after the spell is cast does not end the effect."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the range by 30 feet."
+      },
+      {
+        "pp": 2,
+        "text": "Target one additional creature within range."
+      }
+    ],
+    "casterLevel": []
+  },
+  "BITTER CHARM": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "FOLKWARDEN HEALING UTILITY WARDING",
+    "fields": {
+      "Cast": "1 AP (material, somatic)",
+      "Range": "touch",
+      "Targets": "1 willing creature",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You press a bitter herb, seed, sliver of bark or similarly traditional protective ingredient into the target's hand, beneath their tongue or against their skin.",
+      "The first time during the duration that the target attempts a saving throw against a Disease or Poison effect, it gains a +2-status bonus to that saving throw.",
+      "Bitter Charm then ends.",
+      "The spell does not remove an existing Disease or Poison and provides no protection against an effect merely because it originates from a poisonous creature if the effect itself does not possess an appropriate trait."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Target one additional willing creature."
+      },
+      {
+        "pp": 2,
+        "text": "The charm may provide its bonus twice before ending."
+      }
+    ],
+    "casterLevel": []
+  },
+  "BLACKTHORN WARNING": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "FOLKWARDEN INSIGHT UTILITY WARDING",
+    "fields": {
+      "Cast": "1 AP (material, somatic)",
+      "Range": "touch",
+      "Targets": "One doorway, window, gate, passage or boundary no wider than 10 feet",
+      "Duration": "8 hours"
+    },
+    "body": [
+      "You place a sprig of thorn, knotted thread, bent nail, line of chalk or another traditional warning token across a boundary.",
+      "When a creature that you did not designate when casting the spell crosses that boundary, you immediately become aware that the ward has been disturbed, provided you are within 1 mile and on the same plane.",
+      "You learn only that something crossed the boundary. You do not learn its identity, direction of travel, creature type or exact time if you were incapable of perceiving the warning when it occurred.",
+      "Tiny animals, insects and harmless environmental movement do not normally trigger the spell unless deliberately used by another creature to test or circumvent the ward.",
+      "Blackthorn Warning ends after alerting you once."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "The spell may alert you three times before ending."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the communication range to 10 miles."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the duration to 24 hours."
+      }
+    ],
+    "casterLevel": []
+  },
+  "BREAK THE EVIL EYE": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "FOLKWARDEN HEALING SOUL UTILITY WARDING",
+    "fields": {
+      "Cast": "2 AP (material, somatic, verbal)",
+      "Range": "touch",
+      "Targets": "1 creature"
+    },
+    "body": [
+      "You break a knotted thread, scatter prepared herbs, extinguish a marked candle or perform another traditional act symbolising the severing of harmful influence.",
+      "Select one effect currently affecting the target possessing one of the following characteristics:",
+      "Curse;",
+      "Charm or Compulsion;",
+      "possession; magical Fear; or",
+      "another Mental or Soul effect that directly controls, coerces or unnaturally alters the target's behaviour.",
+      "Attempt to Counteract the selected effect.",
+      "Critical The effect ends, and the target gains a +2-status bonus to saving throws against that same source for 1 hour.",
+      "Success The effect ends.",
+      "Failure The effect remains.",
+      "Fumble The effect remains, and you cannot attempt to Break the Evil Eye against that particular effect again until your next daily preparation.",
+      "The spell cannot remove ordinary emotions, voluntarily accepted magical effects or mundane coercion."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the range to 30 feet."
+      },
+      {
+        "pp": 4,
+        "text": "Attempt to Counteract one additional eligible effect affecting the same target."
+      }
+    ],
+    "casterLevel": []
+  },
+  "CALL MINOR SPIRIT": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "SHAMAN SPIRIT UTILITY",
+    "fields": {
+      "Cast": "1 minute (material, verbal)",
+      "Area": "30-foot emanation",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You extend an invitation into the unseen world.",
+      "If an appropriate willing minor spirit is present within the area, it may manifest sufficiently to communicate with you and creatures you designate.",
+      "The spirit must possess some connection to the immediate location, object, natural feature or recent spiritual event. The spell cannot summon a particular deceased creature, compel an unwilling spirit, create a spirit where none exists or grant the spirit information it does not already possess.",
+      "Manifestation through this spell does not make the spirit physically tangible and does not grant it any additional ability to attack, manipulate objects or be attacked."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the area to a 100-foot emanation."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the duration to 10 minutes."
+      }
+    ],
+    "casterLevel": []
+  },
+  "COMMUNAL LITANY": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "AUDITORY CLERIC SOUL UTILITY",
+    "fields": {
+      "Cast": "2 AP (verbal)",
+      "Area": "30-foot emanation",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You begin a sustained litany of reassurance, doctrine and shared conviction. Those who hear you draw strength from the certainty of those standing beside them.",
+      "You and willing allies within the emanation gain the following benefit.",
+      "Once during the spell's duration, when an affected creature attempts a saving throw against an effect possessing the Curse, Fear, Mental or Soul trait, it may improve the final result of that saving throw by one degree.",
+      "Failure becomes Partial.",
+      "Partial becomes Success.",
+      "Fumble becomes Failure.",
+      "Blunder becomes Fumble.",
+      "A creature must decide to use this benefit after the saving throw is rolled but before its effects are resolved.",
+      "Once a creature has improved a saving throw using Communal Litany, it cannot benefit from the spell again during that casting.",
+      "The benefit is lost while outside the emanation but returns if the creature re-enters before the spell ends, provided it has not already used its benefit."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the emanation by 10 feet."
+      },
+      {
+        "pp": 2,
+        "text": "A creature may use the benefit twice during the duration, but never more than once against the same effect."
+      }
+    ],
+    "casterLevel": []
+  },
+  "DISTANT REMEDY": {
+    "section": "specialist",
+    "pp": 3,
+    "traits": "HEALER HEALING SOUL UTILITY",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "30 feet",
+      "Targets": "1 willing creature"
+    },
+    "body": [
+      "You send restorative vitality across the intervening space.",
+      "The target regains 3d6 Hit Points."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Increase the healing by 1d6."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the range by 30 feet."
+      }
+    ],
+    "casterLevel": []
+  },
+  "DOCTRINAL WARD": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "ARCHIVIST UTILITY WARDING",
+    "fields": {
+      "Cast": "1 AP (verbal)",
+      "Range": "30 feet",
+      "Targets": "1 willing creature",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You recite a compact theological formula that reveals the structure of divine power an instant before it takes hold.",
+      "The first time during the duration that the target attempts a saving throw against a Divinity spell or magical effect granted directly by a Deific Aspect, it gains Advantage on that saving throw. Doctrinal Ward then ends."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Target one additional willing creature."
+      },
+      {
+        "pp": 3,
+        "text": "The ward may grant Advantage twice before ending."
+      }
+    ],
+    "casterLevel": []
+  },
+  "EXEMPLAR'S GRACE": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "ARCHIVIST ENCHANTMENT UTILITY",
+    "fields": {
+      "Cast": "1 AP (verbal)",
+      "Range": "30 feet",
+      "Targets": "1 willing creature",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You recount a deed attributed to a saint, prophet, divine champion or other sacred exemplar, allowing the target to emulate one fragment of their excellence.",
+      "When casting the spell, choose one of the following:",
+      "Fortitude;",
+      "Reflex;",
+      "Will; or",
+      "one skill in which you possess at least 1 rank.",
+      "The target gains a +1-status bonus to the selected saving throw or skill for the duration."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Select one additional eligible saving throw or skill."
+      },
+      {
+        "pp": 2,
+        "text": "Target one additional willing creature. Each target receives the same selected benefit."
+      }
+    ],
+    "casterLevel": []
+  },
+  "EXPEL POSSESSOR": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "SHAMAN SOUL SPIRIT UTILITY WARDING",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "30 feet",
+      "Targets": "1 possessed creature"
+    },
+    "body": [
+      "You call upon the host's own spirit and force the intruder away from it.",
+      "Attempt to Counteract the possession.",
+      "Critical: The possession ends. The possessing entity cannot attempt to possess the same host again for 24 hours.",
+      "Success: The possession ends. The entity cannot attempt to possess the same host again for 1 minute.",
+      "Failure: The possession remains.",
+      "Fumble: The possession remains and Expel Possessor cannot target that particular possession again until the beginning of your next turn.",
+      "Ending possession does not automatically destroy or banish the possessing entity. If it can normally exist outside the host, it appears or remains according to the rules of the possession effect."
+    ],
+    "warps": [
+      {
+        "pp": 4,
+        "text": "Gain a +2-circumstance bonus to the Counteract check."
+      }
+    ],
+    "casterLevel": []
+  },
+  "FORBIDDEN NAME": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "ARCHIVIST ENCHANTMENT MENTAL SAVE SOUL",
+    "fields": {
+      "Cast": "2 AP (verbal)",
+      "Range": "60 feet",
+      "Targets": "1 creature",
+      "Saving Throw": "Will",
+      "Duration": "See text"
+    },
+    "body": [
+      "Requirements You have successfully identified the target through Recall Knowledge, or possess its true name, secret sacred title or another unique supernatural designation judged sufficient by the GM.",
+      "You pronounce a designation so exact that the target's own essence recognises it.",
+      "Critical: The target is unaffected.",
+      "Success: The target becomes Weakened 1 until the end of its next turn.",
+      "Failure: The target becomes Weakened 2 for 1 minute.",
+      "Fumble: The target becomes Weakened 3 for 1 minute. Until the end of its next turn, it also cannot become Invisible or Incorporeal, nor use Teleportation effects."
+    ],
+    "warps": [
+      {
+        "pp": 4,
+        "text": "On a Failure or Fumble, the target also becomes Frightened 2 when the spell takes effect."
+      }
+    ],
+    "casterLevel": []
+  },
+  "FORENSIC LIGHT": {
+    "section": "specialist",
+    "pp": 3,
+    "traits": "GRIMWARD INSIGHT UTILITY",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "30 feet",
+      "Area": "15-foot burst",
+      "Duration": "10 minutes"
+    },
+    "body": [
+      "A pale radiance settles over the area, exaggerating disturbances left by physical and supernatural activity.",
+      "You gain a +2-status bonus to checks made within the affected area to:",
+      "Search for physical evidence;",
+      "Identify Magic;",
+      "Trace Possession;",
+      "Identify Spiritual Affliction; or",
+      "recognise evidence of a curse, haunt or supernatural transformation.",
+      "The spell does not identify who created the evidence, determine guilt or reveal information that left no trace."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the radius by 10 feet."
+      },
+      {
+        "pp": 2,
+        "text": "Spiritual traces up to 7 days old remain perceptible, provided they have not been magically erased."
+      }
+    ],
+    "casterLevel": []
+  },
+  "GRACE BEYOND NEED": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "CLERIC HEALING SOUL UTILITY",
+    "fields": {
+      "Cast": "R (verbal)",
+      "Trigger": "A spell or use of Channels that you cast restores HP to a willing living creature, but some of that healing would be lost because the creature has reached its maximum HP.",
+      "Targets": "1 creature healed by the triggering effect",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "Rather than allowing divine grace to dissipate unused, you bind the surplus vitality around the recipient as a brief protective blessing.",
+      "The target gains temporary HP equal to the amount of excess healing that would otherwise have been lost to a maximum equal to:",
+      "10 + your Wisdom modifier.",
+      "Temporary HP granted by Grace Beyond Need does not stack with itself. If the target receives this spell again, it retains whichever amount of temporary HP is greater."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the maximum temporary HP by 5."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the duration to 10 minutes."
+      }
+    ],
+    "casterLevel": []
+  },
+  "GREEN WITNESS": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "DRUID INSIGHT PLANT UTILITY",
+    "fields": {
+      "Cast": "1 minute (somatic, verbal)",
+      "Range": "touch",
+      "Targets": "1 living plant rooted in the surrounding area"
+    },
+    "body": [
+      "You place your hand against a tree, bush, grass, fungus or other rooted living growth and allow your awareness to spread briefly through it and the surrounding soil.",
+      "The plant does not speak. Instead, you perceive traces of recent disturbance recorded within its movement, roots, broken fibres, displaced soil and Verdant resonance.",
+      "Select one of the following questions concerning events within 30 feet of the plant during the previous hour:",
+      "Did one or more creatures of Small size or larger pass through this area?",
+      "What general direction did the most recent such creature or group travel?",
+      "Was significant bloodshed or violence committed nearby?",
+      "Was the surrounding vegetation recently burned, poisoned, cut or otherwise deliberately damaged?",
+      "Has an obvious unnatural or magical disturbance affected the local living environment?",
+      "What was the approximate size of the largest creature to pass nearby?",
+      "The answer is truthful but limited to information the local vegetation could reasonably retain.",
+      "Green Witness does not identify individual creatures, reveal names, read thoughts or reproduce conversations.",
+      "A plant that was not present when the event occurred cannot reveal information about it."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Ask one additional question."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the period examined to 8 hours."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the period examined to 24 hours."
+      }
+    ],
+    "casterLevel": []
+  },
+  "HEARTHSIGN": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "FOLKWARDEN MENTAL SOUL UTILITY WARDING",
+    "fields": {
+      "Cast": "1 AP (material, somatic)",
+      "Range": "30 feet",
+      "Targets": "1 willing creature",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You trace or invoke a simple protective sign traditionally associated with hearth, home and personal safety.",
+      "The target gains a +1-status bonus to Will saving throws against:",
+      "Fear;",
+      "effects with the Mental trait;",
+      "possession; and",
+      "effects with the Soul trait.",
+      "Hearthsign does not remove an effect already affecting the target."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Target one additional willing creature."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the bonus by 1, to a maximum of +3."
+      }
+    ],
+    "casterLevel": []
+  },
+  "HEDGEWARD": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "FOLKWARDEN MENTAL SOUL UTILITY",
+    "fields": {
+      "Cast": "2 AP (material, verbal)",
+      "Area": "15-foot emanation",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You scatter salt, herbs, ash, seeds or fragments of protective material while speaking one of the short wards traditionally used when there is no time to prepare a proper threshold.",
+      "You and willing creatures within the area gain a +1-status bonus to saving throws against:",
+      "Curse effects;",
+      "Fear;",
+      "effects with the Mental trait;",
+      "possession; and",
+      "effects with the Soul trait.",
+      "A creature loses the benefit while outside the emanation and regains it if it returns.",
+      "Hedgeward can function within a Ward the Threshold, but bonuses of the same type do not stack normally."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the emanation by 10 feet."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the status bonus by 1, to a maximum of +3."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the duration to 10 minutes."
+      }
+    ],
+    "casterLevel": []
+  },
+  "HIDDEN DOCTRINE": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "ARCHIVIST SECRET SHADOW UTILITY",
+    "fields": {
+      "Cast": "10 minutes (material, verbal)",
+      "Targets": "One written work containing no more than 20 pages",
+      "Duration": "24 hours"
+    },
+    "body": [
+      "You conceal the true contents of a written work beneath magically substituted text.",
+      "When casting the spell, compose or designate the false wording that will appear in place of the original. Anyone reading the affected pages sees only this substitute text. The original writing is neither erased nor physically altered.",
+      "You may designate up to six creatures when casting the spell. Those creatures perceive the original text normally.",
+      "Sense Magic can reveal that the document is magically affected but does not reveal the concealed writing. Successfully Counteracting Hidden Doctrine exposes the original text."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Affect up to 100 pages."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the duration to 1 week."
+      },
+      {
+        "pp": 4,
+        "text": "The duration becomes unlimited until Counteracted or dismissed."
+      }
+    ],
+    "casterLevel": []
+  },
+  "LAST RITE": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "ARCHIVIST SOUL UTILITY WARDING",
+    "fields": {
+      "Cast": "1 minute (material, verbal)",
+      "Range": "Touch",
+      "Targets": "1 corpse",
+      "Duration": "24 hours"
+    },
+    "body": [
+      "You perform a concise but magically binding funerary rite intended to protect the dead from interference.",
+      "Any magical effect attempting to possess the corpse, animate it as an Undead creature or bind the deceased creature's soul to its remains must first successfully Counteract Last Rite.",
+      "The spell does not prevent resurrection, reincarnation, communication with the willing dead or magic that merely examines or preserves the corpse."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the duration to 7 days."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the duration to 1 month."
+      }
+    ],
+    "casterLevel": []
+  },
+  "OFFERING TO THE UNSEEN": {
+    "section": "specialist",
+    "pp": 3,
+    "traits": "SHAMAN SPIRIT UTILITY",
+    "fields": {
+      "Cast": "1 minute (material, verbal)",
+      "Range": "30 feet",
+      "Targets": "1 spirit possessing sufficient awareness to communicate",
+      "Duration": "10 minutes"
+    },
+    "body": [
+      "You create a spiritual offering appropriate to the target: remembered food, a scent, music, warmth, a symbolic possession or another intangible experience meaningful to it.",
+      "You gain a +2-status bonus to Diplomacy checks made to Make an Impression, Request or otherwise negotiate with that spirit for the duration.",
+      "The spell does not compel the spirit to negotiate, change its attitude automatically or force it to accept a request. A spirit incapable of desire, memory or meaningful communication cannot benefit from the offering."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Affect up to three spirits within range."
+      }
+    ],
+    "casterLevel": []
+  },
+  "OPEN THE VEIL": {
+    "section": "specialist",
+    "pp": 11,
+    "traits": "AURA SHAMAN SPIRIT UTILITY",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Area": "20-foot emanation",
+      "Duration": "Sustained, up to 1 minute"
+    },
+    "body": [
+      "The boundary between the physical and spiritual world becomes temporarily transparent around you.",
+      "You and willing allies within the area can perceive disembodied spirits, incorporeal Undead, manifested haunts and possessing entities where the possession effect allows the entity to be separately targeted. Those creatures are perceived clearly enough to be targeted.",
+      "Furthermore, spells and magical attacks made by affected creatures treat incorporeal spirits as though the attacker possessed the normal means required to affect them.",
+      "This does not remove the Incorporeal trait, allow mundane weapons to affect creatures they could not normally harm, reveal an entity's identity or allegiance, expose a possession whose rules explicitly prevent the possessor from being targeted, or bypass an Immunity unrelated to incorporeality."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the emanation by 10 feet."
+      },
+      {
+        "pp": 4,
+        "text": "The spell no longer requires Sustaining and lasts for 1 minute."
+      }
+    ],
+    "casterLevel": []
+  },
+  "NINE-HERB RESTORATIVE": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "FOLKWARDEN HEALING SOUL UTILITY",
+    "fields": {
+      "Cast": "10 minutes (material, somatic, verbal)",
+      "Range": "touch",
+      "Targets": "1 living creature"
+    },
+    "body": [
+      "You prepare a complex restorative working using nine herbs, roots, fungi, minerals or equivalent substances whose individual importance varies wildly between Folkwarden traditions.",
+      "Select one Disease or Poison currently affecting the target and attempt to Counteract it.",
+      "After resolving the Counteract attempt, the target may also choose one of the following:",
+      "reduce Fatigued by 1d6;",
+      "reduce Sickened by 1d6; or",
+      "reduce Weakened by 1d6; or",
+      "reduce Injured by 1d4.",
+      "A condition cannot be reduced below 0.",
+      "The secondary benefit occurs regardless of whether the Counteract attempt succeeds, provided the spell itself was successfully cast.",
+      "Nine-Herb Restoration cannot restore HP, remove Dying, reverse physical injury or cure an affliction that is not actually a Disease or Poison."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "The target may select two different secondary benefits."
+      },
+      {
+        "pp": 2,
+        "text": "Target an additional creature."
+      }
+    ],
+    "casterLevel": []
+  },
+  "OLD LAW OF THE THRESHOLD": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "FOLKWARDEN UTILITY WARDING",
+    "fields": {
+      "Cast": "3 AP (material, somatic, verbal)",
+      "Range": "30 feet",
+      "Area": "20-foot radius centred upon a fixed point",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You invoke one of the oldest principles of folk protection: that a boundary deliberately established and properly witnessed possesses meaning.",
+      "A visible or symbolic boundary appears around the affected area: scattered salt, roots pushing through cracks, pale chalk marks, hanging threads, thorn shadows or another manifestation appropriate to your tradition.",
+      "Willing creatures within the area gain a +2-status bonus to saving throws against:",
+      "Curse effects;",
+      "Fear;",
+      "Mental effects;",
+      "possession;",
+      "Soul Drain; and",
+      "effects with the Soul trait.",
+      "In addition, whenever a hostile Undead creature, disembodied spirit, possessing entity or creature with the Incorporeal trait attempts to cross the boundary from outside, it must attempt a Will saving throw.",
+      "A creature attempts this save only the first time it tries to cross during each round.",
+      "Critical The creature crosses normally.",
+      "Success The creature crosses the boundary, but the first square it enters within the area counts as difficult terrain.",
+      "Failure The creature cannot cross the boundary during the current turn. Movement spent reaching the boundary is still expended.",
+      "Fumble The creature cannot voluntarily cross the boundary for the remainder of the spell.",
+      "A creature already inside the area when Old Law of the Threshold is cast is not expelled and may leave normally. If it later attempts to re-enter, it must attempt the saving throw.",
+      "The spell does not prevent ranged attacks, spells or abilities from crossing the boundary and does not obstruct ordinary living creatures merely because they are hostile."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the radius by 10 feet."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the duration to 10 minutes."
+      },
+      {
+        "pp": 3,
+        "text": "Increase the duration to 1 hour."
+      }
+    ],
+    "casterLevel": []
+  },
+  "PURSUIT MARK": {
+    "section": "specialist",
+    "pp": 5,
+    "traits": "GRIMWARD INSIGHT SAVE",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "60 feet",
+      "Targets": "Your Subject of Inquisition",
+      "Saving Throw": "Will"
+    },
+    "body": [
+      "You establish a sympathetic link between yourself and the Subject you are already pursuing.",
+      "Critical: The target is unaffected.",
+      "Success: For 1 minute, you know the target's general direction while it remains within 300 feet.",
+      "Failure: For 1 hour, you know the target's general direction and whether it is within 300 feet, 1,000 feet or 1 mile.",
+      "Fumble: As Failure, but the duration is 8 hours, and the range increases to 10 miles.",
+      "The spell does not reveal an exact square, bypass Line of Effect for other abilities or function across planar boundaries. If the target moves beyond the spell's range, you lose the direction until it returns."
+    ],
+    "warps": [
+      {
+        "pp": 4,
+        "text": "Multiply the maximum tracking distance by ten."
+      }
+    ],
+    "casterLevel": []
+  },
+  "QUARANTINE WORKING": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "GRIMWARD UTILITY WARDING",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "30 feet",
+      "Targets": "One magic item, haunt, ward, magical trap or persistent magical effect"
+    },
+    "body": [
+      "You surround a dangerous magical working with a temporary containment lattice.",
+      "Make a Counteract check against the target.",
+      "Critical: The magical properties of the target are suppressed for 10 minutes.",
+      "Success: They are suppressed for 1 minute.",
+      "Failure: The effect remains active.",
+      "Fumble: The effect remains active and cannot be targeted by Quarantine Working again until the beginning of your next turn.",
+      "Suppression does not destroy, identify or permanently disable the target. Mundane functions continue normally."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the range to 60 feet."
+      },
+      {
+        "pp": 4,
+        "text": "On a Critical, suppress the effect for 1 hour."
+      }
+    ],
+    "casterLevel": []
+  },
+  "READ OMEN": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "ARCHIVIST INSIGHT UTILITY",
+    "fields": {
+      "Cast": "1 minute (material, verbal)"
+    },
+    "body": [
+      "You name one specific course of action that you intend to begin within the next 10 minutes and seek a fragmentary impression of its likely consequences.",
+      "On a successful casting, the GM gives you one of the following omens concerning the most significant likely consequence occurring during the following 10 minutes:",
+      "Auspicious: The course appears likely to produce a beneficial outcome.",
+      "Dangerous: The course appears likely to lead towards significant harm or misfortune.",
+      "Divided: Meaningful beneficial and harmful consequences are both apparent.",
+      "Obscured: The outcome depends too heavily upon unknown decisions, random events or circumstances beyond the spell's ability to predict.",
+      "The omen is deliberately symbolic and imprecise. It does not reveal a particular creature, event, location, method or exact consequence."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "The course of action may begin within the next hour, and the omen considers its consequences during the following hour."
+      },
+      {
+        "pp": 4,
+        "text": "Name two mutually exclusive courses of action and receive an omen for each."
+      }
+    ],
+    "casterLevel": []
+  },
+  "RED THREAD": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "FOLKWARDEN INSIGHT UTILITY",
+    "fields": {
+      "Cast": "1 minute (material, somatic)",
+      "Range": "touch",
+      "Targets": "2 willing creatures",
+      "Duration": "8 hours"
+    },
+    "body": [
+      "You tie, loop or symbolically divide a length of red thread between two creatures, creating a faint sympathetic connection.",
+      "While the creatures remain within 1 mile of one another and upon the same plane, each always knows the general direction of the other.",
+      "Red Thread does not reveal exact distance, location, physical condition or a route through intervening obstacles. If the creatures move beyond the spell's range, the connection becomes imperceptible until they return within range.",
+      "The physical thread need not remain intact once the spell has been cast."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the range to 10 miles."
+      },
+      {
+        "pp": 2,
+        "text": "Increase duration to 24 hours."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the range to 100 miles."
+      }
+    ],
+    "casterLevel": []
+  },
+  "RESTORATIVE WAVE": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "HEALER HEALING SOUL UTILITY",
+    "fields": {
+      "Cast": "3 AP (somatic, verbal)",
+      "Area": "15-foot emanation",
+      "Targets": "Any number of willing creatures within the area"
+    },
+    "body": [
+      "Restorative energy spreads outward from you in a warm pulse.",
+      "Each eligible target regains 5d8 Hit Points. Gift of Healing still applies only once to the spell, as normal."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase healing by 1d8."
+      },
+      {
+        "pp": 2,
+        "text": "Increase the emanation by 5 feet."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SAINTLY INTERCESSION": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "ARCHIVIST CHANCE UTILITY WARDING",
+    "fields": {
+      "Cast": "R (verbal)",
+      "Trigger": "You or an ally within 30 feet fails, but does not fumble or blunder, a saving throw",
+      "Range": "30 feet",
+      "Targets": "the triggering creature"
+    },
+    "body": [
+      "You invoke a recorded miracle at the moment disaster appears inevitable.",
+      "The target rerolls the triggering saving throw and must use the new result.",
+      "After benefiting from Saintly Intercession, the creature becomes temporarily immune to the spell for 10 minutes."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "May also be used if the saving throw was a fumble."
+      },
+      {
+        "pp": 4,
+        "text": "May also be used if the saving throw was a blunder."
+      },
+      {
+        "pp": 4,
+        "text": "The target gains a +2-status bonus to the rerolled saving throw."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SECOND HEART": {
+    "section": "specialist",
+    "pp": 11,
+    "traits": "HEALER HEALING SOUL UTILITY WARDING",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "30 feet",
+      "Targets": "1 willing living creature",
+      "Duration": "10 minutes"
+    },
+    "body": [
+      "You place a reserve of vital force around the target's heart and soul.",
+      "The first time during the duration that HP damage would reduce the target to 0 HP and cause it to gain the Dying condition, the target instead remains at 1 HP, does not gain Dying from that damage and Second Heart ends.",
+      "Persistent damage and other ongoing effects are not removed.",
+      "Second Heart cannot prevent an effect that kills the target outright, death caused by exceeding Death State, death through old age, destruction of a creature that does not use the normal Dying rules, or an effect that explicitly prevents healing or intervention."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Target one additional willing creature within range."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SEVER INFLUENCE": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "GRIMWARD SOUL UTILITY WARDING",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "30 feet",
+      "Targets": "1 creature"
+    },
+    "body": [
+      "You attempt to cut away a supernatural influence acting upon the target.",
+      "Select one Curse, Charm, Compulsion, possession effect or magical effect that directly controls or forcibly transforms the target. Attempt to Counteract the selected effect.",
+      "If the effect was created by your current Judged Subject, you gain a +2-circumstance bonus to the Counteract check."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "You may attempt to Counteract two eligible effects affecting the same creature. Make separate checks."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SOUL REBINDING": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "HEALER HEALING SOUL UTILITY",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "30 feet",
+      "Targets": "1 willing creature"
+    },
+    "body": [
+      "You reinforce the connection between body, mind and animating soul.",
+      "Choose one effect:",
+      "Restore the Soul: Reduce the target's Soul Drain by 5.",
+      "Reassert the Self: Attempt to Counteract one possession effect or magical effect forcibly displacing or controlling the target's soul."
+    ],
+    "warps": [
+      {
+        "pp": 4,
+        "text": "Apply both effects."
+      },
+      {
+        "pp": 4,
+        "text": "Increase Soul Drain removed by an additional 5."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SPIRIT REBUKE": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "ATTACK ESSENCE INVOCATION SHAMAN SPIRIT",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "60 feet",
+      "Targets": "1 disembodied spirit, incorporeal Undead, directly targetable haunt or possessing entity that you can perceive",
+      "Base Damage": "1d6"
+    },
+    "body": [
+      "You lash a spirit with a violent pulse of resonance.",
+      "On a successful spell attack, the target suffers 2d6 essence damage.",
+      "If the target is currently possessing another creature, Spirit Rebuke damages the possessing entity rather than its host."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Increase the damage by 1d6 (max 10d6)."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SPIRIT ROAD": {
+    "section": "specialist",
+    "pp": 5,
+    "traits": "INSIGHT SHAMAN SPIRIT UTILITY",
+    "fields": {
+      "Cast": "1 minute (somatic, verbal)"
+    },
+    "body": [
+      "Requirements You have personally perceived the specific spirit or a spiritual trace unquestionably connected to it within the previous 24 hours.",
+      "You reach through the spiritual residue linking an entity to the world.",
+      "If the spirit is currently within 1 mile and on the same plane, you learn its general direction.",
+      "If it is not currently within range but remains bound to a specific nearby place, creature or object within 1 mile, you instead learn the general direction of that anchor.",
+      "The spell does not reveal exact distance, identity beyond what you already know or a path through physical obstacles."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the range to 10 miles."
+      },
+      {
+        "pp": 4,
+        "text": "Increase the range to 100 miles."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SPIRIT SHELTER": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "SHAMAN SOUL UTILITY WARDING",
+    "fields": {
+      "Cast": "1 AP (somatic)",
+      "Range": "30 feet",
+      "Targets": "1 willing creature",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "A protective spirit folds its presence around the target.",
+      "The target gains Resistance to essence damage.",
+      "In addition, the first time during the duration that the target would gain Soul Drain, reduce the amount gained by 5, to a minimum of 0. The Soul Drain protection is then expended, although the target retains its Resistance to essence damage for the remainder of the spell."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Affect one additional willing creature."
+      },
+      {
+        "pp": 4,
+        "text": "The Soul Drain protection can activate twice before being expended."
+      }
+    ],
+    "casterLevel": []
+  },
+  "SPIRIT TRACE": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "INSIGHT SHAMAN SPIRIT UTILITY",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Area": "30-foot emanation"
+    },
+    "body": [
+      "You perceive lingering disturbances left upon the world by spiritual activity.",
+      "You detect spiritual residue created during the previous hour by disembodied spirits, active possession, haunts or comparable supernatural manifestations.",
+      "You learn whether such residue is present and the general direction of the strongest concentration or trail.",
+      "Spirit Trace does not identify the responsible entity, determine its allegiance, provide an exact location or detect an ordinary Undead or Unliving creature merely because of its creature type."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Detect residue up to 24 hours old."
+      },
+      {
+        "pp": 2,
+        "text": "Perceive the approximate path taken by the strongest spiritual trail through the affected area."
+      }
+    ],
+    "casterLevel": []
+  },
+  "STEADY HANDS": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "FOLKWARDEN ENCHANTMENT UTILITY",
+    "fields": {
+      "Cast": "1 AP (verbal)",
+      "Range": "30 feet",
+      "Targets": "1 willing creature",
+      "Duration": "Until the end of the target's next turn"
+    },
+    "body": [
+      "A familiar saying, practical instruction or fragment of inherited wisdom settles the target's nerves and focuses their attention upon the task at hand.",
+      "Choose Crafting, Medicine, Nature or Survival.",
+      "The target gains a +2-status bonus to the next check it makes using the selected skill before the spell ends.",
+      "The spell ends after applying its bonus once."
+    ],
+    "warps": [
+      {
+        "pp": 1,
+        "text": "Target one additional willing creature. All targets receive the same selected skill."
+      },
+      {
+        "pp": 2,
+        "text": "Select two eligible skills. The spell still ends after benefiting one check."
+      }
+    ],
+    "casterLevel": []
+  },
+  "STILL THE HAUNT": {
+    "section": "specialist",
+    "pp": 9,
+    "traits": "SHAMAN SPIRIT UTILITY WARDING",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "60 feet",
+      "Targets": "1 haunt you can perceive"
+    },
+    "body": [
+      "Rather than destroying a haunting presence, you force it into temporary stillness.",
+      "Attempt to Counteract the haunt.",
+      "Critical: The haunt is suppressed for 24 hours.",
+      "Success: The haunt is suppressed for 1 hour.",
+      "Failure: The haunt is suppressed until the beginning of your next turn.",
+      "Fumble: The haunt is unaffected.",
+      "A suppressed haunt cannot trigger, attack or produce its supernatural effects, but it still exists and resumes normally when the suppression ends. Still the Haunt does not resolve the events, emotions or spiritual circumstances responsible for creating the haunt."
+    ],
+    "warps": [
+      {
+        "pp": 4,
+        "text": "Double the duration produced by a Critical or Success."
+      }
+    ],
+    "casterLevel": []
+  },
+  "UNFOLD THE FUTURE": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "ARCHIVIST INSIGHT UTILITY",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "30 feet",
+      "Targets": "1 willing creature",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You unfold several possible moments from the creature's immediate future and leave them hanging at the edge of its perception.",
+      "The target gains three Portents.",
+      "Before attempting an attack roll, saving throw or skill check, the target may expend one Portent to gain Advantage on that check. The Portent must be expended before the roll is made.",
+      "Only one Portent may be expended on a single check. All unused Portents disappear when the spell ends."
+    ],
+    "warps": [
+      {
+        "pp": 4,
+        "text": "Gain one additional Portent."
+      },
+      {
+        "pp": 4,
+        "text": "Target one additional willing creature. All affected creatures share the same pool of Portents."
+      }
+    ],
+    "casterLevel": []
+  },
+  "UNMASK THE SUBJECT": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "GRIMWARD INSIGHT SAVE",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "60 feet",
+      "Targets": "Your Judged Subject",
+      "Saving Throw": "Will",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You force inconsistencies in the Subject's assumed identity to become obvious to your trained perception.",
+      "Critical: The target is unaffected.",
+      "Success: You gain a +2-status bonus to checks made to recognise or penetrate the target's disguise, Illusion or transformed appearance until the end of your next turn.",
+      "Failure: For the duration, you perceive the target's underlying identity sufficiently clearly that mundane disguises and Illusions concealing its identity provide no benefit against you.",
+      "Fumble: As Failure, and allies within 30 feet who can hear your explanation gain a +2-status bonus to checks made to recognise the same deception.",
+      "This does not end a transformation or dispel an Illusion. It allows you to recognise the Subject through it."
+    ],
+    "warps": [
+      {
+        "pp": 4,
+        "text": "On a Failure or Fumble, the duration becomes 10 minutes."
+      }
+    ],
+    "casterLevel": []
+  },
+  "VEIL LANTERN": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "LIGHT SHAMAN SPIRIT UTILITY",
+    "fields": {
+      "Cast": "2 AP (somatic, verbal)",
+      "Range": "30 feet",
+      "Area": "10-foot burst",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "Pale light gathers around manifestations that do not fully belong to the physical world.",
+      "Disembodied spirits and incorporeal Undead within the area are outlined by the light. Creatures observing the area can perceive the location of those entities even if they do not possess a sense that would normally detect them.",
+      "Veil Lantern does not remove the Incorporeal trait, allow mundane weapons to harm creatures they could not ordinarily affect, identify a spirit, reveal its allegiance or Counteract Invisibility or Concealment produced by an unrelated effect."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Increase the radius of the burst by 5 feet."
+      },
+      {
+        "pp": 4,
+        "text": "Affected spirits cannot benefit from Concealment arising specifically from their spiritual or incorporeal state while they remain within the area."
+      }
+    ],
+    "casterLevel": []
+  },
+  "VITAL DIAGNOSIS": {
+    "section": "specialist",
+    "pp": 1,
+    "traits": "HEALER INSIGHT UTILITY",
+    "fields": {
+      "Cast": "1 AP (somatic)",
+      "Range": "Touch",
+      "Targets": "1 willing creature"
+    },
+    "body": [
+      "You read the target's physical and spiritual condition as patterns of disrupted vitality.",
+      "You immediately learn its current and maximum HP; its current Dying, Injured and Soul Drain values; whether it is currently affected by Disease, Poison, a Curse or possession; and whether a supernatural effect is directly interfering with its ability to receive healing.",
+      "You do not automatically learn the identity, source or mechanics of a concealed affliction.",
+      "Choose one detected affliction. You gain a +2-status bonus to the next Medicine, Identify Spiritual Affliction or Counteract check you make against that affliction within 10 minutes."
+    ],
+    "warps": [
+      {
+        "pp": 2,
+        "text": "Gain the bonus against two detected afflictions."
+      }
+    ],
+    "casterLevel": []
+  },
+  "WORD OF CENSURE": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "ARCHIVIST AUDITORY ENCHANTMENT MENTAL SAVE",
+    "fields": {
+      "Cast": "2 AP (verbal)",
+      "Range": "60 feet",
+      "Targets": "1 creature that can hear and understand you",
+      "Saving Throw": "Will",
+      "Duration": "See text"
+    },
+    "body": [
+      "You deliver a formal condemnation in language carrying centuries of theological authority.",
+      "Critical: The target is unaffected.",
+      "Success: The target becomes Frightened 1 until the end of its next turn.",
+      "Failure: The target becomes Frightened 2 and cannot use Reactions until the end of its next turn.",
+      "Fumble: The target becomes Frightened 3, cannot use Reactions and becomes Dazed 1 until the end of its next turn.",
+      "Word of Censure is supernatural condemnation, not supernatural judgement. It provides no information concerning guilt, morality, ethics or whether the target actually deserves censure."
+    ],
+    "warps": [
+      {
+        "pp": 4,
+        "text": "Affect one additional creature within 30 feet of the original target."
+      }
+    ],
+    "casterLevel": []
+  },
+  "WRIT OF RESTRAINT": {
+    "section": "specialist",
+    "pp": 7,
+    "traits": "ENCHANTMENT GRIMWARD MENTAL SAVE",
+    "fields": {
+      "Cast": "2 AP (verbal)",
+      "Range": "60 feet",
+      "Targets": "Your Judged Subject",
+      "Saving Throw": "Will",
+      "Duration": "1 minute"
+    },
+    "body": [
+      "You pronounce a binding sanction based upon everything you have learned about the Subject's behaviour.",
+      "Critical: The target is unaffected.",
+      "Success: The target cannot use Reactions until the end of its next turn.",
+      "Failure: The target becomes Slowed 1 and cannot use Reactions for the duration.",
+      "Fumble: The target becomes Slowed 2 until the end of its next turn, then Slowed 1 for the remainder of the duration, and cannot use Reactions.",
+      "At the end of each of its turns, a target suffering the Failure or Fumble result may attempt a new Will saving throw. On a Success or better, the spell ends."
+    ],
+    "warps": [
+      {
+        "pp": 3,
+        "text": "The target suffers a -2-status penalty to these subsequent Will sav"
+      }
+    ],
+    "casterLevel": []
+  }
+}

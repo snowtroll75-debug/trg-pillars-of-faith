@@ -1,0 +1,49 @@
+{
+  "_id": "gymOgsVBrFyGweh4",
+  "name": "Interlocking Script",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Tharos heritage, Level 5",
+    "active": true,
+    "description": "<p>KETHRANI WARDING</p>\n<p>Circles close within circles as your Testament forms a living shield around those you defend.<br>The range of Warding Word increases from 10 feet to 30 feet.<br>Furthermore, the target gains a +2-status bonus to DB against the triggering attack rather than +1.</p>\n<p>Prerequisites Tharos heritage, Level 5</p>\n<p>Works automatically: Warding Word's Use reaches 30 feet and grants +2 status to DB.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Warding",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gymOgsVBrFyGweh4"
+}

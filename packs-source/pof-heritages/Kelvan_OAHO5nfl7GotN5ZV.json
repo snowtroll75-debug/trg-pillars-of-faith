@@ -1,0 +1,48 @@
+{
+  "_id": "OAHO5nfl7GotN5ZV",
+  "name": "Kelvan",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Kelvan are the bell-keepers. Their tradition teaches that sound carries meaning across the Veil more cleanly than sight, and ritual bells accompany funerals, exorcisms, grave vigils and the investigation of restless dead.<br>Kelvan bells are intensely personal objects. Some are inherited through families while others are forged for a specific individual and buried with them. Different tones may indicate warning, mourning, safe passage or challenge. A trained Kelvan can often recognise another community's funerary practice merely from its bells. Their Sacred Toll represents the most direct expression of a tradition founded upon the belief that even the dead can sometimes be reminded that their mortal time has ended.<br>You gain Sacred Toll.<br>SACRED TOLL<br>AUDITORY DIVINITY FOCUS<br>Action 1 AP; Range 30 feet; Target one Undead or Unliving creature that can hear you<br>The target attempts a level-based Will saving throw.<br>Heroic/Critical The target is unaffected.<br>Success The target is unaffected.<br>Partial The target becomes frightened 1 until the end of its next turn.<br>Failure The target becomes frightened 2 until the end of its next turn.<br>Fumble The target becomes frightened 2 and cannot use reactions until the end of its next turn.<br>Blunder The target becomes frightened 3 and cannot use reactions until the end of its next turn.</p>",
+    "sourceRace": "Eshari",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "Sacred Toll",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OAHO5nfl7GotN5ZV"
+}

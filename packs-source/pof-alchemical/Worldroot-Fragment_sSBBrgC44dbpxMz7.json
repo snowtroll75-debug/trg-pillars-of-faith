@@ -1,0 +1,80 @@
+{
+  "_id": "sSBBrgC44dbpxMz7",
+  "name": "Worldroot Fragment",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 14000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb Rare",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: the roots of world-trees and primeval planar nexuses.\n\nA worldroot fragment is a living splinter taken from the root of a tree whose branches touch several worlds. The grain shifts between unfamiliar colours, and soil from any realm clings to it as though freshly watered. Even separated from the parent tree, the fragment slowly grows new rootlets that reach towards nearby living creatures. When consumed, it anchors the user's life to the stubborn vitality of the world-tree. For 24 hours, increase your Death State by 1. This increase does not stack with another Worldroot Fragment. When the effect ends, reduce your Dying condition to your normal Death State if it is currently higher.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 16
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Worldroot Fragment",
+          "duration": "24 hours",
+          "effects": [
+            {
+              "kind": "declare",
+              "target": "self",
+              "label": "Worldroot Fragment",
+              "deathState": 1,
+              "noStack": true,
+              "text": "Death State +1 for 24 hours (it does not stack with another Worldroot Fragment); when it ends, Dying is cut back to your normal Death State rather than killing you"
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: the roots of world-trees and primeval planar nexuses.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 16,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 14000,
+        "tablePrice": 14000,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sSBBrgC44dbpxMz7"
+}

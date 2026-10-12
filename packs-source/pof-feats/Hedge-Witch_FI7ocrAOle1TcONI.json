@@ -1,0 +1,65 @@
+{
+  "_id": "FI7ocrAOle1TcONI",
+  "name": "Hedge Witch",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Power Manipulation 2 ranks",
+    "active": true,
+    "description": "<p>FOLKWARDEN</p>\n<p>You have carried the Old Ways beyond household customs and practical superstition. In your hands, the charm, the whispered warning and the bundle of herbs have become unmistakably magical.<br>You gain one additional Folkwarden Specialist Spell for which you meet the normal casting requirements.<br>You also gain a +1-class bonus to Spellcraft checks made to cast Folkwarden Specialist Spells.<br>When using Identify Power upon a charm, curse, ward or Verdant magical effect that could reasonably be understood through traditional folk practice, you may use Folk Lore instead of Power Manipulation. Use your level to meet any Rank requirement of the action.<br>Finally, you may select class feats possessing the Hedge Witch trait.</p>\n<p>Prerequisites Power Manipulation 2 ranks</p>\n<p>Progression Requirements Power Manipulation +10 ranks</p>\n<p>Works automatically: +1 class to Spellcraft is offered with the book's wording (tick when casting a Folkwarden Specialist Spell); Hedge Witch class feats open to you. The extra Folkwarden Specialist Spell waits on the Grimoire block; Folk Lore for Identify Power is a rule for the table.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Folkwarden",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "",
+    "progressionRequirements": "Power Manipulation +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Hedge Witch",
+          "scope": "Spellcraft checks to cast Folkwarden Specialist Spells",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "spellcraft"
+            ]
+          },
+          "value": 1,
+          "type": "class"
+        }
+      ],
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FI7ocrAOle1TcONI"
+}

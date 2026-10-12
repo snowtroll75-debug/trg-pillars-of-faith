@@ -1,0 +1,49 @@
+{
+  "_id": "4sTyLLyST3cWjiWr",
+  "name": "Many Lives, One Soul",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 15, Deep Recall",
+    "active": true,
+    "description": "<p>RHEVANI</p>\n<p>The barrier between your incarnations has become thin enough that several lives may advise you at once.<br>Whenever you activate Past-Life Echo, you may select two skills rather than one. Both receive its normal benefits for the duration.<br>If you possess Lost Scholarship, one of these skills may instead be an eligible Lore specialist skill.</p>\n<p>Prerequisites Level 15, Deep Recall</p>\n<p>Works automatically: Past-Life Echo's Use asks for a second skill (or, with Lost Scholarship, a Lore).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4sTyLLyST3cWjiWr"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "zHLddaltDCi6xSLG",
+  "name": "Eyes Beyond the Veil",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Velari heritage, Level 5",
+    "active": true,
+    "description": "<p>ESHARI</p>\n<p>The disturbances other Eshari merely sense have begun to acquire shape, distance and intent.<br>When Spirit Sense detects a creature or phenomenon, you may attempt Recall Knowledge about it without first locating it precisely.<br>Furthermore, a successful Search using Spirit Sense determines its exact location rather than merely its general direction. A Critical Search additionally tells you whether the detected presence is moving towards you, away from you or remaining stationary.<br>This still does not reveal identity or allegiance without an appropriate check.</p>\n<p>Prerequisites Velari heritage, Level 5</p>\n<p>A rule for the table: Recall Knowledge on a sensed presence, exact location on a successful Search, movement on a Critical.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zHLddaltDCi6xSLG"
+}

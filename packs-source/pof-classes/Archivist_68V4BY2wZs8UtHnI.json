@@ -1,0 +1,345 @@
+{
+  "_id": "68V4BY2wZs8UtHnI",
+  "name": "Archivist",
+  "img": "icons/svg/book.svg",
+  "type": "class",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "",
+    "tier": "Adept",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>You do not believe that the divine must remain mysterious.<br>Where priests approach sacred power through devotion, revelation and service, you approach it through study. To you, prayers are more than acts of worship: they are structures of language, intent and spiritual authority that can be recorded, compared, reconstructed and understood.<br>Your education may have taken place within a great temple archive, an isolated monastery, a university devoted to comparative theology or beneath the suspicious eye of a single ageing scholar. You may be an orthodox theologian faithfully preserving the traditions of your religion, or a radical researcher who believes that no church has the right to decide which sacred knowledge should survive.<br>Your most valuable possession is your Prayer Book. Its pages contain prayers copied from temple records, fragments recovered from ruined shrines, instructions for forgotten rites, translations of ancient scripture and notes written in your own hand. Two Archivists studying the same religion may possess entirely different collections.<br>Unlike a Cleric, your Divinity magic does not require devotion to a particular deity or Divine Aspect. You may be deeply religious, sceptical, devoted to several traditions or fascinated by religion without personally worshipping anything at all. Your ability to cast Divinity spells represents your understanding of the structures through which sacred power is invoked, rather than an automatic reward for obedience.<br>Archivists are at their strongest when given time to prepare. Their Prayer Books can eventually contain an enormous selection of magic, while their ability to consult and reinterpret those texts allows them to adjust their prepared spells when circumstances change.<br>You may want to play an Archivist if you enjoy learned spellcasting, collecting spells, religious scholarship, deciphering forgotten knowledge and preparing the correct answer to a problem before everybody else has realised there is a problem.<br>An Archivist does not ask whether a prayer is true. An Archivist asks who wrote it, what it does, what was removed from the surviving copy, and why.</p>\n<p>MAGICAL TRADITION<br>You are a learned Divinity spellcaster. Unlike a Cleric, you do not have access to the entire Divinity spell list during daily preparation. You may memorise only spells contained within your Prayer Book.<br>During your daily preparation, you spend approximately 30 minutes studying, reciting and mentally reconstructing the prayers contained within your book.<br>At the end of this time, you may memorise an amount of spells for which you meet the casting requirements equal to 2 + (Archivist level x 2). You select these spells from those recorded in your Prayer Book.</p>\n<p>CANTRIPS<br>Each day when you prepare your spells, you may also memorise any four Divinity cantrips. Cantrips do not need to be recorded within your Prayer Book, and you may change your selected cantrips during each daily preparation.</p>\n<p>SPECIALIST SPELLS<br>Your Archival Discipline grants you a unique Specialist Spell at 1st level and another at 7th level. You may select additional specialist spells from those available to the Cleric class by selecting the Specialist Spell Class feat.</p>\n<p>CONTROL LEVELS<br>For the purposes of calculating Control Levels, the Archivist gains +1 Control Level per Archivist level.</p>",
+    "classType": "Adept",
+    "keyAbilityScores": "Intelligence (min +2), Wisdom, Dexterity",
+    "classSkills": "Artistry, Culture, Linguistics, Medicine, Meditation, Mental Focus, Occultism, Planes, Power Manipulation, Religion, Sense Motive",
+    "grantedFeats": "1: Heighten Spell, 1: Scribe Scroll, 1: Spell Substitution",
+    "classAbilities": "1: Archivist's Prayer Book, 1: Scholarly Exegesis, 1: Recite from the Text, 1: Archival Discipline, 1: Deific Aspects",
+    "proficiencies": "You are not proficient in any armour. You are proficient with the club, dagger and staff.",
+    "hitPoints": 4,
+    "skillPoints": 4,
+    "magicalTradition": "divinity",
+    "magicalAbility": "intelligence",
+    "casterStyle": "learned",
+    "repertoireCategory": "",
+    "memorisationStyle": "book",
+    "cantripsPerDay": 4,
+    "spellBookFirstPicks": 6,
+    "grantedGear": "Prayer Book",
+    "grantedSpells": "",
+    "progression": [
+      {
+        "level": 1,
+        "bab": 0,
+        "bdb": 0,
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 6,
+        "bonusFeats": 0,
+        "casterLevel": 1,
+        "pp": 4,
+        "bsb": 1
+      },
+      {
+        "level": 2,
+        "bab": 1,
+        "bdb": 1,
+        "fortitude": 1,
+        "reflex": 1,
+        "will": 7,
+        "bonusFeats": 0,
+        "casterLevel": 2,
+        "pp": 8,
+        "bsb": 2
+      },
+      {
+        "level": 3,
+        "bab": 1,
+        "bdb": 1,
+        "fortitude": 2,
+        "reflex": 2,
+        "will": 8,
+        "bonusFeats": 0,
+        "casterLevel": 3,
+        "pp": 12,
+        "bsb": 3
+      },
+      {
+        "level": 4,
+        "bab": 2,
+        "bdb": 2,
+        "fortitude": 3,
+        "reflex": 3,
+        "will": 9,
+        "bonusFeats": 0,
+        "casterLevel": 4,
+        "pp": 16,
+        "bsb": 4
+      },
+      {
+        "level": 5,
+        "bab": 2,
+        "bdb": 2,
+        "fortitude": 4,
+        "reflex": 4,
+        "will": 10,
+        "bonusFeats": 1,
+        "casterLevel": 5,
+        "pp": 20,
+        "bsb": 5
+      },
+      {
+        "level": 6,
+        "bab": 3,
+        "bdb": 3,
+        "fortitude": 5,
+        "reflex": 5,
+        "will": 11,
+        "bonusFeats": 1,
+        "casterLevel": 6,
+        "pp": 24,
+        "bsb": 6
+      },
+      {
+        "level": 7,
+        "bab": 3,
+        "bdb": 3,
+        "fortitude": 6,
+        "reflex": 6,
+        "will": 12,
+        "bonusFeats": 1,
+        "casterLevel": 7,
+        "pp": 28,
+        "bsb": 7
+      },
+      {
+        "level": 8,
+        "bab": 4,
+        "bdb": 4,
+        "fortitude": 7,
+        "reflex": 7,
+        "will": 13,
+        "bonusFeats": 1,
+        "casterLevel": 8,
+        "pp": 32,
+        "bsb": 8
+      },
+      {
+        "level": 9,
+        "bab": 4,
+        "bdb": 4,
+        "fortitude": 8,
+        "reflex": 8,
+        "will": 14,
+        "bonusFeats": 1,
+        "casterLevel": 9,
+        "pp": 36,
+        "bsb": 9
+      },
+      {
+        "level": 10,
+        "bab": 5,
+        "bdb": 5,
+        "fortitude": 9,
+        "reflex": 9,
+        "will": 15,
+        "bonusFeats": 2,
+        "casterLevel": 10,
+        "pp": 40,
+        "bsb": 10
+      },
+      {
+        "level": 11,
+        "bab": 5,
+        "bdb": 5,
+        "fortitude": 10,
+        "reflex": 10,
+        "will": 16,
+        "bonusFeats": 2,
+        "casterLevel": 11,
+        "pp": 44,
+        "bsb": 11
+      },
+      {
+        "level": 12,
+        "bab": 6,
+        "bdb": 6,
+        "fortitude": 11,
+        "reflex": 11,
+        "will": 17,
+        "bonusFeats": 2,
+        "casterLevel": 12,
+        "pp": 48,
+        "bsb": 12
+      },
+      {
+        "level": 13,
+        "bab": 6,
+        "bdb": 6,
+        "fortitude": 12,
+        "reflex": 12,
+        "will": 18,
+        "bonusFeats": 2,
+        "casterLevel": 13,
+        "pp": 52,
+        "bsb": 13
+      },
+      {
+        "level": 14,
+        "bab": 7,
+        "bdb": 7,
+        "fortitude": 13,
+        "reflex": 13,
+        "will": 19,
+        "bonusFeats": 2,
+        "casterLevel": 14,
+        "pp": 56,
+        "bsb": 14
+      },
+      {
+        "level": 15,
+        "bab": 7,
+        "bdb": 7,
+        "fortitude": 14,
+        "reflex": 14,
+        "will": 20,
+        "bonusFeats": 3,
+        "casterLevel": 15,
+        "pp": 60,
+        "bsb": 15
+      },
+      {
+        "level": 16,
+        "bab": 8,
+        "bdb": 8,
+        "fortitude": 15,
+        "reflex": 15,
+        "will": 21,
+        "bonusFeats": 3,
+        "casterLevel": 16,
+        "pp": 64,
+        "bsb": 16
+      },
+      {
+        "level": 17,
+        "bab": 8,
+        "bdb": 8,
+        "fortitude": 16,
+        "reflex": 16,
+        "will": 22,
+        "bonusFeats": 3,
+        "casterLevel": 17,
+        "pp": 68,
+        "bsb": 17
+      },
+      {
+        "level": 18,
+        "bab": 9,
+        "bdb": 9,
+        "fortitude": 17,
+        "reflex": 17,
+        "will": 23,
+        "bonusFeats": 3,
+        "casterLevel": 18,
+        "pp": 72,
+        "bsb": 18
+      },
+      {
+        "level": 19,
+        "bab": 9,
+        "bdb": 9,
+        "fortitude": 18,
+        "reflex": 18,
+        "will": 24,
+        "bonusFeats": 3,
+        "casterLevel": 19,
+        "pp": 76,
+        "bsb": 19
+      },
+      {
+        "level": 20,
+        "bab": 10,
+        "bdb": 10,
+        "fortitude": 19,
+        "reflex": 19,
+        "will": 25,
+        "bonusFeats": 4,
+        "casterLevel": 20,
+        "pp": 80,
+        "bsb": 20
+      }
+    ],
+    "cantripsKnown": 0,
+    "wealth": "1"
+  },
+  "effects": [
+    {
+      "_id": "HyDNfVjuzpT8wDG9",
+      "name": "Archivist: Control Levels",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.magic.controlBonusPerLevel",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 Control Level per Archivist level.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!68V4BY2wZs8UtHnI.HyDNfVjuzpT8wDG9"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "abilityLevels": {
+        "Archivist's Prayer Book": 1,
+        "Scholarly Exegesis": 1,
+        "Recite from the Text": 1,
+        "Archival Discipline": 1,
+        "Deific Aspects": 1
+      },
+      "magicalNote": "You are a learned Divinity spellcaster. Unlike a Cleric, you do not have access to the entire Divinity spell list during daily preparation. You may memorise only spells contained within your Prayer Book.\nDuring your daily preparation, you spend approximately 30 minutes studying, reciting and mentally reconstructing the prayers contained within your book.\nAt the end of this time, you may memorise an amount of spells for which you meet the casting requirements equal to 2 + (Archivist level x 2). You select these spells from those recorded in your Prayer Book.",
+      "bonusFeatsNote": "At 1st level, you gain Heighten Spell, Scribe Scroll and Spell Substitution as granted feats. At 5th level and every 5 levels thereafter, you may select an additional class feat. You must meet the prerequisites or possess an appropriate class trait for the selected feat."
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!68V4BY2wZs8UtHnI"
+}

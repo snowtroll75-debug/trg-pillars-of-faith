@@ -1,0 +1,75 @@
+{
+  "_id": "XW41tbvXOBEHhOA0",
+  "name": "Tablet of the First Testament",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 6,
+    "price": 62500,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Insight, Invested, Rare",
+    "description": "Usage held in 1 or 2 hands; Weight 6 lbs.\n\nRarity Unique\n\nThe black stone tablet appears completely blank until touched. Writing then emerges across its surface in the reader's own script, although no two readers report seeing precisely the same words.\n\nYou can read and understand any written sacred or liturgical language, although this does not automatically decipher mundane codes, magical ciphers or deliberately meaningless text. You gain a +4-status bonus to Religion and Linguistics checks concerning doctrine, sacred writing, prophecy or religious symbolism.\n\nOn the sheet: +4 status is offered on Religion and Linguistics about doctrine, sacred writing, prophecy and symbolism. Reading any sacred or liturgical language is the card's words.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 15,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": false,
+        "activate": "",
+        "frequency": "",
+        "abilities": []
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 4,
+          "type": "status",
+          "label": "Tablet of the First Testament",
+          "scope": "Religion and Linguistics checks concerning doctrine, sacred writing, prophecy or religious symbolism",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "religion",
+              "linguistics"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XW41tbvXOBEHhOA0"
+}

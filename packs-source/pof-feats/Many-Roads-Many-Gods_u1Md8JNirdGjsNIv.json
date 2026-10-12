@@ -1,0 +1,49 @@
+{
+  "_id": "u1Md8JNirdGjsNIv",
+  "name": "Many Roads, Many Gods",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>HUMAN</p>\n<p>Human cultures borrow, adapt and reinterpret belief with the same restless energy they apply to everything else.<br>During your daily preparations, select one religion, Divine Aspect or recognised spiritual tradition that you have previously encountered.<br>Until your next daily preparations, you gain a +2-racial bonus to Observe Sacred Custom and Recognise Doctrine checks concerning that tradition.<br>If you possess no ranks in the skill normally required for either action, you may treat yourself as possessing 1 rank in that skill for the purpose of using that action against the selected tradition only.</p>\n<p>Use at daily preparation: name the tradition — +2 racial is then pre-ticked on Observe Sacred Custom and Recognise Doctrine with that name beside it, and the 1-rank waiver applies.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Human",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!u1Md8JNirdGjsNIv"
+}

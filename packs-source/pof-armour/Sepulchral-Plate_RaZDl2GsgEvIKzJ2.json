@@ -1,0 +1,98 @@
+{
+  "_id": "RaZDl2GsgEvIKzJ2",
+  "name": "Sepulchral Plate",
+  "img": "icons/svg/shield.svg",
+  "type": "armour",
+  "system": {
+    "quantity": 1,
+    "weight": 48,
+    "price": 650,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 90,
+      "max": 90
+    },
+    "traits": "Full, Helm, Metal, Rigid",
+    "category": "Heavy",
+    "material": "Metal",
+    "isHelmet": true,
+    "dr": 6,
+    "hardness": 0,
+    "penalty": -6,
+    "proficiency": "",
+    "maxDexBonus": 2,
+    "speedPenalty": -5,
+    "itemLevel": 3,
+    "coversTorso": true,
+    "coversArms": true,
+    "coversLegs": true,
+    "description": "Designed for expeditions into sealed tombs, the faceplate, neck and joints can be closed with leather gaskets and waxed cloth. You gain a +1-item bonus to Fortitude saves against disease and poison transmitted by contact or inhalation. The armour provides no protection against magical effects merely because they originate within a tomb.\n\nOn the sheet: +1 item is pre-ticked on Fortitude saves against Disease and Poison effects while the plate is worn; the Helm's −1 to Perception applies as the core rule.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Sepulchral Plate",
+          "scope": "Fortitude saves against disease and poison transmitted by contact or inhalation",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "fortitude"
+            ],
+            "traits": [
+              "disease",
+              "poison"
+            ]
+          }
+        },
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Sepulchral Plate",
+          "scope": "Fortitude saves against disease and poison by contact or inhalation — tick if this is one",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "fortitude"
+            ],
+            "not": {
+              "traits": [
+                "disease",
+                "poison"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!RaZDl2GsgEvIKzJ2"
+}

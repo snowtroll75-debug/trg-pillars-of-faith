@@ -1,0 +1,49 @@
+{
+  "_id": "3sLwYSb6u7o1EG8E",
+  "name": "Watch the Eyes",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Sense Motive 3 ranks",
+    "active": true,
+    "description": "<p>People under supernatural influence often control their words more successfully than their smallest involuntary reactions.<br>When using Sense Outside Influence, treat a Partial result as a Success.<br>When you achieve a Critical result, you also gain a +2-circumstance bonus to the next Trace Possession or Identify Spiritual Affliction check you make against that creature within the next 10 minutes.</p>\n<p>Prerequisites Sense Motive 3 ranks</p>\n<p>Works automatically: a Partial on Sense Outside Influence resolves as a Success (the card says so); Use after a Critical (target the creature) to queue your +2 circumstance for the next Trace Possession or Identify Spiritual Affliction against them.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "general"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!3sLwYSb6u7o1EG8E"
+}

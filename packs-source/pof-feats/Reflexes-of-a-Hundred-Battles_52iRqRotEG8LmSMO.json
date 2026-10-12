@@ -1,0 +1,64 @@
+{
+  "_id": "52iRqRotEG8LmSMO",
+  "name": "Reflexes of a Hundred Battles",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Arathi heritage, Level 5",
+    "active": true,
+    "description": "<p>RHEVANI</p>\n<p>Your conscious mind may not remember the danger, but someone you once were survived it before.<br>Whenever you roll Initiative, you gain a +2-racial bonus to the first saving throw you make during the encounter.<br>In addition, when you use Past-Life Echo to select Athletics, Acrobatics or Perception, you may immediately Step 5 feet as a Free (0 AP) action. This movement does not trigger reactions caused by ordinary movement.</p>\n<p>Prerequisites Arathi heritage, Level 5</p>\n<p>Works automatically: +2 racial to the encounter's first save is offered in every save dialog with the book's wording; the free Step after Past-Life Echo is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Reflexes of a Hundred Battles",
+          "scope": "The first saving throw you make in an encounter after rolling Initiative",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ]
+          },
+          "value": 2,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!52iRqRotEG8LmSMO"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "XYb5CSTo9d15t21Q",
+  "name": "Grasp the Unseen",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Shadowed Soul, Level 5",
+    "active": true,
+    "description": "<p>KORNARGON SHADOW</p>\n<p>You no longer merely perceive the things that move beyond the veil. Your shadow gives your hand somewhere to meet them.<br>While you are in Shadow Stance, your unarmed attacks and any weapons you wield are treated as possessing Ghost Touch against disembodied spirits and Incorporeal creatures that you can detect using the Spirit Sense granted by Shadowed Soul.<br>You may also physically Interact with such a creature where its Incorporeal nature would ordinarily prevent physical interaction.<br>This ability does not reveal a creature's exact location if you have only detected its general direction with Spirit Sense, nor does it overcome Invisibility, Resistance, Immunity or any other defence unrelated to Incorporeality.</p>\n<p>Prerequisites Shadowed Soul, Level 5</p>\n<p>Works automatically: while Shadow Stance is up, your Strikes count as Ghost Touch against incorporeal creatures. Touching a sensed spirit, and finding one you have only a direction for, are the table's.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kornargon",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Shadow",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "53imddqFKdSqkpxi",
+      "name": "Grasp the Unseen: Grasp the Unseen",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "ghostTouch": {
+            "whileStance": "Shadow Stance"
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Ghost Touch on your Strikes while in Shadow Stance.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!XYb5CSTo9d15t21Q.53imddqFKdSqkpxi"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XYb5CSTo9d15t21Q"
+}

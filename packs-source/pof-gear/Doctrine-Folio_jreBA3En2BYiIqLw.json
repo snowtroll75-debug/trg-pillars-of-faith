@@ -1,0 +1,66 @@
+{
+  "_id": "jreBA3En2BYiIqLw",
+  "name": "Doctrine Folio",
+  "img": "icons/svg/chest.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 3,
+    "price": 30,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "",
+    "description": "When purchased, select one religion, Divine Aspect or defined religious tradition. The folio contains symbols, terminology, recognised rites, historical variants and notes on vestments. It grants a +1-item bonus to Recognise Doctrine and Trace Religious Provenance involving that tradition. A different folio is required for another tradition.\n\nRename the folio for its tradition (\"Doctrine Folio: the Chapel of the Open Hand\").\n\nPillars of Faith, Chapter 6.",
+    "slot": "",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "itemSize": "S",
+    "itemLevel": 1,
+    "heldHands": 0,
+    "formulae": "",
+    "gearCategory": "Kits & Tools",
+    "gearCategoryInferred": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "goodsConditionals": [
+        {
+          "value": 1,
+          "type": "item",
+          "label": "the folio's tradition",
+          "scope": "Recognise Doctrine and Trace Religious Provenance involving the folio's tradition",
+          "when": {
+            "actions": [
+              "recogniseDoctrine",
+              "traceReligiousProvenance"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jreBA3En2BYiIqLw"
+}

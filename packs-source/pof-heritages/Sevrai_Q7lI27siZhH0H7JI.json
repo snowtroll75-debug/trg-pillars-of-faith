@@ -1,0 +1,83 @@
+{
+  "_id": "Q7lI27siZhH0H7JI",
+  "name": "Sevrai",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Sevrai souls remember movement. Roads, coastlines, mountain passes and the internal geometry of unfamiliar cities sometimes feel more familiar to them than people do. They often acquire languages quickly, imitate foreign customs with ease and experience flashes of recognition when arriving somewhere they have never consciously visited.<br>Many Sevrai become messengers, merchants, guides, explorers or pilgrims, but the defining characteristic is not wanderlust alone. A Sevrai may settle permanently while still surrounding themselves with maps and travellers' stories. Others feel a persistent restlessness when they remain in one place too long, as though several former lives are quietly reminding them that somewhere beyond the horizon is a road they once failed to finish.<br>Your land Speed increases by 5 feet, and you learn one additional common or regional language.</p>",
+    "sourceRace": "Rhevani",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "1 common|regional"
+  },
+  "effects": [
+    {
+      "_id": "OHprPBrruVFEnKRE",
+      "name": "Sevrai: Speed +5",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.movement.land",
+          "mode": 2,
+          "value": "5",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Your land Speed increases by 5 feet.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!Q7lI27siZhH0H7JI.OHprPBrruVFEnKRE"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Q7lI27siZhH0H7JI"
+}

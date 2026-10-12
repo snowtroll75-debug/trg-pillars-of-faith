@@ -1,0 +1,64 @@
+{
+  "_id": "SKdMGKzghK6ZXv2w",
+  "name": "Unbroken Pursuit",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 4",
+    "active": true,
+    "description": "<p>GRIMWARD</p>\n<p>Disguises, transformations and false names do not change the subject of an investigation.<br>Your Inquisition remains attached to a creature when it changes appearance, assumes another form, uses a disguise or adopts another identity.<br>Whenever your Subject uses an Illusion, polymorph effect or mundane disguise to conceal its identity from you, you gain a +2-circumstance bonus to checks made to recognise or penetrate that disguise.</p>\n<p>Prerequisites Level 4</p>\n<p>Works automatically: +2 circumstance is offered on checks with the book's wording.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Grimward",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Unbroken Pursuit",
+          "scope": "Checks to recognise or penetrate an Illusion, polymorph effect or mundane disguise your Subject uses to conceal its identity",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ]
+          },
+          "value": 2,
+          "type": "circumstance"
+        }
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SKdMGKzghK6ZXv2w"
+}

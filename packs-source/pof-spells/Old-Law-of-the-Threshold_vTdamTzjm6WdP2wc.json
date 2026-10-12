@@ -1,0 +1,187 @@
+{
+  "_id": "vTdamTzjm6WdP2wc",
+  "name": "Old Law of the Threshold",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 3,
+    "range": "30 feet",
+    "area": "20-foot radius centred upon a fixed point",
+    "targets": "",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Old Law of the Threshold",
+        "target": "allies",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Old Law of the Threshold",
+            "scope": "Saving throws against Curse, Fear, Mental effects, possession, Soul Drain and Soul effects while within the boundary",
+            "auto": true,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "traits": [
+                "curse",
+                "fear",
+                "mental",
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Old Law of the Threshold",
+            "scope": "Saving throws against Curse, Fear, Mental effects, possession, Soul Drain and Soul effects while within the boundary — tick if this save qualifies",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "not": {
+                "traits": [
+                  "curse",
+                  "fear",
+                  "mental",
+                  "soul",
+                  "possession"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "kind": "entryCheck",
+        "target": "area",
+        "label": "Old Law of the Threshold",
+        "save": "will",
+        "crossingOnly": true,
+        "oncePerRound": true,
+        "hostileOnly": true,
+        "gate": [
+          {
+            "types": [
+              "undead"
+            ]
+          },
+          {
+            "traits": [
+              "spirit"
+            ]
+          },
+          {
+            "incorporeal": true
+          }
+        ],
+        "degrees": {
+          "critical": {
+            "text": "crosses normally",
+            "unaffected": true
+          },
+          "success": {
+            "text": "crosses, but the first square it enters within the area counts as difficult terrain"
+          },
+          "failure": {
+            "text": "cannot cross the boundary during the current turn — the movement spent reaching it is still expended",
+            "pushBack": true,
+            "bar": "turn"
+          },
+          "fumble": {
+            "text": "cannot voluntarily cross the boundary for the remainder of the spell",
+            "pushBack": true,
+            "bar": "spell"
+          }
+        }
+      },
+      {
+        "kind": "note",
+        "text": "A creature already inside when the spell is cast is not expelled and may leave; it saves only if it tries to re-enter. Ranged attacks, spells and ordinary hostile creatures are not stopped. A possessing entity the sheet cannot see is the GM's."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the radius by 10 feet",
+        "mods": {
+          "areaGrowth": 10
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 10 minutes",
+        "mods": {
+          "durationText": "10 minutes"
+        }
+      },
+      {
+        "ppCost": 3,
+        "text": "Increase the duration to 1 hour",
+        "mods": {
+          "durationText": "1 hour"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "allies",
+    "specialist": true,
+    "specialistClass": "Folkwarden",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Warding",
+    "description": "FOLKWARDEN UTILITY WARDING\nFolkwarden Specialist Spell\nCast 3 AP (material, somatic, verbal)\nRange 30 feet\nArea 20-foot radius centred upon a fixed point\nDuration 1 minute\n\nYou invoke one of the oldest principles of folk protection: that a boundary deliberately established and properly witnessed possesses meaning.\nA visible or symbolic boundary appears around the affected area: scattered salt, roots pushing through cracks, pale chalk marks, hanging threads, thorn shadows or another manifestation appropriate to your tradition.\nWilling creatures within the area gain a +2-status bonus to saving throws against:\nCurse effects;\nFear;\nMental effects;\npossession;\nSoul Drain; and\neffects with the Soul trait.\nIn addition, whenever a hostile Undead creature, disembodied spirit, possessing entity or creature with the Incorporeal trait attempts to cross the boundary from outside, it must attempt a Will saving throw.\nA creature attempts this save only the first time it tries to cross during each round.\nCritical The creature crosses normally.\nSuccess The creature crosses the boundary, but the first square it enters within the area counts as difficult terrain.\nFailure The creature cannot cross the boundary during the current turn. Movement spent reaching the boundary is still expended.\nFumble The creature cannot voluntarily cross the boundary for the remainder of the spell.\nA creature already inside the area when Old Law of the Threshold is cast is not expelled and may leave normally. If it later attempts to re-enter, it must attempt the saving throw.\nThe spell does not prevent ranged attacks, spells or abilities from crossing the boundary and does not obstruct ordinary living creatures merely because they are hostile.\n\nWarping Options:\n+2 PP: Increase the radius by 10 feet.\n+2 PP: Increase the duration to 10 minutes.\n+3 PP: Increase the duration to 1 hour.\n\nPillars of Faith, Chapter 10. The +2 status is a scoped row on willing creatures inside; a hostile Undead, spirit or incorporeal creature crossing in rolls the Will save, and Failure or Fumble puts it back outside."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!vTdamTzjm6WdP2wc"
+}

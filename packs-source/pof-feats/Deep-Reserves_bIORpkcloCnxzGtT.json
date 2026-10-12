@@ -1,0 +1,49 @@
+{
+  "_id": "bIORpkcloCnxzGtT",
+  "name": "Deep Reserves",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 7, Restorative Overflow",
+    "active": true,
+    "description": "<p>HEALER</p>\n<p>Excess vitality no longer dissipates merely because a wound has closed.<br>The maximum temporary HP that Restorative Overflow can grant increases to twice your Healer level + your Charisma modifier.<br>Its duration increases from 1 minute to 10 minutes.</p>\n<p>Prerequisites Level 7, Restorative Overflow</p>\n<p>Works through Gift of Healing: Restorative Overflow's cap is twice your level + Charisma and the temp HP last 10 minutes.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!bIORpkcloCnxzGtT"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "XUtUA1raLf66h9yu",
+  "name": "Cleansing Radiance",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 8 ranks",
+    "active": true,
+    "description": "<p>HEALER</p>\n<p>Your healing magic burns away not only wounds but also lingering corruption that afflicts the body and mind.<br>Whenever you restore HP to one or more creatures with a Healing spell, you may select one creature that regained HP and apply one additional effect whose PP threshold is no greater than the PP required to cast the spell:<br>PP 8 - Remove Fear, Remove Paralysis or Restore Senses.<br>PP 10 - Remove Disease.<br>PP 12 - Remove Curse.<br>Cleansing Radiance may trigger only once from each spell, regardless of how many creatures the spell heals.</p>\n<p>Prerequisites Medicine 8 ranks</p>\n<p>Use after a Healing spell restores HP (target the recipient): choose the PP-threshold effect — Remove Fear, Paralysis, Restore Senses (8), Remove Disease (10), Remove Curse (12); the card records it for the GM to apply.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XUtUA1raLf66h9yu"
+}

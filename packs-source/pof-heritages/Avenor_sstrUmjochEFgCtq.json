@@ -1,0 +1,87 @@
+{
+  "_id": "sstrUmjochEFgCtq",
+  "name": "Avenor",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Avenor Testaments favour open hands, broken chains, shelters, vessels and repeated phrases associated with preservation and relief. The script is often concentrated around the palms, forearms and heart.<br>Avenor are traditionally associated with healing, diplomacy and sanctuary. Many feel a strong emotional response to suffering even when they possess no formal medical training. Their communities often remind them that mercy does not require endless self-sacrifice; one of the most common dangers facing young Avenor is allowing other people to turn compassion into obligation.<br>You gain a +1 racial bonus to Medicine checks and gain Stabilize as a divinity innate cantrip with the Focus trait.</p>",
+    "sourceRace": "Kethrani",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "Stabilise",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "QDeB9d1jMxlpcHZ1",
+      "name": "Avenor: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.medicine.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 racial bonus to Medicine checks.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!sstrUmjochEFgCtq.QDeB9d1jMxlpcHZ1"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sstrUmjochEFgCtq"
+}

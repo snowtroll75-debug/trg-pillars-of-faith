@@ -1,0 +1,81 @@
+{
+  "_id": "ebVw3SuDZT5nLQR0",
+  "name": "Dreamthorn",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 9625,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb Uncommon",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: nightmare realms and places where prophetic dreams recur.\n\nDreamthorn is a leafless silver briar that appears in nightmare realms and places repeatedly visited by prophetic dreams. Its thorns reflect sleepers rather than their surroundings, each tiny image showing a different expression or age. A single thorn is steeped in water until it vanishes, and the draught is consumed before entering a trance lasting 1 hour. Before the trance, ask one question concerning a goal, event or course of action likely to occur within the next week. During the prophetic dream, the GM provides a truthful answer, although it may be brief or symbolic. After benefiting from Dreamthorn, you are temporarily immune to it for 1 week.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 15
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Dreamthorn",
+          "effects": [
+            {
+              "kind": "tempImmunity",
+              "target": "self",
+              "label": "Dreamthorn",
+              "length": "7 days"
+            },
+            {
+              "kind": "note",
+              "text": "A 1-hour trance. Before it, ask one question concerning a goal, event or course of action likely to occur within the next week; the GM provides a truthful answer, possibly brief or symbolic."
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: nightmare realms and places where prophetic dreams recur.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 15,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 9625,
+        "tablePrice": 9625,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ebVw3SuDZT5nLQR0"
+}

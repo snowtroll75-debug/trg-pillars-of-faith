@@ -1,0 +1,87 @@
+{
+  "_id": "Je4y39oADIbSzE08",
+  "name": "Soul Anchor",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Mental Focus or Meditation 5 ranks",
+    "active": true,
+    "description": "<p>Through meditation and spiritual discipline, you have learned to distinguish your own consciousness from anything attempting to enter it.<br>You gain a +1-circumstance bonus to saving throws against possession, Soul Drain and effects that forcibly displace or control your soul.<br>Whenever you achieve a Critical or Heroic saving throw against possession, you immediately recognise the attempt even if the effect would normally conceal its presence.</p>\n<p>Prerequisites Mental Focus or Meditation 5 ranks</p>\n<p>Works automatically: +1 circumstance to saves is pre-ticked against Soul-trait and possession effects and offered against Soul Drain; recognising a possession attempt on a Critical is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Soul Anchor",
+          "scope": "Saving throws against possession, Soul Drain and effects that forcibly displace or control your soul",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "soul",
+              "possession"
+            ]
+          },
+          "value": 1,
+          "type": "circumstance"
+        },
+        {
+          "kind": "modifier",
+          "label": "Soul Anchor",
+          "scope": "Saving throws against possession, Soul Drain and effects that forcibly displace or control your soul",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          "value": 1,
+          "type": "circumstance"
+        }
+      ],
+      "bookCategory": "general"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Je4y39oADIbSzE08"
+}

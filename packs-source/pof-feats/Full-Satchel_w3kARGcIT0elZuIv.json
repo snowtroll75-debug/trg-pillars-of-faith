@@ -1,0 +1,49 @@
+{
+  "_id": "w3kARGcIT0elZuIv",
+  "name": "Full Satchel",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>FOLKWARDEN</p>\n<p>Cord, feathers, roots, chalk, wax, nails, three kinds of salt and something wrapped in cloth that nobody else remembers you packing.<br>Increase the maximum number of active Folk Preparations you may maintain by 1.<br>You may select this feat twice. You must be at least 10th level before selecting it for the second time.</p>\n<p>Works automatically: your active-Preparation limit is one higher (two with the second copy).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Folkwarden",
+    "repeatable": true,
+    "repeatLimit": 2,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!w3kARGcIT0elZuIv"
+}

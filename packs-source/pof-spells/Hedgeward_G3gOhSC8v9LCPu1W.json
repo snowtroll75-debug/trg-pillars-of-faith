@@ -1,0 +1,145 @@
+{
+  "_id": "G3gOhSC8v9LCPu1W",
+  "name": "Hedgeward",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 2,
+    "range": "",
+    "area": "15-foot emanation",
+    "targets": "",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Hedgeward",
+        "target": "allies",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 1,
+            "type": "status",
+            "label": "Hedgeward",
+            "scope": "Saving throws against Curse, Fear, Mental effects, possession and Soul effects while within the emanation",
+            "auto": true,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "traits": [
+                "curse",
+                "fear",
+                "mental",
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 1,
+            "type": "status",
+            "label": "Hedgeward",
+            "scope": "Saving throws against Curse, Fear, Mental effects, possession and Soul effects while within the emanation — tick if this save qualifies",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "not": {
+                "traits": [
+                  "curse",
+                  "fear",
+                  "mental",
+                  "soul",
+                  "possession"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "text": "Lost outside the emanation, regained on return; status bonuses of the same type do not stack with Ward the Threshold."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the emanation by 10 feet",
+        "mods": {
+          "areaGrowth": 10
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the status bonus by 1, to a maximum of +3",
+        "mods": {
+          "bonusValue": 1,
+          "bonusMax": 3
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the duration to 10 minutes",
+        "mods": {
+          "durationText": "10 minutes"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "allies",
+    "specialist": true,
+    "specialistClass": "Folkwarden",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Mental, Soul",
+    "description": "FOLKWARDEN MENTAL SOUL UTILITY\nFolkwarden Specialist Spell\nCast 2 AP (material, verbal)\nArea 15-foot emanation\nDuration 1 minute\n\nYou scatter salt, herbs, ash, seeds or fragments of protective material while speaking one of the short wards traditionally used when there is no time to prepare a proper threshold.\nYou and willing creatures within the area gain a +1-status bonus to saving throws against:\nCurse effects;\nFear;\neffects with the Mental trait;\npossession; and\neffects with the Soul trait.\nA creature loses the benefit while outside the emanation and regains it if it returns.\nHedgeward can function within a Ward the Threshold, but bonuses of the same type do not stack normally.\n\nWarping Options:\n+2 PP: Increase the emanation by 10 feet.\n+2 PP: Increase the status bonus by 1, to a maximum of +3.\n+4 PP: Increase the duration to 10 minutes.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!G3gOhSC8v9LCPu1W"
+}

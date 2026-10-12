@@ -1,0 +1,49 @@
+{
+  "_id": "HRMZkvaqxsbZ3TA8",
+  "name": "Prepared Adversary",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>When you roll Initiative and a creature that is both your Subject of Inquisition and one of your Studied Targets is participating in the encounter, you gain a +10-class bonus to your Initiative check.<br>Furthermore, you may immediately make an appropriate Recall Knowledge check against that creature as a free action. If this check achieves at least a Success, the creature is immediately placed under your Judgement. You may use Prepared Adversary only once when Initiative is first rolled.</p>\n<p>Use when Initiative is rolled with a creature that is both your Subject and a Studied Target present: +10 class to Initiative for this encounter's roll, and the card reminds you of the free Recall Knowledge that can place it under Judgement.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HRMZkvaqxsbZ3TA8"
+}

@@ -1,0 +1,132 @@
+{
+  "_id": "MRqJBL8MG5aB0rJ4",
+  "name": "Aura of Despair",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 8",
+    "active": true,
+    "description": "<p>AURA DIVINITY FEAR UNLIVING-MUMMY</p>\n<p>Prerequisites Level 8</p>\n<p>Your presence carries the weight of sealed doom and the silence of the grave.</p>\n<p>You emanate a 30-foot aura of despair. A living creature that begins its turn in the aura or enters it must attempt a Will save with the following results:</p>\n<p>Heroic The creature is unaffected.</p>\n<p>Critical The creature is frightened 1.</p>\n<p>Success The creature is frightened 2.</p>\n<p>Partial The creature is frightened 3.</p>\n<p>Failure The creature is frightened 3 and paralyzed for 1 round.</p>\n<p>Fumble The creature is frightened 4 and paralyzed for 1 round.</p>\n<p>Blunder The creature collapses from fear and is reduced to 0 hit points, gaining unconscious condition.</p>\n<p>The creature is immune to paralysis for 24 hours after making a save but not the fear.</p>\n<p>Works automatically: a 30-foot aura; a living creature starting its turn in it or entering it rolls Will against your Level DC and takes the ladder's fear (and paralysis). A creature that has saved is immune to the paralysis for 24 hours, not to the fear.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Aura, Divinity, Fear, Unliving-Mummy",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "auras": [
+        {
+          "id": "aura-of-despair",
+          "kind": "save",
+          "name": "Aura of Despair",
+          "radius": 30,
+          "triggers": [
+            "turnStart",
+            "enter"
+          ],
+          "save": "will",
+          "livingOnly": true,
+          "appliesTo": "Living creatures",
+          "traits": [
+            "aura",
+            "divinity",
+            "fear"
+          ],
+          "partialImmunity": {
+            "to": "paralyzed",
+            "seconds": 86400
+          },
+          "outcomes": {
+            "heroic": "unaffected",
+            "critical": "frightened 1",
+            "success": "frightened 2",
+            "partial": "frightened 3",
+            "failure": "frightened 3 and paralysed for 1 round",
+            "fumble": "frightened 4 and paralysed for 1 round",
+            "blunder": "collapses from fear: reduced to 0 hit points and unconscious"
+          },
+          "conditions": {
+            "heroic": [],
+            "critical": [
+              {
+                "key": "frightened",
+                "value": 1
+              }
+            ],
+            "success": [
+              {
+                "key": "frightened",
+                "value": 2
+              }
+            ],
+            "partial": [
+              {
+                "key": "frightened",
+                "value": 3
+              }
+            ],
+            "failure": [
+              {
+                "key": "frightened",
+                "value": 3
+              },
+              {
+                "key": "paralyzed",
+                "rounds": 1
+              }
+            ],
+            "fumble": [
+              {
+                "key": "frightened",
+                "value": 4
+              },
+              {
+                "key": "paralyzed",
+                "rounds": 1
+              }
+            ],
+            "blunder": [
+              {
+                "key": "zeroHP"
+              },
+              {
+                "key": "unconscious"
+              }
+            ]
+          }
+        }
+      ],
+      "bookCategory": "unliving",
+      "unlivingGroup": "mummy"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MRqJBL8MG5aB0rJ4"
+}

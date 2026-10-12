@@ -1,0 +1,56 @@
+{
+  "_id": "KQhDJQxQEgIo66L7",
+  "name": "Spirit Guide",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>At 1st level, you establish a particularly strong bond with a Spirit Guide.<br>Your guide is not an animal companion or ordinary summoned creature. It is a spiritual presence connected directly to you. It may occasionally become visible or audible for narrative purposes, but unless an ability states otherwise it:<br>• does not occupy a space;<br>• cannot make attacks;<br>• cannot independently manipulate physical objects;<br>• cannot be targeted or damaged;<br>• does not provide flanking;<br>• cannot scout independently of you; and<br>• cannot use actions of its own.<br>Select one of the following Spirit Guides: Ancestor, Beast, Elemental, Land or Veil.<br>Your Spirit Guide grants a specialist skill, a permanent Spirit Boon and a unique manifestation when you use Manifest Spirit.<br>The exact appearance and personality of the spirit are yours to determine.</p>\n<p>Use to choose: the guide arrives as its own ability with its specialist skill and Spirit Boon; Manifest Spirit reads it for the manifestation.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      },
+      "abilityChoices": [
+        "Ancestor Spirit",
+        "Beast Spirit",
+        "Elemental Spirit",
+        "Land Spirit",
+        "Veil Spirit"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KQhDJQxQEgIo66L7"
+}

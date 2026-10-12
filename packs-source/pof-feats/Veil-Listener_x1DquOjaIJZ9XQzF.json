@@ -1,0 +1,68 @@
+{
+  "_id": "x1DquOjaIJZ9XQzF",
+  "name": "Veil Listener",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Occultism or Religion 1 rank",
+    "active": true,
+    "description": "<p>You have learned not to assume that every strange feeling is a ghost - and not to assume that it is not.</p>\n<p>Prerequisites Occultism or Religion 1 rank</p>\n<p>You gain a +1 circumstance bonus to Trace Possession, Interpret Haunt and Identify Spiritual Affliction checks.</p>\n<p>When you achieve a Critical result on any of these actions, you may immediately attempt an appropriate Recall Knowledge check concerning the spirit, haunt or affliction as a Free (0 AP) action.</p>\n<p>Veil Listener does not itself allow communication with spirits.</p>\n<p>The +1 circumstance bonus is applied automatically on those three checks.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Veil Listener",
+          "scope": "Trace Possession, Interpret Haunt and Identify Spiritual Affliction checks",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "tracePossession",
+              "interpretHaunt",
+              "identifySpiritualAffliction"
+            ]
+          },
+          "value": 1,
+          "type": "circumstance"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!x1DquOjaIJZ9XQzF"
+}

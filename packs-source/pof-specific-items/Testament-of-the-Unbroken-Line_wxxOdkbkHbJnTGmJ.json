@@ -1,0 +1,101 @@
+{
+  "_id": "wxxOdkbkHbJnTGmJ",
+  "name": "Testament of the Unbroken Line",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 4,
+    "price": 22435,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Balanced, Master, Potency III, Remembrance, Requiem I, Versatile P, Vowkeeper",
+    "attackBonus": 0,
+    "damage": "1d8",
+    "damageType": "slashing",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 16,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Sword",
+    "category": "Exotic",
+    "size": "medium",
+    "itemLevel": 13,
+    "description": "The broad blade is covered edge to edge with inscriptions, but the writing is never quite complete. When invested, an empty band of metal appears near the guard, waiting for the wielder to add something of their own.\n\nDuring daily preparations, speak a meaningful vow consistent with the Edicts of your Deific Aspect. While acting directly in furtherance of that vow, you gain a +1-item bonus to damage rolls made with the weapon. Once per day when you score a Critical hit while pursuing the vow, the attack inflicts 1d6 additional essence damage. If you knowingly violate the vow, this benefit ends until your next daily preparations.\n\nAdditionally, once per round when you score a Critical hit, you may immediately attempt a Recall Knowledge check against the creature struck as a Free (0 AP) action. The spoken vow appears across the previously blank section of blade until the next daily preparation. A wielder without a Deific Aspect can still use the weapon normally but cannot benefit from Vowkeeper.\n\nStatistics: AB +3; Damage 1d8+2 S; Size M; FDC 16.\n\nTraits Balanced, Master, Potency III, Remembrance, Requiem I, Versatile P, Vowkeeper.\n\nOn the sheet: a Master Testament Blade with Potency III, Remembrance, Requiem I and Vowkeeper (your class bonus to damage is offered while you pursue the day's vow; the once-a-day 1d6 essence on a Critical under the vow is added by hand).\n\nPillars of Faith, Chapter 11.",
+    "quality": "master",
+    "material": "",
+    "runes": "Potency III, Remembrance, Requiem I, Vowkeeper",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 3,
+            "printed": "Potency III"
+          },
+          {
+            "key": "remembrance",
+            "label": "Remembrance",
+            "tier": 1,
+            "printed": "Remembrance"
+          },
+          {
+            "key": "requiem",
+            "label": "Requiem",
+            "tier": 1,
+            "printed": "Requiem I"
+          },
+          {
+            "key": "vowkeeper",
+            "label": "Vowkeeper",
+            "tier": 1,
+            "printed": "Vowkeeper"
+          }
+        ],
+        "runeText": "Potency III, Remembrance, Requiem I, Vowkeeper",
+        "traits": [
+          "Balanced",
+          "Master",
+          "Potency III",
+          "Remembrance",
+          "Requiem I",
+          "Versatile P",
+          "Vowkeeper"
+        ],
+        "quality": "master",
+        "material": "",
+        "printedItemBonus": 3
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!wxxOdkbkHbJnTGmJ"
+}

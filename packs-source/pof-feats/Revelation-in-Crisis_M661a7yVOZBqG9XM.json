@@ -1,0 +1,49 @@
+{
+  "_id": "M661a7yVOZBqG9XM",
+  "name": "Revelation in Crisis",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10",
+    "active": true,
+    "description": "<p>DIVINITY FOCUS KETHRANI</p>\n<p>For one impossible instant the Testament tells you what is about to happen rather than what has already been written.<br>Requirements Revelatory Script is not currently expended<br>Action R; Trigger You fail a saving throw against a spell or magical effect.<br>You expend Revelatory Script and reroll the triggering saving throw with Advantage, using the better result. Revelatory Script must then be restored normally through Refocus before either Read Aura or Revelation in Crisis can be used again.</p>\n<p>Prerequisites Level 10</p>\n<p>Use as the Reaction (Focus): spends Read Aura's Focus use (Revelatory Script) and the reaction; reroll the failed save with advantage from your sheet.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Divinity, Focus",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!M661a7yVOZBqG9XM"
+}

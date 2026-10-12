@@ -1,0 +1,67 @@
+{
+  "_id": "J8kAZ5NfCsqyNoY9",
+  "name": "Perfect Preservation",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 3 ranks",
+    "active": true,
+    "description": "<p>You can prepare mortal remains for journeys, investigations or funerals that ordinary embalming could never accommodate.<br>When using Preserve Remains, improve the duration of preservation:<br>Critical 1 year.<br>Success 1 month.<br>Partial 1 week.<br>You may also perform Preserve Remains using improvised materials at a -2-circumstance penalty rather than requiring a healer's kit.<br>This remains ordinary preservation and provides no protection against magical decay, animation or destruction.</p>\n<p>Prerequisites Medicine 3 ranks</p>\n<p>Works automatically: the −2 circumstance for improvised materials is offered on Preserve Remains; read the card's ladder one step longer (Critical 1 year; Success 1 month; Partial 1 week).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Perfect Preservation",
+          "scope": "Preserve Remains with improvised materials rather than a healer's kit",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "preserveRemains"
+            ]
+          },
+          "value": -2,
+          "type": "circumstance"
+        }
+      ],
+      "bookCategory": "general"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!J8kAZ5NfCsqyNoY9"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "LE4kX4PmkeYktIWN",
+  "name": "Purification",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Purification embodies the removal of that which has corrupted something from its proper state: poison from blood, disease from flesh, curses from souls and desecration from sacred places. It is usually represented as white flame, flowing water or a silver vessel from which darkness is being washed away.\nIts better traditions are careful to distinguish corruption from difference. A person, race, culture or belief is not impure merely because it is unfamiliar. Purification concerns harmful intrusion and supernatural corruption, not persecution disguised as holiness.\n\nEdicts: Cleanse disease, poison, curses and supernatural corruption. Restore desecrated sacred places. Destroy dangerous spiritual contamination. Keep medical, funerary and ritual practices clean. Identify corruption accurately before attempting to purge it.\n\nAnathema: Deliberately spread disease, poison or supernatural corruption. Desecrate something sacred merely to demonstrate power. Describe an innocent people as corruption in order to justify persecution. Preserve a dangerous contaminating influence when you could safely remove it.\n\nSuggested Ethics: Benevolence, Discipline, Justice\n\nClass Skill: Perception\n\nSpecialist Spells: Protective Ward (1), Radiant Aegis (1), Spoil the Profane (1), Wash Away Sin (1), Purge the Unlife (7), Renewal's Touch (7), Revealing Glance (7), Searing Burst (7)\n\nBonus Spells: Purify (2); Restore Senses (4); Remove Disease (6); Remove Curse (8)\n\nFavoured Weapon: Flail\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Good, Order",
+    "edicts": "Cleanse disease, poison, curses and supernatural corruption. Restore desecrated sacred places. Destroy dangerous spiritual contamination. Keep medical, funerary and ritual practices clean. Identify corruption accurately before attempting to purge it.",
+    "anathema": "Deliberately spread disease, poison or supernatural corruption. Desecrate something sacred merely to demonstrate power. Describe an innocent people as corruption in order to justify persecution. Preserve a dangerous contaminating influence when you could safely remove it.",
+    "suggestedEthics": "Benevolence, Discipline, Justice",
+    "classSkill": "Perception",
+    "favouredWeapon": "Flail",
+    "specialistSpells": "Protective Ward, Radiant Aegis, Spoil the Profane, Wash Away Sin, Purge the Unlife, Renewal's Touch, Revealing Glance, Searing Burst",
+    "bonusSpells": "2: Purify, 4: Restore Senses, 6: Remove Disease, 8: Remove Curse"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Benevolence",
+        "Discipline",
+        "Justice"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LE4kX4PmkeYktIWN"
+}

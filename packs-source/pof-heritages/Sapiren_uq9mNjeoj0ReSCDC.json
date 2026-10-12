@@ -1,0 +1,92 @@
+{
+  "_id": "uq9mNjeoj0ReSCDC",
+  "name": "Sapiren",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Sapiren Testaments contain names, diagrams, nested questions and passages whose grammar resembles lists of observations rather than conventional scripture. Their markings often cluster around the brow, eyes and hands.</p>\n<p>Sapiren tend to be curious, analytical and dissatisfied with unsupported certainty. Many accumulate specialist interests with remarkable intensity, surrounding themselves with notes, specimens and unfinished investigations. They have a reputation for answering a simple question with three better questions, a habit other Kethrani find either admirable or exhausting.<br>You gain an additional +1 racial bonus to Intelligence and may select any one Lore specialist skill.</p>",
+    "sourceRace": "Kethrani",
+    "abilityModifiers": "Int +1",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "T5LGOzbh3kFuwJCJ",
+      "name": "Sapiren: racial adjustments",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.intelligence.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Int +1",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!uq9mNjeoj0ReSCDC.T5LGOzbh3kFuwJCJ"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "specialistChoice": {
+        "label": "Any one Lore specialist skill",
+        "prompt": "The Lore your Testament dwells on",
+        "placeholder": "e.g. Ruins Lore",
+        "suffix": "Lore"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!uq9mNjeoj0ReSCDC"
+}

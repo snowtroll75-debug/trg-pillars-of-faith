@@ -1,0 +1,97 @@
+{
+  "_id": "Rkft0FVNEORjr4aP",
+  "name": "Sacred Toll",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "save",
+    "level": 0,
+    "ppCost": 0,
+    "castAP": 1,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 Undead or Unliving creature that can hear you",
+    "duration": "until the end of its next turn",
+    "defence": "Will",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "frightened",
+        "value": 1,
+        "onSave": [
+          "partial"
+        ]
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "frightened",
+        "value": 2,
+        "onSave": [
+          "failure",
+          "fumble"
+        ]
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "frightened",
+        "value": 3,
+        "onSave": [
+          "blunder"
+        ]
+      },
+      {
+        "kind": "note",
+        "text": "On a Fumble or Blunder the target also cannot use reactions until the end of its next turn."
+      }
+    ],
+    "warps": [],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Auditory, Focus",
+    "description": "<p>AUDITORY DIVINITY FOCUS</p>\n<p>Action 1 AP; Range 30 feet; Target one Undead or Unliving creature that can hear you</p>\n<p>The target attempts a level-based Will saving throw.</p>\n<p>Heroic/Critical The target is unaffected.<br>Success The target is unaffected.<br>Partial The target becomes frightened 1 until the end of its next turn.<br>Failure The target becomes frightened 2 until the end of its next turn.<br>Fumble The target becomes frightened 2 and cannot use reactions until the end of its next turn.<br>Blunder The target becomes frightened 3 and cannot use reactions until the end of its next turn.</p>\n<p>A Kelvan heritage ability (Pillars of Faith, Chapter 2). Granted as an innate spell-like with the Focus trait: the save DC is level-based, no PP is spent, and Refocus restores it.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Rkft0FVNEORjr4aP"
+}

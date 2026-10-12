@@ -1,0 +1,103 @@
+{
+  "_id": "Ttqy56X0nM1Xeypt",
+  "name": "Veil Warden",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Occultism or Religion 3 ranks, Mental Focus 2 ranks",
+    "active": true,
+    "description": "<p>ADEPT EXPERT</p>\n<p>You have trained yourself to recognize the moment when another will press against a mortal soul - and to stand between them.<br>You gain Spirit Sense as a tertiary sense.<br>When using Search, you may detect the presence and general direction of disembodied spirits, incorporeal undead, haunts and active possession.<br>You also gain a +1-class bonus to saving throws against possession, Soul Drain and effects with the Soul trait.<br>Finally, you gain:<br>WARD THE SOUL<br>FOCUS SOUL<br>Action R; Trigger An ally within 30 feet attempts a saving throw against possession, Soul Drain or an effect with the Soul trait.<br>The ally gains a +2-circumstance bonus to the triggering saving throw.</p>\n<p>Prerequisites Occultism or Religion 3 ranks, Mental Focus 2 ranks</p>\n<p>Progression Requirements Occultism or Religion +10 ranks</p>\n<p>Works automatically: Spirit Sense (30 ft, tertiary — the book prints no range; the Eshari's is assumed) is on your senses list; +1 class to saves is pre-ticked against Soul-trait and possession effects; Ward the Soul arrives as a Focus reaction ability.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept, Expert",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Ward the Soul",
+    "grantedFeats": "",
+    "progressionRequirements": "Occultism or Religion +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "creatureAbility": {
+        "printedTraits": "",
+        "printedAction": "",
+        "printedArea": "",
+        "derives": {
+          "sense": {
+            "category": "tertiary",
+            "modality": "spiritual",
+            "fixedFeet": 30,
+            "name": "Spirit Sense",
+            "finds": "disembodied spirits, incorporeal undead, haunts and active possession"
+          }
+        },
+        "source": "Pillars of Faith, Chapter 5 (Veil Warden)"
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Veil Warden",
+          "scope": "Saving throws against possession, Soul Drain and Soul-trait effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "soul",
+              "possession"
+            ]
+          },
+          "value": 1,
+          "type": "class"
+        },
+        {
+          "kind": "modifier",
+          "label": "Veil Warden",
+          "scope": "Saving throws against possession, Soul Drain and Soul-trait effects",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          "value": 1,
+          "type": "class"
+        }
+      ],
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Ttqy56X0nM1Xeypt"
+}

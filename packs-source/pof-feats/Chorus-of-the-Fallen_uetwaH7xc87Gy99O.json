@@ -1,0 +1,49 @@
+{
+  "_id": "uetwaH7xc87Gy99O",
+  "name": "Chorus of the Fallen",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Death Chant, Level 5",
+    "active": true,
+    "description": "<p>AUDITORY EMOTION ORC</p>\n<p>An Orc does not whisper the name of a fallen companion. They make certain that everyone on the battlefield hears it.<br>Whenever you use Death Chant, you may choose up to two conscious allies within 30 feet who can hear you.<br>Until the end of their next turn, each chosen ally gains a +1-status bonus to attack rolls against the creature that caused the triggering damage, provided that creature is known to you.<br>This is in addition to the normal benefits of Death Chant.<br>A creature may benefit from Chorus of the Fallen only once per day.</p>\n<p>Prerequisites Death Chant, Level 5</p>\n<p>Works through Death Chant's Use: choose up to two allies — each gets +1 status to attacks against the attacker until the end of their next turn (an effect with the attacker's uuid).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Orc",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Auditory, Emotion",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!uetwaH7xc87Gy99O"
+}

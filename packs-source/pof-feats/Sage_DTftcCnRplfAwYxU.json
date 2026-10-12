@@ -1,0 +1,56 @@
+{
+  "_id": "DTftcCnRplfAwYxU",
+  "name": "Sage",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "At least 2 ranks in any two of Arcana, Culture, Medicine, Nature, Occultism, Planes or Religion",
+    "active": true,
+    "description": "<p>ADEPT EXPERT</p>\n<p>Books taught you the principles. Adventuring taught you which paragraph matters when something enormous is trying to eat you.<br>You may select a Specialist Lore skill.<br>Furthermore, you also gain the following action:<br>APPLIED INSIGHT<br>CONCENTRATE FOCUS<br>Action 1 AP<br>You may select any one Studied Target that you can see and gain one of the following modifiers until the beginning of your next turn:<br>Opening You gain a +1-circumstance bonus to attack rolls against the Studied Target.<br>Warning You gain a +1-circumstance bonus to DB and saving throws against the Studied Target's attacks, spells and abilities.</p>\n<p>Prerequisites At least 2 ranks in any two of Arcana, Culture, Medicine, Nature, Occultism, Planes or Religion</p>\n<p>Progression Requirements Any qualifying knowledge skill +10 ranks</p>\n<p>Works automatically: Use this feat to name your Lore specialist skill; Applied Insight arrives as a Focus ability.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept, Expert",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Applied Insight",
+    "grantedFeats": "",
+    "progressionRequirements": "Any qualifying knowledge skill +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "specialistChoice": {
+        "label": "A Specialist Lore skill",
+        "prompt": "The Lore your studies centre on",
+        "placeholder": "e.g. Monster Lore",
+        "suffix": "Lore"
+      },
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DTftcCnRplfAwYxU"
+}

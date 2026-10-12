@@ -1,0 +1,79 @@
+{
+  "_id": "VKq6YgqHlBmHsVUM",
+  "name": "Frostmint",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 25,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: any alpine or tundra.\n\nFrostmint grows in tight blue-white clusters beneath snow shelves and along the shaded faces of high crags. Its serrated leaves are cold enough to numb bare fingers, and a freshly crushed sprig gives off the crisp scent of winter air. Mountain travellers steep it into a bitter tea or chew the prepared leaves before crossing exposed ground; either method leaves the breath steaming even in warm air. For 1 hour, you gain resistance to cold damage.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Frostmint",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "defence",
+              "target": "self",
+              "field": "resistance",
+              "value": "cold",
+              "note": "(resistance to cold)"
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: any alpine or tundra.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 25,
+        "tablePrice": 25,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VKq6YgqHlBmHsVUM"
+}

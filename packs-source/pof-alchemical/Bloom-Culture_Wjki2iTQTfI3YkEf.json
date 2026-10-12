@@ -1,0 +1,75 @@
+{
+  "_id": "Wjki2iTQTfI3YkEf",
+  "name": "Bloom Culture",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 25,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Myrathi",
+    "description": "<strong>Usage applied to one corpse; Activate 10 minutes.</strong>\n\nThis sealed packet contains selected Myrathi fungi and nutrient paste. Once established upon an ordinary corpse, natural decomposition accelerates rapidly. After 24 hours, the remains have decomposed approximately as much as they ordinarily would in one month. Bloom Culture cannot affect an Undead or Unliving creature, overcome magical preservation or destroy a corpse protected by supernatural means.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "10 minutes",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "alchemical",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Bloom Culture",
+          "effects": [
+            {
+              "kind": "note",
+              "text": "Established on an ordinary corpse over 10 minutes; after 24 hours the remains have decomposed about as much as they would in one month. No effect on an Undead or Unliving creature, magical preservation or a supernaturally protected corpse."
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Other",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 25,
+        "tablePrice": 25,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Wjki2iTQTfI3YkEf"
+}

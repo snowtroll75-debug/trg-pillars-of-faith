@@ -1,0 +1,79 @@
+{
+  "_id": "B53JMQcGTcD4Vtcj",
+  "name": "Cord of the Sworn Word",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 3000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Invested, Soul",
+    "description": "Usage worn around wrist, neck or waist.\n\nThe cord begins completely white. Each oath formally sworn upon it leaves behind a permanent-coloured thread woven inexplicably through its fibres.\n\nYou gain a +2-status bonus to saving throws against magical effects attempting to compel you to knowingly violate a solemn oath you have freely undertaken. This protection does not apply to casual promises or an oath obtained through supernatural coercion.\n\nYou also gain the Seal the Word ability:\n\nSeal the Word:\n\nActivate 1 minute\n\nFrequency 1/day\n\nTargets Up to two willing creatures\n\nThe cord casts Oathseal upon the targets. The resulting oath remains recorded as a pattern within the cord for its duration.\n\nOn the sheet: +2 status is offered on saves against compulsion to break an oath; Seal the Word is Oathseal as an innate spell, 1/day.\n\nPillars of Faith, Chapter 11.",
+    "slot": "neck",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 7,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": true,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "spell",
+            "spell": "Oathseal",
+            "frequency": "daily",
+            "label": "Seal the Word",
+            "note": "1 minute; up to two willing creatures"
+          }
+        ]
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Cord of the Sworn Word",
+          "scope": "Saving throws against magical effects compelling you to knowingly violate a solemn oath you freely undertook",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!B53JMQcGTcD4Vtcj"
+}

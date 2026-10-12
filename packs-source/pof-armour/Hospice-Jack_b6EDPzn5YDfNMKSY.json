@@ -1,0 +1,57 @@
+{
+  "_id": "b6EDPzn5YDfNMKSY",
+  "name": "Hospice Jack",
+  "img": "icons/svg/shield.svg",
+  "type": "armour",
+  "system": {
+    "quantity": 1,
+    "weight": 8,
+    "price": 130,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 20,
+      "max": 20
+    },
+    "traits": "",
+    "category": "Light",
+    "material": "",
+    "isHelmet": false,
+    "dr": 2,
+    "hardness": 0,
+    "penalty": 0,
+    "proficiency": "",
+    "maxDexBonus": 7,
+    "speedPenalty": 0,
+    "itemLevel": 1,
+    "coversTorso": true,
+    "coversArms": false,
+    "coversLegs": false,
+    "description": "This reinforced quilted coat was developed by battlefield chirurgeons and temple hospices. Narrow pockets contain splints, bandages and basic instruments where they can be reached quickly. A properly stocked Hospice Jack counts as a basic healer's kit for the purpose of Administer First Aid, although not for Treat Wounds, surgery or other more involved Medicine actions.\n\nOn the sheet: declared as the tool for Administer First Aid (that action asks for no tool in the core table, so the jack is simply on hand).\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "toolFor": [
+        "firstAid"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!b6EDPzn5YDfNMKSY"
+}

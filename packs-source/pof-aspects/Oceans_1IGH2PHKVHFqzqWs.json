@@ -1,0 +1,50 @@
+{
+  "_id": "1IGH2PHKVHFqzqWs",
+  "name": "Oceans",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "The ocean recognises no border drawn upon a map. It nourishes cities, destroys fleets, carries travellers between continents and hides depths no mortal kingdom can truly rule. Followers of Oceans value freedom, adaptability and respect for powers that cannot simply be commanded. Common symbols include a breaking wave, a trident beneath a gull, a spiral shell and a ship beneath a horizon without land.\n\nEdicts: Respect the power and unpredictability of the sea. Aid sailors in genuine peril. Protect free passage across open waters. Adapt rather than stubbornly resist changing circumstances. Take the sea's bounty without destroying its ability to replenish itself.\n\nAnathema: Claim absolute ownership over the open ocean. Deliberately pollute a significant body of water. Abandon shipmates to death when rescue is reasonably possible. Violate recognised laws of safe harbour. Destroy marine life solely for amusement.\n\nSuggested Ethics: Adaptability, Autonomy, Prudence\n\nClass Skill: Survival\n\nSpecialist Spells: Fluidity (1), Guiding Stone (1), Shifting Step (1), Wellspring of Valour (1), Element Ward (7), Resilient Fortitude (7), Unity (7), Vigilant Eye (7)\n\nBonus Spells: Quench (4); Water Breathing (4); Crashing Torrent (6); Water Walk (6)\n\nFavoured Weapon: Spear\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Chaos",
+    "edicts": "Respect the power and unpredictability of the sea. Aid sailors in genuine peril. Protect free passage across open waters. Adapt rather than stubbornly resist changing circumstances. Take the sea's bounty without destroying its ability to replenish itself.",
+    "anathema": "Claim absolute ownership over the open ocean. Deliberately pollute a significant body of water. Abandon shipmates to death when rescue is reasonably possible. Violate recognised laws of safe harbour. Destroy marine life solely for amusement.",
+    "suggestedEthics": "Adaptability, Autonomy, Prudence",
+    "classSkill": "Survival",
+    "favouredWeapon": "Spear",
+    "specialistSpells": "Fluidity, Guiding Stone, Shifting Step, Wellspring of Valour, Element Ward, Resilient Fortitude, Unity, Vigilant Eye",
+    "bonusSpells": "4: Quench, 4: Water Breathing, 6: Crashing Torrent, 6: Water Walk"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Adaptability",
+        "Autonomy",
+        "Prudence"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1IGH2PHKVHFqzqWs"
+}

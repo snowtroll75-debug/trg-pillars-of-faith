@@ -1,0 +1,116 @@
+{
+  "_id": "Jgef3Ka9P4jysglN",
+  "name": "Litany of Endurance",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 6,
+    "castAP": 2,
+    "range": "",
+    "area": "30-foot emanation",
+    "targets": "",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Litany of Endurance",
+        "target": "allies",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Litany of Endurance",
+            "scope": "Fortitude saves against effects that cause Fatigued or arise from environmental hardship",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "subjects": [
+                "fortitude"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "suppress",
+        "target": "allies",
+        "condition": "fatigued",
+        "amount": 1,
+        "label": "Litany of Endurance"
+      },
+      {
+        "kind": "note",
+        "text": "The suppression is for penalties only; Fatigued is not reduced, and the penalties return on leaving the area."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the emanation by 10 feet",
+        "mods": {
+          "areaGrowth": 10
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Affected creatures cannot have their Fatigued condition increased above its current value while within the area",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "allies",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Auditory, Enchantment",
+    "description": "AUDITORY ENCHANTMENT UTILITY\nTradition divinity\nCast 2 AP (verbal)\nArea 30-foot emanation\nDuration 1 minute\n\nYou recite a measured litany of perseverance, strengthening those who hear you against exhaustion and hardship.\nYou and willing allies within the area gain a +2-status bonus to Fortitude saving throws against effects that cause Fatigued or arise from environmental hardship.\nFurthermore, affected creatures treat their Fatigued condition as 1 lower for the purpose of determining its penalties. This does not actually reduce or remove Fatigued. If a creature leaves the area, its normal penalties immediately return.\n\nWarping Options:\n+2 PP: Increase the emanation by 10 feet.\n+4 PP: Affected creatures cannot have their Fatigued condition increased above its current value while within the area.\n\nPillars of Faith, Chapter 10. The +2 status to Fortitude is a scoped row on you and your allies; Fatigued is suppressed by 1 for its penalties."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Jgef3Ka9P4jysglN"
+}

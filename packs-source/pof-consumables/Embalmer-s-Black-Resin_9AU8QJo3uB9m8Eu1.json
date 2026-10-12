@@ -1,0 +1,74 @@
+{
+  "_id": "9AU8QJo3uB9m8Eu1",
+  "name": "Embalmer's Black Resin",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 400,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Healing, Soul, Unliving",
+    "description": "Usage applied to one Unliving creature; Weight 1 lb. Activate Interact (1 minute).\n\nThe resin smells of myrrh, iron and cold earth. On contact with dead flesh, it moves into cracks and wounds as though drawn there.\n\nThe target must possess the Unliving trait. It regains 3d8 HP.\n\nIf the target is a Skeleton, Zombie, Ghoul or Mummy, it also reduces Bleed by 1d4 if that form is capable of suffering Bleed. The resin has no effect on a living creature or ordinary inanimate corpse.\n\nOn the sheet: applied to an Unliving creature (target it to apply it to another): 3d8 HP. Refused on a creature without the Unliving trait.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "Interact (1 minute)",
+    "itemLevel": 6
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Embalmer's Black Resin",
+          "requiresTrait": "unliving",
+          "effects": [
+            {
+              "kind": "heal",
+              "target": "self",
+              "formula": "3d8"
+            },
+            {
+              "kind": "conditionRelief",
+              "target": "self",
+              "label": "Embalmer's Black Resin",
+              "condition": "bleeding",
+              "amount": "1d4",
+              "targetItems": [
+                "Unliving Skeleton",
+                "Unliving Zombie",
+                "Unliving Ghoul",
+                "Unliving Mummy"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9AU8QJo3uB9m8Eu1"
+}

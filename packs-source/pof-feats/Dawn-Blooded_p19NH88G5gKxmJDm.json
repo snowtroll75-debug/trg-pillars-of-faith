@@ -1,0 +1,89 @@
+{
+  "_id": "p19NH88G5gKxmJDm",
+  "name": "Dawn-Blooded",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Living character",
+    "active": true,
+    "description": "<p>HERITAGE</p>\n<p>Radiance runs faintly through your blood, emerging as light when anger, courage or compassion stirs it.<br>You gain the Good aligned trait and Nightvision.<br>Furthermore, you may cast Guiding Bolt as a Divinity innate spell with the Focus trait.<br>Dawn-Blooded occupies a different niche from Lightwoven and Seraphel: Lightwoven is supportive, Seraphel protective and Dawn-Blooded more overtly radiant.</p>\n<p>Prerequisites Living character</p>\n<p>Works automatically: the Good aligned trait joins your traits, Nightvision is granted, and Guiding Bolt is an innate Divinity spell with the Focus trait on your spell list.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Heritage",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "Guiding Bolt",
+    "grantedAbilities": "Nightvision",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "4IsvkigAi53iF5w5",
+      "name": "Dawn-Blooded: aligned trait",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.details.traits",
+          "mode": 2,
+          "value": ", Good",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Good aligned trait.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!p19NH88G5gKxmJDm.4IsvkigAi53iF5w5"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true,
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!p19NH88G5gKxmJDm"
+}

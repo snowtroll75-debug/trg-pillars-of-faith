@@ -1,0 +1,74 @@
+{
+  "_id": "TwvLrTA63qGiyfDX",
+  "name": "Land Spirit",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>Your guide is bound to the character of a place: a mountain, ancient woodland, river valley, cave system, desert, marsh or other enduring landscape.<br>You may have inherited the bond from generations of Shamans, or the place itself may simply have decided that you were worth following.<br>Specialist Skill Select one appropriate Terrain Lore skill.<br>Spirit Boon – Memory of the Land: You gain a +2-class bonus to Nature and Survival checks involving the terrain represented by your Spirit Guide.<br>Furthermore, you ignore natural difficult terrain of that type.<br>Manifestation – Rooted World: While Manifest Spirit is active:<br>• your Base DR increases by 1;<br>• you gain Advantage on checks and saving throws made to resist being Shoved, Tripped or moved against your will; and<br>• you ignore ordinary natural difficult terrain.<br>Earth may harden beneath your feet; roots may briefly coil around your legs or fragments of the landscape represented by your guide may appear around you.</p>\n<p>Use to name your Terrain Lore. Memory of the Land — +2 class is offered on Nature and Survival with the book's wording; ignoring that terrain is a note. Rooted World is what Manifest Spirit applies.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      },
+      "specialistChoice": {
+        "label": "One appropriate Terrain Lore skill",
+        "prompt": "The terrain your guide is bound to",
+        "placeholder": "e.g. Mountain Lore",
+        "suffix": "Lore"
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Memory of the Land",
+          "scope": "Nature and Survival checks involving your guide's terrain",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "nature",
+              "survival"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TwvLrTA63qGiyfDX"
+}

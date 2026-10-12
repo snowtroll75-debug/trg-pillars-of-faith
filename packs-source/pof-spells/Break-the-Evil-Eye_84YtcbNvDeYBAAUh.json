@@ -1,0 +1,86 @@
+{
+  "_id": "84YtcbNvDeYBAAUh",
+  "name": "Break the Evil Eye",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "touch",
+    "area": "",
+    "targets": "1 creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Select one Curse, Charm, Compulsion, possession, magical Fear, or controlling Mental/Soul effect on the target and attempt to Counteract it. Critical: it ends and the target gains +2 status against that source for 1 hour. Success: it ends. Failure: it remains. Fumble: it remains and you cannot try again against it until your next daily preparation."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the range to 30 feet",
+        "mods": {
+          "rangeOverride": "30 feet"
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Attempt to Counteract one additional eligible effect affecting the same target",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Folkwarden",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Healing, Soul, Warding",
+    "description": "FOLKWARDEN HEALING SOUL UTILITY WARDING\nFolkwarden Specialist Spell\nCast 2 AP (material, somatic, verbal)\nRange touch\nTargets 1 creature\n\nYou break a knotted thread, scatter prepared herbs, extinguish a marked candle or perform another traditional act symbolising the severing of harmful influence.\nSelect one effect currently affecting the target possessing one of the following characteristics:\nCurse;\nCharm or Compulsion;\npossession; magical Fear; or\nanother Mental or Soul effect that directly controls, coerces or unnaturally alters the target's behaviour.\nAttempt to Counteract the selected effect.\nCritical The effect ends, and the target gains a +2-status bonus to saving throws against that same source for 1 hour.\nSuccess The effect ends.\nFailure The effect remains.\nFumble The effect remains, and you cannot attempt to Break the Evil Eye against that particular effect again until your next daily preparation.\nThe spell cannot remove ordinary emotions, voluntarily accepted magical effects or mundane coercion.\n\nWarping Options:\n+2 PP: Increase the range to 30 feet.\n+4 PP: Attempt to Counteract one additional eligible effect affecting the same target.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!84YtcbNvDeYBAAUh"
+}

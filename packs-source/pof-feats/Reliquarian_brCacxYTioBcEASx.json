@@ -1,0 +1,86 @@
+{
+  "_id": "brCacxYTioBcEASx",
+  "name": "Reliquarian",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Culture 2 ranks, Religion 2 ranks",
+    "active": true,
+    "description": "<p>ADEPT EXPERT</p>\n<p>You do not merely collect relics. You understand the histories, rituals and dangers that cling to sacred objects long after their makers have died.<br>You gain Use Magic Device as a granted feat and Relic Lore as a Specialist skill<br>When examining a religious magical object, you may perform Trace Religious Provenance and Identify Power during the same 10-minute examination. Make each check separately.<br>Once you have successfully identified both the provenance and magical properties of an item, you gain a +1-circumstance bonus to Use Magic Device checks made with that item.<br>Finally, whenever an item you have completely identified possesses a Curse or dangerous activation effect, you gain a +1-circumstance bonus to saving throws against that specific effect.</p>\n<p>Prerequisites Culture 2 ranks, Religion 2 ranks</p>\n<p>Progression Requirements Culture +10 ranks</p>\n<p>Works automatically: Use Magic Device is granted and Relic Lore added to your specialist skills; the +1 circumstance to Use Magic Device with an identified item and to saves against its curse are offered with the book's wording.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept, Expert",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "Use Magic Device",
+    "progressionRequirements": "Culture +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Relic Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Reliquarian",
+          "scope": "Activating (Use Magic Device) an item whose provenance and properties you have both identified",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "arcana",
+              "religion",
+              "occultism",
+              "nature",
+              "powerManipulation"
+            ]
+          },
+          "value": 1,
+          "type": "circumstance"
+        },
+        {
+          "kind": "modifier",
+          "label": "Reliquarian",
+          "scope": "Saving throws against the Curse or dangerous activation of an item you have completely identified",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ]
+          },
+          "value": 1,
+          "type": "circumstance"
+        }
+      ],
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!brCacxYTioBcEASx"
+}

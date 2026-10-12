@@ -1,0 +1,88 @@
+{
+  "_id": "HMlhcvWwObz8W8Zb",
+  "name": "Deep-Rooted Ironcap",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Karuum growth, Ironcap Plating, Level 10",
+    "active": true,
+    "description": "<p>MYRATHI</p>\n<p>Your dense fibrous body absorbs impacts that would tear ordinary flesh apart.<br>Your Base DR increases by another 1.<br>In addition, whenever an effect would forcibly move you, reduce the distance moved by 5 feet, to a minimum of 0 feet. If an effect would move you less than 5 feet, you are not moved.</p>\n<p>Prerequisites Karuum growth, Ironcap Plating, Level 10</p>\n<p>Works automatically: Base DR +1 more is on your defences; the 5-foot reduction to forced movement is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "UtqJgDGdvKYh1LT5",
+      "name": "Deep-Rooted Ironcap: Base DR",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.naturalArmourBase.natural",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Base DR +1 (with Ironcap Plating, +2 in all).",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!HMlhcvWwObz8W8Zb.UtqJgDGdvKYh1LT5"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HMlhcvWwObz8W8Zb"
+}

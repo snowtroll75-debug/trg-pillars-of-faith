@@ -1,0 +1,83 @@
+{
+  "_id": "eCdHf1F3siJZlSzH",
+  "name": "Morrin",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Morrin are the body-keepers and tomb-wardens of Eshari society. Broader and more powerfully built than many of their kin, they traditionally perform the labour associated with preparing graves, moving remains, guarding reliquaries and defending burial grounds.<br>Their reputation for physical strength sometimes obscures the delicacy of their work. Morrin are often expert embalmers, restorers of damaged remains and custodians of fragile memorial objects. Their funerary philosophy emphasises stewardship: a body may no longer house its owner, but it remains important to those left behind and should not be treated carelessly.<br>You gain an additional +1 racial bonus to Constitution.</p>",
+    "sourceRace": "Eshari",
+    "abilityModifiers": "Con +1",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "zcedcfPKsz5iypNN",
+      "name": "Morrin: racial adjustments",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.constitution.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Con +1",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!eCdHf1F3siJZlSzH.zcedcfPKsz5iypNN"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!eCdHf1F3siJZlSzH"
+}

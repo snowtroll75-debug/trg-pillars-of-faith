@@ -1,0 +1,39 @@
+{
+  "_id": "8wopZMm4VHoLlB3E",
+  "name": "Endless Hunger",
+  "img": "icons/svg/skull.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "An Unliving Archetype",
+    "active": true,
+    "description": "<p>EVIL SOUL</p>\n<p>The creature must eat constantly. In most cases, the creature that has this trait is mindless or undead and seeks to eat living flesh using a sense such as Life Sense.</p>\n<p>A rule for the table: the hunger is the character's to play. Nothing on the sheet changes.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Evil, Soul"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8wopZMm4VHoLlB3E"
+}

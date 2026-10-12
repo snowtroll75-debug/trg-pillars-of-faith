@@ -1,0 +1,84 @@
+{
+  "_id": "a0cABU8hdbcS8cAA",
+  "name": "Spirit Trace",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 2,
+    "range": "",
+    "area": "30-foot emanation",
+    "targets": "",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "You learn whether spiritual residue from the previous hour (24 hours with the +2 PP warp) is present in the emanation and the direction of its strongest concentration or trail."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Detect residue up to 24 hours old",
+        "mods": {}
+      },
+      {
+        "ppCost": 2,
+        "text": "Perceive the approximate path taken by the strongest spiritual trail through the affected area",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Shaman",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Insight, Spirit",
+    "description": "INSIGHT SHAMAN SPIRIT UTILITY\nShaman Specialist Spell\nCast 2 AP (somatic, verbal)\nArea 30-foot emanation\n\nYou perceive lingering disturbances left upon the world by spiritual activity.\nYou detect spiritual residue created during the previous hour by disembodied spirits, active possession, haunts or comparable supernatural manifestations.\nYou learn whether such residue is present and the general direction of the strongest concentration or trail.\nSpirit Trace does not identify the responsible entity, determine its allegiance, provide an exact location or detect an ordinary Undead or Unliving creature merely because of its creature type.\n\nWarping Options:\n+2 PP: Detect residue up to 24 hours old.\n+2 PP: Perceive the approximate path taken by the strongest spiritual trail through the affected area.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!a0cABU8hdbcS8cAA"
+}

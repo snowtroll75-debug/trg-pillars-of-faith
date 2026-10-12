@@ -1,0 +1,49 @@
+{
+  "_id": "frQt0MrYXsMf4SNh",
+  "name": "Outcast's Resolve",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Mental Focus 1 rank",
+    "active": true,
+    "description": "<p>You have already survived condemnation once. Authority no longer possesses quite the same power over you.</p>\n<p>Prerequisites Mental Focus 1 rank</p>\n<p>Action R; Trigger You fail a Will saving throw against a Fear, Charm or Compulsion effect.<br>Frequency Once per day</p>\n<p>You may reroll the triggering saving throw. You must use the second result.</p>\n<p>If the effect originates from a creature, institution, Divine Aspect or religious tradition responsible for your excommunication or rejection, you gain a +1 circumstance bonus to this reroll.</p>\n<p>Use: spends the reaction and the day's use, and queues the optional +1 circumstance bonus for the reroll — then reroll the Will save from your sheet.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "pofAutomation": "outcastsResolve"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!frQt0MrYXsMf4SNh"
+}

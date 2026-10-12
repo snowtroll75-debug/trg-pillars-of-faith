@@ -1,0 +1,88 @@
+{
+  "_id": "6TH5GqCfBUeSIR1F",
+  "name": "Anchor the Departing Soul",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": "Reaction",
+    "range": "30 feet",
+    "area": "",
+    "targets": "the triggering creature",
+    "duration": "10 minutes",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "The soul cannot be removed, destroyed, possessed or bound and the corpse cannot be soul-animated unless the effect first Counteracts this; the creature remains a valid target for returning to life; time under the anchor does not count against minutes/hours/days-since-death limits."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 1 hour",
+        "mods": {
+          "durationText": "1 hour"
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the duration to 24 hours",
+        "mods": {
+          "durationText": "24 hours"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Archivist",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Soul, Warding",
+    "description": "ARCHIVIST SOUL UTILITY WARDING\nArchivist Specialist Spell\nCast R (verbal)\nTrigger: A living creature within 30 feet dies\nRange 30 feet\nTargets the triggering creature\nDuration 10 minutes\n\nAt the instant of death, you bind the departing soul gently to the remains, preventing outside forces from claiming it.\nFor the duration:\nthe soul cannot be forcibly removed, destroyed, possessed or bound unless the effect first successfully Counteracts Anchor the Departing Soul;\nthe corpse cannot be animated by an effect that requires or manipulates the deceased creature's soul unless the spell is first Counteracted;\nthe creature remains a valid target for magic capable of returning it to life; and\ntime spent under Anchor the Departing Soul does not count towards ordinary limits based upon the number of minutes, hours or days since death.\nThe final benefit does not extend effects whose requirements refer specifically to death occurring during the current round, previous round or another explicitly combat-timed window.\nThe soul may willingly depart where another rule permits it to make that choice.\n\nWarping Options:\n+2 PP: Increase the duration to 1 hour.\n+4 PP: Increase the duration to 24 hours.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6TH5GqCfBUeSIR1F"
+}

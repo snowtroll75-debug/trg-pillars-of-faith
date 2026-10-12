@@ -1,0 +1,49 @@
+{
+  "_id": "oNYTAdCiCXRYEhwe",
+  "name": "Folk Rites",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>At 1st level, you learn the practical rites common to Folkwardens. Folk Rites are class abilities rather than spells. They are performed through learned procedure, appropriate materials and a limited amount of Verdant power.<br>Unless a rite states otherwise, ordinary components such as herbs, cord, wax, salt, chalk, carved wood, feathers, stones, nails or incense have negligible cost. A Folk Rite possessing the Verdant trait is magical and interacts normally with effects that detect, suppress or Counteract magic. Folk Rites are explained in detail below</p>\n<p>FOLK PREPARATIONS<br>Some Folk Rites create Preparations. You may maintain a number of active Preparations equal to your Folkwarden class bonus.<br>Warding Charm, Brew Remedy and Ward the Threshold create Preparations. Read the Signs and Lay to Rest do not count against this limit.<br>If creating a new Preparation would exceed your limit, select one of your existing Preparations. That Preparation immediately becomes ineffective. Unless otherwise stated, a Preparation remains effective until used, destroyed or your next daily preparation.<br>A creature cannot benefit from two copies of the same Preparation created by you at the same time. Preparations created by different Folkwardens follow the normal rules for bonuses of the same type and do not automatically stack. Preparations cannot be sold as permanent magical or alchemical items. When a rule requires a Counteract level for one of your magical Folk Rites or Preparations, use your Folkwarden level.</p>\n<p>The five rites are abilities of their own on your sheet. Warding Charm, Brew Remedy and Ward the Threshold count their Preparations against your class bonus when used; Read the Signs and Lay to Rest are skill actions offered from Nature/Survival and Medicine/Nature/Religion.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oNYTAdCiCXRYEhwe"
+}

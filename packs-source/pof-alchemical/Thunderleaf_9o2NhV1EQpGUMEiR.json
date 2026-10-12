@@ -1,0 +1,79 @@
+{
+  "_id": "9o2NhV1EQpGUMEiR",
+  "name": "Thunderleaf",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 85,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: coasts, stormlands and high plains.\n\nThunderleaf grows close to the ground in windswept places, spreading broad silver leaves across exposed stone. Tiny sparks travel along its veins when storms approach, and the plant snaps shut an instant before lightning strikes nearby. Sailors chew strips of cured Thunderleaf for its sharp metallic taste and the nervous energy it sends through the limbs. For 1 hour, you gain a +1-item bonus to Reflex saving throws.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Thunderleaf",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "bonus",
+              "target": "self",
+              "slot": "reflex",
+              "bonusType": "item",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: coasts, stormlands and high plains.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 3,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 85,
+        "tablePrice": 85,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9o2NhV1EQpGUMEiR"
+}

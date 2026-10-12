@@ -1,0 +1,110 @@
+{
+  "_id": "KiGlsIHCv1mWJYZa",
+  "name": "Morrowmade",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>HERITAGE</p>\n<p>Your body has been remade by forces that should never have touched mortal flesh. Perhaps you survived arcane experimentation, alchemical grafting, planar corruption, a failed resurrection or exposure to unstable Essence. Perhaps ancient bio-sorcery changed your ancestors, or your present form was deliberately constructed through surgery and occult alteration. Whatever the cause, your original race remains recognizable, but your body has adapted in ways nature never intended.<br>You gain the Morrowmade trait in addition to the traits granted by your race. Whenever you gain a racial feat, you may select either a Morrowmade racial feat or a racial feat normally available to your race, provided you meet its prerequisites.<br>Your altered physiology grants you a +1 racial bonus to Fortitude saving throws.<br>Furthermore, when you attempt a saving throw or flat check to resist, reduce or recover from a critical injury, Disease, Poison, Bleed effect or magical effect that would transform, mutate or otherwise alter your physical body, the racial bonus granted by this feat increases to +2 for that check.<br>Be aware the Morrowmade trait does not change your creature type and does not cause you to count as Undead, Unliving, Construct, Eternal or another creature type unless another ability specifically says that it does.</p>\n<p>Works automatically: the Morrowmade trait joins your traits, +1 racial to Fortitude is on your saves, and the +2 (one more) is offered on saves and flat checks with the book's wording. Morrowmade racial feats open to you in the racial-feat picker.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Heritage",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "a1qBfrbkNyqFSGKK",
+      "name": "Morrowmade: trait and Fortitude",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.details.traits",
+          "mode": 2,
+          "value": ", Morrowmade",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.saves.fortitude.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Morrowmade trait; +1 racial bonus to Fortitude saving throws.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!KiGlsIHCv1mWJYZa.a1qBfrbkNyqFSGKK"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Morrowmade",
+          "scope": "One more (+2 in all) on a save or flat check to resist, reduce or recover from a critical injury, Disease, Poison, Bleed or an effect that would transform or alter your body",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save",
+              "flat"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KiGlsIHCv1mWJYZa"
+}

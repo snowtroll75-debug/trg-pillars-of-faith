@@ -1,0 +1,112 @@
+{
+  "_id": "xpwsK9RSV9I7Irbu",
+  "name": "Ghoul Fever (Disease)",
+  "type": "affliction",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "afflictionType": "disease",
+    "traits": "Disease, Soul",
+    "level": 0,
+    "savingThrow": "fortitude",
+    "rarity": "common",
+    "rarityModifier": 0,
+    "incubation": "",
+    "duration": "Until cured",
+    "maxStage": 6,
+    "stages": [
+      {
+        "effect": "No effect.",
+        "interval": "1 day",
+        "conditions": [],
+        "conditionDuration": "",
+        "damage": "",
+        "damageType": "",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      },
+      {
+        "effect": "2d8 essence damage; all healing is halved.",
+        "interval": "1 day",
+        "conditions": [],
+        "conditionDuration": "",
+        "damage": "2d8",
+        "damageType": "essence",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      },
+      {
+        "effect": "2d8 essence damage; all healing is halved. (Not printed — as stage 2.)",
+        "interval": "1 day",
+        "conditions": [],
+        "conditionDuration": "",
+        "damage": "2d8",
+        "damageType": "essence",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      },
+      {
+        "effect": "2d8 essence damage; all healing fails.",
+        "interval": "1 day",
+        "conditions": [],
+        "conditionDuration": "",
+        "damage": "2d8",
+        "damageType": "essence",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      },
+      {
+        "effect": "2d8 essence damage; all healing fails. (Not printed — as stage 4.)",
+        "interval": "1 day",
+        "conditions": [],
+        "conditionDuration": "",
+        "damage": "2d8",
+        "damageType": "essence",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      },
+      {
+        "effect": "Death; returns as a ghoul the following night.",
+        "interval": "1 day",
+        "conditions": [
+          {
+            "key": "dead",
+            "value": null
+          }
+        ],
+        "conditionDuration": "",
+        "damage": "",
+        "damageType": "",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      }
+    ],
+    "incubating": false,
+    "currentStage": 0,
+    "description": "<p>Ghoul Fever (disease). Basic Fortitude; each stage 1 day. Stage 1 no effect; Stage 2 2d8 essence (all healing halves); Stage 4 2d8 essence (all healing fails); Stage 6 death, returning as a ghoul the following night.</p>\n<p>Statistics from Fiends & Fables (Graham, 7 Oct 2026). Spread by Ghoul Fever (Unliving Ghoul) at the ghoul's level, so the save is that level's DC rather than the printed DC 18. Stages 3 and 5 are not printed and carry the stage before them. The healing penalties are the table's (the card says so).</p>",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "pofDisease": true
+    }
+  },
+  "_stats": {
+    "systemId": "trg-prime",
+    "systemVersion": "3.627.0",
+    "coreVersion": "14",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xpwsK9RSV9I7Irbu"
+}

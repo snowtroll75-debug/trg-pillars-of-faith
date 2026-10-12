@@ -1,0 +1,56 @@
+{
+  "_id": "LikS4Xx9tQbNZBpN",
+  "name": "Banishing",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 11000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Essence, Invested, Invocation, Soul",
+    "description": "Activate Free (0 AP)\n\nTrigger Once per round when the weapon inflicts a Critical hit upon a disembodied spirit, incorporeal Undead or possessing entity\n\nThe rune resembles an open doorway crossed by a single violent stroke.\n\nThe target suffers 2d6 secondary essence damage and must attempt a Will saving throw against your Level DC.\n\nCritical: The target is unaffected beyond the additional damage.\n\nSuccess: It cannot attempt possession until the beginning of your next turn.\n\nFailure: It cannot attempt possession for 1 minute.\n\nFumble: As Failure. If it is currently possessing a creature, immediately attempt to Counteract the possession using your level as the Counteract level. If the Counteract succeeds, the possession ends normally.\n\nInscribed onto a weapon.\n\nOn the sheet: Applied on a Critical against an Undead creature, once a round: 2d6 essence on the damage card, then the creature's Will save against your Level DC with the printed ladder. Against a disembodied spirit or a possessor the system cannot see, the GM adds it. A Fumble's Counteract of a possession is the table's.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 12,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "banishing",
+        "tier": 1,
+        "on": [
+          "weapon"
+        ],
+        "automation": "damage"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LikS4Xx9tQbNZBpN"
+}

@@ -1,0 +1,106 @@
+{
+  "_id": "5Fz6kmZ7DJ5l6R4C",
+  "name": "Ophidian Flower",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 785,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: temperate or warm jungles.\n\nOphidian flower bears a hooded green-and-gold bloom above leaves patterned like reptilian scales. When approached, the blossom sways towards nearby movement despite the absence of wind, and snakes are often found coiled harmlessly among its roots. Its bitter nectar is reduced to a thick syrup that slows the spread of venom through the blood. For 1 hour, you gain resistance to poison damage and a +4-item bonus to Fortitude saving throws against poison.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 8
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Ophidian Flower",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "defence",
+              "target": "self",
+              "field": "resistance",
+              "value": "poison",
+              "note": "(resistance to poison)"
+            },
+            {
+              "kind": "conditional",
+              "label": "Ophidian Flower",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 4,
+                  "bonusType": "item",
+                  "label": "Ophidian Flower",
+                  "scope": "Fortitude saving throws against poison",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "subjects": [
+                      "fortitude"
+                    ],
+                    "traits": [
+                      "poison"
+                    ]
+                  },
+                  "auto": true,
+                  "oneShot": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: temperate or warm jungles.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 8,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 785,
+        "tablePrice": 785,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!5Fz6kmZ7DJ5l6R4C"
+}

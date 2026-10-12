@@ -1,0 +1,50 @@
+{
+  "_id": "w7jh6IKm7N3cJUXH",
+  "name": "Canonist",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Archivist 1st level",
+    "active": true,
+    "description": "<p>You specialise in authorised scripture, ecclesiastical law and the formal doctrines through which organised religions define themselves. Canonists are frequently employed by great temples to settle questions of doctrine, authenticate official texts and identify deviations from established teachings. Others become critics of those same institutions because nobody is better equipped to expose a church breaking its own rules than someone who knows exactly what those rules say.<br>Specialist Skill Canon Lore<br>Specialist Spells Doctrinal Ward (1), Word of Censure (7)<br>Authoritative Interpretation: When you successfully Recall Knowledge about a religion, Divine Aspect, divine servant or Divinity spell or effect using Religion or Canon Lore, you gain a +1-status bonus to your next saving throw against that creature or effect before the end of your next turn. You may instead grant this bonus to one ally within 30 feet who can hear and understand you.</p>\n<p>Authoritative Interpretation — Use after a successful Recall Knowledge: puts +1 status to saving throws on you, or on one targeted ally within 30 feet, until the end of your next turn.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Archivist",
+    "traits": "",
+    "grantedSpells": "1: Doctrinal Ward, 7: Word of Censure",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Archivist",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Canon Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!w7jh6IKm7N3cJUXH"
+}

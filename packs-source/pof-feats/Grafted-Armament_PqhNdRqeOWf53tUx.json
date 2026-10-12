@@ -1,0 +1,49 @@
+{
+  "_id": "PqhNdRqeOWf53tUx",
+  "name": "Grafted Armament",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>MORROWMADE</p>\n<p>Something that should never have been part of a humanoid body has become an effective weapon.<br>Select one of the following natural attacks when you gain this feat:<br>Bite Damage 1d8 P; FDC 5; Traits Finesse<br>Claw Damage 1d6 S; FDC 5; Traits Agile, Finesse, Versatile (P)<br>Bone Spur Damage 1d6 P; FDC 5; Traits Deadly<br>Heavy Appendage Damage 1d8 B; FDC 5; Traits Shove<br>The physical manifestation is yours to describe. It might be a grafted limb, hardened nails, a secondary jaw, exposed bone, a muscular tail, chitinous growth or some stranger alteration.<br>The selected attack is considered part of your natural anatomy and cannot normally be disarmed.</p>\n<p>Use to choose Bite, Claw, Bone Spur or Heavy Appendage: the natural attack arrives as a weapon on your sheet (it leaves with this feat).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Morrowmade",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PqhNdRqeOWf53tUx"
+}

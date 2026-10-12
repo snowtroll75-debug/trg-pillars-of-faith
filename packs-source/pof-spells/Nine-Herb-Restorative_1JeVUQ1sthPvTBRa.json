@@ -1,0 +1,128 @@
+{
+  "_id": "1JeVUQ1sthPvTBRa",
+  "name": "Nine-Herb Restorative",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": "10 minutes",
+    "range": "touch",
+    "area": "",
+    "targets": "1 living creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "counteractAffliction",
+        "target": "targets"
+      },
+      {
+        "kind": "conditionRelief",
+        "target": "targets",
+        "label": "Nine-Herb Restorative",
+        "condition": "fatigued",
+        "amount": "1d6",
+        "choices": [
+          "fatigued",
+          "sickened",
+          "weakened",
+          "injured"
+        ],
+        "choiceAmounts": {
+          "injured": "1d4"
+        }
+      },
+      {
+        "kind": "conditionRelief",
+        "target": "targets",
+        "label": "Nine-Herb Restorative (second benefit)",
+        "condition": "sickened",
+        "amount": "1d6",
+        "choices": [
+          "fatigued",
+          "sickened",
+          "weakened",
+          "injured"
+        ],
+        "choiceAmounts": {
+          "injured": "1d4"
+        },
+        "unlockedBy": "secondBenefit"
+      },
+      {
+        "kind": "note",
+        "text": "The two benefits must differ — choose another condition for the second.",
+        "unlockedBy": "secondBenefit"
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "The target may select two different secondary benefits",
+        "mods": {
+          "unlocks": [
+            "secondBenefit"
+          ]
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Target an additional creature",
+        "mods": {
+          "extraTargets": 1
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Folkwarden",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Healing, Soul",
+    "description": "FOLKWARDEN HEALING SOUL UTILITY\nFolkwarden Specialist Spell\nCast 10 minutes (material, somatic, verbal)\nRange touch\nTargets 1 living creature\n\nYou prepare a complex restorative working using nine herbs, roots, fungi, minerals or equivalent substances whose individual importance varies wildly between Folkwarden traditions.\nSelect one Disease or Poison currently affecting the target and attempt to Counteract it.\nAfter resolving the Counteract attempt, the target may also choose one of the following:\nreduce Fatigued by 1d6;\nreduce Sickened by 1d6; or\nreduce Weakened by 1d6; or\nreduce Injured by 1d4.\nA condition cannot be reduced below 0.\nThe secondary benefit occurs regardless of whether the Counteract attempt succeeds, provided the spell itself was successfully cast.\nNine-Herb Restoration cannot restore HP, remove Dying, reverse physical injury or cure an affliction that is not actually a Disease or Poison.\n\nWarping Options:\n+2 PP: The target may select two different secondary benefits.\n+2 PP: Target an additional creature.\n\nPillars of Faith, Chapter 10. The Counteract is rolled against a disease or poison on the target; then the target chooses its reduction, rolled and applied."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1JeVUQ1sthPvTBRa"
+}

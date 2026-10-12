@@ -1,0 +1,79 @@
+{
+  "_id": "M03Yodt2enYGUC19",
+  "name": "Deepmire Lily",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 85,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: any swamps.\n\nDeepmire lily floats upon black swamp water, anchored by a thick white bulb buried far below the mud. Its waxy flower smells faintly of clean linen, making a blooming patch conspicuous even amid stagnant pools. The bulb contains a powerful restorative sap that is pressed, filtered and drunk in a single bitter measure. Reduce your Fatigued condition by 1. You cannot benefit from Deepmire Lily again until you complete a Full Rest.\n\nOn the sheet: You cannot benefit from Deepmire Lily again until you complete a Full Rest.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Deepmire Lily",
+          "effects": [
+            {
+              "kind": "conditionRelief",
+              "label": "Deepmire Lily",
+              "target": "self",
+              "condition": "fatigued",
+              "amount": 1
+            }
+          ],
+          "note": "You cannot benefit from Deepmire Lily again until you complete a Full Rest."
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: any swamps.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 3,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 85,
+        "tablePrice": 85,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!M03Yodt2enYGUC19"
+}

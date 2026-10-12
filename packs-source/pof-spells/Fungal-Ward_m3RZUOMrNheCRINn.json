@@ -1,0 +1,135 @@
+{
+  "_id": "m3RZUOMrNheCRINn",
+  "name": "Fungal Ward",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "verdant",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 2,
+    "castAP": 2,
+    "range": "touch",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "1 hour",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Fungal Ward",
+        "target": "targets",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Fungal Ward",
+            "scope": "Saving throws against Disease, Poison and harmful fungal or spore effects",
+            "auto": true,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "traits": [
+                "disease",
+                "poison"
+              ]
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Fungal Ward",
+            "scope": "Saving throws against Disease, Poison and harmful fungal or spore effects — tick if this save qualifies",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "not": {
+                "traits": [
+                  "disease",
+                  "poison"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Affect one additional target",
+        "mods": {
+          "extraTargets": 1
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 8 hours",
+        "mods": {
+          "durationText": "8 hours"
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the bonus by 1, maximum +4",
+        "mods": {
+          "bonusValue": 1,
+          "bonusMax": 4
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Alteration, Warding",
+    "description": "ALTERATION UTILITY WARDING\nTradition verdant\nCast 2 AP (somatic, verbal)\nRange touch\nTargets 1 willing creature\nDuration 1 hour\n\nA nearly invisible layer of harmless protective spores and natural microorganisms settles across the target.\nThe target gains a +2-status bonus to saving throws against Disease, Poison and harmful fungal or spore effects.\nThis spell does not protect against effects merely because they originated from a fungal creature if the effect itself is unrelated to disease, poison or spores.\n\nWarping Options:\n+1 PP: Affect one additional target.\n+2 PP: Increase the duration to 8 hours.\n+2 PP: Increase the bonus by 1, maximum +4.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!m3RZUOMrNheCRINn"
+}

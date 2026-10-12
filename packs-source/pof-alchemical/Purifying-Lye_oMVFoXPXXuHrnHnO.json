@@ -1,0 +1,75 @@
+{
+  "_id": "oMVFoXPXXuHrnHnO",
+  "name": "Purifying Lye",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 15,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable",
+    "description": "<strong>Usage applied to tools or surfaces; Activate 10 minutes.</strong>\n\nA harsh soap-and-lye preparation used in hospices, mortuaries and plague houses. One dose thoroughly cleans one set of medical tools or approximately a 5-foot square surface, removing ordinary blood, rot and biological contamination. It does not remove magical disease, poison, curses or supernatural contamination.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "10 minutes",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "alchemical",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Purifying Lye",
+          "effects": [
+            {
+              "kind": "note",
+              "text": "Cleans one set of medical tools or about a 5-foot square surface of ordinary blood, rot and biological contamination over 10 minutes. Not magical disease, poison, curses or supernatural contamination."
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Other",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 15,
+        "tablePrice": 15,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oMVFoXPXXuHrnHnO"
+}

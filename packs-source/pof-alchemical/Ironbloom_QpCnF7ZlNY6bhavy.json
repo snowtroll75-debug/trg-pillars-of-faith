@@ -1,0 +1,79 @@
+{
+  "_id": "QpCnF7ZlNY6bhavy",
+  "name": "Ironbloom",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 25,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: any hills or rocky plains.\n\nIronbloom forms dense rosettes of dark green leaves around a stem capped by a dull red flower. Its foliage feels metallic and produces a faint ringing sound when struck, so it must be dried and ground with a stone pestle before use. The resulting mineral-rich powder tastes of blood and wet earth but is valued by miners and soldiers for the resilience it imparts. For 1 hour, you gain a +1-item bonus to Fortitude saving throws.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Ironbloom",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "bonus",
+              "target": "self",
+              "slot": "fortitude",
+              "bonusType": "item",
+              "value": 1
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: any hills or rocky plains.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 1,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 25,
+        "tablePrice": 25,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QpCnF7ZlNY6bhavy"
+}

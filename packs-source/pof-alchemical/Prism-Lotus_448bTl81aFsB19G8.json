@@ -1,0 +1,112 @@
+{
+  "_id": "448bTl81aFsB19G8",
+  "name": "Prism Lotus",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 96250,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb Unique",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: unique; only one living Prism Lotus is believed to exist at a time.\n\nThe Prism Lotus is an impossible flower said to exist in only one place at any given time. Its roots take hold in water, stone, cloud or empty air with equal ease, while each translucent petal reflects a different future for whoever looks upon it. No two witnesses agree upon its colour, and paintings of the living bloom change subtly after important choices are made. When you consume it, choose Fate or Preservation. Fate: once within the next 24 hours, before rolling a d20 check, attack roll or saving throw, you may declare the result a Success without rolling; it cannot become a Critical or Heroic result. Preservation: for 24 hours, the first time you would die, negate only the death, reduce Dying to 0 and regain Hit Points equal to half your maximum. Either benefit ends once used.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 20
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Prism Lotus",
+          "duration": "24 hours",
+          "modes": [
+            {
+              "key": "fate",
+              "label": "Fate — once, before a d20 roll, declare a Success without rolling",
+              "duration": "24 hours",
+              "effects": [
+                {
+                  "kind": "declare",
+                  "target": "self",
+                  "label": "Prism Lotus (Fate)",
+                  "flags": {
+                    "fateDeclare": {
+                      "label": "Prism Lotus (Fate)"
+                    }
+                  },
+                  "text": "once within 24 hours, before a d20 check, attack roll or saving throw, you may declare a Success without rolling (never a Critical or Heroic); it then ends"
+                }
+              ]
+            },
+            {
+              "key": "preservation",
+              "label": "Preservation — the first time you would die, Dying 0 and half your HP",
+              "duration": "24 hours",
+              "effects": [
+                {
+                  "kind": "declare",
+                  "target": "self",
+                  "label": "Prism Lotus (Preservation)",
+                  "flags": {
+                    "deathGuard": {
+                      "label": "Prism Lotus (Preservation)",
+                      "auto": true,
+                      "trigger": "death",
+                      "heal": "half",
+                      "once": true
+                    }
+                  },
+                  "text": "for 24 hours, the first time you would die, only the death is negated: Dying drops to 0 and you regain half your maximum HP; it then ends"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: unique; only one living Prism Lotus is believed to exist at a time.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 20,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 96250,
+        "tablePrice": 96250,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!448bTl81aFsB19G8"
+}

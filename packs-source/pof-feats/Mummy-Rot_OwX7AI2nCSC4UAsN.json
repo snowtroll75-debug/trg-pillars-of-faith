@@ -1,0 +1,97 @@
+{
+  "_id": "OwX7AI2nCSC4UAsN",
+  "name": "Mummy Rot",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10, Tomb Slam",
+    "active": true,
+    "description": "<p>CURSE DISEASE SOUL UNLIVING-MUMMY</p>\n<p>Prerequisites Level 10, Tomb Slam</p>\n<p>The curse preserving you can pass into those shattered by your embalmed fists.</p>\n<p>When you inflict a critical injury with your Slam, the target must attempt a Fortitude save against Mummy Rot. The disease level is equal to your level. Stage 1: carrier with no visible effect for 1 minute. Stage 2: 4d6 essence damage and Injured 1 for 1 day. Damage inflicted by Mummy Rot cannot be healed until the curse is removed and the disease is cured. A creature can be exposed to your Mummy Rot only once per day.</p>\n<p>Works automatically: a critical injury with Tomb Slam exposes the target to Mummy Rot at your level (its own Fortitude exposure save), once a day per creature.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Curse, Disease, Soul, Unliving-Mummy",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "aRJf3sFL5pMH96mT",
+      "name": "Mummy Rot: Mummy Rot",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "afterStrikes": [
+            {
+              "key": "mummyRot",
+              "label": "Mummy Rot",
+              "weaponNames": [
+                "Slam (Unliving Mummy)"
+              ],
+              "onCriticalInjury": true,
+              "expose": {
+                "affliction": "Mummy Rot (Disease)",
+                "level": "actorLevel",
+                "oncePerDay": true
+              }
+            }
+          ]
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "A critical injury with your Slam exposes the target to Mummy Rot (disease level = your level), once per day per creature.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!OwX7AI2nCSC4UAsN.aRJf3sFL5pMH96mT"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "mummy"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OwX7AI2nCSC4UAsN"
+}

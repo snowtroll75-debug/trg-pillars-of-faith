@@ -1,0 +1,98 @@
+{
+  "_id": "coUnCxhppGb3kf5F",
+  "name": "Gravewarden Coat",
+  "img": "icons/svg/shield.svg",
+  "type": "armour",
+  "system": {
+    "quantity": 1,
+    "weight": 24,
+    "price": 280,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 45,
+      "max": 45
+    },
+    "traits": "Full, Metal",
+    "category": "Medium",
+    "material": "Metal",
+    "isHelmet": false,
+    "dr": 4,
+    "hardness": 0,
+    "penalty": -2,
+    "proficiency": "",
+    "maxDexBonus": 4,
+    "speedPenalty": 0,
+    "itemLevel": 2,
+    "coversTorso": true,
+    "coversArms": true,
+    "coversLegs": true,
+    "description": "A mail-lined leather coat with close-fitting gloves, a high collar and a replaceable cloth breathing veil. Originally designed for crypt custodians and corpse collectors, it grants a +1-item bonus to Fortitude saves against airborne disease and inhaled poison while all of its protective components are worn.\n\nOn the sheet: +1 item is pre-ticked on Fortitude saves against Disease and Poison effects while the coat is worn (tick off if the vector was not airborne or inhaled).\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Gravewarden Coat",
+          "scope": "Fortitude saves against airborne disease and inhaled poison (all components worn)",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "fortitude"
+            ],
+            "traits": [
+              "disease",
+              "poison"
+            ]
+          }
+        },
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Gravewarden Coat",
+          "scope": "Fortitude saves against airborne disease and inhaled poison — tick if this is one",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "fortitude"
+            ],
+            "not": {
+              "traits": [
+                "disease",
+                "poison"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!coUnCxhppGb3kf5F"
+}

@@ -1,0 +1,57 @@
+{
+  "_id": "xuAGR6Cw1JiWgpLg",
+  "name": "Sanctuary",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 11000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Focus, Invested, Soul, Warding",
+    "description": "Activate Engage (1 AP)\n\nRequirement The rune is ready\n\nConcentric circles spread across the item when activated, forming the impression of a doorway that cannot quite be crossed.\n\nFor 1 minute, you emanate a 10-foot spiritual sanctuary. You and willing allies within the aura gain a +2-status bonus to saving throws against Fear, possession, Soul Drain and effects with the Soul trait.\n\nThe rune then becomes expended and may be restored using Refocus.\n\nArmour price 11,000 gp; shield price 7,700 gp.\n\nInscribed onto armour or a shield.\n\nOn the sheet: Press Sanctuary on the item (Engage, 1 AP): for 1 minute allies within 10 feet carry the +2 status against Fear, possession, Soul Drain and Soul effects as an aura, and so do you. The rune is then expended; Refocus restores it.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 11,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "sanctuary",
+        "tier": 1,
+        "on": [
+          "armour",
+          "shield"
+        ],
+        "automation": "action"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xuAGR6Cw1JiWgpLg"
+}

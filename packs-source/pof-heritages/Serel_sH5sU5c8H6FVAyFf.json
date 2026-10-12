@@ -1,0 +1,82 @@
+{
+  "_id": "sH5sU5c8H6FVAyFf",
+  "name": "Serel",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Serel script frequently forms mirrored phrases, repeated statements and symbols that alter subtly depending upon the angle from which they are viewed. Some passages grow brighter in the presence of deliberate deception, though they are not infallible lie detectors.<br>Serel are often associated with witnesses, mediators and investigators. Their tradition places enormous importance upon the difference between truth and certainty. A person can speak honestly and still be wrong. Serel children are taught early that exposing deception does not automatically grant understanding of what actually happened.<br>You gain advantage on saving throws against illusion effects and a +1 racial bonus to Detect Deception (Sense Motive) checks.</p>",
+    "sourceRace": "Kethrani",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "advantage",
+          "label": "Serel",
+          "scope": "Saving throws against illusion effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "illusion"
+            ]
+          }
+        },
+        {
+          "kind": "modifier",
+          "label": "Serel",
+          "scope": "Detect Deception (Sense Motive) checks",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "senseMotive"
+            ],
+            "actions": [
+              "detectDeception"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sH5sU5c8H6FVAyFf"
+}

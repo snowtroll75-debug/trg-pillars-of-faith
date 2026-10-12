@@ -1,0 +1,78 @@
+{
+  "_id": "k5J8Zq0yieSkKkR2",
+  "name": "The False Confession",
+  "type": "npc",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "identity": {
+      "level": 7,
+      "size": "medium"
+    },
+    "details": {
+      "traits": "Auditory, Haunt, Mental, Soul",
+      "biography": "<p>A small interrogation chamber carries faint whispers repeating contradictory confessions. Anyone remaining inside begins remembering crimes they never committed.</p>"
+    },
+    "combat": {
+      "initiative": {
+        "other": 0
+      }
+    },
+    "gm": {
+      "role": "Haunt",
+      "notes": "<p><strong>The False Confession</strong> — Level 7 haunt (Pillars of Faith, Chapter 8). Its Level DC is 21.</p>\n<p><strong>Anchor</strong> A ledger containing confessions extracted through supernatural coercion.</p>\n<p><strong>Resolution</strong> Identify the people whose confessions were coerced, mark those statements as invalid in the surviving record and publicly clear at least one victim whose reputation was destroyed by the chamber.<br>Burning the ledger without correcting the record suppresses the haunt for one month.</p>",
+      "peril": {
+        "enabled": true,
+        "detection": "Occultism DC 21, Religion DC 21 or Sense Motive DC 23",
+        "disable": "Occultism or Religion DC 21 to distinguish genuine memory from imposed guilt. On success, the haunt is suppressed for 1 hour.\nA creature that has successfully examined the ledger through appropriate historical or investigative means gains a +2-circumstance bonus.",
+        "successes": 1,
+        "onDisable": "suppressed",
+        "suppressFor": "1 hour",
+        "state": "armed",
+        "actionType": "reaction",
+        "trigger": "A creature is asked whether it is guilty of a crime while inside the chamber.",
+        "effectText": "Every creature in the room hears its own voice confessing to something shameful. Each creature attempts a Will save against DC 21.\nCritical Unaffected.\nSuccess Frightened 1.\nPartial Frightened 2.\nFailure Frightened 2 and the creature becomes convinced for 1 minute that it committed one plausible wrongdoing selected by the GM.\nFumble As Failure, but the false conviction lasts 1 hour.\nBlunder As Fumble, and the creature must spend its next available action verbally confessing if capable of speech.\nThe creature does not gain false detailed memories and cannot be compelled to reveal information it does not possess.",
+        "routine": "",
+        "anchor": "A ledger containing confessions extracted through supernatural coercion.",
+        "resolution": "Identify the people whose confessions were coerced, mark those statements as invalid in the surviving record and publicly clear at least one victim whose reputation was destroyed by the chamber.\nBurning the ledger without correcting the record suppresses the haunt for one month.",
+        "reset": "10 minutes.",
+        "disableBonuses": "+2 circumstance: Examined the ledger through appropriate historical or investigative means",
+        "spiritPresence": true,
+        "noBody": true,
+        "automation": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "The False Confession",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/svg/aura.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "haunt": true,
+      "source": "Pillars of Faith"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.629.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!k5J8Zq0yieSkKkR2"
+}

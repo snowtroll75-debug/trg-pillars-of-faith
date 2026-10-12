@@ -1,0 +1,49 @@
+{
+  "_id": "1tNYWPPji9P6tkHi",
+  "name": "Old Ways Endure",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 16",
+    "active": true,
+    "description": "<p>FOLKWARDEN</p>\n<p>Generations preserved these practices because they worked. Yours have become particularly reluctant to stop working.<br>Your Warding Charms may be activated twice before becoming expended.<br>When you use Brew Remedy, you create two doses rather than one. Both doses collectively remain a single Preparation.<br>If you possess the Herbalist Tradition, Deep Stores instead creates three doses of the remedy. All three collectively count as one Preparation.<br>A single triggering saving throw cannot consume more than one activation of the same Warding Charm.</p>\n<p>Prerequisites Level 16</p>\n<p>Works automatically: Warding Charm's effect says two activations; Brew Remedy makes two doses (three with Herbal).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Folkwarden",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1tNYWPPji9P6tkHi"
+}

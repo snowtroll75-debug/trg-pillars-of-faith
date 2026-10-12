@@ -1,0 +1,49 @@
+{
+  "_id": "2117wNG0yucM38x1",
+  "name": "Elemental Overflow",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Elemental Spirit Guide, Level 5",
+    "active": true,
+    "description": "<p>SHAMAN SPIRIT</p>\n<p>The spirit's element no longer remains politely contained within your spells.<br>While Elemental Mantle is active, whenever its secondary elemental damage triggers, select another creature within 10 feet of the original target.<br>That creature suffers elemental damage equal to your Constitution + half your Shaman level.<br>A creature can suffer Elemental Overflow only once per round.</p>\n<p>Prerequisites Elemental Spirit Guide, Level 5</p>\n<p>Works automatically: when Elemental Mantle's secondary damage lands, you pick a second creature within 10 feet of the target; it takes Constitution + half your Shaman level of the element, once per round per creature.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Spirit, Shaman",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!2117wNG0yucM38x1"
+}

@@ -1,0 +1,81 @@
+{
+  "_id": "ipe31azPsXozcY9t",
+  "name": "Mistwraith Bloom",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 1135,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: cold swamps, fog lands and haunted coasts.\n\nMistwraith bloom is a pallid, weightless flower found in cold wetlands and along haunted, fog-bound shores. It has no visible stem at dawn, seeming to float a finger's breadth above the water until direct sunlight touches it. When the prepared petals are crushed and inhaled, they dissolve into cold mist that spills across the user's skin. You become Invisible for 1 minute. The effect ends after you use a hostile action.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 9
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Mistwraith Bloom",
+          "duration": "1 minute",
+          "effects": [
+            {
+              "kind": "condition",
+              "target": "self",
+              "condition": "invisible"
+            },
+            {
+              "kind": "note",
+              "text": "You are undetected (creatures can Search to make you hidden). The effect ends after you use a hostile action."
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: cold swamps, fog lands and haunted coasts.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 9,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 1135,
+        "tablePrice": 1135,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ipe31azPsXozcY9t"
+}

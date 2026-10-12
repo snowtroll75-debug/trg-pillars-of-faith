@@ -1,0 +1,79 @@
+{
+  "_id": "IgyNhHsa6iKyQZiH",
+  "name": "Sever Influence",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Select one Curse, Charm, Compulsion, possession or controlling/transforming effect on the target and attempt to Counteract it; +2 circumstance if your Judged Subject created it (enter it in the Counteract dialog's circumstance box)."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "You may attempt to Counteract two eligible effects affecting the same creature. Make separate checks",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Grimward",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Soul, Warding",
+    "description": "GRIMWARD SOUL UTILITY WARDING\nGrimward Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nTargets 1 creature\n\nYou attempt to cut away a supernatural influence acting upon the target.\nSelect one Curse, Charm, Compulsion, possession effect or magical effect that directly controls or forcibly transforms the target. Attempt to Counteract the selected effect.\nIf the effect was created by your current Judged Subject, you gain a +2-circumstance bonus to the Counteract check.\n\nWarping Options:\n+2 PP: You may attempt to Counteract two eligible effects affecting the same creature. Make separate checks.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IgyNhHsa6iKyQZiH"
+}

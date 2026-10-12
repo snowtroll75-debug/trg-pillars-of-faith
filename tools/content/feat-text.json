@@ -1,0 +1,905 @@
+{
+ "racial": {
+  "ADAPTIVE TISSUE": {
+   "traits": "FOCUS MORROWMADE",
+   "prerequisites": "Level 10",
+   "body": "Pain teaches your flesh. Once exposed to a form of harm, your body begins restructuring itself to ensure the same mistake is not repeated.\nAction R; Trigger You suffer acid, cold, electricity, fire or poison damage.\nAfter resolving the triggering damage, your body adapts to it.\nYou gain Resistance to the triggering damage type until the end of your next turn.\nThe adaptation may produce visible changes appropriate to the damage: heat-blackened scales, translucent insulating tissue, conductive metallic veins, hardened scar plates or other unsettling alterations."
+  },
+  "ANCESTRAL CHORUS": {
+   "traits": "MYRATHI",
+   "prerequisites": "Level 15, Deep Bloom Memory",
+   "body": "When you listen now, you no longer hear one memory. You hear the Bloom.\nWhenever you use Ancestral Communion, a Success on the affected Recall Knowledge check is treated as a Critical result."
+  },
+  "ANCESTRAL STONE": {
+   "traits": "DWARF",
+   "prerequisites": "Stone Lore 1 rank",
+   "body": "Dwarven memorials are not merely markers. Properly worked stone is expected to remember.\nYou gain Burial Lore as a specialist skill.\nWhen using Perform Last Rites upon a corpse that is being interred within a stone tomb, crypt, cairn or similar funerary structure, you may use Stone Lore instead of Religion. Use your Stone Lore ranks to meet the action's Rank requirement.\nYou also gain a +2-racial bonus to this check."
+  },
+  "BALANCE-BLOODED": {
+   "traits": "HERITAGE",
+   "prerequisites": "Living character",
+   "body": "Something ancient within your lineage refuses every extreme, drawing opposing forces towards a supernatural equilibrium.\nYou gain the Balance aligned trait and Nightvision.\nFurthermore, you may cast Resistance as a Divinity innate spell with the Focus trait."
+  },
+  "BATTLE REMEMBERED": {
+   "traits": "RHEVANI",
+   "prerequisites": "Arathi heritage",
+   "body": "Your body remembers violence that your present mind has never experienced.\nWhen you roll Initiative and your Past-Life Echo is available, you may activate Past-Life Echo as a Free (0 AP) action.\nWhen activated in this way, you must select Acrobatics, Athletics, Intimidate, Perception or Survival as the skill recalled. Past-Life Echo is expended normally."
+  },
+  "BEACON FOR THE DEPARTING": {
+   "traits": "AURA DIVINITY ESHARI",
+   "prerequisites": "Lumari heritage, Lantern of the Last Road, Level 5",
+   "body": "Your lantern-light falls upon more than the physical world.\nWhile your racial light is active, disembodied spirits and incorporeal undead within 10 feet cannot benefit from Concealment against you merely because they are incorporeal or spiritually manifested.\nIn addition, a living ally within your light who is Dying gains a +1-status bonus to Dying recovery checks. Your light does not reveal creatures that are genuinely Invisible for another reason."
+  },
+  "BELL-WARDEN'S EAR": {
+   "traits": "ESHARI",
+   "prerequisites": "",
+   "body": "To another Eshari the unseen world is a distant murmur. You have learned to distinguish the voices.\nWhen Spirit Sense detects a presence, you can distinguish whether the disturbance is caused by a disembodied spirit, incorporeal undead, haunt or active possession.\nYou also know whether the presence is within 10, 20 or 30 feet of you. If a Critical Search result detects the presence, you determine its exact location if it lies within the normal range of your Spirit Sense.\nYou still do not automatically learn its identity or intentions."
+  },
+  "BLOOD AWAKENED": {
+   "traits": "FOCUS VESPERYN",
+   "prerequisites": "Level 15",
+   "body": "For a few terrible moments the distinction between your living flesh and the vampire lurking within your ancestry becomes dangerously thin.\nAction 1 AP; Duration 1 minute\nYour vampiric inheritance fully awakens.\nFor the duration:\nYou gain Fast Healing 1.\nYour land Speed increases by 5 feet.\nYou gain advantage on Diplomacy, Bluff (Deception) and Demoralise (Intimidate) checks against living humanoids.\nIf you possess a Bite or Fangs natural attack, it is treated as Magical and inflicts an additional 1d6 essence damage once per round when it successfully inflicts HP damage upon a living creature.\nYour skin becomes deathly pale, your eyes visibly change and your fangs lengthen while Blood Awakened is active. These manifestations cannot be convincingly concealed without magic.\nBe aware that this ability does not grant the Unliving or Undead trait and does not grant the full immunities, Drink Blood ability or other abilities of an Unliving Vampire."
+  },
+  "BLOOD-SCENT": {
+   "traits": "VESPERYN",
+   "prerequisites": "Level 5",
+   "body": "The scent of living blood reaches you with impossible clarity, carrying information that ordinary senses could never perceive.\nYou gain Blood Sense as a tertiary sense with a range of 30 feet.\nBlood Sense You can detect the presence and general direction of living creatures within range that are currently suffering from a Bleed effect or have been reduced to half their maximum HP or fewer. Blood Sense does not reveal a creature's exact location, identity, current HP or the nature of its injuries.\nFurthermore, you gain a +2 racial bonus to Track (Survival) checks when following a trail containing fresh blood."
+  },
+  "BLOOM AT THE VEIL": {
+   "traits": "MYRATHI",
+   "prerequisites": "Morrai growth, Gravecap Resonance, Level 5",
+   "body": "You have grown accustomed to the strange place where decomposition, memory and spirit meet.\nYou gain Spirit Sense as a tertiary sense with a range of 15 feet. When you use Search, you can detect the presence and general direction of disembodied spirits, incorporeal undead, haunts and active possession within this range.\nIf you already possess Spirit Sense from another source, increase its range by 15 feet instead.\nFurthermore, you gain a +1-racial bonus to Recall Knowledge checks concerning spirits, souls, burial practices and the Ancestral Bloom."
+  },
+  "BLOOM-TENDER'S SPORES": {
+   "traits": "HEALING MYRATHI VERDANT",
+   "prerequisites": "Vaelori growth, Restorative Spores, Level 5",
+   "body": "Where others see rot, you see material waiting to become life again.\nYou may use Preserve Remains using Nature instead of Medicine.\nWhen you achieve a Success or better on Preserve Remains, fungal growth stabilises the corpse without significantly disfiguring it.\nFurthermore, whenever your racial Purify successfully Counteracts an affliction, the target gains a +1-status bonus to its next Fortitude saving throw made within the next minute."
+  },
+  "CHAOS-BLOODED": {
+   "traits": "HERITAGE",
+   "prerequisites": "Living character",
+   "body": "The outer planes left something unpredictable in your blood, and certainty seems to loosen around you.\nYou gain the Chaos aligned trait and Nightvision.\nFurthermore, you may cast Startle as a Divinity innate spell with the Focus trait."
+  },
+  "CHORUS OF THE FALLEN": {
+   "traits": "AUDITORY EMOTION ORC",
+   "prerequisites": "Death Chant, Level 5",
+   "body": "An Orc does not whisper the name of a fallen companion. They make certain that everyone on the battlefield hears it.\nWhenever you use Death Chant, you may choose up to two conscious allies within 30 feet who can hear you.\nUntil the end of their next turn, each chosen ally gains a +1-status bonus to attack rolls against the creature that caused the triggering damage, provided that creature is known to you.\nThis is in addition to the normal benefits of Death Chant.\nA creature may benefit from Chorus of the Fallen only once per day."
+  },
+  "CHORUS WITHOUT WORDS": {
+   "traits": "MENTAL MYRATHI",
+   "prerequisites": "Nethri growth, Whisper Network, Level 5",
+   "body": "The distinction between speech, emotion and chemical signal has become increasingly unimportant to you.\nCreatures connected to you through Whisper Network may communicate with one another through you while each remains within 60 feet of you, even if they are not Myrathi.\nIn addition, while connected, you can convey simple emotional impressions - danger, calm, urgency, uncertainty, approval or warning - even when you do not share a language. This does not permit detailed communication without a shared language."
+  },
+  "CONSECRATED FLAME": {
+   "traits": "DIVINITY ESHARI FIRE",
+   "prerequisites": "Ashen heritage, Purifying Ash, Level 5",
+   "body": "For Ashen, fire is not merely destruction. Properly tended, it leaves nothing behind for corruption to claim.\nWhenever one of your spells or abilities inflicts Fire damage against an Undead creature, the first successful damaging effect you create against that creature each round inflicts an additional 1d6 secondary Essence damage.\nIn addition, mundane corpses cremated by a fire you personally tend for at least 10 minutes count as having received a Partial result from Perform Last Rites, provided the corpse has not already been animated or spiritually bound. This does not replace Last Rites where a better result is desired."
+  },
+  "CONSEQUENCE WRITTEN": {
+   "traits": "KETHRANI",
+   "prerequisites": "Korath heritage, Sentence of Judgement, Level 5",
+   "body": "The Verse of Judgement remembers those it has named.\nWhenever you successfully Demoralise a creature, you may mark it with your Testament until the end of your next turn.\nThe first time that creature inflicts HP damage upon you or one of your allies before the mark ends, it suffers Essence damage equal to your level. A creature can trigger Consequence Written only once from each successful Demoralise."
+  },
+  "CONTINUITY UNBROKEN": {
+   "traits": "CHANCE FOCUS RHEVANI",
+   "prerequisites": "Level 10",
+   "body": "You know your own soul too well to surrender it easily.\nAction R; Trigger You fail a saving throw against possession or a Mental effect that would alter, erase or suppress your memories, personality or identity.\nReroll the triggering saving throw with Advantage and use the better result. Continuity Unbroken is then expended and must be restored using Refocus."
+  },
+  "CROSSROADS OF FAITH": {
+   "traits": "HUMAN",
+   "prerequisites": "Many Roads, Many Gods, Level 5",
+   "body": "You have encountered enough religions to understand that belief rarely travels along a single road.\nWhen making your daily preparations, you may select two religions, Divine Aspects or recognised spiritual traditions for Many Roads, Many Gods rather than one. You gain the normal benefits of that feat against both selections.\nFurthermore, once per day, when you achieve a Critical or Heroic result on an Observe Sacred Custom or Recognise Doctrine check concerning a religion or tradition you have not selected, you may replace one of your current selections with the tradition you have just successfully examined.\nThe new selection remains until your next daily preparations."
+  },
+  "DAWN-BLOODED": {
+   "traits": "HERITAGE",
+   "prerequisites": "Living character",
+   "body": "Radiance runs faintly through your blood, emerging as light when anger, courage or compassion stirs it.\nYou gain the Good aligned trait and Nightvision.\nFurthermore, you may cast Guiding Bolt as a Divinity innate spell with the Focus trait.\nDawn-Blooded occupies a different niche from Lightwoven and Seraphel: Lightwoven is supportive, Seraphel protective and Dawn-Blooded more overtly radiant."
+  },
+  "DEATH CHANT": {
+   "traits": "AUDITORY EMOTION ORC",
+   "prerequisites": "",
+   "body": "When one of your companions falls, you roar their name and deeds loudly enough that death itself might hear the challenge.\nAction R\nTrigger A living ally within 30 feet gains the Dying condition as a result of HP damage.\nThe triggering ally gains a +1-status bonus to their next Dying recovery check made before the end of their next turn. You gain a +1-status bonus to attack rolls against the creature that caused the triggering damage until the end of your next turn, if that creature is known to you.\nA creature may benefit from your Death Chant only once per day."
+  },
+  "DEEP BLOOM MEMORY": {
+   "traits": "MYRATHI",
+   "prerequisites": "Level 5",
+   "body": "When your own knowledge fails, older minds reach upward through the roots.\nWhen Ancestral Communion affects a Recall Knowledge check using a non-specialist skill in which you possess no ranks, you may make that check as though you possessed 1 rank in the skill.\nBe aware that this does not grant access to specialist skills."
+  },
+  "DEEP RECALL": {
+   "traits": "RHEVANI",
+   "prerequisites": "Level 5",
+   "body": "What once appeared as disconnected flashes can now remain in your thoughts for long enough to be useful.\nThe duration of Past-Life Echo increases to 1 minute.\nRoads Remember Me continues to increase its Survival duration to 10 minutes."
+  },
+  "DEEP-ROOTED IRONCAP": {
+   "traits": "MYRATHI",
+   "prerequisites": "Karuum growth, Ironcap Plating, Level 10",
+   "body": "Your dense fibrous body absorbs impacts that would tear ordinary flesh apart.\nYour Base DR increases by another 1.\nIn addition, whenever an effect would forcibly move you, reduce the distance moved by 5 feet, to a minimum of 0 feet. If an effect would move you less than 5 feet, you are not moved."
+  },
+  "DREAD-BLOODED": {
+   "traits": "HERITAGE",
+   "prerequisites": "Living character",
+   "body": "Somewhere in your ancestry lies a being that regarded mortal virtue as little more than an inconvenience.\nYou gain the Evil aligned trait and Nightvision.\nFurthermore, you may cast Bane as a Divinity innate spell with the Focus trait."
+  },
+  "ECHO-TRAINED": {
+   "traits": "RHEVANI",
+   "prerequisites": "",
+   "body": "You have become adept at separating useful experience from the confusing fragments of your former lives.\nWhenever you use Past-Life Echo upon a skill in which you already possess at least 1 rank, its racial bonus increases from +2 to +3."
+  },
+  "ETERNAL MANIFESTATION": {
+   "traits": "ALIGNED",
+   "prerequisites": "Level 15, Eternal Resonance",
+   "body": "For a moment the mortal shape inherited from your parents gives way to something much older.\nAction 1 AP\nDuration 1 minute\nYou partially manifest the Eternal ancestry within you. Your appearance changes dramatically: luminous wings may appear without physical substance, geometric sigils may crawl across your body, your shadow may move independently, or your features may become impossibly symmetrical or disturbing.\nFor the duration, your weapon and unarmed attacks are treated as Magical and gain your aligned trait. Once per round, the first time you inflict HP damage upon a creature, you inflict an additional 1d6 secondary aligned damage matching your heritage. A Balance-Blooded character inflicts Essence damage instead.\nYou also gain the following benefit according to your heritage:\nBalance You gain Immunity to Mental damage.\nChaos You are immune to the Stunned condition.\nEvil You are immune to Poison and Sleep.\nGood You are immune to Disease and Poison.\nOrder You are immune to Confusion and Fear.\nLightwoven and Seraphel characters use the Good benefit."
+  },
+  "ETERNAL RESONANCE": {
+   "traits": "",
+   "prerequisites": "Level 10, any Eternal Blood Heritage feat, Lightwoven or Seraphel",
+   "body": "The power within your ancestry is no longer a faint inheritance. The outer planes recognize something of themselves in you.\nYou gain a +1-racial bonus to attack rolls and Save DCs generated by innate spells gained from your Eternal Blood Heritage.\nYou also gain Eternal Lore as a specialist skill. If you already possess Eternal Lore, you instead gain a +2-racial bonus to Recall Knowledge checks made using it."
+  },
+  "EXPANDED TESTAMENT": {
+   "traits": "KETHRANI",
+   "prerequisites": "",
+   "body": "New passages have spread across your body, clarifying symbols that were once impossible to interpret.\nThe racial bonus provided by Living Testament increases from +1 to +2."
+  },
+  "EYES BEYOND THE VEIL": {
+   "traits": "ESHARI",
+   "prerequisites": "Velari heritage, Level 5",
+   "body": "The disturbances other Eshari merely sense have begun to acquire shape, distance and intent.\nWhen Spirit Sense detects a creature or phenomenon, you may attempt Recall Knowledge about it without first locating it precisely.\nFurthermore, a successful Search using Spirit Sense determines its exact location rather than merely its general direction. A Critical Search additionally tells you whether the detected presence is moving towards you, away from you or remaining stationary.\nThis still does not reveal identity or allegiance without an appropriate check."
+  },
+  "FAITH THROUGH EXPERIENCE": {
+   "traits": "CONVICTION HUMAN",
+   "prerequisites": "",
+   "body": "For many humans, conviction is not inherited from ancient blood or whispered by immortal ancestors. It is forged through experience, doubt, discovery and the moments when belief proves meaningful.\nOnce per day, when you achieve a Critical or Heroic result using any one of the following actions, you regain 1 Conviction Point:\nIdentify Spiritual Affliction, Interpret Haunt, Observe Sacred Custom, Perform Last Rites, Recognise Doctrine or Trace Possession.\nYou cannot increase your Conviction Points above your normal maximum Conviction Pool in this way."
+  },
+  "FEY-SOUL LISTENER": {
+   "traits": "GNOME",
+   "prerequisites": "Nature 1 rank",
+   "body": "The distinction between fey whim, natural spirit and mortal superstition has become much easier for you to hear.\nYou gain Spirit Lore as a specialist skill.\nWhen using Trace Possession or Interpret Haunt against a Fey creature, a natural spirit or an effect created by one, you may use Nature instead of Occultism. Use your Nature ranks to meet the action's Rank requirement.\nYou gain a +1-racial bonus to checks made in this way."
+  },
+  "FINAL TOLL": {
+   "traits": "AUDITORY DIVINITY ESHARI FOCUS",
+   "prerequisites": "Kelvan heritage, Toll of Passage, Level 10",
+   "body": "Some spirits require one final reminder that their claim upon the living has ended.\nWhen you use Sacred Toll against an Undead or Unliving creature, you may declare it a Final Toll before the saving throw is rolled. In addition to Sacred Toll's normal effects:\nPartial The target cannot use Reactions for 1 round.\nFailure The target cannot use Reactions and suffers a -1-status penalty to attack rolls for 1 round.\nFumble or Blunder The target suffers the Failure effects and becomes Slowed 1 for 1 round.\nAfter using Final Toll, Sacred Toll is expended even if another ability would normally allow it to remain available, and it must be restored using Refocus."
+  },
+  "FIRST AGE THEOLOGIAN": {
+   "traits": "ASCENDAN",
+   "prerequisites": "Religion or Planes 1 rank",
+   "body": "Your people remember beliefs that vanished before many mortal nations possessed written language.\nYou may use Intelligence instead of Wisdom for Religion checks made to Recall Knowledge, Recognise Doctrine or Identify Spiritual Affliction when the subject concerns Eternals, Divine Aspects or an ancient religious tradition.\nYou also gain a +1-racial bonus to these checks."
+  },
+  "GRAFTED ARMAMENT": {
+   "traits": "MORROWMADE",
+   "prerequisites": "",
+   "body": "Something that should never have been part of a humanoid body has become an effective weapon.\nSelect one of the following natural attacks when you gain this feat:\nBite Damage 1d8 P; FDC 5; Traits Finesse\nClaw Damage 1d6 S; FDC 5; Traits Agile, Finesse, Versatile (P)\nBone Spur Damage 1d6 P; FDC 5; Traits Deadly\nHeavy Appendage Damage 1d8 B; FDC 5; Traits Shove\nThe physical manifestation is yours to describe. It might be a grafted limb, hardened nails, a secondary jaw, exposed bone, a muscular tail, chitinous growth or some stranger alteration.\nThe selected attack is considered part of your natural anatomy and cannot normally be disarmed."
+  },
+  "GRASP THE UNSEEN": {
+   "traits": "KORNARGON SHADOW",
+   "prerequisites": "Shadowed Soul, Level 5",
+   "body": "You no longer merely perceive the things that move beyond the veil. Your shadow gives your hand somewhere to meet them.\nWhile you are in Shadow Stance, your unarmed attacks and any weapons you wield are treated as possessing Ghost Touch against disembodied spirits and Incorporeal creatures that you can detect using the Spirit Sense granted by Shadowed Soul.\nYou may also physically Interact with such a creature where its Incorporeal nature would ordinarily prevent physical interaction.\nThis ability does not reveal a creature's exact location if you have only detected its general direction with Spirit Sense, nor does it overcome Invisibility, Resistance, Immunity or any other defence unrelated to Incorporeality."
+  },
+  "GRAVECAP RESONANCE": {
+   "traits": "MYRATHI",
+   "prerequisites": "Morrai growth",
+   "body": "The ancient burial Blooms have taught your spirit how to bend without becoming detached from the body.\nYou gain a +2-racial bonus to saving throws against Soul Drain, possession and effects with the Soul trait."
+  },
+  "GRAVE-SEAL MASON": {
+   "traits": "DWARF",
+   "prerequisites": "Ancestral Stone, Level 5, Stone Lore 3 ranks",
+   "body": "To a dwarf, closing a tomb is not simply construction. The final stone is a promise that what has been laid to rest will remain there.\nWhenever you use Ancestral Stone to Perform Last Rites upon remains interred within a stone tomb, crypt, cairn, sarcophagus or similar structure and achieve a Success or better, you may incorporate a Grave Seal into the interment.\nFor the duration of the protection granted by Perform Last Rites, the protected remains cannot normally be animated as an Undead or Unliving creature.\nAn effect specifically attempting to overcome this protection must first successfully Counteract your Grave Seal. For this purpose, treat the Grave Seal as a Warding effect with a level equal to your character level.\nIf the remains are removed from the protected stone structure, or the structure is deliberately breached sufficiently to expose the remains, the Grave Seal immediately ends."
+  },
+  "GUIDE THE LAST ROAD": {
+   "traits": "ESHARI",
+   "prerequisites": "Level 10, Religion 3 ranks",
+   "body": "You have performed enough funerals to know that haste need not mean disrespect.\nYou may Perform Last Rites in 1 minute rather than 10 minutes. When you do so, improve the protection provided by the action:\nCritical Protection lasts 1 month.\nSuccess Protection lasts 7 days.\nPartial Protection lasts 24 hours.\nAll other rules for Perform Last Rites remain unchanged."
+  },
+  "GUIDING LUMINESCENCE": {
+   "traits": "MYRATHI",
+   "prerequisites": "Lumeri growth",
+   "body": "The lights upon your body pulse in several directions at once, each glow carrying a different fragment of guidance.\nWhenever you cast Guidance using the innate spell granted by your Lumeri growth, you may target two creatures within range rather than one."
+  },
+  "HEARTHWARD": {
+   "traits": "HALFLING",
+   "prerequisites": "",
+   "body": "Courage comes more easily when there is someone beside you who still feels like home.\nWhile you are within 10 feet of at least one conscious ally, you gain a +1-racial bonus to saving throws against Fear, possession, Soul Drain and effects with the Soul trait.\nThis bonus does not increase because additional allies are within range."
+  },
+  "HUNTER'S FANGS": {
+   "traits": "VESPERYN",
+   "prerequisites": "",
+   "body": "The teeth inherited from your deathless ancestor have grown into proper weapons, and the taste of blood awakens instincts far older than you.\nYou gain the following natural attack:\nFangs Damage 1d6 P; FDC 5; Traits Agile, Finesse\nWhenever your Fangs inflict a critical injury upon a living creature capable of bleeding, that creature also gains Bleed 1."
+  },
+  "IMPOSSIBLE ANATOMY": {
+   "traits": "MORROWMADE",
+   "prerequisites": "Level 10",
+   "body": "Your skeleton no longer determines where your body ends. Joints loosen, ribs fold and flesh moves around obstacles with wet, deliberate purpose.\nYou gain a +2 racial bonus to Escape checks and checks made to resist or escape a Grapple.\nFurthermore, you can move through spaces designed for creatures one Size category smaller than you without treating those spaces as impassable, provided there is physically sufficient space for your body to squeeze through.\nMovement through such a space is Difficult Terrain.\nArmour, rigid equipment or another physical obstruction may prevent you from using this ability at the GM's discretion."
+  },
+  "INTERLOCKING SCRIPT": {
+   "traits": "KETHRANI WARDING",
+   "prerequisites": "Tharos heritage, Level 5",
+   "body": "Circles close within circles as your Testament forms a living shield around those you defend.\nThe range of Warding Word increases from 10 feet to 30 feet.\nFurthermore, the target gains a +2-status bonus to DB against the triggering attack rather than +1."
+  },
+  "IRONCAP PLATING": {
+   "traits": "MYRATHI",
+   "prerequisites": "Karuum growth, Level 5",
+   "body": "Your overlapping fungal plates have thickened until they resemble living armour.\nYour Base DR increases by 1."
+  },
+  "KEEPER AT THE THRESHOLD": {
+   "traits": "AURA ESHARI",
+   "prerequisites": "Level 15, Soul-Hardened",
+   "body": "Those who stand beside you feel their souls settle more firmly into their bodies.\nWhile you are conscious, allies within 10 feet gain a +1-status bonus to saving throws against possession, Soul Drain and effects with the Soul trait."
+  },
+  "LANTERN OF THE BLOOM": {
+   "traits": "AURA MYRATHI VERDANT",
+   "prerequisites": "Lumeri growth, Guiding Luminescence, Level 5",
+   "body": "Your luminescent nodules pulse with the slow rhythm of ancestral guidance.\nYou may increase your racial dim light to 30 feet.\nWhile your light is active, allies within 10 feet who can see you gain a +1-status bonus to Sense Direction and saving throws against Fear.\nOnce per round when an ally affected by this aura receives the benefit of Guidance cast by you, that creature may also Step 5 feet as a Free (0 AP) action immediately after resolving the guided check."
+  },
+  "LANTERN OF THE LAST ROAD": {
+   "traits": "ESHARI",
+   "prerequisites": "Lumari heritage",
+   "body": "Your light is not merely illumination; it is an old promise that nobody needs to travel the final road alone.\nYou may increase the dim light naturally emitted by your Lumari heritage from 10 feet to 30 feet.\nWhile your light is active, allies within 10 feet of you gain a +1-status bonus to saving throws against Fear effects."
+  },
+  "LIVING GOSPEL": {
+   "traits": "DIVINITY KETHRANI",
+   "prerequisites": "Level 15",
+   "body": "Entire prayers now emerge upon your flesh overnight, complete in languages you sometimes do not recognize.\nDuring your daily preparations, select one, non-Specialist Divinity spell with a base PP cost of 4 or less.\nUntil your next daily preparations, you may cast that spell as a Divinity innate spell with the Focus trait."
+  },
+  "LIVING INDEX": {
+   "traits": "KETHRANI",
+   "prerequisites": "Sapiren heritage",
+   "body": "Names, diagrams and references appear across your Testament like the index of an impossible library.\nYou gain one additional Lore specialist skill of your choice.\nFurthermore, you gain a +1-racial bonus to Recall Knowledge checks made in which you possess at least 1 rank."
+  },
+  "LOST SCHOLARSHIP": {
+   "traits": "RHEVANI",
+   "prerequisites": "Velori heritage",
+   "body": "Somewhere amongst your former lives was a scholar whose learning occasionally rises intact from the depths of memory.\nWhen you activate Past-Life Echo, you may select a Lore specialist skill that you do not possess instead of selecting a non-specialist skill.\nUntil the end of your next turn, you are treated as possessing that specialist skill. Calculate checks made using it normally for a specialist skill, using your level, class bonus, appropriate ability modifier and the normal +2 specialist skill bonus.\nYou also gain the normal +2 racial bonus from Past-Life Echo to checks made using the selected Lore specialist skill.\nThe specialist skill is lost when Past-Life Echo ends. This temporary access cannot be used to satisfy prerequisites for feats, archetypes or other character options."
+  },
+  "MANY LIVES, ONE SOUL": {
+   "traits": "RHEVANI",
+   "prerequisites": "Level 15, Deep Recall",
+   "body": "The barrier between your incarnations has become thin enough that several lives may advise you at once.\nWhenever you activate Past-Life Echo, you may select two skills rather than one. Both receive its normal benefits for the duration.\nIf you possess Lost Scholarship, one of these skills may instead be an eligible Lore specialist skill."
+  },
+  "MANY ROADS, MANY GODS": {
+   "traits": "HUMAN",
+   "prerequisites": "",
+   "body": "Human cultures borrow, adapt and reinterpret belief with the same restless energy they apply to everything else.\nDuring your daily preparations, select one religion, Divine Aspect or recognised spiritual tradition that you have previously encountered.\nUntil your next daily preparations, you gain a +2-racial bonus to Observe Sacred Custom and Recognise Doctrine checks concerning that tradition.\nIf you possess no ranks in the skill normally required for either action, you may treat yourself as possessing 1 rank in that skill for the purpose of using that action against the selected tradition only."
+  },
+  "MERCY WRITTEN DEEP": {
+   "traits": "HEALING KETHRANI",
+   "prerequisites": "Avenor heritage",
+   "body": "The Verse of Mercy brightens whenever another life begins to slip away.\nWhenever you cast your racial Stabilise innate spell upon a creature, that creature gains a +2-status bonus to its next Dying recovery check made before the end of its next turn."
+  },
+  "MEMORY GATHERER": {
+   "traits": "MYRATHI",
+   "prerequisites": "",
+   "body": "Knowledge is not meant to end with the person who discovers it.\nWhenever you achieve at least a Success on a Recall Knowledge check benefiting from Ancestral Communion, select one ally within 30 feet who can hear or otherwise communicate with you.\nThat ally gains a +1-circumstance bonus to the next skill check they make before the end of their next turn that directly relates to the information you discovered. The GM determines whether the check is sufficiently relevant."
+  },
+  "MEMORY OF LOST MASTERS": {
+   "traits": "RHEVANI",
+   "prerequisites": "Velori heritage, Lost Scholarship, Level 5",
+   "body": "The teachers of vanished schools still correct you from somewhere beyond memory.\nWhenever you use Lost Scholarship to gain temporary access to a Lore specialist skill, you gain Advantage on the first check you make using that specialist skill before Past-Life Echo ends.\nFurthermore, if that check achieves a Critical or Heroic result, Past-Life Echo is not expended and does not need to be restored through Refocus after that use. Its current duration still ends normally."
+  },
+  "MESMERIC GAZE": {
+   "traits": "ETHEREAL FOCUS VESPERYN",
+   "prerequisites": "Velvet Gaze, Level 5",
+   "body": "Your eyes hold the stillness of the grave, and those who meet them sometimes forget why they intended to look away.\nYou gain Charm Kind as an Ethereal innate spell with the Focus trait. You may target only living humanoids with this spell.\nWhen using Charm Kind in this way, the effect need not manifest as obvious spellcasting. Unless the target successfully resists the spell or another creature has reason to recognise supernatural influence, your gaze and conversation may appear entirely mundane."
+  },
+  "MORROWMADE": {
+   "traits": "HERITAGE",
+   "prerequisites": "",
+   "body": "Your body has been remade by forces that should never have touched mortal flesh. Perhaps you survived arcane experimentation, alchemical grafting, planar corruption, a failed resurrection or exposure to unstable Essence. Perhaps ancient bio-sorcery changed your ancestors, or your present form was deliberately constructed through surgery and occult alteration. Whatever the cause, your original race remains recognizable, but your body has adapted in ways nature never intended.\nYou gain the Morrowmade trait in addition to the traits granted by your race. Whenever you gain a racial feat, you may select either a Morrowmade racial feat or a racial feat normally available to your race, provided you meet its prerequisites.\nYour altered physiology grants you a +1 racial bonus to Fortitude saving throws.\nFurthermore, when you attempt a saving throw or flat check to resist, reduce or recover from a critical injury, Disease, Poison, Bleed effect or magical effect that would transform, mutate or otherwise alter your physical body, the racial bonus granted by this feat increases to +2 for that check.\nBe aware the Morrowmade trait does not change your creature type and does not cause you to count as Undead, Unliving, Construct, Eternal or another creature type unless another ability specifically says that it does."
+  },
+  "NO LIFE ABANDONED": {
+   "traits": "DIVINITY HEALING KETHRANI",
+   "prerequisites": "Avenor heritage, Level 5",
+   "body": "The Verse of Mercy refuses to distinguish between those who deserve saving and those who merely need it.\nWhenever you restore HP to another living creature with a spell or Medicine action, if that creature currently has half its maximum HP or fewer, increase the healing by an amount equal to half your level, minimum 1. This additional healing applies only once per creature from each spell or action.\nFurthermore, you may use Stabilise upon a creature regardless of its ethics, religion or relationship to you; no religious restriction can prevent your racial Stabilise from functioning."
+  },
+  "NOT YET FINISHED": {
+   "traits": "FOCUS RHEVANI",
+   "prerequisites": "Dornai heritage, Unfinished Duty, Level 5",
+   "body": "Death has taken you before. Somewhere within your soul remains the memory of refusing it.\nAction R; Trigger You would be reduced to 0 HP but would not be killed outright.\nYou remain at 1 HP instead. After using this ability, you become Fatigued 1. This cannot prevent death caused by exceeding your Death State or an effect that explicitly kills or destroys you."
+  },
+  "ORDER-BLOODED": {
+   "traits": "HERITAGE",
+   "prerequisites": "Living character",
+   "body": "Your soul carries the geometry of an outer realm where law is not philosophy but a physical property.\nYou gain the Order aligned trait and Nightvision.\nFurthermore, you may cast Sanctuary as a Divinity innate spell with the Focus trait."
+  },
+  "ORDERED MIND": {
+   "traits": "",
+   "prerequisites": "Order-Blooded, Level 5",
+   "body": "Your thoughts arrange themselves around immutable internal laws.\nYou gain Advantage on saving throws against Confusion and Fear effects."
+  },
+  "PERFECTED ABERRATION": {
+   "traits": "FOCUS MORROWMADE",
+   "prerequisites": "Level 15",
+   "body": "For a brief period, your body abandons even the pretence of natural anatomy, restructuring itself into whatever configuration best permits survival.\nAction 1 AP; Duration 1 minute\nYour altered physiology enters a state of violent adaptation.\nFor the duration:\nYou gain Fast Healing 1.\nYou gain Immunity to Bleed.\nYou have advantage on saving throws against Disease and Poison.\nYou have advantage on saving throws and flat checks made to resist, reduce or recover from critical injuries and magical effects that transform, mutate or otherwise alter your physical body.\nYour Base DR increases by 1.\nYour physical form visibly changes while Perfected Aberration is active. Bones may shift beneath the skin, wounds seal incorrectly, redundant eyes open, scar tissue plates itself across vulnerable organs or limbs bend at impossible angles."
+  },
+  "PILGRIM OF MANY LIVES": {
+   "traits": "RHEVANI",
+   "prerequisites": "Sevrai heritage, Level 5",
+   "body": "Some roads are new only to the person you are today.\nYour Speed increases by an additional 5 feet.\nWhenever you use Past-Life Echo to select Survival, you also ignore the first 5 feet of additional movement imposed by natural difficult terrain and gain a +2-racial bonus to Sense Direction.\nOnce per day, when you Fumble a Sense Direction check, treat the result as a Failure instead."
+  },
+  "PRAYER FROM ANOTHER LIFE": {
+   "traits": "RHEVANI",
+   "prerequisites": "Thaeli heritage",
+   "body": "An invocation spoken by another mouth returns to your memory with perfect clarity.\nDuring your daily preparations, select one Divinity cantrip other than Guidance.\nUntil your next daily preparations, you may cast that cantrip as a Divinity innate spell with the Focus trait. You may select a different cantrip during each daily preparation."
+  },
+  "PROFANE CONSTITUTION": {
+   "traits": "",
+   "prerequisites": "Dread-Blooded, Level 5",
+   "body": "The impurities that destroy mortal bodies find your blood disturbingly hospitable.\nYou gain Poison Resistance and Advantage on saving throws against Sleep effects."
+  },
+  "PURIFYING ASH": {
+   "traits": "ESHARI",
+   "prerequisites": "Ashen heritage",
+   "body": "Sacred fire leaves nothing behind for corruption to cling to.\nYou gain Purify as a Divinity innate spell with the Focus trait."
+  },
+  "RADIANT CONSTITUTION": {
+   "traits": "",
+   "prerequisites": "Dawn-Blooded, Lightwoven or Seraphel, Level 5",
+   "body": "The vitality of the higher realms burns quietly through illness and corruption.\nYou gain a +2-racial bonus to saving throws against Disease and Poison effects and gain Poison Resistance."
+  },
+  "REDUNDANT ANATOMY": {
+   "traits": "MORROWMADE",
+   "prerequisites": "Level 5",
+   "body": "Organs lie where no surgeon expects them, blood flows through secondary vessels and structures that should be vital have somehow become optional.\nOnce per day, when you suffer a critical injury, you may reduce its severity by one step after the critical injury has been determined.\nA Deadly critical injury becomes Serious, a Serious critical injury becomes Minor, and a Minor critical injury is negated."
+  },
+  "REFLEXES OF A HUNDRED BATTLES": {
+   "traits": "RHEVANI",
+   "prerequisites": "Arathi heritage, Level 5",
+   "body": "Your conscious mind may not remember the danger, but someone you once were survived it before.\nWhenever you roll Initiative, you gain a +2-racial bonus to the first saving throw you make during the encounter.\nIn addition, when you use Past-Life Echo to select Athletics, Acrobatics or Perception, you may immediately Step 5 feet as a Free (0 AP) action. This movement does not trigger reactions caused by ordinary movement."
+  },
+  "REMEMBERED LITURGY": {
+   "traits": "DIVINITY RHEVANI",
+   "prerequisites": "Thaeli heritage, Prayer from Another Life, Level 5",
+   "body": "Whole passages of worship occasionally return to you in voices that are not quite your own.\nWhen you select the Divinity cantrip granted by Prayer from Another Life during daily preparations, also select one PP 2 Divinity spell.\nYou may cast that spell as a Divinity innate spell with the focus trait."
+  },
+  "RESTORATIVE SPORES": {
+   "traits": "HEALING MYRATHI",
+   "prerequisites": "Vaelori growth",
+   "body": "Your cleansing spores do more than remove corruption; they encourage damaged flesh to grow around what has been cleansed.\nWhenever the Purify spell granted by your Vaelori growth successfully removes or Counteracts a poison, disease or similar physical affliction from a living creature, the target also regains Hit Points equal to your level.\nA creature may receive this additional healing only once from each use of Purify."
+  },
+  "REVELATION IN CRISIS": {
+   "traits": "DIVINITY FOCUS KETHRANI",
+   "prerequisites": "Level 10",
+   "body": "For one impossible instant the Testament tells you what is about to happen rather than what has already been written.\nRequirements Revelatory Script is not currently expended\nAction R; Trigger You fail a saving throw against a spell or magical effect.\nYou expend Revelatory Script and reroll the triggering saving throw with Advantage, using the better result. Revelatory Script must then be restored normally through Refocus before either Read Aura or Revelation in Crisis can be used again."
+  },
+  "ROADS REMEMBER ME": {
+   "traits": "RHEVANI",
+   "prerequisites": "Sevrai heritage",
+   "body": "There are roads your feet recognize even when you have never walked them in this life.\nWhen you use Past-Life Echo to select Survival, its duration increases to 10 minutes.\nDuring this period, you also gain Advantage on Sense Direction and Track checks."
+  },
+  "ROOTED SOUL": {
+   "traits": "MYRATHI",
+   "prerequisites": "Level 10",
+   "body": "Body, memory and spirit cling to one another as tightly as mycelium clings to ancient earth.\nYou gain Advantage on saving throws against possession and effects that forcibly remove, displace or separate your soul from your body."
+  },
+  "SCRIPT AGAINST CORRUPTION": {
+   "traits": "KETHRANI",
+   "prerequisites": "Level 5",
+   "body": "Hostile power struggles to overwrite words that no mortal hand placed upon you.\nThe racial bonus granted by Sacred Inscription against Curse effects increases from +1 to +2.\nWhenever you successfully save against a Curse, you also immediately recognise that the effect was a curse, even if its normal rules would conceal that information."
+  },
+  "SENTENCE OF JUDGEMENT": {
+   "traits": "ESSENCE KETHRANI",
+   "prerequisites": "Korath heritage",
+   "body": "The Testament does not pronounce guilt, but once judgement is invoked it demands consequence.\nWhenever you successfully Demoralise a creature, the first time you inflict HP damage upon that creature before the end of your next turn, you inflict an additional 1d6 secondary Essence damage.\nThis additional damage can occur only once from each successful use of Demoralise."
+  },
+  "SEPULCHRAL ENDURANCE": {
+   "traits": "ESHARI",
+   "prerequisites": "Morrin heritage, Level 5",
+   "body": "Years amongst stone tombs and sealed reliquaries have hardened you into another part of the grave's defences.\nYour Base DR increases by 1."
+  },
+  "SHADOWED SOUL": {
+   "traits": "KORNARGON SHADOW",
+   "prerequisites": "",
+   "body": "The shadow that clings to your body has begun to reveal disturbances that do not belong wholly to the physical world.\nWhile you are in Shadow Stance, you gain Spirit Sense as a tertiary sense with a range of 15 feet. When using Search, you can detect the presence and general direction of disembodied spirits, incorporeal undead, haunts and active possession within this range.\nYou also gain a +1-racial bonus to saving throws against possession while Shadow Stance is active."
+  },
+  "STILL CENTRE": {
+   "traits": "",
+   "prerequisites": "Balance-Blooded, Level 5",
+   "body": "Chaos crashes against something perfectly still within you and simply ceases.\nYou gain Resistance to Mental damage."
+  },
+  "SOUL-HARDENED": {
+   "traits": "ESHARI",
+   "prerequisites": "Level 5",
+   "body": "Your spirit has stood too long at the threshold to be easily pushed across it.\nThe racial bonus granted by Soul Warden increases from +1 to +2.\nFurthermore, whenever you successfully resist possession, you immediately recognise that something attempted to possess you and know its general direction if its source is within 60 feet."
+  },
+  "SOUL OF THE LONG YEARS": {
+   "traits": "ELF",
+   "prerequisites": "Level 5",
+   "body": "An immortal life gives the soul time to become exceptionally certain of the shape it is meant to hold.\nYou gain a +1-racial bonus to saving throws against possession, Soul Drain and effects with the Soul trait.\nIf you are at least 100 years old, you also gain a +2-racial bonus to Recall Knowledge checks concerning religious, spiritual or historical events that occurred during your lifetime, provided you could reasonably have encountered accounts of those events."
+  },
+  "STAND OVER THE DEAD": {
+   "traits": "ESHARI",
+   "prerequisites": "Morrin heritage, Level 5",
+   "body": "Nothing reaches the remains entrusted to you without first passing through you.\nYou gain a +2-racial bonus to saving throws and skill checks made to resist being Shoved, Tripped or forcibly moved.\nIn addition, whenever you are adjacent to a corpse, reliquary or helpless creature that you have deliberately chosen to guard, you gain a +1-circumstance bonus to DB.\nYou may designate what you are guarding as a Free (0 AP) action on your turn. You may guard only one creature, corpse or object at a time."
+  },
+  "TESTAMENT OF ANSWERS": {
+   "traits": "KETHRANI",
+   "prerequisites": "Sapiren heritage, Living Index, Level 5",
+   "body": "Questions appear upon your skin. Sometimes the answer is already written elsewhere.\nWhenever you use Revelatory Script to cast Read Aura, you may immediately attempt one appropriate Recall Knowledge check concerning something revealed by that spell as a Free (0 AP) action.\nIn addition, once per day when you fail a Recall Knowledge check, you may reroll the check and use the second result. You must accept the second result even if it is worse."
+  },
+  "THE TESTAMENT STANDS BETWEEN": {
+   "traits": "DIVINITY KETHRANI WARDING",
+   "prerequisites": "Tharos heritage, Interlocking Script, Level 10",
+   "body": "The protective passages spread across your arms and chest whenever another creature is threatened.\nWhen you use Warding Word upon an ally, that ally also gains Resistance to the triggering."
+  },
+  "TOLL OF PASSAGE": {
+   "traits": "AUDITORY DIVINITY ESHARI FOCUS",
+   "prerequisites": "Kelvan heritage, Level 5",
+   "body": "Your bell does not command the dead. It reminds them that a boundary has been crossed.\nThe range of Sacred Toll increases from 30 feet to 60 feet.\nIn addition to Undead and Unliving creatures, Sacred Toll may target a creature that is actively possessing another creature, provided you are capable of perceiving or otherwise targeting the possessing entity.\nIf such a creature receives a Failure or worse against Sacred Toll, its host gains a +2-status bonus to the next saving throw it makes to resist or end that possession before the end of its next turn."
+  },
+  "TRUTH BURNS THROUGH": {
+   "traits": "DIVINITY KETHRANI",
+   "prerequisites": "Serel heritage, Unwritten Lie, Level 5",
+   "body": "Falsehood cannot remain comfortably beside the Verse of Truth.\nWhenever you achieve a Critical or Heroic result using Detect Deception, you may immediately ask the GM whether one specific statement made by the target during the current conversation was a deliberate lie.\nThe GM answers truthfully based upon what the target believes. This ability does not reveal omitted information, mistaken beliefs, magically altered memories or statements that are technically true but misleading.\nYou may use Truth Burns Through only once against the same creature per hour."
+  },
+  "UNBOUND IMPULSE": {
+   "traits": "",
+   "prerequisites": "Chaos-Blooded, Level 5",
+   "body": "Your mind refuses to remain where another power attempts to place it.\nYou gain Advantage on saving throws against effects that would inflict the Stunned condition.\nOnce per day, when you would gain Stunned, reduce the value of Stunned gained by 1, to a minimum of 0."
+  },
+  "UNFINISHED DUTY": {
+   "traits": "RHEVANI",
+   "prerequisites": "Dornai heritage",
+   "body": "Some souls have become very practiced at refusing to leave before the work is finished.\nOnce per day, when your Dying condition would increase at the end of your turn, it does not increase.\nThis ability does not remove Dying, restore Hit Points or prevent an effect that kills you outright."
+  },
+  "UNWRITTEN LIE": {
+   "traits": "KETHRANI",
+   "prerequisites": "Serel heritage",
+   "body": "Falsehood leaves gaps in the Testament where truth should have been.\nWhenever you successfully Detect Deception from a creature, you gain Advantage on the next saving throw or Sense Motive check you make against an Illusion, Charm, Compulsion or deceptive supernatural effect created by that creature within the next minute."
+  },
+  "VEIL TRACKER": {
+   "traits": "ESHARI",
+   "prerequisites": "Velari heritage",
+   "body": "Spirits leave no footprints, but passage always leaves some kind of disturbance.\nYou may Track a disembodied spirit, possessing entity or incorporeal creature even when it leaves no physical trail. You may use Spirit Lore instead of Survival for this check.\nYou must have detected the creature using Spirit Sense within the previous hour or possess some other suitable spiritual trace associated with it."
+  },
+  "VELVET VOICE": {
+   "traits": "VESPERYN",
+   "prerequisites": "Level 5",
+   "body": "There is something compelling in your voice: a cadence that invites confidence even when instinct warns you that you should not be trusted.\nYou gain a +1 racial bonus to Diplomacy and Bluff (Deception) checks made against living humanoids that can hear and understand you.\nFurthermore, the target does not automatically recognise that supernatural influence contributed to your extraordinary persuasiveness.\nBe aware that this feat does not compel a creature to act against its interests and is not itself a magical charm effect."
+  },
+  "VESPERYN": {
+   "traits": "HERITAGE",
+   "prerequisites": "",
+   "body": "The hunger of the grave runs through your blood, but death has never fully claimed you.\nYou gain the Vesperyn trait in addition to the traits granted by your race. You gain Nightvision. If your race already grants Nightvision, you instead gain Darkvision.\nWhenever you gain a racial feat, you may select either a Vesperyn racial feat or a racial feat normally available to your race, provided you meet its prerequisites.\nBe aware that despite your unusual heritage, you remain a living creature. The Vesperyn trait does not grant the Undead or Unliving traits, the Shared Unliving Base Mods, vampiric immunities, Drink Blood, Fast Healing, Sunlight Weakness or any other abilities of an Unliving Vampire unless another rule specifically grants them."
+  },
+  "WHISPER NETWORK": {
+   "traits": "CONCENTRATE MYRATHI",
+   "prerequisites": "Nethri growth",
+   "body": "Your sensory filaments have learned the rhythms of creatures who were never born beneath the Bloom.\nDuring your daily preparations, you may spend 10 minutes attuning yourself to a number of willing creatures equal to your Wisdom ability score, minimum 1.\nUntil your next daily preparations, those creatures may participate in the silent communication granted by your Nethri growth while within 60 feet of you. You must still share a language, and the normal restriction concerning complete isolation from the surrounding air remains."
+  }
+ },
+ "archetype": {
+  "HEDGE WITCH": {
+   "traits": "FOLKWARDEN",
+   "prerequisites": "Power Manipulation 2 ranks",
+   "body": "You have carried the Old Ways beyond household customs and practical superstition. In your hands, the charm, the whispered warning and the bundle of herbs have become unmistakably magical.\nYou gain one additional Folkwarden Specialist Spell for which you meet the normal casting requirements.\nYou also gain a +1-class bonus to Spellcraft checks made to cast Folkwarden Specialist Spells.\nWhen using Identify Power upon a charm, curse, ward or Verdant magical effect that could reasonably be understood through traditional folk practice, you may use Folk Lore instead of Power Manipulation. Use your level to meet any Rank requirement of the action.\nFinally, you may select class feats possessing the Hedge Witch trait.\nProgression Requirements Power Manipulation +10 ranks"
+  },
+  "INQUISITOR": {
+   "traits": "EXPERT",
+   "prerequisites": "Religion 2 ranks, Sense Motive 2 ranks, Non-Grimward",
+   "body": "You have learned to pursue truth methodically, building a case around a particular creature rather than trusting instinct, reputation or accusation.\nYou gain the Inquisition ability.\nYour Inquisition follows the normal Grimward rules except that you gain a +1-class bonus to the appropriate investigative checks against your Subject rather than the Grimward's normal class bonus.\nWhen you select this feat, choose one of the following skills and make it a class skill: Occultism, Religion, Sense Motive or Survival.\nFinally, you may select feats possessing the Grimward (Expert) trait. You must still meet any other prerequisites, and a feat requiring Judgement cannot be used unless you gain that ability from another source.\nProgression Requirements Religion or Sense Motive +10 ranks, chosen when this feat is selected."
+  },
+  "LIFEBEARER": {
+   "traits": "ADEPT",
+   "prerequisites": "Divinity caster, Medicine 2 ranks, Non-Healer",
+   "body": "Healing magic responds to you with an immediacy that suggests something deeper than ordinary magical training.\nYou gain the Healer's Touch Healer class ability:\nYou may also select either Medicine, Meditation or Religion as a class skill.\nFinally, you may learn feats possessing the Healer (Adept) trait.\nProgression Requirements Medicine +10 ranks"
+  },
+  "LITURGIST": {
+   "traits": "ADEPT",
+   "prerequisites": "Divinity caster, Linguistics 2 ranks, Religion 2 ranks, Non-Archivist",
+   "body": "You have learned that prayer can be studied as carefully as any arcane formula. Your personal collection of liturgies is smaller than an Archivist's great Prayer Book, but it contains sacred workings you can call upon when required.\nYou gain a Liturgical Book.\nWhen you select this feat, record four Divinity spells that you are currently capable of casting within the book.\nDuring your daily preparations, select one spell recorded within your Liturgical Book.\nIf you are a learned caster, that spell is considered memorised until your next daily preparations and does not count against your normal number of memorised spells.\nIf you are an instinctive caster, temporarily add that spell to your repertoire until your next daily preparations.\nYou may add further eligible Divinity spells to your Liturgical Book using the normal rules for learning spells from written sources.\nYou also gain the Liturgy of Prayer action.\nLITURGY OF PRAYER\nCONCENTRATE\nAction 1 AP; Frequency 1/day\nRequirements You have your Liturgical Book available and are able to read or otherwise consult it.\nYou rapidly locate a familiar passage, annotation or alternative formulation before invoking a prepared prayer.\nSelect one Divinity spell that you do not currently have memorised, but which is recorded in your Prayer Book. You may cast this spell immediately (using its normal AP cost). If the spell is not cast before the end of your turn, the ability is wasted.\nFinally, you may select feats possessing the Archivist (Adept) trait.\nProgression Requirements Linguistics +10 ranks"
+  },
+  "MARTYR": {
+   "traits": "ADEPT",
+   "prerequisites": "Ability to cast a spell with the Healing trait, Medicine 3 ranks, Mental Focus 2 ranks",
+   "body": "Your understanding of healing has reached an uncomfortable conclusion: sometimes the quickest way to save another person is to suffer in their place.\nYou gain the Share the Wound action:\nSHARE THE WOUND\nFOCUS HEALING SOUL\nAction R; Trigger An ally within 30 feet suffers HP damage.\nAfter the damage has been determined, reduce the HP damage suffered by the ally by an amount up to your level + your magical ability modifier. You lose the same number of Hit Points.\nThis HP loss cannot be reduced by Resistance, Base DR, temporary HP or another effect and cannot itself be redirected to another creature.\nYou cannot use Share the Wound if doing so would reduce you below 1 HP.\nProgression Requirements Medicine +10 ranks"
+  },
+  "OATHKEEPER": {
+   "traits": "",
+   "prerequisites": "Sense Motive 2 ranks, Culture or Religion 2 ranks",
+   "body": "Words matter. A promise freely given creates no chain that can be seen, yet you have learned that some bonds are stronger precisely because nothing forces them to be kept.\nYou gain Sacred Law as a specialist skill.\nSacred Law may be used to Recall Knowledge or Research formal oaths, contracts, religious laws, sworn obligations, traditional vows and the customs by which promises are witnessed, fulfilled, transferred or released.\nYou may also use Sacred Law to examine the wording of an oath or contract and recognise ambiguities, conflicting obligations or deliberate loopholes. This does not reveal whether a creature is lying, whether it intends to honour an agreement or whether an oath is morally justified.\nDuring your daily preparations, you may declare one Solemn Vow.\nA Solemn Vow must describe a specific and meaningful obligation that you freely undertake. It must be possible to clearly fulfil, fail or abandon the vow and must place a genuine obligation upon your behaviour. Broad statements of personal philosophy, trivial promises, inevitable actions and declarations designed solely to obtain the benefits of this archetype do not qualify. The GM determines whether a proposed vow is sufficiently meaningful.\nYou may have only one Solemn Vow at a time.\nYou also gain the Vowbound Resolve action:\nVOWBOUND RESOLVE\nCONCENTRATE FOCUS\nAction R; Trigger You fail a saving throw or skill check while directly attempting to fulfil your Solemn Vow.\nYour commitment steadies you when failure would place your promise in jeopardy.\nReroll the triggering saving throw or skill check with Advantage and use the better result.\nVowbound Resolve is then expended and must be restored using Refocus.\nProgression Requirements Any qualifying knowledge skill +10 ranks."
+  },
+  "PROPHET": {
+   "traits": "ADEPT",
+   "prerequisites": "Spellcaster, Meditation 3 ranks, Religion or Occultism 3 ranks",
+   "body": "You have stopped dismissing dreams, coincidences and impossible intuitions as chance. Something occasionally shows you what has not yet happened.\nYou gain Prophecy Lore as a specialist skill.\nYou also gain Read Omen as a Specialist Spell. The spell uses your normal magical tradition.\nOnce per day, whenever you achieve at least a Success when casting Read Omen, you may retain one fragment of the revelation as a Portent which has the following effect:\nBefore your next daily preparations, when you or an ally within 30 feet attempts a saving throw or skill check, you may use a Reaction to grant that check a +1-status bonus.\nYou must declare the Portent before the result is determined.\nProgression Requirements Religion +10 ranks"
+  },
+  "RELIQUARIAN": {
+   "traits": "ADEPT EXPERT",
+   "prerequisites": "Culture 2 ranks, Religion 2 ranks",
+   "body": "You do not merely collect relics. You understand the histories, rituals and dangers that cling to sacred objects long after their makers have died.\nYou gain Use Magic Device as a granted feat and Relic Lore as a Specialist skill\nWhen examining a religious magical object, you may perform Trace Religious Provenance and Identify Power during the same 10-minute examination. Make each check separately.\nOnce you have successfully identified both the provenance and magical properties of an item, you gain a +1-circumstance bonus to Use Magic Device checks made with that item.\nFinally, whenever an item you have completely identified possesses a Curse or dangerous activation effect, you gain a +1-circumstance bonus to saving throws against that specific effect.\nProgression Requirements Culture +10 ranks"
+  },
+  "SAGE": {
+   "traits": "ADEPT EXPERT",
+   "prerequisites": "At least 2 ranks in any two of Arcana, Culture, Medicine, Nature, Occultism, Planes or Religion",
+   "body": "Books taught you the principles. Adventuring taught you which paragraph matters when something enormous is trying to eat you.\nYou may select a Specialist Lore skill.\nFurthermore, you also gain the following action:\nAPPLIED INSIGHT\nCONCENTRATE FOCUS\nAction 1 AP\nYou may select any one Studied Target that you can see and gain one of the following modifiers until the beginning of your next turn:\nOpening You gain a +1-circumstance bonus to attack rolls against the Studied Target.\nWarning You gain a +1-circumstance bonus to DB and saving throws against the Studied Target's attacks, spells and abilities.\nProgression Requirements Any qualifying knowledge skill +10 ranks."
+  },
+  "SPIRIT WALKER": {
+   "traits": "ADEPT",
+   "prerequisites": "Nature 2 ranks, Meditation or Mental Focus 2 ranks, Non-Shaman",
+   "body": "Something unseen has begun travelling beside you. Whether you sought it or it sought you is considerably less important than the fact that it has stayed.\nChoose one Shaman Spirit Guide: Ancestor, Beast, Elemental, Land or Veil.\nYou gain that Spirit Guide's specialist skill and Spirit Boon.\nYou also gain Manifest Spirit as a Focus ability and gain the Manifestation associated with your chosen Spirit Guide.\nFinally, you may learn feats possessing the Shaman (Adept) trait.\nProgression Requirements Meditation or Mental Focus +10 ranks, chosen when this feat is selected."
+  },
+  "VEIL WARDEN": {
+   "traits": "ADEPT EXPERT",
+   "prerequisites": "Occultism or Religion 3 ranks, Mental Focus 2 ranks",
+   "body": "You have trained yourself to recognize the moment when another will press against a mortal soul - and to stand between them.\nYou gain Spirit Sense as a tertiary sense.\nWhen using Search, you may detect the presence and general direction of disembodied spirits, incorporeal undead, haunts and active possession.\nYou also gain a +1-class bonus to saving throws against possession, Soul Drain and effects with the Soul trait.\nFinally, you gain:\nWARD THE SOUL\nFOCUS SOUL\nAction R; Trigger An ally within 30 feet attempts a saving throw against possession, Soul Drain or an effect with the Soul trait.\nThe ally gains a +2-circumstance bonus to the triggering saving throw.\nProgression Requirements Occultism or Religion +10 ranks."
+  },
+  "VOTARY": {
+   "traits": "ADEPT",
+   "prerequisites": "Religion 2 ranks",
+   "body": "Your devotion does not require ordination. You have bound yourself to a sacred principle through deliberate choice, and something has answered.\nSelect one Divine Aspect appropriate to your beliefs.\nYou adopt the Aspect's Edicts and Anathema.\nYou gain its Deific Skill as a class skill.\nYou gain proficiency with its Favoured Weapon if you do not already possess it.\nYou also gain the Aspect's PP 1 Specialist Spell as a Divinity innate spell with the Focus trait. Wisdom is your magical ability score for this spell.\nProgression Requirements Religion +10 ranks"
+  },
+  "WAYWARDEN": {
+   "traits": "FOLKWARDEN",
+   "prerequisites": "Survival 2 ranks",
+   "body": "Some Folkwardens guard a village for their entire lives. You learned the Old Ways beside campfires, on forgotten roads and beneath roofs where you were welcome for only a single night.\nThe action required to perform Warding Charm and Brew Remedy is reduced from 10 minutes to 1 minute.\nFurthermore, whenever you achieve at least a Success using Read the Signs, one question concerning direction, a safe route, shelter, fresh water or an immediate natural hazard does not count against the normal number of questions you may ask. The information must still be supported by signs that Read the Signs could normally reveal.\nProgression Requirements Survival +10 ranks"
+  }
+ },
+ "class": {
+  "A WORD AT THE RIGHT TIME": {
+   "traits": "FLOURISH FOLKWARDEN",
+   "prerequisites": "Level 5, Practical Counsel",
+   "body": "Experience is most useful when it reaches someone a moment before they make the mistake.\nAction Reaction; Trigger An ally within 30 feet attempts a skill check that you could reasonably assist using Practical Counsel.\nYou may immediately make the appropriate Aid check using Practical Counsel, even if you had not previously declared that you were assisting.\nYour advice must be capable of being communicated quickly enough to matter. If it is verbal, the ally must be able to hear and understand you.\nThis feat cannot be used with Aid Offensive, Aid Defensive or to substitute knowledge for an attack roll."
+  },
+  "ADVANCED DISCIPLINE": {
+   "traits": "GRIMWARD",
+   "prerequisites": "Level 8",
+   "body": "Your specialist training has been developed into a technique recognized amongst the most experienced members of your order.\nYour Inquisitorial Discipline gains the following additional benefit:\nExorcist - Expel the Intruder: Whenever you successfully Counteract possession affecting another creature, that creature gains a +2-status bonus to saving throws against possession for 24 hours.\nGrave Warden - Restless End: Judgement secondary damage against Undead or Unliving creatures increases by 1d6 when you choose to inflict it as Essence damage.\nHexbreaker - Unravelled Working: When you Critically succeed on a Counteract check against an effect created by your Judged Subject, the Subject suffers a -1-status penalty to Spellcraft checks until the end of its next turn.\nRelic Warden - Condemn the Object: An object or persistent magical effect that is your Subject may now become Judged. Your Judgement attack and damage bonuses apply to checks, attacks or spells capable of damaging, disabling or Counteracting it.\nTruthseeker - No Refuge in Falsehood: Your Judged Subject cannot gain a circumstance bonus against you from mundane disguise, Feinting or deliberate deception."
+  },
+  "BODY CHARM": {
+   "traits": "FOLKWARDEN",
+   "prerequisites": "Level 6, Charmwright Tradition",
+   "body": "Not every evil enters through the mind or soul. Some is swallowed, inhaled or delivered on the point of a thorn.\nYou add the following protection category to Warding Charm:\nBody: Disease effects and Poison effects.\nBody becomes a normal Warding Charm category for all of your Folkwarden abilities and feats."
+  },
+  "BURN THE WARD": {
+   "traits": "FOLKWARDEN VERDANT WARDING",
+   "prerequisites": "Level 10, Hearthkeeper Tradition",
+   "body": "Sometimes the circle is not meant to survive the night. Sometimes it only has to survive one terrible moment.\nAction Reaction; Trigger A willing creature within one of your Wards the Threshold fails a saving throw against an effect for which the ward grants a bonus.\nYou immediately end that Ward the Threshold.\nThe triggering creature rerolls the saving throw with Advantage and uses the better result.\nThe Preparation is lost when the ward ends."
+  },
+  "CHAIN OF EVIDENCE": {
+   "traits": "GRIMWARD",
+   "prerequisites": "",
+   "body": "One clue leads to another, and eventually the creature at the end of the chain becomes clearer than if it stood before you.\nWhen using Reconstruct Target, reduce the Study Target time by one step: 10 minutes becomes 1 minute, 1 minute becomes 3 AP, and 3 AP becomes 2 AP.\nYou must still possess sufficient evidence to identify the specific individual."
+  },
+  "CHARM OF MANY PERILS": {
+   "traits": "FOLKWARDEN",
+   "prerequisites": "Level 14, Charmwright Tradition",
+   "body": "Every knot means something. By the time you finish, there are rather a lot of knots.\nWhenever you create a Warding Charm, you may select all protection categories available to you instead of the two granted by Many-Layered Charm.\nThe charm still provides its bonus against only the triggering saving throw and is expended according to its normal number of activations.\nIf you possess Body Charm, Body is included amongst the available categories."
+  },
+  "CLEANSING RADIANCE": {
+   "traits": "HEALER",
+   "prerequisites": "Medicine 8 ranks",
+   "body": "Your healing magic burns away not only wounds but also lingering corruption that afflicts the body and mind.\nWhenever you restore HP to one or more creatures with a Healing spell, you may select one creature that regained HP and apply one additional effect whose PP threshold is no greater than the PP required to cast the spell:\nPP 8 - Remove Fear, Remove Paralysis or Restore Senses.\nPP 10 - Remove Disease.\nPP 12 - Remove Curse.\nCleansing Radiance may trigger only once from each spell, regardless of how many creatures the spell heals."
+  },
+  "CONSECRATED ARMAMENT": {
+   "traits": "MARTIAL",
+   "prerequisites": "BAB +4, Divine Aspect",
+   "body": "Your weapon has become inseparable from the vows under which you wield it.\nSelect the favoured weapon of your Divine Aspect. Attacks you make with that weapon are treated as Magical for the purpose of overcoming Resistance and Immunity.\nOnce per round, when you score a Critical hit with that weapon against an Undead creature, an Eternal creature of an opposing aligned trait, or a creature directly responsible for desecrating a site sacred to your Aspect, you inflict an additional 1d6 Essence damage.\nThe GM determines whether the final category applies; it should represent direct involvement rather than mere religious disagreement."
+  },
+  "DEEP RESERVES": {
+   "traits": "HEALER",
+   "prerequisites": "Level 7, Restorative Overflow",
+   "body": "Excess vitality no longer dissipates merely because a wound has closed.\nThe maximum temporary HP that Restorative Overflow can grant increases to twice your Healer level + your Charisma modifier.\nIts duration increases from 1 minute to 10 minutes."
+  },
+  "DISTANT LIFELINE": {
+   "traits": "HEALER",
+   "prerequisites": "Level 5, Lifeline",
+   "body": "Distance matters very little when you can feel a life beginning to slip away.\nThe range of Lifeline increases from 30 feet to 60 feet.\nAt 11th level, increase this range to 120 feet. Line of Effect is still required."
+  },
+  "DOMAIN OF THE LAND": {
+   "traits": "AURA SHAMAN SPIRIT",
+   "prerequisites": "Land Spirit Guide, Level 5",
+   "body": "Wherever you walk, a fragment of your spirit's homeland walks with you.\nWhile Rooted World is active, allies within 10 feet of you ignore ordinary natural difficult terrain and gain a +1-circumstance bonus to checks and saving throws made to resist being Shoved, Tripped or moved against their will.\nAt 13th level, the aura increases to 20 feet."
+  },
+  "ELEMENTAL OVERFLOW": {
+   "traits": "SHAMAN SPIRIT",
+   "prerequisites": "Elemental Spirit Guide, Level 5",
+   "body": "The spirit's element no longer remains politely contained within your spells.\nWhile Elemental Mantle is active, whenever its secondary elemental damage triggers, select another creature within 10 feet of the original target.\nThat creature suffers elemental damage equal to your Constitution + half your Shaman level.\nA creature can suffer Elemental Overflow only once per round."
+  },
+  "ENHANCED VITALITY": {
+   "traits": "HEALER",
+   "prerequisites": "Medicine 4 ranks",
+   "body": "Your mastery of healing magic strengthens the restorative power of your spells, allowing you to remove greater afflictions.\nWhen you use Restorative Hands, the amount by which the selected condition is reduced increases according to the PP required to cast the triggering spell:\nFatigued or Sickened: Reduce by 1 per complete 2 PP spent (for example, a 4 PP spell reduces the condition by 2 instead of 1).\nDazed or Weakened: Reduce by 1 per complete 4 PP spent (for example, an 8 PP spell reduces the condition by 2 instead of 1).\nInjured: Reduce by 1 per complete 6 PP spent (for example, a 12 PP spell reduces the condition by 2 instead of 1).\nSoul Drain: Reduce by 5 per complete 8 PP spent (for example, a 16 PP spell reduces Soul Drain by 10 instead of 5).\nDoomed: Reduce by 1 per complete 10 PP spent (for example, a 20 PP spell reduces Doomed by 2 instead of 1)."
+  },
+  "EXPOSE THE SUBJECT": {
+   "traits": "AUDITORY GRIMWARD",
+   "prerequisites": "Level 6",
+   "body": "You identify a behaviour, weakness or supernatural tell that your allies can exploit.\nAction 1 AP\nRequirements Your Judged Subject is within 60 feet, and you can perceive it.\nUntil the beginning of your next turn, allies within 30 feet who can hear and understand you gain a +1-circumstance bonus to saving throws against effects created by your Judged Subject.\nAt 12th level, they also gain a +1-circumstance bonus to the first attack roll they make against that Subject during the duration."
+  },
+  "FIELD PRACTICE": {
+   "traits": "FOLKWARDEN",
+   "prerequisites": "",
+   "body": "There is a considerable difference between performing a rite correctly and performing it correctly while everyone else is waiting for you.\nSelect two of the following Folk Rites: Warding Charm, Brew Remedy, Ward the Threshold or Read the Signs.\nThe selected rites take 1 minute to perform rather than 10 minutes.\nThis feat does not reduce Lay to Rest."
+  },
+  "FINAL SANCTION": {
+   "traits": "GRIMWARD",
+   "prerequisites": "Level 16",
+   "body": "Once the evidence is complete, hesitation serves only the creature you have hunted.\nOnce per round when you inflict Judgement secondary damage upon a creature, if that creature currently has half its maximum Hit Points or fewer, increase the Judgement damage by 1d6.\nFurthermore, if you score a Critical hit against your Judged Subject, it suffers a -1-status penalty to DB until the beginning of your next turn.\nFinal Sanction does not imply moral guilt; it represents complete tactical understanding of your Subject."
+  },
+  "FULL SATCHEL": {
+   "traits": "FOLKWARDEN",
+   "prerequisites": "",
+   "body": "Cord, feathers, roots, chalk, wax, nails, three kinds of salt and something wrapped in cloth that nobody else remembers you packing.\nIncrease the maximum number of active Folk Preparations you may maintain by 1.\nYou may select this feat twice. You must be at least 10th level before selecting it for the second time."
+  },
+  "LIFEBOUND WARD": {
+   "traits": "HEALER",
+   "prerequisites": "Medicine 10 ranks",
+   "body": "You shield your allies with a magical bond that tethers their vitality to your own healing power.\nWhen a Healing spell you cast restores HP to an ally, you may choose a second ally within 30 feet of the original target. The second ally regains HP equal to half the amount restored to the original target.\nLifeBound Ward may trigger only once per spell. The secondary healing cannot trigger LifeBound Ward again and does not copy any other effect of the original spell unless another ability specifically states otherwise."
+  },
+  "LITURGICAL REVISION": {
+   "traits": "ARCHIVIST",
+   "prerequisites": "Level 5, Spell Substitution",
+   "body": "You have reorganized your Prayer Book around patterns of invocation rather than conventional order, allowing one prepared prayer to be replaced with another with remarkable speed.\nWhen you use Spell Substitution to replace a memorised Divinity spell with another Divinity spell recorded within your Prayer Book, the time required is reduced from 10 minutes to 1 minute.\nYou also gain a +2-class bonus to the Meditation check made as part of Spell Substitution when both the spell being removed and its replacement are Divinity spells."
+  },
+  "LIVING CONCORDANCE": {
+   "traits": "ARCHIVIST",
+   "prerequisites": "Level 13, Liturgical Revision",
+   "body": "Your Prayer Book has become a web of references, alternate formulae and theological correspondences through which entire sections of your prepared magic can be reconstructed together.\nWhenever you successfully use Spell Substitution to replace a memorised Divinity spell with another spell recorded within your Prayer Book, you may replace two memorised Divinity spells instead of one.\nSelect both replacement spells before making the check. Both replacement spells must be recorded within your Prayer Book, and you must be capable of casting them.\nMake a single Meditation check using the higher Casting DC of the two replacement spells. The result applies to the entire substitution.\nIf the check fails, neither spell is replaced.\nThe restrictions governing when you may next use Spell Substitution are determined by the result of this single check as normal."
+  },
+  "MEASURED INVOCATION": {
+   "traits": "ADEPT CONCENTRATE",
+   "prerequisites": "Power Manipulation 3 ranks",
+   "body": "You carefully prepare the structure of your next spell.\nAction 1 AP\nThe next spell you begin casting before the end of your turn gains a +1-circumstance bonus to its Spellcraft check.\nIf the spell produces a Fumble or worse casting result, you also gain a -5 modifier to any resulting Spell Fumble roll."
+  },
+  "MIRACULOUS RECOVERY": {
+   "traits": "FOCUS HEALER METAMAGIC",
+   "prerequisites": "Medicine 12 ranks, Resurgent Healing",
+   "body": "With a touch, you can push the boundaries of mortal endurance and bring back those thought lost.\nPP Cost +4\nWhen you cast a Healing spell on a creature that died within the last round, that creature returns to life with HP equal to half the amount that the spell would normally restore.\nThe creature's body must be present and capable of receiving healing, and its soul must be free and willing to return. Being restored to life through Miraculous Recovery counts as being restored to life for all normal effects and consequences, including any reduction to Death State. It cannot restore a creature that died from old age.\nMiraculous Recovery is then expended and must be restored using Refocus."
+  },
+  "OLD SECRET": {
+   "traits": "FOLKWARDEN",
+   "prerequisites": "Level 4",
+   "body": "Some workings are too useful to vanish merely because the last person who knew them refused to write them down.\nDuring your daily preparation, select one Folkwarden Specialist Spell that you do not know and that you are capable of casting.\nYou temporarily add that spell to your repertoire until your next daily preparation.\nYou may select a different spell each day.\nOld Secret does not permanently teach you the selected spell and does not satisfy a prerequisite requiring you to know a particular spell."
+  },
+  "OLD WAYS ENDURE": {
+   "traits": "FOLKWARDEN",
+   "prerequisites": "Level 16",
+   "body": "Generations preserved these practices because they worked. Yours have become particularly reluctant to stop working.\nYour Warding Charms may be activated twice before becoming expended.\nWhen you use Brew Remedy, you create two doses rather than one. Both doses collectively remain a single Preparation.\nIf you possess the Herbalist Tradition, Deep Stores instead creates three doses of the remedy. All three collectively count as one Preparation.\nA single triggering saving throw cannot consume more than one activation of the same Warding Charm."
+  },
+  "PERFECT EXEGESIS": {
+   "traits": "ARCHIVIST",
+   "prerequisites": "Level 17, Rapid Reference",
+   "body": "You no longer merely remember the words of a sacred formula. In the instant you find the passage, you understand precisely why every word, pause and invocation was placed there.\nWhenever you cast a spell through Recite from the Text, reduce that spell's Casting Difficulty by 2.\nIf the spell requires one or more creatures to attempt a saving throw, increase its Save DC by 1.\nThese benefits apply only to the spell immediately cast through Recite from the Text. They do not apply to later castings of the same spell merely because it remains recorded within your Prayer Book."
+  },
+  "PREDATOR'S MANIFESTATION": {
+   "traits": "SHAMAN SPIRIT",
+   "prerequisites": "Beast Spirit Guide, Level 5",
+   "body": "The spectral animal surrounding you has begun to leave very physical wounds.\nWhile Manifest Spirit is active, you gain a natural claw, bite, horn or similar unarmed attack appropriate to your guide.\nThe attack inflicts 1d6 base Slashing, Piercing or Bludgeoning damage, chosen when this feat is selected, and possesses the Magical trait.\nAt 11th level, its base damage increases to 1d8. You use your normal unarmed attack bonus."
+  },
+  "PREPARED FOR TROUBLE": {
+   "traits": "EXPERT",
+   "prerequisites": "Study Target, Perception 5 ranks",
+   "body": "Knowing what you are hunting means you are rarely surprised when it finally appears.\nWhenever you roll Initiative and at least one of your Studied Targets is participating in the encounter, you gain a +10-circumstance bonus to Initiative.\nFurthermore, you may immediately Recall Knowledge concerning one participating Studied Target as a Free (0 AP) action."
+  },
+  "RAPID REFERENCE": {
+   "traits": "ARCHIVIST",
+   "prerequisites": "Level 5",
+   "body": "You can find the relevant passage almost before you realise you need it.\nOnce per round, you may use Recite from the Text as a Free (0 AP) action.\nWhen used in this way, the selected spell must have a base PP cost no greater than half your Archivist level. You must still possess and be able to consult your Prayer Book."
+  },
+  "READ THE ROOM": {
+   "traits": "EXPERT",
+   "prerequisites": "Sense Motive 5 ranks",
+   "body": "A room rarely says what its occupants are willing to admit.\nAfter observing a group of creatures interacting for at least 1 minute, make a Sense Motive check against a DC determined by the GM.\nCritical - You identify the dominant social relationship within the group and recognise one creature who is concealing significant hostility, fear or divided loyalty, if one exists.\nSuccess - You determine the general emotional state of the group and who appears to possess the greatest influence.\nPartial - You determine the general mood.\nFailure - You learn nothing reliable.\nFumble - You draw an incorrect conclusion.\nRead the Room does not reveal thoughts or automatically detect lies."
+  },
+  "REJUVENATING SURGE": {
+   "traits": "HEALER",
+   "prerequisites": "Medicine 4 ranks",
+   "body": "Your magic surges through your allies, restoring not just their health, but their energy and stamina as well.\nWhenever you restore HP to a creature using a Healing spell, that creature gains a +1-status bonus to attack rolls and damage rolls for 1 round.\nIf the triggering spell requires 6 PP or more, this bonus increases to +2.\nIf the triggering spell requires 10 PP or more, the target also gains a +5-foot status bonus to Speed for 1 round."
+  },
+  "RENEWED RESTORATION": {
+   "traits": "HEALER METAMAGIC",
+   "prerequisites": "Medicine 6 ranks, Ability to cast the Restoration spell",
+   "body": "Your expertise allows you to restore those whose bodies have already endured the limits of ordinary restorative magic.\nPP Cost +4\nFor this casting, the target ignores the normal once-per-day limit on benefiting from Restoration, allowing it to receive Restoration again even if it has already benefited from the spell that day."
+  },
+  "RESURGENT HEALING": {
+   "traits": "HEALER",
+   "prerequisites": "Medicine 6 ranks",
+   "body": "Your magic reaches beyond normal limits, revitalising even those at death's door.\nIf you magically heal a creature that has the Dying condition, it regains half the normal amount of HP restored by the spell rather than being restored to 1 HP.\nThis feat may restore HP, but it does not remove injuries or reverse death through old age."
+  },
+  "SACRED MARGINALIA": {
+   "traits": "ARCHIVIST",
+   "prerequisites": "",
+   "body": "Your Prayer Book has ceased to resemble an organised volume and begun to resemble an argument conducted across several generations.\nYou gain a +2-class bonus to Linguistics checks made to Learn a Spell from a written Divinity source.\nWhenever you successfully copy a Divinity spell into your Prayer Book, the time and mundane material cost required are halved.\nIn addition, immediately add four Divinity spells that you are capable of casting to your Prayer Book."
+  },
+  "SECOND CALLING": {
+   "traits": "HEALER",
+   "prerequisites": "Level 9",
+   "body": "Experience has taught you that suffering rarely respects professional boundaries.\nSelect a second Healer's Calling. You gain its Specialist Skill and Calling Ability.\nYour original Calling remains your primary Calling for any ability that specifically refers to it."
+  },
+  "SECOND DISCIPLINE": {
+   "traits": "ARCHIVIST",
+   "prerequisites": "Level 9",
+   "body": "One school of sacred scholarship was never going to contain your curiosity.\nSelect a second Archival Discipline. You gain that discipline's Specialist Skill, 1st-level Specialist Spell and Discipline Ability.\nYou do not gain its 7th-level Advanced Specialist Spell. Your original discipline remains your primary discipline whenever an ability specifically refers to your Archival Discipline."
+  },
+  "SECOND GUIDE": {
+   "traits": "SHAMAN",
+   "prerequisites": "Level 10",
+   "body": "Another spirit has entered the relationship. Whether your original guide approves is a different question.\nSelect a second Spirit Guide. You gain its Specialist Skill and Spirit Boon.\nWhenever you activate Manifest Spirit, choose which of your two Spirit Guides manifests. You gain only that guide's Manifestation for the duration.\nYour original guide remains your primary guide for any effect requiring one."
+  },
+  "SHARED MANIFESTATION": {
+   "traits": "FLOURISH SHAMAN SPIRIT",
+   "prerequisites": "Level 13, Manifest Spirit",
+   "body": "Your guide briefly extends part of its presence around another creature.\nAction 1 AP\nRequirements Manifest Spirit is currently active.\nSelect one willing ally within 30 feet. Until the beginning of your next turn, that ally gains one benefit from your currently active Manifestation:\nAncestor: Advantage on Recall Knowledge or Sense Motive checks.\nBeast: +10 feet Speed.\nElemental: Resistance to your selected elemental damage type.\nLand: +1 Base DR.\nVeil: Resistance to Essence damage."
+  },
+  "SOULGUARD": {
+   "traits": "MARTIAL",
+   "prerequisites": "BAB +4",
+   "body": "Discipline of body has taught you to anchor the spirit as firmly as your stance.\nYou gain a +1-class bonus to saving throws against Fear, possession, Soul Drain and effects with the Soul trait.\nWhenever you successfully resist possession, you immediately recognise that something attempted to control or enter you."
+  },
+  "SPELL-WISE DEFENCE": {
+   "traits": "ADEPT",
+   "prerequisites": "Spellcraft 5 ranks, Spell Recognition",
+   "body": "Knowing exactly what is being cast gives you an instant to prepare the right defence.\nWhen you successfully identify a spell or magical effect before attempting a saving throw against it, you gain advantage on the saving throw.\nThis is in addition to any bonus already received from Spell Recognition."
+  },
+  "SPIRITUAL RESERVE": {
+   "traits": "ADEPT",
+   "prerequisites": "Meditation 5 ranks",
+   "body": "Your disciplined recovery draws just a little more power back into reach.\nWhenever you achieve a Critical or Heroic result on Power Recovery, recover 1 additional PP per caster level."
+  },
+  "STAND OVER THE FALLEN": {
+   "traits": "MARTIAL",
+   "prerequisites": "BAB +6",
+   "body": "You refuse to let an enemy reach the helpless while you still have strength to stand.\nWhile you are adjacent to a living ally who possesses the Dying condition, you gain a +1-circumstance bonus to DB and a +2-circumstance bonus to checks and saving throws made to resist being moved away from that ally.\nIn addition, enemies moving out of your reach while also adjacent to that Dying ally provoke an Attack of Opportunity from you if you possess an ability capable of making one.\nThe Attack of Opportunity gained from this feat still uses your reactions but provokes on any action regardless of whether that action normally avoids (such as Step or Mobility)."
+  },
+  "SWIFT MENDER": {
+   "traits": "HEALER METAMAGIC",
+   "prerequisites": "Medicine 4 ranks",
+   "body": "Your expertise allows you to heal others with incredible speed, mending wounds in the blink of an eye.\nPP Cost +4\nReduce the AP cost required to cast a spell with the Healing trait by 1, to a minimum of 1 AP."
+  },
+  "TWIN INQUISITION": {
+   "traits": "GRIMWARD",
+   "prerequisites": "Level 12",
+   "body": "Some investigations have more than one monster at their centre.\nYou may maintain two Subjects of Inquisition simultaneously. Each Subject is tracked separately and may become Judged independently.\nWhen you designate a third Subject, you must choose which existing Inquisition ends.\nPrepared Adversary applies if either Subject qualifies, but it may still be used only once when Initiative is first rolled."
+  },
+  "TWIN MANIFESTATION": {
+   "traits": "SHAMAN SPIRIT",
+   "prerequisites": "Level 17, Second Guide",
+   "body": "Two spirits answer at once, their manifestations weaving together around you.\nWhenever you activate Manifest Spirit, you may manifest both Spirit Guides simultaneously.\nYou gain both Manifestation abilities for the duration. Manifest Spirit is still a single Focus ability and is restored normally."
+  },
+  "UNBROKEN PURSUIT": {
+   "traits": "GRIMWARD",
+   "prerequisites": "Level 4",
+   "body": "Disguises, transformations and false names do not change the subject of an investigation.\nYour Inquisition remains attached to a creature when it changes appearance, assumes another form, uses a disguise or adopts another identity.\nWhenever your Subject uses an Illusion, polymorph effect or mundane disguise to conceal its identity from you, you gain a +2-circumstance bonus to checks made to recognise or penetrate that disguise."
+  },
+  "UNDYING RESTORATION": {
+   "traits": "FOCUS HEALER METAMAGIC",
+   "prerequisites": "Medicine 16 ranks, Miraculous Recovery",
+   "body": "Your healing is so powerful that even death itself struggles to claim those you touch.\nPP Cost +8\nWhen you cast a Healing spell upon a creature that has the Dying condition or died within the last round, that creature returns to life or consciousness with HP equal to half the amount that the spell would normally restore.\nIf the target has the Dazed or Weakened condition, that condition is removed. If the target has the Injured condition, reduce its current value by half, rounding down.\nIf the target died, its body must be present and capable of receiving healing and its soul must be free and willing to return. Being restored to life through Undying Restoration counts as being restored to life for all normal effects and consequences, including any reduction to Death State. It cannot restore a creature that died from old age."
+  },
+  "VOICES OF EXPERIENCE": {
+   "traits": "SHAMAN SPIRIT",
+   "prerequisites": "Ancestor Spirit Guide, Level 5",
+   "body": "Your guide no longer provides only memories. For a few moments, it lends you the habits that created them.\nWhen you activate Manifest Spirit, select any one skill.\nFor the duration, you may treat yourself as possessing ranks in that skill equal to half your Shaman level, to a maximum of your normal maximum ranks. If you already possess more ranks, use your existing ranks.\nBe aware that this does not grant a class bonus to the skill."
+  },
+  "WALK BETWEEN WORLDS": {
+   "traits": "SHAMAN SPIRIT",
+   "prerequisites": "Veil Spirit Guide, Level 7",
+   "body": "For brief moments you occupy the same uncertain boundary as your guide.\nWhile Part the Veil is active, you may move through spaces occupied by creatures and through non-magical solid objects no thicker than 5 feet.\nYou may not end your movement inside an occupied space or solid object. Each time you pass through a solid object, every 5 feet of such movement costs 10 feet of movement.\nBe aware that this does not allow passage through magical barriers."
+  }
+ },
+ "general": {
+  "CLOSE READING": {
+   "traits": "",
+   "prerequisites": "Linguistics 3 ranks",
+   "body": "You have learned that the most important part of a text is often the sentence someone tried to remove.\nWhen using Analyse Scripture, treat a Partial result as a Success.\nWhen you achieve a Critical result, you may also determine whether a significant alteration was probably accidental, the result of repeated copying, or deliberately introduced."
+  },
+  "CONSECRATED CRAFT": {
+   "traits": "",
+   "prerequisites": "Crafting 1 rank",
+   "body": "You understand that sacred craftsmanship is as much about meaning and placement as it is about stone, timber and metal.\nYou gain a +2-circumstance bonus to Create and Repair checks involving shrines, altars, reliquaries, funerary objects, holy symbols and other items primarily intended for religious or ritual use.\nYou may also use Crafting instead of Culture when using Trace Religious Provenance upon a crafted religious object or architectural feature. Use your Crafting ranks to meet the action's Rank requirement.\nBe aware that this does not allow Crafting to identify magical properties."
+  },
+  "CONVINCING DEVOTION": {
+   "traits": "",
+   "prerequisites": "Deception 3 ranks, Culture or Religion 1 rank",
+   "body": "You do not merely hide your beliefs; you understand how to wear another faith convincingly.\nWhen using Conceal Faith to impersonate another faith or Divine Aspect, creatures familiar with that religion no longer automatically receive the normal +2-circumstance bonus to Detect Deception.\nThey still gain the bonus if they personally know you or possess direct evidence contradicting your assumed identity.\nIf you have successfully used Observe Sacred Custom concerning the faith you are impersonating within the last 24 hours, you gain a +1-circumstance bonus to Conceal Faith."
+  },
+  "CULTURAL THEOLOGIAN": {
+   "traits": "",
+   "prerequisites": "Culture 3 ranks, Religion 1 rank",
+   "body": "You understand that theology is not merely written in books. It is expressed through food, clothing, gesture, architecture, mourning and the thousand habits of ordinary believers.\nWhenever you achieve at least a Success using Recognise Doctrine, you may immediately attempt Observe Sacred Custom concerning the identified faith or tradition as part of the same action rather than spending its normal 10 minutes.\nIf your Recognise Doctrine result was Critical, you gain a +2-circumstance bonus to this Observe Sacred Custom check.\nYou must possess sufficient Culture ranks to use Observe Sacred Custom normally."
+  },
+  "DEATH INVESTIGATOR": {
+   "traits": "",
+   "prerequisites": "Medicine 3 ranks",
+   "body": "Bruises, blood patterns and the position of a corpse tell you a story long after the victim has stopped speaking.\nWhen using Examine the Dead, reduce the required time from 10 minutes to 1 minute.\nIn addition, when you achieve at least a Success on Examine the Dead, you gain a +1-circumstance bonus to subsequent Perception, Medicine, Survival or appropriate knowledge checks made to investigate the circumstances of that death."
+  },
+  "DOCTRINAL RECALL": {
+   "traits": "",
+   "prerequisites": "Religion or Linguistics 1 rank",
+   "body": "Years spent comparing teachings allow you to recognise religious ideas even when they are expressed in unfamiliar language.\nWhen using Recognise Doctrine, you may use Religion, Linguistics or Culture, whichever has the highest bonus. Use the selected skill's ranks to meet the action's Rank requirement.\nFurthermore, when you achieve a Success or better on Recognise Doctrine, you gain a +1-circumstance bonus to your next Recall Knowledge or Analyse Scripture check concerning the same doctrine within the next hour."
+  },
+  "EXPERT AUTOPSIST": {
+   "traits": "",
+   "prerequisites": "Medicine 5 ranks",
+   "body": "You know how to find the detail that less experienced examiners cut through.\nWhen using Perform Autopsy, a Fumble is treated as a Failure.\nOn a Critical result, the circumstance bonus granted to a subsequent skill check increases from +2 to +4.\nYou may also perform an autopsy in 30 minutes rather than 1 hour."
+  },
+  "GRAVE VIGIL": {
+   "traits": "",
+   "prerequisites": "Perception 1 rank",
+   "body": "You know what a burial ground looks like when everything is where it should be.\nYou gain a +2-circumstance bonus to Search checks made to notice disturbed graves, opened crypts, damaged funerary seals, concealed entrances within burial structures or physical evidence that a corpse has been moved.\nWhen rolling Initiative within a cemetery, crypt, tomb or similar burial site, you gain a +10-circumstance bonus if an Undead creature, Unliving creature or grave-related hazard is involved in the encounter."
+  },
+  "HAUNTWISE": {
+   "traits": "",
+   "prerequisites": "Occultism 3 ranks",
+   "body": "Repeated exposure has taught you that supernatural repetitions have rules, even when those rules are unpleasant.\nWhen you successfully use Interpret Haunt, you gain a +2-circumstance bonus to the next saving throw or skill check you make against that haunt within the next hour.\nOn a Critical result, you may also grant this bonus to one ally who hears your explanation."
+  },
+  "KEEPER OF RECORDS": {
+   "traits": "",
+   "prerequisites": "Culture or Linguistics 1 rank",
+   "body": "You know where institutions hide information - and which apparently meaningless entry usually reveals it.\nWhen using Research to investigate historical, religious or institutional records, reduce the time required by half.\nWhen using Compare Testaments, a Partial result is treated as a Success for the purpose of determining whether the texts differ, although you still cannot determine which version is older or authoritative unless your actual result would normally allow it."
+  },
+  "LAY EXORCIST": {
+   "traits": "",
+   "prerequisites": "Religion 3 ranks",
+   "body": "You have studied possession as a practical threat rather than a theological abstraction.\nYou may use Religion instead of Occultism when using Trace Possession or Interpret Haunt. Use your Religion ranks to meet those actions' Rank requirements.\nIf you achieve a Success or better using Trace Possession against a currently possessed creature, that creature gains a +1-circumstance bonus to its next saving throw to resist or end the possession before the end of its next turn.\nThis feat identifies and assists against possession; it does not itself Counteract it."
+  },
+  "METHODICAL INVESTIGATOR": {
+   "traits": "",
+   "prerequisites": "Perception 3 ranks",
+   "body": "You have refined one investigative technique until it has become a professional speciality.\nSelect one of the following actions: Examine the Dead, Interpret Haunt, Recognise Doctrine, Sense Outside Influence, Trace Possession or Trace Religious Provenance.\nYou gain a +2-class bonus to checks made using the selected action.\nYou may select Methodical Investigator more than once, choosing a different action each time."
+  },
+  "OUTCAST'S RESOLVE": {
+   "traits": "",
+   "prerequisites": "Mental Focus 1 rank",
+   "body": "You have already survived condemnation once. Authority no longer possesses quite the same power over you.\nAction R; Trigger You fail a Will saving throw against a Fear, Charm or Compulsion effect.\nFrequency Once per day\nYou may reroll the triggering saving throw. You must use the second result.\nIf the effect originates from a creature, institution, Divine Aspect or religious tradition responsible for your excommunication or rejection, you gain a +1-circumstance bonus to this reroll."
+  },
+  "PERFECT PRESERVATION": {
+   "traits": "",
+   "prerequisites": "Medicine 3 ranks",
+   "body": "You can prepare mortal remains for journeys, investigations or funerals that ordinary embalming could never accommodate.\nWhen using Preserve Remains, improve the duration of preservation:\nCritical 1 year.\nSuccess 1 month.\nPartial 1 week.\nYou may also perform Preserve Remains using improvised materials at a -2-circumstance penalty rather than requiring a healer's kit.\nThis remains ordinary preservation and provides no protection against magical decay, animation or destruction."
+  },
+  "PILGRIM'S GRACE": {
+   "traits": "",
+   "prerequisites": "Culture 1 rank",
+   "body": "Years of entering unfamiliar shrines taught you that respect travels farther than certainty.\nWhen you achieve at least a Success using Observe Sacred Custom, the circumstance bonus granted by that action applies to all appropriate Diplomacy checks involving that religious community for 1 hour rather than only the next check.\nFurthermore, after successfully Observing Sacred Custom, you may use Culture instead of Diplomacy to Make an Impression upon a member of that tradition."
+  },
+  "RELIC APPRAISER": {
+   "traits": "",
+   "prerequisites": "Culture or Religion 1 rank",
+   "body": "You have learned to separate sacred history from an enthusiastic seller's story.\nYou gain a +2-circumstance bonus when using Trace Religious Provenance.\nOn a Success or better, you can also estimate the object's mundane market value and determine whether its construction, age and provenance are consistent with claims made about it.\nOn a Critical result, you gain a +1-circumstance bonus to the next Identify Power or Recall Knowledge check made concerning that object. Relic Appraiser does not itself reveal magical properties."
+  },
+  "RITE OF PASSING": {
+   "traits": "",
+   "prerequisites": "Perform or Religion 1 rank",
+   "body": "Your funerary practice gives the bereaved something firm to hold onto while the dead begin their final journey.\nYou may use Perform instead of Religion when using Perform Last Rites, provided the performance takes the form of an appropriate funeral chant, prayer, lament or ritual recitation. Use your Perform ranks to meet the action's Rank requirement.\nWhenever you achieve a Success or better on Perform Last Rites, choose one willing living creature present who knew the deceased. That creature gains a +1-status bonus to saving throws against Fear effects for the next 24 hours.\nA creature may benefit from Rite of Passing only once per day."
+  },
+  "SACRED POLYGLOT": {
+   "traits": "",
+   "prerequisites": "Linguistics 3 ranks",
+   "body": "Religious language is rarely just language; the same word can become law, prayer or accusation depending upon who speaks it.\nYou gain a +2-circumstance bonus to Linguistics checks involving liturgical languages, ancient religious terminology, sacred names and ritual formulae.\nWhen you successfully Analyse Scripture written in a language you do not speak fluently, you may understand its religious terminology sufficiently to attempt an appropriate Religion or Lore check concerning the text without suffering an additional language penalty."
+  },
+  "SANCTIFIED TREATMENT": {
+   "traits": "",
+   "prerequisites": "Medicine 1 rank",
+   "body": "Prayer does not replace medicine, but discipline, reassurance and careful ritual can make treatment considerably easier to endure.\nWhenever you achieve at least a Success using Administer First Aid, Treat Injury or Treat Wounds, the patient gains a +1-circumstance bonus to the next saving throw they attempt against a Disease, Poison or effect with the Soul trait within the next hour.\nIf your Medicine check is a Critical result, this bonus increases to +2.\nA creature can benefit from Sanctified Treatment only once at a time."
+  },
+  "SOUL ANCHOR": {
+   "traits": "",
+   "prerequisites": "Mental Focus or Meditation 5 ranks",
+   "body": "Through meditation and spiritual discipline, you have learned to distinguish your own consciousness from anything attempting to enter it.\nYou gain a +1-circumstance bonus to saving throws against possession, Soul Drain and effects that forcibly displace or control your soul.\nWhenever you achieve a Critical or Heroic saving throw against possession, you immediately recognise the attempt even if the effect would normally conceal its presence."
+  },
+  "SPIRITUAL FORENSICS": {
+   "traits": "",
+   "prerequisites": "Medicine 3 ranks, Occultism or Religion 3 ranks",
+   "body": "Physical evidence and supernatural evidence are merely two halves of the same investigation.\nWhenever you achieve a Success or better using Examine the Dead or Perform Autopsy, and the corpse shows evidence suggesting possession, Soul Drain, undeath, a Curse or another spiritual affliction, you may immediately attempt either Trace Possession or Identify Spiritual Affliction as part of the same examination.\nYou still make the second check normally.\nIf the initial Medicine result was Critical, gain a +2-circumstance bonus to the second check."
+  },
+  "SWORN TESTIMONY": {
+   "traits": "",
+   "prerequisites": "Sense Motive 1 rank",
+   "body": "Promises have rhythms of their own, and you have heard enough of them to recognise the places where people leave themselves room to escape.\nWhenever you deliberately witness a creature make a formal oath, vow, contract or promise, you can accurately recall the significant wording of that declaration for one month.\nDuring that period, you gain a +4-circumstance bonus to Detect Deception checks against that creature when the conversation specifically concerns the terms, meaning or fulfilment of the witnessed promise.\nThis feat does not reveal whether the creature will ultimately keep the oath."
+  },
+  "VEIL LISTENER": {
+   "traits": "",
+   "prerequisites": "Occultism or Religion 1 rank",
+   "body": "You have learned not to assume that every strange feeling is a ghost - and not to assume that it is not.\nYou gain a +1-circumstance bonus to Trace Possession, Interpret Haunt and Identify Spiritual Affliction checks.\nWhen you achieve a Critical result on any of these actions, you may immediately attempt an appropriate Recall Knowledge check concerning the spirit, haunt or affliction as a Free (0 AP) action.\nVeil Listener does not itself allow communication with spirits."
+  },
+  "VOICE OF RESOLVE": {
+   "traits": "AUDITORY EMOTION",
+   "prerequisites": "Diplomacy 1 rank",
+   "body": "When fear takes hold, you know exactly what must be said.\nWhenever you use Encourage upon an ally suffering from a Fear effect, that ally gains a +2-circumstance bonus to the new saving throw granted by Encourage.\nIf your Encourage check is a Critical result, the ally also reduces its Frightened condition by 1 after resolving the saving throw."
+  },
+  "WATCH THE EYES": {
+   "traits": "",
+   "prerequisites": "Sense Motive 3 ranks",
+   "body": "People under supernatural influence often control their words more successfully than their smallest involuntary reactions.\nWhen using Sense Outside Influence, treat a Partial result as a Success.\nWhen you achieve a Critical result, you also gain a +2-circumstance bonus to the next Trace Possession or Identify Spiritual Affliction check you make against that creature within the next 10 minutes."
+  }
+ }
+}

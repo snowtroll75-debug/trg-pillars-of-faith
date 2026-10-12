@@ -1,0 +1,114 @@
+{
+  "_id": "Q6Mp53xuSivJy95j",
+  "name": "Mindcrown Ivy",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 3060,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb Uncommon",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: great libraries, arcane capitals and ancient academies.\n\nMindcrown ivy is a pale climbing plant whose crown-shaped leaves arrange themselves in ascending rings around old libraries, academies and towers of learning. Ink placed upon a fresh leaf separates into precise lines, while spoken words nearby sometimes leave fleeting patterns in its veins. When steeped into a clear, almost tasteless tea, the leaves sharpen concentration to an unnatural degree. For 1 hour, you gain a +2-item bonus to checks made as part of Concentrate or Mental actions and to Will saving throws against Mental effects.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 12
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Mindcrown Ivy",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Mindcrown Ivy",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "item",
+                  "label": "Mindcrown Ivy",
+                  "scope": "Checks made as part of Concentrate or Mental actions",
+                  "when": {
+                    "checkTypes": [
+                      "skill",
+                      "attribute"
+                    ]
+                  },
+                  "auto": false,
+                  "oneShot": false
+                },
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "item",
+                  "label": "Mindcrown Ivy",
+                  "scope": "Will saving throws against Mental effects",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "subjects": [
+                      "will"
+                    ],
+                    "traits": [
+                      "mental"
+                    ]
+                  },
+                  "auto": true,
+                  "oneShot": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: great libraries, arcane capitals and ancient academies.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 12,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 3060,
+        "tablePrice": 3060,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Q6Mp53xuSivJy95j"
+}

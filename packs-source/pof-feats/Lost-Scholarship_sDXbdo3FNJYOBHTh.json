@@ -1,0 +1,49 @@
+{
+  "_id": "sDXbdo3FNJYOBHTh",
+  "name": "Lost Scholarship",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Velori heritage",
+    "active": true,
+    "description": "<p>RHEVANI</p>\n<p>Somewhere amongst your former lives was a scholar whose learning occasionally rises intact from the depths of memory.<br>When you activate Past-Life Echo, you may select a Lore specialist skill that you do not possess instead of selecting a non-specialist skill.<br>Until the end of your next turn, you are treated as possessing that specialist skill. Calculate checks made using it normally for a specialist skill, using your level, class bonus, appropriate ability modifier and the normal +2 specialist skill bonus.<br>You also gain the normal +2 racial bonus from Past-Life Echo to checks made using the selected Lore specialist skill.<br>The specialist skill is lost when Past-Life Echo ends. This temporary access cannot be used to satisfy prerequisites for feats, archetypes or other character options.</p>\n<p>Prerequisites Velori heritage</p>\n<p>Works automatically: Past-Life Echo's Use offers a typed Lore specialist skill as the choice — it is created on your sheet for the duration and removed with the effect, with the +2 racial applied.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sDXbdo3FNJYOBHTh"
+}

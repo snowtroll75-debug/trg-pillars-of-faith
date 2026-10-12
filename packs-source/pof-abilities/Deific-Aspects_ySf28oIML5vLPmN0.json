@@ -1,0 +1,49 @@
+{
+  "_id": "ySf28oIML5vLPmN0",
+  "name": "Deific Aspects",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Archivist 1st level",
+    "active": true,
+    "description": "<p>An Archivist does not automatically select a deity or Divine Aspect. You may worship any deity or follow any Divine Aspect appropriate to your character, but this belief is separate from your Archivist spellcasting unless another ability specifically connects the two.<br>If another feat, archetype or class ability grants you a Divine Aspect, you gain whatever benefits that rule specifies normally. Merely possessing a written copy of a Divine Aspect's Specialist Spell does not allow you to cast that spell.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Archivist",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Archivist",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ySf28oIML5vLPmN0"
+}

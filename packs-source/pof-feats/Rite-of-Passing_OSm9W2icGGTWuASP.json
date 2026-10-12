@@ -1,0 +1,49 @@
+{
+  "_id": "OSm9W2icGGTWuASP",
+  "name": "Rite of Passing",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Perform or Religion 1 rank",
+    "active": true,
+    "description": "<p>Your funerary practice gives the bereaved something firm to hold onto while the dead begin their final journey.</p>\n<p>Prerequisites Perform or Religion 1 rank</p>\n<p>You may use Perform instead of Religion when using Perform Last Rites, provided the performance takes the form of an appropriate funeral chant, prayer, lament or ritual recitation. Use your Perform ranks to meet the action's Rank requirement.</p>\n<p>Whenever you achieve a Success or better on Perform Last Rites, choose one willing living creature present who knew the deceased. That creature gains a +1 status bonus to saving throws against Fear effects for the next 24 hours.</p>\n<p>A creature may benefit from Rite of Passing only once per day.</p>\n<p>Perform Last Rites is offered from your Perform skill as well as Religion. After a Success or better, target the mourner and press Use: they gain the +1 status bonus to saves against Fear effects for 24 hours, applied automatically.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "pofAutomation": "riteOfPassing"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OSm9W2icGGTWuASP"
+}

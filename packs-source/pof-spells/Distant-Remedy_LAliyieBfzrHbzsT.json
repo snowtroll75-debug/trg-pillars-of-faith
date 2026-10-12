@@ -1,0 +1,89 @@
+{
+  "_id": "LAliyieBfzrHbzsT",
+  "name": "Distant Remedy",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 3,
+    "castAP": 2,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "heal",
+        "target": "targets",
+        "formula": "3d6"
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Increase the healing by 1d6",
+        "mods": {
+          "healDice": "1d6"
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the range by 30 feet",
+        "mods": {
+          "rangeOverride": "60 feet"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Healer",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Healing, Soul",
+    "description": "HEALER HEALING SOUL UTILITY\nHealer Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nTargets 1 willing creature\n\nYou send restorative vitality across the intervening space.\nThe target regains 3d6 Hit Points.\n\nWarping Options:\n+1 PP: Increase the healing by 1d6.\n+2 PP: Increase the range by 30 feet.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LAliyieBfzrHbzsT"
+}

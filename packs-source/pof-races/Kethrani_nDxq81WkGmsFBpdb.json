@@ -1,0 +1,149 @@
+{
+  "_id": "nDxq81WkGmsFBpdb",
+  "name": "Kethrani",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "race",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Race",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>The Kethrani are living testaments, a people born with lines of sacred script embedded within their skin. New symbols appear throughout their lives without ink, blade or conscious choice, recording concepts that priests have spent centuries attempting to interpret.<br>“The gods did not write upon me so that priests might agree.” - Oran Serel, Speaker of the Unfinished Verse</p>\n<p>Kethrani society has developed around an uncomfortable reality: everyone else wants their bodies to mean something.<br>From birth, Kethrani are studied by priests, theologians, prophets, linguists and occasionally rulers. Consequently, one of the strongest principles in Kethrani culture is bodily and interpretative autonomy. The Testament may be sacred, but the person bearing it is not public property.<br>Most communities maintain Houses of Interpretation, institutions combining libraries, schools, meeting halls and places of worship. Kethrani families voluntarily record new passages appearing upon their bodies, allowing scholars to compare recurring symbols across generations. Detailed sketches, rubbings and written transcriptions are maintained, but permission is considered essential. Secretly copying another Kethrani's Testament is treated as a profound violation of trust.<br>The Testament does not provide simple commandments. Passages contradict one another, change context when new lines appear and frequently resemble fragments taken from theological traditions that historically opposed each other. This has prevented any single unified Kethrani religion from emerging.<br>Instead, Kethrani philosophy emphasises interpretation without surrendering choice. A sacred message can offer wisdom, warning or responsibility, but it cannot relieve the recipient of moral agency. The old proverb that “revelation without choice is merely another chain” is taught to children almost as soon as they begin asking what their own markings mean.<br>Dominant Verses shape social roles without functioning as rigid castes. A child whose Testament repeatedly emphasises Mercy may be encouraged towards healing, but nobody is required to become what their skin appears to describe. Indeed, choosing a radically different life is sometimes interpreted as part of the Testament's meaning.<br>Changes in the script frequently accompany spiritual crises, moments of great personal decision or exposure to powerful divine phenomena. New passages may emerge overnight after a near-death experience, remain incomprehensible for decades and suddenly acquire meaning after the bearer meets a particular person or visits an unfamiliar place.<br>This has made Kethrani adventurers common. Some pursue an apparent prophecy. Others seek scholars capable of translating a newly appeared passage. Many simply leave because they are tired of living among people who read their arms before looking at their faces.</p>\n<p>DESCRIPTION<br>Kethrani possess the same broad range of builds, complexions, hair colours and facial features found among humans. What immediately distinguishes them is the Testament—the sacred script that develops naturally beneath their skin.<br>The first marks normally appear around the heart, brow, hands or along the centre of the chest. During childhood they may resemble isolated glyphs, but as a Kethrani matures the marks spread into lines, circles, repeated invocations, diagrams and dense blocks of writing. Some Testaments remain relatively sparse while others eventually cover most of the body.<br>Colour varies enormously. Some marks appear black as fresh ink, others white as scar tissue, bronze, silver or gold. Certain passages shine faintly when exposed to darkness or intensify during prayer, danger or emotional stress. No reliable relationship exists between colour and meaning.<br>The script lies beneath the skin rather than upon it. Tattooing over a Testament may obscure it temporarily, but the original marks gradually become visible again. Injury behaves more strangely. If a section of skin bearing the Testament is badly scarred, portions of the script may appear fragmented during healing before slowly reforming around the scar. This has led some theologians to argue that the Testament belongs to the Kethrani's soul rather than their body.<br>Clothing varies according to personal attitude. Some Kethrani deliberately expose large portions of their Testament as an expression of identity. Others wear high collars, gloves and layered garments because they resent being stared at, interpreted or treated as religious objects. This choice can itself be politically charged in communities where Kethrani scripture is considered holy.<br>Kethrani reach physical adulthood at around 16 years of age and usually live between 120 and 160 years. New markings continue to appear throughout life, often accelerating during periods of spiritual crisis. A starting Kethrani character has an initial age of 16+2d6 years.</p>\n<p>RACIAL MECHANICS</p>\n<p>Ability Modifiers Int +1, Wis +1, Cha +1, Dex -1; Size: Medium; Speed: 25 feet; Power Points: 0</p>\n<p>LANGUAGES</p>\n<p>Core Languages: High Tongue, Low Tongue; Additional Languages: Choose from any common or regional language.</p>\n<p>SPECIALIST SKILLS</p>\n<p>You gain Kethrani Lore and Theology as specialist skills.</p>\n<p>OTHER ABILITIES</p>\n<p>Living Testament, Sacred Inscription — granted as ability items; Revelatory Script — Read Aura as a divinity innate cantrip with the Focus trait, granted as a spell.</p>\n<p>HERITAGES</p>\n<p>Once you have selected the Kethrani race you must select one of the Kethrani heritages (Dominant Verses): Avenor, Korath, Sapiren, Serel, Tharos.</p>",
+    "abilityModifiers": "Int +1, Wis +1, Cha +1, Dex -1",
+    "maximumSize": "",
+    "languages": "Core: High Tongue, Low Tongue. Additional: common, regional.",
+    "coreLanguages": "High Tongue, Low Tongue",
+    "additionalLanguages": "common, regional",
+    "languageChoices": "",
+    "grantedFeats": "",
+    "racialAbilities": "Living Testament, Sacred Inscription",
+    "grantedWeapons": "",
+    "grantedSpells": "Read Aura",
+    "specialistSkills": "Kethrani Lore, Theology"
+  },
+  "effects": [
+    {
+      "_id": "YbGrUKyRw5b7Zdap",
+      "name": "Kethrani: ability modifiers",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.intelligence.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.wisdom.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.charisma.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.dexterity.racial",
+          "mode": 2,
+          "value": "-1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Int +1, Wis +1, Cha +1, Dex -1",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!nDxq81WkGmsFBpdb.YbGrUKyRw5b7Zdap"
+    },
+    {
+      "_id": "MVZXoOaQgjyH2C42",
+      "name": "Kethrani: size and speed",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.identity.size",
+          "mode": 5,
+          "value": "medium",
+          "priority": 10
+        },
+        {
+          "key": "system.combat.movement.land",
+          "mode": 5,
+          "value": "25",
+          "priority": 10
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Medium size and a base land speed of 25 feet.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!nDxq81WkGmsFBpdb.MVZXoOaQgjyH2C42"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nDxq81WkGmsFBpdb"
+}

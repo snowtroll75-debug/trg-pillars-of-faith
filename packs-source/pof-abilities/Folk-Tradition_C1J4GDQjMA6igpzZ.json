@@ -1,0 +1,56 @@
+{
+  "_id": "C1J4GDQjMA6igpzZ",
+  "name": "Folk Tradition",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>At 1st level, select one Folk Tradition. Your Tradition represents the area of folk practice in which your training is strongest. Choose Charmwright, Gravetender, Hearthkeeper, Herbal or Omen Reader.<br>Each Tradition grants a specialist skill and a Tradition Ability. Later Folkwarden class feats may develop your chosen Tradition further.</p>\n<p>Use to choose: the tradition arrives as its own ability with its specialist skill and Tradition Ability.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      },
+      "abilityChoices": [
+        "Charmwright",
+        "Gravetender",
+        "Hearthkeeper",
+        "Herbal",
+        "Omen Reader"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!C1J4GDQjMA6igpzZ"
+}

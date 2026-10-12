@@ -1,0 +1,39 @@
+{
+  "_id": "XWBBNLy75NdDZPru",
+  "name": "Vowbound Resolve",
+  "img": "icons/svg/upgrade.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Oathkeeper archetype",
+    "active": true,
+    "description": "<p>CONCENTRATE FOCUS</p>\n<p>Action R; Trigger You fail a saving throw or skill check while directly attempting to fulfil your Solemn Vow.</p>\n<p>Your commitment steadies you when failure would place your promise in jeopardy. Reroll the triggering saving throw or skill check with Advantage and use the better result. Vowbound Resolve is then expended and must be restored using Refocus.</p>\n<p>Use as the Reaction (Focus): spends the use and the reaction; reroll from your sheet with advantage.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Concentrate, Focus"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XWBBNLy75NdDZPru"
+}

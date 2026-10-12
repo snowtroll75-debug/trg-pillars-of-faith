@@ -1,0 +1,81 @@
+{
+  "_id": "IIqCUkINTZ1yeWlT",
+  "name": "Staff of Quiet Graves",
+  "img": "icons/svg/oak.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 4,
+    "price": 20000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Invested, Soul, Staff, Warding",
+    "description": "Usage held in 1 hand; Weight 4 lbs. Power Points 26; Recharge 3 per day.\n\nBlack iron bands divide this ash-grey staff into seven sections. Burial prayers are carved upside-down into each band so that they can be read correctly when the staff is planted beside a grave.\n\nActivate Cast a Spell; Effect You expend the required PP to cast a spell from its list.\n\nCraft Requirements Supply one casting of all listed spells at the indicated PP cost\n\nSpells: Hallowed Rest (2 PP), Veil Sight (4 PP), Exorcise (8 PP), Threshold Ward (10 PP).\n\nOn the sheet: a staff: its four spells are cast from the item's PP.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 26,
+    "itemSize": "medium",
+    "itemLevel": 13,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "chargedItem": {
+        "kind": "staff",
+        "maximumPP": 26,
+        "flexible": false,
+        "recharge": 3,
+        "printedRecharge": 3,
+        "printedPowerPoints": 26,
+        "correctedFromPrinted": false,
+        "spells": [
+          {
+            "name": "Hallowed Rest",
+            "pp": 2
+          },
+          {
+            "name": "Veil Sight",
+            "pp": 4
+          },
+          {
+            "name": "Exorcise",
+            "pp": 8
+          },
+          {
+            "name": "Threshold Ward",
+            "pp": 10
+          }
+        ],
+        "weaponForm": {
+          "base": "Staff",
+          "quality": "standard",
+          "material": "",
+          "runes": ""
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IIqCUkINTZ1yeWlT"
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "BwxUghImrR7IFscw",
+  "name": "Soul-Hardened",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5",
+    "active": true,
+    "description": "<p>ESHARI</p>\n<p>Your spirit has stood too long at the threshold to be easily pushed across it.<br>The racial bonus granted by Soul Warden increases from +1 to +2.<br>Furthermore, whenever you successfully resist possession, you immediately recognise that something attempted to possess you and know its general direction if its source is within 60 feet.</p>\n<p>Prerequisites Level 5</p>\n<p>Works automatically: Soul Warden's racial bonus is +2 — this feat adds the second +1 beside it, pre-ticked on the same saves; recognising a possession attempt is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Soul-Hardened",
+          "scope": "Saving throws against Soul-trait effects, Soul Drain and possession (the second point of Soul Warden's bonus)",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "soul",
+              "possession"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        },
+        {
+          "kind": "modifier",
+          "label": "Soul-Hardened",
+          "scope": "Saving throws against Soul-trait effects, Soul Drain and possession (the second point of Soul Warden's bonus)",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BwxUghImrR7IFscw"
+}

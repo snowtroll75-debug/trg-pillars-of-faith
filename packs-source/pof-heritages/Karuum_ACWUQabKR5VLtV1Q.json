@@ -1,0 +1,83 @@
+{
+  "_id": "ACWUQabKR5VLtV1Q",
+  "name": "Karuum",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Karuum (sometimes called Ironcap) develop dense fibrous tissue and overlapping plates across the shoulders, chest and limbs. Their caps are commonly thick, ridged and comparatively compact, giving them a heavy, durable appearance.<br>They traditionally work in construction, excavation and defence, particularly within the deepest portions of a settlement where collapse or hostile underground creatures pose constant threats. Karuum culture values reliability more than aggression. An Ironcap who promises to hold a tunnel, carry a burden or protect a chamber is expected to remain there long after more flamboyant companions have discovered somewhere else to be heroic.<br>Your hardened body grants you Base DR 1.</p>",
+    "sourceRace": "Myrathi",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "JcAH77vtKMTnBNJE",
+      "name": "Karuum: Base DR 1",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.naturalArmourBase.natural",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Your hardened body grants you Base DR 1 (natural armour; scales with BDB like any base DR).",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!ACWUQabKR5VLtV1Q.JcAH77vtKMTnBNJE"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ACWUQabKR5VLtV1Q"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "pKBoS2DFgNtufQNd",
+  "name": "Distant Lifeline",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5, Lifeline",
+    "active": true,
+    "description": "<p>HEALER</p>\n<p>Distance matters very little when you can feel a life beginning to slip away.<br>The range of Lifeline increases from 30 feet to 60 feet.<br>At 11th level, increase this range to 120 feet. Line of Effect is still required.</p>\n<p>Prerequisites Level 5, Lifeline</p>\n<p>Works automatically: Lifeline's Use reaches 60 feet (120 from 11th) — the card says so.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healer",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!pKBoS2DFgNtufQNd"
+}

@@ -1,0 +1,81 @@
+{
+  "_id": "BVzqAkad6NHptUBT",
+  "name": "Reliquary Shield of the First Witness",
+  "img": "icons/svg/shield.svg",
+  "type": "shield",
+  "system": {
+    "quantity": 1,
+    "weight": 8,
+    "price": 8850,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 57,
+      "max": 57
+    },
+    "traits": "Expert, Intercession, Potency II",
+    "dr": 2,
+    "hardness": 0,
+    "brokenThreshold": 0,
+    "proficiency": "",
+    "penalty": -1,
+    "defenceBonus": 2,
+    "category": "light",
+    "metal": true,
+    "itemLevel": 11,
+    "shieldBashDamage": "1d4",
+    "shieldBashFumbleDC": 6,
+    "shieldBashDamageType": "bludgeoning",
+    "description": "The inner compartment of this polished silver shield is divided into dozens of tiny, padded recesses. Some examples contain bone fragments, others scraps of scripture, fragments of broken holy symbols or the sealing wax from famous oaths.\n\nThe shield retains the normal waterproof reliquary compartment of a Reliquary Shield.\n\nStatistics: ACP -1; DB +4; HP 57; DR 2.\n\nTraits Expert, Intercession, Potency II.\n\nOn the sheet: an Expert Reliquary Shield with Potency II and Intercession (an ally within 10 feet who fails a save against Fear, possession or a Soul effect is offered the reroll, once a day).\n\nPillars of Faith, Chapter 11.",
+    "quality": "expert",
+    "runes": "Potency II, Intercession",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 2,
+            "printed": "Potency II"
+          },
+          {
+            "key": "intercession",
+            "label": "Intercession",
+            "tier": 1,
+            "printed": "Intercession"
+          }
+        ],
+        "runeText": "Potency II, Intercession",
+        "traits": [
+          "Expert",
+          "Intercession",
+          "Potency II"
+        ],
+        "quality": "expert",
+        "material": "",
+        "printedItemBonus": 2
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BVzqAkad6NHptUBT"
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "CMO6DFaJvJCuGTxT",
+  "name": "Final Whisper",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 0,
+    "castAP": "Reaction",
+    "range": "30 feet",
+    "area": "",
+    "targets": "the triggering creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [
+      {
+        "threshold": 5,
+        "recurring": false,
+        "damageDice": "",
+        "saveDC": 0,
+        "attack": 0,
+        "text": "Increase the range to 60 feet."
+      },
+      {
+        "threshold": 10,
+        "recurring": false,
+        "damageDice": "",
+        "saveDC": 0,
+        "attack": 0,
+        "text": "The target may speak up to fifty words."
+      }
+    ],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "The Dying creature may immediately speak up to twenty words (fifty from CL 10) in a language it knows — no spells, abilities or actions. It is not Stabilised."
+      }
+    ],
+    "warps": [],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Auditory, Cantrip, Soul",
+    "description": "AUDITORY CANTRIP SOUL UTILITY\nTradition divinity\nCast R (verbal)\nTrigger: A willing living creature within 30 feet gains the Dying condition\nRange 30 feet\nTargets the triggering creature\n\nYou briefly hold the target at the threshold of consciousness, allowing them to speak despite their condition.\nThe target may immediately speak up to twenty words. They can speak only languages they normally know and cannot use this opportunity to Cast a Spell, activate an ability or perform another action.\nThe spell does not Stabilise the creature, alter its Dying condition or prevent death.\n\nCaster Level Modifications:\nCL 5: Increase the range to 60 feet.\nCL 10: The target may speak up to fifty words.\n\nPillars of Faith, Chapter 10. A Reaction cantrip: the card says how many words."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CMO6DFaJvJCuGTxT"
+}

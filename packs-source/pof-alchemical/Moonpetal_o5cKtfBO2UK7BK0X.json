@@ -1,0 +1,95 @@
+{
+  "_id": "o5cKtfBO2UK7BK0X",
+  "name": "Moonpetal",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: temperate forests and moonlit glades.\n\nMoonpetal grows as a single ivory flower among a fan of dark, glossy leaves. The bloom remains tightly closed by day and opens only beneath moonlight, revealing silver pollen that drifts upwards rather than falling. The petals are gathered without iron tools and steeped into a silver-grey tea traditionally served before vigils and difficult negotiations. You gain advantage on the next saving throw you attempt against an Enchantment or Mental effect within 1 hour. The benefit ends after that saving throw.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Moonpetal",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Moonpetal",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "advantage",
+                  "label": "Moonpetal",
+                  "scope": "The next saving throw you attempt against an Enchantment or Mental effect within 1 hour",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "traits": [
+                      "enchantment",
+                      "mental"
+                    ]
+                  },
+                  "auto": true,
+                  "oneShot": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: temperate forests and moonlit glades.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 2,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 50,
+        "tablePrice": 50,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!o5cKtfBO2UK7BK0X"
+}

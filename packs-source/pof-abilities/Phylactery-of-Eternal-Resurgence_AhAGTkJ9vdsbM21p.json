@@ -1,0 +1,39 @@
+{
+  "_id": "AhAGTkJ9vdsbM21p",
+  "name": "Phylactery of Eternal Resurgence",
+  "img": "icons/svg/skull.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "An Unliving Archetype",
+    "active": true,
+    "description": "<p>Level 18; Price -</p>\n<p>Usage soul phylactery; Weight 2 lbs.</p>\n<p>The Phylactery of Eternal Resurgence appears as a finely crafted obsidian amulet, adorned with intricate runes that pulse with dark energy. It emits a faint, ominous glow, hinting at the powerful necromantic magic contained within.</p>\n<p>The phylactery serves as the vessel for the lich's immortal essence, anchoring its soul to the material plane. As long as the phylactery remains intact, the lich cannot be permanently killed. Upon the destruction of the lich's physical form, its essence retreats into the phylactery, which grants the lich Regeneration 1/hour whilst it rebuilds its physical form.</p>\n<p>The phylactery is also able to siphon energy from nearby living creatures within 30 feet. Such creatures may make a Fortitude save to resist this effect. Failure, double the lich’s rate of regeneration with the excess hits inflicting soul drain to the targets.</p>\n<p>The phylactery is extremely resistant to damage having 200 HP and a Hardness of 20. It is also impervious to non-magical weapons.</p>\n<p>The phylactery has magic resistance and is very difficult to detect. Attempts to detect it through magical or mundane means are Incredibly Hard (DC +10).</p>\n<p>The Unliving Lich's phylactery. The vessel itself is the wondrous item of the same name (Pillars of Faith: Wondrous Items & Relics) — keep it somewhere safe.</p>\n<p>Use while your essence rebuilds, once for each hour: you regain HP at Regeneration 1/hour (Regeneration 2/hour with Eternal Resurgence) — read, as the Codex reads Regeneration, as HP equal to your level for each step. Target the living creatures within 30 feet of the phylactery first: each rolls a Fortitude save against your Level DC, and if any fails the hour's regeneration is doubled and each failing creature suffers Soul Drain equal to your level.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Soul"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AhAGTkJ9vdsbM21p"
+}

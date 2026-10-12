@@ -1,0 +1,79 @@
+{
+  "_id": "QkCFXaAEUJZ747wu",
+  "name": "Pursuit Mark",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "save",
+    "level": 0,
+    "ppCost": 5,
+    "castAP": 2,
+    "range": "60 feet",
+    "area": "",
+    "targets": "Your Subject of Inquisition",
+    "duration": "",
+    "defence": "Will",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Success: for 1 minute you know your Subject's general direction within 300 feet. Failure: for 1 hour, and whether it is within 300 feet, 1,000 feet or 1 mile. Fumble: 8 hours, 10 miles. Not across planes."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 4,
+        "text": "Multiply the maximum tracking distance by ten",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Grimward",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Insight",
+    "description": "GRIMWARD INSIGHT SAVE\nGrimward Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 60 feet\nTargets Your Subject of Inquisition\nSaving Throw Will\n\nYou establish a sympathetic link between yourself and the Subject you are already pursuing.\nCritical: The target is unaffected.\nSuccess: For 1 minute, you know the target's general direction while it remains within 300 feet.\nFailure: For 1 hour, you know the target's general direction and whether it is within 300 feet, 1,000 feet or 1 mile.\nFumble: As Failure, but the duration is 8 hours, and the range increases to 10 miles.\nThe spell does not reveal an exact square, bypass Line of Effect for other abilities or function across planar boundaries. If the target moves beyond the spell's range, you lose the direction until it returns.\n\nWarping Options:\n+4 PP: Multiply the maximum tracking distance by ten.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QkCFXaAEUJZ747wu"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "fVBIs687Aq7Dkrzf",
+  "name": "Past-Life Echo",
+  "img": "icons/svg/aura.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Action 1 AP</p>\n<p>You allow a fragment of experience from an earlier incarnation to rise into conscious memory. Select one non-specialist skill. Until the end of your next turn, you gain a +2 racial bonus to checks made using that skill and may use actions that normally require at least 1 rank in that skill as though you possessed 1 rank.</p>\n<p>This ability does not grant access to specialist skills, feats or other options with separate prerequisites.</p>\n<p>Use: choose the skill; the +2 racial bonus and the trained-action waiver are applied for two round boundaries, and the Focus use is spent (restored by Refocus).</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "traits": "Concentrate, Focus"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fVBIs687Aq7Dkrzf"
+}

@@ -1,0 +1,82 @@
+{
+  "_id": "HVYcWaE0M2w4Qgdf",
+  "name": "Bloom at the Veil",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Morrai growth, Gravecap Resonance, Level 5",
+    "active": true,
+    "description": "<p>MYRATHI</p>\n<p>You have grown accustomed to the strange place where decomposition, memory and spirit meet.<br>You gain Spirit Sense as a tertiary sense with a range of 15 feet. When you use Search, you can detect the presence and general direction of disembodied spirits, incorporeal undead, haunts and active possession within this range.<br>If you already possess Spirit Sense from another source, increase its range by 15 feet instead.<br>Furthermore, you gain a +1-racial bonus to Recall Knowledge checks concerning spirits, souls, burial practices and the Ancestral Bloom.</p>\n<p>Prerequisites Morrai growth, Gravecap Resonance, Level 5</p>\n<p>Works automatically: Spirit Sense (15 ft, tertiary) is on your senses list — if you already have one, note the +15 ft by hand; +1 racial to Recall Knowledge is offered with the book's wording.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "creatureAbility": {
+        "printedTraits": "",
+        "printedAction": "",
+        "printedArea": "",
+        "derives": {
+          "sense": {
+            "category": "tertiary",
+            "modality": "spiritual",
+            "fixedFeet": 15,
+            "name": "Spirit Sense",
+            "finds": "disembodied spirits, incorporeal undead, haunts and active possession"
+          }
+        },
+        "source": "Pillars of Faith, Chapter 5 (Bloom at the Veil)"
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Bloom at the Veil",
+          "scope": "Recall Knowledge concerning spirits, souls, burial practices and the Ancestral Bloom",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "recallKnowledge"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HVYcWaE0M2w4Qgdf"
+}

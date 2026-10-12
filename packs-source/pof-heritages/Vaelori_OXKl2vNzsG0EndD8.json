@@ -1,0 +1,87 @@
+{
+  "_id": "OXKl2vNzsG0EndD8",
+  "name": "Vaelori",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Vaelori produce specialised spores that assist decomposition, suppress harmful rot and support the health of cultivated fungal networks. They are therefore gardeners, healers and corpse-tenders in equal measure, occupations that Myrathi culture sees as closely related.<br>A Vaelori may spend the morning treating a sick child, the afternoon pruning diseased fungal growth and the evening preparing a body for planting. All three acts are understood as maintaining the health of the same living cycle. Their familiarity with decay can make outsiders uncomfortable, but Vaelori rarely see a contradiction between reverence for life and acceptance of decomposition. To them, one makes the other possible.</p>\n<p>You gain a +1 racial bonus to Medicine checks and gain Purify as a verdant innate spell with the Focus trait.</p>",
+    "sourceRace": "Myrathi",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "Purify",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "apL34XL5JAnyawnk",
+      "name": "Vaelori: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.medicine.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 racial bonus to Medicine checks.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!OXKl2vNzsG0EndD8.apL34XL5JAnyawnk"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OXKl2vNzsG0EndD8"
+}

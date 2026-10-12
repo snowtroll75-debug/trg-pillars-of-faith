@@ -1,0 +1,79 @@
+{
+  "_id": "rJOa0SrTxxocZcPf",
+  "name": "Storm Orchid",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 215,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: storm-lashed coasts and tropical highlands.\n\nStorm orchid clings to wind-bent trees and cliff faces exposed to violent weather. Its blue petals are traced with branching white lines and close an instant before thunder sounds, reopening with a visible spark. The dried petals are burned in a covered censer; their smoke carries the scent of ozone and leaves the skin tingling for several minutes. For 1 hour, you gain resistance to electricity damage.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 5
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Storm Orchid",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "defence",
+              "target": "self",
+              "field": "resistance",
+              "value": "electricity",
+              "note": "(resistance to electricity)"
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: storm-lashed coasts and tropical highlands.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 5,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 215,
+        "tablePrice": 215,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rJOa0SrTxxocZcPf"
+}

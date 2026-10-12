@@ -1,0 +1,69 @@
+{
+  "_id": "D6CYsCDhj64nGJQO",
+  "name": "Death Investigator",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 3 ranks",
+    "active": true,
+    "description": "<p>Bruises, blood patterns and the position of a corpse tell you a story long after the victim has stopped speaking.<br>When using Examine the Dead, reduce the required time from 10 minutes to 1 minute.<br>In addition, when you achieve at least a Success on Examine the Dead, you gain a +1-circumstance bonus to subsequent Perception, Medicine, Survival or appropriate knowledge checks made to investigate the circumstances of that death.</p>\n<p>Prerequisites Medicine 3 ranks</p>\n<p>Works automatically: +1 circumstance is offered on Perception, Medicine and Survival checks with the book's wording; Examine the Dead in 1 minute is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Death Investigator",
+          "scope": "Investigating the circumstances of a death after a successful Examine the Dead",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "perception",
+              "medicine",
+              "survival"
+            ]
+          },
+          "value": 1,
+          "type": "circumstance"
+        }
+      ],
+      "bookCategory": "general"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!D6CYsCDhj64nGJQO"
+}

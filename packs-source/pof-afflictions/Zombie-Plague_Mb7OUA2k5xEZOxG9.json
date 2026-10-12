@@ -1,0 +1,122 @@
+{
+  "_id": "Mb7OUA2k5xEZOxG9",
+  "name": "Zombie Plague",
+  "type": "affliction",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "afflictionType": "disease",
+    "traits": "Disease, Evil, Soul",
+    "level": 0,
+    "savingThrow": "fortitude",
+    "rarity": "common",
+    "rarityModifier": 0,
+    "incubation": "1d4 days",
+    "duration": "Until cured",
+    "maxStage": 5,
+    "stages": [
+      {
+        "effect": "Fatigued 1.",
+        "interval": "1 day",
+        "conditions": [
+          {
+            "key": "fatigued",
+            "value": 1
+          }
+        ],
+        "conditionDuration": "",
+        "damage": "",
+        "damageType": "",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      },
+      {
+        "effect": "Fatigued 2; infection shows around the wound. More susceptible to soul effects: disadvantage on such checks.",
+        "interval": "1 day",
+        "conditions": [
+          {
+            "key": "fatigued",
+            "value": 2
+          }
+        ],
+        "conditionDuration": "",
+        "damage": "",
+        "damageType": "",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      },
+      {
+        "effect": "Fatigued 3; takes soul damage at a rate of 5 per day.",
+        "interval": "1 day",
+        "conditions": [
+          {
+            "key": "fatigued",
+            "value": 3
+          }
+        ],
+        "conditionDuration": "",
+        "damage": "",
+        "damageType": "",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      },
+      {
+        "effect": "Fatigued 4; takes soul damage at a rate of 5 per hour. If it dies from this damage it rises 1d6 hours later as a zombie.",
+        "interval": "1 day",
+        "conditions": [
+          {
+            "key": "fatigued",
+            "value": 4
+          }
+        ],
+        "conditionDuration": "",
+        "damage": "",
+        "damageType": "",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      },
+      {
+        "effect": "Dies, and rises 1d6 hours later as a zombie (applies the Zombie template and begins to feed).",
+        "interval": "1 day",
+        "conditions": [
+          {
+            "key": "dead",
+            "value": null
+          }
+        ],
+        "conditionDuration": "",
+        "damage": "",
+        "damageType": "",
+        "criticalOnFailure": false,
+        "criticalDamageType": "poison"
+      }
+    ],
+    "incubating": true,
+    "currentStage": 0,
+    "description": "<p>Zombie Plague is a terrifying magical disease spread by the bite or claws of the undead, infecting the living with a slow, agonizing transformation into mindless zombies. Victims experience a swift onset of fever and necrosis as the plague ravages their body, sapping their vitality and leaving them in a state of constant decay. If left untreated, the disease inevitably turns the afflicted into one of the walking dead, driven only by a relentless hunger for the flesh of the living. Only powerful magic or immediate intervention can save those stricken with this insidious curse.</p>\n<p>Level (same as the infecting creature); Saving Throw Fortitude; Incubation 1d4 days; Duration Until cured.</p>\n<p>Statistics from Fiends & Fables (Graham, 7 Oct 2026). Spread by Plague Carrier (Unliving Zombie) at the zombie's level. The stage interval is not printed — one day is used, the disease's own rhythm; the soul damage at stages 3 and 4 and the rising as a zombie are the table's (the card says each).</p>",
+    "quantity": 1,
+    "weight": 0,
+    "price": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "pofDisease": true
+    }
+  },
+  "_stats": {
+    "systemId": "trg-prime",
+    "systemVersion": "3.627.0",
+    "coreVersion": "14",
+    "createdTime": 1790000000000,
+    "modifiedTime": 1790000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Mb7OUA2k5xEZOxG9"
+}

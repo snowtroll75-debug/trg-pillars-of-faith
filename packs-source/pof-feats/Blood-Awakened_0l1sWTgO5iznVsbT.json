@@ -1,0 +1,49 @@
+{
+  "_id": "0l1sWTgO5iznVsbT",
+  "name": "Blood Awakened",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 15",
+    "active": true,
+    "description": "<p>FOCUS VESPERYN</p>\n<p>For a few terrible moments the distinction between your living flesh and the vampire lurking within your ancestry becomes dangerously thin.<br>Action 1 AP; Duration 1 minute<br>Your vampiric inheritance fully awakens.<br>For the duration:<br>You gain Fast Healing 1.<br>Your land Speed increases by 5 feet.<br>You gain advantage on Diplomacy, Bluff (Deception) and Demoralise (Intimidate) checks against living humanoids.<br>If you possess a Bite or Fangs natural attack, it is treated as Magical and inflicts an additional 1d6 essence damage once per round when it successfully inflicts HP damage upon a living creature.<br>Your skin becomes deathly pale, your eyes visibly change and your fangs lengthen while Blood Awakened is active. These manifestations cannot be convincingly concealed without magic.<br>Be aware that this ability does not grant the Unliving or Undead trait and does not grant the full immunities, Drink Blood ability or other abilities of an Unliving Vampire.</p>\n<p>Prerequisites Level 15</p>\n<p>Use (1 AP, Focus): a one-minute effect — +5 ft Speed on your sheet, advantage on Diplomacy, Bluff and Demoralise against living humanoids offered, Fast Healing 1 and the Fangs rider as notes on the card.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Vesperyn",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Focus",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0l1sWTgO5iznVsbT"
+}

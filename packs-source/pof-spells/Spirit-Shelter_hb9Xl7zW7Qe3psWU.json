@@ -1,0 +1,93 @@
+{
+  "_id": "hb9Xl7zW7Qe3psWU",
+  "name": "Spirit Shelter",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 1,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "defence",
+        "target": "targets",
+        "field": "resistance",
+        "value": "essence",
+        "note": "Spirit Shelter"
+      },
+      {
+        "kind": "note",
+        "text": "The first time the target would gain Soul Drain during the duration, reduce the amount by 5 (minimum 0); that protection is then spent (twice with the +4 PP warp). The essence resistance stays."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Affect one additional willing creature",
+        "mods": {
+          "extraTargets": 1
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "The Soul Drain protection can activate twice before being expended",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Shaman",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": false,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Soul, Warding",
+    "description": "SHAMAN SOUL UTILITY WARDING\nShaman Specialist Spell\nCast 1 AP (somatic)\nRange 30 feet\nTargets 1 willing creature\nDuration 1 minute\n\nA protective spirit folds its presence around the target.\nThe target gains Resistance to essence damage.\nIn addition, the first time during the duration that the target would gain Soul Drain, reduce the amount gained by 5, to a minimum of 0. The Soul Drain protection is then expended, although the target retains its Resistance to essence damage for the remainder of the spell.\n\nWarping Options:\n+2 PP: Affect one additional willing creature.\n+4 PP: The Soul Drain protection can activate twice before being expended.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hb9Xl7zW7Qe3psWU"
+}

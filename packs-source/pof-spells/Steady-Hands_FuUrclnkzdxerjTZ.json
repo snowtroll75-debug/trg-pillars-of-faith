@@ -1,0 +1,108 @@
+{
+  "_id": "FuUrclnkzdxerjTZ",
+  "name": "Steady Hands",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 1,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "Until the end of the target's next turn",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Steady Hands",
+        "target": "targets",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Steady Hands",
+            "scope": "The next Crafting, Medicine, Nature or Survival check (the skill chosen at the cast) before the end of the target's next turn",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "skill"
+              ],
+              "subjects": [
+                "crafting",
+                "medicine",
+                "nature",
+                "survival"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Target one additional willing creature. All targets receive the same selected skill",
+        "mods": {
+          "extraTargets": 1
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Select two eligible skills. The spell still ends after benefiting one check",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Folkwarden",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Enchantment",
+    "description": "FOLKWARDEN ENCHANTMENT UTILITY\nFolkwarden Specialist Spell\nCast 1 AP (verbal)\nRange 30 feet\nTargets 1 willing creature\nDuration Until the end of the target's next turn\n\nA familiar saying, practical instruction or fragment of inherited wisdom settles the target's nerves and focuses their attention upon the task at hand.\nChoose Crafting, Medicine, Nature or Survival.\nThe target gains a +2-status bonus to the next check it makes using the selected skill before the spell ends.\nThe spell ends after applying its bonus once.\n\nWarping Options:\n+1 PP: Target one additional willing creature. All targets receive the same selected skill.\n+2 PP: Select two eligible skills. The spell still ends after benefiting one check.\n\nPillars of Faith, Chapter 10. Choose Crafting, Medicine, Nature or Survival: +2 status on the target's next check with it — an offered row, removed once used."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FuUrclnkzdxerjTZ"
+}

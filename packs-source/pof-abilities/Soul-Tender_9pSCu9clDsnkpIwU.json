@@ -1,0 +1,65 @@
+{
+  "_id": "9pSCu9clDsnkpIwU",
+  "name": "Soul Tender",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Healer 1st level",
+    "active": true,
+    "description": "<p>Bodies are not the only things that can be wounded. Soul Tenders specialise in the injuries left by possession, necromancy, Soul Drain and supernatural effects that damage the animating essence of a creature.<br>Specialist Skill Soul Lore<br>Mend The Spirit: Whenever one of your spells with the Healing trait restores or removes Soul Drain, increase the amount of Soul Drain removed by 5. You also gain a +2-circumstance bonus to Counteract checks made to end possession or another effect directly controlling or displacing a creature's soul.</p>\n<p>Mend the Spirit — the +2 circumstance bonus is offered on Spellcraft rolls with the book's wording (tick it for a Counteract against possession or soul control); Restorative Hands' Soul Drain relief reads the extra 5 automatically.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Soul Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Mend the Spirit",
+          "scope": "Counteract checks to end possession or an effect controlling or displacing a soul",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "spellcraft"
+            ]
+          },
+          "value": 2,
+          "type": "circumstance"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9pSCu9clDsnkpIwU"
+}

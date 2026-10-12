@@ -1,0 +1,49 @@
+{
+  "_id": "H69nDbgKbXWJ3e15",
+  "name": "Toll of Passage",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Kelvan heritage, Level 5",
+    "active": true,
+    "description": "<p>AUDITORY DIVINITY ESHARI FOCUS</p>\n<p>Your bell does not command the dead. It reminds them that a boundary has been crossed.<br>The range of Sacred Toll increases from 30 feet to 60 feet.<br>In addition to Undead and Unliving creatures, Sacred Toll may target a creature that is actively possessing another creature, provided you are capable of perceiving or otherwise targeting the possessing entity.<br>If such a creature receives a Failure or worse against Sacred Toll, its host gains a +2-status bonus to the next saving throw it makes to resist or end that possession before the end of its next turn.</p>\n<p>Prerequisites Kelvan heritage, Level 5</p>\n<p>A rule for the table: Sacred Toll reaches 60 feet and may target a possessing entity; the host's +2 status on a Failure or worse is queued by Use after the save (target the host).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Auditory, Divinity, Focus",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!H69nDbgKbXWJ3e15"
+}

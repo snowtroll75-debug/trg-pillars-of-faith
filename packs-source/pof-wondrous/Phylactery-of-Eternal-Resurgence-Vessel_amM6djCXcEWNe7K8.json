@@ -1,0 +1,65 @@
+{
+  "_id": "amM6djCXcEWNe7K8",
+  "name": "Phylactery of Eternal Resurgence (Vessel)",
+  "img": "icons/svg/skull.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 2,
+    "price": 0,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 200,
+      "max": 200
+    },
+    "traits": "Invested, Soul, Unique",
+    "description": "<p>INVESTED SOUL UNIQUE</p>\n<p>Level 18; Price -</p>\n<p>Usage soul phylactery; Weight 2 lbs.</p>\n<p>The Phylactery of Eternal Resurgence appears as a finely crafted obsidian amulet, adorned with intricate runes that pulse with dark energy. It emits a faint, ominous glow, hinting at the powerful necromantic magic contained within.</p>\n<p>The phylactery serves as the vessel for the lich's immortal essence, anchoring its soul to the material plane. As long as the phylactery remains intact, the lich cannot be permanently killed. Upon the destruction of the lich's physical form, its essence retreats into the phylactery, which grants the lich Regeneration 1/hour whilst it rebuilds its physical form.</p>\n<p>The phylactery is also able to siphon energy from nearby living creatures within 30 feet. Such creatures may make a Fortitude save to resist this effect. Failure, double the lich’s rate of regeneration with the excess hits inflicting soul drain to the targets.</p>\n<p>The phylactery is extremely resistant to damage having 200 HP and a Hardness of 20. It is also impervious to non-magical weapons.</p>\n<p>The phylactery has magic resistance and is very difficult to detect. Attempts to detect it through magical or mundane means are Incredibly Hard (DC +10).</p>\n<p>The vessel an Unliving Lich's soul is bound to (Pillars of Faith, Chapter 9). 200 HP, Hardness 20, impervious to non-magical weapons, magic resistance; detecting it is Incredibly Hard (DC +10). The lich's own ability, Phylactery of Eternal Resurgence, carries the rebuilding.</p>",
+    "slot": "phylactery",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "itemSize": "T",
+    "itemLevel": 18,
+    "heldHands": 0,
+    "formulae": "",
+    "gearCategory": "Goods",
+    "gearCategoryInferred": true,
+    "hardness": 20
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "wondrous": {
+        "base": "phylactery",
+        "tier": "",
+        "slotInferred": false,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "note",
+            "note": "The lich's soul vessel: 200 HP, Hardness 20, immune to non-magical weapons, magic resistance, Incredibly Hard (DC +10) to detect."
+          }
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!amM6djCXcEWNe7K8"
+}

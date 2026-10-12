@@ -1,0 +1,49 @@
+{
+  "_id": "8jCALX2HuAEXvV71",
+  "name": "Eternal Manifestation",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 15, Eternal Resonance",
+    "active": true,
+    "description": "<p>ALIGNED</p>\n<p>For a moment the mortal shape inherited from your parents gives way to something much older.<br>Action 1 AP<br>Duration 1 minute<br>You partially manifest the Eternal ancestry within you. Your appearance changes dramatically: luminous wings may appear without physical substance, geometric sigils may crawl across your body, your shadow may move independently, or your features may become impossibly symmetrical or disturbing.<br>For the duration, your weapon and unarmed attacks are treated as Magical and gain your aligned trait. Once per round, the first time you inflict HP damage upon a creature, you inflict an additional 1d6 secondary aligned damage matching your heritage. A Balance-Blooded character inflicts Essence damage instead.<br>You also gain the following benefit according to your heritage:<br>Balance You gain Immunity to Mental damage.<br>Chaos You are immune to the Stunned condition.<br>Evil You are immune to Poison and Sleep.<br>Good You are immune to Disease and Poison.<br>Order You are immune to Confusion and Fear.<br>Lightwoven and Seraphel characters use the Good benefit.</p>\n<p>Prerequisites Level 15, Eternal Resonance</p>\n<p>Use (1 AP; the book prints no frequency): a one-minute effect — the aligned immunity for your heritage on your defences, the +1d6 secondary damage as a strike rider (once a round, any Strike), Magical attacks a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Aligned",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8jCALX2HuAEXvV71"
+}

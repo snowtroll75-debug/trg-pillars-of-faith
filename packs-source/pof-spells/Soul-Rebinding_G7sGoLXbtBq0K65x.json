@@ -1,0 +1,93 @@
+{
+  "_id": "G7sGoLXbtBq0K65x",
+  "name": "Soul Rebinding",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditionRelief",
+        "label": "Soul Rebinding",
+        "target": "targets",
+        "condition": "soulDrain",
+        "amount": 5
+      },
+      {
+        "kind": "note",
+        "text": "Or instead: attempt to Counteract one possession or soul-displacing effect (Reassert the Self). Both, with the +4 PP warp; +5 more Soul Drain removed with the other."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 4,
+        "text": "Apply both effects",
+        "mods": {}
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase Soul Drain removed by an additional 5",
+        "mods": {
+          "reliefBump": 5
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Healer",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Healing, Soul",
+    "description": "HEALER HEALING SOUL UTILITY\nHealer Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nTargets 1 willing creature\n\nYou reinforce the connection between body, mind and animating soul.\nChoose one effect:\nRestore the Soul: Reduce the target's Soul Drain by 5.\nReassert the Self: Attempt to Counteract one possession effect or magical effect forcibly displacing or controlling the target's soul.\n\nWarping Options:\n+4 PP: Apply both effects.\n+4 PP: Increase Soul Drain removed by an additional 5.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!G7sGoLXbtBq0K65x"
+}

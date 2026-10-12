@@ -1,0 +1,93 @@
+{
+  "_id": "pEFA75YayHAaDoVY",
+  "name": "Hidden Doctrine",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": "10 minutes",
+    "range": "",
+    "area": "",
+    "targets": "One written work containing no more than 20 pages",
+    "duration": "24 hours",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "The pages show your substituted text to everyone but up to six designated readers; Sense Magic shows the document is affected; Counteracting it exposes the original."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Affect up to 100 pages",
+        "mods": {}
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 1 week",
+        "mods": {
+          "durationText": "1 week"
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "The duration becomes unlimited until Counteracted or dismissed",
+        "mods": {
+          "durationText": "unlimited, until Counteracted or dismissed"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Archivist",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Secret, Shadow",
+    "description": "ARCHIVIST SECRET SHADOW UTILITY\nArchivist Specialist Spell\nCast 10 minutes (material, verbal)\nTargets One written work containing no more than 20 pages\nDuration 24 hours\n\nYou conceal the true contents of a written work beneath magically substituted text.\nWhen casting the spell, compose or designate the false wording that will appear in place of the original. Anyone reading the affected pages sees only this substitute text. The original writing is neither erased nor physically altered.\nYou may designate up to six creatures when casting the spell. Those creatures perceive the original text normally.\nSense Magic can reveal that the document is magically affected but does not reveal the concealed writing. Successfully Counteracting Hidden Doctrine exposes the original text.\n\nWarping Options:\n+2 PP: Affect up to 100 pages.\n+2 PP: Increase the duration to 1 week.\n+4 PP: The duration becomes unlimited until Counteracted or dismissed.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!pEFA75YayHAaDoVY"
+}

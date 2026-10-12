@@ -1,0 +1,97 @@
+{
+  "_id": "gW49elQJjlo3XLJN",
+  "name": "Pilgrim Envoy",
+  "img": "icons/svg/book.svg",
+  "type": "background",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Background",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Your journeys began as acts of devotion, carrying you from shrine to shrine and through communities whose customs differed sharply from your own. Along the road you became as much messenger as pilgrim, carrying letters, settling small disputes and explaining one faith to another. You are comfortable travelling with little and speaking respectfully even when you do not share another person's beliefs.</p>\n<p>BONUS FEAT</p>\n<p>Pilgrim's Grace</p>\n<p>SKILL BONUSES</p>\n<p>Culture, Diplomacy, Survival</p>\n<p>SPECIALIST SKILL</p>\n<p>Pilgrimage Lore</p>\n<p>WEALTH</p>\n<p>-1</p>",
+    "grantedFeats": "Pilgrim's Grace",
+    "grantedSpells": "",
+    "skillBonuses": "Culture, Diplomacy, Survival",
+    "specialistSkill": "Pilgrimage Lore",
+    "special": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "",
+    "wealth": "-1"
+  },
+  "effects": [
+    {
+      "_id": "44fcepSdIyhCbxfE",
+      "name": "Pilgrim Envoy: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.culture.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.diplomacy.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.survival.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 class bonus to Culture, Diplomacy, Survival.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!gW49elQJjlo3XLJN.44fcepSdIyhCbxfE"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Pilgrimage Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gW49elQJjlo3XLJN"
+}

@@ -1,0 +1,135 @@
+{
+  "_id": "H1MSBeLtGE1Wn3EC",
+  "name": "Gravewarden's Vigil Coat",
+  "img": "icons/svg/shield.svg",
+  "type": "armour",
+  "system": {
+    "quantity": 1,
+    "weight": 24,
+    "price": 9030,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 60,
+      "max": 60
+    },
+    "traits": "Anchored Soul, Expert, Full, Metal, Potency II, Veilwatch",
+    "category": "Medium",
+    "material": "Metal",
+    "isHelmet": false,
+    "dr": 4,
+    "hardness": 0,
+    "penalty": -2,
+    "proficiency": "",
+    "maxDexBonus": 5,
+    "speedPenalty": 0,
+    "itemLevel": 10,
+    "coversTorso": true,
+    "coversArms": true,
+    "coversLegs": true,
+    "description": "The first Vigil Coats were supposedly made for grave custodians who had discovered that the occupants of a cemetery were not always the most dangerous things attempting to enter it.\n\nYou retain the mundane Gravewarden Coat's +1 item bonus to Fortitude saves against airborne disease and inhaled poison. Its Anchored Soul rune protects against possession and soul displacement, while Veilwatch grants Spirit Sense as a tertiary sense with a range of 30 feet.\n\nStatistics: ACP -2; MAX DEX 5; DR 4; DB +2; HP 60; Speed 0.\n\nTraits Anchored Soul, Expert, Full, Metal, Potency II, Veilwatch.\n\nOn the sheet: an Expert Gravewarden Coat with Potency II, Anchored Soul and Veilwatch (Spirit Sense 30 feet, tertiary, on your senses). The coat's +1 item against airborne disease and inhaled poison stands.\n\nPillars of Faith, Chapter 11.",
+    "quality": "expert",
+    "runes": "Potency II, Anchored Soul, Veilwatch",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Gravewarden Coat",
+          "scope": "Fortitude saves against airborne disease and inhaled poison (all components worn)",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "fortitude"
+            ],
+            "traits": [
+              "disease",
+              "poison"
+            ]
+          }
+        },
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Gravewarden Coat",
+          "scope": "Fortitude saves against airborne disease and inhaled poison — tick if this is one",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "subjects": [
+              "fortitude"
+            ],
+            "not": {
+              "traits": [
+                "disease",
+                "poison"
+              ]
+            }
+          }
+        }
+      ],
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 2,
+            "printed": "Potency II"
+          },
+          {
+            "key": "anchoredSoul",
+            "label": "Anchored Soul",
+            "tier": 1,
+            "printed": "Anchored Soul"
+          },
+          {
+            "key": "veilwatch",
+            "label": "Veilwatch",
+            "tier": 1,
+            "printed": "Veilwatch"
+          }
+        ],
+        "runeText": "Potency II, Anchored Soul, Veilwatch",
+        "traits": [
+          "Anchored Soul",
+          "Expert",
+          "Full",
+          "Metal",
+          "Potency II",
+          "Veilwatch"
+        ],
+        "quality": "expert",
+        "material": "metal",
+        "printedItemBonus": 2
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!H1MSBeLtGE1Wn3EC"
+}

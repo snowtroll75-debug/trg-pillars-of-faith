@@ -1,0 +1,49 @@
+{
+  "_id": "IUetxEeOKYCTfHPv",
+  "name": "Restorative Overflow",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 3,
+    "prerequisites": "Healer 3rd level",
+    "active": true,
+    "description": "<p>At 3rd level, your healing can reinforce a creature whose wounds have already closed. When the creature selected for Gift of Healing reaches its maximum Hit Points and some of the triggering healing would be wasted, that creature instead gains temporary Hit Points equal to the unused healing, to a maximum of your Healer level + your Wisdom modifier. These temporary Hit Points last for 1 minute.<br>Be aware, temporary Hit Points from Restorative Overflow do not stack with themselves; use the greater value.</p>\n<p>Works through Gift of Healing's Use: healing past the target's maximum becomes temporary HP (to your level + Wisdom modifier, one minute, higher value kept).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 3
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IUetxEeOKYCTfHPv"
+}

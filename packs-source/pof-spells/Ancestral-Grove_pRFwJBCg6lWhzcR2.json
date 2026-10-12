@@ -1,0 +1,138 @@
+{
+  "_id": "pRFwJBCg6lWhzcR2",
+  "name": "Ancestral Grove",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "verdant",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 12,
+    "castAP": "10 minutes",
+    "range": "",
+    "area": "30-foot radius centred upon a living tree, significant fungal growth or other established natural feature",
+    "targets": "",
+    "duration": "1 hour",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Ancestral Grove",
+        "target": "allies",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Ancestral Grove",
+            "scope": "Will saving throws against Fear, possession and Soul effects while within the grove",
+            "auto": true,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "traits": [
+                "fear",
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Ancestral Grove",
+            "scope": "Will saving throws against Fear, possession and Soul effects while within the grove — tick if this save qualifies",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "not": {
+                "traits": [
+                  "fear",
+                  "soul",
+                  "possession"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "text": "Corpses in the grove do not decay; a willing connected spirit may manifest to be seen, heard and spoken with; hostile possession effects arising inside suffer −2 status to their Counteract or Spellcraft checks."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the radius by 10 feet",
+        "mods": {
+          "areaGrowth": 10
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the duration to 1 day",
+        "mods": {
+          "durationText": "1 day"
+        }
+      },
+      {
+        "ppCost": 6,
+        "text": "Willing spirits manifested through the grove may remain visible and audible for the entire duration without requiring another magical effect",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Plant, Soul, Warding",
+    "description": "PLANT SOUL UTILITY WARDING\nTradition verdant\nCast 10 minutes (material, somatic, verbal)\nArea 30-foot radius centred upon a living tree, significant fungal growth or other established natural feature\nDuration 1 hour\n\nYou awaken the accumulated spiritual memory of a place, creating a temporary sanctuary where the living and the remembered can coexist.\nWithin the grove:\nWilling living creatures gain a +2-status bonus Will saving throws against Fear, possession and effects with the Soul trait.\nCorpses do not naturally decay.\nA willing disembodied spirit connected to the location, the creatures present or remains within the area may manifest sufficiently to be seen, heard and communicated with.\nHostile possession effects originating within the area suffer a -2-status penalty to their Counteract or Spellcraft checks, as appropriate.\nThis manifestation does not compel a spirit to appear, answer questions or remain within the grove. It does not summon a particular deceased creature from another plane.\n\nWarping Options:\n+2 PP: Increase the radius by 10 feet.\n+4 PP: Increase the duration to 1 day.\n+6 PP: Willing spirits manifested through the grove may remain visible and audible for the entire duration without requiring another magical effect.\n\nPillars of Faith, Chapter 10. The +2 status to Will against Fear, possession and Soul effects is a scoped bonus on each willing creature in the grove; the rest is the GM's."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!pRFwJBCg6lWhzcR2"
+}

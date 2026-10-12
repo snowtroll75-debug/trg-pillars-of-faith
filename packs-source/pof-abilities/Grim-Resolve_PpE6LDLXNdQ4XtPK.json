@@ -1,0 +1,91 @@
+{
+  "_id": "PpE6LDLXNdQ4XtPK",
+  "name": "Grim Resolve",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 2,
+    "prerequisites": "Grimward 2nd level",
+    "active": true,
+    "description": "<p>At 2nd level, you gain a +2-class bonus to saving throws against fear, charm, compulsion and possession effects.</p>\n<p>Works automatically: the +2 class bonus is pre-ticked on saves against Fear-, Charm-, Compulsion- and Possession-trait effects, and offered on other saves with the book's wording.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 2
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Grim Resolve",
+          "scope": "Saving throws against fear, charm, compulsion and possession effects",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "fear",
+              "charm",
+              "compulsion",
+              "possession"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        },
+        {
+          "kind": "modifier",
+          "label": "Grim Resolve",
+          "scope": "Saving throws against fear, charm, compulsion and possession effects",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "not": {
+              "traits": [
+                "fear",
+                "charm",
+                "compulsion",
+                "possession"
+              ]
+            }
+          },
+          "value": 2,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PpE6LDLXNdQ4XtPK"
+}

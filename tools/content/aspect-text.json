@@ -1,0 +1,300 @@
+{
+  "ANCESTORS": {
+    "traits": "BALANCE ORDER",
+    "description": [
+      "The aspect of Ancestors represents the unbroken chain between those who came before, those who live now and those who have yet to be born. It is commonly depicted as a robed figure surrounded by countless indistinct faces, each generation fading into the next. Its shrines are rarely grand temples; family crypts, memorial walls, ancestral groves and shelves of carefully preserved names are far more common. Ancestors does not teach unquestioning obedience to the dead. The past is a source of wisdom and obligation, not infallibility."
+    ],
+    "Edicts": "Preserve the names, deeds and lessons of the dead. Honour worthy obligations inherited from those who came before you. Care for burial places, family histories and traditions entrusted to your protection. Learn from ancestral failures as readily as ancestral triumphs. Leave knowledge, security or guidance for those who will follow you.",
+    "Anathema": "Deliberately falsify ancestry or history for personal advantage. Destroy irreplaceable records of the dead without compelling cause. Desecrate graves or ancestral memorials. Invoke ancestral authority to support something you know the ancestor did not believe.",
+    "Suggested Ethics": "Equilibrium, Prudence, Discipline",
+    "Class Skill": "Diplomacy",
+    "Specialist Spells": "Banish Fatigue (1), Guiding Stone (1), Revelation Divine (1), Truthful Words (1), Reincarnated Embrace (7), Renewal's Touch (7), Unity (7), Vigilant Eye (7)",
+    "Bonus Spells": "Guidance (0); Dead Tongue (2); Speak with Dead (6); Death Ward (10)",
+    "Favoured Weapon": "Spear"
+  },
+  "BEAUTY": {
+    "traits": "GOOD",
+    "description": [
+      "Beauty teaches that existence should contain more than survival. Art, music, architecture, graceful movement and the splendour of the natural world can elevate mortal lives and express truths that ordinary language cannot. Beauty is distinguished from Decadence by its desire to create and share rather than merely consume. Common symbols include an open flower, a flawless mirror, a many-stringed instrument and a rising sun reflected through coloured glass."
+    ],
+    "Edicts": "Create or preserve things of genuine beauty. Encourage artistic expression. Protect irreplaceable works of art. Bring beauty into bleak places. Use art and expression to inspire, console or reconcile.",
+    "Anathema": "Destroy a unique work of beauty solely through spite. Deliberately mutilate something simply to make it ugly. Suppress harmless artistic expression to enforce conformity. Coerce another creature's affection or admiration. Excuse cruelty merely because it is aesthetically pleasing.",
+    "Suggested Ethics": "Benevolence, Harmony, Autonomy",
+    "Class Skill": "Artistry",
+    "Specialist Spells": "Revelation Divine (1), Soothing Words (1), Truthful Words (1), Veiled Presence (1), False Arrogance (7), Revealing Glance (7), Unity (7), Veiled Secret (7)",
+    "Bonus Spells": "Light (0); Charm Kind (2); Aura (4); Heroism (6)",
+    "Favoured Weapon": "Sword"
+  },
+  "DECADENCE": {
+    "traits": "CHAOS EVIL",
+    "description": [
+      "Decadence sanctifies appetite without restraint. Wealth exists to be displayed; pleasure exists to be consumed and anything sufficiently desirable justifies the means required to acquire it. Where Beauty creates something worth admiring, Decadence asks who gets to possess it - and why anyone else should be allowed a share.",
+      "Its temples can be magnificent places of feasting, intoxicants, art, gambling and excess, frequently financed by populations that will never cross their doors. Common symbols include overflowing cups, jewelled masks, peacock feathers and fruit split open at the point of ripeness."
+    ],
+    "Edicts": "Pursue extraordinary pleasure and sensation. Conspicuously display wealth or status. Tempt others away from restraint. Turn privilege into personal gratification. Acquire luxuries that others cannot easily possess.",
+    "Anathema": "Practise lasting abstinence from moral conviction when indulgence is readily available. Surrender valuable luxuries without obtaining pleasure, influence or advantage in return. Deny yourself gratification solely because others lack the same opportunity. Destroy something desirable when it could instead be possessed or consumed.",
+    "Suggested Ethics": "Ambition, Deception, Malevolence",
+    "Class Skill": "Deception",
+    "Specialist Spells": "Revelation Divine (1), Soothing Words (1), Song of Despair (1), Veiled Presence (1), False Arrogance (7), Fateful Temptation (7), Unity (7), Veiled Secret (7)",
+    "Bonus Spells": "Charm Kind (2); Enthrall (6); Dominate (14); Deific Presence (18)",
+    "Favoured Weapon": "Sword"
+  },
+  "ENDURANCE": {
+    "traits": "ORDER",
+    "description": [
+      "Endurance venerates perseverance: the ability to continue when comfort, certainty and strength have all begun to fail. Its followers include long-distance pilgrims, soldiers holding impossible positions, labourers, ascetics and ordinary people who refuse to abandon a worthy responsibility simply because it has become difficult. Its symbols are usually practical rather than ornate: an unbroken chain, a weathered standing stone, a boot worn smooth by the road or a candle that has burned almost to its base."
+    ],
+    "Edicts": "Persevere through hardship in pursuit of worthy obligations. Prepare yourself for adversity. Conserve essential resources. Help others endure when their strength falters. Finish responsibilities you have willingly accepted.",
+    "Anathema": "Abandon a solemn duty merely because it becomes difficult. Deliberately weaken someone who depends upon you. Waste essential survival resources while danger remains. Surrender to hardship before reasonable means of continuing have been exhausted.",
+    "Suggested Ethics": "Discipline, Justice, Prudence",
+    "Class Skill": "Athletics",
+    "Specialist Spells": "Banish Fatigue (1), Physical Surge (1), Protective Ward (1), Weapon Surge (1), Devastating Might (7), Resilient Fortitude (7), Stasis (7), Vigilant Eye (7)",
+    "Bonus Spells": "Endure Elements (4); Heroism (6); Deific Enhancement (6); Death Ward (10)",
+    "Favoured Weapon": "Hammer"
+  },
+  "FELLOWSHIP": {
+    "traits": "GOOD",
+    "description": [
+      "The aspect of Fellowship embodies the strength created when individuals willingly stand together. It is the divinity of the shared meal, the neighbour who comes when the bell is rung, the shield wall that closes around the wounded and the stranger offered a place beside the fire. Its most common symbol is an open hearth surrounded by an unbroken circle.",
+      "Fellowship does not demand conformity. A community in which nobody may disagree is merely another form of tyranny. Its faithful are instead taught that differences become strengths when people accept responsibility for one another."
+    ],
+    "Edicts": "Offer reasonable aid to those within your community. Extend hospitality to peaceful strangers. Share burdens that would overwhelm one person alone. Reconcile divisions where possible. Protect those who have been isolated, abandoned or excluded unjustly.",
+    "Anathema": "Betray a companion for personal convenience or profit. Abuse the obligations of hospitality. Deliberately turn a community against an innocent member. Abandon companions in genuine danger when you could reasonably aid them.",
+    "Suggested Ethics": "Altruism, Benevolence, Harmony",
+    "Class Skill": "Diplomacy",
+    "Specialist Spells": "Banish Fatigue (1), Protective Ward (1), Soothing Words (1), Wellspring of Valour (1), Protector's Sphere (7), Resilient Fortitude (7), Unity (7), Vigilant Eye (7)",
+    "Bonus Spells": "Guidance (0); Bless (2); Aid (4); Courage (6)",
+    "Favoured Weapon": "Club"
+  },
+  "HARVEST": {
+    "traits": "BALANCE ORDER",
+    "description": [
+      "Harvest represents the organised relationship between civilisation and the living land: planting, tending, reaping, storing and ensuring that enough remains for the next season. Unlike Nature, it accepts the deliberate cultivation and exploitation of the natural world but demands stewardship rather than exhaustion. Common symbols include sheaves of grain bound with cord, a sickle over a seed, a full granary and a basket divided between ripe produce and seed stock."
+    ],
+    "Edicts": "Cultivate productive land responsibly. Harvest at the proper time. Preserve seed and food for future need. Share essential stores during genuine famine. Respect the labour required to produce food. Leave enough that the cycle can continue.",
+    "Anathema": "Destroy crops without necessity. Knowingly exhaust productive land for short-term gain. Waste a harvest entrusted to you. Hoard essential food during famine purely to watch others suffer. Consume seed stock needed for the next planting without dire necessity.",
+    "Suggested Ethics": "Discipline, Harmony, Prudence",
+    "Class Skill": "Nature",
+    "Specialist Spells": "Banish Fatigue (1), Guiding Stone (1), Physical Surge (1), Soothing Words (1), Element Ward (7), Renewal's Touch (7), Resilient Fortitude (7), Unity (7)",
+    "Bonus Spells": "Goodberry (2); Purify (2); Entangle (4); Wall of Thorns (6)",
+    "Favoured Weapon": "Knife"
+  },
+  "KNOWLEDGE": {
+    "traits": "BALANCE",
+    "description": [
+      "Knowledge venerates understanding obtained through study, observation and honest inquiry. It differs from Revelation because knowledge need not arrive through prophecy or supernatural insight: a carefully maintained ledger, a dissected specimen and a corrected historical record may all be equally sacred. Its symbols include an open book beneath an eye, a lamp beside a stack of tablets and a key laid across a written page."
+    ],
+    "Edicts": "Seek accurate knowledge. Preserve useful records. Investigate before reaching conclusions. Teach knowledge responsibly. Correct dangerous falsehoods. Distinguish evidence from belief or assumption.",
+    "Anathema": "Knowingly falsify scholarship. Destroy unique knowledge merely to monopolise it. Suppress useful truth solely to protect your own status. Deliberately teach something you know to be false. Refuse to correct a dangerous error for which you are responsible.",
+    "Suggested Ethics": "Adaptability, Ambition, Prudence",
+    "Class Skill": "Arcana",
+    "Specialist Spells": "Guiding Stone (1), Revelation Divine (1), Seer's Vision (1), Truthful Words (1), Revealing Glance (7), Unity (7), Veiled Secret (7), Vigilant Eye (7)",
+    "Bonus Spells": "Deific Knowing (2); Augury (4); Divine Vision (8); Commune (10)",
+    "Favoured Weapon": "Club"
+  },
+  "LIFE": {
+    "traits": "GOOD",
+    "description": [
+      "Life venerates vitality itself: birth, health, growth and the stubborn refusal of living things to surrender. Where Mercy concerns compassion and the relief of suffering, Life is concerned more fundamentally with the preservation and flourishing of living beings. Common symbols include a green shoot emerging from cracked stone, a newborn held within an adult palm, a heart encircled by leaves and a spring overflowing its basin."
+    ],
+    "Edicts": "Preserve life where reasonably possible. Heal injury and disease. Protect those giving or sustaining new life. Encourage healthy growth. Oppose needless killing and destruction.",
+    "Anathema": "Kill solely for amusement or convenience. Deliberately spread disease among the innocent. Destroy healthy life without purpose. Withhold readily available lifesaving aid solely through indifference. Deliberately render a healthy creature barren without just cause.",
+    "Suggested Ethics": "Altruism, Benevolence, Harmony",
+    "Class Skill": "Nature",
+    "Specialist Spells": "Banish Fatigue (1), Delayed Respite (1), Soothing Words (1), Wash Away Sin (1), Death's Defiance (7), Reincarnated Embrace (7), Renewal's Touch (7), Unity (7)",
+    "Bonus Spells": "Cure (2); Restoration (2); Remove Disease (6); Resurrection (12)",
+    "Favoured Weapon": "Club"
+  },
+  "MERCY": {
+    "traits": "GOOD",
+    "description": [
+      "Mercy governs compassion offered when vengeance would be easier. Its icons commonly depict an open hand between a raised weapon and a kneeling figure. Followers establish hospices, negotiate surrenders, ransom prisoners, minister to condemned criminals and seek alternatives to suffering wherever those alternatives genuinely exist.",
+      "Mercy is not helplessness. Its priests are permitted to fight, imprison dangerous creatures and even kill when no reasonable means of protecting others remains. The sacred principle is that suffering must never become desirable merely because the victim is an enemy."
+    ],
+    "Edicts": "Relieve suffering where reasonably possible. Accept sincere surrender. Give the repentant an opportunity to make restitution. Heal without demanding that suffering first be deserved. Seek reconciliation where it does not place others in unnecessary danger.",
+    "Anathema": "Torture a creature. Kill a helpless enemy who could safely be spared. Withhold life-saving assistance solely from hatred or vengeance. Inflict unnecessary suffering as punishment. Pretend cruelty is justice merely because the victim has committed wrongdoing.",
+    "Suggested Ethics": "Altruism, Benevolence, Harmony",
+    "Class Skill": "Diplomacy",
+    "Specialist Spells": "Banish Fatigue (1), Delayed Respite (1), Soothing Words (1), Wash Away Sin (1), Death's Defiance (7), Protector's Sphere (7), Renewal's Touch (7), Unity (7)",
+    "Bonus Spells": "Cure (2); Calm (4); Death Ward (10); Resurrection (12)",
+    "Favoured Weapon": "Club"
+  },
+  "MOON": {
+    "traits": "BALANCE",
+    "description": [
+      "The Moon embodies cycles, reflected light, secrecy, dreams and inevitable change. It disappears without dying and returns without resurrection. Lunar faiths commonly govern calendars, nocturnal journeys, dreams, tides, transformation and matters that are revealed only indirectly. Its symbols include the crescent, a silver disk reflected in dark water, a moth before a pale circle and paired masks of waxing and waning faces."
+    ],
+    "Edicts": "Observe and respect natural cycles. Accept necessary change. Guide those who travel in darkness. Keep secrets entrusted to you for worthy reasons. Pay attention to dreams, omens and recurring patterns.",
+    "Anathema": "Demand permanence from something whose nature requires change. Betray an entrusted secret merely for attention or advantage. Deliberately destroy harmless lunar observances. Reject necessary change solely because the familiar is more comfortable.",
+    "Suggested Ethics": "Adaptability, Equilibrium, Prudence",
+    "Class Skill": "Occultism",
+    "Specialist Spells": "Guiding Stone (1), Seer's Vision (1), Shifting Step (1), Veiled Presence (1), Fateful Temptation (7), Revealing Glance (7), Stasis (7), Veiled Secret (7)",
+    "Bonus Spells": "Darkvision (4); Embrace Destiny (4); Augury (4); Divine Vision (8)",
+    "Favoured Weapon": "Knife"
+  },
+  "OATHS": {
+    "traits": "ORDER",
+    "description": [
+      "The aspect of Oaths is the sacred weight of a promise freely given. Its temples serve as courts, neutral meeting places and halls of witness. The aspect is commonly represented by two hands clasped above a hammer, chain or sealed tablet.",
+      "Followers distinguish carefully between an oath and mere words. A promise obtained through deception or supernatural coercion has little sanctity; a vow knowingly and freely undertaken may bind a faithful person more securely than iron."
+    ],
+    "Edicts": "Keep promises you freely and knowingly make. Record important agreements clearly. Witness sacred oaths impartially. Hold powerful individuals to their sworn obligations as firmly as the weak. Speak plainly when establishing the terms of a vow.",
+    "Anathema": "Knowingly break a solemn oath without extraordinary justification. Bear false witness concerning a vow you formally witnessed. Deliberately exploit ambiguous wording to violate the clear intent of your promise. Swear falsely with the intention of deceiving another.",
+    "Suggested Ethics": "Discipline, Justice, Prudence",
+    "Class Skill": "Diplomacy",
+    "Specialist Spells": "Protective Ward (1), Silent Binding (1), Truthful Words (1), Weapon Surge (1), Coercive Retribution (7), Resilient Fortitude (7), Revealing Glance (7), Vigilant Eye (7)",
+    "Bonus Spells": "Command (2); Shield of Faith (2); Consecrate (6); Banishment (10)",
+    "Favoured Weapon": "Hammer"
+  },
+  "OBLIVION": {
+    "traits": "EVIL",
+    "description": [
+      "Oblivion is not merely death. Death ends a life; Oblivion seeks to ensure that nothing meaningful remains afterwards. It is depicted as a featureless figure surrounded by blank tablets, extinguished candles and monuments from which every name has been chiselled away.",
+      "Its followers believe that memory, history and legacy are weaknesses through which the past exercises power over the present. Some seek personal anonymity. Others practise a far more malicious doctrine, destroying the identities and histories of their enemies until even their victories become impossible to remember."
+    ],
+    "Edicts": "Erase the legacies of those you destroy. Undermine institutions sustained only by reverence for their past. Conceal your own true intentions and significance. Demonstrate that names, monuments and reputations are ultimately temporary.",
+    "Anathema": "Seek personal immortality through fame or memorial. Preserve a legacy purely because it is ancient. Restore a deliberately erased history when doing so serves no greater purpose of Oblivion. Allow sentimentality to prevent the destruction of a hated legacy.",
+    "Suggested Ethics": "Deception, Malevolence, Nihilism",
+    "Class Skill": "Deception",
+    "Specialist Spells": "Sickly Ray (1), Silent Binding (1), Song of Despair (1), Veiled Presence (1), False Arrogance (7), Fateful Temptation (7), Stasis (7), Veiled Secret (7)",
+    "Bonus Spells": "Bane (2); Silence (4); Memory Lapse (4); Disintegrate (12)",
+    "Favoured Weapon": "Flail"
+  },
+  "OCEANS": {
+    "traits": "CHAOS",
+    "description": [
+      "The ocean recognises no border drawn upon a map. It nourishes cities, destroys fleets, carries travellers between continents and hides depths no mortal kingdom can truly rule. Followers of Oceans value freedom, adaptability and respect for powers that cannot simply be commanded. Common symbols include a breaking wave, a trident beneath a gull, a spiral shell and a ship beneath a horizon without land."
+    ],
+    "Edicts": "Respect the power and unpredictability of the sea. Aid sailors in genuine peril. Protect free passage across open waters. Adapt rather than stubbornly resist changing circumstances. Take the sea's bounty without destroying its ability to replenish itself.",
+    "Anathema": "Claim absolute ownership over the open ocean. Deliberately pollute a significant body of water. Abandon shipmates to death when rescue is reasonably possible. Violate recognised laws of safe harbour. Destroy marine life solely for amusement.",
+    "Suggested Ethics": "Adaptability, Autonomy, Prudence",
+    "Class Skill": "Survival",
+    "Specialist Spells": "Fluidity (1), Guiding Stone (1), Shifting Step (1), Wellspring of Valour (1), Element Ward (7), Resilient Fortitude (7), Unity (7), Vigilant Eye (7)",
+    "Bonus Spells": "Quench (4); Water Breathing (4); Crashing Torrent (6); Water Walk (6)",
+    "Favoured Weapon": "Spear"
+  },
+  "PAIN": {
+    "traits": "EVIL",
+    "description": [
+      "Pain teaches that suffering strips away pretence. A creature in agony reveals its limits, loyalties and fears. Some adherents are brutal ascetics who deliberately test themselves; others are torturers, inquisitors and sadists who consider another creature's suffering a legitimate instrument of control. Its symbols include a barbed chain, a bloodied nail, a thorned circle and an eye held open by hooks."
+    ],
+    "Edicts": "Endure pain without allowing it to master you. Use suffering to expose weakness or enforce obedience. Ensure serious injuries inflicted upon you are answered. Regard scars as evidence of lessons learned. Inflict punishment upon those who defy your authority.",
+    "Anathema": "Show mercy merely because another creature suffers. Flee necessary pain when your purpose demands endurance. Allow a grave injury against you to pass entirely unanswered. Inflict meaningless suffering when it could instead serve punishment, intimidation or instruction.",
+    "Suggested Ethics": "Ambition, Discipline, Malevolence",
+    "Class Skill": "Intimidate",
+    "Specialist Spells": "Physical Surge (1), Reaper's Resonance (1), Sickly Ray (1), Song of Despair (1), Coercive Retribution (7), Devastating Might (7), False Arrogance (7), Resilient Fortitude (7)",
+    "Bonus Spells": "Delay Pain (4); Death Knell (4); Enervation (12); Symbol of Pain (12)",
+    "Favoured Weapon": "Flail"
+  },
+  "PILGRIMAGE": {
+    "traits": "CHAOS GOOD",
+    "description": [
+      "Pilgrimage teaches that faith which never leaves home is faith that has never been tested. The aspect is represented by a weathered traveller carrying a staff beneath an endless road or a doorway opening upon a distant horizon. Its roadside shrines are often maintained by travellers rather than priests.",
+      "The journey is more important than simply reaching a destination. Pilgrims are expected to encounter unfamiliar peoples, question assumptions, carry stories between communities and discover that sacred things rarely remain confined within temple walls."
+    ],
+    "Edicts": "Undertake meaningful journeys. Protect travellers and sacred roads. Respect the customs of communities through which you pass. Carry useful knowledge between distant peoples. Offer hospitality to peaceful travellers when able.",
+    "Anathema": "Prevent harmless travel merely to exercise control. Desecrate a waystone, roadside shrine or recognised place of shelter. Refuse reasonable aid to a traveller in genuine distress. Demand that another culture practise your faith exactly as it is practised at home.",
+    "Suggested Ethics": "Autonomy, Benevolence, Adaptability",
+    "Class Skill": "Survival",
+    "Specialist Spells": "Fluidity (1), Guiding Stone (1), Shifting Step (1), Wellspring of Valour (1), Element Ward (7), Resilient Fortitude (7), Unity (7), Vigilant Eye (7)",
+    "Bonus Spells": "Long Stride (4); Air Walk (6); Water Walk (6); Find the Path (12)",
+    "Favoured Weapon": "Club"
+  },
+  "PROTECTION": {
+    "traits": "GOOD ORDER",
+    "description": [
+      "Protection represents the sacred obligation to stand between danger and those who cannot safely face it themselves. Its followers build walls, maintain sanctuaries, watch through the night and regard preparedness as an expression of devotion. Protection is not dominion: a prison does not become a sanctuary merely because its jailer claims to know what is best. Common symbols include a tower behind a shield, two hands cupped around a flame and an open doorway beneath a watchful eye."
+    ],
+    "Edicts": "Protect those entrusted to your care. Create and maintain places of safety. Prepare for foreseeable dangers. Defend refuges and sanctuaries. Place yourself between serious harm and those unable to defend themselves.",
+    "Anathema": "Abandon someone entrusted to your protection merely to avoid personal risk. Deliberately expose innocents to danger. Destroy a sanctuary without necessity. Use protection as a pretext to imprison or dominate those who pose no threat.",
+    "Suggested Ethics": "Benevolence, Discipline, Justice",
+    "Class Skill": "Perception",
+    "Specialist Spells": "Protective Ward (1), Radiant Aegis (1), Sacrificing Shield (1), Wellspring of Valour (1), Protector's Sphere (7), Resilient Fortitude (7), Unity (7), Vigilant Eye (7)",
+    "Bonus Spells": "Shield of Faith (2); Sanctuary (2); Aura (4); Death Ward (10)",
+    "Favoured Weapon": "Spear"
+  },
+  "PURIFICATION": {
+    "traits": "GOOD ORDER",
+    "description": [
+      "Purification embodies the removal of that which has corrupted something from its proper state: poison from blood, disease from flesh, curses from souls and desecration from sacred places. It is usually represented as white flame, flowing water or a silver vessel from which darkness is being washed away.",
+      "Its better traditions are careful to distinguish corruption from difference. A person, race, culture or belief is not impure merely because it is unfamiliar. Purification concerns harmful intrusion and supernatural corruption, not persecution disguised as holiness."
+    ],
+    "Edicts": "Cleanse disease, poison, curses and supernatural corruption. Restore desecrated sacred places. Destroy dangerous spiritual contamination. Keep medical, funerary and ritual practices clean. Identify corruption accurately before attempting to purge it.",
+    "Anathema": "Deliberately spread disease, poison or supernatural corruption. Desecrate something sacred merely to demonstrate power. Describe an innocent people as corruption in order to justify persecution. Preserve a dangerous contaminating influence when you could safely remove it.",
+    "Suggested Ethics": "Benevolence, Discipline, Justice",
+    "Class Skill": "Perception",
+    "Specialist Spells": "Protective Ward (1), Radiant Aegis (1), Spoil the Profane (1), Wash Away Sin (1), Purge the Unlife (7), Renewal's Touch (7), Revealing Glance (7), Searing Burst (7)",
+    "Bonus Spells": "Purify (2); Restore Senses (4); Remove Disease (6); Remove Curse (8)",
+    "Favoured Weapon": "Flail"
+  },
+  "REVELATION": {
+    "traits": "BALANCE",
+    "description": [
+      "Revelation represents the moment hidden understanding becomes visible. Prophecy, recovered scripture, exposed deception and sudden spiritual insight all fall beneath its gaze. The aspect is traditionally shown as an open eye emerging from a closed book or a lamp illuminating writing that was previously invisible.",
+      "Revelation teaches that truth is valuable precisely because it can be uncomfortable. Its followers therefore distrust prophets who demand belief without examination just as strongly as authorities who suppress inconvenient discoveries."
+    ],
+    "Edicts": "Seek hidden truths. Test prophecy against evidence wherever possible. Expose deliberate falsehoods that cause meaningful harm. Preserve genuine revelations for later study. Accept uncomfortable knowledge rather than rejecting it because it challenges existing belief.",
+    "Anathema": "Knowingly falsify prophecy or revelation. Suppress an important truth solely because it is inconvenient to you. Demand unquestioning obedience to an untested vision. Destroy genuine evidence to protect an established doctrine from criticism.",
+    "Suggested Ethics": "Ambition, Prudence, Adaptability",
+    "Class Skill": "Perception",
+    "Specialist Spells": "Guiding Stone (1), Revelation Divine (1), Seer's Vision (1), Truthful Words (1), Fateful Temptation (7), Revealing Glance (7), Unity (7), Vigilant Eye (7)",
+    "Bonus Spells": "Guidance (0); Augury (4); Divine Vision (8); Commune (10)",
+    "Favoured Weapon": "Sword"
+  },
+  "SACRIFICE": {
+    "traits": "GOOD",
+    "description": [
+      "Sacrifice is the principle that some things are worth more than personal comfort, wealth or safety. It is represented by an empty cup, a shield split by a blow intended for another, or a candle burning itself away to provide light.",
+      "The aspect does not teach that suffering is inherently virtuous. A meaningless death serves nobody. True sacrifice requires that something of value is willingly surrendered so that another person, community or principle may endure.",
+      "-314700"
+    ],
+    "Edicts": "Accept reasonable personal hardship to protect those who depend upon you. Give from your own resources when doing so can meaningfully relieve suffering. Place yourself between danger and those unable to defend themselves when circumstances permit. Honour those who knowingly gave something precious for others.",
+    "Anathema": "Force another person to make a sacrifice you refuse to make yourself. Glorify pointless suffering or needless death. Exploit another's selflessness for personal gain. Abandon someone solely to avoid a reasonable personal cost when you could meaningfully save them.",
+    "Suggested Ethics": "Altruism, Benevolence, Justice",
+    "Class Skill": "Occultism",
+    "Specialist Spells": "Banish Fatigue (1), Protective Ward (1), Sacrificing Shield (1), Wellspring of Valour (1), Death's Defiance (7), Protector's Sphere (7), Resilient Fortitude (7), Unity (7)",
+    "Bonus Spells": "Shield (2); Aid (4); Courage (6); Death Ward (10)",
+    "Favoured Weapon": "Flail"
+  },
+  "UNDEATH": {
+    "traits": "EVIL ORDER",
+    "description": [
+      "Undeath rejects the idea that mortality possesses any inherent sanctity. Flesh fails; memory fades and kingdoms collapse because mortals permit death to erase what they have built. Followers of Undeath seek permanence through necromancy, discipline and mastery over the dead. The most sophisticated traditions establish rigid hierarchies in which intelligent undead rule, lesser undead serve and mortal life is regarded as an unfinished state. Its symbols include an extinguished candle that continues to cast light, an hourglass containing unmoving sand and a crowned skull bearing an open third eye.",
+      "Selecting the Aspect of Undeath does not grant the Undead or Unliving trait, nor any of the abilities presented in Chapter 8. It is a doctrine and source of divine devotion, not a transformation."
+    ],
+    "Edicts": "Master the principles of undeath and necromancy. Preserve valuable knowledge, authority and ability beyond mortal death. Bring lesser undead under disciplined control. Restrain hunger and other instincts that threaten established order. Support the deliberate pursuit of deathless existence.",
+    "Anathema": "Destroy a useful or sanctioned undead creature merely because it is undead. Permit uncontrolled undead to threaten an established community. Willingly surrender deathlessness without compelling purpose. Create undead recklessly without provision for their control. Teach restricted necromantic rites to those incapable of properly controlling what they create.",
+    "Suggested Ethics": "Ambition, Discipline, Malevolence",
+    "Class Skill": "Occultism",
+    "Specialist Spells": "Reaper's Resonance (1), Sickly Ray (1), Touch of Undeath (1), Veiled Presence (1), Fateful Temptation (7), Stasis (7), Unliving Vitality (7), Veiled Secret (7)",
+    "Bonus Spells": "Detect Undead (0); Dead Tongue (2); Create Undead (4); Deathless (10)",
+    "Favoured Weapon": "Polearm"
+  },
+  "THE VEIL": {
+    "traits": "BALANCE ORDER",
+    "description": [
+      "The Veil represents the boundary separating embodied life from spirits, souls and the dead. It is neither an aspect of death nor an enemy of spirits. Instead, it governs proper passage and proper boundaries. Its symbol is usually a closed gate beneath a pale moon, a curtain divided by a single vertical line, or two hands almost - but not quite - touching.",
+      "Followers include funeral attendants, exorcists, mediums and guardians of haunted places. They are taught that speaking with the dead is not the same as imprisoning them and that willing spiritual communion must never be confused with possession."
+    ],
+    "Edicts": "Protect the boundary between living creatures and intrusive spirits. Help the dead pass on when they genuinely seek release. Distinguish willing communion from possession. Treat corpses and lingering souls with appropriate respect. Resolve haunts by understanding their cause where possible.",
+    "Anathema": "Bind an unwilling soul for convenience. Force possession upon another creature. Desecrate remains solely for amusement or profit. Prevent a willing spirit from departing merely because you wish to continue speaking with it.",
+    "Suggested Ethics": "Equilibrium, Discipline, Prudence",
+    "Class Skill": "Occultism",
+    "Specialist Spells": "Guiding Stone (1), Reaper's Resonance (1), Revelation Divine (1), Silent Binding (1), Purge the Unlife (7), Reincarnated Embrace (7), Revealing Glance (7), Vigilant Eye (7)",
+    "Bonus Spells": "Detect Undead (0); Hide from Undead (2); Speak with Dead (6); Death Ward (10)",
+    "Favoured Weapon": "Knife"
+  },
+  "WRATH": {
+    "traits": "CHAOS EVIL",
+    "description": [
+      "Vengeful Cataclysm is the divine embodiment of wrath unbound, an aspect that revels in the chaos of destruction and the passionate purge of all that is weak or corrupt. Often depicted as a towering, horned figure shrouded in storm-tossed flames and crackling energy, this aspect wields an ever-burning weapon that scorches the heavens and the earth alike. Symbols associated with Vengeful Cataclysm include shattered chains, scorched sigils, blazing infernos, and swirling tempest clouds - all representing the endless cycle of ruin and renewal wrought by uncontrolled anger."
+    ],
+    "Edicts": "Followers of Vengeful Cataclysm must embrace and channel their inner wrath to dismantle institutions of order and complacency, seeking out and inciting disorder wherever they find stagnant authority or oppression. They are commanded to show no mercy to those who exhibit weakness, indecision, or hypocrisy, for such failings make one unworthy of divine favour. Justice must be swift and absolute, delivering unrelenting retribution upon any who defy or betray the principles of unyielding wrath.",
+    "Anathema": "It is anathema to show mercy or restraint in battle, as hesitation or kindness in the face of the enemy is a betrayal of divine principles. Followers must never submit to laws, traditions, or any form of organized control, for yielding to order contradicts the very essence of chaotic retribution. To negotiate with enemies, compromise, or temper one's wrath for the sake of diplomacy is to reject the fundamental truth that true change comes only through destruction and renewal.",
+    "Suggested Ethics": "Anarchy, Malevolence, Nihilism",
+    "Class Skill": "Athletics",
+    "Specialist Spells": "Arc of Fire (1), Banish Fatigue (1), Deflect Flame (7), Devastating Might (7), Physical Surge (1), Resilient Fortitude (7), War Cry (7), Weapon Surge (1)",
+    "Bonus Spells": "Orb of Fire (0); Burning Hands (2); Fireball (6); Wall of Fire (8)",
+    "Favoured Weapon": "Hammer"
+  }
+}

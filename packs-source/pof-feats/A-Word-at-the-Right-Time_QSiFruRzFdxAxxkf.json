@@ -1,0 +1,49 @@
+{
+  "_id": "QSiFruRzFdxAxxkf",
+  "name": "A Word at the Right Time",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5, Practical Counsel",
+    "active": true,
+    "description": "<p>FLOURISH FOLKWARDEN</p>\n<p>Experience is most useful when it reaches someone a moment before they make the mistake.<br>Action Reaction; Trigger An ally within 30 feet attempts a skill check that you could reasonably assist using Practical Counsel.<br>You may immediately make the appropriate Aid check using Practical Counsel, even if you had not previously declared that you were assisting.<br>Your advice must be capable of being communicated quickly enough to matter. If it is verbal, the ally must be able to hear and understand you.<br>This feat cannot be used with Aid Offensive, Aid Defensive or to substitute knowledge for an attack roll.</p>\n<p>Prerequisites Level 5, Practical Counsel</p>\n<p>A rule for the table: Aid as a Reaction through Practical Counsel.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Flourish, Folkwarden",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QSiFruRzFdxAxxkf"
+}

@@ -1,0 +1,72 @@
+{
+  "_id": "ic0uINSWoq8ov6bZ",
+  "name": "Pilgrim's Coat",
+  "img": "icons/svg/shield.svg",
+  "type": "armour",
+  "system": {
+    "quantity": 1,
+    "weight": 6,
+    "price": 90,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 15,
+      "max": 15
+    },
+    "traits": "",
+    "category": "Light",
+    "material": "",
+    "isHelmet": false,
+    "dr": 1,
+    "hardness": 0,
+    "penalty": 0,
+    "proficiency": "",
+    "maxDexBonus": 8,
+    "speedPenalty": 0,
+    "itemLevel": 1,
+    "coversTorso": true,
+    "coversArms": false,
+    "coversLegs": false,
+    "description": "A long reversible travelling coat with concealed pockets, removable insignia and hidden loops for religious jewellery. When the wearer uses Conceal Faith, they gain a +1-item bonus provided that any physical evidence of their actual faith is small enough to be hidden within the coat. It cannot conceal supernatural evidence or an object too large to hide.\n\nOn the sheet: +1 item is offered on Conceal Faith while the coat is worn.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Pilgrim's Coat",
+          "scope": "Conceal Faith, when the evidence of your faith is small enough to hide in the coat",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "concealFaith"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ic0uINSWoq8ov6bZ"
+}

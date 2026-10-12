@@ -1,0 +1,49 @@
+{
+  "_id": "dVfA1AB2IZfGKbup",
+  "name": "Chain of Evidence",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>GRIMWARD</p>\n<p>One clue leads to another, and eventually the creature at the end of the chain becomes clearer than if it stood before you.<br>When using Reconstruct Target, reduce the Study Target time by one step: 10 minutes becomes 1 minute, 1 minute becomes 3 AP, and 3 AP becomes 2 AP.<br>You must still possess sufficient evidence to identify the specific individual.</p>\n<p>A rule for the table: Study Target from evidence takes one time step less.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Grimward",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dVfA1AB2IZfGKbup"
+}

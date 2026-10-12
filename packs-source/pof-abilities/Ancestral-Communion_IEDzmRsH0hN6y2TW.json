@@ -1,0 +1,39 @@
+{
+  "_id": "IEDzmRsH0hN6y2TW",
+  "name": "Ancestral Communion",
+  "img": "icons/svg/aura.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Action 1 AP</p>\n<p>You quiet your own thoughts and allow inherited fragments of memory to surface. The next Recall Knowledge check you attempt before the end of your next turn gains advantage.</p>\n<p>Ancestral Communion does not allow you to attempt a check that would otherwise be impossible, nor does it grant knowledge that could never have been possessed by the Myrathi or their ancestors.</p>\n<p>Use: spends 1 AP in combat and the ability's Focus use (restored by Refocus), and puts the advantage on your next Recall Knowledge check automatically.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "traits": "Concentrate, Focus"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IEDzmRsH0hN6y2TW"
+}

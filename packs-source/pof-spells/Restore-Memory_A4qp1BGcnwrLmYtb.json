@@ -1,0 +1,81 @@
+{
+  "_id": "A4qp1BGcnwrLmYtb",
+  "name": "Restore Memory",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 12,
+    "castAP": "10 minutes",
+    "range": "touch",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Attempt a separate Counteract against each magical effect suppressing, erasing, replacing or altering the target's memories or identity — roll each from Spellcraft."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 4,
+        "text": "Target one additional willing creature",
+        "mods": {
+          "extraTargets": 1
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Healing, Insight, Mental, Soul",
+    "description": "HEALING INSIGHT MENTAL SOUL UTILITY\nTradition divinity\nCast 10 minutes (somatic, verbal)\nRange touch\nTargets 1 willing creature\n\nYou reconstruct memories and fragments of identity damaged by supernatural interference.\nAttempt to Counteract each magical effect currently suppressing memories, erasing memories, replacing genuine memories with false ones, or altering the target's sense of personal identity. Make a separate Counteract check against each effect.\nA successfully restored memory returns as the target originally experienced it. The spell does not make that memory objectively accurate; mistaken beliefs and imperfect recollection remain mistaken.\nRestore Memory cannot create memories that were never formed or repair purely physical loss of brain function. It also does not automatically reveal that an apparently genuine memory was false unless that false memory was created through an effect successfully Counteracted by the spell.\n\nWarping Options:\n+4 PP: Target one additional willing creature.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!A4qp1BGcnwrLmYtb"
+}

@@ -1,0 +1,97 @@
+{
+  "_id": "Tq7BOYqZkiGQH66u",
+  "name": "Boneglass Monocle",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 3000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Insight, Invested",
+    "description": "Usage worn.\n\nThe lens is made from cloudy translucent material traditionally claimed to be powdered bone fused into glass. Looking through it gives healthy flesh an unsettlingly anatomical appearance.\n\nYou gain a +2-status bonus to Examine the Dead and Perform Autopsy. When examining a corpse, you also gain a +2-status bonus to checks made to identify evidence of disease, poison, possession, magical transformation or supernatural interference with the body.\n\nYou also gain the Read Vital Traces ability:\n\nRead Vital Traces:\n\nActivate Interact (2 AP)\n\nFrequency 1/day\n\nThe monocle reproduces the informational effects of Vital Diagnosis, except the target must be a creature or corpse you can physically examine through the lens. It does not grant the Healer trait or allow access to other Healer Specialist Spells.\n\nOn the sheet: +2 status is pre-ticked on Examine the Dead and Perform Autopsy and offered on other checks over a corpse; Read Vital Traces is Vital Diagnosis as an innate spell, 1/day.\n\nPillars of Faith, Chapter 11.",
+    "slot": "eyes",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 7,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": true,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "spell",
+            "spell": "Vital Diagnosis",
+            "frequency": "daily",
+            "label": "Read Vital Traces",
+            "castAP": 2,
+            "note": "Interact (2 AP); a creature or corpse examined through the lens"
+          }
+        ]
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Boneglass Monocle",
+          "scope": "Examine the Dead and Perform Autopsy",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "examineTheDead",
+              "performAutopsy"
+            ]
+          }
+        },
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Boneglass Monocle",
+          "scope": "Checks to identify evidence of disease, poison, possession, magical transformation or supernatural interference with a corpse",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Tq7BOYqZkiGQH66u"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "9JNIqLWp5E0XjyCa",
+  "name": "Liturgy of Prayer",
+  "img": "icons/svg/upgrade.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Liturgist archetype",
+    "active": true,
+    "description": "<p>CONCENTRATE</p>\n<p>Action 1 AP; Frequency 1/day</p>\n<p>Requirements You have your Liturgical Book available and are able to read or otherwise consult it.</p>\n<p>You rapidly locate a familiar passage, annotation or alternative formulation before invoking a prepared prayer. Select one Divinity spell that you do not currently have memorised, but which is recorded in your Liturgical Book. You may cast this spell immediately (using its normal AP cost). If the spell is not cast before the end of your turn, the ability is wasted.</p>\n<p>Use: spends 1 AP and the day's use, lets you pick a Liturgical Book spell that is not prepared, and marks it prepared so it can be cast now.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Concentrate"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9JNIqLWp5E0XjyCa"
+}

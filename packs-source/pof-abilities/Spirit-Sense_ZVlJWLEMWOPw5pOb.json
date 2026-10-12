@@ -1,0 +1,55 @@
+{
+  "_id": "ZVlJWLEMWOPw5pOb",
+  "name": "Spirit Sense",
+  "img": "icons/svg/aura.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>You possess Spirit Sense as a tertiary sense. When you use Search (Perception), you can detect the presence and general direction of disembodied spirits, incorporeal undead, haunts and active possession within 30 feet. You cannot determine exact location, identity or allegiance through this sense alone. Spirit Sense is blocked by 1 foot of stone, 1 inch of common metal or any thickness of lead.</p>\n<p>Spirit Sense is a tertiary sense; its range is 30 + Wis x 5 feet unless an ability says otherwise (Chapter 1).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "traits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "creatureAbility": {
+        "printedTraits": "",
+        "printedAction": "",
+        "printedArea": "",
+        "derives": {
+          "sense": {
+            "category": "tertiary",
+            "modality": "spiritual",
+            "finds": "disembodied spirits, incorporeal undead, haunts and active possession"
+          }
+        },
+        "source": "Pillars of Faith, Chapter 1"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZVlJWLEMWOPw5pOb"
+}

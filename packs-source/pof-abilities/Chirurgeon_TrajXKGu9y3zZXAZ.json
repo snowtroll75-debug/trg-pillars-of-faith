@@ -1,0 +1,69 @@
+{
+  "_id": "TrajXKGu9y3zZXAZ",
+  "name": "Chirurgeon",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Healer 1st level",
+    "active": true,
+    "description": "<p>You believe supernatural healing should supplement competent medicine rather than replace it. Chirurgeons understand anatomy, blood loss, infection, broken bones and the practical realities of keeping somebody alive when magic is unavailable.<br>Specialist Skill Chirurgery<br>Rapid Care: When you use Treat Wounds, the action takes 1 minute rather than 10 minutes. You also gain a +2-circumstance bonus to Medicine checks made to Administer First Aid or Treat Wounds. The target retains the normal temporary immunity to Treat Wounds.</p>\n<p>Rapid Care — the +2 circumstance bonus is pre-ticked on Administer First Aid and Treat Wounds; Treat Wounds takes 1 minute for you.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Chirurgery",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Rapid Care",
+          "scope": "Administer First Aid and Treat Wounds checks",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "firstAid",
+              "treatWounds"
+            ]
+          },
+          "value": 2,
+          "type": "circumstance"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TrajXKGu9y3zZXAZ"
+}

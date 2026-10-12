@@ -1,0 +1,86 @@
+{
+  "_id": "EtioEICbI0VOrrlU",
+  "name": "Veil Lantern",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 2,
+    "range": "30 feet",
+    "area": "10-foot burst",
+    "targets": "",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Disembodied spirits and incorporeal Undead in the burst are outlined: creatures observing the area perceive their location. Nothing else changes (no identification, no bypassing Incorporeal, no Counteract of unrelated Concealment)."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the radius of the burst by 5 feet",
+        "mods": {
+          "areaGrowth": 5
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Affected spirits cannot benefit from Concealment arising specifically from their spiritual or incorporeal state while they remain within the area",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Shaman",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Light, Spirit",
+    "description": "LIGHT SHAMAN SPIRIT UTILITY\nShaman Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nArea 10-foot burst\nDuration 1 minute\n\nPale light gathers around manifestations that do not fully belong to the physical world.\nDisembodied spirits and incorporeal Undead within the area are outlined by the light. Creatures observing the area can perceive the location of those entities even if they do not possess a sense that would normally detect them.\nVeil Lantern does not remove the Incorporeal trait, allow mundane weapons to harm creatures they could not ordinarily affect, identify a spirit, reveal its allegiance or Counteract Invisibility or Concealment produced by an unrelated effect.\n\nWarping Options:\n+2 PP: Increase the radius of the burst by 5 feet.\n+4 PP: Affected spirits cannot benefit from Concealment arising specifically from their spiritual or incorporeal state while they remain within the area.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!EtioEICbI0VOrrlU"
+}

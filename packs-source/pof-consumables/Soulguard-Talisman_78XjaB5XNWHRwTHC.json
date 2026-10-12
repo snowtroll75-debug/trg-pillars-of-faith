@@ -1,0 +1,63 @@
+{
+  "_id": "78XjaB5XNWHRwTHC",
+  "name": "Soulguard Talisman",
+  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 600,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable, Soul, Warding",
+    "description": "Usage worn. Activate Reaction.\n\nThe small clay tablet is deliberately made fragile. A soul that needs protecting is considered more valuable than the object protecting it.\n\nTrigger You fail a saving throw against possession, Soul Drain or an effect with the Soul trait\n\nBreak the talisman. You reroll the triggering saving throw and must use the second result. The talisman is destroyed regardless of the new result.\n\nOn the sheet: worn (equipped): the moment you fail a save against possession, Soul Drain or a Soul effect you are offered the reroll; the talisman breaks whatever the second result.\n\nPillars of Faith, Chapter 11.",
+    "uses": 1,
+    "activation": "Reaction",
+    "itemLevel": 7
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "consumable": {
+        "kind": "other",
+        "costColumn": "consumable",
+        "hands": 0,
+        "traitOmitsConsumable": false,
+        "saveReroll": {
+          "degrees": [
+            "partial",
+            "failure",
+            "fumble",
+            "blunder"
+          ],
+          "traits": [
+            "possession",
+            "soul drain",
+            "soul"
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!78XjaB5XNWHRwTHC"
+}

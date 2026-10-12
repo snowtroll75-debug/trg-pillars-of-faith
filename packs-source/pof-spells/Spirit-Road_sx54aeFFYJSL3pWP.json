@@ -1,0 +1,84 @@
+{
+  "_id": "sx54aeFFYJSL3pWP",
+  "name": "Spirit Road",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 5,
+    "castAP": "1 minute",
+    "range": "",
+    "area": "",
+    "targets": "",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Requires: you perceived the spirit or a trace of it within 24 hours. You learn its general direction within 1 mile on the same plane — or the direction of the anchor it is bound to."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the range to 10 miles",
+        "mods": {}
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the range to 100 miles",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Shaman",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Insight, Spirit",
+    "description": "INSIGHT SHAMAN SPIRIT UTILITY\nShaman Specialist Spell\nCast 1 minute (somatic, verbal)\n\nRequirements You have personally perceived the specific spirit or a spiritual trace unquestionably connected to it within the previous 24 hours.\nYou reach through the spiritual residue linking an entity to the world.\nIf the spirit is currently within 1 mile and on the same plane, you learn its general direction.\nIf it is not currently within range but remains bound to a specific nearby place, creature or object within 1 mile, you instead learn the general direction of that anchor.\nThe spell does not reveal exact distance, identity beyond what you already know or a path through physical obstacles.\n\nWarping Options:\n+2 PP: Increase the range to 10 miles.\n+4 PP: Increase the range to 100 miles.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sx54aeFFYJSL3pWP"
+}

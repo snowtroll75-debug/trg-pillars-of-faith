@@ -1,0 +1,88 @@
+{
+  "_id": "dd22fA4yA9mGj0OU",
+  "name": "Vesperyn",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>HERITAGE</p>\n<p>The hunger of the grave runs through your blood, but death has never fully claimed you.<br>You gain the Vesperyn trait in addition to the traits granted by your race. You gain Nightvision. If your race already grants Nightvision, you instead gain Darkvision.<br>Whenever you gain a racial feat, you may select either a Vesperyn racial feat or a racial feat normally available to your race, provided you meet its prerequisites.<br>Be aware that despite your unusual heritage, you remain a living creature. The Vesperyn trait does not grant the Undead or Unliving traits, the Shared Unliving Base Mods, vampiric immunities, Drink Blood, Fast Healing, Sunlight Weakness or any other abilities of an Unliving Vampire unless another rule specifically grants them.</p>\n<p>Works automatically: the Vesperyn trait joins your traits and Nightvision (Darkvision if your race already sees in the dark — swap the ability by hand) is granted. Vesperyn racial feats open to you in the racial-feat picker.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Heritage",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Nightvision",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "9EFTMxCRC3P1oiLs",
+      "name": "Vesperyn: trait",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.details.traits",
+          "mode": 2,
+          "value": ", Vesperyn",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Vesperyn trait.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!dd22fA4yA9mGj0OU.9EFTMxCRC3P1oiLs"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dd22fA4yA9mGj0OU"
+}

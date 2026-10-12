@@ -1,0 +1,68 @@
+{
+  "_id": "unNqfBGjV6E8joGI",
+  "name": "Ancestor Spirit",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>Your guide is the surviving presence of someone who lived before you.<br>It might genuinely be one of your ancestors, but blood relationship is unnecessary. Some spirits adopt descendants, apprentices, communities or even complete strangers whose lives somehow continue their unfinished work.<br>Specialist Skill Ancestor Lore<br>Spirit Boon - Borrowed Memory: You gain a +1-class bonus to Recall Knowledge checks. Once per day, when you attempt a Recall Knowledge check using a skill in which you have no ranks, you may treat yourself as having 1 rank in that skill for the purposes of the check. The ancestor does not automatically possess information that could never reasonably have been known to them.<br>Manifestation - Chorus Of The Past: While Manifest Spirit is active, you gain Advantage on Recall Knowledge and Sense Motive checks and a +1-circumstance bonus to Will saving throws.<br>At times, several indistinct ancestral voices may be heard answering alongside your own.</p>\n<p>Borrowed Memory — +1 class is pre-ticked on Recall Knowledge; the once-a-day rank is this ability's tracked use (Use it to spend). Chorus of the Past is what Manifest Spirit applies.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Ancestor Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Borrowed Memory",
+          "scope": "Recall Knowledge checks",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "recallKnowledge"
+            ]
+          },
+          "value": 1,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!unNqfBGjV6E8joGI"
+}

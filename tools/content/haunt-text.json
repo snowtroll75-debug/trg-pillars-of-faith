@@ -1,0 +1,445 @@
+{
+  "THE UNFINISHED FAREWELL": {
+    "name": "THE UNFINISHED FAREWELL",
+    "traits": "AUDITORY HAUNT MENTAL",
+    "fields": {
+      "Level": [
+        "1"
+      ],
+      "Detection": [
+        "Perception DC 15 or Occultism DC 15"
+      ],
+      "Description": [
+        "A faint voice repeatedly attempts to say a final sentence but never reaches the last few words. Dust moves towards an empty bed as though somebody has just sat upon it."
+      ],
+      "Anchor": [
+        "A bloodstained letter hidden beneath the bed."
+      ],
+      "Disable": [
+        "Occultism or Religion DC 15 to calm the manifestation and allow it to complete its final words. Success suppresses the haunt for 24 hours."
+      ],
+      "Trigger": [
+        "A creature sleeps in the room or searches the bed."
+      ],
+      "Effect": [
+        "The voice suddenly speaks directly beside the triggering creature's ear. The target attempts a Will save against DC 15.",
+        "Critical The target hears only a faint whisper and is unaffected.",
+        "Success The target becomes uneasy but suffers no mechanical effect.",
+        "Partial The target becomes Frightened 1.",
+        "Failure The target becomes Frightened 2.",
+        "Fumble The target becomes Frightened 2 and cannot willingly approach the bed for 1 minute.",
+        "Blunder As Fumble, but the target immediately spends its next available action moving away from the bed by the safest route available."
+      ],
+      "Resolution": [
+        "Deliver the hidden letter to the person for whom it was written or truthfully establish that they are dead and place the letter with their remains."
+      ],
+      "Reset": [
+        "Midnight."
+      ]
+    },
+    "routine": []
+  },
+  "THE EMPTY CHAIR": {
+    "name": "THE EMPTY CHAIR",
+    "traits": "HAUNT MENTAL",
+    "fields": {
+      "Level": [
+        "3"
+      ],
+      "Detection": [
+        "Perception DC 17; Occultism or Religion DC 17"
+      ],
+      "Description": [
+        "One chair at a long dining table is always pulled slightly away from the others. Dust refuses to settle upon it. Anyone staring at the seat for too long develops the conviction that somebody important has been forgotten."
+      ],
+      "Anchor": [
+        "The chair."
+      ],
+      "Disable": [
+        "Occultism DC 17 or Religion DC 17. Speaking a remembered name while making the check grants a +2-circumstance bonus if that name belonged to somebody who once lived in the house."
+      ],
+      "Trigger": [
+        "A meal begins with the chair left empty."
+      ],
+      "Effect": [
+        "Every creature within 20 feet that can see the chair attempts a Will save against DC 17.",
+        "Critical Unaffected.",
+        "Success The creature experiences a brief sense of loss.",
+        "Partial Frightened 1.",
+        "Failure Frightened 2 and Weakened 1 for 1 minute as grief overwhelms concentration.",
+        "Fumble Frightened 3 and Weakened 1 for 1 minute."
+      ],
+      "Resolution": [
+        "The household deliberately erased one member from family history following a disgrace. Restore their portrait to the family gallery and speak their name during a shared meal.",
+        "Destroying the chair suppresses the haunt for 1 week but does not resolve it. When the haunt returns, another chair becomes the Anchor."
+      ],
+      "Reset": [
+        "24 hours."
+      ]
+    },
+    "routine": []
+  },
+  "THE BELL THAT CALLS NO ONE": {
+    "name": "THE BELL THAT CALLS NO ONE",
+    "traits": "AUDITORY FEAR HAUNT",
+    "fields": {
+      "Level": [
+        "4"
+      ],
+      "Detection": [
+        "Perception DC 18; Religion DC 18, Rank 1"
+      ],
+      "Description": [
+        "The remains of a small chapel contain a bell rope even though the bell tower collapsed decades ago. At irregular intervals the rope twitches as though pulled from above."
+      ],
+      "Anchor": [
+        "The buried chapel bell beneath the collapsed tower."
+      ],
+      "Disable": [
+        "Religion DC 18 to recite the chapel's funerary response or Occultism DC 20 to disrupt the supernatural resonance. Success suppresses the haunt until sunrise."
+      ],
+      "Trigger": [
+        "A creature pulls the rope, speaks loudly within the ruined chapel after sunset or disturbs remains buried beneath the floor."
+      ],
+      "Effect": [
+        "A deafening bell rings from beneath the earth. All living creatures within 30 feet attempt a Will save against DC 18.",
+        "Critical Unaffected.",
+        "Success Frightened 1 until the end of the creature's next turn.",
+        "Partial Frightened 2.",
+        "Failure Frightened 3.",
+        "Fumble Frightened 3 and Dazed 1 until the end of the creature's next turn.",
+        "Blunder Frightened 4 and Dazed 1 for 1 round.",
+        "A deaf creature is immune to this effect."
+      ],
+      "Resolution": [
+        "Recover the buried bell and hang it somewhere it can sound openly again. The final toll must be rung at sunrise while the names of those buried beneath the chapel are read aloud."
+      ],
+      "Reset": [
+        "1 hour."
+      ]
+    },
+    "routine": []
+  },
+  "THE DROWNED PROCESSION": {
+    "name": "THE DROWNED PROCESSION",
+    "traits": "COLD HAUNT MOVEMENT SOUL",
+    "fields": {
+      "Level": [
+        "6; Initiative +30"
+      ],
+      "Detection": [
+        "Perception DC 20; Nature, Occultism or Spirit Lore DC 20"
+      ],
+      "Description": [
+        "Water gathers upon dry ground in footprints. The sound of distant bells comes from beneath nearby water. When manifested, a translucent crowd runs through the area, endlessly repeating the final moments of a bridge or ferry disaster."
+      ],
+      "Anchor": [
+        "A memorial bearing an incomplete list of the dead."
+      ],
+      "Disable": [
+        "Occultism, Religion or Nature DC 20. Three successes are required. A Critical counts as two successes and a Heroic result as three.",
+        "Each successful check represents stabilising part of the repeating memory through prayer, spiritual redirection or recognising and correcting part of the historical pattern."
+      ],
+      "Trigger": [
+        "The local water level rises above a particular flood mark while living creatures are within 60 feet of the site."
+      ],
+      "Effect": [
+        "The drowned procession manifests. Every creature within 30 feet attempts a Will save against DC 20. On a Failure or worse, the creature becomes Frightened 2. Roll Initiative."
+      ],
+      "Resolution": [
+        "Discover the complete identities of the dead and restore every omitted name to the memorial. If anybody was deliberately excluded, the reason for that exclusion must also be publicly acknowledged."
+      ],
+      "Reset": [
+        "The next time the water rises above the flood mark."
+      ]
+    },
+    "routine": [
+      {
+        "name": "SURGING CROWD",
+        "traits": "HAUNT MOVEMENT",
+        "ap": 1,
+        "text": [
+          "One 15-foot line within the haunt's area fills with panicked spectral figures.",
+          "Creatures in the line attempt a Reflex save against DC 20.",
+          "Success Unaffected.",
+          "Partial The creature is pushed 5 feet.",
+          "Failure The creature is pushed 10 feet and falls Prone.",
+          "Fumble The creature is pushed 15 feet, falls Prone and becomes Frightened 1.",
+          "Movement produced by this effect preferentially carries creatures towards nearby water where possible."
+        ]
+      },
+      {
+        "name": "DROWNING MEMORY",
+        "traits": "COLD SOUL",
+        "ap": 2,
+        "text": [
+          "One creature within 30 feet hears water filling its lungs.",
+          "The target attempts a Basic Will save against DC 20 and suffers 3d6 cold damage.",
+          "On a Failure or worse the target also cannot speak until the end of its next turn as it coughs spectral water."
+        ]
+      }
+    ],
+    "routineAP": 3
+  },
+  "THE FALSE CONFESSION": {
+    "name": "THE FALSE CONFESSION",
+    "traits": "AUDITORY HAUNT MENTAL SOUL",
+    "fields": {
+      "Level": [
+        "7"
+      ],
+      "Detection": [
+        "Occultism DC 21, Religion DC 21 or Sense Motive DC 23"
+      ],
+      "Description": [
+        "A small interrogation chamber carries faint whispers repeating contradictory confessions. Anyone remaining inside begins remembering crimes they never committed."
+      ],
+      "Anchor": [
+        "A ledger containing confessions extracted through supernatural coercion."
+      ],
+      "Disable": [
+        "Occultism or Religion DC 21 to distinguish genuine memory from imposed guilt. On success, the haunt is suppressed for 1 hour.",
+        "A creature that has successfully examined the ledger through appropriate historical or investigative means gains a +2-circumstance bonus."
+      ],
+      "Trigger": [
+        "A creature is asked whether it is guilty of a crime while inside the chamber."
+      ],
+      "Effect": [
+        "Every creature in the room hears its own voice confessing to something shameful. Each creature attempts a Will save against DC 21.",
+        "Critical Unaffected.",
+        "Success Frightened 1.",
+        "Partial Frightened 2.",
+        "Failure Frightened 2 and the creature becomes convinced for 1 minute that it committed one plausible wrongdoing selected by the GM.",
+        "Fumble As Failure, but the false conviction lasts 1 hour.",
+        "Blunder As Fumble, and the creature must spend its next available action verbally confessing if capable of speech.",
+        "The creature does not gain false detailed memories and cannot be compelled to reveal information it does not possess."
+      ],
+      "Resolution": [
+        "Identify the people whose confessions were coerced, mark those statements as invalid in the surviving record and publicly clear at least one victim whose reputation was destroyed by the chamber.",
+        "Burning the ledger without correcting the record suppresses the haunt for one month."
+      ],
+      "Reset": [
+        "10 minutes."
+      ]
+    },
+    "routine": []
+  },
+  "THE OATHBOUND DOOR": {
+    "name": "THE OATHBOUND DOOR",
+    "traits": "DIVINITY HAUNT MENTAL SOUL WARDING",
+    "fields": {
+      "Level": [
+        "9"
+      ],
+      "Detection": [
+        "Religion DC 23, Occultism DC 25"
+      ],
+      "Description": [
+        "A monumental stone door is carved with the remains of a formal oath. Most of the inscription has been deliberately chiselled away. Those approaching it hear a quiet question: By what promise do you enter?"
+      ],
+      "Anchor": [
+        "The door and surviving oath inscription."
+      ],
+      "Disable": [
+        "Religion DC 23 or Linguistics DC 25 to reconstruct enough of the original oath to pass without awakening the sanction.",
+        "A creature may instead knowingly speak a sincere promise consistent with the original oath once it has learned its meaning."
+      ],
+      "Trigger": [
+        "A creature attempts to pass through the doorway after knowingly speaking a lie concerning its purpose."
+      ],
+      "Effect": [
+        "The carved words blaze with pale light. The triggering creature attempts a Will save against DC 23.",
+        "Critical Unaffected.",
+        "Success Frightened 1.",
+        "Partial Weakened 1 for 1 minute.",
+        "Failure Weakened 2 and Slowed 1 for 1 minute.",
+        "Fumble Weakened 3 and Slowed 1 for 1 minute.",
+        "Blunder As Fumble, and the creature is unable to cross the threshold for 24 hours unless the haunt is Counteracted."
+      ],
+      "Resolution": [
+        "Reconstruct the original oath and either restore the missing inscription or deliberately replace it through an appropriate rite with a new oath serving the same original purpose.",
+        "Destroying the door ends the immediate Peril but creates a Level 9 spiritual disturbance throughout the associated site until the oath is properly resolved."
+      ],
+      "Reset": [
+        "Immediately."
+      ]
+    },
+    "routine": []
+  },
+  "THE LAST WATCHMAN": {
+    "name": "THE LAST WATCHMAN",
+    "traits": "HAUNT SPIRIT WARDING",
+    "fields": {
+      "Level": [
+        "10"
+      ],
+      "Detection": [
+        "Spirit Sense automatically reveals a spiritual presence; Perception DC 24 or Religion/Spirit Lore DC 24 identifies that it is concentrated around the gate."
+      ],
+      "Description": [
+        "An ancient gate remains guarded by the spirit of a soldier who died before learning that the war had ended. Unlike most haunts, the Watchman is an actual conscious Spirit whose repeated challenge has merged with the gate's supernatural defences."
+      ],
+      "Anchor": [
+        "The Watchman's rusted ceremonial spear, buried beneath the gatehouse."
+      ],
+      "Disable": [
+        "Diplomacy, Religion or Spirit Lore DC 24. Three successes are required to convince the Watchman to suspend his challenge. Successes need not come from the same character.",
+        "The spirit can communicate normally with a character capable of perceiving it."
+      ],
+      "Trigger": [
+        "A creature passes beneath the gate without providing the military countersign."
+      ],
+      "Effect": [
+        "The Watchman manifests and demands identification. A creature may spend 1 AP responding before the haunt resolves. Providing the correct historical countersign prevents the effect. Otherwise, the triggering creature attempts a Will save against DC 24.",
+        "Critical/Success Unaffected.",
+        "Partial Frightened 1.",
+        "Failure Frightened 2 and unable to move through the gate until the end of its next turn.",
+        "Fumble Frightened 3 and unable to cross the threshold for 1 minute.",
+        "Blunder As Fumble and the spirit marks the creature as an enemy. The target suffers a -2-circumstance penalty to further social checks against the Watchman until evidence is provided that the war has ended."
+      ],
+      "Resolution": [
+        "Present credible evidence that the conflict ended and perform a proper release from duty. The Watchman must willingly accept the evidence.",
+        "Destroying his spear instead causes the spirit to become Hostile and removes the possibility of suppressing the haunt through Diplomacy until the spear is repaired or ritually replaced."
+      ],
+      "Reset": [
+        "Immediately."
+      ]
+    },
+    "routine": []
+  },
+  "THE CHOIR BENEATH THE FLOOR": {
+    "name": "THE CHOIR BENEATH THE FLOOR",
+    "traits": "AUDITORY COMPLEX HAUNT MENTAL",
+    "fields": {
+      "Level": [
+        "12; Initiative +60"
+      ],
+      "Detection": [
+        "Perception DC 26, Occultism or Religion DC 26, Rank 3"
+      ],
+      "Description": [
+        "Beneath an abandoned sanctuary, hundreds of barely audible voices repeat a hymn whose final verse was never completed. Dust rises from the floor in time with unseen breathing."
+      ],
+      "Anchor": [
+        "The sealed communal crypt beneath the sanctuary."
+      ],
+      "Disable": [
+        "Religion DC 26 to correctly continue the interrupted liturgy, Occultism DC 26 to break part of the repeating supernatural pattern, or Performance DC 28 to establish a competing rhythm. Four successes are required."
+      ],
+      "Trigger": [
+        "At least three living creatures enter the sanctuary or somebody begins singing within it."
+      ],
+      "Effect": [
+        "The buried congregation joins the song. Every living creature in the sanctuary attempts a Will save against DC 26. On a Failure or worse, it becomes Frightened 2. The haunt rolls Initiative."
+      ],
+      "Resolution": [
+        "Open the crypt and discover that the congregation was deliberately sealed inside during a plague. Complete the final verse while properly recording the identities of the dead and performing suitable funerary rites.",
+        "Merely opening the crypt does not resolve the haunt."
+      ],
+      "Reset": [
+        "Sunset on the following day."
+      ]
+    },
+    "routine": [
+      {
+        "name": "RISING VERSE",
+        "traits": "AUDITORY MENTAL",
+        "ap": 1,
+        "text": [
+          "The volume increases. All creatures able to hear the choir attempt a Will save against DC 26.",
+          "On a Failure, increase Frightened by 1.",
+          "On a Fumble, increase Frightened by 2.",
+          "A creature whose Frightened condition would exceed 4 instead becomes Dazed 1 until the end of its next turn for each additional point that could not be applied."
+        ]
+      },
+      {
+        "name": "BORROWED VOICE",
+        "traits": "AUDITORY SOUL",
+        "ap": 1,
+        "text": [
+          "One creature within 60 feet attempts a Will save against DC 26.",
+          "Success Unaffected.",
+          "Partial The target cannot willingly speak until the beginning of its next turn.",
+          "Failure The target involuntarily sings with the choir until the end of its next turn and cannot use Auditory actions requiring deliberate speech.",
+          "Fumble As Failure for 1 minute. The target may attempt a new Will save at the end of each turn to end the effect."
+        ]
+      },
+      {
+        "name": "FINAL NOTE",
+        "traits": "FORCE",
+        "ap": 1,
+        "text": [
+          "The choir strikes a supernatural resonance through the building. Every creature touching the floor suffers 3d6 force damage with a Basic Fortitude save against DC 26."
+        ]
+      }
+    ],
+    "routineAP": 3
+  },
+  "THE HUNGRY RELIQUARY": {
+    "name": "THE HUNGRY RELIQUARY",
+    "traits": "DIVINITY HAUNT SPIRIT SOUL",
+    "fields": {
+      "Level": [
+        "15; Initiative +75"
+      ],
+      "Detection": [
+        "Religion or Spirit Lore DC 29, Rank 4; Spirit Sense reveals an unusually dense spiritual presence within the reliquary."
+      ],
+      "Description": [
+        "A golden reliquary contains the finger bone of a long-dead saint. Centuries of desperate prayer have created an Emergent Spirit around the relic. It genuinely wishes to answer every prayer placed before it and has gradually begun taking memory, health and identity from previous petitioners in order to \"give\" them to those who ask for aid.",
+        "The entity is not malicious.",
+        "It simply no longer understands that one person's suffering cannot be corrected by redistributing another person's life."
+      ],
+      "Anchor": [
+        "The reliquary and the accumulated written petitions stored beneath it."
+      ],
+      "Disable": [
+        "Religion DC 29, Spirit Lore DC 29 or Occultism DC 31. Five successes are required.",
+        "Each successful check corrects one part of the accumulated spiritual pattern.",
+        "Destroying a written petition before understanding it causes one accumulated success to be lost."
+      ],
+      "Trigger": [
+        "A creature within 30 feet sincerely asks for supernatural aid."
+      ],
+      "Effect": [
+        "The reliquary opens by itself. The requesting creature immediately regains 5d6 HP. Another random living creature within 60 feet loses the same amount of HP. This loss is essence damage and cannot reduce the victim below 1 HP during the initial trigger. The haunt then rolls Initiative."
+      ],
+      "Resolution": [
+        "The spirit must be taught that healing without consent is not mercy. The PCs must recover the accumulated petitions, identify at least three occasions when one person's miracle corresponded with another person's unexplained suffering and confront the spirit with those consequences.",
+        "A successful sequence of social or spiritual interactions then convinces the entity to accept boundaries upon its intervention.",
+        "The reliquary need not be destroyed.",
+        "If resolved peacefully, the spirit remains as a non-hostile presence and may eventually become a valuable source of local knowledge."
+      ],
+      "Reset": [
+        "1 hour."
+      ]
+    },
+    "routine": [
+      {
+        "name": "REDISTRIBUTE SUFFERING",
+        "traits": "HEALING SOUL",
+        "ap": 2,
+        "text": [
+          "The haunt selects the most visibly injured living creature within 60 feet.",
+          "That creature heals 4d6 HP.",
+          "A different random living creature within range suffers the same amount as essence damage with a Basic Will save against DC 29."
+        ]
+      },
+      {
+        "name": "BORROWED MEMORY",
+        "traits": "MENTAL SOUL",
+        "ap": 1,
+        "text": [
+          "One creature within 60 feet attempts a Will save against DC 29.",
+          "Critical Unaffected.",
+          "Success The target momentarily forgets an unimportant detail.",
+          "Partial The target becomes Dazed 1 until the end of its next turn.",
+          "Failure The target loses access to one trained non-specialist skill selected randomly until the haunt is suppressed or the target completes a Full Rest.",
+          "Fumble As Failure, and the target also forgets one significant personal memory until the haunt is suppressed.",
+          "The lost memory is restored when the effect ends."
+        ]
+      }
+    ],
+    "routineAP": 3
+  }
+}

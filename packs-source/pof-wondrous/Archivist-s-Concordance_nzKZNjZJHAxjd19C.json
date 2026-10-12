@@ -1,0 +1,84 @@
+{
+  "_id": "nzKZNjZJHAxjd19C",
+  "name": "Archivist's Concordance",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 4,
+    "price": 6000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Insight, Invested",
+    "description": "Usage held book; Weight 4 lbs.\n\nEvery Concordance looks unfinished. References continue into empty margins, new indexing tabs appear between pages and passages written in one hand acquire cross-references written in another overnight.\n\nYou gain a +2-status bonus to Religion and Linguistics checks specifically involving sacred texts, doctrine, liturgy or the comparison of religious writings.\n\nA character with Recite from the Text asl gains Perfect Reference:\n\nPerfect Reference:\n\nActivate Free (0 AP)\n\nFrequency 1/day\n\nRequirements You possess Recite from the Text\n\nYou use Recite from the Text as a Free (0 AP) action instead of its normal action cost. All other requirements remain unchanged.\n\nAn Archivist may use the Concordance as their Prayer Book.\n\nOn the sheet: +2 status is offered on Religion and Linguistics about sacred texts; Use (with Recite from the Text) makes the next Recite a Free action (1/day). An Archivist may carry it as their Prayer Book — name it so on the Archivist's Prayer Book ability.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 9,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": false,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "use",
+            "automation": "perfectReference",
+            "activation": "Free (0 AP)",
+            "frequency": "daily",
+            "label": "Perfect Reference",
+            "requiresFeat": "Recite from the Text"
+          }
+        ]
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "status",
+          "label": "Archivist's Concordance",
+          "scope": "Religion and Linguistics checks involving sacred texts, doctrine, liturgy or the comparison of religious writings",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "religion",
+              "linguistics"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nzKZNjZJHAxjd19C"
+}

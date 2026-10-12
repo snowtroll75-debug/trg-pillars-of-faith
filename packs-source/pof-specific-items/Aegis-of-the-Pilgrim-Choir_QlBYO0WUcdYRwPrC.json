@@ -1,0 +1,100 @@
+{
+  "_id": "QlBYO0WUcdYRwPrC",
+  "name": "Aegis of the Pilgrim Choir",
+  "img": "icons/svg/shield.svg",
+  "type": "shield",
+  "system": {
+    "quantity": 1,
+    "weight": 22,
+    "price": 15750,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 68,
+      "max": 68
+    },
+    "traits": "Expert, Potency II, Sanctuary",
+    "dr": 2,
+    "hardness": 0,
+    "brokenThreshold": 0,
+    "proficiency": "",
+    "penalty": -4,
+    "defenceBonus": 3,
+    "category": "heavy",
+    "metal": true,
+    "itemLevel": 12,
+    "shieldBashDamage": "1d6",
+    "shieldBashFumbleDC": 8,
+    "shieldBashDamageType": "bludgeoning",
+    "description": "Every inch of this towering shield bears tiny inscriptions naming roads, hospices, shrines and people who once offered shelter to travellers. No two surviving Aegises bear exactly the same names.\n\nIt retains the Processional Aegis's ability to be planted as a small portable shrine. Appropriate use still grants its normal bonus to Perform Last Rites or Observe Sacred Custom.\n\nStatistics: ACP -4; DB +5; HP 68; DR 2.\n\nTraits Expert, Potency II, Sanctuary.\n\nOn the sheet: an Expert Processional Aegis with Potency II and Sanctuary (press Sanctuary on it: Engage 1 AP, a minute's +2 status aura against Fear, possession, Soul Drain and Soul effects; Refocus restores it). Planting it as a shrine is the base shield's note.\n\nPillars of Faith, Chapter 11.",
+    "quality": "expert",
+    "runes": "Potency II, Sanctuary",
+    "superiorTraits": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 1,
+          "type": "item",
+          "label": "Processional Aegis",
+          "scope": "Perform Last Rites or Observe Sacred Custom while the shield is planted (2 AP; no shield benefits meanwhile)",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "performLastRites",
+              "observeSacredCustom"
+            ]
+          }
+        }
+      ],
+      "specificItem": {
+        "runes": [
+          {
+            "key": "potency",
+            "label": "Potency",
+            "tier": 2,
+            "printed": "Potency II"
+          },
+          {
+            "key": "sanctuary",
+            "label": "Sanctuary",
+            "tier": 1,
+            "printed": "Sanctuary"
+          }
+        ],
+        "runeText": "Potency II, Sanctuary",
+        "traits": [
+          "Expert",
+          "Potency II",
+          "Sanctuary"
+        ],
+        "quality": "expert",
+        "material": "",
+        "printedItemBonus": 2
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QlBYO0WUcdYRwPrC"
+}

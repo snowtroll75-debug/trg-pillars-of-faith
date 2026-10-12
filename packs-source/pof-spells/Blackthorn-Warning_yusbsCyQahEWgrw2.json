@@ -1,0 +1,91 @@
+{
+  "_id": "yusbsCyQahEWgrw2",
+  "name": "Blackthorn Warning",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 1,
+    "range": "touch",
+    "area": "",
+    "targets": "One doorway, window, gate, passage or boundary no wider than 10 feet",
+    "duration": "8 hours",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "You learn when an undesignated creature crosses the boundary (within 1 mile, same plane) — nothing more. Ends after one alert (three with the +2 PP warp)."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "The spell may alert you three times before ending",
+        "mods": {}
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the communication range to 10 miles",
+        "mods": {}
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the duration to 24 hours",
+        "mods": {
+          "durationText": "24 hours"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Folkwarden",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": false,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Insight, Warding",
+    "description": "FOLKWARDEN INSIGHT UTILITY WARDING\nFolkwarden Specialist Spell\nCast 1 AP (material, somatic)\nRange touch\nTargets One doorway, window, gate, passage or boundary no wider than 10 feet\nDuration 8 hours\n\nYou place a sprig of thorn, knotted thread, bent nail, line of chalk or another traditional warning token across a boundary.\nWhen a creature that you did not designate when casting the spell crosses that boundary, you immediately become aware that the ward has been disturbed, provided you are within 1 mile and on the same plane.\nYou learn only that something crossed the boundary. You do not learn its identity, direction of travel, creature type or exact time if you were incapable of perceiving the warning when it occurred.\nTiny animals, insects and harmless environmental movement do not normally trigger the spell unless deliberately used by another creature to test or circumvent the ward.\nBlackthorn Warning ends after alerting you once.\n\nWarping Options:\n+2 PP: The spell may alert you three times before ending.\n+2 PP: Increase the communication range to 10 miles.\n+4 PP: Increase the duration to 24 hours.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!yusbsCyQahEWgrw2"
+}

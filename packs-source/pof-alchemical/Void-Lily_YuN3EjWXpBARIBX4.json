@@ -1,0 +1,83 @@
+{
+  "_id": "YuN3EjWXpBARIBX4",
+  "name": "Void Lily",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 1135,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: planar rifts and regions of magical twilight.\n\nVoid lily grows at planar rifts and in regions caught in permanent twilight. Its symmetrical blossom has alternating black and white petals that open only at dawn and dusk, revealing a centre in which no colour can be seen. Priests and mystics dry the petals separately before recombining them in a ceremonial draught said to reconcile certainty with doubt. You regain 1 Conviction Point, up to your normal maximum. After benefiting from Void Lily, you are temporarily immune to it for 1 week.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 9
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Void Lily",
+          "effects": [
+            {
+              "kind": "tempImmunity",
+              "target": "self",
+              "label": "Void Lily",
+              "length": "7 days"
+            },
+            {
+              "kind": "restore",
+              "target": "self",
+              "resource": "conviction",
+              "amount": 1
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: planar rifts and regions of magical twilight.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 9,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 1135,
+        "tablePrice": 1135,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!YuN3EjWXpBARIBX4"
+}

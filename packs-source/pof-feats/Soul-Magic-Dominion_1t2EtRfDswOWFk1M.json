@@ -1,0 +1,109 @@
+{
+  "_id": "1t2EtRfDswOWFk1M",
+  "name": "Soul-Magic Dominion",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 16",
+    "active": true,
+    "description": "<p>UNLIVING-LICH</p>\n<p>Prerequisites Level 16</p>\n<p>Your mastery of soul-magic hardens into the signature authority of lichdom.</p>\n<p>You gain a +1 racial bonus to Spellcraft checks and spell save DCs for spells with the soul trait. This bonus applies only to your own spellcasting and innate spells.</p>\n<p>Works automatically: +1 racial to Spellcraft checks and spell save DCs for your own spells and innate spells with the Soul trait.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Lich",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "zpeUqEzkxLLteNfn",
+      "name": "Soul-Magic Dominion: Soul-Magic Dominion",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "spellDCBonus": {
+            "label": "Soul-Magic Dominion",
+            "value": 1,
+            "type": "race",
+            "traits": [
+              "soul"
+            ]
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 racial to the save DC of your spells with the Soul trait.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!1t2EtRfDswOWFk1M.zpeUqEzkxLLteNfn"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Soul-Magic Dominion",
+          "scope": "Spellcraft checks for spells with the Soul trait",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "cast",
+              "spellcraft"
+            ],
+            "traits": [
+              "soul"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "unliving",
+      "unlivingGroup": "lich"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1t2EtRfDswOWFk1M"
+}

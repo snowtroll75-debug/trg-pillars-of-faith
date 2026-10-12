@@ -1,0 +1,50 @@
+{
+  "_id": "nrp6PWtq6XSBB20M",
+  "name": "Inquisitor",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Religion 2 ranks, Sense Motive 2 ranks, Non-Grimward",
+    "active": true,
+    "description": "<p>EXPERT</p>\n<p>You have learned to pursue truth methodically, building a case around a particular creature rather than trusting instinct, reputation or accusation.<br>You gain the Inquisition ability.<br>Your Inquisition follows the normal Grimward rules except that you gain a +1-class bonus to the appropriate investigative checks against your Subject rather than the Grimward's normal class bonus.<br>When you select this feat, choose one of the following skills and make it a class skill: Occultism, Religion, Sense Motive or Survival.<br>Finally, you may select feats possessing the Grimward (Expert) trait. You must still meet any other prerequisites, and a feat requiring Judgement cannot be used unless you gain that ability from another source.</p>\n<p>Prerequisites Religion 2 ranks, Sense Motive 2 ranks, Non-Grimward</p>\n<p>Progression Requirements Religion or Sense Motive +10 ranks, chosen when this feat is selected</p>\n<p>Works automatically: Inquisition (Inquisitor) arrives as an ability (Use it to name a Subject — +1 class offered on investigation checks); Use this feat to choose Occultism, Religion, Sense Motive or Survival as a class skill; Grimward class feats open to you.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Expert",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Inquisition (Inquisitor)",
+    "grantedFeats": "",
+    "progressionRequirements": "Religion or Sense Motive +10 ranks, chosen when this feat is selected"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nrp6PWtq6XSBB20M"
+}

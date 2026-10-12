@@ -1,0 +1,50 @@
+{
+  "_id": "ES3swV4DveE0dePN",
+  "name": "Ancestors",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "The aspect of Ancestors represents the unbroken chain between those who came before, those who live now and those who have yet to be born. It is commonly depicted as a robed figure surrounded by countless indistinct faces, each generation fading into the next. Its shrines are rarely grand temples; family crypts, memorial walls, ancestral groves and shelves of carefully preserved names are far more common. Ancestors does not teach unquestioning obedience to the dead. The past is a source of wisdom and obligation, not infallibility.\n\nEdicts: Preserve the names, deeds and lessons of the dead. Honour worthy obligations inherited from those who came before you. Care for burial places, family histories and traditions entrusted to your protection. Learn from ancestral failures as readily as ancestral triumphs. Leave knowledge, security or guidance for those who will follow you.\n\nAnathema: Deliberately falsify ancestry or history for personal advantage. Destroy irreplaceable records of the dead without compelling cause. Desecrate graves or ancestral memorials. Invoke ancestral authority to support something you know the ancestor did not believe.\n\nSuggested Ethics: Equilibrium, Prudence, Discipline\n\nClass Skill: Diplomacy\n\nSpecialist Spells: Banish Fatigue (1), Guiding Stone (1), Revelation Divine (1), Truthful Words (1), Reincarnated Embrace (7), Renewal's Touch (7), Unity (7), Vigilant Eye (7)\n\nBonus Spells: Guidance (0); Dead Tongue (2); Speak with Dead (6); Death Ward (10)\n\nFavoured Weapon: Spear\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Balance, Order",
+    "edicts": "Preserve the names, deeds and lessons of the dead. Honour worthy obligations inherited from those who came before you. Care for burial places, family histories and traditions entrusted to your protection. Learn from ancestral failures as readily as ancestral triumphs. Leave knowledge, security or guidance for those who will follow you.",
+    "anathema": "Deliberately falsify ancestry or history for personal advantage. Destroy irreplaceable records of the dead without compelling cause. Desecrate graves or ancestral memorials. Invoke ancestral authority to support something you know the ancestor did not believe.",
+    "suggestedEthics": "Equilibrium, Prudence, Discipline",
+    "classSkill": "Diplomacy",
+    "favouredWeapon": "Spear",
+    "specialistSpells": "Banish Fatigue, Guiding Stone, Revelation Divine, Truthful Words, Reincarnated Embrace, Renewal's Touch, Unity, Vigilant Eye",
+    "bonusSpells": "1: Guidance, 2: Dead Tongue, 6: Speak with Dead, 10: Death Ward"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Equilibrium",
+        "Prudence",
+        "Discipline"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ES3swV4DveE0dePN"
+}

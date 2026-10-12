@@ -1,0 +1,49 @@
+{
+  "_id": "dzN43y9FhBNgr2ao",
+  "name": "Whisper Network",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Nethri growth",
+    "active": true,
+    "description": "<p>CONCENTRATE MYRATHI</p>\n<p>Your sensory filaments have learned the rhythms of creatures who were never born beneath the Bloom.<br>During your daily preparations, you may spend 10 minutes attuning yourself to a number of willing creatures equal to your Wisdom ability score, minimum 1.<br>Until your next daily preparations, those creatures may participate in the silent communication granted by your Nethri growth while within 60 feet of you. You must still share a language, and the normal restriction concerning complete isolation from the surrounding air remains.</p>\n<p>Prerequisites Nethri growth</p>\n<p>Use at daily preparation: name the creatures attuned (up to your Wisdom, minimum 1) — the card records them until your next choice.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Concentrate",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dzN43y9FhBNgr2ao"
+}

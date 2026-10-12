@@ -1,0 +1,67 @@
+{
+  "_id": "EF9a7NZFj6yVrVLc",
+  "name": "Liturgical Revision",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5, Spell Substitution",
+    "active": true,
+    "description": "<p>ARCHIVIST</p>\n<p>You have reorganized your Prayer Book around patterns of invocation rather than conventional order, allowing one prepared prayer to be replaced with another with remarkable speed.<br>When you use Spell Substitution to replace a memorised Divinity spell with another Divinity spell recorded within your Prayer Book, the time required is reduced from 10 minutes to 1 minute.<br>You also gain a +2-class bonus to the Meditation check made as part of Spell Substitution when both the spell being removed and its replacement are Divinity spells.</p>\n<p>Prerequisites Level 5, Spell Substitution</p>\n<p>Works automatically: +2 class is offered on Meditation with the book's wording; the 1-minute Spell Substitution is a rule for the table.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Archivist",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Liturgical Revision",
+          "scope": "The Meditation check of a Spell Substitution replacing one Divinity spell with another from your Prayer Book",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "meditation"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        }
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!EF9a7NZFj6yVrVLc"
+}

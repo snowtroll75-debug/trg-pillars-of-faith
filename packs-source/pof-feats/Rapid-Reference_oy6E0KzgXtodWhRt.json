@@ -1,0 +1,49 @@
+{
+  "_id": "oy6E0KzgXtodWhRt",
+  "name": "Rapid Reference",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 5",
+    "active": true,
+    "description": "<p>ARCHIVIST</p>\n<p>You can find the relevant passage almost before you realise you need it.<br>Once per round, you may use Recite from the Text as a Free (0 AP) action.<br>When used in this way, the selected spell must have a base PP cost no greater than half your Archivist level. You must still possess and be able to consult your Prayer Book.</p>\n<p>Prerequisites Level 5</p>\n<p>Works through Recite from the Text: once a round its Use may be a Free action (it asks), for a spell of base PP no more than half your level.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Archivist",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oy6E0KzgXtodWhRt"
+}

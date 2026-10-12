@@ -1,0 +1,49 @@
+{
+  "_id": "g5fBF7zNDSEJYp4N",
+  "name": "Shaman Specialist Spell",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Shaman 1st level",
+    "active": true,
+    "description": "<p>At 1st level, you gain one PP 1 Shaman Specialist Spell of your choice.<br>Shaman Specialist Spells will be presented in the Grimoire and concentrate on direct dealings with spirits rather than duplicating Druid magic.<br>Additional Shaman Specialist Spells may be learned through the normal Specialist Spell feat and Shaman class feats.</p>\n<p>Use to choose your PP 1 Shaman Specialist Spell from the Grimoire (Call Minor Spirit, Spirit Rebuke, Spirit Shelter, Spirit Trace, Veil Lantern); Use again to change it.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Shaman",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Shaman",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!g5fBF7zNDSEJYp4N"
+}

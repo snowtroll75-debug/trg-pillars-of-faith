@@ -1,0 +1,69 @@
+{
+  "_id": "D8AehLrZcDEgjgQq",
+  "name": "Autopsy Roll",
+  "img": "icons/svg/chest.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 5,
+    "price": 35,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "",
+    "description": "Fine knives, probes, shears, measuring cord, bone saw and labelled evidence containers. It counts as appropriate tools for Perform Autopsy and grants a +1-item bonus to Examine the Dead and Perform Autopsy.\n\nPillars of Faith, Chapter 6.",
+    "slot": "",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "itemSize": "S",
+    "itemLevel": 1,
+    "heldHands": 0,
+    "formulae": "",
+    "gearCategory": "Kits & Tools",
+    "gearCategoryInferred": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "goodsConditionals": [
+        {
+          "value": 1,
+          "type": "item",
+          "label": "examining or opening a body",
+          "scope": "Examine the Dead and Perform Autopsy",
+          "when": {
+            "actions": [
+              "examineTheDead",
+              "performAutopsy"
+            ]
+          }
+        }
+      ],
+      "toolFor": [
+        "performAutopsy"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!D8AehLrZcDEgjgQq"
+}

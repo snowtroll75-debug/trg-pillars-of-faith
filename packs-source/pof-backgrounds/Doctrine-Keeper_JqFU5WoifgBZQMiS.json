@@ -1,0 +1,97 @@
+{
+  "_id": "JqFU5WoifgBZQMiS",
+  "name": "Doctrine Keeper",
+  "img": "icons/svg/book.svg",
+  "type": "background",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Background",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>You were entrusted with preserving the teachings of a faith: copying approved texts, comparing interpretations and learning which words carried authority within your order. You know that doctrine is rarely as simple as outsiders believe, and that a single disputed line can divide temples, dynasties or nations. Adventure now gives you the chance to test what you learned against a much larger world.</p>\n<p>BONUS FEAT</p>\n<p>Doctrinal Recall</p>\n<p>SKILL BONUSES</p>\n<p>Culture, Linguistics, Religion</p>\n<p>SPECIALIST SKILL</p>\n<p>Canon Lore</p>\n<p>WEALTH</p>\n<p>1</p>",
+    "grantedFeats": "Doctrinal Recall",
+    "grantedSpells": "",
+    "skillBonuses": "Culture, Linguistics, Religion",
+    "specialistSkill": "Canon Lore",
+    "special": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "",
+    "wealth": "1"
+  },
+  "effects": [
+    {
+      "_id": "DuF8sDF4aHE9DsP3",
+      "name": "Doctrine Keeper: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.culture.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.linguistics.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.religion.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 class bonus to Culture, Linguistics, Religion.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!JqFU5WoifgBZQMiS.DuF8sDF4aHE9DsP3"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Canon Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!JqFU5WoifgBZQMiS"
+}

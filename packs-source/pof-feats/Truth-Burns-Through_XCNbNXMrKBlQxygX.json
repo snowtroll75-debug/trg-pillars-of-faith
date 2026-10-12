@@ -1,0 +1,49 @@
+{
+  "_id": "XCNbNXMrKBlQxygX",
+  "name": "Truth Burns Through",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Serel heritage, Unwritten Lie, Level 5",
+    "active": true,
+    "description": "<p>DIVINITY KETHRANI</p>\n<p>Falsehood cannot remain comfortably beside the Verse of Truth.<br>Whenever you achieve a Critical or Heroic result using Detect Deception, you may immediately ask the GM whether one specific statement made by the target during the current conversation was a deliberate lie.<br>The GM answers truthfully based upon what the target believes. This ability does not reveal omitted information, mistaken beliefs, magically altered memories or statements that are technically true but misleading.<br>You may use Truth Burns Through only once against the same creature per hour.</p>\n<p>Prerequisites Serel heritage, Unwritten Lie, Level 5</p>\n<p>A rule for the table: after a Critical or Heroic Detect Deception, ask the GM whether one statement was a deliberate lie.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Divinity",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XCNbNXMrKBlQxygX"
+}

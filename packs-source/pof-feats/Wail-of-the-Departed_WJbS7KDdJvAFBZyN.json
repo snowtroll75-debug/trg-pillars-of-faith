@@ -1,0 +1,54 @@
+{
+  "_id": "WJbS7KDdJvAFBZyN",
+  "name": "Wail of the Departed",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 8, Essence Attacks",
+    "active": true,
+    "description": "<p>AUDITORY FEAR SAVE UNLIVING-GHOST</p>\n<p>Prerequisites Level 8, Essence Attacks</p>\n<p>Your grief tears loose as a keening cry that freezes courage in the living.</p>\n<p>Action: 2 AP</p>\n<p>You emit a sorrowful wail affecting creatures within a 60-foot radius that can hear you. Each affected creature must attempt a Will save. On a failure, it becomes frightened 2. On a fumble, it becomes frightened 4. On a success, the creature is immune to your Wail of the Departed for 1 minute.</p>\n<p>Grants Wail of the Departed as an innate spell-like (2 AP, at will): creatures within 60 feet that can hear you roll Will against your Level DC — Failure frightened 2, Fumble frightened 4, Success immune to your Wail for 1 minute.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Auditory, Fear, Save, Unliving-Ghost",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "Wail of the Departed (Spell-like)",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true,
+      "grantedSpellUses": {
+        "Wail of the Departed (Spell-like)": "unlimited"
+      },
+      "bookCategory": "unliving",
+      "unlivingGroup": "ghost"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!WJbS7KDdJvAFBZyN"
+}

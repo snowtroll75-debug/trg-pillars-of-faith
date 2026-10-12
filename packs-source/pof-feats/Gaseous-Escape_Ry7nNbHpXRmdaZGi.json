@@ -1,0 +1,88 @@
+{
+  "_id": "Ry7nNbHpXRmdaZGi",
+  "name": "Gaseous Escape",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 10",
+    "active": true,
+    "description": "<p>ALTERATION UNLIVING VAMPIRE</p>\n<p>Prerequisites Level 10</p>\n<p>At the brink of destruction your body can dissolve into grave-mist and flee the killing blow.</p>\n<p>Once per day, when you would be reduced to 0 HP, you may immediately become gaseous as if affected by Gaseous Form. This effect occurs before you resolve dying or destruction. You must still obey Sunlight Weakness while gaseous.</p>\n<p>Works automatically: once a day, when a blow would take you to 0 HP, you are asked whether to escape — yes leaves you at 1 HP under Gaseous Form's own effects (10 minutes). Sunlight Weakness still applies.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Alteration, Unliving-Vampire",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "wzn3odAjY7RGvboF",
+      "name": "Gaseous Escape: Gaseous Escape",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "deathGuard": {
+            "label": "Gaseous Escape",
+            "offer": true,
+            "frequency": "daily",
+            "spell": "Gaseous Form"
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Once per day, when you would be reduced to 0 HP, become gaseous as Gaseous Form instead.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!Ry7nNbHpXRmdaZGi.wzn3odAjY7RGvboF"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "vampire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Ry7nNbHpXRmdaZGi"
+}

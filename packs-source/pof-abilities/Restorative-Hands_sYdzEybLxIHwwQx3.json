@@ -1,0 +1,49 @@
+{
+  "_id": "sYdzEybLxIHwwQx3",
+  "name": "Restorative Hands",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Healer 1st level",
+    "active": true,
+    "description": "<p>CONCENTRATE ESSENCE HEALING<br>Action 0 AP (Free)<br>Trigger You or an ally within 10 feet regain Hit Points from a healing spell you cast.<br>You can reduce a condition that is affecting one of the targets of the spell by one. The exact condition affected is based upon the amount of PP that is required to cast the spell:<br>PP 2 reduce the fatigued or sickened condition.<br>PP 4 reduce the dazed or weakened condition.<br>PP 6 reduce the injured condition.<br>PP 8 reduce the soul drain condition by 5.<br>PP 10 reduce the doomed condition by 1.<br>Be aware that a target may only benefit from this ability once per day.</p>\n<p>Use (Free): asks the PP the spell cost and reduces the matching condition on the targeted creature by one (Soul Drain by 5). Once per day per target is yours to track.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "Concentrate, Essence, Healing",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sYdzEybLxIHwwQx3"
+}

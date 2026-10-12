@@ -1,0 +1,66 @@
+{
+  "_id": "eEnLvOocU2yHK1g3",
+  "name": "Stole of Divine Insight IV",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 1,
+    "price": 120000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Alteration, Invested",
+    "description": "Usage worn; Weight 1 lb.\n\nThis long ceremonial stole is woven from soft ivory cloth threaded with gold and marked at either end with symbols representing contemplation, revelation and the watchful eyes of the divine. Although commonly worn by priests, seers and wandering holy folk, no particular faith claims its design. When invested, the cloth settles lightly upon the shoulders and the wearer's awareness seems to extend beyond the immediate senses. Small changes in tone become significant, instinct warns of unseen danger and moments of quiet contemplation reveal truths that reason alone might overlook.\n\nWhen you invest the stole, you gain a status bonus to your Wisdom ability score based upon the items level.\n\nAfter wearing the stole (invested) for 24 hours, it becomes difficult to remove it. If you remove the stole, you gain a status penalty to your Wisdom ability score for the next 24 hours equal to the item’s bonus. This penalty cannot be removed by any means short of a PP 20+ spell.\n\nStole of Divine Insight Iv:\n\nThe status bonus is +4.\n\nOn the sheet: +4 status to Wisdom while invested; worn for 24 hours and then removed, the same penalty follows for 24 hours (the Agile Sash's rail).\n\nPillars of Faith, Chapter 11.",
+    "slot": "shoulders",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 17,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "Stole of Divine Insight",
+        "tier": "IV",
+        "slotInferred": true,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "stat",
+            "value": 4,
+            "bonusType": "status",
+            "stat": "wisdom",
+            "target": "system.attributes.wisdom",
+            "label": "Stole of Divine Insight",
+            "removalPenalty": true
+          }
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!eEnLvOocU2yHK1g3"
+}

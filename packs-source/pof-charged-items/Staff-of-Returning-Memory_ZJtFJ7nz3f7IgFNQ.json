@@ -1,0 +1,92 @@
+{
+  "_id": "ZJtFJ7nz3f7IgFNQ",
+  "name": "Staff of Returning Memory",
+  "img": "icons/svg/oak.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 4,
+    "price": 47000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Insight, Invested, Soul, Staff, Warding",
+    "description": "Usage held in 1 hand; Weight 4 lbs. Power Points 30; Recharge 3 per day.\n\nEvery previous bearer has carved a name somewhere upon the wood. New owners often find names they are certain they recognise but cannot explain why.\n\nYou gain a +2-item bonus to saving throws against magical effects that alter, suppress, erase or replace memory.\n\nActivate Cast a Spell; Effect You expend the required PP to cast a spell from its list.\n\nCraft Requirements Supply one casting of all listed spells at the indicated PP cost\n\nSpells: Hallowed Rest (2 PP), Litany of Remembrance (6 PP), Restore Memory (12 PP).\n\nOn the sheet: a staff: its three spells are cast from the item's PP; +2 item is offered on saves against memory effects while it is held.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 30,
+    "itemSize": "medium",
+    "itemLevel": 15,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "chargedItem": {
+        "kind": "staff",
+        "maximumPP": 30,
+        "flexible": false,
+        "recharge": 3,
+        "printedRecharge": 3,
+        "printedPowerPoints": 30,
+        "correctedFromPrinted": false,
+        "spells": [
+          {
+            "name": "Hallowed Rest",
+            "pp": 2
+          },
+          {
+            "name": "Litany of Remembrance",
+            "pp": 6
+          },
+          {
+            "name": "Restore Memory",
+            "pp": 12
+          }
+        ],
+        "weaponForm": {
+          "base": "Staff",
+          "quality": "standard",
+          "material": "",
+          "runes": ""
+        }
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "value": 2,
+          "type": "item",
+          "label": "Staff of Returning Memory",
+          "scope": "Saving throws against magical effects that alter, suppress, erase or replace memory",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZJtFJ7nz3f7IgFNQ"
+}

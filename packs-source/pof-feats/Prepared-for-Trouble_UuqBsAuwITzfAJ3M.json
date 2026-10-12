@@ -1,0 +1,64 @@
+{
+  "_id": "UuqBsAuwITzfAJ3M",
+  "name": "Prepared for Trouble",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Study Target, Perception 5 ranks",
+    "active": true,
+    "description": "<p>EXPERT</p>\n<p>Knowing what you are hunting means you are rarely surprised when it finally appears.<br>Whenever you roll Initiative and at least one of your Studied Targets is participating in the encounter, you gain a +10-circumstance bonus to Initiative.<br>Furthermore, you may immediately Recall Knowledge concerning one participating Studied Target as a Free (0 AP) action.</p>\n<p>Prerequisites Study Target, Perception 5 ranks</p>\n<p>Works automatically: +10 circumstance to Initiative is offered with the book's wording; the free Recall Knowledge is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Expert",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Prepared for Trouble",
+          "scope": "Initiative when at least one of your Studied Targets is in the encounter",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "initiative"
+            ]
+          },
+          "value": 10,
+          "type": "circumstance"
+        }
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UuqBsAuwITzfAJ3M"
+}

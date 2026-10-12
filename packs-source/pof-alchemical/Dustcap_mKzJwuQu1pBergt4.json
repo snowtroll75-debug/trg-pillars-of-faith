@@ -1,0 +1,100 @@
+{
+  "_id": "mKzJwuQu1pBergt4",
+  "name": "Dustcap",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: underground mines and tunnels.\n\nDustcap is a squat grey mushroom found in abandoned workings and beneath timber supports. Its cap is covered by a dense layer of powder that puffs outward at the slightest vibration, while the fibrous flesh filters impurities from damp cave air. Once rendered harmless and finely milled, a carefully measured pinch coats the nose and throat with a dry protective film. For 30 minutes, you gain a +2-item bonus to Fortitude saves against inhaled poisons and airborne diseases.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Dustcap",
+          "duration": "30 minutes",
+          "effects": [
+            {
+              "kind": "conditional",
+              "label": "Dustcap",
+              "target": "self",
+              "grants": [
+                {
+                  "kind": "modifier",
+                  "value": 2,
+                  "bonusType": "item",
+                  "label": "Dustcap",
+                  "scope": "Fortitude saves against inhaled poisons and airborne diseases",
+                  "when": {
+                    "checkTypes": [
+                      "save"
+                    ],
+                    "subjects": [
+                      "fortitude"
+                    ],
+                    "traits": [
+                      "poison",
+                      "disease"
+                    ]
+                  },
+                  "auto": false,
+                  "oneShot": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: underground mines and tunnels.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 2,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 50,
+        "tablePrice": 50,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mKzJwuQu1pBergt4"
+}

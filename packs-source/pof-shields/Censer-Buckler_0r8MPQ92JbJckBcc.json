@@ -1,0 +1,53 @@
+{
+  "_id": "0r8MPQ92JbJckBcc",
+  "name": "Censer Buckler",
+  "img": "icons/svg/shield.svg",
+  "type": "shield",
+  "system": {
+    "quantity": 1,
+    "weight": 4,
+    "price": 70,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "traits": "",
+    "dr": 0,
+    "hardness": 0,
+    "brokenThreshold": 0,
+    "proficiency": "",
+    "penalty": 0,
+    "defenceBonus": 1,
+    "category": "buckler",
+    "metal": true,
+    "itemLevel": 1,
+    "shieldBashDamage": "",
+    "shieldBashFumbleDC": 0,
+    "shieldBashDamageType": "bludgeoning",
+    "description": "A small metal buckler with a perforated incense chamber behind its central boss. One dose of incense may be placed within it and lit normally. While wielding the shield, the incense can continue burning without occupying another hand. The buckler does not itself modify the effects of the incense.\n\nOn the sheet: a buckler (no Shield Bash); the burning incense is a note.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0r8MPQ92JbJckBcc"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "LnZ2qTRkJdzF2Roo",
+  "name": "Twin Inquisition",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 12",
+    "active": true,
+    "description": "<p>GRIMWARD</p>\n<p>Some investigations have more than one monster at their centre.<br>You may maintain two Subjects of Inquisition simultaneously. Each Subject is tracked separately and may become Judged independently.<br>When you designate a third Subject, you must choose which existing Inquisition ends.<br>Prepared Adversary applies if either Subject qualifies, but it may still be used only once when Initiative is first rolled.</p>\n<p>Prerequisites Level 12</p>\n<p>Works automatically: Inquisition's Use keeps two Subjects, each with its own Judgement.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Grimward",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LnZ2qTRkJdzF2Roo"
+}

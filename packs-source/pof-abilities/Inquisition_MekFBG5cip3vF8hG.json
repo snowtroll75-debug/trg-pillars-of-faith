@@ -1,0 +1,49 @@
+{
+  "_id": "MekFBG5cip3vF8hG",
+  "name": "Inquisition",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>CONCENTRATE<br>Action 1 AP<br>Requirements You can see or hear the creature, are currently tracking it, or the creature is one of your Studied Targets.<br>You designate one creature as the Subject of your Inquisition.<br>You may have only one Subject of Inquisition at a time. If you designate another creature, your previous Inquisition immediately ends. Your Subject does not need to be present. A Grimward may therefore begin an Inquisition against a creature identified through records, testimony, physical evidence or previous investigation.<br>Your Inquisition remains upon the creature until you select another Subject, the creature dies or you voluntarily end the Inquisition.<br>You add your class bonus to checks specifically made to investigate your Subject using the following actions or purposes:<br>• Detect Deception.<br>• Identify Magic affecting or created by the Subject.<br>• Recall Knowledge concerning the Subject.<br>• Research concerning the Subject.<br>• Search for evidence directly connected to the Subject.<br>• Sense Motive.<br>• Study Target.<br>• Track.<br>• Checks to identify curses, possession, supernatural abilities or magical effects created by the Subject.<br>The GM determines whether a check is sufficiently connected to the Subject to receive this bonus. Inquisition does not tell you whether the Subject is guilty, evil, corrupted or even suspicious.</p>\n<p>Use: spends 1 AP and names your Subject (the targeted token, or a name you type for a creature not present). Your class bonus is then offered, with the book's wording, in the dialog of Detect Deception, Identify Power, Recall Knowledge, Research, Search, Study Target, Track and Sense Motive checks. Use again to change or end the Inquisition; Judgement ends with it.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "Concentrate",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MekFBG5cip3vF8hG"
+}

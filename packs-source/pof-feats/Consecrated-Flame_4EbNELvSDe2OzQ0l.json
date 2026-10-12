@@ -1,0 +1,95 @@
+{
+  "_id": "4EbNELvSDe2OzQ0l",
+  "name": "Consecrated Flame",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Ashen heritage, Purifying Ash, Level 5",
+    "active": true,
+    "description": "<p>DIVINITY ESHARI FIRE</p>\n<p>For Ashen, fire is not merely destruction. Properly tended, it leaves nothing behind for corruption to claim.<br>Whenever one of your spells or abilities inflicts Fire damage against an Undead creature, the first successful damaging effect you create against that creature each round inflicts an additional 1d6 secondary Essence damage.<br>In addition, mundane corpses cremated by a fire you personally tend for at least 10 minutes count as having received a Partial result from Perform Last Rites, provided the corpse has not already been animated or spiritually bound. This does not replace Last Rites where a better result is desired.</p>\n<p>Prerequisites Ashen heritage, Purifying Ash, Level 5</p>\n<p>Works automatically: the first time each round one of your spells deals Fire damage to an Undead creature, +1d6 secondary Essence is rolled and applied on the card. Cremation counting as a Partial Last Rites is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Divinity, Fire",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "i5pMGYExTa1IdNCL",
+      "name": "Consecrated Flame: Essence on Fire",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "spellDamageRider": {
+            "label": "Consecrated Flame",
+            "dice": "1d6",
+            "damageType": "essence",
+            "when": {
+              "damageTypes": [
+                "fire"
+              ],
+              "targetTypes": [
+                "undead"
+              ]
+            },
+            "oncePerRound": true
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "The first successful Fire damage you deal to an Undead creature each round also inflicts 1d6 secondary Essence damage.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!4EbNELvSDe2OzQ0l.i5pMGYExTa1IdNCL"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4EbNELvSDe2OzQ0l"
+}

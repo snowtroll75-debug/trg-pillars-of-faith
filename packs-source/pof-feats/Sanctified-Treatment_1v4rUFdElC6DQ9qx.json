@@ -1,0 +1,49 @@
+{
+  "_id": "1v4rUFdElC6DQ9qx",
+  "name": "Sanctified Treatment",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Medicine 1 rank",
+    "active": true,
+    "description": "<p>Prayer does not replace medicine, but discipline, reassurance and careful ritual can make treatment considerably easier to endure.</p>\n<p>Prerequisites Medicine 1 rank</p>\n<p>Whenever you achieve at least a Success using Administer First Aid, Treat Injury or Treat Wounds, the patient gains a +1 circumstance bonus to the next saving throw they attempt against a Disease, Poison or effect with the Soul trait within the next hour.</p>\n<p>If your Medicine check is a Critical result, this bonus increases to +2.</p>\n<p>A creature can benefit from Sanctified Treatment only once at a time.</p>\n<p>Use after a successful treatment: target the patient and press Use — the bonus (+1, or +2 on a Critical) is queued on their sheet for their next save against disease, poison or a Soul effect.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "pofAutomation": "sanctifiedTreatment"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1v4rUFdElC6DQ9qx"
+}

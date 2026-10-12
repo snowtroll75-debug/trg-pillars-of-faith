@@ -1,0 +1,83 @@
+{
+  "_id": "F6ThSOCeJIcWBZEz",
+  "name": "Morrai",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Morrai develop most strongly in old burial groves, ancestral chambers and places saturated with generations of decomposition and spiritual memory. Their colouring is often subdued—black, grey, deep violet or bone-white—and some possess cap patterns resembling rings, eyes or branching veins.<br>Other creatures sometimes assume Morrai are sinister, an interpretation the Myrathi find peculiar. Gravecaps are associated not with death as horror but with the point at which physical decay and ancestral memory meet. They frequently become guardians of planting grounds, spirit mediators and specialists in phenomena that threaten the integrity of the soul.<br>You gain resistance to essence damage.</p>",
+    "sourceRace": "Myrathi",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "6evNEuRmAudOqyiG",
+      "name": "Morrai: resistances",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.resistances",
+          "mode": 2,
+          "value": ", essence",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Resistance to essence.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!F6ThSOCeJIcWBZEz.6evNEuRmAudOqyiG"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!F6ThSOCeJIcWBZEz"
+}

@@ -1,0 +1,95 @@
+{
+  "_id": "F4WOOHMxs3FIRZsV",
+  "name": "Oathseal",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 2,
+    "castAP": "1 minute",
+    "range": "10 feet",
+    "area": "",
+    "targets": "2 willing creatures",
+    "duration": "1 day",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "note",
+        "text": "Each target swears an oath of no more than twenty-five words; for the duration each knows if another knowingly violates it. Nothing is compelled, located or punished."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Add one willing participant",
+        "mods": {
+          "extraTargets": 1
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 1 week",
+        "mods": {
+          "durationText": "1 week"
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "Increase the duration to 1 month",
+        "mods": {
+          "durationText": "1 month"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Linguistic, Soul",
+    "description": "LINGUISTIC SOUL UTILITY\nTradition divinity\nCast 1 minute (somatic, verbal)\nRange 10 feet\nTargets 2 willing creatures\nDuration 1 day\n\nYou magically witness a promise willingly exchanged between the targets.\nEach target states an oath of no more than twenty-five words. For the duration, each target immediately knows if another target knowingly and deliberately violates the stated oath.\nThe spell does not compel anybody to obey the oath, determine whether a creature intends to break it, reveal where or how the oath was broken, or punish a creature for violating it.\nAn ambiguous oath remains ambiguous. The spell recognises the words sworn rather than what one participant privately hoped they meant.\n\nWarping Options:\n+1 PP: Add one willing participant.\n+2 PP: Increase the duration to 1 week.\n+4 PP: Increase the duration to 1 month.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!F4WOOHMxs3FIRZsV"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "kqR2oOMC3gNKHImz",
+  "name": "Memory Gatherer",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>MYRATHI</p>\n<p>Knowledge is not meant to end with the person who discovers it.<br>Whenever you achieve at least a Success on a Recall Knowledge check benefiting from Ancestral Communion, select one ally within 30 feet who can hear or otherwise communicate with you.<br>That ally gains a +1-circumstance bonus to the next skill check they make before the end of their next turn that directly relates to the information you discovered. The GM determines whether the check is sufficiently relevant.</p>\n<p>Use after a Success or better on a Recall Knowledge under Ancestral Communion (target the ally): queues their +1 circumstance for the related check.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Myrathi",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kqR2oOMC3gNKHImz"
+}

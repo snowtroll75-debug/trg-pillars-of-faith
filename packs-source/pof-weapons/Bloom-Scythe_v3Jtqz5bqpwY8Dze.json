@@ -1,0 +1,56 @@
+{
+  "_id": "v3Jtqz5bqpwY8Dze",
+  "name": "Bloom Scythe",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 8,
+    "price": 45,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Reach, Sweep, Trip, Myrathi",
+    "attackBonus": 0,
+    "damage": "1d8",
+    "damageType": "slashing",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 20,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Polearm",
+    "category": "Exotic",
+    "size": "large",
+    "itemLevel": 0,
+    "description": "Developed from Myrathi cultivation tools used to harvest fungal growth without damaging the underlying mycelium. The long crescent blade makes it particularly effective at sweeping attacks and hooking limbs.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!v3Jtqz5bqpwY8Dze"
+}

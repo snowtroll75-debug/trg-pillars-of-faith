@@ -1,0 +1,97 @@
+{
+  "_id": "mPquW859BBbd2GH4",
+  "name": "Temple Chronicler",
+  "img": "icons/svg/book.svg",
+  "type": "background",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Background",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>You spent years recording the life of a religious institution: births, deaths, appointments, miracles, disputes, donations, pilgrimages and scandals carefully omitted from the public sermons. Archives taught you that faith leaves a paper trail, and that old records often reveal truths the living would prefer forgotten. Adventuring offers access to histories that no orderly archive could ever contain.</p>\n<p>BONUS FEAT</p>\n<p>Keeper of Records</p>\n<p>SKILL BONUSES</p>\n<p>Culture, Linguistics, Religion</p>\n<p>SPECIALIST SKILL</p>\n<p>Ecclesiastical History</p>\n<p>WEALTH</p>\n<p>2</p>",
+    "grantedFeats": "Keeper of Records",
+    "grantedSpells": "",
+    "skillBonuses": "Culture, Linguistics, Religion",
+    "specialistSkill": "Ecclesiastical History",
+    "special": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "",
+    "wealth": "2"
+  },
+  "effects": [
+    {
+      "_id": "T5tgDlVsIjWfcjVs",
+      "name": "Temple Chronicler: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.culture.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.linguistics.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.religion.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 class bonus to Culture, Linguistics, Religion.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!mPquW859BBbd2GH4.T5tgDlVsIjWfcjVs"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Ecclesiastical History"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mPquW859BBbd2GH4"
+}

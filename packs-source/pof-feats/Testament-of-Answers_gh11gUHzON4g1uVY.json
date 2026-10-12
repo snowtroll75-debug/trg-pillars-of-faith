@@ -1,0 +1,49 @@
+{
+  "_id": "gh11gUHzON4g1uVY",
+  "name": "Testament of Answers",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Sapiren heritage, Living Index, Level 5",
+    "active": true,
+    "description": "<p>KETHRANI</p>\n<p>Questions appear upon your skin. Sometimes the answer is already written elsewhere.<br>Whenever you use Revelatory Script to cast Read Aura, you may immediately attempt one appropriate Recall Knowledge check concerning something revealed by that spell as a Free (0 AP) action.<br>In addition, once per day when you fail a Recall Knowledge check, you may reroll the check and use the second result. You must accept the second result even if it is worse.</p>\n<p>Prerequisites Sapiren heritage, Living Index, Level 5</p>\n<p>Use once per day after a failed Recall Knowledge: spends the use; reroll from your sheet and keep the second result. The free Recall Knowledge after Read Aura is a note.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Kethrani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gh11gUHzON4g1uVY"
+}

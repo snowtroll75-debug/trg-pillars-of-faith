@@ -1,0 +1,93 @@
+{
+  "_id": "iARmCZl1o0d9Rbd4",
+  "name": "Symbol of Pain",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "arcane, divinity",
+    "category": "save",
+    "level": 0,
+    "ppCost": 12,
+    "castAP": "10 minutes",
+    "range": "touch",
+    "area": "",
+    "targets": "",
+    "duration": "varies",
+    "defence": "Fortitude",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "injured",
+        "value": 2,
+        "onSave": [
+          "failure"
+        ]
+      },
+      {
+        "kind": "condition",
+        "target": "targets",
+        "condition": "injured",
+        "value": 4,
+        "onSave": [
+          "fumble",
+          "blunder"
+        ]
+      },
+      {
+        "kind": "note",
+        "text": "The symbol is a Rune: cast it on the surface, then roll the Fortitude save for each creature that looks at it when it activates. Injured lasts 1 hour after the creature moves beyond 60 feet, and only Remove Curse ends it early."
+      }
+    ],
+    "warps": [],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Curse, Essence, Rune, Soul",
+    "description": "CURSE ESSENCE RUNE SAVE SOUL\nTradition arcane, divinity\nCast 10 minutes (material, somatic, verbal)\nRange touch\nDuration varies; Saving Throw Fortitude\n\nYou carve a magical symbol into a surface, which is activated if any character moves within line of sight and the GM determines he looks in its direction. When activated, the symbol flashes and each character with line of sight to it must make a Fortitude save.\nSuccess The target is unaffected.\nFailure The creature is injured 2 for 1 hour.\nFumble The creature is injured 4 for 1 hour.\nThese effects last for 1 hour after the creature moves farther than 60 feet from the symbol and can only be removed with a Remove Curse spell.\nThe active symbol continues to glow until the spell ends or no characters remain with line of sight to it for 10 minutes.\n\nFrom the Eldritch Arts sourcebook, carried by Pillars of Faith until that module ships. The Pain aspect's 12th-level bonus spell."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "borrowedFrom": "Eldritch Arts",
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!iARmCZl1o0d9Rbd4"
+}

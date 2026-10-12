@@ -1,0 +1,64 @@
+{
+  "_id": "scd2SIWyeZDCci4v",
+  "name": "Hearthward",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>HALFLING</p>\n<p>Courage comes more easily when there is someone beside you who still feels like home.<br>While you are within 10 feet of at least one conscious ally, you gain a +1-racial bonus to saving throws against Fear, possession, Soul Drain and effects with the Soul trait.<br>This bonus does not increase because additional allies are within range.</p>\n<p>Works automatically: +1 racial is offered on saves against Fear, possession, Soul Drain and Soul effects — tick when an ally is within 10 feet.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Halfling",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Hearthward",
+          "scope": "Saving throws against Fear, possession, Soul Drain and Soul-trait effects while a conscious ally is within 10 feet",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!scd2SIWyeZDCci4v"
+}

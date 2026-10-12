@@ -1,0 +1,101 @@
+{
+  "_id": "hx4ZKHvI4tRpjtJ7",
+  "name": "Unliving Ghost",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 2",
+    "active": true,
+    "description": "<p>ARCHETYPE UNLIVING</p>\n<p>Prerequisites Level 2</p>\n<p>Your soul has slipped loose from the flesh yet refuses to pass beyond the mortal world.</p>\n<p>You are a lingering presence, half memory and half necromantic residue, able to move through the world without fully belonging to it. Your form is spectral and difficult to harm by mundane means, but powers that strike the spirit or force the dead into shape are especially dangerous to you. You gain the Shared Unliving Base Mods, the Incorporeal trait, Weakness to Essence and Weakness to Force.</p>\n<p>Grants Darkvision and the Shared Unliving Base Mods; the Incorporeal trait (immune to non-magical and precision damage, as the core's Incorporeal rule reads it) and weakness to essence and force. One Unliving archetype per character.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "Darkvision, Shared Unliving Base Mods",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "ZEgrt4UCF63QJjko",
+      "name": "Unliving Ghost: Ghost",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.details.traits",
+          "mode": 2,
+          "value": ", Incorporeal",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.weaknesses",
+          "mode": 2,
+          "value": ", essence",
+          "priority": 20
+        },
+        {
+          "key": "system.combat.weaknesses",
+          "mode": 2,
+          "value": ", force",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Incorporeal; weakness to essence and force.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!hx4ZKHvI4tRpjtJ7.ZEgrt4UCF63QJjko"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hx4ZKHvI4tRpjtJ7"
+}

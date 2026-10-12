@@ -1,0 +1,78 @@
+{
+  "_id": "E5hrI87zBU9oqmTT",
+  "name": "The Oathbound Door",
+  "type": "npc",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "identity": {
+      "level": 9,
+      "size": "medium"
+    },
+    "details": {
+      "traits": "Divinity, Haunt, Mental, Soul, Warding",
+      "biography": "<p>A monumental stone door is carved with the remains of a formal oath. Most of the inscription has been deliberately chiselled away. Those approaching it hear a quiet question: By what promise do you enter?</p>"
+    },
+    "combat": {
+      "initiative": {
+        "other": 0
+      }
+    },
+    "gm": {
+      "role": "Haunt",
+      "notes": "<p><strong>The Oathbound Door</strong> — Level 9 haunt (Pillars of Faith, Chapter 8). Its Level DC is 23.</p>\n<p><strong>Anchor</strong> The door and surviving oath inscription.</p>\n<p><strong>Resolution</strong> Reconstruct the original oath and either restore the missing inscription or deliberately replace it through an appropriate rite with a new oath serving the same original purpose.<br>Destroying the door ends the immediate Peril but creates a Level 9 spiritual disturbance throughout the associated site until the oath is properly resolved.</p>",
+      "peril": {
+        "enabled": true,
+        "detection": "Religion DC 23, Occultism DC 25",
+        "disable": "Religion DC 23 or Linguistics DC 25 to reconstruct enough of the original oath to pass without awakening the sanction.\nA creature may instead knowingly speak a sincere promise consistent with the original oath once it has learned its meaning.",
+        "successes": 1,
+        "onDisable": "suppressed",
+        "suppressFor": "",
+        "state": "armed",
+        "actionType": "reaction",
+        "trigger": "A creature attempts to pass through the doorway after knowingly speaking a lie concerning its purpose.",
+        "effectText": "The carved words blaze with pale light. The triggering creature attempts a Will save against DC 23.\nCritical Unaffected.\nSuccess Frightened 1.\nPartial Weakened 1 for 1 minute.\nFailure Weakened 2 and Slowed 1 for 1 minute.\nFumble Weakened 3 and Slowed 1 for 1 minute.\nBlunder As Fumble, and the creature is unable to cross the threshold for 24 hours unless the haunt is Counteracted.",
+        "routine": "",
+        "anchor": "The door and surviving oath inscription.",
+        "resolution": "Reconstruct the original oath and either restore the missing inscription or deliberately replace it through an appropriate rite with a new oath serving the same original purpose.\nDestroying the door ends the immediate Peril but creates a Level 9 spiritual disturbance throughout the associated site until the oath is properly resolved.",
+        "reset": "Immediately.",
+        "disableBonuses": "",
+        "spiritPresence": true,
+        "noBody": true,
+        "automation": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "The Oathbound Door",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "texture": {
+      "src": "icons/svg/aura.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "haunt": true,
+      "source": "Pillars of Faith"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.629.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!actors!E5hrI87zBU9oqmTT"
+}

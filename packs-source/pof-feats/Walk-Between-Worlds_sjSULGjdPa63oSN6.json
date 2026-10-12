@@ -1,0 +1,49 @@
+{
+  "_id": "sjSULGjdPa63oSN6",
+  "name": "Walk Between Worlds",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Veil Spirit Guide, Level 7",
+    "active": true,
+    "description": "<p>SHAMAN SPIRIT</p>\n<p>For brief moments you occupy the same uncertain boundary as your guide.<br>While Part the Veil is active, you may move through spaces occupied by creatures and through non-magical solid objects no thicker than 5 feet.<br>You may not end your movement inside an occupied space or solid object. Each time you pass through a solid object, every 5 feet of such movement costs 10 feet of movement.<br>Be aware that this does not allow passage through magical barriers.</p>\n<p>Prerequisites Veil Spirit Guide, Level 7</p>\n<p>A rule for the table while Part the Veil is active: movement through creatures and thin solid objects.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Spirit, Shaman",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sjSULGjdPa63oSN6"
+}

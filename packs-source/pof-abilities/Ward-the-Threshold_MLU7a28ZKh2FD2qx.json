@@ -1,0 +1,49 @@
+{
+  "_id": "MLU7a28ZKh2FD2qx",
+  "name": "Ward the Threshold",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>CONCENTRATE MANIPULATE VERDANT WARDING<br>Action 10 minutes<br>Area 10-foot emanation centred upon a fixed point<br>You mark a room, campsite, doorway, shrine or similar location using a ring or pattern of traditional wards. The ward becomes one of your active Preparations.<br>Willing creatures within the area gain a circumstance bonus equal to half your Folkwarden class bonus (round up) to saving throws against Fear, possession, Soul Drain and effects with the Soul trait.<br>A creature resting or sleeping within the ward also gains this bonus against supernatural Sleep effects and magical effects attempting to influence its mind or soul while it rests.<br>Ward the Threshold does not prevent creatures from physically entering the area, reveal hidden creatures or identify supernatural threats. Moving or deliberately destroying the objects that form the ward ends the Preparation.</p>\n<p>Use: the ward lands as an effect on every targeted willing creature (and you) with the bonus pre-ticked against Fear- and Soul-trait effects and offered against possession, Soul Drain and mind effects while resting. It lasts until your next daily preparation or until you Use again to end it.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "Concentrate, Manipulate, Verdant, Warding",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MLU7a28ZKh2FD2qx"
+}

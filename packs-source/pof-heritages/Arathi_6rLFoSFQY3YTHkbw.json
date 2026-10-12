@@ -1,0 +1,121 @@
+{
+  "_id": "6rLFoSFQY3YTHkbw",
+  "name": "Arathi",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Arathi souls return most strongly to lives shaped by conflict. Their echoes are not necessarily memories of great warriors; they may come from hunters, guards, caravan defenders, rebels or ordinary people who survived violent times. What persists is physical instinct. An Arathi may catch a falling weapon with a movement they were never taught, instinctively choose defensible ground or awaken from sleep already reaching for an absent sword.<br>Arathi culture does not assume that such individuals must become soldiers. Indeed, some consciously reject martial professions because they are tired of lives defined by violence. Even these Arathi tend to possess a visible alertness: weight balanced naturally, attention drawn towards entrances and an uncanny tendency to react before others have recognised danger.<br>You gain an additional +1 racial bonus to Strength and a +10 racial bonus to Initiative checks.</p>",
+    "sourceRace": "Rhevani",
+    "abilityModifiers": "Str +1",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "b7x8yROAGplFfb2s",
+      "name": "Arathi: racial adjustments",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.attributes.strength.racial",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Str +1",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!6rLFoSFQY3YTHkbw.b7x8yROAGplFfb2s"
+    },
+    {
+      "_id": "yIFNTDVrPZCOUDZF",
+      "name": "Arathi: Initiative +10",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.initiative.race",
+          "mode": 0,
+          "value": "10",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+10 racial bonus to Initiative checks.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!6rLFoSFQY3YTHkbw.yIFNTDVrPZCOUDZF"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6rLFoSFQY3YTHkbw"
+}

@@ -1,0 +1,354 @@
+{
+  "_id": "qv1pzwN5GS4yvIRK",
+  "name": "Shaman",
+  "img": "icons/svg/book.svg",
+  "type": "class",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "",
+    "tier": "Adept",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>The world is considerably more crowded than most people realise.<br>An ancient oak remembers every axe laid against its bark. A river knows the shape of the valley before roads divided it. Hearths acquire personalities after generations of families gather around them. Battlefields retain grief long after the bones have been removed, and the dead sometimes leave fragments of themselves in the places, people and traditions that mattered to them.<br>You have learned to listen.<br>You are a Shaman, a spiritual intermediary whose magic emerges through relationships with the unseen presences woven throughout the living world. Some of these beings possess names and personalities. Others are little more than instinct, memory or the accumulated character of a place. An ancestor may speak in recognisable words while a mountain spirit communicates through falling stones, weather and dreams.<br>Your relationship with these beings is not worship. You may revere them, argue with them, negotiate with them or consider them members of an extended spiritual community. Spirits are not automatically gods, and a spirit does not become benevolent merely because it is old.<br>Unlike a Druid, you do not memorise spells through formal communion with nature. Verdant magic comes to you instinctively through the relationships you have formed. You know fewer spells than a Druid, but you can use them whenever required and may ask your Spirit Guide for knowledge you do not normally possess.<br>Every Shaman develops a particularly strong relationship with a Spirit Guide. This may be an ancestor, animal spirit, elemental presence, consciousness of the land or strange entity standing close to the veil between life and death. Your guide advises you, argues with you and occasionally acts through you.<br>Some cultures train Shamans formally. Others discover them when a child begins answering questions nobody else can hear.<br>The Myrathi are particularly renowned for producing Shamans because their Ancestral Blooms preserve fragments of memory and personality across generations, but the class belongs to no single race or culture.<br>You may want to play a Shaman if you enjoy instinctive Verdant magic, spiritual communication, flexible spellcasting and calling upon an otherworldly companion for supernatural abilities.<br>A priest asks the gods for an answer. A Shaman first asks who else is listening.</p>\n<p>MAGICAL TRADITION<br>You are a full instinctive Verdant spellcaster.<br>Unlike a Druid, you do not memorise Verdant spells during daily preparation. Your repertoire represents magical workings taught by spirits so thoroughly that you can invoke them instinctively.<br>At 1st level, select two PP 2 Verdant spells and add them to your repertoire. At 2nd level and every level, thereafter, select one additional Verdant spell that you are capable of casting and add it to your repertoire.<br>You may cast any spell within your repertoire whenever you meet its casting requirements and possess sufficient PP.<br>Beginning at 5th level, whenever you gain a Shaman level, you may replace one spell in your repertoire with another Verdant spell that you are capable of casting.</p>\n<p>CANTRIPS<br>At 1st level, select three Verdant cantrips. These become part of your permanent repertoire and do not need to be memorised.<br>Any bonus cantrip granted by your Spirit Guide is additional to these three.</p>\n<p>SPECIALIST SPELLS<br>At 1st level, you gain one PP 1 Shaman Specialist Spell of your choice.<br>Shaman Specialist Spells will be presented in the Grimoire and concentrate on direct dealings with spirits rather than duplicating Druid magic.<br>Additional Shaman Specialist Spells may be learned through the normal Specialist Spell feat and Shaman class feats.</p>\n<p>CONTROL LEVELS<br>For the purpose of determining Control Levels, you gain +1 Control Level per Shaman level.</p>",
+    "classType": "Adept",
+    "keyAbilityScores": "Constitution (min +2), Wisdom, Charisma",
+    "classSkills": "Artistry, Culture, Diplomacy, Handle Animal, Linguistics, Medicine, Meditation, Mental Focus, Nature, Occultism, Perception, Power Manipulation, Religion, Sense Motive, Survival",
+    "grantedFeats": "1: Heighten Spell",
+    "classAbilities": "1: Shaman Specialist Spell, 1: Spirit Speaker, 1: Spirit Communion, 1: Spirit Guide, 1: Manifest Spirit, 1: Spirit Intercession, 3: Spirit Ward, 7: Deepened Bond",
+    "proficiencies": "You are proficient with light armour and shields, except tower shields. You are proficient with all simple weapons, as well as the spear and shortbow. Unlike a Druid, you have no prohibition against metal equipment.",
+    "hitPoints": 6,
+    "skillPoints": 6,
+    "magicalTradition": "verdant",
+    "magicalAbility": "constitution",
+    "casterStyle": "instinctive",
+    "repertoireCategory": "",
+    "memorisationStyle": "",
+    "cantripsPerDay": 0,
+    "spellBookFirstPicks": 0,
+    "grantedGear": "",
+    "grantedSpells": "",
+    "progression": [
+      {
+        "level": 1,
+        "bab": 0,
+        "bdb": 0,
+        "fortitude": 3,
+        "reflex": 3,
+        "will": 3,
+        "bonusFeats": 0,
+        "casterLevel": 1,
+        "pp": 4,
+        "bsb": 1
+      },
+      {
+        "level": 2,
+        "bab": 1,
+        "bdb": 1,
+        "fortitude": 4,
+        "reflex": 4,
+        "will": 4,
+        "bonusFeats": 0,
+        "casterLevel": 2,
+        "pp": 8,
+        "bsb": 2
+      },
+      {
+        "level": 3,
+        "bab": 2,
+        "bdb": 2,
+        "fortitude": 5,
+        "reflex": 5,
+        "will": 5,
+        "bonusFeats": 0,
+        "casterLevel": 3,
+        "pp": 12,
+        "bsb": 3
+      },
+      {
+        "level": 4,
+        "bab": 3,
+        "bdb": 3,
+        "fortitude": 6,
+        "reflex": 6,
+        "will": 6,
+        "bonusFeats": 0,
+        "casterLevel": 4,
+        "pp": 16,
+        "bsb": 4
+      },
+      {
+        "level": 5,
+        "bab": 3,
+        "bdb": 3,
+        "fortitude": 7,
+        "reflex": 7,
+        "will": 7,
+        "bonusFeats": 1,
+        "casterLevel": 5,
+        "pp": 20,
+        "bsb": 5
+      },
+      {
+        "level": 6,
+        "bab": 4,
+        "bdb": 4,
+        "fortitude": 8,
+        "reflex": 8,
+        "will": 8,
+        "bonusFeats": 1,
+        "casterLevel": 6,
+        "pp": 24,
+        "bsb": 6
+      },
+      {
+        "level": 7,
+        "bab": 5,
+        "bdb": 5,
+        "fortitude": 9,
+        "reflex": 9,
+        "will": 9,
+        "bonusFeats": 1,
+        "casterLevel": 7,
+        "pp": 28,
+        "bsb": 7
+      },
+      {
+        "level": 8,
+        "bab": 6,
+        "bdb": 6,
+        "fortitude": 10,
+        "reflex": 10,
+        "will": 10,
+        "bonusFeats": 1,
+        "casterLevel": 8,
+        "pp": 32,
+        "bsb": 8
+      },
+      {
+        "level": 9,
+        "bab": 6,
+        "bdb": 6,
+        "fortitude": 11,
+        "reflex": 11,
+        "will": 11,
+        "bonusFeats": 1,
+        "casterLevel": 9,
+        "pp": 36,
+        "bsb": 9
+      },
+      {
+        "level": 10,
+        "bab": 7,
+        "bdb": 7,
+        "fortitude": 12,
+        "reflex": 12,
+        "will": 12,
+        "bonusFeats": 2,
+        "casterLevel": 10,
+        "pp": 40,
+        "bsb": 10
+      },
+      {
+        "level": 11,
+        "bab": 8,
+        "bdb": 8,
+        "fortitude": 13,
+        "reflex": 13,
+        "will": 13,
+        "bonusFeats": 2,
+        "casterLevel": 11,
+        "pp": 44,
+        "bsb": 11
+      },
+      {
+        "level": 12,
+        "bab": 9,
+        "bdb": 9,
+        "fortitude": 14,
+        "reflex": 14,
+        "will": 14,
+        "bonusFeats": 2,
+        "casterLevel": 12,
+        "pp": 48,
+        "bsb": 12
+      },
+      {
+        "level": 13,
+        "bab": 9,
+        "bdb": 9,
+        "fortitude": 15,
+        "reflex": 15,
+        "will": 15,
+        "bonusFeats": 2,
+        "casterLevel": 13,
+        "pp": 52,
+        "bsb": 13
+      },
+      {
+        "level": 14,
+        "bab": 10,
+        "bdb": 10,
+        "fortitude": 16,
+        "reflex": 16,
+        "will": 16,
+        "bonusFeats": 2,
+        "casterLevel": 14,
+        "pp": 56,
+        "bsb": 14
+      },
+      {
+        "level": 15,
+        "bab": 11,
+        "bdb": 11,
+        "fortitude": 17,
+        "reflex": 17,
+        "will": 17,
+        "bonusFeats": 3,
+        "casterLevel": 15,
+        "pp": 60,
+        "bsb": 15
+      },
+      {
+        "level": 16,
+        "bab": 12,
+        "bdb": 12,
+        "fortitude": 18,
+        "reflex": 18,
+        "will": 18,
+        "bonusFeats": 3,
+        "casterLevel": 16,
+        "pp": 64,
+        "bsb": 16
+      },
+      {
+        "level": 17,
+        "bab": 12,
+        "bdb": 12,
+        "fortitude": 19,
+        "reflex": 19,
+        "will": 19,
+        "bonusFeats": 3,
+        "casterLevel": 17,
+        "pp": 68,
+        "bsb": 17
+      },
+      {
+        "level": 18,
+        "bab": 13,
+        "bdb": 13,
+        "fortitude": 20,
+        "reflex": 20,
+        "will": 20,
+        "bonusFeats": 3,
+        "casterLevel": 18,
+        "pp": 72,
+        "bsb": 18
+      },
+      {
+        "level": 19,
+        "bab": 14,
+        "bdb": 14,
+        "fortitude": 21,
+        "reflex": 21,
+        "will": 21,
+        "bonusFeats": 3,
+        "casterLevel": 19,
+        "pp": 76,
+        "bsb": 19
+      },
+      {
+        "level": 20,
+        "bab": 15,
+        "bdb": 15,
+        "fortitude": 22,
+        "reflex": 22,
+        "will": 22,
+        "bonusFeats": 4,
+        "casterLevel": 20,
+        "pp": 80,
+        "bsb": 20
+      }
+    ],
+    "cantripsKnown": 3,
+    "wealth": "-1"
+  },
+  "effects": [
+    {
+      "_id": "y6P7J3gbJLQkdAfC",
+      "name": "Shaman: Control Levels",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.magic.controlBonusPerLevel",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 Control Level per Shaman level.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!qv1pzwN5GS4yvIRK.y6P7J3gbJLQkdAfC"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "abilityLevels": {
+        "Shaman Specialist Spell": 1,
+        "Spirit Speaker": 1,
+        "Spirit Communion": 1,
+        "Spirit Guide": 1,
+        "Manifest Spirit": 1,
+        "Spirit Intercession": 1,
+        "Spirit Ward": 3,
+        "Deepened Bond": 7
+      },
+      "repertoire": {
+        "pickStep": 1,
+        "pickFrom": 2,
+        "swapStep": 1,
+        "swapFrom": 5
+      },
+      "magicalNote": "You are a full instinctive Verdant spellcaster.\nUnlike a Druid, you do not memorise Verdant spells during daily preparation. Your repertoire represents magical workings taught by spirits so thoroughly that you can invoke them instinctively.\nAt 1st level, select two PP 2 Verdant spells and add them to your repertoire. At 2nd level and every level, thereafter, select one additional Verdant spell that you are capable of casting and add it to your repertoire.\nYou may cast any spell within your repertoire whenever you meet its casting requirements and possess sufficient PP.\nBeginning at 5th level, whenever you gain a Shaman level, you may replace one spell in your repertoire with another Verdant spell that you are capable of casting.",
+      "bonusFeatsNote": "At 1st level, you gain Heighten Spell as a bonus feat.\nAt 5th level and every 5 levels thereafter, you gain an additional class feat. You must meet its prerequisites or possess the appropriate Shaman or Adept trait.\nYou therefore gain bonus class feats at 5th, 10th, 15th and 20th level."
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!qv1pzwN5GS4yvIRK"
+}

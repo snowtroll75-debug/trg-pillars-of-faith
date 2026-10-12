@@ -1,0 +1,49 @@
+{
+  "_id": "kxB8Woc74fqSOwwt",
+  "name": "Crossroads of Faith",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Many Roads, Many Gods, Level 5",
+    "active": true,
+    "description": "<p>HUMAN</p>\n<p>You have encountered enough religions to understand that belief rarely travels along a single road.<br>When making your daily preparations, you may select two religions, Divine Aspects or recognised spiritual traditions for Many Roads, Many Gods rather than one. You gain the normal benefits of that feat against both selections.<br>Furthermore, once per day, when you achieve a Critical or Heroic result on an Observe Sacred Custom or Recognise Doctrine check concerning a religion or tradition you have not selected, you may replace one of your current selections with the tradition you have just successfully examined.<br>The new selection remains until your next daily preparations.</p>\n<p>Prerequisites Many Roads, Many Gods, Level 5</p>\n<p>Works through Many Roads, Many Gods' Use: two traditions may be named; swapping one after a Critical is a second Use.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Human",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kxB8Woc74fqSOwwt"
+}

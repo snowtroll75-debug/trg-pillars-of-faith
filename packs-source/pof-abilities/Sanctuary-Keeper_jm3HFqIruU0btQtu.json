@@ -1,0 +1,50 @@
+{
+  "_id": "jm3HFqIruU0btQtu",
+  "name": "Sanctuary Keeper",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Healer 1st level",
+    "active": true,
+    "description": "<p>You believe that healing begins before the injury occurs. Sanctuary Keepers instinctively surround those in their care with brief protective currents, using restored vitality to reinforce the body against the next attack.<br>Specialist Skill Hospice Lore<br>Sheltering Care: Whenever you select a creature to receive the additional healing from Gift of Healing, that creature also gains a +2-status bonus to DB until the beginning of your next turn.</p>\n<p>Sheltering Care — Gift of Healing's Use also puts +2 status to DB on the chosen creature until the beginning of your next turn.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Hospice Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jm3HFqIruU0btQtu"
+}

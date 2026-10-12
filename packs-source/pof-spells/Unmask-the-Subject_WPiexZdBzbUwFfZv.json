@@ -1,0 +1,99 @@
+{
+  "_id": "WPiexZdBzbUwFfZv",
+  "name": "Unmask the Subject",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "save",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": 2,
+    "range": "60 feet",
+    "area": "",
+    "targets": "Your Judged Subject",
+    "duration": "1 minute",
+    "defence": "Will",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Unmask the Subject",
+        "target": "self",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Unmask the Subject",
+            "scope": "Recognising or penetrating the Subject's disguise, Illusion or transformed appearance (Success: until the end of your next turn)",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "skill"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "text": "Failure: for the duration, mundane disguises and Illusions hiding the Subject's identity give it no benefit against you. Fumble: allies within 30 feet who hear you gain +2 status to recognise the same deception."
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 4,
+        "text": "On a Failure or Fumble, the duration becomes 10 minutes",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Grimward",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Insight",
+    "description": "GRIMWARD INSIGHT SAVE\nGrimward Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 60 feet\nTargets Your Judged Subject\nSaving Throw Will\nDuration 1 minute\n\nYou force inconsistencies in the Subject's assumed identity to become obvious to your trained perception.\nCritical: The target is unaffected.\nSuccess: You gain a +2-status bonus to checks made to recognise or penetrate the target's disguise, Illusion or transformed appearance until the end of your next turn.\nFailure: For the duration, you perceive the target's underlying identity sufficiently clearly that mundane disguises and Illusions concealing its identity provide no benefit against you.\nFumble: As Failure, and allies within 30 feet who can hear your explanation gain a +2-status bonus to checks made to recognise the same deception.\nThis does not end a transformation or dispel an Illusion. It allows you to recognise the Subject through it.\n\nWarping Options:\n+4 PP: On a Failure or Fumble, the duration becomes 10 minutes.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!WPiexZdBzbUwFfZv"
+}

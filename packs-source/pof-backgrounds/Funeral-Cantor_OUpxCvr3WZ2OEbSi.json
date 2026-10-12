@@ -1,0 +1,97 @@
+{
+  "_id": "OUpxCvr3WZ2OEbSi",
+  "name": "Funeral Cantor",
+  "img": "icons/svg/book.svg",
+  "type": "background",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Background",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>You learned the songs, prayers and spoken rites used to honour the dead. Your work took you into homes at their most vulnerable, onto battlefields after the fighting ended and into burial grounds where the living wanted reassurance that the deceased had been treated correctly. You understand that mourning has rules, but also that every culture sings its grief differently.</p>\n<p>BONUS FEAT</p>\n<p>Rite of Passing</p>\n<p>SKILL BONUSES</p>\n<p>Culture, Perform, Religion</p>\n<p>SPECIALIST SKILL</p>\n<p>Funerary Lore</p>\n<p>WEALTH</p>\n<p>1</p>",
+    "grantedFeats": "Rite of Passing",
+    "grantedSpells": "",
+    "skillBonuses": "Culture, Perform, Religion",
+    "specialistSkill": "Funerary Lore",
+    "special": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "",
+    "wealth": "1"
+  },
+  "effects": [
+    {
+      "_id": "6h9TALL09VCzMi5s",
+      "name": "Funeral Cantor: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.culture.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.perform.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.religion.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 class bonus to Culture, Perform, Religion.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!OUpxCvr3WZ2OEbSi.6h9TALL09VCzMi5s"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Funerary Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OUpxCvr3WZ2OEbSi"
+}

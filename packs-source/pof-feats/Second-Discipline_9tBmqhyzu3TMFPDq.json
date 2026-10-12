@@ -1,0 +1,56 @@
+{
+  "_id": "9tBmqhyzu3TMFPDq",
+  "name": "Second Discipline",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 9",
+    "active": true,
+    "description": "<p>ARCHIVIST</p>\n<p>One school of sacred scholarship was never going to contain your curiosity.<br>Select a second Archival Discipline. You gain that discipline's Specialist Skill, 1st-level Specialist Spell and Discipline Ability.<br>You do not gain its 7th-level Advanced Specialist Spell. Your original discipline remains your primary discipline whenever an ability specifically refers to your Archival Discipline.</p>\n<p>Prerequisites Level 9</p>\n<p>Use to choose your second Archival Discipline: it arrives as an ability with its specialist skill and 1st-level specialist spell (delete its 7th-level spell if the level grants it).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Archivist",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "abilityChoices": [
+        "Canonist",
+        "Apocryphist",
+        "Eschatologist",
+        "Hagiographer",
+        "Revelator"
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!9tBmqhyzu3TMFPDq"
+}

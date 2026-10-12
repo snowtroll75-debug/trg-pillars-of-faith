@@ -1,0 +1,114 @@
+{
+  "_id": "fwLCfhCfbUxX1qF6",
+  "name": "Ashen",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Ashen Eshari oversee cremation, purification and situations in which remains cannot safely be preserved. They are traditionally called upon after plague, supernatural contamination or encounters with dangerous Undead where ordinary burial would risk further harm.<br>Generations of association with flame have produced distinctive cultural traditions around fire. Ashen funeral houses are warm, heavily ventilated places scented with smoke, cedar and bitter herbs. Many Ashen carry permanent traces of this environment with them: warm skin, faint smoky scents and robes designed to shed ash easily. They tend to be practical about destruction, regarding fire not as an expression of wrath but as the final means of ensuring that something dangerous can harm nobody again.<br>You gain resistance to fire and are immune to the harmful effects of mundane smoke produced by ordinary fires.</p>",
+    "sourceRace": "Eshari",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [
+    {
+      "_id": "gwzvvxZgWDLJIArH",
+      "name": "Ashen: resistances",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.combat.resistances",
+          "mode": 2,
+          "value": ", fire",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Resistance to fire.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!fwLCfhCfbUxX1qF6.gwzvvxZgWDLJIArH"
+    },
+    {
+      "_id": "DrNWsFsjql83t1gr",
+      "name": "Ashen: smoke",
+      "img": "icons/svg/book.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featNote": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Immune to the harmful effects of mundane smoke produced by ordinary fires.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!fwLCfhCfbUxX1qF6.DrNWsFsjql83t1gr"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fwLCfhCfbUxX1qF6"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "znK0pZ1KtbS6Tkz6",
+  "name": "Waywarden",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Survival 2 ranks",
+    "active": true,
+    "description": "<p>FOLKWARDEN</p>\n<p>Some Folkwardens guard a village for their entire lives. You learned the Old Ways beside campfires, on forgotten roads and beneath roofs where you were welcome for only a single night.<br>The action required to perform Warding Charm and Brew Remedy is reduced from 10 minutes to 1 minute.<br>Furthermore, whenever you achieve at least a Success using Read the Signs, one question concerning direction, a safe route, shelter, fresh water or an immediate natural hazard does not count against the normal number of questions you may ask. The information must still be supported by signs that Read the Signs could normally reveal.</p>\n<p>Prerequisites Survival 2 ranks</p>\n<p>Progression Requirements Survival +10 ranks</p>\n<p>Works automatically: Warding Charm and Brew Remedy say they take 1 minute; Read the Signs' card says one direction, route, shelter, water or hazard question is free on a Success or better.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Folkwarden",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": "",
+    "progressionRequirements": "Survival +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!znK0pZ1KtbS6Tkz6"
+}

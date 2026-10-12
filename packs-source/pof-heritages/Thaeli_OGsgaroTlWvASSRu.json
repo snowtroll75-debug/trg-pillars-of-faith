@@ -1,0 +1,48 @@
+{
+  "_id": "OGsgaroTlWvASSRu",
+  "name": "Thaeli",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "heritage",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Heritage",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Thaeli carry echoes associated with prayer, contemplation and spiritual practice. They may instinctively know the rhythm of a liturgy they have never heard, adopt an unfamiliar meditative posture or recognise the emotional weight of a sacred place without understanding its doctrine.<br>These memories do not necessarily draw a Thaeli towards the same religion followed in a previous incarnation. Rhevani theology strongly warns against assuming that spiritual familiarity equals divine command. A Thaeli may remember kneeling before an altar while profoundly disagreeing with everything that altar now represents. Their heritage is therefore associated as much with spiritual sensitivity as with conventional piety.<br>You gain Guidance as a divinity innate cantrip with the Focus trait.</p>",
+    "sourceRace": "Rhevani",
+    "abilityModifiers": "",
+    "grantedFeats": "",
+    "grantedSpells": "Guidance",
+    "racialAbilities": "",
+    "removedAbilities": "",
+    "loyalties": "",
+    "specialistSkills": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OGsgaroTlWvASSRu"
+}

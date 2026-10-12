@@ -1,0 +1,67 @@
+{
+  "_id": "jYyq052dmiaI7vfA",
+  "name": "Gift of Healing",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Healer 1st level",
+    "active": true,
+    "description": "<p>Healing magic responds to you with an ease that other spellcasters struggle to reproduce.<br>You gain a +2-class bonus to Spellcraft checks made to cast spells with the Healing trait and to Counteract checks made using such spells.<br>Whenever one of your spells with the Healing trait restores Hit Points to one or more creatures, and at least one recipient is a creature other than yourself, select one eligible target. That target regains additional Hit Points equal to your Healer level + your Wisdom modifier. This additional healing is applied after the spell's normal healing has been determined.<br>Be aware that Gift of Healing can apply only once per spell, regardless of how many creatures the spell affects. It does not apply when you are the only target of the spell.</p>\n<p>Works automatically: the +2 class bonus is pre-ticked on Spellcraft checks for Healing-trait spells. Use after a healing spell lands on others: the targeted recipient regains your level + Wisdom modifier more (from 3rd, Restorative Overflow turns any excess into temporary HP; a Sanctuary Keeper's target also gains +2 status to DB until your next turn).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Healer",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Healer",
+        "level": 1
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Gift of Healing",
+          "scope": "Spellcraft checks to cast Healing-trait spells and Counteract with them",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "spellcraft"
+            ],
+            "traits": [
+              "healing"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jYyq052dmiaI7vfA"
+}

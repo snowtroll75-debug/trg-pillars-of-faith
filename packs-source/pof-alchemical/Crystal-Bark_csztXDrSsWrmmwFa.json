@@ -1,0 +1,80 @@
+{
+  "_id": "csztXDrSsWrmmwFa",
+  "name": "Crystal Bark",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: ancient temperate or warm forests.\n\nCrystal bark forms in thin translucent plates upon ancient trees whose roots reach deep mineral seams. Under sunlight the bark scatters small rainbows, and mature pieces chime softly against one another in the wind. It is shaved into brittle wafers and softened in mineral water until it can be chewed into a gritty paste that briefly hardens the flesh. For 1 hour, you gain DR 1. This temporary DR does not stack with DR granted by another consumable.\n\nOn the sheet: Temporary DR from Crystal Bark does not stack with DR granted by another consumable.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Crystal Bark",
+          "duration": "1 hour",
+          "effects": [
+            {
+              "kind": "bonus",
+              "target": "self",
+              "slot": "dr",
+              "bonusType": "item",
+              "value": 1
+            }
+          ],
+          "note": "Temporary DR from Crystal Bark does not stack with DR granted by another consumable."
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: ancient temperate or warm forests.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 2,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 50,
+        "tablePrice": 50,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!csztXDrSsWrmmwFa"
+}

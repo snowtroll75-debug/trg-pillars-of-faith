@@ -1,0 +1,49 @@
+{
+  "_id": "1dZADU9DMqAwArko",
+  "name": "Archivist's Prayer Book",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Archivist 1st level",
+    "active": true,
+    "description": "<p>Your Prayer Book is a scholarly collection of sacred formulae, liturgies, invocations, reconstructed prayers and theological annotations.<br>At 1st level, select six PP 2 spells from the Divinity tradition and record them within your Prayer Book.<br>Each time you gain an Archivist level, you may add two additional Divinity spells to your Prayer Book. These spells must have a PP cost that you are capable of casting.<br>You may learn additional Divinity spells encountered during play using the normal rules for learning and copying spells. Sacred scrolls, another Archivist's Prayer Book, temple manuscripts and similar written sources may therefore substantially expand your collection.<br>Your Prayer Book may contain prayers belonging to religions other than your own. Recording a prayer does not mean that you accept the beliefs contained within it.<br>Specialist spells cannot be learned merely by copying them into your Prayer Book. They continue to require the appropriate class ability, feat or other source granting access, as normal under the Specialist Spell rules.</p>\n<p>Your Prayer Book is the gear item this class grants: open it to record spells (six PP 2 Divinity spells at 1st level, two more each level), and memorise from it at daily preparation on the Magic tab. Specialist spells are never learned by copying.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Archivist",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Archivist",
+        "level": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1dZADU9DMqAwArko"
+}

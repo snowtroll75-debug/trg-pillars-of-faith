@@ -1,0 +1,56 @@
+{
+  "_id": "CABoNiNpKX3V8XBc",
+  "name": "Penitent Chain",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 6,
+    "price": 30,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Disarm, Nonlethal, Reach, Trip",
+    "attackBonus": 0,
+    "damage": "1d6",
+    "damageType": "bludgeoning",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 18,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Flail",
+    "category": "Martial",
+    "size": "medium",
+    "itemLevel": 0,
+    "description": "A length of heavy chain terminating in padded or iron weights. Some ascetic orders use lighter versions during ritual discipline; Grimwards and temple guards developed the considerably less symbolic battlefield form.\n\nNonlethal is printed as a trait; mark the damage nonlethal on the damage card.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!CABoNiNpKX3V8XBc"
+}

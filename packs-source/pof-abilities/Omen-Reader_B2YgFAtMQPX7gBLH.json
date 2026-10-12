@@ -1,0 +1,68 @@
+{
+  "_id": "B2YgFAtMQPX7gBLH",
+  "name": "Omen Reader",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Folkwarden 1st level",
+    "active": true,
+    "description": "<p>You have been taught to listen when the living world warns you.<br>Specialist Skill Omen Lore<br>Clear Signs You gain a +2-class bonus to checks made as part of Read the Signs. On a Heroic, Critical or Success result, you may ask one additional question.</p>\n<p>Clear Signs — the +2 class bonus is pre-ticked on Read the Signs checks; ask one more question on a Success or better.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Folkwarden",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Folkwarden",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Omen Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Clear Signs",
+          "scope": "Read the Signs checks",
+          "auto": true,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "readTheSigns"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!B2YgFAtMQPX7gBLH"
+}

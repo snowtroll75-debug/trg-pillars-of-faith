@@ -1,0 +1,134 @@
+{
+  "_id": "dfKHJDxccUtGXP2h",
+  "name": "Soul Sanctuary",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "divinity",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 8,
+    "castAP": 2,
+    "range": "touch",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "10 minutes",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Soul Sanctuary",
+        "target": "targets",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 4,
+            "type": "status",
+            "label": "Soul Sanctuary",
+            "scope": "Saving throws against possession, Soul Drain and effects with the Soul trait",
+            "auto": true,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "traits": [
+                "soul",
+                "possession"
+              ]
+            }
+          },
+          {
+            "kind": "modifier",
+            "value": 4,
+            "type": "status",
+            "label": "Soul Sanctuary",
+            "scope": "Saving throws against possession, Soul Drain and effects with the Soul trait — tick if this save qualifies",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "not": {
+                "traits": [
+                  "soul",
+                  "possession"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "kind": "defence",
+        "target": "targets",
+        "field": "resistance",
+        "value": "essence",
+        "note": "Soul Sanctuary"
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Affect one additional target",
+        "mods": {
+          "extraTargets": 1
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Increase the duration to 1 hour",
+        "mods": {
+          "durationText": "1 hour"
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": false,
+    "specialistClass": "",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Soul, Warding",
+    "description": "SOUL UTILITY WARDING\nTradition divinity\nCast 2 AP (somatic, verbal)\nRange touch\nTargets 1 willing creature\nDuration 10 minutes\n\nYou reinforce the target's spiritual boundaries.\nThe target gains a +4-status bonus to saving throws against possession, a +4-status bonus to saving throws against Soul Drain and effects with the Soul trait, and Resistance to essence damage.\nSoul Sanctuary does not remove possession or Soul Drain already affecting the target.\n\nWarping Options:\n+1 PP: Affect one additional target.\n+2 PP: Increase the duration to 1 hour.\n\nPillars of Faith, Chapter 10. The +4 status against possession, Soul Drain and Soul effects are scoped rows; essence resistance is applied."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dfKHJDxccUtGXP2h"
+}

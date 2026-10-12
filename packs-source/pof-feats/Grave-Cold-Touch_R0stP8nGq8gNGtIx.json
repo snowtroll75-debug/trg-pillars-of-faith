@@ -1,0 +1,90 @@
+{
+  "_id": "R0stP8nGq8gNGtIx",
+  "name": "Grave-Cold Touch",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 8, Essence Attacks",
+    "active": true,
+    "description": "<p>UNLIVING-GHOST</p>\n<p>Prerequisites Level 8, Essence Attacks</p>\n<p>Unseen force answers your anger, throwing small objects as though seized by invisible hands.</p>\n<p>When you deal essence damage with an unarmed attack or natural attack, the attack also deals 1d6 cold damage. This secondary cold damage is not increased by critical injuries unless another rule specifically increases secondary damage.</p>\n<p>Works automatically: an unarmed or natural attack that deals essence damage (Essence Attacks) adds 1d6 cold — secondary, never multiplied by a critical.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Unliving-Ghost",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [
+    {
+      "_id": "DlQOKZxB8S7468XJ",
+      "name": "Grave-Cold Touch: Grave-Cold Touch",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "strikeRider": {
+            "label": "Grave-Cold Touch",
+            "dice": "1d6",
+            "damageType": "cold",
+            "scope": "unarmed",
+            "whenDamageType": "essence",
+            "once": false
+          }
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1d6 cold on an essence unarmed or natural attack.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!R0stP8nGq8gNGtIx.DlQOKZxB8S7468XJ"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "ghost"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!R0stP8nGq8gNGtIx"
+}

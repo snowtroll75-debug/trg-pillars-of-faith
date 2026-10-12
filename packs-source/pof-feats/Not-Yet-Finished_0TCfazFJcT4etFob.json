@@ -1,0 +1,49 @@
+{
+  "_id": "0TCfazFJcT4etFob",
+  "name": "Not Yet Finished",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Dornai heritage, Unfinished Duty, Level 5",
+    "active": true,
+    "description": "<p>FOCUS RHEVANI</p>\n<p>Death has taken you before. Somewhere within your soul remains the memory of refusing it.<br>Action R; Trigger You would be reduced to 0 HP but would not be killed outright.<br>You remain at 1 HP instead. After using this ability, you become Fatigued 1. This cannot prevent death caused by exceeding your Death State or an effect that explicitly kills or destroys you.</p>\n<p>Prerequisites Dornai heritage, Unfinished Duty, Level 5</p>\n<p>Use as the Reaction (Focus): you stay at 1 HP (set on your sheet) and gain Fatigued 1.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Focus",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0TCfazFJcT4etFob"
+}

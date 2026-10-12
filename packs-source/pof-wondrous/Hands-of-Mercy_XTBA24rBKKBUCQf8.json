@@ -1,0 +1,74 @@
+{
+  "_id": "XTBA24rBKKBUCQf8",
+  "name": "Hands of Mercy",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 8000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Divinity, Healing, Invested",
+    "description": "Usage worn gloves.\n\nThese cream-coloured gloves never retain bloodstains. Their palms bear a simple embroidered image of one hand supporting another.\n\nYou gain a +2-status bonus to Medicine checks.\n\nYou also gain the Steady Gift ability:\n\nSteady Gift:\n\nActivate Reaction\n\nTrigger You cast a spell with the Healing trait that rolls one or more dice to restore HP\n\nFrequency 1/day\n\nAfter rolling the spell's healing dice, select one healing die and maximise it. If you are a Healer with the Lifebinder Calling, you may maximise two dice instead.\n\nOn the sheet: +2 status to Medicine while invested; Steady Gift is offered on your Healing spells (1/day): one healing die maximised — two with the Lifebinder Calling.\n\nPillars of Faith, Chapter 11.",
+    "slot": "hands",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 10,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": true,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "skillBonus",
+            "value": 2,
+            "bonusType": "status",
+            "skill": "medicine",
+            "target": "system.skills.medicine",
+            "label": "Hands of Mercy"
+          }
+        ]
+      },
+      "healingRider": {
+        "label": "Steady Gift",
+        "maximiseDice": 1,
+        "frequency": "daily",
+        "maximiseDiceWith": {
+          "feat": "Lifebinder",
+          "dice": 2
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XTBA24rBKKBUCQf8"
+}

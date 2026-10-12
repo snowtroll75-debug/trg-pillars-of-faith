@@ -1,0 +1,73 @@
+{
+  "_id": "f5O5RafG5OJ9UJNF",
+  "name": "Fast Healing",
+  "img": "icons/svg/skull.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "An Unliving Archetype",
+    "active": true,
+    "description": "<p>HEALING</p>\n<p>At the beginning of each of the character's turns, the character heals 1 HP. For Unliving Vampire, this healing is suppressed while Sunlight Weakness applies.</p>\n<p>Works automatically: 1 HP at the start of each of your turns (TRG Prime's turn-start healing), and none while you are under Sunlight Weakness or begin the turn in the sun as the GM has marked the scene or your token.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "traits": "Healing"
+  },
+  "effects": [
+    {
+      "_id": "avvdHKUJEvAQsAMb",
+      "name": "Fast Healing: Fast Healing 1",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "fastHealing": 1,
+          "suppressedInSunlight": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "Heals 1 HP at the beginning of each of your turns; suppressed in sunlight.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!f5O5RafG5OJ9UJNF.avvdHKUJEvAQsAMb"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!f5O5RafG5OJ9UJNF"
+}

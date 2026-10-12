@@ -1,0 +1,51 @@
+{
+  "_id": "19a0kLr4EWTCxz78",
+  "name": "Prophet",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Archetype",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Spellcaster, Meditation 3 ranks, Religion or Occultism 3 ranks",
+    "active": true,
+    "description": "<p>ADEPT</p>\n<p>You have stopped dismissing dreams, coincidences and impossible intuitions as chance. Something occasionally shows you what has not yet happened.<br>You gain Prophecy Lore as a specialist skill.<br>You also gain Read Omen as a Specialist Spell. The spell uses your normal magical tradition.<br>Once per day, whenever you achieve at least a Success when casting Read Omen, you may retain one fragment of the revelation as a Portent which has the following effect:<br>Before your next daily preparations, when you or an ally within 30 feet attempts a saving throw or skill check, you may use a Reaction to grant that check a +1-status bonus.<br>You must declare the Portent before the result is determined.</p>\n<p>Prerequisites Spellcaster, Meditation 3 ranks, Religion or Occultism 3 ranks</p>\n<p>Progression Requirements Religion +10 ranks</p>\n<p>Works automatically: Prophecy Lore is added to your specialist skills and Read Omen is granted as a specialist spell (it arrives with the Grimoire block); Use once per day after a Success or better on Read Omen to hold a Portent, and Use again as the Reaction to spend it — +1 status queued on the target's check.</p>",
+    "usesPerDay": "1",
+    "bonusUses": 0,
+    "usesValue": 1,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Adept",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "Read Omen",
+    "grantedAbilities": "",
+    "grantedFeats": "",
+    "progressionRequirements": "Religion +10 ranks"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Prophecy Lore",
+      "bookCategory": "archetype"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!19a0kLr4EWTCxz78"
+}

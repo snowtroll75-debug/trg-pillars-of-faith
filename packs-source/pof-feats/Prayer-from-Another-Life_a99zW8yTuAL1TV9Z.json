@@ -1,0 +1,49 @@
+{
+  "_id": "a99zW8yTuAL1TV9Z",
+  "name": "Prayer from Another Life",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Thaeli heritage",
+    "active": true,
+    "description": "<p>RHEVANI</p>\n<p>An invocation spoken by another mouth returns to your memory with perfect clarity.<br>During your daily preparations, select one Divinity cantrip other than Guidance.<br>Until your next daily preparations, you may cast that cantrip as a Divinity innate spell with the Focus trait. You may select a different cantrip during each daily preparation.</p>\n<p>Prerequisites Thaeli heritage</p>\n<p>Use at daily preparation: choose any Divinity cantrip but Guidance — it lands as an innate Focus cantrip until your next choice.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Rhevani",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!a99zW8yTuAL1TV9Z"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "GDG8RdmVNng8uyAA",
+  "name": "Pilgrimage",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Pilgrimage teaches that faith which never leaves home is faith that has never been tested. The aspect is represented by a weathered traveller carrying a staff beneath an endless road or a doorway opening upon a distant horizon. Its roadside shrines are often maintained by travellers rather than priests.\nThe journey is more important than simply reaching a destination. Pilgrims are expected to encounter unfamiliar peoples, question assumptions, carry stories between communities and discover that sacred things rarely remain confined within temple walls.\n\nEdicts: Undertake meaningful journeys. Protect travellers and sacred roads. Respect the customs of communities through which you pass. Carry useful knowledge between distant peoples. Offer hospitality to peaceful travellers when able.\n\nAnathema: Prevent harmless travel merely to exercise control. Desecrate a waystone, roadside shrine or recognised place of shelter. Refuse reasonable aid to a traveller in genuine distress. Demand that another culture practise your faith exactly as it is practised at home.\n\nSuggested Ethics: Autonomy, Benevolence, Adaptability\n\nClass Skill: Survival\n\nSpecialist Spells: Fluidity (1), Guiding Stone (1), Shifting Step (1), Wellspring of Valour (1), Element Ward (7), Resilient Fortitude (7), Unity (7), Vigilant Eye (7)\n\nBonus Spells: Long Stride (4); Air Walk (6); Water Walk (6); Find the Path (12)\n\nFavoured Weapon: Club\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Chaos, Good",
+    "edicts": "Undertake meaningful journeys. Protect travellers and sacred roads. Respect the customs of communities through which you pass. Carry useful knowledge between distant peoples. Offer hospitality to peaceful travellers when able.",
+    "anathema": "Prevent harmless travel merely to exercise control. Desecrate a waystone, roadside shrine or recognised place of shelter. Refuse reasonable aid to a traveller in genuine distress. Demand that another culture practise your faith exactly as it is practised at home.",
+    "suggestedEthics": "Autonomy, Benevolence, Adaptability",
+    "classSkill": "Survival",
+    "favouredWeapon": "Club",
+    "specialistSpells": "Fluidity, Guiding Stone, Shifting Step, Wellspring of Valour, Element Ward, Resilient Fortitude, Unity, Vigilant Eye",
+    "bonusSpells": "4: Long Stride, 6: Air Walk, 6: Water Walk, 12: Find the Path"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Autonomy",
+        "Benevolence",
+        "Adaptability"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GDG8RdmVNng8uyAA"
+}

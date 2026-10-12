@@ -1,0 +1,82 @@
+{
+  "_id": "y2dtKpn2vFdkFD0E",
+  "name": "Grave Vigil",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Perception 1 rank",
+    "active": true,
+    "description": "<p>You know what a burial ground looks like when everything is where it should be.</p>\n<p>Prerequisites Perception 1 rank</p>\n<p>You gain a +2 circumstance bonus to Search checks made to notice disturbed graves, opened crypts, damaged funerary seals, concealed entrances within burial structures or physical evidence that a corpse has been moved.</p>\n<p>When rolling Initiative within a cemetery, crypt, tomb or similar burial site, you gain a +10 circumstance bonus if an Undead creature, Unliving creature or grave-related hazard is involved in the encounter.</p>\n<p>Both bonuses are offered in the roll dialog with the book's wording — tick when the scene matches.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Grave Vigil",
+          "scope": "Search checks to notice disturbed graves, opened crypts, damaged funerary seals, concealed entrances in burial structures or evidence a corpse was moved",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "perception"
+            ],
+            "actions": [
+              "search"
+            ]
+          },
+          "value": 2,
+          "type": "circumstance"
+        },
+        {
+          "kind": "modifier",
+          "label": "Grave Vigil",
+          "scope": "Initiative in a cemetery, crypt, tomb or similar burial site when an Undead or Unliving creature or a grave-related hazard is involved",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "initiative"
+            ]
+          },
+          "value": 10,
+          "type": "circumstance"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!y2dtKpn2vFdkFD0E"
+}

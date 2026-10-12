@@ -1,0 +1,67 @@
+{
+  "_id": "8VnLu5os0B0lEqWy",
+  "name": "Convincing Devotion",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "General",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Deception 3 ranks, Culture or Religion 1 rank",
+    "active": true,
+    "description": "<p>You do not merely hide your beliefs; you understand how to wear another faith convincingly.<br>When using Conceal Faith to impersonate another faith or Divine Aspect, creatures familiar with that religion no longer automatically receive the normal +2-circumstance bonus to Detect Deception.<br>They still gain the bonus if they personally know you or possess direct evidence contradicting your assumed identity.<br>If you have successfully used Observe Sacred Custom concerning the faith you are impersonating within the last 24 hours, you gain a +1-circumstance bonus to Conceal Faith.</p>\n<p>Prerequisites Deception 3 ranks, Culture or Religion 1 rank</p>\n<p>Works automatically: +1 circumstance is offered on Conceal Faith with the book's wording; the observer's lost +2 is a rule for the table.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Convincing Devotion",
+          "scope": "Conceal Faith after a successful Observe Sacred Custom of the faith you impersonate within 24 hours",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "concealFaith"
+            ]
+          },
+          "value": 1,
+          "type": "circumstance"
+        }
+      ],
+      "bookCategory": "general"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8VnLu5os0B0lEqWy"
+}

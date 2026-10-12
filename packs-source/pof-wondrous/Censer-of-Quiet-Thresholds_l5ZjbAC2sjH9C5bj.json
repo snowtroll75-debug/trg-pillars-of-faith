@@ -1,0 +1,94 @@
+{
+  "_id": "l5ZjbAC2sjH9C5bj",
+  "name": "Censer of Quiet Thresholds",
+  "img": "icons/svg/item-bag.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 4,
+    "price": 6000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Aura, Divinity, Invested, Soul, Warding",
+    "description": "Usage held or placed; Weight 4 lbs.\n\nFour tiny silver doors are worked into the sides of this black iron censer. Whenever a spirit enters the smoke, one of them appears briefly to close.\n\nThe censer can burn any ordinary incense. While incense burns within it, willing creatures within 20 feet gain a +1-status bonus to saving throws against possession and effects with the Soul trait. A possessing entity does not receive this benefit through its host.\n\nYou also gain the Reveal the Unseen ability:\n\nReveal the Unseen:\n\nActivate Command (1 AP)\n\nFrequency 1/day\n\nRequirement Incense is currently burning\n\nFor 1-minute, disembodied spirits and incorporeal Undead within the smoke become faintly outlined and may be perceived sufficiently clearly to determine their location. This does not remove Incorporeal, reveal allegiance or allow mundane weapons to affect them.\n\nOn the sheet: an ally aura (20 feet): +1 status to saves against possession and Soul effects — meant for while the incense burns. Use is Reveal the Unseen (1/day): a minute's outline of spirits in the smoke.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 9,
+    "heldHands": 1,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "wondrous": {
+        "base": "",
+        "tier": "",
+        "slotInferred": false,
+        "activate": "",
+        "frequency": "",
+        "abilities": [
+          {
+            "kind": "use",
+            "automation": "revealTheUnseen",
+            "activation": "Command (1 AP)",
+            "frequency": "daily",
+            "label": "Reveal the Unseen"
+          }
+        ]
+      },
+      "auras": [
+        {
+          "id": "censer-of-quiet-thresholds",
+          "name": "Censer of Quiet Thresholds",
+          "kind": "ally",
+          "radius": 20,
+          "triggers": [
+            "turnStart",
+            "enter"
+          ],
+          "save": "",
+          "appliesTo": "Allies",
+          "outcomes": {},
+          "immunitySeconds": 0,
+          "text": "AURA — while incense burns, willing creatures within 20 feet gain +1 status to saves against possession and Soul effects. A possessor gains nothing through its host.",
+          "grants": {
+            "kind": "modifier",
+            "value": 1,
+            "type": "status",
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "possession",
+              "soul"
+            ],
+            "scope": "Saving throws against possession and Soul effects while the censer's incense burns"
+          }
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!l5ZjbAC2sjH9C5bj"
+}

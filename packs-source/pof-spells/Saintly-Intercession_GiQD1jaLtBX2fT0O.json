@@ -1,0 +1,105 @@
+{
+  "_id": "GiQD1jaLtBX2fT0O",
+  "name": "Saintly Intercession",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 7,
+    "castAP": "Reaction",
+    "range": "30 feet",
+    "area": "",
+    "targets": "the triggering creature",
+    "duration": "",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "saveReroll",
+        "target": "targets",
+        "degrees": [
+          "partial",
+          "failure"
+        ],
+        "immunity": "10 minutes"
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "May also be used if the saving throw was a fumble",
+        "mods": {
+          "rerollDegrees": [
+            "fumble"
+          ]
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "May also be used if the saving throw was a blunder",
+        "mods": {
+          "rerollDegrees": [
+            "blunder"
+          ]
+        }
+      },
+      {
+        "ppCost": 4,
+        "text": "The target gains a +2-status bonus to the rerolled saving throw",
+        "mods": {
+          "rerollBonus": 2,
+          "once": true
+        }
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Archivist",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Chance, Warding",
+    "description": "ARCHIVIST CHANCE UTILITY WARDING\nArchivist Specialist Spell\nCast R (verbal)\nTrigger: You or an ally within 30 feet fails, but does not fumble or blunder, a saving throw\nRange 30 feet\nTargets the triggering creature\n\nYou invoke a recorded miracle at the moment disaster appears inevitable.\nThe target rerolls the triggering saving throw and must use the new result.\nAfter benefiting from Saintly Intercession, the creature becomes temporarily immune to the spell for 10 minutes.\n\nWarping Options:\n+2 PP: May also be used if the saving throw was a fumble.\n+4 PP: May also be used if the saving throw was a blunder.\n+4 PP: The target gains a +2-status bonus to the rerolled saving throw.\n\nPillars of Faith, Chapter 10. Offered the moment an ally within range fails a save: cast it as the reaction and the save is rerolled; the ally is then immune for 10 minutes."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!GiQD1jaLtBX2fT0O"
+}

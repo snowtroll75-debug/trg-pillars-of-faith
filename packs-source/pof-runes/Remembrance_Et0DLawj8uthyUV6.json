@@ -1,0 +1,56 @@
+{
+  "_id": "Et0DLawj8uthyUV6",
+  "name": "Remembrance",
+  "img": "icons/svg/book.svg",
+  "type": "gear",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 3000,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Insight, Invested",
+    "description": "Activate Free (0 AP)\n\nTrigger Once per round when you inflict a Critical hit\n\nNames and half-completed sentences appear momentarily across the weapon whenever it bites deeply into an enemy.\n\nYou may immediately attempt a Recall Knowledge check against the creature struck as a Free (0 AP) action.\n\nIf the creature is already one of your Studied Targets or Subjects of Inquisition, you instead gain a +2-item bonus to the check. Repeated Recall Knowledge attempts remain subject to the normal rules.\n\nInscribed onto a weapon.\n\nOn the sheet: The damage card of a Critical says it: Recall Knowledge against the creature as a Free action now. The +2 item against a Studied Target or Subject is offered on Recall Knowledge while the weapon is wielded.\n\nPillars of Faith, Chapter 11.",
+    "slot": "",
+    "uses": 0,
+    "itemSize": "medium",
+    "itemLevel": 7,
+    "heldHands": 0,
+    "formulae": "",
+    "spellbookContainer": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 11,
+      "rune": {
+        "key": "remembrance",
+        "tier": 1,
+        "on": [
+          "weapon"
+        ],
+        "automation": "event"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.626.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Et0DLawj8uthyUV6"
+}

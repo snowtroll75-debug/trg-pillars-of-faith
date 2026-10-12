@@ -1,0 +1,121 @@
+{
+  "_id": "fmGptqBuenkGI6iy",
+  "name": "Lich Aura",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 14",
+    "active": true,
+    "description": "<p>AURA FEAR SAVE UNLIVING-LICH</p>\n<p>Prerequisites Level 14</p>\n<p>The majesty of undeath gathers around you as a visible pressure on mortal courage.</p>\n<p>Effect: You gain Frightful Aura.</p>\n<p>Works automatically: Frightful Aura — 5 feet × your level; a creature first entering it rolls Will against your Level DC and is then immune for 1 minute whatever the result. The ladder: frightened 1–4, fleeing on a Failure (1 round) or Fumble (while frightened), collapse to 0 HP on a Blunder.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Aura, Fear, Save, Unliving-Lich",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "auras": [
+        {
+          "id": "lich-aura",
+          "kind": "save",
+          "name": "Frightful Aura (Lich Aura)",
+          "radiusPerLevel": 5,
+          "triggers": [
+            "enter"
+          ],
+          "save": "will",
+          "traits": [
+            "aura",
+            "fear"
+          ],
+          "immunitySeconds": 60,
+          "immunityOn": "always",
+          "outcomes": {
+            "heroic": "unaffected",
+            "critical": "unaffected",
+            "success": "frightened 1",
+            "partial": "frightened 2",
+            "failure": "frightened 3 and fleeing for 1 round",
+            "fumble": "frightened 4 and fleeing until the frightened condition is removed",
+            "blunder": "collapses from fear: reduced to 0 hit points and unconscious"
+          },
+          "conditions": {
+            "heroic": [],
+            "critical": [],
+            "success": [
+              {
+                "key": "frightened",
+                "value": 1
+              }
+            ],
+            "partial": [
+              {
+                "key": "frightened",
+                "value": 2
+              }
+            ],
+            "failure": [
+              {
+                "key": "frightened",
+                "value": 3
+              },
+              {
+                "key": "fleeing",
+                "rounds": 1
+              }
+            ],
+            "fumble": [
+              {
+                "key": "frightened",
+                "value": 4
+              },
+              {
+                "key": "fleeing",
+                "endsWith": "frightened"
+              }
+            ],
+            "blunder": [
+              {
+                "key": "zeroHP"
+              },
+              {
+                "key": "unconscious"
+              }
+            ]
+          }
+        }
+      ],
+      "bookCategory": "unliving",
+      "unlivingGroup": "lich"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!fmGptqBuenkGI6iy"
+}

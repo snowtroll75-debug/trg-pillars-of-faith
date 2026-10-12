@@ -1,0 +1,56 @@
+{
+  "_id": "RbCjVxXx4BZuIadt",
+  "name": "Grave Hook",
+  "img": "icons/svg/sword.svg",
+  "type": "weapon",
+  "system": {
+    "quantity": 1,
+    "weight": 8,
+    "price": 35,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Disarm, Reach, Trip",
+    "attackBonus": 0,
+    "damage": "1d8",
+    "damageType": "piercing",
+    "baseDamage": 0,
+    "hands": 1,
+    "range": "",
+    "armourRending": 0,
+    "proficiency": "",
+    "fumbleDC": 18,
+    "attackMode": "melee",
+    "rangeIncrement": 0,
+    "group": "Polearm",
+    "category": "Martial",
+    "size": "large",
+    "itemLevel": 0,
+    "description": "A long-shafted iron hook developed for moving bodies, pulling coffins and retrieving objects from unsafe crypts. Grave Wardens rapidly discovered that the same design was effective at dragging hostile creatures off balance.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!RbCjVxXx4BZuIadt"
+}

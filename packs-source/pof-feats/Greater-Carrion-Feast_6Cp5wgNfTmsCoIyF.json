@@ -1,0 +1,50 @@
+{
+  "_id": "6Cp5wgNfTmsCoIyF",
+  "name": "Greater Carrion Feast",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Level 6",
+    "active": true,
+    "description": "<p>HEALING UNLIVING-GHOUL</p>\n<p>Prerequisites Level 6</p>\n<p>Fresh death nourishes you more deeply, knitting wounds with each corpse-fed mouthful.</p>\n<p>Your Carrion Feast restores 3d6 HP instead of 1d6 HP. You still gain this benefit only once from each body.</p>\n<p>Works through Carrion Feast: it heals 3d6 instead of 1d6, still once from each body.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Healing, Unliving-Ghoul",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookCategory": "unliving",
+      "unlivingGroup": "ghoul"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6Cp5wgNfTmsCoIyF"
+}

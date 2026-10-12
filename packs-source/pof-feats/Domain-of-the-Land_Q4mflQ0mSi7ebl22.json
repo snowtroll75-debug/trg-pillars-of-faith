@@ -1,0 +1,77 @@
+{
+  "_id": "Q4mflQ0mSi7ebl22",
+  "name": "Domain of the Land",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Land Spirit Guide, Level 5",
+    "active": true,
+    "description": "<p>AURA SHAMAN SPIRIT</p>\n<p>Wherever you walk, a fragment of your spirit's homeland walks with you.<br>While Rooted World is active, allies within 10 feet of you ignore ordinary natural difficult terrain and gain a +1-circumstance bonus to checks and saving throws made to resist being Shoved, Tripped or moved against their will.<br>At 13th level, the aura increases to 20 feet.</p>\n<p>Prerequisites Land Spirit Guide, Level 5</p>\n<p>Works automatically while Rooted World is active: allies within 10 feet (20 from 13th) get +1 circumstance against being moved — an ally-aura conditional offered in their dialogs; ignoring natural difficult terrain is a note.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Aura, Spirit, Shaman",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "auras": [
+        {
+          "id": "domain-of-the-land",
+          "name": "Domain of the Land",
+          "kind": "ally",
+          "radius": 10,
+          "triggers": [
+            "turnStart",
+            "enter"
+          ],
+          "save": "",
+          "appliesTo": "Allies",
+          "outcomes": {},
+          "immunitySeconds": 0,
+          "text": "AURA SHAMAN SPIRIT\nWhile Rooted World is active, allies within 10 feet of you ignore ordinary natural difficult terrain and gain a +1-circumstance bonus to checks and saving throws made to resist being Shoved, Tripped or moved against their will.",
+          "grants": {
+            "kind": "modifier",
+            "value": 1,
+            "type": "circumstance",
+            "checkTypes": [
+              "save",
+              "skill",
+              "attribute"
+            ],
+            "scope": "checks and saving throws to resist being Shoved, Tripped or moved, while the Shaman's Rooted World is active"
+          }
+        }
+      ],
+      "bookCategory": "class"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Q4mflQ0mSi7ebl22"
+}

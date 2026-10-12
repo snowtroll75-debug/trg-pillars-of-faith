@@ -1,0 +1,119 @@
+{
+  "_id": "r4rRIFMpxRvlGhj8",
+  "name": "Doctrinal Ward",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 1,
+    "castAP": 1,
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 willing creature",
+    "duration": "1 minute",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Doctrinal Ward",
+        "target": "targets",
+        "grants": [
+          {
+            "kind": "advantage",
+            "label": "Doctrinal Ward",
+            "scope": "The first saving throw against a Divinity spell or an effect granted by a Deific Aspect (once; then the ward ends)",
+            "auto": true,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "traditions": [
+                "divinity"
+              ]
+            }
+          },
+          {
+            "kind": "advantage",
+            "label": "Doctrinal Ward",
+            "scope": "The first saving throw against an effect granted by a Deific Aspect — tick if this is one",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "save"
+              ],
+              "not": {
+                "traditions": [
+                  "divinity"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 1,
+        "text": "Target one additional willing creature",
+        "mods": {
+          "extraTargets": 1
+        }
+      },
+      {
+        "ppCost": 3,
+        "text": "The ward may grant Advantage twice before ending",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Archivist",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Warding",
+    "description": "ARCHIVIST UTILITY WARDING\nArchivist Specialist Spell\nCast 1 AP (verbal)\nRange 30 feet\nTargets 1 willing creature\nDuration 1 minute\n\nYou recite a compact theological formula that reveals the structure of divine power an instant before it takes hold.\nThe first time during the duration that the target attempts a saving throw against a Divinity spell or magical effect granted directly by a Deific Aspect, it gains Advantage on that saving throw. Doctrinal Ward then ends.\n\nWarping Options:\n+1 PP: Target one additional willing creature.\n+3 PP: The ward may grant Advantage twice before ending.\n\nPillars of Faith, Chapter 10. Advantage on the target's first save against a Divinity spell or Aspect-granted effect — a scoped row that you remove once used."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!r4rRIFMpxRvlGhj8"
+}

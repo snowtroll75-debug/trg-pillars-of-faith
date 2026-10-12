@@ -1,0 +1,98 @@
+{
+  "_id": "q6Q7AKjm3q03Aphn",
+  "name": "Offering to the Unseen",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 3,
+    "castAP": "1 minute",
+    "range": "30 feet",
+    "area": "",
+    "targets": "1 spirit possessing sufficient awareness to communicate",
+    "duration": "10 minutes",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Offering to the Unseen",
+        "target": "self",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Offering to the Unseen",
+            "scope": "Diplomacy to Make an Impression, Request or otherwise negotiate with the spirit",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "skill"
+              ],
+              "subjects": [
+                "diplomacy"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Affect up to three spirits within range",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Shaman",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": false,
+      "verbal": true,
+      "material": true,
+      "focus": false
+    },
+    "traits": "Spirit",
+    "description": "SHAMAN SPIRIT UTILITY\nShaman Specialist Spell\nCast 1 minute (material, verbal)\nRange 30 feet\nTargets 1 spirit possessing sufficient awareness to communicate\nDuration 10 minutes\n\nYou create a spiritual offering appropriate to the target: remembered food, a scent, music, warmth, a symbolic possession or another intangible experience meaningful to it.\nYou gain a +2-status bonus to Diplomacy checks made to Make an Impression, Request or otherwise negotiate with that spirit for the duration.\nThe spell does not compel the spirit to negotiate, change its attitude automatically or force it to accept a request. A spirit incapable of desire, memory or meaningful communication cannot benefit from the offering.\n\nWarping Options:\n+2 PP: Affect up to three spirits within range.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!q6Q7AKjm3q03Aphn"
+}

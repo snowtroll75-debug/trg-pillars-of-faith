@@ -1,0 +1,53 @@
+{
+  "_id": "gtJzbtZPbWVvZPxU",
+  "name": "Vigil Shield",
+  "img": "icons/svg/shield.svg",
+  "type": "shield",
+  "system": {
+    "quantity": 1,
+    "weight": 9,
+    "price": 120,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 15,
+      "max": 15
+    },
+    "traits": "",
+    "dr": 1,
+    "hardness": 0,
+    "brokenThreshold": 0,
+    "proficiency": "",
+    "penalty": -1,
+    "defenceBonus": 2,
+    "category": "light",
+    "metal": true,
+    "itemLevel": 1,
+    "shieldBashDamage": "1d4",
+    "shieldBashFumbleDC": 6,
+    "shieldBashDamageType": "bludgeoning",
+    "description": "The inner face contains a folding brace upon which a small book, ledger or prayer text can be secured. You can consult the secured book while wielding the shield without requiring an additional hand to hold it. Turning pages or exchanging books still requires the normal Interact action.\n\nPillars of Faith, Chapter 6."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gtJzbtZPbWVvZPxU"
+}

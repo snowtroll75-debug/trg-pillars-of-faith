@@ -1,0 +1,38 @@
+# Pillars of Faith 0.7.0 — compliance with 3.624.2, and the automation pass
+
+7 October 2026. Built against TRG Prime 3.625.0 (required), which is Graham's 3.624.2 plus eleven small openings this module's rules needed (`release-notes-3.625.0.md`). Graham, 6 October: "make sure that Pillars of Faith is fully compliant with it … ensure that the content you are adding from Pillars of Faith is fully automated."
+
+## Compliance with 3.624.2
+
+The five suites (foundation 742, classes 893, feats 3,023, grimoire 2,057, equipment 1,330) ran green against 3.624.2 unchanged; the module API it registers through (`registerPack/Language/Traits/RacialPP/Class/Archetype/FeatAccess/SkillSubstitution/DegreeUpgrades/SkillActions/FeatAutomation/PassiveAutomation/ClassSkillGrant`, `contentPack`, the helpers) is intact, and the 3.607.0 equipment-conditional gate is in his tree. One conflict found and fixed: **3.623.0's Divine Aspect banner** infers "needs an aspect" from a divinity tradition, so the **Archivist and the Healer** — divinity casters the book says need none — were asked for one. They now register `needsDivineAspect: false`, which 3.625.0 honours as a decline.
+
+## What is automated now (was "a rule for the table")
+
+Every mechanical rule the book prints for the feats, class abilities, spells and herbs shipped so far is a declaration the system reads, with the few GM-adjudicated clauses printed on the card at the moment they apply:
+
+- **Battle Remembered** — when your Initiative is rolled and Past-Life Echo is available, a prompt offers it as a Free action restricted to the five printed skills; the Use is spent as normal (3.625.0's initiative hook). **Reflexes of a Hundred Battles** — the echo's card says when the free 5-foot Step is yours.
+- **Consecrated Flame** — the first time each round one of your spells deals Fire damage to an Undead creature, +1d6 secondary Essence is rolled, resolved and applied on the spell's card (both the attack and the save path). Cremation as a Partial Last Rites stays a note.
+- **No Life Abandoned** — a healing spell you cast on another creature at half its HP or fewer heals half your level more (minimum 1), once per creature per spell, on the card. Medicine healing is by hand; Stabilise works on anyone.
+- **Resurgent Healing** — a Dying creature you heal magically regains half the spell's healing, as well as the Dying step the core rule gives.
+- **Lifebinder (Vital Surge)** — once a round, one die of your healing spell is maximised; the card shows "2d6 + 6+6" rather than a fudge.
+- **Swift Mender, Renewed Restoration, Guiding Luminescence** — each is a warping option that joins the Warp? dialog of the spells it names (every Healing spell for 1 AP less at +4 PP; Restoration's daily limit waived at +4 PP; the innate Guidance's second target, free).
+- **Spiritual Reserve** — a Critical or Heroic Power Recovery during a rest recovers 1 more PP per caster level.
+- **Consecrated Armament** — a Use binds it to one of your weapons that is your Aspect's favoured weapon (by name or group); attacks with it count as Magical for Resistance and Immunity, and once a round a Critical hit with it against an Undead creature adds 1d6 Essence on the damage card. Against an opposing Eternal or a desecrator the card says the die did not fire — the GM's call, added by hand.
+- **Sanctioned Strike** — Judgement marks the Subject so your weapon and unarmed attacks against it count as magical for Resistance and Immunity. **Final Sanction** — Judgement's rider grows by 1d6 against a Subject at half HP or fewer; the −1 DB after a Critical is a card line.
+- **Scholarly Exegesis** — every Religion check offers Intelligence in place of Wisdom (the difference, as an untyped row) — ticked when the check is academic.
+- **Practical Counsel** — a Success or better on your Aid grants 1 more (to +4); the Aid is rolled from whichever class-skill or lore row you choose.
+- **Deepened Bond** — a successful Refocus also restores Manifest Spirit or Spirit Intercession (chosen when both are spent), on the same timing.
+- **Guide the Last Road** — Perform Last Rites takes 1 minute and its card prints 1 month / 7 days / 24 hours. **Waywarden** — Warding Charm and Brew Remedy say 1 minute; Read the Signs' card says one direction/route/shelter/water/hazard question is free on a Success or better.
+- **Saintly Intercession** — the moment an ally within range fails a save, the Archivist is offered the reaction; the save is rerolled (with the +2 status warp if bought; a Fumble or Blunder only with the warp that answers it) and the ally is immune to the spell for 10 minutes.
+- **Writ of Restraint** — the Slowed rows save their way out at the end of each of the target's turns. **Bloom of Renewal** — the heal's relief row offers Fatigued or Sickened per creature (both with the +4 PP warp). **Share Burden** — the relief row offers which of the five conditions to take down; your own gain is set on your sheet. **Sporeglow** — a light-step circle on the target.
+- **Dragon's Breath Reed** — the rider now waits for a hit (the book's "next successful Strike"); a miss keeps it.
+
+## What is still the table's, and why
+
+- **Narrative permissions** with no number in them: Bell-Warden's Ear and Eyes Beyond the Veil (what Spirit Sense tells you), Veil Tracker (Track a spirit's passage — a specialist skill cannot carry an action, so the GM takes Spirit Lore's total where it is higher), Truth Burns Through (ask about one statement after a Critical Detect Deception), Chorus Without Words, Walk Between Worlds, Grasp the Unseen (Ghost Touch in Shadow Stance), Grave-Seal Mason, Reconstruct Target (Study Target from evidence), Chain of Evidence (one time step less on that Study), A Word at the Right Time (Aid as a Reaction — Aid is rolled from the sheet when the trigger lands), Living Concordance (two spells on one Meditation check), Elemental Overflow (a second creature's damage), Beacon for the Departing's concealment clause. Each is on its feat's card.
+- **Counteract spells** (Exorcise, Expel Possessor, Break the Evil Eye, Sever Soulchain, Sever Influence, Restore Memory, Quarantine Working, Still the Haunt, Nine-Herb Restorative's counteract) roll Spellcraft from the card against the DC of the effect, which the system does not record — the core's own counteract spells work the same way.
+- **Effects the system has no rail for**: Second Heart / Phoenix Root / Prism Lotus (the first time you would drop to 0 or die), Grace beyond Need's overflow temp HP (a reaction to another cast), Spirit Shelter's one-time Soul Drain reduction, Threshold Ward and Old Law of the Threshold (a check on crossing a doorway — the core's entry checks need a drawn region), Communal Litany's one-degree improvement, Ossuary Lamellar's typed DR, the Ossuary Board's Shove on a bash, Grave Warden's essence-instead-of-weapon-type Judgement. Named on their cards; candidates for a later system release if Graham wants them.
+
+## Harness
+
+`verify-automation.mjs` — 50 checks: every declaration on its feat or ability with its fields, each read by the system's own reader; the registrations (the aspect declines, the three granted warps through `registerSpellWarps`, the two action variants, the hook listener); Consecrated Armament's Use and Judgement's writes structural; Battle Remembered's offer; the reed through `ridersSpentBy` on a miss and a hit; the hints no longer saying "a rule for the table". `verify-grimoire` grew checks for the saveReroll, lightShift, relief-choice and conditionSave rows and pins the five retrofits. All six suites in `npm run verify`.

@@ -1,0 +1,50 @@
+{
+  "_id": "SgeELAfbG1XwQXq3",
+  "name": "Moon",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "The Moon embodies cycles, reflected light, secrecy, dreams and inevitable change. It disappears without dying and returns without resurrection. Lunar faiths commonly govern calendars, nocturnal journeys, dreams, tides, transformation and matters that are revealed only indirectly. Its symbols include the crescent, a silver disk reflected in dark water, a moth before a pale circle and paired masks of waxing and waning faces.\n\nEdicts: Observe and respect natural cycles. Accept necessary change. Guide those who travel in darkness. Keep secrets entrusted to you for worthy reasons. Pay attention to dreams, omens and recurring patterns.\n\nAnathema: Demand permanence from something whose nature requires change. Betray an entrusted secret merely for attention or advantage. Deliberately destroy harmless lunar observances. Reject necessary change solely because the familiar is more comfortable.\n\nSuggested Ethics: Adaptability, Equilibrium, Prudence\n\nClass Skill: Occultism\n\nSpecialist Spells: Guiding Stone (1), Seer's Vision (1), Shifting Step (1), Veiled Presence (1), Fateful Temptation (7), Revealing Glance (7), Stasis (7), Veiled Secret (7)\n\nBonus Spells: Darkvision (4); Embrace Destiny (4); Augury (4); Divine Vision (8)\n\nFavoured Weapon: Knife\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Balance",
+    "edicts": "Observe and respect natural cycles. Accept necessary change. Guide those who travel in darkness. Keep secrets entrusted to you for worthy reasons. Pay attention to dreams, omens and recurring patterns.",
+    "anathema": "Demand permanence from something whose nature requires change. Betray an entrusted secret merely for attention or advantage. Deliberately destroy harmless lunar observances. Reject necessary change solely because the familiar is more comfortable.",
+    "suggestedEthics": "Adaptability, Equilibrium, Prudence",
+    "classSkill": "Occultism",
+    "favouredWeapon": "Knife",
+    "specialistSpells": "Guiding Stone, Seer's Vision, Shifting Step, Veiled Presence, Fateful Temptation, Revealing Glance, Stasis, Veiled Secret",
+    "bonusSpells": "4: Darkvision, 4: Embrace Destiny, 4: Augury, 8: Divine Vision"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Adaptability",
+        "Equilibrium",
+        "Prudence"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!SgeELAfbG1XwQXq3"
+}

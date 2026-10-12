@@ -1,0 +1,72 @@
+{
+  "_id": "kDQuiFm24FPoleBG",
+  "name": "Grave Warden",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>You investigate those who refuse the natural boundary of death. Grave Wardens hunt necromancers, intelligent undead, corrupted burial sites and those who interfere with the proper passage of souls. Their training places particular emphasis upon recognising the differences between ordinary Undead creatures and the Unliving.<br>Specialist Skill Burial Lore<br>Consecrated Judgement: When your Judged Subject possesses the Undead or Unliving trait, the additional damage granted by Judgement may be inflicted as essence damage instead of its normal damage type. You also gain a +1-class bonus to Religion checks made to identify undead creatures or the effects responsible for creating them.</p>\n<p>Consecrated Judgement — the +1 class bonus to Religion is offered on Identify Power and Recall Knowledge with the book's wording; essence damage in place of Judgement's type is your call at the table.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Burial Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Consecrated Judgement",
+          "scope": "Religion checks to identify undead creatures or the effects that created them",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "identifyPower",
+              "recallKnowledge"
+            ],
+            "subjects": [
+              "religion"
+            ]
+          },
+          "value": 1,
+          "type": "class"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kDQuiFm24FPoleBG"
+}

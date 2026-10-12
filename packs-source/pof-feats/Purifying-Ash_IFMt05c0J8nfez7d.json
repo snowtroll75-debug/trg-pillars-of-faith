@@ -1,0 +1,50 @@
+{
+  "_id": "IFMt05c0J8nfez7d",
+  "name": "Purifying Ash",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "Ashen heritage",
+    "active": true,
+    "description": "<p>ESHARI</p>\n<p>Sacred fire leaves nothing behind for corruption to cling to.<br>You gain Purify as a Divinity innate spell with the Focus trait.</p>\n<p>Prerequisites Ashen heritage</p>\n<p>Works automatically: Purify is an innate Divinity spell with the Focus trait on your spell list.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Eshari",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "Purify",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantInnate": true,
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IFMt05c0J8nfez7d"
+}

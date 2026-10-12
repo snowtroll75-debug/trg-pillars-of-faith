@@ -1,0 +1,82 @@
+{
+  "_id": "zsA4MMsSl6GMwrkE",
+  "name": "Shadowed Soul",
+  "img": "icons/svg/upgrade.svg",
+  "type": "feat",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Racial",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>KORNARGON SHADOW</p>\n<p>The shadow that clings to your body has begun to reveal disturbances that do not belong wholly to the physical world.<br>While you are in Shadow Stance, you gain Spirit Sense as a tertiary sense with a range of 15 feet. When using Search, you can detect the presence and general direction of disembodied spirits, incorporeal undead, haunts and active possession within this range.<br>You also gain a +1-racial bonus to saving throws against possession while Shadow Stance is active.</p>\n<p>Works automatically: Spirit Sense (15 ft, tertiary) is on your senses list — the book grants it only in Shadow Stance; +1 racial to saves against possession is offered (tick while in the stance).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "Kornargon",
+    "sourceClass": "",
+    "sourceArchetype": "",
+    "traits": "Shadow",
+    "repeatable": false,
+    "repeatLimit": 0,
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "creatureAbility": {
+        "printedTraits": "",
+        "printedAction": "",
+        "printedArea": "",
+        "derives": {
+          "sense": {
+            "category": "tertiary",
+            "modality": "spiritual",
+            "fixedFeet": 15,
+            "name": "Spirit Sense",
+            "finds": "disembodied spirits, incorporeal undead, haunts and active possession"
+          }
+        },
+        "source": "Pillars of Faith, Chapter 5 (Shadowed Soul) — while in Shadow Stance"
+      },
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Shadowed Soul",
+          "scope": "Saving throws against possession while Shadow Stance is active",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "save"
+            ],
+            "traits": [
+              "possession"
+            ]
+          },
+          "value": 1,
+          "type": "race"
+        }
+      ],
+      "bookCategory": "racial"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zsA4MMsSl6GMwrkE"
+}

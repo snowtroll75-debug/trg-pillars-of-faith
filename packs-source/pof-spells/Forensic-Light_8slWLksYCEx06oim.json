@@ -1,0 +1,108 @@
+{
+  "_id": "8slWLksYCEx06oim",
+  "name": "Forensic Light",
+  "img": "icons/svg/book.svg",
+  "type": "spell",
+  "system": {
+    "tradition": "",
+    "category": "utility",
+    "level": 0,
+    "ppCost": 3,
+    "castAP": 2,
+    "range": "30 feet",
+    "area": "15-foot burst",
+    "targets": "",
+    "duration": "10 minutes",
+    "defence": "",
+    "baseDamage": "",
+    "damage": {
+      "formula": "",
+      "type": "",
+      "persistent": ""
+    },
+    "casterLevelMods": [],
+    "effects": [
+      {
+        "kind": "conditional",
+        "label": "Forensic Light",
+        "target": "self",
+        "grants": [
+          {
+            "kind": "modifier",
+            "value": 2,
+            "type": "status",
+            "label": "Forensic Light",
+            "scope": "Within the lit area: Search for physical evidence, Identify Magic, Trace Possession, Identify Spiritual Affliction, or recognising evidence of a curse, haunt or transformation",
+            "auto": false,
+            "when": {
+              "checkTypes": [
+                "skill"
+              ],
+              "actions": [
+                "search",
+                "identifyPower",
+                "tracePossession",
+                "identifySpiritualAffliction"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "warps": [
+      {
+        "ppCost": 2,
+        "text": "Increase the radius by 10 feet",
+        "mods": {
+          "areaGrowth": 10
+        }
+      },
+      {
+        "ppCost": 2,
+        "text": "Spiritual traces up to 7 days old remain perceptible, provided they have not been magically erased",
+        "mods": {}
+      }
+    ],
+    "apOptions": [],
+    "prepared": false,
+    "sustained": false,
+    "sustainType": "",
+    "areaTargeting": "all",
+    "specialist": true,
+    "specialistClass": "Grimward",
+    "innate": false,
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "components": {
+      "somatic": true,
+      "verbal": true,
+      "material": false,
+      "focus": false
+    },
+    "traits": "Insight",
+    "description": "GRIMWARD INSIGHT UTILITY\nGrimward Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nArea 15-foot burst\nDuration 10 minutes\n\nA pale radiance settles over the area, exaggerating disturbances left by physical and supernatural activity.\nYou gain a +2-status bonus to checks made within the affected area to:\nSearch for physical evidence;\nIdentify Magic;\nTrace Possession;\nIdentify Spiritual Affliction; or\nrecognise evidence of a curse, haunt or supernatural transformation.\nThe spell does not identify who created the evidence, determine guilt or reveal information that left no trace.\n\nWarping Options:\n+2 PP: Increase the radius by 10 feet.\n+2 PP: Spiritual traces up to 7 days old remain perceptible, provided they have not been magically erased.\n\nPillars of Faith, Chapter 10."
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 10
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8slWLksYCEx06oim"
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "MhFfGzR3u3x4IB6K",
+  "name": "Kingshield Moss",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 785,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: fortress ruins and old defensive earthworks.\n\nKingshield moss spreads across ruined battlements and old defensive earthworks in dense, shield-shaped patches. Its upper surface is springy and green, but the layers beneath harden like overlapping scales whenever they are pressed. Ground with oil, it forms a heavy paste traditionally daubed upon champions before a siege. Applied to the skin or armour, it hardens into overlapping scales. For 10 minutes, you gain DR 2 and a +1-item bonus to DB. Temporary DR from Kingshield Moss does not stack with DR granted by another consumable.\n\nOn the sheet: Temporary DR from Kingshield Moss does not stack with DR granted by another consumable.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 8
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Kingshield Moss",
+          "duration": "10 minutes",
+          "effects": [
+            {
+              "kind": "bonus",
+              "target": "self",
+              "slot": "dr",
+              "bonusType": "item",
+              "value": 2
+            },
+            {
+              "kind": "bonus",
+              "target": "self",
+              "slot": "defence",
+              "bonusType": "item",
+              "value": 1
+            }
+          ],
+          "note": "Temporary DR from Kingshield Moss does not stack with DR granted by another consumable."
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: fortress ruins and old defensive earthworks.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 8,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 785,
+        "tablePrice": 785,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MhFfGzR3u3x4IB6K"
+}

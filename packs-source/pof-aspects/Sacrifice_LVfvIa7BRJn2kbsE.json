@@ -1,0 +1,50 @@
+{
+  "_id": "LVfvIa7BRJn2kbsE",
+  "name": "Sacrifice",
+  "img": "icons/svg/holy-symbol.svg",
+  "type": "divine-aspect",
+  "system": {
+    "source": "Pillars of Faith, Chapter 7",
+    "category": "",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "Sacrifice is the principle that some things are worth more than personal comfort, wealth or safety. It is represented by an empty cup, a shield split by a blow intended for another, or a candle burning itself away to provide light.\nThe aspect does not teach that suffering is inherently virtuous. A meaningless death serves nobody. True sacrifice requires that something of value is willingly surrendered so that another person, community or principle may endure.\n-314700\n\nEdicts: Accept reasonable personal hardship to protect those who depend upon you. Give from your own resources when doing so can meaningfully relieve suffering. Place yourself between danger and those unable to defend themselves when circumstances permit. Honour those who knowingly gave something precious for others.\n\nAnathema: Force another person to make a sacrifice you refuse to make yourself. Glorify pointless suffering or needless death. Exploit another's selflessness for personal gain. Abandon someone solely to avoid a reasonable personal cost when you could meaningfully save them.\n\nSuggested Ethics: Altruism, Benevolence, Justice\n\nClass Skill: Occultism\n\nSpecialist Spells: Banish Fatigue (1), Protective Ward (1), Sacrificing Shield (1), Wellspring of Valour (1), Death's Defiance (7), Protector's Sphere (7), Resilient Fortitude (7), Unity (7)\n\nBonus Spells: Shield (2); Aid (4); Courage (6); Death Ward (10)\n\nFavoured Weapon: Flail\n\nPillars of Faith, Chapter 7. Add it from the sheet's Divine Aspect slot: the class skill and favoured weapon apply, the bonus spells arrive at their levels, and Use chooses the specialist spell (PP 1 for a Grimward or Cleric).",
+    "traits": "Good",
+    "edicts": "Accept reasonable personal hardship to protect those who depend upon you. Give from your own resources when doing so can meaningfully relieve suffering. Place yourself between danger and those unable to defend themselves when circumstances permit. Honour those who knowingly gave something precious for others.",
+    "anathema": "Force another person to make a sacrifice you refuse to make yourself. Glorify pointless suffering or needless death. Exploit another's selflessness for personal gain. Abandon someone solely to avoid a reasonable personal cost when you could meaningfully save them.",
+    "suggestedEthics": "Altruism, Benevolence, Justice",
+    "classSkill": "Occultism",
+    "favouredWeapon": "Flail",
+    "specialistSpells": "Banish Fatigue, Protective Ward, Sacrificing Shield, Wellspring of Valour, Death's Defiance, Protector's Sphere, Resilient Fortitude, Unity",
+    "bonusSpells": "2: Shield, 4: Aid, 6: Courage, 10: Death Ward"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "suggestedEthics": [
+        "Altruism",
+        "Benevolence",
+        "Justice"
+      ],
+      "bookChapter": 7
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.571.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!LVfvIa7BRJn2kbsE"
+}

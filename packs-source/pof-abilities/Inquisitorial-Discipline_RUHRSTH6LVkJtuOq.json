@@ -1,0 +1,56 @@
+{
+  "_id": "RUHRSTH6LVkJtuOq",
+  "name": "Inquisitorial Discipline",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>At 1st level, select one of the following Inquisitorial Disciplines: Exorcist, Grave Warden, Hexbreaker, Relic Warden or Truthseeker. Your discipline grants you a specialist skill and an additional ability.</p>\n<p>Use to choose: the discipline arrives as its own ability with its specialist skill and additional ability.</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      },
+      "abilityChoices": [
+        "Exorcist",
+        "Grave Warden",
+        "Hexbreaker",
+        "Relic Warden",
+        "Truthseeker"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!RUHRSTH6LVkJtuOq"
+}

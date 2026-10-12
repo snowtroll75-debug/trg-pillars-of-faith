@@ -1,0 +1,82 @@
+{
+  "_id": "MIqU3RDISEFe8YfK",
+  "name": "Hexbreaker",
+  "img": "icons/svg/book.svg",
+  "type": "ability",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Class",
+    "tier": "",
+    "level": 1,
+    "prerequisites": "Grimward 1st level",
+    "active": true,
+    "description": "<p>You specialise in hostile magic: curses, compulsions, magical corruption and spells intended to conceal wrongdoing. Hexbreakers are frequently sent into situations where ordinary investigators cannot even trust what they see.<br>Specialist Skill Curse Lore<br>Break The Working: You gain a +2-class bonus to checks made to identify magical curses and effects created by your Subject of Inquisition. Furthermore, when attempting to Counteract a spell or magical effect created by your Judged Subject, you gain a +1-circumstance bonus to the Counteract check.</p>\n<p>Break the Working — the +2 class bonus is offered on Identify Power and Recall Knowledge with the book's wording; the +1 circumstance to Counteract checks is offered on Spellcraft rolls (tick it against your Judged Subject's effects).</p>",
+    "usesPerDay": "",
+    "bonusUses": 0,
+    "usesValue": 0,
+    "sourceRace": "",
+    "sourceClass": "Grimward",
+    "traits": "",
+    "grantedSpells": "",
+    "grantedAbilities": "",
+    "grantedFeats": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "classAbility": {
+        "class": "Grimward",
+        "level": 1
+      },
+      "grantedSpecialistSkills": "Curse Lore",
+      "conditionals": [
+        {
+          "kind": "modifier",
+          "label": "Break the Working",
+          "scope": "Identifying curses and magical effects created by your Subject of Inquisition",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "actions": [
+              "identifyPower",
+              "recallKnowledge"
+            ]
+          },
+          "value": 2,
+          "type": "class"
+        },
+        {
+          "kind": "modifier",
+          "label": "Break the Working",
+          "scope": "Counteract checks against a spell or effect created by your Judged Subject",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "spellcraft"
+            ]
+          },
+          "value": 1,
+          "type": "circumstance"
+        }
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!MIqU3RDISEFe8YfK"
+}

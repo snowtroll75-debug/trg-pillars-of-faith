@@ -1,0 +1,97 @@
+{
+  "_id": "g3BYmpTMDO8fIGMs",
+  "name": "Spirit Medium",
+  "img": "icons/svg/book.svg",
+  "type": "background",
+  "system": {
+    "source": "Pillars of Faith",
+    "category": "Background",
+    "tier": "",
+    "level": 0,
+    "prerequisites": "",
+    "active": true,
+    "description": "<p>Since childhood you have been unusually receptive to presences that others overlook. Training taught you to distinguish genuine spirits from grief, deception and imagination, and to approach the unseen with caution rather than blind obedience. Some mediums work in temples, others serve villages or families, while a few wander because too many voices know where they live.</p>\n<p>BONUS FEAT</p>\n<p>Veil Listener</p>\n<p>SKILL BONUSES</p>\n<p>Occultism, Religion, Sense Motive</p>\n<p>SPECIALIST SKILL</p>\n<p>Spirit Lore</p>\n<p>WEALTH</p>\n<p>0</p>",
+    "grantedFeats": "Veil Listener",
+    "grantedSpells": "",
+    "skillBonuses": "Occultism, Religion, Sense Motive",
+    "specialistSkill": "Spirit Lore",
+    "special": "",
+    "coreLanguages": "",
+    "additionalLanguages": "",
+    "languageChoices": "",
+    "wealth": "0"
+  },
+  "effects": [
+    {
+      "_id": "VkABs3LyithG7qUz",
+      "name": "Spirit Medium: skill bonuses",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.skills.occultism.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.religion.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.skills.senseMotive.class",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "flags": {
+        "trg-prime": {
+          "featPassive": true
+        }
+      },
+      "type": "base",
+      "system": {},
+      "origin": null,
+      "duration": {},
+      "statuses": [],
+      "description": "+1 class bonus to Occultism, Religion, Sense Motive.",
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "trg-prime",
+        "systemVersion": "3.560.0",
+        "createdTime": 1789000000000,
+        "modifiedTime": 1789000000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!items.effects!g3BYmpTMDO8fIGMs.VkABs3LyithG7qUz"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "grantedSpecialistSkills": "Spirit Lore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.560.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!g3BYmpTMDO8fIGMs"
+}

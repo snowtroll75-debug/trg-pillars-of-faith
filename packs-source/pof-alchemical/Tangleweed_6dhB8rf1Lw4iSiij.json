@@ -1,0 +1,87 @@
+{
+  "_id": "6dhB8rf1Lw4iSiij",
+  "name": "Tangleweed",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 50,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: any marshes or swamps.\n\nTangleweed is a creeping marsh plant whose hooked fibres knot themselves around reeds, boots and passing animals. Once cut, the stems continue to coil for several minutes before becoming still. Herbalists pound the living fibres with thickening salts to produce a tacky green paste that contracts violently when warmed by blood. You spread this paste over one melee weapon or up to 10 pieces of ammunition. The preparation remains potent for 1 minute. The first creature damaged by the treated weapon must attempt a level-based Reflex saving throw. On a failure, it becomes Slowed 1 for 1 round. The dose is then expended.\n\nTangleweed is rarely welcomed by those who live near the marshes, for it seems to possess a spiteful instinct all its own. Its hooked tendrils creep through reed beds and along muddy banks, catching at hems, straps and exposed skin with enough persistence to trip the unwary or snare small animals until they exhaust themselves. Marshfolk tell stories of whole stretches of bog “waking” after heavy rain, the weed shifting and tightening as though disturbed from sleep. Herbalists prize the plant precisely for this restless quality, harvesting it with hooked knives and thick gloves before crushing the still-coiling stems into a binding paste. Applied to steel or ammunition, the preparation clings like wet sinew, tightening violently when it meets warm blood and briefly robbing a struck foe of speed and freedom of movement.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Tangleweed",
+          "duration": "1 minute",
+          "effects": [
+            {
+              "kind": "strikeRider",
+              "target": "self",
+              "label": "Tangleweed",
+              "condition": "slowed",
+              "conditionValue": 1,
+              "conditionRounds": 1,
+              "conditionSave": {
+                "save": "reflex",
+                "dcLevel": 2
+              },
+              "once": true,
+              "spendOnHit": true,
+              "weaponScoped": true
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: any marshes or swamps.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 2,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 50,
+        "tablePrice": 50,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6dhB8rf1Lw4iSiij"
+}

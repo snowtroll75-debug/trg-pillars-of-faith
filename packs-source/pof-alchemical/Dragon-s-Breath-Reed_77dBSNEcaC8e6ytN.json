@@ -1,0 +1,81 @@
+{
+  "_id": "77dBSNEcaC8e6ytN",
+  "name": "Dragon's Breath Reed",
+  "img": "icons/svg/oak.svg",
+  "type": "consumable",
+  "system": {
+    "quantity": 1,
+    "weight": 0,
+    "price": 85,
+    "equipped": false,
+    "invested": false,
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "traits": "Consumable Herb",
+    "description": "<strong>Usage held in 1 hand; Activate Interact (2 AP).</strong>\n\nTerrain: warm volcanic regions.\n\nDragon's breath reed grows around volcanic pools in clusters of scarlet, hollow stems. Each joint contains a resinous membrane that crackles when the reed is flexed and exhales a thread of hot smoke when pierced. The dried reed is burned in a shallow cup and its fierce vapour inhaled with care, warming the lungs until every breath tastes of ash. The next successful weapon or unarmed Strike you make within 1-minute deals an additional 1d6 fire damage. The dose is then expended.\n\nPillars of Faith, Chapter 6.",
+    "uses": 1,
+    "activation": "Interact (2 AP)",
+    "itemLevel": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "trg-prime": {
+      "bookChapter": 6,
+      "consumable": {
+        "kind": "herb",
+        "costColumn": "alchemical",
+        "hands": 1,
+        "traitOmitsConsumable": false,
+        "effect": {
+          "label": "Dragon's Breath Reed",
+          "duration": "1 minute",
+          "effects": [
+            {
+              "kind": "strikeRider",
+              "label": "Dragon's Breath Reed",
+              "dice": "1d6",
+              "damageType": "fire",
+              "scope": "any",
+              "once": true,
+              "spendOn": "hit"
+            }
+          ]
+        }
+      },
+      "alchemical": {
+        "section": "Herb",
+        "higherLevel": "",
+        "reagent": "",
+        "terrain": "Terrain: warm volcanic regions.",
+        "stages": "",
+        "delivery": "",
+        "baseLevel": 3,
+        "bomb": null,
+        "rangeIncrement": 0,
+        "scaling": null,
+        "printedPrice": 85,
+        "tablePrice": 85,
+        "offTable": false,
+        "priceRuling": null
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "trg-prime",
+    "systemVersion": "3.607.0",
+    "createdTime": 1789000000000,
+    "modifiedTime": 1789000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!77dBSNEcaC8e6ytN"
+}
