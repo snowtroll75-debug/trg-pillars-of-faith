@@ -1,7 +1,7 @@
 {
   "_id": "Qft2Wq8M6ytTGBOZ",
   "name": "Shroud of Borrowed Warmth",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/mystery-man.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

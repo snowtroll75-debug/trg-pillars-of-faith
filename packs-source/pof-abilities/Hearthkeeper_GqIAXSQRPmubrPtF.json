@@ -1,7 +1,7 @@
 {
   "_id": "GqIAXSQRPmubrPtF",
   "name": "Hearthkeeper",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/classes/ranger.png",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

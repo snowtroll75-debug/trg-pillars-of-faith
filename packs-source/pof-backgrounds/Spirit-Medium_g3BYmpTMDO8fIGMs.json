@@ -1,7 +1,7 @@
 {
   "_id": "g3BYmpTMDO8fIGMs",
   "name": "Spirit Medium",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/backgrounds/fortune-teller.png",
   "type": "background",
   "system": {
     "source": "Pillars of Faith",

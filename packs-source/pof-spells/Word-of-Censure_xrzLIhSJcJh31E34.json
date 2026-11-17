@@ -1,7 +1,7 @@
 {
   "_id": "xrzLIhSJcJh31E34",
   "name": "Word of Censure",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/enchantment.svg",
   "type": "spell",
   "system": {
     "tradition": "",

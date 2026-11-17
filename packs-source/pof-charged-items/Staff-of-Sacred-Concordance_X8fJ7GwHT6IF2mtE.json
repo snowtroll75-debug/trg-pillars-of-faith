@@ -1,7 +1,7 @@
 {
   "_id": "X8fJ7GwHT6IF2mtE",
   "name": "Staff of Sacred Concordance",
-  "img": "icons/svg/oak.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/oak.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

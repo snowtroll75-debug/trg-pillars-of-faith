@@ -1,7 +1,7 @@
 {
   "_id": "9JNIqLWp5E0XjyCa",
   "name": "Liturgy of Prayer",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/icons/svg/upgrade.svg",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",
@@ -10,7 +10,7 @@
     "level": 0,
     "prerequisites": "Liturgist archetype",
     "active": true,
-    "description": "<p>CONCENTRATE</p>\n<p>Action 1 AP; Frequency 1/day</p>\n<p>Requirements You have your Liturgical Book available and are able to read or otherwise consult it.</p>\n<p>You rapidly locate a familiar passage, annotation or alternative formulation before invoking a prepared prayer. Select one Divinity spell that you do not currently have memorised, but which is recorded in your Liturgical Book. You may cast this spell immediately (using its normal AP cost). If the spell is not cast before the end of your turn, the ability is wasted.</p>\n<p>Use: spends 1 AP and the day's use, lets you pick a Liturgical Book spell that is not prepared, and marks it prepared so it can be cast now.</p>",
+    "description": "<p>CONCENTRATE</p>\n<p>Action 1 AP; Frequency 1/day</p>\n<p>Requirements You have your Liturgical Book available and are able to read or otherwise consult it.</p>\n<p>You rapidly locate a familiar passage, annotation or alternative formulation before invoking a prepared prayer. Select one Divinity spell that you do not currently have memorised, but which is recorded in your Liturgical Book. You may cast this spell immediately (using its normal AP cost). If the spell is not cast before the end of your turn, the ability is wasted.</p>\n<p>Use: pick a spell recorded in your Liturgical Book that is not on your spells table; it spends 1 AP and the day's use and puts the spell on your spells table, castable at its normal AP cost. It leaves at the end of your turn.</p>",
     "usesPerDay": "1",
     "bonusUses": 0,
     "usesValue": 1,

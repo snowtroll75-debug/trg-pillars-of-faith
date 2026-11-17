@@ -99,7 +99,7 @@ const BOOK_HERITAGES = {
   Vaelori: ["Myrathi", (h) => h.system.grantedSpells === "Purify" && h.flags["trg-prime"].grantInnate === true && h.effects.some((e) => e.changes.some((c) => c.key === "system.skills.medicine.racial"))],
   Arathi: ["Rhevani", (h) => h.system.abilityModifiers === "Str +1" && h.effects.some((e) => e.changes.some((c) => c.key === "system.combat.initiative.race" && c.value === "10"))],
   Dornai: ["Rhevani", (h) => h.effects.some((e) => e.changes.some((c) => c.key === "system.combat.deathState" && c.value === "2" && c.mode === 2))],
-  Sevrai: ["Rhevani", (h) => h.system.languageChoices === "1 common|regional" && h.effects.some((e) => e.changes.some((c) => c.key === "system.combat.movement.land" && c.value === "5" && c.mode === 2))],
+  Sevrai: ["Rhevani", (h) => h.system.languageChoices === "1 common|regional" && h.effects.some((e) => e.changes.some((c) => c.key === "system.combat.movement.land.base" && c.value === "5" && c.mode === 2))],
   Thaeli: ["Rhevani", (h) => h.system.grantedSpells === "Guidance" && h.flags["trg-prime"].grantInnate === true],
   Velori: ["Rhevani", (h) => h.system.abilityModifiers === "Int +1" && h.flags["trg-prime"].specialistChoice?.suffix === "Lore"]
 };
@@ -334,8 +334,8 @@ equal("C registers the four traits", JSON.stringify(of("registerTraits")[0][1]),
 equal("C registers three languages", of("registerLanguage").length, 3);
 equal("C registers four racial PP rows", of("registerRacialPP").length, 4);
 ok("C every racial PP row is 0", of("registerRacialPP").every((c) => c[2] === 0));
-equal("C registers every automation (Chapters 2, 3, 5, 9 and 10)", of("registerFeatAutomation").length, Object.keys(AUTOMATIONS).length + 19 + 60 + 4 + 2);
-equal("C registers every passive hint (Chapters 2, 3 and 5)", of("registerPassiveAutomation").length, Object.keys(PASSIVE_HINTS).length + 39 + 111);
+equal("C registers every automation (Chapters 2, 3, 5, 9 and 10)", of("registerFeatAutomation").length, Object.keys(AUTOMATIONS).length + 19 + 62 + 4 + 2); // 0.12.1: Sacred Marginalia and Final Toll became Uses
+equal("C registers every passive hint (Chapters 2, 3 and 5)", of("registerPassiveAutomation").length, Object.keys(PASSIVE_HINTS).length + 39 + 109); // 0.12.1: two hints became Uses
 equal("C registers ten skill substitutions (four background feats, two class abilities, four Chapter 5 feats — Veil Tracker since 0.11.0)", of("registerSkillSubstitution").length, 10);
 equal("C registers the eighteen skill actions in one call", of("registerSkillActions")[0][1].length, 18);
 equal("C registers five degree upgrades (Keeper of Records, Seasoned Hands, Close Reading, Expert Autopsist, Watch the Eyes)", of("registerDegreeUpgrades").length, 5);
@@ -347,7 +347,7 @@ ok("C every call carries the module id", calls.every((c) => c.at(-1) === "trg-pi
 
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "module.json"), "utf8"));
 equal("D module id", manifest.id, "trg-pillars-of-faith");
-equal("D requires TRG Prime 3.630.1+", manifest.relationships.systems[0].compatibility.minimum, "3.630.1");
+equal("D requires TRG Prime 3.696.0+", manifest.relationships.systems[0].compatibility.minimum, "3.696.0");
 for (const pack of PACKS) {
   const m = manifest.packs.find((p) => p.name === pack.name);
   // 0.10.0: an Actor pack (the haunts) and a JournalEntry pack (the GM's guide) extend nothing.

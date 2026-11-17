@@ -107,7 +107,7 @@ const script = read("scripts/pillars-of-faith.mjs");
 ok("D2 the setting is registered at init", /Hooks\.once\("init", \(\) => \{\s*for \(const \[key, spec\] of Object\.entries\(campaignSettings\(\(\) => redrawActorSheets\(\)\)\)\) game\.settings\.register\(MODULE_ID, key, spec\);/.test(script));
 ok("D3 the five hooks are answered", ["trgPrimeActionResolved\", (ctx) => { onActionResolved", "trgPrimeActionAttempt\", (ctx) => onActionAttempt", "trgPrimeCheckResolved\", (ctx) => { onCheckResolved", "trgPrimeOverheal\", (ctx) => { onOverheal", "trgPrimeSpellRiderLanded\", (ctx) => onSpellRiderLanded"].every((h) => script.includes(h)));
 const manifest = JSON.parse(read("module.json"));
-equal("D4 versions and the socket the GM writes temporary HP through", [manifest.version, manifest.relationships.systems[0].compatibility.minimum, manifest.socket, /const REQUIRED_SYSTEM = "3\.630\.1";/.test(script), /registerPassSocket\(\);/.test(script)], ["0.11.1", "3.630.1", true, true, true]);
+equal("D4 versions and the socket the GM writes temporary HP through", [manifest.version, manifest.relationships.systems[0].compatibility.minimum, manifest.socket, /const REQUIRED_SYSTEM = "3\.696\.0";/.test(script), /registerPassSocket\(\);/.test(script)], ["0.12.5", "3.696.0", true, true, true]);
 const reg2 = read("module/registration.mjs");
 ok("D5 Veil Tracker opens Track to Spirit Lore", /"Veil Tracker": \{ action: "track", skill: "specialist:spiritLore" \}/.test(reg2));
 const classes = read("module/class-automations.mjs");

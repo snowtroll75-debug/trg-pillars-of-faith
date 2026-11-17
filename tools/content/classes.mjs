@@ -572,7 +572,7 @@ const SHAMAN_ABILITIES = [
   classAbility({
     name: "Spirit Intercession", sourceClass: "Shaman",
     traits: "Chance, Concentrate, Focus, Spirit", usesPerDay: "1",
-    description: T("Shaman", "SPIRIT INTERCESSION", "Use as the Reaction: spends the Focus use and the reaction; reroll the failed save (yours, or from 7th an ally's within 30 feet) and keep the better result.")
+    description: T("Shaman", "SPIRIT INTERCESSION", "Works automatically: when your save fails — or from 7th level an ally's within 30 feet (an ally's token, measured; Line of Effect is your call) — you are asked; yes spends the Focus use and the reaction, the save is rerolled and the better result stands. Use is the fallback.")
   }),
   classAbility({
     name: "Spirit Ward", sourceClass: "Shaman", level: 3,
@@ -609,7 +609,7 @@ const SHAMAN_ABILITIES = [
   }),
   classAbility({
     name: "Elemental Spirit", sourceClass: "Shaman",
-    description: T("Shaman", "ELEMENTAL SPIRIT", "Use to choose Acid, Cold, Electricity or Fire: the +1 class save bonus is then pre-ticked against that trait, and the bonus cantrip is yours to add. Elemental Mantle is what Manifest Spirit applies."),
+    description: T("Shaman", "ELEMENTAL SPIRIT", "Use to choose Acid, Cold, Electricity or Fire: the +1 class save bonus is then pre-ticked against that trait, and your bonus Verdant cantrip of that element is chosen and added (it does not count against your cantrips known). Chose before 0.12.1? Use again to take the cantrip. Elemental Mantle is what Manifest Spirit applies."),
     flags: { grantedSpecialistSkills: "Elemental Lore" }
   }),
   classAbility({

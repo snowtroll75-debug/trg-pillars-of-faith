@@ -302,11 +302,36 @@ const wardingWord = {
 /* Heritage light toggles (Lumari, Lumeri)                              */
 /* ------------------------------------------------------------------ */
 
+/*
+ * THE GLOW ON THE MAP (0.12.0, automation audit). The toggle used to make a
+ * descriptive effect and told the player to light the token by hand. TRG
+ * Prime 3.669.0 lets a module register a light source, so the light now moves
+ * the illumination ladder for its bearer and is drawn on the token, through
+ * the GM relay for a token this client does not own, and the core's own
+ * deleteActiveEffect watcher puts the token's light back when it is
+ * suppressed. "Dim light" reads as the candle's step (+1, capped at dim).
+ * MAGICAL (Graham's ruling, 16 Nov 2026, U2): the Lumeri's and Lumari's
+ * light is supernatural, so Supernatural Darkness does not simply negate it
+ * as it does a torch.
+ */
+export const LIGHT_SOURCES = Object.freeze([
+  { key: "pof-bloom-light", label: "Bloom Light", item: "Bloom Light", radiusFeet: 10 },
+  { key: "pof-bloom-light-30", label: "Bloom Light (Lantern of the Bloom)", item: "Bloom Light", radiusFeet: 30 },
+  { key: "pof-lantern-glow", label: "Lantern Glow", item: "Lantern Glow", radiusFeet: 10 },
+  { key: "pof-lantern-glow-30", label: "Lantern Glow (Lantern of the Last Road)", item: "Lantern Glow", radiusFeet: 30 }
+].map((s) => Object.freeze({ ...s, steps: 1, cap: 5, magical: true, dimFeet: s.radiusFeet, brightFeet: 0 })));
+
+/** The registered key for a toggle at a radius. */
+export function lightSourceKeyFor(title, radius) {
+  const base = title === "Bloom Light" ? "pof-bloom-light" : "pof-lantern-glow";
+  return radius >= 30 ? `${base}-30` : base;
+}
+
 function lightToggle(title, baseRadius, widening) {
   return {
     hint: `Activate or suppress your dim light (${baseRadius} ft; 1 AP, Concentrate).`,
     async use(actor, item) {
-      const { line, postCard, replaceFeatEffect } = helpers();
+      const { line, postCard, replaceFeatEffect, refreshTokenLight } = helpers();
       // Lantern of the Last Road / Lantern of the Bloom (Chapter 5): 30 feet.
       const radius = widening && hasFeat(actor, widening) ? 30 : baseRadius;
       const lit = Array.from(actor.effects ?? [])
@@ -314,6 +339,7 @@ function lightToggle(title, baseRadius, widening) {
         .map((e) => e.id);
       if (lit.length) {
         if (!(await spendAP(actor, title))) return;
+        // The core's deleteActiveEffect watcher restores the token's light.
         await actor.deleteEmbeddedDocuments("ActiveEffect", lit);
         await postCard(actor, title, [line("Your light is <strong>suppressed</strong>.")]);
         return;
@@ -322,11 +348,13 @@ function lightToggle(title, baseRadius, widening) {
       await replaceFeatEffect(actor, item, {
         name: `${title}: dim light (${radius} ft)`,
         img: item.img,
-        description: `You emit dim light within ${radius} feet. Use the ability again to suppress it.`
+        description: `You emit dim light within ${radius} feet. Use the ability again to suppress it.`,
+        flags: { [SYSTEM_ID]: { lightSource: lightSourceKeyFor(title, radius) } }
       });
+      const drawn = typeof refreshTokenLight === "function" ? await refreshTokenLight(actor).catch(() => 0) : 0;
       await postCard(actor, title, [
         line(`You emit <strong>dim light within ${radius} feet</strong> — use it again to suppress.`),
-        line("<em>Token lighting isn't set automatically; adjust the token's light source to match if your table uses it.</em>")
+        line(drawn ? "<em>The light is drawn on your token and counts for the illumination around you.</em>" : "<em>It counts for the illumination around you; place a token on the scene to see it drawn.</em>")
       ]);
     }
   };

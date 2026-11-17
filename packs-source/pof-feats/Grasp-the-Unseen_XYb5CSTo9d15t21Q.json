@@ -1,7 +1,7 @@
 {
   "_id": "XYb5CSTo9d15t21Q",
   "name": "Grasp the Unseen",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/racial.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

@@ -1,7 +1,7 @@
 {
   "_id": "TeAxlgf9RYQaYxIr",
   "name": "Silvermould",
-  "img": "icons/svg/oak.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/oak.svg",
   "type": "consumable",
   "system": {
     "quantity": 1,

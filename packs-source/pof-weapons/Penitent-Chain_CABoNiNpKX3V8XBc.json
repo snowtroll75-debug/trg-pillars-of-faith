@@ -1,7 +1,7 @@
 {
   "_id": "CABoNiNpKX3V8XBc",
   "name": "Penitent Chain",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/spiked-chain.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

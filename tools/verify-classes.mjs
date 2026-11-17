@@ -267,7 +267,7 @@ if (haveSystem) {
   ok("C system: conditionals scale by valueFrom (Inquisition's live bonus)", /valueFrom/.test(read("module/conditionals.mjs")) && /scalingFor\(actor\)/.test(read("module/apps/check-dialog.mjs")));
   const auto = fs.readFileSync(path.join(ROOT, "module", "class-automations.mjs"), "utf8");
   ok("C Inquisition's bonus is read live, never baked", /valueFrom: "classBonus"/.test(auto) && !/value: bonus, type: "class", label: `Inquisition/.test(auto));
-  ok("C Judgement declares its strike rider against the Subject (growing with Final Sanction at 0.7.0)", /strikeDamageRider: \{ dice, label: "Judgement", targetUuids: subjectUuid \? \[subjectUuid\] : \[\], oncePerRound: true, \.\.\.\(hasFeat\(actor, "Final Sanction"\) \? \{ lowHalfExtraDice: "1d6" \} : \{\}\),/.test(auto)
+  ok("C Judgement declares its strike rider against the Subject (growing with Final Sanction at 0.7.0; a Grimward spell and Final Sanction's critical at 0.12.4)", /strikeDamageRider: \{ dice, label: "Judgement", targetUuids: subjectUuid \? \[subjectUuid\] : \[\], oncePerRound: true, spells: true, spellClasses: \["Grimward"\],\s*\.\.\.\(hasFeat\(actor, "Final Sanction"\) \? \{ lowHalfExtraDice: "1d6", onCritical: finalSanctionCritical\(actor, item\) \} : \{\}\),/.test(auto)
     // RESTLESS END (0.11.0): +1d6 against Undead or Unliving, grown on the damage path.
     && /extraVs: \{ dice: "1d6", label: "Restless End", targetTypes: \["undead"\], targetTraits: \["undead", "unliving"\] \}/.test(auto));
   ok("C Beast Within writes the pools' untyped slots", /system\.combat\.movement\.land\.other/.test(auto) && /system\.combat\.defence\.other/.test(auto));
@@ -275,7 +275,9 @@ if (haveSystem) {
   ok("C system: an ability's own grants are a grant type", /ability: \[[\s\S]*?grantedSpells[\s\S]*?levelled: true/.test(read("module/grants-workflow.mjs")) && /"ability"/.test(read("module/grant-autorun.mjs")));
   ok("C system: a class grants spells", /class: \[[\s\S]*?grantedSpells[\s\S]*?\],\s*\/\/ A CLASS ABILITY/.test(read("module/grants-workflow.mjs")));
   ok("C system: specialist skills come off any item declaring the flag", /declaresSpecialistSkills\(sourceItem\)/.test(read("module/grants-workflow.mjs")) && /declaresSpecialistSkills\(item\)/.test(read("module/grant-cleanup.mjs")));
-  ok("C system: the repertoire schedule is data", /repertoireSchedule\(classItem\)/.test(read("module/magic/repertoire-workflow.mjs")) && /pickStep/.test(read("module/magic/repertoire.mjs")));
+  // The call moved to grants-workflow.mjs and gained the actor (TRG Prime
+  // 3.674.0, an actor-declared schedule read over the class's); updated 0.12.0.
+  ok("C system: the repertoire schedule is data", /repertoireSchedule\((?:classItem|sourceItem)(?:, actor)?\)/.test(read("module/grants-workflow.mjs") + read("module/magic/repertoire-workflow.mjs")) && /pickStep/.test(read("module/magic/repertoire.mjs")));
   ok("C system: feat gates read class abilities too", /i\.type === "feat" \|\| i\.type === "ability"/.test(read("module/combat/action-workflow.mjs")) && /\.concat\(abilityNames\)/.test(read("module/sheets/actor-sheet.mjs")));
   ok("C system: a class-granted archetype is waived from progression", /type === "class"\) return false/.test(read("module/picker-filters.mjs")));
   ok("C system: a module class can be barred by name and gate archetypes", (read("module/picker-filters.mjs").match(/registeredClassNames\(\)\.includes\(/g) ?? []).length >= 3);
@@ -322,8 +324,8 @@ equal("D nineteen class automations", Object.keys(CLASS_AUTOMATIONS).length, 19)
 ok("D the automations file has no static import of the system", !/from "\.\.\/\.\.\/sys|trg-prime\/module/.test(fs.readFileSync(path.join(ROOT, "module", "class-automations.mjs"), "utf8")));
 
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "module.json"), "utf8"));
-equal("D module version", manifest.version, "0.11.1");
-equal("D requires TRG Prime 3.630.1+", manifest.relationships.systems[0].compatibility.minimum, "3.630.1");
+equal("D module version", manifest.version, "0.12.5");
+equal("D requires TRG Prime 3.696.0+", manifest.relationships.systems[0].compatibility.minimum, "3.696.0");
 ok("D pof-classes extends classes; pof-gear extends gear", manifest.packs.find((p) => p.name === "pof-classes")?.flags["trg-prime"].extends === "classes" && manifest.packs.find((p) => p.name === "pof-gear")?.flags["trg-prime"].extends === "gear");
 
 /* ------------------------------------------------------------------ */

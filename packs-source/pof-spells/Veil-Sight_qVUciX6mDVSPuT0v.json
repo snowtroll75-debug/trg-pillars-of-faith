@@ -1,7 +1,7 @@
 {
   "_id": "qVUciX6mDVSPuT0v",
   "name": "Veil Sight",
-  "img": "icons/svg/holy-symbol.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/insight.svg",
   "type": "spell",
   "system": {
     "tradition": "divinity",

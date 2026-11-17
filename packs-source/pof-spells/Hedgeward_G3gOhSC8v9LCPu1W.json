@@ -1,7 +1,7 @@
 {
   "_id": "G3gOhSC8v9LCPu1W",
   "name": "Hedgeward",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/soul.svg",
   "type": "spell",
   "system": {
     "tradition": "",

@@ -1,7 +1,7 @@
 {
   "_id": "XVW9wY2VTvDf3BPx",
   "name": "Ghostpetal",
-  "img": "icons/svg/oak.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/oak.svg",
   "type": "consumable",
   "system": {
     "quantity": 1,

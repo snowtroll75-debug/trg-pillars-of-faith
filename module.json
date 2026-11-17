@@ -1,8 +1,8 @@
 {
   "id": "trg-pillars-of-faith",
   "title": "TRG Prime: Pillars of Faith",
-  "description": "The Pillars of Faith sourcebook for TRG Prime — four new races (Eshari, Kethrani, Myrathi, Rhevani) and their heritages, twelve faith-flavoured backgrounds and their bonus feats, five classes (Archivist, Folkwarden, Grimward, Healer, Shaman), Chapter 4's skill actions, Chapter 5's feats and archetypes, Chapter 7's twenty-two Divine Aspects, Chapter 10's Grimoire (65 spells), Chapter 6's armour, shields, weapons, tools, fifty herbs and eight consumables, new traits and languages. Chapter 11's magic items and Chapter 9's Unliving archetypes, class feats and diseases. Chapter 8's nine sample haunts, the Spirit Presence template and a GM guide to running them.",
-  "version": "0.11.1",
+  "description": "The Pillars of Faith sourcebook for TRG Prime \u2014 four new races (Eshari, Kethrani, Myrathi, Rhevani) and their heritages, twelve faith-flavoured backgrounds and their bonus feats, five classes (Archivist, Folkwarden, Grimward, Healer, Shaman), Chapter 4's skill actions, Chapter 5's feats and archetypes, Chapter 7's twenty-two Divine Aspects, Chapter 10's Grimoire (65 spells), Chapter 6's armour, shields, weapons, tools, fifty herbs and eight consumables, new traits and languages. Chapter 11's magic items and Chapter 9's Unliving archetypes, class feats and diseases. Chapter 8's nine sample haunts, the Spirit Presence template and a GM guide to running them.",
+  "version": "0.12.5",
   "compatibility": {
     "minimum": "14",
     "verified": "14.367"
@@ -19,7 +19,8 @@
         "id": "trg-prime",
         "type": "system",
         "compatibility": {
-          "minimum": "3.630.1"
+          "minimum": "3.696.0",
+          "verified": "3.696.1"
         }
       }
     ]
@@ -317,7 +318,5 @@
       "sourcebook": "Pillars of Faith"
     }
   },
-  "socket": true,
-  "manifest": "https://raw.githubusercontent.com/snowtroll75-debug/trg-pillars-of-faith/main/module.json",
-  "download": "https://github.com/snowtroll75-debug/trg-pillars-of-faith/releases/download/v0.11.1/trg-pillars-of-faith.zip"
+  "socket": true
 }

@@ -1,7 +1,7 @@
 {
   "_id": "68V4BY2wZs8UtHnI",
   "name": "Archivist",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/classes/wizard.png",
   "type": "class",
   "system": {
     "source": "Pillars of Faith",

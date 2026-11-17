@@ -1,7 +1,7 @@
 {
   "_id": "8Z6JeeE9AVmqMfS3",
   "name": "Predator's Manifestation (Bludgeoning)",
-  "img": "systems/trg-prime/assets/weapons/claw.png",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/claw.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

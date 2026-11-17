@@ -1,7 +1,7 @@
 {
   "_id": "DfGgT88Emt5WFZtN",
   "name": "Unfold the Future",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/insight.svg",
   "type": "spell",
   "system": {
     "tradition": "",

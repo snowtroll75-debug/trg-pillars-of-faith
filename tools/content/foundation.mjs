@@ -368,7 +368,8 @@ export const HERITAGES = [
     name: "Sevrai", sourceRace: "Rhevani", description: heritageLore("Sevrai"),
     languageChoices: "1 common|regional",
     effects: [(id, n) => changesEffect(id, `${n}: Speed +5`,
-      [{ key: "system.combat.movement.land", mode: 2, value: "5", priority: 20 }],
+      // `.base`, as the races' Speed (0.12.0; see sizeSpeedEffect).
+      [{ key: "system.combat.movement.land.base", mode: 2, value: "5", priority: 20 }],
       "Your land Speed increases by 5 feet.")]
   }),
   heritage({

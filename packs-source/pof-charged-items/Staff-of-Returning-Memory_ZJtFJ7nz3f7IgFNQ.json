@@ -1,7 +1,7 @@
 {
   "_id": "ZJtFJ7nz3f7IgFNQ",
   "name": "Staff of Returning Memory",
-  "img": "icons/svg/oak.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/oak.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

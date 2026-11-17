@@ -1,7 +1,7 @@
 {
   "_id": "lUYBiVSDvxpvPyJB",
   "name": "Field Practice",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/class.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

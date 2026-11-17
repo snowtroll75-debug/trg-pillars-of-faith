@@ -1,7 +1,7 @@
 {
   "_id": "IgyNhHsa6iKyQZiH",
   "name": "Sever Influence",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/warding.svg",
   "type": "spell",
   "system": {
     "tradition": "",
@@ -23,15 +23,29 @@
     "casterLevelMods": [],
     "effects": [
       {
+        "kind": "counteract",
+        "target": "targets",
+        "traits": [
+          "curse",
+          "possession",
+          "enchantment"
+        ],
+        "limit": 1,
+        "confirm": true,
+        "label": "Sever Influence"
+      },
+      {
         "kind": "note",
-        "text": "Select one Curse, Charm, Compulsion, possession or controlling/transforming effect on the target and attempt to Counteract it; +2 circumstance if your Judged Subject created it (enter it in the Counteract dialog's circumstance box)."
+        "text": "+2 circumstance to the check if your Judged Subject created the effect — enter it in the Counteract dialog's circumstance box. Voluntarily accepted effects (Bless, Aid, Heroism — Enchantment too) are not eligible: the caster is always asked which effect to counteract, with \"None of these\". A forcibly transforming effect instead: attempt the Counteract from Spellcraft and end it by hand. Warped (+2 PP): a second eligible effect, chosen in the same dialog with its own check."
       }
     ],
     "warps": [
       {
         "ppCost": 2,
         "text": "You may attempt to Counteract two eligible effects affecting the same creature. Make separate checks",
-        "mods": {}
+        "mods": {
+          "counteractLimitBonus": 1
+        }
       }
     ],
     "apOptions": [],

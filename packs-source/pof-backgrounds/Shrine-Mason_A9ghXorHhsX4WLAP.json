@@ -1,7 +1,7 @@
 {
   "_id": "A9ghXorHhsX4WLAP",
   "name": "Shrine Mason",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/backgrounds/labourer.png",
   "type": "background",
   "system": {
     "source": "Pillars of Faith",

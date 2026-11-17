@@ -1,8 +1,8 @@
 # TRG Prime: Pillars of Faith
 
-A companion module for the [TRG Prime](https://www.trarisgames.co.uk/) system on Foundry VTT, carrying the *Pillars of Faith* sourcebook. Requires **TRG Prime 3.627.1 or later**. The system gave modules their API at 3.560.0; each later requirement is the release that carries the mechanisms a chapter needed. See the release notes beside this file.
+A companion module for the [TRG Prime](https://www.trarisgames.co.uk/) system on Foundry VTT, carrying the *Pillars of Faith* sourcebook. Requires **TRG Prime 3.695.0 or later** (verified on 3.695.0). The system gave modules their API at 3.560.0; each later requirement is the release that carries the mechanisms a chapter needed. See the release notes beside this file.
 
-## What is in this build (0.9.3)
+## What is in this build (0.12.3)
 
 - **Chapter 1:** the Haunt, Investigation, Spirit and Unliving traits.
 - **Chapter 2:**
@@ -26,7 +26,18 @@ A companion module for the [TRG Prime](https://www.trarisgames.co.uk/) system on
 - **Chapter 10:** the Grimoire (65 spells), plus Sacred Toll. It also carries the two Eldritch Arts spells until that book ships.
 - **Chapter 11:** runes, specific magic armour and weapons, wondrous items and relics, rods and staves, and magical consumables.
 
-**Coming later:** Chapter 8, Spirits & Haunts.
+- **Chapter 8 (0.10.0):** nine sample haunts, the Spirit Presence template and a GM guide.
+- **0.11.0:** the automation pass and the Undead Lords campaign option (Configure Settings).
+- **0.12.0:** the automation audit. All 661 entries were classified, ten repairs made, and all five classes live-tested from 1st to 20th level. See:
+  - `PILLARS_OF_FAITH_AUTOMATION_AUDIT.md`;
+  - `PILLARS_OF_FAITH_REPAIR_REPORT.md`;
+  - `PILLARS_OF_FAITH_TEST_REPORT.md`;
+  - `PILLARS_OF_FAITH_UNRESOLVED.md`;
+  - `PILLARS_OF_FAITH_CORE_DEPENDENCIES.md`;
+  - `CHANGELOG.md`.
+- **0.12.1:** Graham's review and rulings. Six more repairs: Elemental Spirit's cantrip, Second Discipline, Sacred Marginalia, the Liturgist, the lanterns' light and Final Toll. The audit was re-run with the full sheet lines, which raised class C from 21 to 86, each listed with its manual step. A core patch for invested-item conditionals is in `core-patches/`, for approval.
+- **0.12.2:** rulings U6–U8. Eternal Resonance's +1 is on every innate cast, and Cleansing Radiance applies its effect directly.
+- **0.12.3:** on TRG Prime 3.695.0. Eternal Resonance is fixed using the core's declared spell bonuses, and Mummy Rot's cure order is shared with the core's Remove Curse and Remove Disease.
 
 ## How it plugs in
 
@@ -43,7 +54,7 @@ Every pack declares in `module.json` which system pack it extends (`flags.trg-pr
 
 ```
 node tools/build-packs.mjs   # packs-source/ JSON and compiled packs/
-npm run verify               # the eight suites (foundation, classes, feats, grimoire, equipment, automation, magic items, unliving)
+npm run verify               # the eleven suites (foundation, classes, feats, grimoire, equipment, automation, magic items, unliving, haunts, pass, audit)
 node tools/build-zip.mjs     # ../trg-pillars-of-faith-<version>.zip
 ```
 

@@ -1,7 +1,7 @@
 {
   "_id": "nyeCqHQXfHHnrEJJ",
   "name": "Beauty",
-  "img": "icons/svg/holy-symbol.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/holy-shield.svg",
   "type": "divine-aspect",
   "system": {
     "source": "Pillars of Faith, Chapter 7",

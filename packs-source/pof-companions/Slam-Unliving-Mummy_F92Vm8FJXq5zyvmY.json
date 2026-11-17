@@ -1,7 +1,7 @@
 {
   "_id": "F92Vm8FJXq5zyvmY",
   "name": "Slam (Unliving Mummy)",
-  "img": "systems/trg-prime/assets/weapons/claw.png",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/slam.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

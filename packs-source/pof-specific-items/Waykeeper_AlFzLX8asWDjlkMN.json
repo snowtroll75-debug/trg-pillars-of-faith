@@ -1,7 +1,7 @@
 {
   "_id": "AlFzLX8asWDjlkMN",
   "name": "Waykeeper",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/long-spear.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

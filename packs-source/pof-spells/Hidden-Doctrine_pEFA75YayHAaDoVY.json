@@ -1,7 +1,7 @@
 {
   "_id": "pEFA75YayHAaDoVY",
   "name": "Hidden Doctrine",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/shadow.svg",
   "type": "spell",
   "system": {
     "tradition": "",

@@ -1,7 +1,7 @@
 {
   "_id": "HSaMzqrCNO3nEpc7",
   "name": "Voice of Resolve",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/general.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

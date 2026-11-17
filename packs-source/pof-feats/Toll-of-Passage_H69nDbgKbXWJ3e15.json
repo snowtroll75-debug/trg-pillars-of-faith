@@ -1,7 +1,7 @@
 {
   "_id": "H69nDbgKbXWJ3e15",
   "name": "Toll of Passage",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/racial.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

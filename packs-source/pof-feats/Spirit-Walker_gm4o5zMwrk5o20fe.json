@@ -1,7 +1,7 @@
 {
   "_id": "gm4o5zMwrk5o20fe",
   "name": "Spirit Walker",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/archetype.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

@@ -1,7 +1,7 @@
 {
   "_id": "4MF05nkpgybZmj4j",
   "name": "Breath of the Land",
-  "img": "icons/svg/holy-symbol.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/warding.svg",
   "type": "spell",
   "system": {
     "tradition": "verdant",

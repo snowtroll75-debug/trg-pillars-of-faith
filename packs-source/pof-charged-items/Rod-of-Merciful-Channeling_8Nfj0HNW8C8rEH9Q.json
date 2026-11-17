@@ -1,7 +1,7 @@
 {
   "_id": "8Nfj0HNW8C8rEH9Q",
   "name": "Rod of Merciful Channeling",
-  "img": "icons/svg/wing.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/wing.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

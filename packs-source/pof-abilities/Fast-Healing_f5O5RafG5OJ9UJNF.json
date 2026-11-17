@@ -1,7 +1,7 @@
 {
   "_id": "f5O5RafG5OJ9UJNF",
   "name": "Fast Healing",
-  "img": "icons/svg/skull.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/icons/svg/skull.svg",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

@@ -1,7 +1,7 @@
 {
   "_id": "y6guyUQ0Jzb0gOH8",
   "name": "Testament Blade",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/broadsword.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

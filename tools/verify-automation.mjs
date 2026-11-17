@@ -87,14 +87,14 @@ const rites = SKILL_ACTIONS.find((a) => a.key === "performLastRites");
 equal("B4 Guide the Last Road is a variant of Perform Last Rites: 1 minute, 1 month / 7 days / 24 hours", [rites.variants[0].feat, rites.variants[0].apCost, /1 month/.test(rites.variants[0].outcomes.critical), /7 days/.test(rites.variants[0].outcomes.success), /24 hours/.test(rites.variants[0].outcomes.partial)], ["Guide the Last Road", "1 minute", true, true, true]);
 const signs = SKILL_ACTIONS.find((a) => a.key === "readTheSigns");
 equal("B5 Waywarden is a variant of Read the Signs on Success and better", [signs.variants[0].feat, Object.keys(signs.variants[0].outcomes).sort()], ["Waywarden", ["critical", "heroic", "success"]]);
-ok("B6 the loader listens to the initiative hook and requires 3.630.0", /Hooks\.on\("trgPrimeInitiativeRolled", \(\{ actor \}\) => \{ offerBattleRemembered\(actor\)/.test(read("scripts/pillars-of-faith.mjs")) && /REQUIRED_SYSTEM = "3\.630\.1"/.test(read("scripts/pillars-of-faith.mjs")));
+ok("B6 the loader listens to the initiative hook and requires 3.630.0", /Hooks\.on\("trgPrimeInitiativeRolled", \(\{ actor \}\) => \{ offerBattleRemembered\(actor\)/.test(read("scripts/pillars-of-faith.mjs")) && /REQUIRED_SYSTEM = "3\.696\.0"/.test(read("scripts/pillars-of-faith.mjs")));
 
 /* C. Uses and workflow */
 const fa = read("module/feat-automations.mjs");
 ok("C1 Consecrated Armament's Use writes magicalAttacks and a gated once-per-round essence rider on the chosen weapon", "consecrated armament" in FEAT_AUTOMATIONS && /magicalAttacks: \{ label: "Consecrated Armament", weaponNames: \[weapon\.name\] \}/.test(fa) && /strikeRider: \{ label: "Consecrated Armament", dice: "1d6", damageType: "essence", scope: "any", onCritical: true, targetTypes: \["undead"\], weaponNames: \[weapon\.name\], oncePerRound: true \}/.test(fa));
 const ca = read("module/class-automations.mjs");
 ok("C2 Judgement writes Sanctioned Strike's magical attacks against the Subject when the 4th-level ability is held", /hasAbility\(actor, "Sanctioned Strike"\) && subjectUuid \? \{ magicalAttacks: \{ label: "Sanctioned Strike", targetUuids: \[subjectUuid\] \} \} : \{\}/.test(ca));
-ok("C3 Judgement's rider grows by 1d6 at half HP with Final Sanction", /hasFeat\(actor, "Final Sanction"\) \? \{ lowHalfExtraDice: "1d6" \} : \{\}/.test(ca));
+ok("C3 Judgement's rider grows by 1d6 at half HP with Final Sanction", /hasFeat\(actor, "Final Sanction"\) \? \{ lowHalfExtraDice: "1d6", onCritical: finalSanctionCritical\(actor, item\) \} : \{\}/.test(ca));
 ok("C4 Waywarden's minute is said on both Uses", (ca.match(/hasFeat\(actor, "Waywarden"\) \? "<em>Waywarden: (fashioned|brewed) in <strong>1 minute<\/strong> rather than 10\.<\/em>"/g) ?? []).length === 2);
 const au = read("module/automations.mjs");
 equal("C5 Battle Remembered's five skills", [...BATTLE_REMEMBERED_SKILLS], ["acrobatics", "athletics", "intimidate", "perception", "survival"]);

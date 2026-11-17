@@ -1,7 +1,7 @@
 {
   "_id": "9VgZyuxOWiMYqwC7",
   "name": "Final Toll",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/racial.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",
@@ -10,7 +10,7 @@
     "level": 0,
     "prerequisites": "Kelvan heritage, Toll of Passage, Level 10",
     "active": true,
-    "description": "<p>AUDITORY DIVINITY ESHARI FOCUS</p>\n<p>Some spirits require one final reminder that their claim upon the living has ended.<br>When you use Sacred Toll against an Undead or Unliving creature, you may declare it a Final Toll before the saving throw is rolled. In addition to Sacred Toll's normal effects:<br>Partial The target cannot use Reactions for 1 round.<br>Failure The target cannot use Reactions and suffers a -1-status penalty to attack rolls for 1 round.<br>Fumble or Blunder The target suffers the Failure effects and becomes Slowed 1 for 1 round.<br>After using Final Toll, Sacred Toll is expended even if another ability would normally allow it to remain available, and it must be restored using Refocus.</p>\n<p>Prerequisites Kelvan heritage, Toll of Passage, Level 10</p>\n<p>Works through Sacred Toll: declare a Final Toll before the save — the card's ladder (no reactions; −1 status to attacks; Slowed 1) is applied by hand from the result. Sacred Toll is then expended regardless.</p>",
+    "description": "<p>AUDITORY DIVINITY ESHARI FOCUS</p>\n<p>Some spirits require one final reminder that their claim upon the living has ended.<br>When you use Sacred Toll against an Undead or Unliving creature, you may declare it a Final Toll before the saving throw is rolled. In addition to Sacred Toll's normal effects:<br>Partial The target cannot use Reactions for 1 round.<br>Failure The target cannot use Reactions and suffers a -1-status penalty to attack rolls for 1 round.<br>Fumble or Blunder The target suffers the Failure effects and becomes Slowed 1 for 1 round.<br>After using Final Toll, Sacred Toll is expended even if another ability would normally allow it to remain available, and it must be restored using Refocus.</p>\n<p>Prerequisites Kelvan heritage, Toll of Passage, Level 10</p>\n<p>Declare a Final Toll before Sacred Toll's save, then Use this feat (target the creature) and choose the save's result: no Reactions (Partial), −1 status to attacks (Failure) and Slowed 1 (Fumble or Blunder) land for 1 round, and Sacred Toll stays expended until you Refocus.</p>",
     "usesPerDay": "",
     "bonusUses": 0,
     "usesValue": 0,

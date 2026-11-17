@@ -1,7 +1,7 @@
 {
   "_id": "DwMNdOMErk08J9hN",
   "name": "Reliquary Seeker",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/backgrounds/archaeologist.png",
   "type": "background",
   "system": {
     "source": "Pillars of Faith",

@@ -1,7 +1,7 @@
 {
   "_id": "aSz9lUpVBQgHjPoZ",
   "name": "Spirit Sense (Velari)",
-  "img": "icons/svg/aura.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/races/human.png",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

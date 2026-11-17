@@ -1,7 +1,7 @@
 {
   "_id": "oXJdRSIDJSbRtxUD",
   "name": "Spirit Ward",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/classes/druid.png",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

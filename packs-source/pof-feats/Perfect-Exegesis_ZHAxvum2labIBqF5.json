@@ -1,7 +1,7 @@
 {
   "_id": "ZHAxvum2labIBqF5",
   "name": "Perfect Exegesis",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/class.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

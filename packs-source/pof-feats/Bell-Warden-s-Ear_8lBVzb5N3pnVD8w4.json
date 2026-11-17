@@ -1,7 +1,7 @@
 {
   "_id": "8lBVzb5N3pnVD8w4",
   "name": "Bell-Warden's Ear",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/racial.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

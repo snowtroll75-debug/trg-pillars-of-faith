@@ -1,7 +1,7 @@
 {
   "_id": "6TH5GqCfBUeSIR1F",
   "name": "Anchor the Departing Soul",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/soul.svg",
   "type": "spell",
   "system": {
     "tradition": "",

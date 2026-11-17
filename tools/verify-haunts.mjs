@@ -180,7 +180,7 @@ equal("F3 the actors are keyed as actors, their abilities as the actor's items",
   [reliquary?._key?.startsWith("!actors!"), reliquary?.items?.[0]?._key?.startsWith(`!actors.items!${reliquary?._id}.`)], [true, true]);
 const journal = JSON.parse(fs.readFileSync(path.join(ROOT, "packs-source", "pof-journals", fs.readdirSync(path.join(ROOT, "packs-source", "pof-journals"))[0]), "utf8"));
 equal("F4 the guide is keyed as a journal, its pages as its pages", [journal._key.startsWith("!journal!"), journal.pages.every((pg) => pg._key.startsWith(`!journal.pages!${journal._id}.`))], [true, true]);
-equal("F5 versions: module 0.11.1, requiring TRG Prime 3.630.1", [manifest.version, manifest.relationships.systems[0].compatibility.minimum, /const REQUIRED_SYSTEM = "3\.630\.1";/.test(read("scripts/pillars-of-faith.mjs"))], ["0.11.1", "3.630.1", true]);
+equal("F5 versions: module 0.12.0, requiring TRG Prime 3.689.1", [manifest.version, manifest.relationships.systems[0].compatibility.minimum, /const REQUIRED_SYSTEM = "3\.696\.0";/.test(read("scripts/pillars-of-faith.mjs"))], ["0.12.5", "3.696.0", true]);
 
 const EXPECTED_CHECKS = 153;
 equal("Z the suite ran every check it is meant to", checks + 1, EXPECTED_CHECKS);

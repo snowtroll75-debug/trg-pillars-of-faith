@@ -1,7 +1,7 @@
 {
   "_id": "CMBUPZ79pQbdpz6G",
   "name": "Brew Remedy",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/classes/ranger.png",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

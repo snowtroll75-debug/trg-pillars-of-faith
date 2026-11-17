@@ -19,7 +19,7 @@ export const GENERAL_FEATS = [
     sheet: "Works automatically: +1 circumstance is offered on Perception, Medicine and Survival checks with the book's wording; Examine the Dead in 1 minute is a note.",
     flags: { conditionals: [offeredBonus("Death Investigator", 1, "circumstance", { checkTypes: ["skill"], subjects: ["perception", "medicine", "survival"] }, "Investigating the circumstances of a death after a successful Examine the Dead")] }
   }),
-  bookFeat("general", "EXPERT AUTOPSIST", { sheet: "Works automatically: a Fumble on Perform Autopsy resolves as a Failure (the card says so); the +4 on a Critical and the 30-minute autopsy are notes." }),
+  bookFeat("general", "EXPERT AUTOPSIST", { sheet: "Works automatically: a Fumble on Perform Autopsy resolves as a Failure, and a Critical's +2 circumstance bonus becomes +4 (the card says each). The 30-minute autopsy is a note." }),
   bookFeat("general", "HAUNTWISE", { sheet: "Use after a successful Interpret Haunt: queues +2 circumstance for your next save or check against that haunt (target an ally first to give it to them on a Critical)." }),
   bookFeat("general", "LAY EXORCIST", {
     sheet: "Works automatically: Religion offers Trace Possession and Interpret Haunt to you; Use after a Success or better on Trace Possession (target the possessed creature) to queue their +1 circumstance to the next save against the possession."

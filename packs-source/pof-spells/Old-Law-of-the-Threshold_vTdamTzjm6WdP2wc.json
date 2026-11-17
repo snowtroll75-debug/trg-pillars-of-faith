@@ -1,7 +1,7 @@
 {
   "_id": "vTdamTzjm6WdP2wc",
   "name": "Old Law of the Threshold",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/warding.svg",
   "type": "spell",
   "system": {
     "tradition": "",

@@ -1,7 +1,7 @@
 {
   "_id": "QlBYO0WUcdYRwPrC",
   "name": "Aegis of the Pilgrim Choir",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/trg-pillars-of-faith/assets/shields/heavy-wooden-shield.png",
   "type": "shield",
   "system": {
     "quantity": 1,

@@ -1,7 +1,7 @@
 {
   "_id": "Je4y39oADIbSzE08",
   "name": "Soul Anchor",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/general.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

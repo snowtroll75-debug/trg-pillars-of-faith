@@ -116,7 +116,15 @@ export function sizeSpeedEffect(ownerId, ownerName, size, speed) {
     description: `${size[0].toUpperCase()}${size.slice(1)} size and a base land speed of ${speed} feet.`,
     changes: [
       { key: "system.identity.size", mode: 5, value: size, priority: 10 },
-      { key: "system.combat.movement.land", mode: 5, value: String(speed), priority: 10 }
+      // THE POOL'S BASE, NOT THE NODE (0.12.0, automation audit). TRG Prime
+      // pools each speed ({base, item, status, circumstance, other, total})
+      // since 3.412.0. An OVERRIDE of the bare node replaced the pool with the
+      // number 25, and the next change into it — Pilgrim of Many Lives' or Bone
+      // Stride's `land.other`, Beast Within's — threw "Cannot create property
+      // 'other' on number '25'" and took the actor's whole preparation with it.
+      // Found live on the 0.12.0 Use sweep. `.base` is what the core's own
+      // migration (migrateMovementEffectKeys, 3.595.2) rewrites it to.
+      { key: "system.combat.movement.land.base", mode: 5, value: String(speed), priority: 10 }
     ]
   });
 }

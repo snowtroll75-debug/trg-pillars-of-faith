@@ -120,7 +120,7 @@ const { HANDLED_EFFECT_KINDS } = haveSystem ? await import(path.join(SYSTEM_ROOT
 const { CONDITIONS } = haveSystem ? await import(path.join(SYSTEM_ROOT, "module", "conditions", "registry.mjs")) : { CONDITIONS: {} };
 const { normaliseConditional } = haveSystem ? await import(path.join(SYSTEM_ROOT, "module", "conditionals.mjs")) : {};
 const { normaliseSpellConditional } = haveSystem ? await import(path.join(SYSTEM_ROOT, "module", "magic", "spell-conditional.mjs")) : {};
-const WARP_MODS = new Set(["damageDice", "persistent", "bonusValue", "bonusMax", "saveDC", "traitPicks", "durationText", "freezeMembership", "areaGrowth", "areaMax", "conjuredLevel", "conjuredBase", "areaOverride", "areaTargetingOverride", "weaponDamageBonus", "morphForms", "storedReleaseReaction", "storedReleaseFree", "absorbConditions", "reduceBleed", "terrainInAir", "allSlots", "bleedPoints", "bleedAndHeal", "reliefConditions", "reliefBump", "suppressConditions", "suppressBump", "suppressMax", "castApSet", "castApDelta", "rangeOverride", "targetCap", "rowExtra", "healDice", "healBonus", "endsSustain", "weaponCategories", "retargetSelfRows", "shareSelfRows", "potencyStep", "potencyMax", "targetCapPerLevel", "extraConditionals", "extraTraditions", "extraTargets", "weapons", "rerollDegrees", "rerollBonus", "once",
+const WARP_MODS = new Set(["counteractLimitBonus", "damageDice", "persistent", "bonusValue", "bonusMax", "saveDC", "traitPicks", "durationText", "freezeMembership", "areaGrowth", "areaMax", "conjuredLevel", "conjuredBase", "areaOverride", "areaTargetingOverride", "weaponDamageBonus", "morphForms", "storedReleaseReaction", "storedReleaseFree", "absorbConditions", "reduceBleed", "terrainInAir", "allSlots", "bleedPoints", "bleedAndHeal", "reliefConditions", "reliefBump", "suppressConditions", "suppressBump", "suppressMax", "castApSet", "castApDelta", "rangeOverride", "targetCap", "rowExtra", "healDice", "healBonus", "endsSustain", "weaponCategories", "retargetSelfRows", "shareSelfRows", "potencyStep", "potencyMax", "targetCapPerLevel", "extraConditionals", "extraTraditions", "extraTargets", "weapons", "rerollDegrees", "rerollBonus", "once",
   // 3.629.0: a haunt's suppression, longer (Still the Haunt, Quarantine Working).
   "perilSuppress",
   // 3.630.0: one more pick, a counted benefit, one more Portent, a re-save
@@ -265,13 +265,18 @@ ok("D a second Use replaces the pick (grantedBy on the spell)", /grantedBy\?\.so
 ok("D the automations file has no static import of the system", !/from "\.\.\/\.\.\/sys|trg-prime\/module/.test(auto));
 
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "module.json"), "utf8"));
-equal("D module version", manifest.version, "0.11.1");
+equal("D module version", manifest.version, "0.12.5");
 ok("D pof-aspects extends divine-aspects and is in the folder", manifest.packs.find((p) => p.name === "pof-aspects")?.flags[SYS].extends === "divine-aspects" && manifest.packFolders[0].packs.includes("pof-aspects"));
 ok("D packs-source/pof-aspects and pof-spells are built", fs.existsSync(path.join(ROOT, "packs-source", "pof-aspects")) && fs.readdirSync(path.join(ROOT, "packs-source", "pof-aspects")).length === 22 && fs.readdirSync(path.join(ROOT, "packs-source", "pof-spells")).length === 69);
 
 /* ------------------------------------------------------------------ */
 // 2111 at 0.11.1: Exorcise's warp carries bonusValue and bonusMax (two mod-key checks).
-const EXPECTED_CHECKS = 2111;
+// 2121 at 0.12.0: the audit's four counteract rows (Break the Evil Eye, Sever
+// Influence, Sever Soulchain; Expel Possessor's counteractRoll) and Expel
+// Possessor's two warp mod keys add ten per-row and per-mod checks.
+// 2124 at 0.12.4: the three "+1 additional effect" warps carry TRG Prime
+// 3.696.0's counteractLimitBonus (one mod-key check each).
+const EXPECTED_CHECKS = 2124;
 if (EXPECTED_CHECKS) equal("Z the suite ran every check it is meant to", checks + 1, EXPECTED_CHECKS);
 if (failures.length) { console.log(`verify-grimoire: ${checks} checks — ${failures.length} FAILED\n`); for (const f of failures) console.log(`  ✗ ${f}`); process.exitCode = 1; }
 else console.log(`verify-grimoire: ${checks} checks — all green.`);

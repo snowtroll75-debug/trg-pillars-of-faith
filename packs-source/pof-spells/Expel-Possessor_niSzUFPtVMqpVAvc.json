@@ -1,7 +1,7 @@
 {
   "_id": "niSzUFPtVMqpVAvc",
   "name": "Expel Possessor",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/soul.svg",
   "type": "spell",
   "system": {
     "tradition": "",
@@ -23,15 +23,29 @@
     "casterLevelMods": [],
     "effects": [
       {
+        "kind": "counteractRoll",
+        "target": "targets",
+        "label": "the possession",
+        "outcomes": {
+          "critical": "The possession ends, and the entity cannot attempt to possess the same host again for 24 hours.",
+          "success": "The possession ends, and the entity cannot attempt to possess the same host again for 1 minute.",
+          "failure": "The possession remains.",
+          "fumble": "The possession remains, and Expel Possessor cannot target that particular possession again until the beginning of your next turn."
+        }
+      },
+      {
         "kind": "note",
-        "text": "Attempt to Counteract the possession. Critical: it ends; the entity cannot possess the same host for 24 hours. Success: it ends; 1 minute. Failure: it remains. Fumble: it remains and this spell cannot target it again until the beginning of your next turn. +2 circumstance to the check with the +4 PP warp."
+        "text": "Ending the possession does not destroy or banish the entity; if it can exist outside the host, it appears or remains according to the possession effect. Warped (+4 PP): +2 circumstance to the Counteract check — pre-filled in the Counteract dialog's circumstance box. Left blank, the DC is the Level DC of the possessor's level."
       }
     ],
     "warps": [
       {
         "ppCost": 4,
         "text": "Gain a +2-circumstance bonus to the Counteract check",
-        "mods": {}
+        "mods": {
+          "bonusValue": 2,
+          "bonusMax": 2
+        }
       }
     ],
     "apOptions": [],
@@ -52,7 +66,7 @@
       "focus": false
     },
     "traits": "Soul, Spirit, Warding",
-    "description": "SHAMAN SOUL SPIRIT UTILITY WARDING\nShaman Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nTargets 1 possessed creature\n\nYou call upon the host's own spirit and force the intruder away from it.\nAttempt to Counteract the possession.\nCritical: The possession ends. The possessing entity cannot attempt to possess the same host again for 24 hours.\nSuccess: The possession ends. The entity cannot attempt to possess the same host again for 1 minute.\nFailure: The possession remains.\nFumble: The possession remains and Expel Possessor cannot target that particular possession again until the beginning of your next turn.\nEnding possession does not automatically destroy or banish the possessing entity. If it can normally exist outside the host, it appears or remains according to the rules of the possession effect.\n\nWarping Options:\n+4 PP: Gain a +2-circumstance bonus to the Counteract check.\n\nPillars of Faith, Chapter 10."
+    "description": "SHAMAN SOUL SPIRIT UTILITY WARDING\nShaman Specialist Spell\nCast 2 AP (somatic, verbal)\nRange 30 feet\nTargets 1 possessed creature\n\nYou call upon the host's own spirit and force the intruder away from it.\nAttempt to Counteract the possession.\nCritical: The possession ends. The possessing entity cannot attempt to possess the same host again for 24 hours.\nSuccess: The possession ends. The entity cannot attempt to possess the same host again for 1 minute.\nFailure: The possession remains.\nFumble: The possession remains and Expel Possessor cannot target that particular possession again until the beginning of your next turn.\nEnding possession does not automatically destroy or banish the possessing entity. If it can normally exist outside the host, it appears or remains according to the rules of the possession effect.\n\nWarping Options:\n+4 PP: Gain a +2-circumstance bonus to the Counteract check.\n\nPillars of Faith, Chapter 10. The Counteract is rolled (enter the possessor's level) and its rung printed; ending the possession is the GM's."
   },
   "effects": [],
   "folder": null,

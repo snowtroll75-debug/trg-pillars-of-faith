@@ -1,7 +1,7 @@
 {
   "_id": "QzDkHfn3zuGRtpS8",
   "name": "First Age Theologian",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/racial.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",
@@ -10,7 +10,7 @@
     "level": 0,
     "prerequisites": "Religion or Planes 1 rank",
     "active": true,
-    "description": "<p>ASCENDAN</p>\n<p>Your people remember beliefs that vanished before many mortal nations possessed written language.<br>You may use Intelligence instead of Wisdom for Religion checks made to Recall Knowledge, Recognise Doctrine or Identify Spiritual Affliction when the subject concerns Eternals, Divine Aspects or an ancient religious tradition.<br>You also gain a +1-racial bonus to these checks.</p>\n<p>Prerequisites Religion or Planes 1 rank</p>\n<p>Works automatically: +1 racial is offered on Religion checks with the book's wording; using Intelligence in place of Wisdom is for the table.</p>",
+    "description": "<p>ASCENDAN</p>\n<p>Your people remember beliefs that vanished before many mortal nations possessed written language.<br>You may use Intelligence instead of Wisdom for Religion checks made to Recall Knowledge, Recognise Doctrine or Identify Spiritual Affliction when the subject concerns Eternals, Divine Aspects or an ancient religious tradition.<br>You also gain a +1-racial bonus to these checks.</p>\n<p>Prerequisites Religion or Planes 1 rank</p>\n<p>Works automatically: on Recall Knowledge, Recognise Doctrine and Identify Spiritual Affliction with Religion, two rows are offered with the book's wording — the +1 racial bonus, and Intelligence in place of Wisdom (the difference between the two) — tick them when the subject concerns Eternals, Divine Aspects or an ancient religious tradition.</p>",
     "usesPerDay": "",
     "bonusUses": 0,
     "usesValue": 0,
@@ -53,6 +53,27 @@
           },
           "value": 1,
           "type": "race"
+        },
+        {
+          "kind": "modifier",
+          "label": "First Age Theologian",
+          "scope": "Intelligence in place of Wisdom — Religion checks concerning Eternals, Divine Aspects or an ancient religious tradition",
+          "auto": false,
+          "when": {
+            "checkTypes": [
+              "skill"
+            ],
+            "subjects": [
+              "religion"
+            ],
+            "actions": [
+              "recallKnowledge",
+              "recogniseDoctrine",
+              "identifySpiritualAffliction"
+            ]
+          },
+          "valueFrom": "intelligence-wisdom",
+          "type": "untyped"
         }
       ],
       "bookCategory": "racial"

@@ -1,7 +1,7 @@
 {
   "_id": "ES3swV4DveE0dePN",
   "name": "Ancestors",
-  "img": "icons/svg/holy-symbol.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/holy-shield.svg",
   "type": "divine-aspect",
   "system": {
     "source": "Pillars of Faith, Chapter 7",

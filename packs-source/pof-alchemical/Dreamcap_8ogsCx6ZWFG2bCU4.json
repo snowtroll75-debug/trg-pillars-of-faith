@@ -1,7 +1,7 @@
 {
   "_id": "8ogsCx6ZWFG2bCU4",
   "name": "Dreamcap",
-  "img": "icons/svg/oak.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/oak.svg",
   "type": "consumable",
   "system": {
     "quantity": 1,

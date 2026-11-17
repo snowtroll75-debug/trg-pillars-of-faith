@@ -1,7 +1,7 @@
 {
   "_id": "v3Jtqz5bqpwY8Dze",
   "name": "Bloom Scythe",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/scythe.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

@@ -1,7 +1,7 @@
 {
   "_id": "zkX6EMn95fBTESlS",
   "name": "Nethri",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/heritages/fey.png",
   "type": "heritage",
   "system": {
     "source": "Pillars of Faith",

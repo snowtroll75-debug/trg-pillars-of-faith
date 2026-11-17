@@ -1,7 +1,7 @@
 {
   "_id": "FdxmFlbs8KGM03ZA",
   "name": "Plate of the Sealed Sepulchre",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/trg-pillars-of-faith/assets/armour/plate.png",
   "type": "armour",
   "system": {
     "quantity": 1,
@@ -27,7 +27,7 @@
     "coversTorso": true,
     "coversArms": true,
     "coversLegs": true,
-    "description": "Every seam of this blackened plate can be sealed. The visor closes without leaving so much as a breathing slit, yet the wearer continues to breathe normally. Funeral inscriptions run along the inside of the plates where nobody else can see them.\n\nYou retain the armour's normal +1 item bonus to Fortitude saves against disease and poison transmitted through contact or inhalation. You possess Resistance to essence damage from Soul Warding.\n\nStatistics: ACP -5; MAX DEX 4; DR 6; DB +3; HP 123; Speed -5.\n\nTraits Anchored Soul, Full, Helm, Master, Metal, Potency III, Rigid, Soul Ward.\n\nOn the sheet: a Master Sepulchral Plate with Potency III, Anchored Soul and Soul Ward (Soul Drain you gain is reduced by 10 under Potency III). The plate's +1 item against contact or inhaled disease and poison stands. Resistance to essence from Soul Warding is a note.\n\nPillars of Faith, Chapter 11.",
+    "description": "Every seam of this blackened plate can be sealed. The visor closes without leaving so much as a breathing slit, yet the wearer continues to breathe normally. Funeral inscriptions run along the inside of the plates where nobody else can see them.\n\nYou retain the armour's normal +1 item bonus to Fortitude saves against disease and poison transmitted through contact or inhalation. You possess Resistance to essence damage from Soul Warding.\n\nStatistics: ACP -5; MAX DEX 4; DR 6; DB +3; HP 123; Speed -5.\n\nTraits Anchored Soul, Full, Helm, Master, Metal, Potency III, Rigid, Soul Ward.\n\nOn the sheet: a Master Sepulchral Plate with Potency III, Anchored Soul and Soul Ward (Soul Drain you gain is reduced by 10 under Potency III). The plate's +1 item against contact or inhaled disease and poison stands. Resistance to essence is on your sheet while the plate is worn and invested.\n\nPillars of Faith, Chapter 11.",
     "quality": "master",
     "runes": "Potency III, Anchored Soul, Soul Ward",
     "superiorTraits": ""

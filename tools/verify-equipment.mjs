@@ -303,14 +303,14 @@ if (haveSystem) {
  * ------------------------------------------------------------------ */
 
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "module.json"), "utf8"));
-equal("D module version", manifest.version, "0.11.1");
-equal("D requires TRG Prime 3.630.1+", manifest.relationships.systems[0].compatibility.minimum, "3.630.1");
+equal("D module version", manifest.version, "0.12.5");
+equal("D requires TRG Prime 3.696.0+", manifest.relationships.systems[0].compatibility.minimum, "3.696.0");
 for (const [name, ext, count] of [["pof-armour", "armour", 6], ["pof-shields", "shields", 5], ["pof-weapons", "weapons", 9], ["pof-alchemical", "alchemical", 58]]) {
   ok(`D ${name} extends ${ext}, is in the folder and in PACKS`, manifest.packs.find((p) => p.name === name)?.flags[SYS].extends === ext && manifest.packFolders[0].packs.includes(name) && PACKS.find((p) => p.name === name)?.extends === ext);
   ok(`D packs-source/${name} is built with ${count} documents`, fs.existsSync(path.join(ROOT, "packs-source", name)) && fs.readdirSync(path.join(ROOT, "packs-source", name)).length === count);
 }
 ok("D the twelve tools ride in pof-gear", PACKS.find((p) => p.name === "pof-gear").docs.filter((d) => d.flags[SYS]?.bookChapter === 6).length === 12);
-ok("D the loader requires 3.630.1", /REQUIRED_SYSTEM = "3\.630\.1"/.test(fs.readFileSync(path.join(ROOT, "scripts", "pillars-of-faith.mjs"), "utf8")));
+ok("D the loader requires 3.696.0", /REQUIRED_SYSTEM = "3\.696\.0"/.test(fs.readFileSync(path.join(ROOT, "scripts", "pillars-of-faith.mjs"), "utf8")));
 
 /* ------------------------------------------------------------------ */
 const EXPECTED_CHECKS = 1349;

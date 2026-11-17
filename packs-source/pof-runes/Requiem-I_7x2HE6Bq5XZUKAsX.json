@@ -1,7 +1,7 @@
 {
   "_id": "7x2HE6Bq5XZUKAsX",
   "name": "Requiem I",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/book.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

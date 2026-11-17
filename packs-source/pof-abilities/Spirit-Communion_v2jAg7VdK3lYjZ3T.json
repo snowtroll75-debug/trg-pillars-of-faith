@@ -1,7 +1,7 @@
 {
   "_id": "v2jAg7VdK3lYjZ3T",
   "name": "Spirit Communion",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/classes/druid.png",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

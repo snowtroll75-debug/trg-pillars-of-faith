@@ -1,7 +1,7 @@
 {
   "_id": "imbkYNkqT3YGG7uJ",
   "name": "Soul Ward",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/book.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

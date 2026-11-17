@@ -1,7 +1,7 @@
 {
   "_id": "amM6djCXcEWNe7K8",
   "name": "Phylactery of Eternal Resurgence (Vessel)",
-  "img": "icons/svg/skull.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/skull.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

@@ -1,7 +1,7 @@
 {
   "_id": "jbMSr97D0IdznqLs",
   "name": "Crozier",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/staff.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

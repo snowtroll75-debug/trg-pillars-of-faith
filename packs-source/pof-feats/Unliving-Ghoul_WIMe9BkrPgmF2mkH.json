@@ -1,7 +1,7 @@
 {
   "_id": "WIMe9BkrPgmF2mkH",
   "name": "Unliving Ghoul",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/archetype.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

@@ -1,7 +1,7 @@
 {
   "_id": "JCKg6q4cHidHEYaL",
   "name": "Lay to Rest",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/classes/ranger.png",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

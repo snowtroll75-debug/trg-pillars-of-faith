@@ -1,7 +1,7 @@
 {
   "_id": "9jqXcGe2amvxx2fT",
   "name": "Embalming Salts",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/item-bag.svg",
   "type": "consumable",
   "system": {
     "quantity": 1,

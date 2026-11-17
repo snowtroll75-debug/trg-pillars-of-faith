@@ -1,7 +1,7 @@
 {
   "_id": "mPquW859BBbd2GH4",
   "name": "Temple Chronicler",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/backgrounds/acolyte.png",
   "type": "background",
   "system": {
     "source": "Pillars of Faith",

@@ -1,7 +1,7 @@
 {
   "_id": "b6EDPzn5YDfNMKSY",
   "name": "Hospice Jack",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/trg-pillars-of-faith/assets/armour/padded.png",
   "type": "armour",
   "system": {
     "quantity": 1,

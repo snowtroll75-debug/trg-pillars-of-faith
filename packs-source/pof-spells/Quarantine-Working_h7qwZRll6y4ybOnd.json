@@ -1,7 +1,7 @@
 {
   "_id": "h7qwZRll6y4ybOnd",
   "name": "Quarantine Working",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/warding.svg",
   "type": "spell",
   "system": {
     "tradition": "",

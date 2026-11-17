@@ -1,7 +1,7 @@
 {
   "_id": "jge0hYm5dTWCijbB",
   "name": "Ashes of Final Passage",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/item-bag.svg",
   "type": "consumable",
   "system": {
     "quantity": 1,

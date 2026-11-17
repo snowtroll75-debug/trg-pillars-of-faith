@@ -1,7 +1,7 @@
 {
   "_id": "lupB3DEoQIlVR2B2",
   "name": "Vigil Draught",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/item-bag.svg",
   "type": "consumable",
   "system": {
     "quantity": 1,

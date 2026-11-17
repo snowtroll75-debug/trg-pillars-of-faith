@@ -62,7 +62,7 @@ export const ARMOUR = [
       offered("Gravewarden Coat", 1, "Fortitude saves against airborne disease and inhaled poison — tick if this is one", { checkTypes: ["save"], subjects: ["fortitude"], not: { traits: ["disease", "poison"] } })
     ] } }),
   armour({ name: "Ossuary Lamellar", category: "Medium", level: 2, price: 300, acp: -2, maxDex: 4, dr: 4, hp: 50, speed: 0, weight: 22, traits: "Rigid",
-    description: "Lacquered bone, horn and dense leather plates overlap across the chest and limbs. The design developed among cultures where good metal was scarce but large burial grounds were not. Ossuary Lamellar grants +1 DR against slashing damage. Despite its appearance, it possesses no connection to the souls of those from whose remains it may have been fashioned.\n\nOn the sheet: the +1 DR against slashing is a note — DR on the sheet is one number; apply it by hand when the damage is slashing." }),
+    description: "Lacquered bone, horn and dense leather plates overlap across the chest and limbs. The design developed among cultures where good metal was scarce but large burial grounds were not. Ossuary Lamellar grants +1 DR against slashing damage. Despite its appearance, it possesses no connection to the souls of those from whose remains it may have been fashioned.\n\nOn the sheet: works automatically — while worn, slashing damage meets 1 more DR (a declared DR against slashing, TRG Prime 3.696.0)." }),
   armour({ name: "Sepulchral Plate", category: "Heavy", level: 3, price: 650, acp: -6, maxDex: 2, dr: 6, hp: 90, speed: -5, weight: 48, traits: "Full, Helm, Metal, Rigid", covers: [true, true, true],
     description: "Designed for expeditions into sealed tombs, the faceplate, neck and joints can be closed with leather gaskets and waxed cloth. You gain a +1-item bonus to Fortitude saves against disease and poison transmitted by contact or inhalation. The armour provides no protection against magical effects merely because they originate within a tomb.\n\nOn the sheet: +1 item is pre-ticked on Fortitude saves against Disease and Poison effects while the plate is worn; the Helm's −1 to Perception applies as the core rule.",
     flags: { conditionals: [
@@ -73,6 +73,17 @@ export const ARMOUR = [
     description: "Temple guards traditionally spend long hours motionless before doorways, thrones and sacred precincts. The wide sabatons and carefully weighted plates of this armour reflect that practice. If you have not moved since the beginning of your current turn, you gain a +1-item bonus on checks and saving throws made to resist Shove, Trip or forced physical movement.\n\nOn the sheet: +1 item is offered on checks and saves to resist being Shoved, Tripped or moved — tick when you have not moved this turn.",
     flags: { conditionals: [offered("Oathguard Plate", 1, "Checks and saving throws to resist Shove, Trip or forced movement, if you have not moved since the beginning of your turn", { checkTypes: ["save", "skill", "attribute"] })] } })
 ];
+
+// OSSUARY LAMELLAR (0.12.4, on TRG Prime 3.696.0 `drVersus`): "+1 DR against
+// slashing damage" — a worn-only transferred effect (worn-effects.mjs).
+{
+  const lamellar = ARMOUR.find((i) => i.name === "Ossuary Lamellar");
+  lamellar.effects.push({
+    _id: stableId("effect:ossuary-lamellar-slashing").slice(0, 16), name: "Ossuary Lamellar: +1 DR against slashing", img: "icons/svg/shield.svg",
+    changes: [], disabled: false, transfer: true, origin: "", duration: {}, tint: "#ffffff", statuses: [],
+    description: "+1 DR against slashing damage, while the lamellar is worn.", flags: { [SYSTEM_ID]: { featPassive: true, worn: true, drVersus: { slashing: 1 } } }
+  });
+}
 
 /* ------------------------------------------------------------------ */
 /* Shields                                                              */
@@ -97,7 +108,8 @@ export const SHIELDS = [
   shield({ name: "Vigil Shield", category: "light", level: 1, price: 120, db: 2, acp: -1, weight: 9, dr: 1, hp: 15, metal: true, bash: "1d4", bashFumble: 6,
     description: "The inner face contains a folding brace upon which a small book, ledger or prayer text can be secured. You can consult the secured book while wielding the shield without requiring an additional hand to hold it. Turning pages or exchanging books still requires the normal Interact action." }),
   shield({ name: "Ossuary Board", category: "heavy", level: 2, price: 180, db: 3, acp: -3, weight: 18, dr: 1, hp: 25, metal: false, bash: "1d6", bashFumble: 8,
-    description: "A brutal rectangular shield traditionally constructed from layered timber, hide and ornamental bone. A Shield Bash made with an Ossuary Board gains the Shove trait.\n\nOn the sheet: the Shove on a Shield Bash is a note — resolve the Shove by hand after a hit." }),
+    description: "A brutal rectangular shield traditionally constructed from layered timber, hide and ornamental bone. A Shield Bash made with an Ossuary Board gains the Shove trait.\n\nOn the sheet: works automatically — with no Shove-trait weapon equipped, a Shove Attack is made with the board's Shield Bash and the card says so (TRG Prime 3.696.0).",
+    flags: { bashTraits: ["shove"] } }),
   shield({ name: "Processional Aegis", category: "heavy", level: 2, price: 230, db: 3, acp: -4, weight: 22, dr: 1, hp: 25, metal: true, bash: "1d6", bashFumble: 8,
     description: "These tall icon-bearing shields accompany religious processions but are equally capable of stopping arrows. You may spend 2 AP to plant the shield securely. While planted, it cannot provide you with its normal shield benefits, but it functions as a small portable shrine or ceremonial surface. Appropriate use grants a +1-item bonus to Perform Last Rites or Observe Sacred Custom.\n\nOn the sheet: +1 item is offered on Perform Last Rites and Observe Sacred Custom — tick while the shield is planted (its DB is yours to unequip meanwhile).",
     flags: { conditionals: [offered("Processional Aegis", 1, "Perform Last Rites or Observe Sacred Custom while the shield is planted (2 AP; no shield benefits meanwhile)", { checkTypes: ["skill"], actions: ["performLastRites", "observeSacredCustom"] })] } })

@@ -1,7 +1,7 @@
 {
   "_id": "gW49elQJjlo3XLJN",
   "name": "Pilgrim Envoy",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/backgrounds/diplomat.png",
   "type": "background",
   "system": {
     "source": "Pillars of Faith",

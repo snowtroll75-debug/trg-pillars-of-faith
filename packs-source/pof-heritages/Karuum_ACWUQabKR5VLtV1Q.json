@@ -1,7 +1,7 @@
 {
   "_id": "ACWUQabKR5VLtV1Q",
   "name": "Karuum",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/heritages/morgar.png",
   "type": "heritage",
   "system": {
     "source": "Pillars of Faith",

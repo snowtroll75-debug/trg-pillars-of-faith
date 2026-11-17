@@ -1,7 +1,7 @@
 {
   "_id": "UAVID2h7YmDzvRbF",
   "name": "Soulchain",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/book.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir -p dist
           cp module.json dist/
-          for dir in module scripts packs; do
+          for dir in assets module scripts packs; do
             if [ -d "$dir" ]; then cp -a "$dir" dist/; fi
           done
           cd dist

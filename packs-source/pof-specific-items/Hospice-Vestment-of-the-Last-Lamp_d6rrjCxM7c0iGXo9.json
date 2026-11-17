@@ -1,7 +1,7 @@
 {
   "_id": "d6rrjCxM7c0iGXo9",
   "name": "Hospice Vestment of the Last Lamp",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/trg-pillars-of-faith/assets/armour/padded.png",
   "type": "armour",
   "system": {
     "quantity": 1,

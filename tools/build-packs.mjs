@@ -19,6 +19,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const jsonOnly = process.argv.includes("--json");
 
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "module.json"), "utf8"));
+const artwork = JSON.parse(fs.readFileSync(path.join(ROOT, "tools/content/artwork.json"), "utf8"));
 const declared = new Map(manifest.packs.map((p) => [p.name, p]));
 
 /** A document with its LevelDB keys, and its embedded documents'. */
@@ -59,7 +60,7 @@ for (const pack of PACKS) {
     // document and for each embedded document. Items (and their effects)
     // since 0.1.0; Actors, with their items, and JournalEntries, with their
     // pages, since 0.10.0 (Chapter 8's haunts and the GM's guide).
-    const keyed = keyedDocument(doc, pack.type ?? "Item");
+    const keyed = keyedDocument(artwork[doc._id] ? { ...doc, img: artwork[doc._id] } : doc, pack.type ?? "Item");
     fs.writeFileSync(path.join(srcDir, file), `${JSON.stringify(keyed, null, 2)}\n`);
   }
   total += pack.docs.length;

@@ -1,7 +1,7 @@
 {
   "_id": "j3IZH8RIEq6JvmyV",
   "name": "Charm of the Night",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/class.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

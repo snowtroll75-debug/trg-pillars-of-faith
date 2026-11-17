@@ -9,6 +9,8 @@
  * data on the pack item.
  */
 import { SYSTEM_ID, FEAT_SOURCE_FLAG, helpers, spendAP, spendReaction, spendUse, firstTarget } from "./automations.mjs";
+import { healTarget, holdAtOneHp, cleanseTarget, CLEANSE } from "./relay.mjs";
+import { useLiturgist, useSacredMarginalia, useLiturgyOfPrayer } from "./liturgy.mjs";
 
 const level = (actor) => Math.max(1, Number(actor.system?.identity?.level ?? 1) || 1);
 const hasFeat = (actor, name) => Array.from(actor.items ?? []).some((i) => (i.type === "feat" || i.type === "ability") && String(i.name).toLowerCase() === String(name).toLowerCase());
@@ -116,17 +118,28 @@ const perfectedAberration = selfEffect("Perfected Aberration", {
     { kind: "advantage", label: "Perfected Aberration", auto: true, scope: "Saving throws against Disease and Poison", when: { checkTypes: ["save"], traits: ["disease", "poison"] } },
     { kind: "advantage", label: "Perfected Aberration", auto: false, scope: "Saving throws and flat checks to resist, reduce or recover from critical injuries and body-altering magic", when: { checkTypes: ["save", "flat"], not: { traits: ["disease", "poison"] } } }
   ],
-  description: "Violent adaptation for 1 minute: Fast Healing 1 (heal 1 at the start of each of your turns — a note), Immunity to Bleed, Base DR +1, advantage against Disease, Poison, critical-injury recovery and body-altering effects."
+  description: "Violent adaptation for 1 minute: Fast Healing 1 (1 HP at the start of each of your turns), Immunity to Bleed, Base DR +1, advantage against Disease, Poison, critical-injury recovery and body-altering effects.",
+  // FAST HEALING IS DECLARED, NOT NOTED (0.12.0, automation audit): the
+  // `fastHealing` flag TRG Prime's turn start heals from (documents/combat.mjs),
+  // as the Unliving Vampire's Fast Healing already is.
+  extra: () => ({ flags: { fastHealing: 1 } })
 });
 
-const redundantAnatomy = { hint: "Once per day, after a critical injury is determined: one step less severe.", ...focusCard("Redundant Anatomy", ["The critical injury is <strong>one step less severe</strong>: Deadly becomes Serious, Serious becomes Minor, Minor is negated — apply the lesser result."]) };
+const redundantAnatomy = { hint: "Offered once a day after a critical injury against you is determined: one step less severe. Use is the fallback.", ...focusCard("Redundant Anatomy", ["The critical injury is <strong>one step less severe</strong>: Deadly becomes Serious, Serious becomes Minor, Minor is negated — apply the lesser result."]) };
+
+/** Blood Awakened's "+1d6 essence once a round with a Bite or Fangs against a living creature" (0.12.4). */
+export const BLOOD_AWAKENED_RIDER = { dice: "1d6", label: "Blood Awakened", weaponNames: ["Bite", "Fangs"], damageType: "essence", targetLiving: true, oncePerRound: true };
 
 const bloodAwakened = selfEffect("Blood Awakened", {
   changes: [{ key: "system.combat.movement.land.other", mode: 2, value: "5", priority: 20 }],
   conditionals: [
     { kind: "advantage", label: "Blood Awakened", auto: false, scope: "Diplomacy, Bluff and Demoralise checks against living humanoids", when: { checkTypes: ["skill"], subjects: ["diplomacy", "deception", "intimidate"] } }
   ],
-  description: "Your vampiric inheritance awakens for 1 minute: Fast Healing 1 (a note), +5 ft Speed, advantage on Diplomacy, Bluff and Demoralise against living humanoids; a Bite or Fangs attack counts as Magical and adds 1d6 essence once a round on a hit against a living creature (add it to the roll)."
+  description: "Your vampiric inheritance awakens for 1 minute: Fast Healing 1 (1 HP at the start of each of your turns), +5 ft Speed, advantage on Diplomacy, Bluff and Demoralise against living humanoids; a Bite or Fangs attack counts as Magical, and once a round its hit on a living creature adds 1d6 essence, rolled and applied with the damage.",
+  // Declared, as Perfected Aberration's (0.12.0). THE FANGS RIDER (0.12.4, TRG
+  // Prime 3.696.0's filtered strike rider): Bite or Fangs, a living target,
+  // essence, once a round.
+  extra: () => ({ flags: { fastHealing: 1, strikeDamageRider: BLOOD_AWAKENED_RIDER } })
 });
 
 const eternalManifestation = {
@@ -158,16 +171,18 @@ const unboundImpulse = { hint: "Once per day: reduce the Stunned you would gain 
 /* Racial — Rhevani, Eshari, Kethrani, Myrathi, core races             */
 /* ================================================================== */
 
-const continuityUnbroken = { hint: "Reaction (Focus): reroll a failed save against possession or identity-altering Mental effects, with advantage.", ...focusCard("Continuity Unbroken", ["<strong>Reroll the failed saving throw with advantage</strong> from your sheet and keep the better result."], { reaction: true }) };
+const continuityUnbroken = { hint: "Offered when a save fails (possession or identity-altering Mental effects): reroll with advantage, keep the better. Use is the fallback.", ...focusCard("Continuity Unbroken", ["<strong>Reroll the failed saving throw with advantage</strong> from your sheet and keep the better result."], { reaction: true }) };
 const notYetFinished = {
   hint: "Reaction (Focus): stay at 1 HP instead of 0; Fatigued 1.",
   async use(actor, item) {
     const { line, postCard } = helpers();
     if (!(await spendReaction(actor, "Not Yet Finished"))) return;
     if (!(await spendUse(item, "Not Yet Finished"))) return;
-    await actor.update({ "system.resources.hp.value": Math.max(1, Number(actor.system.resources?.hp?.value ?? 0)) });
-    const fatigued = Number(actor.getConditionValue?.("fatigued") ?? 0);
-    await actor.toggleStatusEffect("fatigued", { value: fatigued + 1 });
+    // "You remain at 1 HP instead" — and so do not gain Dying from that blow.
+    // The reaction is pressed after the damage has landed, so a Dying the blow
+    // already gave is cleared (0.12.0; it was left standing beside 1 HP).
+    // Lifeline's own step (relay.mjs), applied to yourself.
+    await holdAtOneHp(actor);
     await postCard(actor, "Not Yet Finished", [line("You refuse: you remain at <strong>1 HP</strong> and gain <strong>Fatigued 1</strong>."), line("<em>Cannot prevent death from exceeding your Death State or an effect that kills outright. Focus use spent.</em>")]);
   }
 };
@@ -256,7 +271,7 @@ const sentenceOfJudgement = {
   }
 };
 const revelationInCrisis = {
-  hint: "Reaction (Focus): spend Revelatory Script's use to reroll a failed save against a spell, with advantage.",
+  hint: "Offered when a save against a spell fails: expend Revelatory Script, reroll with advantage, keep the better. Use is the fallback.",
   async use(actor, item) {
     const { line, postCard, itemUsesRemaining } = helpers();
     const readAura = Array.from(actor.items ?? []).find((s) => s.type === "spell" && s.name === "Read Aura" && s.system?.innate);
@@ -287,8 +302,9 @@ const restorativeSpores = {
     const target = firstTarget();
     if (!target) { ui.notifications.warn("Restorative Spores: target the creature Purify cleansed."); return; }
     const amount = level(actor);
-    if (target.isOwner) { const hp = target.system.resources.hp; await target.update({ "system.resources.hp.value": Math.min(Number(hp.max), Number(hp.value) + amount) }); }
-    await postCard(actor, "Restorative Spores", [line(`<strong>${target.name}</strong> regains <strong>${amount}</strong> HP as flesh grows around what was cleansed${target.isOwner ? "" : " — apply on their sheet"}.`)]);
+    // Through the system's heal, and the GM for another's creature (0.12.0; relay.mjs).
+    const { healed, dying } = await healTarget(target, amount);
+    await postCard(actor, "Restorative Spores", [line(dying ? `<strong>${target.name}</strong> is Dying: the healing reduces Dying by 1 rather than restoring HP.` : `<strong>${target.name}</strong> regains <strong>${healed}</strong> HP as flesh grows around what was cleansed.`)]);
   }
 };
 const whisperNetwork = {
@@ -355,18 +371,12 @@ const livingIndex = { hint: "Name your extra Lore specialist skill.", async use(
 
 const classSkillChooser = { hint: "Choose the skill that becomes a class skill.", async use(actor, item) { return helpers().useClassSkillGrant(actor, item); } };
 const liturgist = {
-  hint: "Hands over the Liturgical Book if it is not on your sheet yet.",
-  async use(actor, item) {
-    const { line, postCard } = helpers();
-    if (Array.from(actor.items ?? []).some((i) => i.type === "gear" && i.name === "Liturgical Book")) { ui.notifications.info("Liturgist: your Liturgical Book is on your sheet — open it to record spells."); return; }
-    const pack = game.trgPrime.modules.contentPack("gear");
-    const idx = await pack.getIndex();
-    const entry = Array.from(idx.values()).find((e) => e.name === "Liturgical Book");
-    const data = (await pack.getDocument(entry._id)).toObject(); delete data._id;
-    foundry.utils.setProperty(data, `flags.${SYSTEM_ID}.grantedBy`, { sourceId: item.id, sourceName: item.name, requested: "Liturgical Book" });
-    await actor.createEmbeddedDocuments("Item", [data]);
-    await postCard(actor, "Liturgist", [line("Your <strong>Liturgical Book</strong> is on your sheet: record four Divinity spells you can cast, and select one each daily preparation (prepare it, or add it to your repertoire, by hand).")]);
-  }
+  hint: "Takes the Liturgical Book, records its four Divinity spells, then makes the daily selection (or records a learned spell).",
+  async use(actor, item) { return useLiturgist(actor, item); }
+};
+const sacredMarginalia = {
+  hint: "Adds the four Divinity spells you can cast to your Prayer Book (they do not use up the levels' free picks).",
+  async use(actor, item) { return useSacredMarginalia(actor, item); }
 };
 const oathkeeper = {
   hint: "Daily preparation: record your Solemn Vow.",
@@ -446,19 +456,8 @@ const inquisitionInquisitor = {
   }
 };
 const liturgyOfPrayer = {
-  hint: "1 AP, once a day: mark an unprepared spell of yours prepared so it can be cast now.",
-  async use(actor, item) {
-    const { line, postCard, chooseFromList } = helpers();
-    const unprepared = Array.from(actor.items ?? []).filter((s) => s.type === "spell" && !s.system?.prepared && !s.system?.innate && !/\bCantrip\b/i.test(s.system?.traits ?? "")).sort((a, b) => a.name.localeCompare(b.name));
-    if (!unprepared.length) { ui.notifications.warn("Liturgy of Prayer: no unprepared spell to reach for."); return; }
-    const picked = await chooseFromList("Liturgy of Prayer", "Liturgical Book spell to invoke now", unprepared.map((s) => [s.id, `${s.name} (PP ${s.system?.ppCost ?? 0})`]));
-    if (!picked) return;
-    if (!(await spendAP(actor, "Liturgy of Prayer"))) return;
-    if (!(await spendUse(item, "Liturgy of Prayer"))) return;
-    const spell = actor.items.get(picked);
-    await spell.update({ "system.prepared": true });
-    await postCard(actor, "Liturgy of Prayer", [line(`<strong>${spell.name}</strong> is on your spells table — cast it before the end of your turn.`), line("<em>Once per day.</em>")]);
-  }
+  hint: "1 AP, once a day: a spell recorded in your Liturgical Book, not memorised, is castable until the end of your turn.",
+  async use(actor, item) { return useLiturgyOfPrayer(actor, item, { spendAP, spendUse }); }
 };
 const shareTheWound = {
   hint: "Reaction (Focus): target the ally — enter the damage you take on; they regain it, you lose it (never below 1 HP).",
@@ -475,11 +474,12 @@ const shareTheWound = {
     if (!(await spendReaction(actor, "Share the Wound"))) return;
     if (!(await spendUse(item, "Share the Wound"))) return;
     await actor.update({ "system.resources.hp.value": Number(actor.system.resources.hp.value) - amount });
-    if (target.isOwner) { const hp = target.system.resources.hp; await target.update({ "system.resources.hp.value": Math.min(Number(hp.max), Number(hp.value) + amount) }); }
-    await postCard(actor, "Share the Wound", [line(`You take <strong>${amount}</strong> of <strong>${target.name}</strong>'s wound upon yourself${target.isOwner ? "" : " — restore it on their sheet"}. This loss cannot be reduced or redirected.`), line("<em>Focus use spent — Refocus restores it.</em>")]);
+    // Through the system's heal, and the GM for another's creature (0.12.0; relay.mjs).
+    const { healed, dying } = await healTarget(target, amount);
+    await postCard(actor, "Share the Wound", [line(`You take <strong>${amount}</strong> of <strong>${target.name}</strong>'s wound upon yourself${dying ? " — they are Dying, so it reduces Dying by 1 rather than restoring HP" : `: they regain <strong>${healed}</strong> HP`}. This loss cannot be reduced or redirected.`), line("<em>Focus use spent — Refocus restores it.</em>")]);
   }
 };
-const vowboundResolve = { hint: "Reaction (Focus): reroll a failed save or skill check made in your Vow's fulfilment, with advantage.", ...focusCard("Vowbound Resolve", ["<strong>Reroll the failed check with advantage</strong> from your sheet and keep the better result."], { reaction: true }) };
+const vowboundResolve = { hint: "Offered when a save or skill check in your Vow's fulfilment fails: reroll with advantage, keep the better. Use is the fallback.", ...focusCard("Vowbound Resolve", ["<strong>Reroll the failed check with advantage</strong> from your sheet and keep the better result."], { reaction: true }) };
 const appliedInsight = {
   hint: "1 AP (Focus): target a Studied Target — Opening (+1 circumstance to attacks against it) or Warning (+1 circumstance to DB and saves against it) until your next turn.",
   async use(actor, item) {
@@ -552,13 +552,19 @@ const exposeTheSubject = {
   }
 };
 const cleansingRadiance = {
-  hint: "After a Healing spell restores HP: target the creature — choose the effect the spell's PP allows.",
+  hint: "After a Healing spell restores HP: target the creature — choose the effect the spell's PP allows; it is applied at once.",
   async use(actor) {
     const { line, postCard, chooseFromList } = helpers();
     const target = firstTarget() ?? actor;
-    const picked = await chooseFromList("Cleansing Radiance", `Effect on ${target.name} (by the spell's PP)`, [["fear", "PP 8 — Remove Fear"], ["paralysis", "PP 8 — Remove Paralysis"], ["senses", "PP 8 — Restore Senses"], ["disease", "PP 10 — Remove Disease"], ["curse", "PP 12 — Remove Curse"]]);
+    const picked = await chooseFromList("Cleansing Radiance", `Effect on ${target.name} (no higher than the PP you spent on the spell)`, [["fear", "PP 8 — Remove Fear"], ["paralysis", "PP 8 — Remove Paralysis"], ["senses", "PP 8 — Restore Senses"], ["disease", "PP 10 — Remove Disease"], ["curse", "PP 12 — Remove Curse"]]);
     if (!picked) return;
-    await postCard(actor, "Cleansing Radiance", [line(`Corruption burns away: <strong>${target.name}</strong> — ${{ fear: "Remove Fear", paralysis: "Remove Paralysis", senses: "Restore Senses", disease: "Remove Disease", curse: "Remove Curse" }[picked]} applies as the spell of that name would (the GM resolves it).`)]);
+    // Graham's ruling U8 (16 Nov 2026): applied directly, no Counteract roll.
+    const removed = await cleanseTarget(target, picked);
+    const name = CLEANSE[picked].label;
+    const said = removed === null ? `${name} is sent to the GM to apply to ${target.name}.`
+      : removed.length ? `${name} on <strong>${target.name}</strong>: ${removed.join("; ")}.`
+      : `${name}: <strong>${target.name}</strong> has nothing it ends.`;
+    await postCard(actor, "Cleansing Radiance", [line(`Corruption burns away. ${said}`), line("<em>Once per spell.</em>")]);
   }
 };
 const lifeboundWard = {
@@ -570,8 +576,9 @@ const lifeboundWard = {
     const raw = await enterText("Lifebound Ward", "HP the original target regained", "");
     const half = Math.floor((Math.max(0, Number(raw)) || 0) / 2);
     if (!half) return;
-    if (target.isOwner) { const hp = target.system.resources.hp; await target.update({ "system.resources.hp.value": Math.min(Number(hp.max), Number(hp.value) + half) }); }
-    await postCard(actor, "Lifebound Ward", [line(`<strong>${target.name}</strong> regains <strong>${half}</strong> HP through the bond${target.isOwner ? "" : " — apply on their sheet"}.`)]);
+    // Through the system's heal, and the GM for another's creature (0.12.0; relay.mjs).
+    const { healed, dying } = await healTarget(target, half);
+    await postCard(actor, "Lifebound Ward", [line(dying ? `<strong>${target.name}</strong> is Dying: the bond reduces Dying by 1 rather than restoring HP.` : `<strong>${target.name}</strong> regains <strong>${healed}</strong> HP through the bond (half of ${Math.max(0, Number(raw)) || 0}).`)]);
   }
 };
 const miraculousRecovery = { hint: "Focus metamagic (+4 PP): a creature dead within the round returns at half the spell's healing.", ...focusCard("Miraculous Recovery", ["Cast the Healing spell at <strong>+4 PP</strong>: the creature <strong>returns to life with HP equal to half</strong> what the spell would restore — set it on their sheet. Body present, soul willing; not old age."]) };
@@ -687,6 +694,41 @@ const consecratedArmament = {
   }
 };
 
+/* FINAL TOLL (0.12.1): the ladder lands on the target from the Use, and
+ * Sacred Toll is left expended. Found by the 0.12.0 follow-up sweep, where
+ * the ladder was "applied by hand from the result". */
+export const FINAL_TOLL_LADDER = Object.freeze({
+  partial: { noReactions: true, attackPenalty: 0, slowed: 0 },
+  failure: { noReactions: true, attackPenalty: 1, slowed: 0 },
+  fumble: { noReactions: true, attackPenalty: 1, slowed: 1 },
+  blunder: { noReactions: true, attackPenalty: 1, slowed: 1 }
+});
+const finalToll = {
+  hint: "After a Final Toll's save (target the creature): choose its result — no reactions, −1 status to attacks and Slowed 1 land for 1 round; Sacred Toll stays expended.",
+  async use(actor, item) {
+    const { line, postCard, chooseFromList, createEffectsOn, applyConditionTagsTo, formatAppliedTags } = helpers();
+    const target = firstTarget();
+    if (!target) { ui.notifications.warn("Final Toll: target the creature that saved against Sacred Toll."); return; }
+    const degree = await chooseFromList("Final Toll", `${target.name}'s saving throw against Sacred Toll`, [["none", "Success or better — no further effect"], ["partial", "Partial"], ["failure", "Failure"], ["fumble", "Fumble"], ["blunder", "Blunder"]]);
+    if (!degree) return;
+    const toll = Array.from(actor.items ?? []).find((i) => i.type === "spell" && String(i.name).trim().toLowerCase() === "sacred toll");
+    if (toll && Number(toll.system?.usesValue ?? 0) > 0) await toll.update({ "system.usesValue": 0 });
+    const step = FINAL_TOLL_LADDER[degree];
+    const lines = [];
+    if (step) {
+      const conditionals = step.attackPenalty ? [{ kind: "modifier", value: -step.attackPenalty, type: "status", label: "Final Toll", auto: true, scope: "Attack rolls", when: { checkTypes: ["attack"] } }] : [];
+      await createEffectsOn(target, [{ name: "Final Toll", img: item.img, origin: item.uuid, description: `Cannot use Reactions${step.attackPenalty ? " and −1 status to attack rolls" : ""} for 1 round.`, duration: { rounds: 1 }, flags: { [SYSTEM_ID]: { [FEAT_SOURCE_FLAG]: `${item.id}:toll`, conditionals } } }]);
+      lines.push(line(`<strong>${target.name}</strong> cannot use Reactions${step.attackPenalty ? " and takes <strong>−1 status to attack rolls</strong>" : ""} for 1 round.`));
+      if (step.slowed) {
+        const applied = await applyConditionTagsTo(target, [{ key: "slowed", label: "Slowed", value: step.slowed }], { duration: { rounds: 1 } });
+        lines.push(line(`Slowed 1 for 1 round: ${await formatAppliedTags(applied)}`));
+      }
+    } else lines.push(line(`<strong>${target.name}</strong> shrugs off the Final Toll.`));
+    lines.push(line("<em>Sacred Toll is expended until you Refocus.</em>"));
+    await postCard(actor, "Final Toll", lines);
+  }
+};
+
 export const FEAT_AUTOMATIONS = Object.freeze({
   "adaptive tissue": adaptiveTissue,
   "grafted armament": graftedArmament,
@@ -721,6 +763,8 @@ export const FEAT_AUTOMATIONS = Object.freeze({
   "inquisitor": classSkillChooser,
   "lifebearer": classSkillChooser,
   "liturgist": liturgist,
+  "sacred marginalia": sacredMarginalia,
+  "final toll": finalToll,
   "oathkeeper": oathkeeper,
   "prophet": prophet,
   "sage": sage,
@@ -754,7 +798,7 @@ export const FEAT_AUTOMATIONS = Object.freeze({
 export const FEAT_PASSIVE_HINTS = Object.freeze({
   "morrowmade": "Works automatically: the trait, +1 racial Fortitude, and the offered +1 more on the named checks.",
   "impossible anatomy": "Works automatically: +2 racial on Escape (pre-ticked) and offered against a Grapple.",
-  "vesperyn": "Works automatically: the trait and Nightvision.",
+  "vesperyn": "Works automatically: the trait and Nightvision (Darkvision instead when your race already grants Nightvision).",
   "blood-scent": "Works automatically: Blood Sense on your senses; +2 racial offered on Track.",
   "hunter's fangs": "Works automatically: Fangs on your weapons.",
   "mesmeric gaze": "Works automatically: Charm Kind is an innate Focus spell on your list.",
@@ -764,7 +808,7 @@ export const FEAT_PASSIVE_HINTS = Object.freeze({
   "dawn-blooded": "Works automatically: the aligned trait, Nightvision and Guiding Bolt as an innate Focus spell.",
   "dread-blooded": "Works automatically: the aligned trait, Nightvision and Bane as an innate Focus spell.",
   "order-blooded": "Works automatically: the aligned trait, Nightvision and Sanctuary as an innate Focus spell.",
-  "eternal resonance": "Works automatically: Eternal Lore on your specialist skills; the +1 to innate-spell attacks and DCs is a note.",
+  "eternal resonance": "Works automatically: Eternal Lore on your specialist skills; +1 racial on every innate spell's attack and Save DC (declared on the feat's effect).",
   "ordered mind": "Works automatically: advantage against Confusion and Fear, pre-ticked by trait.",
   "profane constitution": "Works automatically: Poison Resistance; advantage against Sleep pre-ticked.",
   "radiant constitution": "Works automatically: Poison Resistance; +2 racial against Disease and Poison pre-ticked.",
@@ -781,7 +825,6 @@ export const FEAT_PASSIVE_HINTS = Object.freeze({
   "bell-warden's ear": "A rule for the table: finer Spirit Sense.",
   "consecrated flame": "Works automatically: +1d6 Essence rides your first Fire damage against an Undead creature each round (spell cards). Cremation as a Partial Last Rites is a note.",
   "eyes beyond the veil": "A rule for the table: Recall Knowledge on a sensed presence; exact location on a Search.",
-  "final toll": "Works through Sacred Toll: declare it before the save and apply the card's ladder.",
   "guide the last road": "Works automatically: Perform Last Rites takes 1 minute and prints the longer protections.",
   "keeper at the threshold": "Works automatically as an aura: +1 status to allies' saves within 10 feet.",
   "lantern of the last road": "Works automatically: Lantern Glow reaches 30 feet; +1 status to allies' saves against Fear within 10 feet (aura).",
@@ -824,7 +867,6 @@ export const FEAT_PASSIVE_HINTS = Object.freeze({
   "living concordance": "Works automatically: Spell Substitution swaps two spells on one Meditation check.",
   "perfect exegesis": "Works through Recite from the Text: −2 Casting Difficulty, +1 Save DC on the card.",
   "rapid reference": "Works through Recite from the Text: once a round it may be Free.",
-  "sacred marginalia": "Works automatically: +2 class offered on Learn a Spell; the four extra spells are added from the book's sheet.",
   "second discipline": "Use to choose your second discipline.",
   "a word at the right time": "A rule for the table: Aid as a Reaction.",
   "body charm": "Works through Warding Charm: Body is offered.",

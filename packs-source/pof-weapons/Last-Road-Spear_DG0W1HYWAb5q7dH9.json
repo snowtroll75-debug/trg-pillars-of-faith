@@ -1,7 +1,7 @@
 {
   "_id": "DG0W1HYWAb5q7dH9",
   "name": "Last-Road Spear",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/long-spear.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

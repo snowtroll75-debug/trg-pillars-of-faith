@@ -1,7 +1,7 @@
 {
   "_id": "bXR8gvUmjyZwP1GQ",
   "name": "Folkwarden",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/classes/ranger.png",
   "type": "class",
   "system": {
     "source": "Pillars of Faith",

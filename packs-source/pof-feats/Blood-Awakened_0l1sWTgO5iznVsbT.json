@@ -1,7 +1,7 @@
 {
   "_id": "0l1sWTgO5iznVsbT",
   "name": "Blood Awakened",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/racial.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",
@@ -10,7 +10,7 @@
     "level": 0,
     "prerequisites": "Level 15",
     "active": true,
-    "description": "<p>FOCUS VESPERYN</p>\n<p>For a few terrible moments the distinction between your living flesh and the vampire lurking within your ancestry becomes dangerously thin.<br>Action 1 AP; Duration 1 minute<br>Your vampiric inheritance fully awakens.<br>For the duration:<br>You gain Fast Healing 1.<br>Your land Speed increases by 5 feet.<br>You gain advantage on Diplomacy, Bluff (Deception) and Demoralise (Intimidate) checks against living humanoids.<br>If you possess a Bite or Fangs natural attack, it is treated as Magical and inflicts an additional 1d6 essence damage once per round when it successfully inflicts HP damage upon a living creature.<br>Your skin becomes deathly pale, your eyes visibly change and your fangs lengthen while Blood Awakened is active. These manifestations cannot be convincingly concealed without magic.<br>Be aware that this ability does not grant the Unliving or Undead trait and does not grant the full immunities, Drink Blood ability or other abilities of an Unliving Vampire.</p>\n<p>Prerequisites Level 15</p>\n<p>Use (1 AP, Focus): a one-minute effect — +5 ft Speed on your sheet, advantage on Diplomacy, Bluff and Demoralise against living humanoids offered, Fast Healing 1 and the Fangs rider as notes on the card.</p>",
+    "description": "<p>FOCUS VESPERYN</p>\n<p>For a few terrible moments the distinction between your living flesh and the vampire lurking within your ancestry becomes dangerously thin.<br>Action 1 AP; Duration 1 minute<br>Your vampiric inheritance fully awakens.<br>For the duration:<br>You gain Fast Healing 1.<br>Your land Speed increases by 5 feet.<br>You gain advantage on Diplomacy, Bluff (Deception) and Demoralise (Intimidate) checks against living humanoids.<br>If you possess a Bite or Fangs natural attack, it is treated as Magical and inflicts an additional 1d6 essence damage once per round when it successfully inflicts HP damage upon a living creature.<br>Your skin becomes deathly pale, your eyes visibly change and your fangs lengthen while Blood Awakened is active. These manifestations cannot be convincingly concealed without magic.<br>Be aware that this ability does not grant the Unliving or Undead trait and does not grant the full immunities, Drink Blood ability or other abilities of an Unliving Vampire.</p>\n<p>Prerequisites Level 15</p>\n<p>Use (1 AP, Focus): a one-minute effect — +5 ft Speed and Fast Healing 1 on your sheet, advantage on Diplomacy, Bluff and Demoralise against living humanoids offered, and once a round a Bite or Fangs hit on a living creature adds 1d6 essence, rolled and applied.</p>",
     "usesPerDay": "1",
     "bonusUses": 0,
     "usesValue": 1,

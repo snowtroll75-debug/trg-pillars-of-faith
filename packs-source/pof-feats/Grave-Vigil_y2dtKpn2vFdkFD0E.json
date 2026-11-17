@@ -1,7 +1,7 @@
 {
   "_id": "y2dtKpn2vFdkFD0E",
   "name": "Grave Vigil",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/general.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

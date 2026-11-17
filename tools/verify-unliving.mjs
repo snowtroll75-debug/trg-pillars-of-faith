@@ -218,10 +218,10 @@ ok("F4 the Uses are the module's own", typeof UNLIVING_AUTOMATIONS["Carrion Feas
 /* ================================================================== */
 
 const manifest = JSON.parse(read("module.json"));
-equal("G1 module version", manifest.version, "0.11.1");
-equal("G2 requires TRG Prime 3.630.1+", manifest.relationships.systems[0].compatibility.minimum, "3.630.1");
+equal("G1 module version", manifest.version, "0.12.5");
+equal("G2 requires TRG Prime 3.696.0+", manifest.relationships.systems[0].compatibility.minimum, "3.696.0");
 ok("G3 pof-afflictions extends afflictions", manifest.packs.some((p) => p.name === "pof-afflictions" && p.flags?.["trg-prime"]?.extends === "afflictions"));
-ok("G4 the loader requires 3.630.1", /REQUIRED_SYSTEM = "3\.630\.1"/.test(read("scripts/pillars-of-faith.mjs")));
+ok("G4 the loader requires 3.696.0", /REQUIRED_SYSTEM = "3\.696\.0"/.test(read("scripts/pillars-of-faith.mjs")));
 equal("G5 the manifest names its sourcebook for TRG Prime 3.628.0's Sourcebook menu", manifest.flags?.["trg-prime"]?.sourcebook, "Pillars of Faith");
 
 /* ================================================================== */

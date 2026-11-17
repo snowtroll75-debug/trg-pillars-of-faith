@@ -1,7 +1,7 @@
 {
   "_id": "83EOcGBfGpYkoFXG",
   "name": "Continuity Unbroken",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/racial.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",
@@ -10,7 +10,7 @@
     "level": 0,
     "prerequisites": "Level 10",
     "active": true,
-    "description": "<p>CHANCE FOCUS RHEVANI</p>\n<p>You know your own soul too well to surrender it easily.<br>Action R; Trigger You fail a saving throw against possession or a Mental effect that would alter, erase or suppress your memories, personality or identity.<br>Reroll the triggering saving throw with Advantage and use the better result. Continuity Unbroken is then expended and must be restored using Refocus.</p>\n<p>Prerequisites Level 10</p>\n<p>Use as the Reaction (Focus): spends the use and the reaction; reroll the failed save with advantage from your sheet.</p>",
+    "description": "<p>CHANCE FOCUS RHEVANI</p>\n<p>You know your own soul too well to surrender it easily.<br>Action R; Trigger You fail a saving throw against possession or a Mental effect that would alter, erase or suppress your memories, personality or identity.<br>Reroll the triggering saving throw with Advantage and use the better result. Continuity Unbroken is then expended and must be restored using Refocus.</p>\n<p>Prerequisites Level 10</p>\n<p>Works automatically: when a save fails you are asked (against possession or a Mental effect on memory or identity — your call); yes spends the use and the reaction, the save is rerolled with advantage and the better result stands. Use is the fallback.</p>",
     "usesPerDay": "1",
     "bonusUses": 0,
     "usesValue": 1,

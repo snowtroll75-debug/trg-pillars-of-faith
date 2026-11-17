@@ -1,7 +1,7 @@
 {
   "_id": "Q7lI27siZhH0H7JI",
   "name": "Sevrai",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/heritages/plains.png",
   "type": "heritage",
   "system": {
     "source": "Pillars of Faith",
@@ -32,7 +32,7 @@
       "disabled": false,
       "changes": [
         {
-          "key": "system.combat.movement.land",
+          "key": "system.combat.movement.land.base",
           "mode": 2,
           "value": "5",
           "priority": 20

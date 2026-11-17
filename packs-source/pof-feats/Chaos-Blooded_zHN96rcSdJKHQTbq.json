@@ -1,7 +1,7 @@
 {
   "_id": "zHN96rcSdJKHQTbq",
   "name": "Chaos-Blooded",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/racial.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

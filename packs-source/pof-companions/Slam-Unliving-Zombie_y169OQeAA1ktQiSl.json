@@ -1,7 +1,7 @@
 {
   "_id": "y169OQeAA1ktQiSl",
   "name": "Slam (Unliving Zombie)",
-  "img": "systems/trg-prime/assets/weapons/claw.png",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/slam.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

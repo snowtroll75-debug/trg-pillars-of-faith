@@ -1,7 +1,7 @@
 {
   "_id": "QpCnF7ZlNY6bhavy",
   "name": "Ironbloom",
-  "img": "icons/svg/oak.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/oak.svg",
   "type": "consumable",
   "system": {
     "quantity": 1,

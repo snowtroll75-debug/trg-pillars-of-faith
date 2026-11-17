@@ -1,7 +1,7 @@
 {
   "_id": "ic0uINSWoq8ov6bZ",
   "name": "Pilgrim's Coat",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/trg-pillars-of-faith/assets/armour/leather.png",
   "type": "armour",
   "system": {
     "quantity": 1,

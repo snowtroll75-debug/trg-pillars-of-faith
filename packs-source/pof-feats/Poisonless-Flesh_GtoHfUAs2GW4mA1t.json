@@ -1,7 +1,7 @@
 {
   "_id": "GtoHfUAs2GW4mA1t",
   "name": "Poisonless Flesh",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/class.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

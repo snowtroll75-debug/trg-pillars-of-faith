@@ -1,7 +1,7 @@
 {
   "_id": "6CQp3HvZuUZ3NaKQ",
   "name": "Bloom of the Ancestral Grove",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/scythe.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

@@ -1,7 +1,7 @@
 {
   "_id": "reVXeBB1vTJX4l7A",
   "name": "Sever Soulchain",
-  "img": "icons/svg/holy-symbol.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/soul.svg",
   "type": "spell",
   "system": {
     "tradition": "divinity",
@@ -23,15 +23,26 @@
     "casterLevelMods": [],
     "effects": [
       {
+        "kind": "counteract",
+        "target": "targets",
+        "traits": [
+          "possession"
+        ],
+        "limit": 1,
+        "label": "Sever Soulchain"
+      },
+      {
         "kind": "note",
-        "text": "Select one soul-binding effect on the target and attempt to Counteract it. Critical: it ends; a living creature reduces Soul Drain by 10 and gains +4 status against the same source for 24 hours. Success: it ends. Failure: intact. Fumble: intact, and you cannot target it again for 24 hours."
+        "text": "Any other soul-binding effect (a soul imprisoned in an object, bound to a corpse or place, or forcibly displaced): attempt the Counteract from Spellcraft and end it by hand. Critical: it ends; a living creature reduces Soul Drain by 10 and gains +4 status against the same source for 24 hours. Success: it ends. Failure: intact. Fumble: intact, and you cannot target it again for 24 hours. Warped (+4 PP): one additional soul-binding effect on the same target — a second possession effect is offered with its own check."
       }
     ],
     "warps": [
       {
         "ppCost": 4,
         "text": "Attempt to sever one additional soul-binding effect associated with the same target",
-        "mods": {}
+        "mods": {
+          "counteractLimitBonus": 1
+        }
       }
     ],
     "apOptions": [],

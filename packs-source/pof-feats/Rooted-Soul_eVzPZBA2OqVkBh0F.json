@@ -1,7 +1,7 @@
 {
   "_id": "eVzPZBA2OqVkBh0F",
   "name": "Rooted Soul",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/racial.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

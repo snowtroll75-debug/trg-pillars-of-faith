@@ -11,6 +11,7 @@
  * system's own `abilityChoices` mechanism (TRG Prime 3.563.0).
  */
 import { SYSTEM_ID, FEAT_SOURCE_FLAG, helpers, spendAP, spendReaction, spendUse, firstTarget } from "./automations.mjs";
+import { healTarget, giveTempHp, reduceCondition, holdAtOneHp } from "./relay.mjs";
 
 /** Every targeted token's actor, deduplicated; the actor itself when nothing is targeted. */
 function targetsOrSelf(actor) {
@@ -437,7 +438,14 @@ const judgement = {
           // FINAL SANCTION (3.625.0): "if that creature currently has half its
           // maximum Hit Points or fewer, increase the Judgement damage by 1d6"
           // — the rider itself grows, on the damage path that knows the HP.
-          strikeDamageRider: { dice, label: "Judgement", targetUuids: subjectUuid ? [subjectUuid] : [], oncePerRound: true, ...(hasFeat(actor, "Final Sanction") ? { lowHalfExtraDice: "1d6" } : {}),
+          // A GRIMWARD SPELL TOO (0.12.4, on TRG Prime 3.696.0): "the first Strike
+          // or Grimward spell that damages them" — `spells` with the Grimward
+          // specialist class; one burn a round between the two.
+          // FINAL SANCTION'S CRITICAL (0.12.4, 3.696.0 `onCritical`): "if you
+          // score a Critical hit against your Judged Subject, it suffers a
+          // -1-status penalty to DB until the beginning of your next turn".
+          strikeDamageRider: { dice, label: "Judgement", targetUuids: subjectUuid ? [subjectUuid] : [], oncePerRound: true, spells: true, spellClasses: ["Grimward"],
+            ...(hasFeat(actor, "Final Sanction") ? { lowHalfExtraDice: "1d6", onCritical: finalSanctionCritical(actor, item) } : {}),
             // RESTLESS END (Grave Warden, Advanced Discipline; 0.11.0 on TRG
             // Prime 3.630.0): "+1d6 against Undead or Unliving creatures when you
             // choose to inflict it as Essence damage" — grown on the damage path
@@ -462,13 +470,31 @@ const judgement = {
     const graveWarden = hasAbility(actor, "Grave Warden") && hasFeat(actor, "Advanced Discipline");
     await postCard(actor, "Judgement", [
       line(`<strong>${subjectName}</strong> is under Judgement: +1 circumstance to attacks against them and to saves against their effects${subjectUuid ? " (pre-ticked when the roll knows the creature)" : " (offered — tick when the roll concerns them)"}.`),
-      line(`Once per round, the first time you damage them with a Strike: <strong>+${dice} secondary damage</strong> of the same type, added to the damage roll automatically${subjectUuid ? "" : " (offered on every Strike, since the Subject was typed rather than targeted)"}. A Grimward spell's first damage: add it by hand.`),
+      line(`Once per round, the first time you damage them with a Strike or a Grimward spell: <strong>+${dice} secondary damage</strong> of the same type, rolled and applied automatically${subjectUuid ? "" : " (on every Strike or Grimward spell, since the Subject was typed rather than targeted)"}.`),
       ...(lvl >= 4 ? [line("<em>Sanctioned Strike: your weapon and unarmed attacks against them count as magical for Resistance and Immunity.</em>")] : []),
-      ...(hasFeat(actor, "Final Sanction") ? [line("<em>Final Sanction: when they are at half HP or fewer, the rider is 1d6 more (added on the damage card); after a Critical against them they take −1 status to DB until the beginning of your next turn — set by hand.</em>")] : []),
+      ...(hasFeat(actor, "Final Sanction") ? [line("<em>Final Sanction: when they are at half HP or fewer, the rider is 1d6 more (rolled with it); a Critical hit against them lays −1 status to DB until the beginning of your next turn.</em>")] : []),
       ...(graveWarden ? [line("<em>Restless End (Advanced Discipline): against an Undead or Unliving Subject the Judgement damage is 1d6 more, added to the damage roll — it assumes you take it as Essence (Consecrated Judgement).</em>")] : [])
     ]);
   }
 };
+
+/**
+ * FINAL SANCTION'S CRITICAL (0.12.4): the effect the Judgement rider's
+ * `onCritical` lays on the Subject (TRG Prime 3.696.0). One round — the
+ * beginning of the Grimward's next turn.
+ */
+export function finalSanctionCritical(actor, item) {
+  return {
+    label: "Final Sanction",
+    effect: {
+      name: "Final Sanction: −1 status to DB",
+      img: item?.img,
+      description: `−1 status penalty to DB until the beginning of ${actor?.name ?? "the Grimward"}'s next turn (Final Sanction).`,
+      duration: { rounds: 1 },
+      changes: [{ key: "system.combat.defence.status", mode: 2, value: "-1", priority: 20 }]
+    }
+  };
+}
 
 const preparedAdversary = {
   hint: "When Initiative is rolled with your Subject (also a Studied Target) present: +10 class to this Initiative check, and a free Recall Knowledge that can Judge them.",
@@ -497,16 +523,13 @@ const preparedAdversary = {
 /* HEALER                                                               */
 /* ================================================================== */
 
-/** Add HP to a target, capped at its maximum, returning what was wasted. */
-async function healActor(target, amount) {
-  const hp = target.system?.resources?.hp ?? {};
-  const value = Number(hp.value ?? 0);
-  const max = Number(hp.max ?? 0);
-  const room = Math.max(0, max - value);
-  const applied = Math.min(room, amount);
-  if (applied > 0) await target.update({ "system.resources.hp.value": value + applied });
-  return { applied, wasted: amount - applied };
-}
+/*
+ * HEALING GOES THROUGH THE SYSTEM (0.12.0, automation audit) — relay.mjs's
+ * `healTarget`, the core's own `healActor`: the Dying rule, the Unconscious
+ * clear, and the GM relay for a creature this client does not own. The local
+ * helper this replaces wrote HP directly, ignored Dying, and left the heal to
+ * be typed in by hand whenever a player's Healer healed another player's character.
+ */
 
 const giftOfHealing = {
   hint: "After a Healing spell restores HP to others: the targeted recipient regains your level + Wisdom more (Overflow → temp HP from 3rd; Sanctuary Keeper → +2 status DB).",
@@ -524,23 +547,22 @@ const giftOfHealing = {
     const wis = Number(actor.system?.attributes?.wisdom?.total ?? 0);
     const amount = Math.max(0, level(actor) + wis);
     const lines = [];
-    if (target.isOwner) {
-      const { applied, wasted } = await healActor(target, amount);
-      lines.push(line(`<strong>${target.name}</strong> regains <strong>${applied}</strong> additional HP (your level ${level(actor)} + Wisdom ${wis >= 0 ? "+" : ""}${wis}).`));
-      if (wasted > 0 && hasAbility(actor, "Restorative Overflow")) {
-        // Deep Reserves (Chapter 5): twice the level + Charisma, 10 minutes.
-        const deep = hasFeat(actor, "Deep Reserves");
-        const cha = Number(actor.system?.attributes?.charisma?.total ?? 0);
-        const cap = deep ? Math.max(0, 2 * level(actor) + cha) : amount;
-        const temp = Math.min(cap, wasted);
-        const current = Number(target.system?.resources?.hp?.temp ?? 0);
-        if (temp > current) await target.update({ "system.resources.hp.temp": temp });
-        lines.push(line(`Restorative Overflow: ${temp} temporary HP for ${deep ? "10 minutes (Deep Reserves)" : "1 minute"} (the higher value kept${temp > current ? "" : " — their current temp HP is higher"}).`));
-      } else if (wasted > 0) {
-        lines.push(line(`<em>${wasted} of it was beyond their maximum.</em>`));
-      }
-    } else {
-      lines.push(line(`<strong>${target.name}</strong> regains <strong>${amount}</strong> additional HP — apply it on their sheet (you do not own it).`));
+    const { healed, wasted, dying } = await healTarget(target, amount, { rider: true });
+    lines.push(line(dying
+      ? `<strong>${target.name}</strong> is Dying: the spell's own healing has already reduced Dying by 1, and the Gift adds nothing more while they are Dying.`
+      : `<strong>${target.name}</strong> regains <strong>${healed}</strong> additional HP (your level ${level(actor)} + Wisdom ${wis >= 0 ? "+" : ""}${wis}).`));
+    if (wasted > 0 && hasAbility(actor, "Restorative Overflow")) {
+      // Deep Reserves (Chapter 5): twice the level + Charisma, 10 minutes.
+      const deep = hasFeat(actor, "Deep Reserves");
+      const cha = Number(actor.system?.attributes?.charisma?.total ?? 0);
+      const cap = deep ? Math.max(0, 2 * level(actor) + cha) : amount;
+      const temp = Math.min(cap, wasted);
+      const current = Number(target.system?.resources?.hp?.temp ?? 0);
+      // "do not stack with themselves; use the greater value" — giveTempHp keeps the larger pool.
+      if (temp > current) await giveTempHp(target, temp);
+      lines.push(line(`Restorative Overflow: ${temp} temporary HP for ${deep ? "10 minutes (Deep Reserves)" : "1 minute"} (the higher value kept${temp > current ? "" : " — their current temp HP is higher"}).`));
+    } else if (wasted > 0) {
+      lines.push(line(`<em>${wasted} of it was beyond their maximum.</em>`));
     }
     if (hasAbility(actor, "Sanctuary Keeper")) {
       await createEffectsOn(target, [{
@@ -570,12 +592,10 @@ const healersTouch = {
     if (!(await spendUse(item, "Healer's Touch"))) return;
     const lines = [];
     for (const target of targetsOrSelf(actor)) {
-      if (target.isOwner) {
-        const { applied } = await healActor(target, amount);
-        lines.push(line(`<strong>${target.name}</strong> regains <strong>${applied}</strong> additional HP.`));
-      } else {
-        lines.push(line(`<strong>${target.name}</strong> regains <strong>${amount}</strong> additional HP — apply it on their sheet.`));
-      }
+      const { healed, dying } = await healTarget(target, amount, { rider: true });
+      lines.push(line(dying
+        ? `<strong>${target.name}</strong> is Dying: the spell's own healing has already reduced Dying by 1, and Healer's Touch adds nothing more while they are Dying.`
+        : `<strong>${target.name}</strong> regains <strong>${healed}</strong> additional HP.`));
     }
     lines.push(line("<em>Focus use and reaction spent — Refocus restores the use.</em>"));
     await postCard(actor, "Healer's Touch", lines);
@@ -614,13 +634,9 @@ const restorativeHands = {
       ui.notifications.warn(`Restorative Hands: ${target.name} has no ${key} to reduce.`);
       return;
     }
-    if (!target.isOwner) {
-      await postCard(actor, "Restorative Hands", [line(`Reduce <strong>${target.name}</strong>'s ${key} by ${by} on their sheet.`)]);
-      return;
-    }
+    // Through the GM when this client does not own the creature (0.12.0).
+    await reduceCondition(target, key, by);
     const next = Math.max(0, current - by);
-    if (next > 0) await target.toggleStatusEffect(key, { value: next });
-    else await target.toggleStatusEffect(key, { active: false });
     await postCard(actor, "Restorative Hands", [
       line(`<strong>${target.name}</strong>'s ${key === "soulDrain" ? "Soul Drain" : key} reduced by ${by} (now ${next}).`),
       line("<em>A target may benefit from Restorative Hands once per day.</em>")
@@ -639,14 +655,10 @@ const lifeline = {
     }
     if (!(await spendReaction(actor, "Lifeline"))) return;
     if (!(await spendUse(item, "Lifeline"))) return;
-    if (target.isOwner) {
-      await target.update({ "system.resources.hp.value": 1 });
-      if (target.getConditionValue?.("dying")) await target.toggleStatusEffect("dying", { active: false });
-      const fatigued = Number(target.getConditionValue?.("fatigued") ?? 0);
-      await target.toggleStatusEffect("fatigued", { value: fatigued + 1 });
-    }
+    // Through the GM when this client does not own the ally (0.12.0).
+    await holdAtOneHp(target);
     await postCard(actor, "Lifeline", [
-      line(`You seize <strong>${target.name}</strong>'s fading life${hasFeat(actor, "Distant Lifeline") ? ` from up to ${level(actor) >= 11 ? 120 : 60} feet (Distant Lifeline)` : ""}: they remain at <strong>1 HP</strong> and do not gain Dying from the triggering damage; they gain <strong>Fatigued 1</strong>.${target.isOwner ? "" : " (Apply on their sheet.)"}`),
+      line(`You seize <strong>${target.name}</strong>'s fading life${hasFeat(actor, "Distant Lifeline") ? ` from up to ${level(actor) >= 11 ? 120 : 60} feet (Distant Lifeline)` : ""}: they remain at <strong>1 HP</strong> and do not gain Dying from the triggering damage; they gain <strong>Fatigued 1</strong>.`),
       line("<em>Persistent damage, Bleed and other ongoing effects of the attack remain. Lifeline cannot prevent an effect that kills outright. Focus use spent — Refocus restores it.</em>")
     ]);
   }
@@ -869,7 +881,7 @@ const manifestSpirit = {
 };
 
 const spiritIntercession = {
-  hint: "Reaction (Focus), when you (or from 7th an ally within 30 feet) fail a save: reroll it and keep the better result.",
+  hint: "Offered when you (or from 7th an ally within 30 feet) fail a save: reroll it and keep the better result. Use is the fallback.",
   async use(actor, item) {
     const { line, postCard } = helpers();
     const target = firstTarget() ?? actor;
@@ -886,12 +898,65 @@ const spiritIntercession = {
   }
 };
 
+/*
+ * THE BONUS CANTRIP (0.12.1; Graham, 16 Nov 2026: "Elemental Spirit is not
+ * granting a free cantrip"). "You also add an appropriate Verdant cantrip
+ * possessing that elemental trait to your repertoire. This is a bonus cantrip
+ * and does not count against your normal cantrips known." The card used to
+ * leave it to the player. Now the Use offers the Verdant PP 0 spells carrying
+ * the element's trait from the federated spells pack (Orb of Acid, Cold,
+ * Lightning or Fire in the Core; any module's that qualify), and the pick
+ * lands stamped as this ability's grant — so it is not a `cantripPick` and
+ * does not spend one of the Shaman's three known cantrips, and it leaves with
+ * the ability. A character who chose the element before 0.12.1 presses Use
+ * again to take the cantrip owed.
+ */
+const ELEMENT_TRAIT = Object.freeze({ acid: "acid", cold: "cold", electricity: "electricity", fire: "fire" });
+
+export function elementalCantripEligible(entry, element) {
+  const sys = entry?.system ?? {};
+  if (Number(sys.ppCost ?? -1) !== 0 || sys.specialist) return false;
+  const traditions = String(sys.tradition ?? "").toLowerCase().split(/[,;/]/).map((t) => t.trim());
+  if (!traditions.includes("verdant")) return false;
+  const traits = String(sys.traits ?? "").toLowerCase().split(/[,;]/).map((t) => t.trim());
+  return traits.includes(ELEMENT_TRAIT[element] ?? element);
+}
+
+async function grantElementalCantrip(actor, item, element) {
+  const { line, postCard, chooseFromList } = helpers();
+  const held = Array.from(actor.items ?? []).filter((s) => s.type === "spell" && s.flags?.[SYSTEM_ID]?.grantedBy?.sourceId === item.id);
+  if (held.length) return held[0].name;
+  const pack = game.trgPrime.modules.contentPack("spells");
+  const index = await pack?.getIndex?.({ fields: ["system.ppCost", "system.tradition", "system.traits", "system.specialist"] });
+  const known = new Set(Array.from(actor.items ?? []).filter((s) => s.type === "spell").map((s) => String(s.name).toLowerCase()));
+  const eligible = Array.from(index?.values?.() ?? [])
+    .filter((e) => elementalCantripEligible(e, element) && !known.has(String(e.name).toLowerCase()))
+    .sort((x, y) => x.name.localeCompare(y.name));
+  if (!eligible.length) {
+    ui.notifications.warn(`Elemental Spirit: no Verdant cantrip with the ${element} trait is in the spells compendium (or you already know them all).`);
+    return null;
+  }
+  const picked = eligible.length === 1 ? eligible[0]._id
+    : await chooseFromList("Elemental Spirit", `Your bonus Verdant cantrip with the ${element} trait`, eligible.map((e) => [e._id, e.name]));
+  if (!picked) return null;
+  const data = (await pack.getDocument(picked)).toObject();
+  delete data._id;
+  foundry.utils.setProperty(data, `flags.${SYSTEM_ID}.grantedBy`, { sourceId: item.id, sourceName: item.name, requested: data.name });
+  foundry.utils.setProperty(data, `flags.${SYSTEM_ID}.bonusCantrip`, true);
+  await actor.createEmbeddedDocuments("Item", [data]);
+  await postCard(actor, "Elemental Spirit", [line(`<strong>${data.name}</strong> joins your repertoire as your bonus cantrip — it does not count against your cantrips known, and leaves with your Elemental Spirit.`)]);
+  return data.name;
+}
+
 const elementalSpirit = {
-  hint: "Choose your element (Acid, Cold, Electricity or Fire): +1 class to saves against it, and Elemental Mantle's resistance.",
+  hint: "Choose your element (Acid, Cold, Electricity or Fire): +1 class to saves against it, Elemental Mantle's resistance, and your bonus Verdant cantrip of that element.",
   async use(actor, item) {
     const { line, postCard, chooseFromList, replaceFeatEffect } = helpers();
     const current = actor.getFlag(SYSTEM_ID, "elementalSpirit");
     if (current) {
+      // The cantrip owed to a character who chose before 0.12.1.
+      const hasCantrip = Array.from(actor.items ?? []).some((s) => s.type === "spell" && s.flags?.[SYSTEM_ID]?.grantedBy?.sourceId === item.id);
+      if (!hasCantrip) { await grantElementalCantrip(actor, item, current); return; }
       ui.notifications.info(`Elemental Spirit: your element is ${current}. This choice cannot normally be changed.`);
       return;
     }
@@ -912,9 +977,9 @@ const elementalSpirit = {
       }
     });
     await postCard(actor, "Elemental Spirit", [
-      line(`Your guide is <strong>${element}</strong>: +1 class bonus to saving throws against ${element}-trait effects (pre-ticked), and Elemental Mantle grants ${element} resistance.`),
-      line(`<em>Add a Verdant cantrip with the ${element} trait to your repertoire as your bonus cantrip.</em>`)
+      line(`Your guide is <strong>${element}</strong>: +1 class bonus to saving throws against ${element}-trait effects (pre-ticked), and Elemental Mantle grants ${element} resistance.`)
     ]);
+    await grantElementalCantrip(actor, item, element);
   }
 };
 

@@ -29,7 +29,7 @@ export const ARCHETYPE_ABILITIES = [
   }),
   archetypeAbility({
     name: "Liturgy of Prayer", archetype: "Liturgist", traits: "Concentrate", usesPerDay: "1",
-    description: html("CONCENTRATE\n\nAction 1 AP; Frequency 1/day\n\nRequirements You have your Liturgical Book available and are able to read or otherwise consult it.\n\nYou rapidly locate a familiar passage, annotation or alternative formulation before invoking a prepared prayer. Select one Divinity spell that you do not currently have memorised, but which is recorded in your Liturgical Book. You may cast this spell immediately (using its normal AP cost). If the spell is not cast before the end of your turn, the ability is wasted.\n\nUse: spends 1 AP and the day's use, lets you pick a Liturgical Book spell that is not prepared, and marks it prepared so it can be cast now.")
+    description: html("CONCENTRATE\n\nAction 1 AP; Frequency 1/day\n\nRequirements You have your Liturgical Book available and are able to read or otherwise consult it.\n\nYou rapidly locate a familiar passage, annotation or alternative formulation before invoking a prepared prayer. Select one Divinity spell that you do not currently have memorised, but which is recorded in your Liturgical Book. You may cast this spell immediately (using its normal AP cost). If the spell is not cast before the end of your turn, the ability is wasted.\n\nUse: pick a spell recorded in your Liturgical Book that is not on your spells table; it spends 1 AP and the day's use and puts the spell on your spells table, castable at its normal AP cost. It leaves at the end of your turn.")
   }),
   archetypeAbility({
     name: "Share the Wound", archetype: "Martyr", traits: "Focus, Healing, Soul", usesPerDay: "1",
@@ -37,7 +37,7 @@ export const ARCHETYPE_ABILITIES = [
   }),
   archetypeAbility({
     name: "Vowbound Resolve", archetype: "Oathkeeper", traits: "Concentrate, Focus", usesPerDay: "1",
-    description: html("CONCENTRATE FOCUS\n\nAction R; Trigger You fail a saving throw or skill check while directly attempting to fulfil your Solemn Vow.\n\nYour commitment steadies you when failure would place your promise in jeopardy. Reroll the triggering saving throw or skill check with Advantage and use the better result. Vowbound Resolve is then expended and must be restored using Refocus.\n\nUse as the Reaction (Focus): spends the use and the reaction; reroll from your sheet with advantage.")
+    description: html("CONCENTRATE FOCUS\n\nAction R; Trigger You fail a saving throw or skill check while directly attempting to fulfil your Solemn Vow.\n\nYour commitment steadies you when failure would place your promise in jeopardy. Reroll the triggering saving throw or skill check with Advantage and use the better result. Vowbound Resolve is then expended and must be restored using Refocus.\n\nWorks automatically: when a save or skill check fails you are asked; yes spends the use and the reaction, the check is rerolled with advantage and the better result stands. Use is the fallback.")
   }),
   archetypeAbility({
     name: "Applied Insight", archetype: "Sage", traits: "Concentrate, Focus", usesPerDay: "1",
@@ -52,7 +52,7 @@ export const ARCHETYPE_ABILITIES = [
 export const ARCHETYPE_GEAR = [
   gear({
     name: "Liturgical Book", price: 25, traits: "Stores Spells",
-    description: html("Granted by the Liturgist archetype. Open this item's own sheet to record the four Divinity spells you can cast when the feat is taken, and further eligible Divinity spells learned from written sources. During daily preparation select one recorded spell: a learned caster treats it as memorised (it does not count against the memorised total); an instinctive caster adds it to the repertoire for the day. Liturgy of Prayer reaches one in the moment."),
+    description: html("Granted by the Liturgist archetype. Use the Liturgist feat to record the four Divinity spells you can cast when the feat is taken, to record further eligible Divinity spells learned from written sources, and to make the daily selection: the chosen spell goes on your spells table until your next daily preparation — for a learned caster memorised without counting against the memorised total, for an instinctive caster in the repertoire for the day. Liturgy of Prayer reaches one in the moment."),
     system: { spellbookContainer: true }
   })
 ];
@@ -71,7 +71,7 @@ export const ARCHETYPE_FEATS = [
     grantedAbilities: "Healer's Touch"
   }),
   bookFeat("archetype", "LITURGIST", {
-    sheet: "Works automatically: the Liturgical Book arrives as a spellbook gear item (record four spells you can cast) and Liturgy of Prayer as a once-a-day ability; the daily selection is a rule for the table (prepare it, or add it to your repertoire, by hand); Archivist class feats open to you.",
+    sheet: "Use: takes the Liturgical Book and records its four Divinity spells you can cast; Use again each day for the daily selection (on your spells table until your next daily preparation, outside your memorised total or repertoire), or to record a spell learned from a written source. Liturgy of Prayer arrives as a once-a-day ability; Archivist class feats open to you.",
     grantedAbilities: "Liturgy of Prayer"
   }),
   bookFeat("archetype", "MARTYR", {

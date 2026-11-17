@@ -1,7 +1,7 @@
 {
   "_id": "M661a7yVOZBqG9XM",
   "name": "Revelation in Crisis",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/racial.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",
@@ -10,7 +10,7 @@
     "level": 0,
     "prerequisites": "Level 10",
     "active": true,
-    "description": "<p>DIVINITY FOCUS KETHRANI</p>\n<p>For one impossible instant the Testament tells you what is about to happen rather than what has already been written.<br>Requirements Revelatory Script is not currently expended<br>Action R; Trigger You fail a saving throw against a spell or magical effect.<br>You expend Revelatory Script and reroll the triggering saving throw with Advantage, using the better result. Revelatory Script must then be restored normally through Refocus before either Read Aura or Revelation in Crisis can be used again.</p>\n<p>Prerequisites Level 10</p>\n<p>Use as the Reaction (Focus): spends Read Aura's Focus use (Revelatory Script) and the reaction; reroll the failed save with advantage from your sheet.</p>",
+    "description": "<p>DIVINITY FOCUS KETHRANI</p>\n<p>For one impossible instant the Testament tells you what is about to happen rather than what has already been written.<br>Requirements Revelatory Script is not currently expended<br>Action R; Trigger You fail a saving throw against a spell or magical effect.<br>You expend Revelatory Script and reroll the triggering saving throw with Advantage, using the better result. Revelatory Script must then be restored normally through Refocus before either Read Aura or Revelation in Crisis can be used again.</p>\n<p>Prerequisites Level 10</p>\n<p>Works automatically: when a save fails while Revelatory Script is up you are asked (against a spell or magical effect — your call); yes expends Revelatory Script and the reaction, the save is rerolled with advantage and the better result stands. Use is the fallback.</p>",
     "usesPerDay": "",
     "bonusUses": 0,
     "usesValue": 0,

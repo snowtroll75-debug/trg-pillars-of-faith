@@ -1,7 +1,7 @@
 {
   "_id": "fQhqTuX3JrGvpYmN",
   "name": "Claws (Unliving Vampire)",
-  "img": "systems/trg-prime/assets/weapons/claw.png",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/claw.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

@@ -229,9 +229,9 @@ const spores = MAGIC_CONSUMABLES.find((i) => /Memory Spores/.test(i.name));
 ok("G8 Memory Spores: a one-shot advantage on Recall Knowledge for 10 minutes", cons.consumableEffectRef(spores).duration === "10 minutes" && cons.consumableEffectRef(spores).effects.some((e) => e.kind === "conditional" && e.grants.some((g) => g.kind === "advantage" && g.oneShot && g.when.actions.includes("recallKnowledge"))));
 
 /* H. The requirement and the loader */
-equal("H1 module version", manifest.version, "0.11.1");
-equal("H2 requires TRG Prime 3.630.1+", manifest.relationships.systems[0].compatibility.minimum, "3.630.1");
-ok("H3 the loader requires 3.630.1 and registration hands the runes over", /REQUIRED_SYSTEM = "3\.630\.1"/.test(fs.readFileSync(path.join(ROOT, "scripts", "pillars-of-faith.mjs"), "utf8")) && /registerMagicItems\(api, moduleId\);/.test(fs.readFileSync(path.join(ROOT, "module", "registration.mjs"), "utf8")));
+equal("H1 module version", manifest.version, "0.12.5");
+equal("H2 requires TRG Prime 3.696.0+", manifest.relationships.systems[0].compatibility.minimum, "3.696.0");
+ok("H3 the loader requires 3.696.0 and registration hands the runes over", /REQUIRED_SYSTEM = "3\.696\.0"/.test(fs.readFileSync(path.join(ROOT, "scripts", "pillars-of-faith.mjs"), "utf8")) && /registerMagicItems\(api, moduleId\);/.test(fs.readFileSync(path.join(ROOT, "module", "registration.mjs"), "utf8")));
 ok("H4 the system is at least 3.626.0", Number(JSON.parse(fs.readFileSync(path.join(SYSTEM_ROOT, "system.json"), "utf8")).version.split(".")[1]) >= 626);
 
 api.resetModuleRegistry();

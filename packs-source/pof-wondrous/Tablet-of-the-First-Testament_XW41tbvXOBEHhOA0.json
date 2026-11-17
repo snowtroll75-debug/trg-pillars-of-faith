@@ -1,7 +1,7 @@
 {
   "_id": "XW41tbvXOBEHhOA0",
   "name": "Tablet of the First Testament",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/mystery-man.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

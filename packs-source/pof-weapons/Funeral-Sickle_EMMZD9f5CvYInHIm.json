@@ -1,7 +1,7 @@
 {
   "_id": "EMMZD9f5CvYInHIm",
   "name": "Funeral Sickle",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/sickle.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

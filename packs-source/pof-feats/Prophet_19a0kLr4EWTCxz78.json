@@ -1,7 +1,7 @@
 {
   "_id": "19a0kLr4EWTCxz78",
   "name": "Prophet",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/archetype.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

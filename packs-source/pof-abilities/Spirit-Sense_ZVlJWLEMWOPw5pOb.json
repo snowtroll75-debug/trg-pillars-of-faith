@@ -1,7 +1,7 @@
 {
   "_id": "ZVlJWLEMWOPw5pOb",
   "name": "Spirit Sense",
-  "img": "icons/svg/aura.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/races/human.png",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

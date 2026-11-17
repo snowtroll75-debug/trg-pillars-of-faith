@@ -1,7 +1,7 @@
 {
   "_id": "IEDzmRsH0hN6y2TW",
   "name": "Ancestral Communion",
-  "img": "icons/svg/aura.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/icons/consumables/mushrooms/mushroom-spotted-red.png",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

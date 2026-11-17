@@ -5,7 +5,8 @@
  * a fake `api` and assert exactly what was registered, without Foundry.
  */
 import { PERIL_AUTOMATIONS } from "./haunt-automations.mjs";
-import { AUTOMATIONS, PASSIVE_HINTS } from "./automations.mjs";
+import { AUTOMATIONS, PASSIVE_HINTS, LIGHT_SOURCES } from "./automations.mjs";
+import { ITEM_LIGHT_SOURCES } from "./item-lights.mjs";
 import { CLASS_AUTOMATIONS, CLASS_PASSIVE_HINTS } from "./class-automations.mjs";
 import { FEAT_AUTOMATIONS, FEAT_PASSIVE_HINTS } from "./feat-automations.mjs";
 import { GRIMOIRE_AUTOMATIONS, GRIMOIRE_PASSIVE_HINTS } from "./grimoire-automations.mjs";
@@ -14,6 +15,8 @@ import { registerMagicItems } from "./magic-items.mjs";
 import { UNLIVING_AUTOMATIONS } from "./unliving-automations.mjs";
 import { undeadLordsEnabled, undeadLordsPicks } from "./campaign-options.mjs";
 import { martyrsAegisShare } from "./pass-automations.mjs";
+import { wornEffectSuppressed } from "./worn-effects.mjs";
+import { registerCoreReactions } from "./core-reactions.mjs";
 
 /** Chapter 1 — the four new traits. */
 export const TRAITS = ["haunt", "investigation", "spirit", "unliving"];
@@ -155,7 +158,9 @@ export const DEGREE_UPGRADES = {
     .map((actionKey) => ({ actionKey, from: "fumble", to: "failure" })),
   // Chapter 5 general feats.
   "Close Reading": [{ actionKey: "analyseScripture", from: "partial", to: "success" }],
-  "Expert Autopsist": [{ actionKey: "performAutopsy", from: "fumble", to: "failure" }],
+  // …and "on a Critical result, the circumstance bonus … increases from +2
+  // to +4" (0.12.4, TRG Prime 3.696.0 `bonusValue`).
+  "Expert Autopsist": [{ actionKey: "performAutopsy", from: "fumble", to: "failure" }, { actionKey: "performAutopsy", degree: "critical", bonusValue: 4 }],
   "Watch the Eyes": [{ actionKey: "senseOutsideInfluence", from: "partial", to: "success" }]
 };
 
@@ -259,6 +264,13 @@ export function registerContent(api, moduleId) {
   // Chapter 9 (0.11.0): the Undead Lords campaign's bonus Archetype feat,
   // when the world setting is ticked (TRG Prime 3.630.0).
   api.registerFeatPickBonus?.("Undead Lords", (actor) => undeadLordsPicks(actor, undeadLordsEnabled(moduleId)), moduleId);
+  // 0.12.0: an item's "while worn" effect switches off when it is not equipped
+  // (TRG Prime 3.678.0), and the Lumeri's and Lumari's racial light (3.669.0).
+  api.registerEffectSuppressor?.("pof-worn-effects", wornEffectSuppressed, moduleId);
+  api.registerLightSources?.([...LIGHT_SOURCES, ...ITEM_LIGHT_SOURCES], moduleId);
   // Chapter 11 (0.11.0): Martyr's Aegis takes its share of an ally's blow.
   api.registerDamageShare?.("Martyr's Aegis", martyrsAegisShare, moduleId);
+  // THE REROLLS AND REDUNDANT ANATOMY, OFFERED AS THEY TRIGGER (0.12.4, TRG
+  // Prime 3.696.0 CD1 and 3.685.0's critical reaction). See core-reactions.mjs.
+  registerCoreReactions(api, moduleId);
 }

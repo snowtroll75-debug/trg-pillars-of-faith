@@ -1,7 +1,7 @@
 {
   "_id": "uLwADcHRJPL8DZ4q",
   "name": "Applied Insight",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/icons/svg/upgrade.svg",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

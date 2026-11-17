@@ -54,18 +54,18 @@ export const RACIAL_FEATS = [
   }),
   bookFeat("racial", "REDUNDANT ANATOMY", {
     usesPerDay: "1",
-    sheet: "Use once per day after a critical injury is determined: spends the use and the card says the injury is one step less severe — apply the lesser result."
+    sheet: "Works automatically: once a day, after a critical injury against you is determined, you are asked; yes spends the use and the injury is read one step less severe (Deadly → Serious → Minor → none). Use is the fallback."
   }),
 
   /* ---------------- Vesperyn ---------------- */
   bookFeat("racial", "VESPERYN", {
-    sheet: "Works automatically: the Vesperyn trait joins your traits and Nightvision (Darkvision if your race already sees in the dark — swap the ability by hand) is granted. Vesperyn racial feats open to you in the racial-feat picker.",
+    sheet: "Works automatically: the Vesperyn trait joins your traits and Nightvision is granted — or Darkvision in its place, when your race already gives you Nightvision. Vesperyn racial feats open to you in the racial-feat picker.",
     grantedAbilities: "Nightvision",
     effects: [fx("trait", [CHANGE.trait("Vesperyn")], "Vesperyn trait.")]
   }),
   bookFeat("racial", "BLOOD AWAKENED", {
     usesPerDay: "1",
-    sheet: "Use (1 AP, Focus): a one-minute effect — +5 ft Speed on your sheet, advantage on Diplomacy, Bluff and Demoralise against living humanoids offered, Fast Healing 1 and the Fangs rider as notes on the card."
+    sheet: "Use (1 AP, Focus): a one-minute effect — +5 ft Speed and Fast Healing 1 on your sheet, advantage on Diplomacy, Bluff and Demoralise against living humanoids offered, and once a round a Bite or Fangs hit on a living creature adds 1d6 essence, rolled and applied."
   }),
   bookFeat("racial", "BLOOD-SCENT", {
     sheet: "Works automatically: Blood Sense (30 ft, tertiary) is on your senses list; +2 racial to Track is offered with the book's wording.",
@@ -75,8 +75,11 @@ export const RACIAL_FEATS = [
     }
   }),
   bookFeat("racial", "HUNTER'S FANGS", {
-    sheet: "Works automatically: Fangs (1d6 P, Agile, Finesse) arrive as a natural attack on your weapons; the Bleed 1 on a critical injury is a note on the attack.",
-    grantedWeapons: "Fangs (Vesperyn)"
+    sheet: "Works automatically: Fangs (1d6 P, Agile, Finesse) arrive as a natural attack on your weapons, and a critical injury they inflict on a living creature lays Bleed 1.",
+    grantedWeapons: "Fangs (Vesperyn)",
+    // 0.12.4: a critical-only strike rider (TRG Prime 3.696.0) — the Fangs, a
+    // living target, Bleed 1 after the injury roll.
+    effects: [declaredEffect("Bleed on a critical", "A critical injury inflicted with your Fangs on a living creature also gives it Bleed 1.", { strikeDamageRider: { label: "Hunter's Fangs", weaponNames: ["Fangs"], targetLiving: true, onCritical: { label: "Hunter's Fangs", conditions: [{ key: "bleeding", value: 1, label: "Bleed" }] } } })]
   }),
   bookFeat("racial", "MESMERIC GAZE", {
     sheet: "Works automatically: Charm Kind is an innate Ethereal spell with the Focus trait on your spell list (living humanoids only — a note on the cast). The book's prerequisite names \"Velvet Gaze\"; the feat printed is Velvet Voice.",
@@ -109,8 +112,15 @@ export const RACIAL_FEATS = [
     effects: [fx("aligned trait", [CHANGE.trait(trait)], `${trait} aligned trait.`)]
   })),
   bookFeat("racial", "ETERNAL RESONANCE", {
-    sheet: "Works automatically: Eternal Lore is added to your specialist skills (if you already had it, the +2 to Recall Knowledge with it is a note); the +1 racial to innate-spell attacks and Save DCs is a note for the cast.",
-    flags: { grantedSpecialistSkills: "Eternal Lore" }
+    sheet: "Works automatically: Eternal Lore is added to your specialist skills (if you already had it, the +2 to Recall Knowledge with it is a note); every innate spell you cast, an item's included, carries +1 racial to its attack roll and Save DC (TRG Prime 3.695.0's declared spell bonuses).",
+    flags: { grantedSpecialistSkills: "Eternal Lore" },
+    // Ruling U7 (16 Nov 2026): all innate spells. 0.12.2's casting option never
+    // reached an innate cast (no Casting Conditions prompt is shown for one);
+    // the core's declared rows are read on every cast (3.695.0).
+    effects: [declaredEffect("Eternal Resonance", "+1 racial to the attack roll and Save DC of every innate spell you cast.", {
+      spellDCBonus: { label: "Eternal Resonance", value: 1, type: "race", innateOnly: true, itemCasts: true },
+      spellAttackBonus: { label: "Eternal Resonance", value: 1, type: "race", innateOnly: true, itemCasts: true }
+    })]
   }),
   bookFeat("racial", "ETERNAL MANIFESTATION", {
     traits: "Aligned",
@@ -146,7 +156,7 @@ export const RACIAL_FEATS = [
   }),
   bookFeat("racial", "CONTINUITY UNBROKEN", {
     usesPerDay: "1",
-    sheet: "Use as the Reaction (Focus): spends the use and the reaction; reroll the failed save with advantage from your sheet."
+    sheet: "Works automatically: when a save fails you are asked (against possession or a Mental effect on memory or identity — your call); yes spends the use and the reaction, the save is rerolled with advantage and the better result stands. Use is the fallback."
   }),
   bookFeat("racial", "DEEP RECALL", {
     sheet: "Works automatically: Past-Life Echo's effect now lasts 1 minute (10 rounds) when you Use it."
@@ -165,7 +175,7 @@ export const RACIAL_FEATS = [
   }),
   bookFeat("racial", "NOT YET FINISHED", {
     usesPerDay: "1",
-    sheet: "Use as the Reaction (Focus): you stay at 1 HP (set on your sheet) and gain Fatigued 1."
+    sheet: "Use as the Reaction (Focus): you are set to 1 HP, any Dying the blow gave you is removed, and you gain Fatigued 1."
   }),
   bookFeat("racial", "PILGRIM OF MANY LIVES", {
     usesPerDay: "1",
@@ -203,7 +213,7 @@ export const RACIAL_FEATS = [
   }),
   bookFeat("racial", "EYES BEYOND THE VEIL", { sheet: "A rule for the table: Recall Knowledge on a sensed presence, exact location on a successful Search, movement on a Critical." }),
   bookFeat("racial", "FINAL TOLL", {
-    sheet: "Works through Sacred Toll: declare a Final Toll before the save — the card's ladder (no reactions; −1 status to attacks; Slowed 1) is applied by hand from the result. Sacred Toll is then expended regardless."
+    sheet: "Declare a Final Toll before Sacred Toll's save, then Use this feat (target the creature) and choose the save's result: no Reactions (Partial), −1 status to attacks (Failure) and Slowed 1 (Fumble or Blunder) land for 1 round, and Sacred Toll stays expended until you Refocus."
   }),
   bookFeat("racial", "GUIDE THE LAST ROAD", { sheet: "Works automatically: Perform Last Rites takes 1 minute and its card prints the longer protections (1 month / 7 days / 24 hours)." }),
   bookFeat("racial", "KEEPER AT THE THRESHOLD", { sheet: "Works automatically as an aura: allies within 10 feet get +1 status to saves against possession, Soul Drain and Soul-trait effects — offered in their save dialogs while they stand near you (an ally-aura conditional).",
@@ -250,7 +260,7 @@ export const RACIAL_FEATS = [
     sheet: "Works automatically: a healing spell you cast on another creature at half its HP or fewer heals half your level more (minimum 1), once per creature per spell. A Medicine action's healing is by hand; Stabilise works on anyone.",
     effects: [declaredEffect("Mercy's healing", "Healing you cast on another living creature at half its maximum HP or fewer is increased by half your level (minimum 1).", { healingRider: { label: "No Life Abandoned", lowHalfBonus: "halfLevel" } })]
   }),
-  bookFeat("racial", "REVELATION IN CRISIS", { sheet: "Use as the Reaction (Focus): spends Read Aura's Focus use (Revelatory Script) and the reaction; reroll the failed save with advantage from your sheet." }),
+  bookFeat("racial", "REVELATION IN CRISIS", { sheet: "Works automatically: when a save fails while Revelatory Script is up you are asked (against a spell or magical effect — your call); yes expends Revelatory Script and the reaction, the save is rerolled with advantage and the better result stands. Use is the fallback." }),
   bookFeat("racial", "SCRIPT AGAINST CORRUPTION", {
     sheet: "Works automatically: this feat adds the second +1 beside Sacred Inscription's, pre-ticked on saves against Curse-trait effects.",
     flags: { conditionals: saveBonus("Script Against Corruption", 1, "racial", ["curse"], "Saving throws against Curse effects (the second point of Sacred Inscription's bonus)") }
@@ -273,7 +283,9 @@ export const RACIAL_FEATS = [
   bookFeat("racial", "BLOOM-TENDER'S SPORES", { sheet: "Works automatically: Nature offers Preserve Remains to you; the +1 status after a successful Purify is queued by Use (target the creature)." }),
   bookFeat("racial", "CHORUS WITHOUT WORDS", { sheet: "A rule for the table: Whisper Network's connected creatures may speak through you, and simple emotional impressions cross a language gap." }),
   bookFeat("racial", "DEEP BLOOM MEMORY", { sheet: "Works automatically: Ancestral Communion's Use waives the trained gate for one Recall Knowledge in a non-specialist skill you have no ranks in." }),
-  bookFeat("racial", "DEEP-ROOTED IRONCAP", { sheet: "Works automatically: Base DR +1 more is on your defences; the 5-foot reduction to forced movement is a note.", effects: [fx("Base DR", [CHANGE.baseDR(1)], "Base DR +1 (with Ironcap Plating, +2 in all).")] }),
+  // 0.12.4: the forced-movement reduction is TRG Prime's own declaration
+  // (`forcedMovementReduction`, read before a push and named on its card).
+  bookFeat("racial", "DEEP-ROOTED IRONCAP", { sheet: "Works automatically: Base DR +1 more is on your defences, and a push, pull or other forced movement is 5 feet shorter (minimum 0) — the card says so.", effects: [fx("Base DR", [CHANGE.baseDR(1)], "Base DR +1 (with Ironcap Plating, +2 in all)."), declaredEffect("forced movement", "Forced movement against you is reduced by 5 feet, to a minimum of 0.", { forcedMovementReduction: 5 })] }),
   bookFeat("racial", "GRAVECAP RESONANCE", {
     sheet: "Works automatically: +2 racial to saves is pre-ticked against Soul-trait and possession effects and offered against Soul Drain.",
     flags: { conditionals: saveBonus("Gravecap Resonance", 2, "racial", ["soul", "possession"], "Saving throws against Soul Drain, possession and Soul-trait effects") }
@@ -321,8 +333,14 @@ export const RACIAL_FEATS = [
     flags: { conditionals: [offeredBonus("Hearthward", 1, "racial", { checkTypes: ["save"] }, "Saving throws against Fear, possession, Soul Drain and Soul-trait effects while a conscious ally is within 10 feet")] }
   }),
   bookFeat("racial", "FIRST AGE THEOLOGIAN", {
-    sheet: "Works automatically: +1 racial is offered on Religion checks with the book's wording; using Intelligence in place of Wisdom is for the table.",
-    flags: { conditionals: [offeredBonus("First Age Theologian", 1, "racial", { checkTypes: ["skill"], subjects: ["religion"], actions: ["recallKnowledge", "recogniseDoctrine", "identifySpiritualAffliction"] }, "Religion checks concerning Eternals, Divine Aspects or an ancient religious tradition")] }
+    sheet: "Works automatically: on Recall Knowledge, Recognise Doctrine and Identify Spiritual Affliction with Religion, two rows are offered with the book's wording — the +1 racial bonus, and Intelligence in place of Wisdom (the difference between the two) — tick them when the subject concerns Eternals, Divine Aspects or an ancient religious tradition.",
+    // 0.12.0 (automation audit): Intelligence for Wisdom is the same declared
+    // row Scholarly Exegesis uses (`valueFrom: "intelligence-wisdom"`), so it
+    // is offered in the dialog rather than left "for the table".
+    flags: { conditionals: [
+      offeredBonus("First Age Theologian", 1, "racial", { checkTypes: ["skill"], subjects: ["religion"], actions: ["recallKnowledge", "recogniseDoctrine", "identifySpiritualAffliction"] }, "Religion checks concerning Eternals, Divine Aspects or an ancient religious tradition"),
+      conditional({ kind: "modifier", valueFrom: "intelligence-wisdom", type: "untyped", label: "First Age Theologian", scope: "Intelligence in place of Wisdom — Religion checks concerning Eternals, Divine Aspects or an ancient religious tradition", auto: false, when: { checkTypes: ["skill"], subjects: ["religion"], actions: ["recallKnowledge", "recogniseDoctrine", "identifySpiritualAffliction"] } })
+    ] }
   }),
   bookFeat("racial", "GRASP THE UNSEEN", { sheet: "Works automatically: while Shadow Stance is up, your Strikes count as Ghost Touch against incorporeal creatures. Touching a sensed spirit, and finding one you have only a direction for, are the table's.", effects: [declaredEffect("Grasp the Unseen", "Ghost Touch on your Strikes while in Shadow Stance.", { ghostTouch: { whileStance: "Shadow Stance" } })] }),
   bookFeat("racial", "SHADOWED SOUL", {

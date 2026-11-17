@@ -42,7 +42,7 @@
     ],
     "incubating": false,
     "currentStage": 0,
-    "description": "<p>The curse preserving you can pass into those shattered by your embalmed fists.</p>\n<p>When you inflict a critical injury with your Slam, the target must attempt a Fortitude save against Mummy Rot. The disease level is equal to your level. Stage 1: carrier with no visible effect for 1 minute. Stage 2: 4d6 essence damage and Injured 1 for 1 day. Damage inflicted by Mummy Rot cannot be healed until the curse is removed and the disease is cured. A creature can be exposed to your Mummy Rot only once per day.</p>\n<p>Spread by Mummy Rot (Unliving Mummy) at the mummy's level. Stage 1 lasts 1 minute; stage 2's interval is a day, as its Injured is. Damage it inflicts cannot be healed until the curse is removed and the disease cured — the table's.</p>",
+    "description": "<p>The curse preserving you can pass into those shattered by your embalmed fists.</p>\n<p>When you inflict a critical injury with your Slam, the target must attempt a Fortitude save against Mummy Rot. The disease level is equal to your level. Stage 1: carrier with no visible effect for 1 minute. Stage 2: 4d6 essence damage and Injured 1 for 1 day. Damage inflicted by Mummy Rot cannot be healed until the curse is removed and the disease is cured. A creature can be exposed to your Mummy Rot only once per day.</p>\n<p>Spread by Mummy Rot (Unliving Mummy) at the mummy's level. Stage 1 lasts 1 minute; stage 2's interval is a day, as its Injured is. Damage it inflicts cannot be healed until the curse is removed and the disease cured — the table's. Removing it takes Remove Curse and then Remove Disease (Fiends & Fables); Cleansing Radiance follows that order.</p>",
     "quantity": 1,
     "weight": 0,
     "price": 0
@@ -55,7 +55,17 @@
   },
   "flags": {
     "trg-prime": {
-      "pofDisease": true
+      "pofDisease": true,
+      "cureSequence": [
+        "curse",
+        "disease"
+      ]
+    },
+    "trg-pillars-of-faith": {
+      "cureSequence": [
+        "curse",
+        "disease"
+      ]
     }
   },
   "_stats": {

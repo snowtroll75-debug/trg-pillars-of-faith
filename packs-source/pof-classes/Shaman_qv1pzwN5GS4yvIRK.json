@@ -1,7 +1,7 @@
 {
   "_id": "qv1pzwN5GS4yvIRK",
   "name": "Shaman",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/classes/druid.png",
   "type": "class",
   "system": {
     "source": "Pillars of Faith",

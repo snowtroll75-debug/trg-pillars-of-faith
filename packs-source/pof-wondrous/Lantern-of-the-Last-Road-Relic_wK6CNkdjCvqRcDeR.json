@@ -1,7 +1,7 @@
 {
   "_id": "wK6CNkdjCvqRcDeR",
   "name": "Lantern of the Last Road (Relic)",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/mystery-man.svg",
   "type": "gear",
   "system": {
     "quantity": 1,
@@ -14,7 +14,7 @@
       "max": 0
     },
     "traits": "Invested, Rare, Soul, Warding",
-    "description": "Usage held in 1 hand; Weight 4 lbs.\n\nEshari tradition insists that this lantern has never been extinguished. Sceptics point out that nobody agrees which of several surviving lanterns is actually the original.\n\nThe lantern illuminates a 30-foot radius. While carrying it, you gain Spirit Sense 60 feet and may perceive spirits detected by that sense sufficiently clearly to target them. You possess Resistance to essence damage.\n\nWilling allies within the lantern's light gain a +2-status bonus to saving throws against possession and effects with the Soul trait.\n\nYou also gain the Open the Last Road and Close the Gate abilities:\n\nOpen the Last Road:\n\nActivate 3 AP\n\nFrequency 1/day\n\nDuration 10 minutes\n\nFor the duration, willing disembodied spirits within 60 feet may manifest sufficiently to be seen and heard by everyone present. A spirit may end its own manifestation at any time. During the effect, hostile possession attempts originating within the area suffer a -2-status penalty to the relevant check or save DC.\n\nClose the Gate:\n\nActivate 2 AP\n\nYou may automatically remove a possessing spirit from target. The spirit is banished and may not possess that target again.\n\nOn the sheet: Spirit Sense 60 feet joins your senses; allies within 30 feet carry +2 status against possession and Soul effects as an aura; Use offers Open the Last Road (3 AP, 1/day, 10 minutes) or Close the Gate (2 AP, target the possessed creature). Resistance to essence and the 30-foot light are the table's.\n\nPillars of Faith, Chapter 11.",
+    "description": "Usage held in 1 hand; Weight 4 lbs.\n\nEshari tradition insists that this lantern has never been extinguished. Sceptics point out that nobody agrees which of several surviving lanterns is actually the original.\n\nThe lantern illuminates a 30-foot radius. While carrying it, you gain Spirit Sense 60 feet and may perceive spirits detected by that sense sufficiently clearly to target them. You possess Resistance to essence damage.\n\nWilling allies within the lantern's light gain a +2-status bonus to saving throws against possession and effects with the Soul trait.\n\nYou also gain the Open the Last Road and Close the Gate abilities:\n\nOpen the Last Road:\n\nActivate 3 AP\n\nFrequency 1/day\n\nDuration 10 minutes\n\nFor the duration, willing disembodied spirits within 60 feet may manifest sufficiently to be seen and heard by everyone present. A spirit may end its own manifestation at any time. During the effect, hostile possession attempts originating within the area suffer a -2-status penalty to the relevant check or save DC.\n\nClose the Gate:\n\nActivate 2 AP\n\nYou may automatically remove a possessing spirit from target. The spirit is banished and may not possess that target again.\n\nOn the sheet: Spirit Sense 60 feet joins your senses; allies within 30 feet carry +2 status against possession and Soul effects as an aura; Use offers Open the Last Road (3 AP, 1/day, 10 minutes) or Close the Gate (2 AP, target the possessed creature). While held and invested you have Resistance to essence and the lantern sheds magical light in a 30-foot radius (drawn on your token).\n\nPillars of Faith, Chapter 11.",
     "slot": "",
     "uses": 0,
     "itemSize": "medium",
@@ -23,7 +23,34 @@
     "formulae": "",
     "spellbookContainer": false
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "Of1FEyHN3bADWWku",
+      "name": "Lantern of the Last Road: resistance to essence",
+      "img": "icons/svg/shield.svg",
+      "changes": [
+        {
+          "key": "system.combat.resistances",
+          "mode": 2,
+          "value": ", essence"
+        }
+      ],
+      "disabled": false,
+      "transfer": true,
+      "origin": "",
+      "duration": {},
+      "tint": "#ffffff",
+      "statuses": [],
+      "description": "Resistance to essence damage, while the lantern is held and invested.",
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "worn": true
+        }
+      },
+      "_key": "!items.effects!wK6CNkdjCvqRcDeR.Of1FEyHN3bADWWku"
+    }
+  ],
   "folder": null,
   "sort": 0,
   "ownership": {

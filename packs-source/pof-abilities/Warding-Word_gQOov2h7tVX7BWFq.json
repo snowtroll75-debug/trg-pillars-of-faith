@@ -1,7 +1,7 @@
 {
   "_id": "gQOov2h7tVX7BWFq",
   "name": "Warding Word",
-  "img": "icons/svg/aura.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/races/dwarf.png",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

@@ -18,10 +18,14 @@ import { removePastLifeLores, offerBattleRemembered, PAST_LIFE_LORE_FLAG } from 
 import { answerInterpretHaunt } from "../module/haunt-automations.mjs";
 import { campaignSettings, redrawActorSheets } from "../module/campaign-options.mjs";
 import { onActionAttempt, onActionResolved, onCheckResolved, onOverheal, onSpellRiderLanded, registerPassSocket } from "../module/pass-automations.mjs";
+import { grantVesperynSight } from "../module/vesperyn.mjs";
+import { secondDisciplineUpdate } from "../module/second-discipline.mjs";
+import { registerLiturgyHooks } from "../module/liturgy.mjs";
+import { registerItemLightHooks } from "../module/item-lights.mjs";
 
 const MODULE_ID = "trg-pillars-of-faith";
 const MODULE_SYSTEM = "trg-prime";
-const REQUIRED_SYSTEM = "3.630.1";
+const REQUIRED_SYSTEM = "3.696.0";
 
 // Campaign options (0.11.0): the Undead Lords bonus Archetype feat, a
 // checkbox in Configure Settings.
@@ -60,6 +64,30 @@ Hooks.on("trgPrimeActionAttempt", (ctx) => onActionAttempt(ctx));
 Hooks.on("trgPrimeCheckResolved", (ctx) => { onCheckResolved(ctx).catch((err) => console.warn("Pillars of Faith | check", err)); });
 Hooks.on("trgPrimeOverheal", (ctx) => { onOverheal(ctx).catch((err) => console.warn("Pillars of Faith | Grace beyond Need", err)); });
 Hooks.on("trgPrimeSpellRiderLanded", (ctx) => onSpellRiderLanded(ctx));
+
+// LITURGICAL BOOK (0.12.1): the day's selection leaves at the next daily
+// preparation; Liturgy of Prayer's pick at the end of the caster's turn.
+registerLiturgyHooks();
+
+// LANTERN LIGHT (0.12.1): the Lantern of the Veil and the Last Road relic
+// shed their light while held and invested.
+registerItemLightHooks();
+
+// SECOND DISCIPLINE (0.12.1): the second discipline brings its 1st-level
+// specialist spell and not its 7th-level Advanced one.
+Hooks.on("preCreateItem", (item, data) => {
+  const update = secondDisciplineUpdate(foundry.utils.mergeObject(item.toObject(), data ?? {}, { inplace: false }));
+  if (update) item.updateSource(update);
+});
+
+// VESPERYN (0.12.0): Darkvision instead of Nightvision when the race already
+// sees in the dark. After the feat's own grants have settled, on the client
+// that added it.
+Hooks.on("createItem", (item, _options, userId) => {
+  if (userId !== game.user?.id || item?.type !== "feat" || item.parent?.documentName !== "Actor") return;
+  if (String(item.name).trim().toLowerCase() !== "vesperyn") return;
+  setTimeout(() => { grantVesperynSight(item.parent, item).catch((err) => console.warn("Pillars of Faith | Vesperyn", err)); }, 1500);
+});
 
 Hooks.once("ready", () => {
   const system = game.system?.version ?? "0";

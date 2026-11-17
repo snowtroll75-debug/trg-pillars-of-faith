@@ -1,7 +1,7 @@
 {
   "_id": "ehziF8LAyZWzzDBm",
   "name": "Spirit-Speaker's Mask",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/mystery-man.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

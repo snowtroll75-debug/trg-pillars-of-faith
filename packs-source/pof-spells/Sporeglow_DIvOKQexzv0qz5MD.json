@@ -1,7 +1,7 @@
 {
   "_id": "DIvOKQexzv0qz5MD",
   "name": "Sporeglow",
-  "img": "icons/svg/holy-symbol.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/alteration.svg",
   "type": "spell",
   "system": {
     "tradition": "verdant",

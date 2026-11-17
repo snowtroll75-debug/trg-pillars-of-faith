@@ -1,7 +1,7 @@
 {
   "_id": "ebVw3SuDZT5nLQR0",
   "name": "Dreamthorn",
-  "img": "icons/svg/oak.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/oak.svg",
   "type": "consumable",
   "system": {
     "quantity": 1,

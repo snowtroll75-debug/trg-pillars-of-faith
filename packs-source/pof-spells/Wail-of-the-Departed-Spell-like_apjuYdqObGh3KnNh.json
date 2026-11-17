@@ -1,7 +1,7 @@
 {
   "_id": "apjuYdqObGh3KnNh",
   "name": "Wail of the Departed (Spell-like)",
-  "img": "icons/svg/holy-symbol.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/enchantment.svg",
   "type": "spell",
   "system": {
     "tradition": "",

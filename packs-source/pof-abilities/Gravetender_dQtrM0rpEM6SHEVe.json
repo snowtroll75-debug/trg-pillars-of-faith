@@ -1,7 +1,7 @@
 {
   "_id": "dQtrM0rpEM6SHEVe",
   "name": "Gravetender",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/classes/ranger.png",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

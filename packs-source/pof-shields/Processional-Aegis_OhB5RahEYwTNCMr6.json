@@ -1,7 +1,7 @@
 {
   "_id": "OhB5RahEYwTNCMr6",
   "name": "Processional Aegis",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/trg-pillars-of-faith/assets/shields/heavy-steel-shield.png",
   "type": "shield",
   "system": {
     "quantity": 1,

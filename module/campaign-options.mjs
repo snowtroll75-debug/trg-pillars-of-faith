@@ -24,7 +24,7 @@ export function undeadLordsPicks(actor, enabled) {
   if (actor?.type !== "character") return null;
   const level = Number(actor?.system?.identity?.level) || 0;
   if (level < 2) return null;
-  return { label: UNDEAD_LORDS_LABEL, archetype: 1 };
+  return { label: UNDEAD_LORDS_LABEL, archetype: 1, archetypeProgressionWaivers: 1 };
 }
 
 /** Whether the world has the option ticked. False before the setting exists. */
@@ -41,7 +41,7 @@ export function campaignSettings(onChange = () => {}) {
   return {
     [UNDEAD_LORDS_SETTING]: {
       name: "Undead Lords campaign",
-      hint: "Each player character gains one bonus Archetype feat at 2nd level — a regular Archetype feat or an eligible Unliving Archetype feat, if they meet its prerequisites (Chapter 9). Shown as a Bonus Archetype pick in the sheet's feat banner.",
+      hint: "Each player character gains one bonus Archetype feat at 2nd level — a regular Archetype feat or an eligible Unliving Archetype feat, if they meet its prerequisites (Chapter 9). Its progression requirements are waived, allowing another archetype alongside it. Shown as a Bonus Archetype pick in the sheet's feat banner.",
       scope: "world",
       config: true,
       type: Boolean,

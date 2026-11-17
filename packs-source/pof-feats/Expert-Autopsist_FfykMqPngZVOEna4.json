@@ -1,7 +1,7 @@
 {
   "_id": "FfykMqPngZVOEna4",
   "name": "Expert Autopsist",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/general.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",
@@ -10,7 +10,7 @@
     "level": 0,
     "prerequisites": "Medicine 5 ranks",
     "active": true,
-    "description": "<p>You know how to find the detail that less experienced examiners cut through.<br>When using Perform Autopsy, a Fumble is treated as a Failure.<br>On a Critical result, the circumstance bonus granted to a subsequent skill check increases from +2 to +4.<br>You may also perform an autopsy in 30 minutes rather than 1 hour.</p>\n<p>Prerequisites Medicine 5 ranks</p>\n<p>Works automatically: a Fumble on Perform Autopsy resolves as a Failure (the card says so); the +4 on a Critical and the 30-minute autopsy are notes.</p>",
+    "description": "<p>You know how to find the detail that less experienced examiners cut through.<br>When using Perform Autopsy, a Fumble is treated as a Failure.<br>On a Critical result, the circumstance bonus granted to a subsequent skill check increases from +2 to +4.<br>You may also perform an autopsy in 30 minutes rather than 1 hour.</p>\n<p>Prerequisites Medicine 5 ranks</p>\n<p>Works automatically: a Fumble on Perform Autopsy resolves as a Failure, and a Critical's +2 circumstance bonus becomes +4 (the card says each). The 30-minute autopsy is a note.</p>",
     "usesPerDay": "",
     "bonusUses": 0,
     "usesValue": 0,

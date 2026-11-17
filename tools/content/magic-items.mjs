@@ -214,7 +214,7 @@ export const SPECIFIC_ARMOUR = [
   specificArmour("BULWARK OF THE SWORN GATE", "Oathguard Plate", { usage: "a Master Oathguard Plate with Potency III, Anchored Soul (+2 item against possession and soul displacement) and Sanctuary. The Oathguard's +1 item against Shove, Trip and forced movement is still offered." }),
   specificArmour("GRAVEWARDEN'S VIGIL COAT", "Gravewarden Coat", { usage: "an Expert Gravewarden Coat with Potency II, Anchored Soul and Veilwatch (Spirit Sense 30 feet, tertiary, on your senses). The coat's +1 item against airborne disease and inhaled poison stands." }),
   specificArmour("HOSPICE VESTMENT OF THE LAST LAMP", "Hospice Jack", { usage: "an Expert Hospice Jack with Potency II; invested, it grants Light at will and Cure three times a day as innate spells (Command, 2 AP). The integrated kit counts as an Expert healer's kit for Administer First Aid — the +1 of an Expert kit is the table's." }),
-  specificArmour("PLATE OF THE SEALED SEPULCHRE", "Sepulchral Plate", { usage: "a Master Sepulchral Plate with Potency III, Anchored Soul and Soul Ward (Soul Drain you gain is reduced by 10 under Potency III). The plate's +1 item against contact or inhaled disease and poison stands. Resistance to essence from Soul Warding is a note." }),
+  specificArmour("PLATE OF THE SEALED SEPULCHRE", "Sepulchral Plate", { usage: "a Master Sepulchral Plate with Potency III, Anchored Soul and Soul Ward (Soul Drain you gain is reduced by 10 under Potency III). The plate's +1 item against contact or inhaled disease and poison stands. Resistance to essence is on your sheet while the plate is worn and invested." }),
   specificArmour("RELIQUARY SHIELD OF THE FIRST WITNESS", "Reliquary Shield", { usage: "an Expert Reliquary Shield with Potency II and Intercession (an ally within 10 feet who fails a save against Fear, possession or a Soul effect is offered the reroll, once a day)." })
 ];
 
@@ -316,7 +316,7 @@ export const WONDROUS_ITEMS = [
     sheet: "+2 status to Medicine while invested; Steady Gift is offered on your Healing spells (1/day): one healing die maximised — two with the Lifebinder Calling." }),
   wondrous("LANTERN OF THE VEIL", { abilities: [spellGrant("Veil Sight", "Open the Lantern", "focus", { castAP: 1, duration: "10 minutes", note: "Engage (1 AP); 10 minutes; expended until Refocus" })], subHeadings: ["OPEN THE LANTERN"],
     extraFlags: { light: { source: "torch", radiusFeet: 20 } },
-    sheet: "Open the Lantern is Veil Sight as an innate Focus spell (Refocus restores it). Its 20-foot light and the outline of spirits within it are the table's." }),
+    sheet: "Open the Lantern is Veil Sight as an innate Focus spell (Refocus restores it). Held and invested, it sheds magical light in a 20-foot radius (drawn on your token); the outline of spirits within it is the table's." }),
   wondrous("MANTLE OF MANY LIVES", { slot: "shoulders", abilities: [use("borrowedExperience", "Borrowed Experience", "Concentrate (1 AP)")], subHeadings: ["BORROWED EXPERIENCE"],
     conditionals: [offered("Mantle of Many Lives", 2, "Saving throws against magical memory alteration and effects that suppress or alter personal identity", { checkTypes: ["save"] })],
     sheet: "+2 status is offered on saves against memory and identity effects; Use grants 1 rank (a Rhevani: 2) in a skill you have none in, for 10 minutes (1/day)." }),
@@ -349,11 +349,22 @@ export const RELICS = [
       creatureAbility: { printedTraits: "", printedAction: "", printedArea: "", derives: { sense: { category: "tertiary", modality: "spiritual", fixedFeet: 60, name: "Spirit Sense (Lantern of the Last Road)", finds: "disembodied spirits, incorporeal undead, haunts and active possession" } }, source: "Pillars of Faith, Chapter 11" },
       light: { source: "torch", radiusFeet: 30 }
     },
-    sheet: "Spirit Sense 60 feet joins your senses; allies within 30 feet carry +2 status against possession and Soul effects as an aura; Use offers Open the Last Road (3 AP, 1/day, 10 minutes) or Close the Gate (2 AP, target the possessed creature). Resistance to essence and the 30-foot light are the table's." }),
+    sheet: "Spirit Sense 60 feet joins your senses; allies within 30 feet carry +2 status against possession and Soul effects as an aura; Use offers Open the Last Road (3 AP, 1/day, 10 minutes) or Close the Gate (2 AP, target the possessed creature). While held and invested you have Resistance to essence and the lantern sheds magical light in a 30-foot radius (drawn on your token)." }),
   wondrous("TABLET OF THE FIRST TESTAMENT", { section: "relics",
     conditionals: [offered("Tablet of the First Testament", 4, "Religion and Linguistics checks concerning doctrine, sacred writing, prophecy or religious symbolism", { checkTypes: ["skill"], subjects: ["religion", "linguistics"] })],
     sheet: "+4 status is offered on Religion and Linguistics about doctrine, sacred writing, prophecy and symbolism. Reading any sacred or liturgical language is the card's words." })
 ];
+// LANTERN OF THE LAST ROAD (0.12.1): "You possess Resistance to essence
+// damage", while carried (held) and invested. Its light is module/item-lights.mjs.
+{
+  const lantern = RELICS.find((i) => /Lantern of the Last Road/.test(i.name));
+  lantern.effects.push({
+    _id: stableId("effect:last-road-essence").slice(0, 16), name: "Lantern of the Last Road: resistance to essence", img: "icons/svg/shield.svg",
+    changes: [{ key: "system.combat.resistances", mode: 2, value: ", essence" }], disabled: false, transfer: true, origin: "", duration: {}, tint: "#ffffff", statuses: [],
+    description: "Resistance to essence damage, while the lantern is held and invested.", flags: { [SYSTEM_ID]: { featPassive: true, worn: true } }
+  });
+}
+
 
 /* ------------------------------------------------------------------ */
 /* Charged items                                                        */

@@ -1,7 +1,7 @@
 {
   "_id": "BC93uClu3eBx5oD6",
   "name": "Shared Unliving Base Mods",
-  "img": "icons/svg/skull.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/icons/svg/skull.svg",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

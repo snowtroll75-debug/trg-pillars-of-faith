@@ -1,7 +1,7 @@
 {
   "_id": "PTPc9EDZUenud2vW",
   "name": "Rooted Soul",
-  "img": "icons/svg/holy-symbol.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/soul.svg",
   "type": "spell",
   "system": {
     "tradition": "verdant",

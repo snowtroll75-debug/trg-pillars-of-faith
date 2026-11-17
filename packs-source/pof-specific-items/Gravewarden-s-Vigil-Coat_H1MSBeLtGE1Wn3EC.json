@@ -1,7 +1,7 @@
 {
   "_id": "H1MSBeLtGE1Wn3EC",
   "name": "Gravewarden's Vigil Coat",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/trg-pillars-of-faith/assets/armour/reinforced-leather.png",
   "type": "armour",
   "system": {
     "quantity": 1,

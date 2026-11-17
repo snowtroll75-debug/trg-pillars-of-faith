@@ -25,11 +25,11 @@ export const CLASS_FEATS = [
   bookFeat("class", "PERFECT EXEGESIS", { sheet: "Works through Recite from the Text: its card notes the −2 Casting Difficulty and +1 Save DC for the recited spell — apply them in the cast dialog." }),
   bookFeat("class", "RAPID REFERENCE", { sheet: "Works through Recite from the Text: once a round its Use may be a Free action (it asks), for a spell of base PP no more than half your level." }),
   bookFeat("class", "SACRED MARGINALIA", {
-    sheet: "Works automatically: +2 class is offered on Linguistics with the book's wording; the four extra Prayer Book spells and the halved copying cost are for the table (add them to the book from its own sheet).",
+    sheet: "Works automatically: +2 class is offered on Linguistics with the book's wording. Use to add the four Divinity spells you can cast to your Prayer Book (outside your levels' free picks; they leave with the feat). The halved copying time and cost are for the table.",
     flags: { conditionals: [offeredBonus("Sacred Marginalia", 2, "class", { checkTypes: ["skill"], subjects: ["linguistics"], actions: ["learnSpell"] }, "Linguistics checks to Learn a Spell from a written Divinity source")] }
   }),
   bookFeat("class", "SECOND DISCIPLINE", {
-    sheet: "Use to choose your second Archival Discipline: it arrives as an ability with its specialist skill and 1st-level specialist spell (delete its 7th-level spell if the level grants it).",
+    sheet: "Use to choose your second Archival Discipline: it arrives as an ability with its specialist skill and 1st-level specialist spell — never its 7th-level Advanced Specialist Spell, which is withheld.",
     flags: { abilityChoices: ["Canonist", "Apocryphist", "Eschatologist", "Hagiographer", "Revelator"] }
   }),
 
@@ -47,7 +47,7 @@ export const CLASS_FEATS = [
   bookFeat("class", "ADVANCED DISCIPLINE", { sheet: "Works through Judgement and Inquisition: the card names your discipline's advanced benefit; Grave Warden's extra 1d6 rides the Judgement rider when you choose Essence." }),
   bookFeat("class", "CHAIN OF EVIDENCE", { sheet: "A rule for the table: Study Target from evidence takes one time step less." }),
   bookFeat("class", "EXPOSE THE SUBJECT", { sheet: "Use (1 AP; target your Judged Subject): every targeted ally — target them too — gets +1 circumstance to saves from that creature until your next turn (and from 12th, +1 circumstance to their first attack against it)." }),
-  bookFeat("class", "FINAL SANCTION", { sheet: "Works through Judgement: the rider adds 1d6 more when the Subject is at half HP or fewer (tick it on the damage card by hand — the roll does not see HP); a Critical's −1 status to DB is a note." }),
+  bookFeat("class", "FINAL SANCTION", { sheet: "Works through Judgement: the rider adds 1d6 more when the Subject is at half HP or fewer, read from its HP as the damage is rolled; a Critical hit against the Subject lays −1 status to DB for a round." }),
   bookFeat("class", "TWIN INQUISITION", { sheet: "Works automatically: Inquisition's Use keeps two Subjects, each with its own Judgement." }),
   bookFeat("class", "UNBROKEN PURSUIT", {
     sheet: "Works automatically: +2 circumstance is offered on checks with the book's wording.",
@@ -55,7 +55,7 @@ export const CLASS_FEATS = [
   }),
 
   /* ---------------- Healer ---------------- */
-  bookFeat("class", "CLEANSING RADIANCE", { sheet: "Use after a Healing spell restores HP (target the recipient): choose the PP-threshold effect — Remove Fear, Paralysis, Restore Senses (8), Remove Disease (10), Remove Curse (12); the card records it for the GM to apply." }),
+  bookFeat("class", "CLEANSING RADIANCE", { sheet: "Use after a Healing spell restores HP (target the recipient): choose the PP-threshold effect — Remove Fear, Paralysis, Restore Senses (8), Remove Disease (10), Remove Curse (12). It is applied at once: Frightened, Paralysed, Blinded and Deafened, or the disease or curse afflictions and effects, come off (through the GM for a creature you do not own)." }),
   bookFeat("class", "DEEP RESERVES", { sheet: "Works through Gift of Healing: Restorative Overflow's cap is twice your level + Charisma and the temp HP last 10 minutes." }),
   bookFeat("class", "DISTANT LIFELINE", { sheet: "Works automatically: Lifeline's Use reaches 60 feet (120 from 11th) — the card says so." }),
   bookFeat("class", "ENHANCED VITALITY", { sheet: "Works through Restorative Hands: the reduction scales with the PP entered." }),

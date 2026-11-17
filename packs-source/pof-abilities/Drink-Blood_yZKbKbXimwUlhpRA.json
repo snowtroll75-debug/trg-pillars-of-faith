@@ -1,7 +1,7 @@
 {
   "_id": "yZKbKbXimwUlhpRA",
   "name": "Drink Blood",
-  "img": "icons/svg/skull.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/icons/svg/skull.svg",
   "type": "ability",
   "system": {
     "source": "Pillars of Faith",

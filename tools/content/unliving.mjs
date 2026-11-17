@@ -555,7 +555,7 @@ export const UNLIVING_SPELLS = [
 /* The diseases (pof-afflictions)                                       */
 /* ------------------------------------------------------------------ */
 
-function disease({ name, traits, incubation = "", maxStage, stages, description, afflictionType = "disease" }) {
+function disease({ name, traits, incubation = "", maxStage, stages, description, afflictionType = "disease", cureSequence = null }) {
   return {
     _id: stableId(`afflictions:${name}`),
     name, type: "affliction", img: "icons/svg/biohazard.svg",
@@ -565,7 +565,7 @@ function disease({ name, traits, incubation = "", maxStage, stages, description,
       stages: stages.map((s) => ({ effect: s.effect, interval: s.interval ?? "1 day", conditions: s.conditions ?? [], conditionDuration: "", damage: s.damage ?? "", damageType: s.damageType ?? "", criticalOnFailure: false, criticalDamageType: "poison" })),
       incubating: Boolean(incubation), currentStage: 0, description: html(description), quantity: 1, weight: 0, price: 0
     },
-    effects: [], folder: null, sort: 0, ownership: { default: 0 }, flags: { [SYSTEM_ID]: { pofDisease: true } },
+    effects: [], folder: null, sort: 0, ownership: { default: 0 }, flags: { [SYSTEM_ID]: { pofDisease: true, ...(cureSequence ? { cureSequence } : {}) }, ...(cureSequence ? { "trg-pillars-of-faith": { cureSequence } } : {}) },
     _stats: { systemId: SYSTEM_ID, systemVersion: "3.627.0", coreVersion: "14", createdTime: 1790000000000, modifiedTime: 1790000000000, lastModifiedBy: null, compendiumSource: null, duplicateSource: null }
   };
 }
@@ -603,7 +603,12 @@ export const UNLIVING_AFFLICTIONS = [
     name: "Mummy Rot (Disease)",
     traits: "Curse, Disease, Soul",
     maxStage: 2,
-    description: `${entryOf("mummy", "MUMMY ROT").body}\n\nSpread by Mummy Rot (Unliving Mummy) at the mummy's level. Stage 1 lasts 1 minute; stage 2's interval is a day, as its Injured is. Damage it inflicts cannot be healed until the curse is removed and the disease cured — the table's.`,
+    // REMOVING MUMMY ROT (Fiends & Fables; Graham, 16 Nov 2026): Remove Curse
+    // first, then Remove Disease — read by Cleansing Radiance (module/relay.mjs)
+    // and, as flags.trg-prime.cureSequence, by TRG Prime 3.695.0's Remove Curse
+    // and Remove Disease.
+    cureSequence: ["curse", "disease"],
+    description: `${entryOf("mummy", "MUMMY ROT").body}\n\nSpread by Mummy Rot (Unliving Mummy) at the mummy's level. Stage 1 lasts 1 minute; stage 2's interval is a day, as its Injured is. Damage it inflicts cannot be healed until the curse is removed and the disease cured — the table's. Removing it takes Remove Curse and then Remove Disease (Fiends & Fables); Cleansing Radiance follows that order.`,
     stages: [
       { effect: "Carrier with no visible effect.", interval: "1 minute" },
       { effect: "4d6 essence damage and Injured 1 for 1 day. This damage cannot be healed until the curse is removed and the disease cured.", damage: "4d6", damageType: "essence", conditions: [{ key: "injured", value: 1 }] }

@@ -1,7 +1,7 @@
 {
   "_id": "AwWbBK9JnMlGeqMn",
   "name": "Rod of Scholarly Recall",
-  "img": "icons/svg/wing.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/wing.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

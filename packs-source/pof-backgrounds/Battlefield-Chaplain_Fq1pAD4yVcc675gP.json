@@ -1,7 +1,7 @@
 {
   "_id": "Fq1pAD4yVcc675gP",
   "name": "Battlefield Chaplain",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/characters/backgrounds/templar.png",
   "type": "background",
   "system": {
     "source": "Pillars of Faith",

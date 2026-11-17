@@ -1,7 +1,7 @@
 {
   "_id": "5Fz6kmZ7DJ5l6R4C",
   "name": "Ophidian Flower",
-  "img": "icons/svg/oak.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/oak.svg",
   "type": "consumable",
   "system": {
     "quantity": 1,

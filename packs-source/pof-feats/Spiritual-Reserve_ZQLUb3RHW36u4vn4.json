@@ -1,7 +1,7 @@
 {
   "_id": "ZQLUb3RHW36u4vn4",
   "name": "Spiritual Reserve",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/class.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

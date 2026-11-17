@@ -1,7 +1,7 @@
 {
   "_id": "84YtcbNvDeYBAAUh",
   "name": "Break the Evil Eye",
-  "img": "icons/svg/book.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/warding.svg",
   "type": "spell",
   "system": {
     "tradition": "",
@@ -23,8 +23,21 @@
     "casterLevelMods": [],
     "effects": [
       {
+        "kind": "counteract",
+        "target": "targets",
+        "traits": [
+          "curse",
+          "possession",
+          "fear",
+          "enchantment"
+        ],
+        "limit": 1,
+        "confirm": true,
+        "label": "Break the Evil Eye"
+      },
+      {
         "kind": "note",
-        "text": "Select one Curse, Charm, Compulsion, possession, magical Fear, or controlling Mental/Soul effect on the target and attempt to Counteract it. Critical: it ends and the target gains +2 status against that source for 1 hour. Success: it ends. Failure: it remains. Fumble: it remains and you cannot try again against it until your next daily preparation."
+        "text": "Voluntarily accepted magical effects cannot be removed: the caster is always asked which effect to counteract, with \"None of these\" for one the target accepted willingly (Bless, Aid, Heroism — Enchantment too). Another controlling Mental or Soul effect that carries none of these traits: attempt the Counteract from Spellcraft and end it by hand. Critical: it ends and the target gains +2 status against that source for 1 hour. Success: it ends. Failure: it remains. Fumble: it remains and you cannot try again against it until your next daily preparation. Warped (+4 PP): one additional eligible effect, chosen in the same dialog with its own check."
       }
     ],
     "warps": [
@@ -38,7 +51,9 @@
       {
         "ppCost": 4,
         "text": "Attempt to Counteract one additional eligible effect affecting the same target",
-        "mods": {}
+        "mods": {
+          "counteractLimitBonus": 1
+        }
       }
     ],
     "apOptions": [],

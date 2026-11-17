@@ -1,7 +1,7 @@
 {
   "_id": "rjVBu3BNSz9fV9mj",
   "name": "Miraculous Recovery",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/class.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

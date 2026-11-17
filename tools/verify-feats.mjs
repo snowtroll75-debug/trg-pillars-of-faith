@@ -167,9 +167,12 @@ if (haveSystem) {
   for (const d of [...NEW_FEATS, ...ARCHETYPE_ABILITIES]) {
     for (const [i, raw] of conditionalsOf(d).entries()) {
       conditionalCount += 1;
-      ok(`B ${d.name} conditional ${i} normalises`, normaliseConditional(raw, { id: d._id, name: d.name, kind: "item" }, i) !== null);
+      // A SCALED ROW (0.12.0: First Age Theologian's Intelligence for Wisdom,
+      // the shape Scholarly Exegesis has used since 0.7.0) needs the figures it
+      // reads, as verify-classes hands them.
+      ok(`B ${d.name} conditional ${i} normalises`, normaliseConditional(raw, { id: d._id, name: d.name, kind: "item" }, i, { classBonus: 2, level: 4, halfLevel: 2, intelligence: 3, wisdom: 1 }) !== null);
       ok(`B ${d.name} conditional ${i} has a scope sentence`, String(raw.scope ?? "").length > 8);
-      if (raw.kind === "modifier") ok(`B ${d.name} conditional ${i} has a typed non-zero value`, Number.isInteger(raw.value) && raw.value !== 0 && ["class", "circumstance", "status", "race"].includes(raw.type), `${raw.value} ${raw.type}`);
+      if (raw.kind === "modifier") ok(`B ${d.name} conditional ${i} has a typed non-zero value (or a scaled one)`, (raw.valueFrom ? /^[a-z]+(-[a-z]+)?$/.test(raw.valueFrom) && raw.type === "untyped" : Number.isInteger(raw.value) && raw.value !== 0 && ["class", "circumstance", "status", "race"].includes(raw.type)), `${raw.value ?? raw.valueFrom} ${raw.type}`);
     }
   }
   ok("B the feats carry over fifty authored conditionals", conditionalCount >= 50, String(conditionalCount));
@@ -258,7 +261,7 @@ if (haveSystem) {
   for (const name of ["Close Reading", "Expert Autopsist", "Watch the Eyes"]) {
     ok(`C degree upgrade "${name}" is a Chapter 5 feat naming a real action`, Boolean(feats[name]) && DEGREE_UPGRADES[name].every((u) => actionKeys.has(u.actionKey)));
   }
-  equal("C Close Reading, Expert Autopsist, Watch the Eyes upgrade as printed", ["Close Reading", "Expert Autopsist", "Watch the Eyes"].map((n) => DEGREE_UPGRADES[n]), [[{ actionKey: "analyseScripture", from: "partial", to: "success" }], [{ actionKey: "performAutopsy", from: "fumble", to: "failure" }], [{ actionKey: "senseOutsideInfluence", from: "partial", to: "success" }]]);
+  equal("C Close Reading, Expert Autopsist, Watch the Eyes upgrade as printed (and Expert Autopsist's Critical +4, 0.12.4)", ["Close Reading", "Expert Autopsist", "Watch the Eyes"].map((n) => DEGREE_UPGRADES[n]), [[{ actionKey: "analyseScripture", from: "partial", to: "success" }], [{ actionKey: "performAutopsy", from: "fumble", to: "failure" }, { actionKey: "performAutopsy", degree: "critical", bonusValue: 4 }], [{ actionKey: "senseOutsideInfluence", from: "partial", to: "success" }]]);
   for (const g of ARCHETYPE_CLASS_SKILL_GRANTS) ok(`C class-skill grant "${g.name}" offers real skills`, g.options.every((k) => skillKeys.has(k)) && feats[g.label]);
   const rtr = POF_ACTIONS.find((a) => a.key === "readTheRoom");
   ok("C Read the Room is a Sense Motive action gated on the feat, named apart from the core racial feat", rtr && rtr.skills.join() === "senseMotive" && rtr.requiresFeat === "Read the Room (Expert)" && feats["Read the Room (Expert)"] && coreFeats.has("read the room"));
@@ -308,7 +311,7 @@ for (const d of [...NEW_FEATS, ...ARCHETYPE_ABILITIES]) {
 }
 ok("D every Focus feat with a daily use is automated", NEW_FEATS.filter((f) => /\bFocus\b/.test(f.system.traits) && f.system.usesPerDay && !f.system.grantedSpells && !f.system.grantedAbilities).every((f) => f.name.toLowerCase() in FEAT_AUTOMATIONS), NEW_FEATS.filter((f) => /\bFocus\b/.test(f.system.traits) && f.system.usesPerDay && !f.system.grantedSpells && !f.system.grantedAbilities && !(f.name.toLowerCase() in FEAT_AUTOMATIONS)).map((f) => f.name).join());
 ok("D every archetype ability is automated", ARCHETYPE_ABILITIES.every((a) => a.name.toLowerCase() in FEAT_AUTOMATIONS));
-equal("D fifty-nine feat automations, 112 passive hints (Old Secret and Hedge Witch moved to the Grimoire file in 0.5.0; Consecrated Armament became a Use at 0.7.0)", [Object.keys(FEAT_AUTOMATIONS).length, Object.keys(FEAT_PASSIVE_HINTS).length], [60, 111]);
+equal("D fifty-nine feat automations, 112 passive hints (Old Secret and Hedge Witch moved to the Grimoire file in 0.5.0; Consecrated Armament became a Use at 0.7.0; Sacred Marginalia and Final Toll at 0.12.1)", [Object.keys(FEAT_AUTOMATIONS).length, Object.keys(FEAT_PASSIVE_HINTS).length], [62, 109]);
 equal("D the two class-skill archetypes use the system's chooser", [FEAT_AUTOMATIONS.inquisitor, FEAT_AUTOMATIONS.lifebearer].map((a) => /useClassSkillGrant/.test(String(a.use))), [true, true]);
 const featAuto = fs.readFileSync(path.join(ROOT, "module", "feat-automations.mjs"), "utf8");
 ok("D the automations file has no static import of the system", !/from "\.\.\/\.\.\/sys|trg-prime\/module/.test(featAuto));
@@ -332,11 +335,11 @@ ok("D Manifest Spirit removes the manifested attack when dismissed", /manifested
 ok("D the preparation cap counts Full Satchel copies", /featCount\(actor, "Full Satchel"\)/.test(auto3));
 
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "module.json"), "utf8"));
-equal("D module version", manifest.version, "0.11.1");
-equal("D requires TRG Prime 3.630.1+", manifest.relationships.systems[0].compatibility.minimum, "3.630.1");
+equal("D module version", manifest.version, "0.12.5");
+equal("D requires TRG Prime 3.696.0+", manifest.relationships.systems[0].compatibility.minimum, "3.696.0");
 ok("D pof-companions extends the companions pack and is in the folder", manifest.packs.find((p) => p.name === "pof-companions")?.flags[SYS].extends === "companions" && manifest.packFolders[0].packs.includes("pof-companions"));
 equal("D pof-feats holds the twelve background feats, the four families and Chapter 9's 62 Unliving feats (0.9.0)", PACKS.find((p) => p.name === "pof-feats").docs.length, 12 + 93 + 13 + 48 + 13 + 7 + 55);
-ok("D the entry script requires 3.630.0", /REQUIRED_SYSTEM = "3\.630\.1"/.test(fs.readFileSync(path.join(ROOT, "scripts", "pillars-of-faith.mjs"), "utf8")));
+ok("D the entry script requires 3.696.0", /REQUIRED_SYSTEM = "3\.696\.0"/.test(fs.readFileSync(path.join(ROOT, "scripts", "pillars-of-faith.mjs"), "utf8")));
 ok("D packs-source/pof-feats and pof-companions are built", fs.existsSync(path.join(ROOT, "packs-source", "pof-companions")) && fs.readdirSync(path.join(ROOT, "packs-source", "pof-feats")).length === 241);
 
 /* ------------------------------------------------------------------ */

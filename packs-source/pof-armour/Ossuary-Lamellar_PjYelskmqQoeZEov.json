@@ -1,7 +1,7 @@
 {
   "_id": "PjYelskmqQoeZEov",
   "name": "Ossuary Lamellar",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/trg-pillars-of-faith/assets/armour/lamellar.png",
   "type": "armour",
   "system": {
     "quantity": 1,
@@ -27,9 +27,33 @@
     "coversTorso": true,
     "coversArms": false,
     "coversLegs": false,
-    "description": "Lacquered bone, horn and dense leather plates overlap across the chest and limbs. The design developed among cultures where good metal was scarce but large burial grounds were not. Ossuary Lamellar grants +1 DR against slashing damage. Despite its appearance, it possesses no connection to the souls of those from whose remains it may have been fashioned.\n\nOn the sheet: the +1 DR against slashing is a note — DR on the sheet is one number; apply it by hand when the damage is slashing.\n\nPillars of Faith, Chapter 6."
+    "description": "Lacquered bone, horn and dense leather plates overlap across the chest and limbs. The design developed among cultures where good metal was scarce but large burial grounds were not. Ossuary Lamellar grants +1 DR against slashing damage. Despite its appearance, it possesses no connection to the souls of those from whose remains it may have been fashioned.\n\nOn the sheet: works automatically — while worn, slashing damage meets 1 more DR (a declared DR against slashing, TRG Prime 3.696.0).\n\nPillars of Faith, Chapter 6."
   },
-  "effects": [],
+  "effects": [
+    {
+      "_id": "E82aWj8fmMIexqoc",
+      "name": "Ossuary Lamellar: +1 DR against slashing",
+      "img": "icons/svg/shield.svg",
+      "changes": [],
+      "disabled": false,
+      "transfer": true,
+      "origin": "",
+      "duration": {},
+      "tint": "#ffffff",
+      "statuses": [],
+      "description": "+1 DR against slashing damage, while the lamellar is worn.",
+      "flags": {
+        "trg-prime": {
+          "featPassive": true,
+          "worn": true,
+          "drVersus": {
+            "slashing": 1
+          }
+        }
+      },
+      "_key": "!items.effects!PjYelskmqQoeZEov.E82aWj8fmMIexqoc"
+    }
+  ],
   "folder": null,
   "sort": 0,
   "ownership": {

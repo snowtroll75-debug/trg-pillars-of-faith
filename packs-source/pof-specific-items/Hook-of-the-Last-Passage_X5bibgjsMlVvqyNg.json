@@ -1,7 +1,7 @@
 {
   "_id": "X5bibgjsMlVvqyNg",
   "name": "Hook of the Last Passage",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/glaive.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

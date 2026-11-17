@@ -1,7 +1,7 @@
 {
   "_id": "CvY8PZpKmCH3sFel",
   "name": "Bulwark of the Sworn Gate",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/trg-pillars-of-faith/assets/armour/full-platemail.png",
   "type": "armour",
   "system": {
     "quantity": 1,

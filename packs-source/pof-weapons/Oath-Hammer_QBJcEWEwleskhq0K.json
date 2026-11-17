@@ -1,7 +1,7 @@
 {
   "_id": "QBJcEWEwleskhq0K",
   "name": "Oath Hammer",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/trg-pillars-of-faith/assets/weapons/warhammer.png",
   "type": "weapon",
   "system": {
     "quantity": 1,

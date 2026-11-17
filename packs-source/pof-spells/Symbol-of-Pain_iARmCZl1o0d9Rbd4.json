@@ -1,7 +1,7 @@
 {
   "_id": "iARmCZl1o0d9Rbd4",
   "name": "Symbol of Pain",
-  "img": "icons/svg/holy-symbol.svg",
+  "img": "modules/trg-pillars-of-faith/assets/spells/soul.svg",
   "type": "spell",
   "system": {
     "tradition": "arcane, divinity",

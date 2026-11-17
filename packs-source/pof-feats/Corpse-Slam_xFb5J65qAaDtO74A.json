@@ -1,7 +1,7 @@
 {
   "_id": "xFb5J65qAaDtO74A",
   "name": "Corpse Slam",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/trg-pillars-of-faith/assets/feats/class.png",
   "type": "feat",
   "system": {
     "source": "Pillars of Faith",

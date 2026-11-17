@@ -1,7 +1,7 @@
 {
   "_id": "bKUvVl2zLm2AhCLE",
   "name": "Archivist's Travel Desk",
-  "img": "icons/svg/chest.svg",
+  "img": "modules/trg-pillars-of-faith/assets/icons/svg/chest.svg",
   "type": "gear",
   "system": {
     "quantity": 1,

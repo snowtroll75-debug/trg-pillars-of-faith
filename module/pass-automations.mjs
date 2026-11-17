@@ -14,9 +14,9 @@
  * The pure parts are exported for the harness; the rest run in Foundry.
  */
 import { helpers, hasFeat, SYSTEM_ID, PAST_LIFE_LORE_FLAG } from "./automations.mjs";
+import { giveTempHp, registerRelaySocket } from "./relay.mjs";
 
 const MODULE_ID = "trg-pillars-of-faith";
-const SOCKET = `module.${MODULE_ID}`;
 const esc = (v) => String(v ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const lower = (v) => String(v ?? "").trim().toLowerCase();
 
@@ -240,13 +240,8 @@ export async function onCheckResolved(ctx) {
 /* Grace beyond Need                                                    */
 /* ------------------------------------------------------------------ */
 
-/** Temporary HP on a creature this client may not own: the GM writes it. */
-async function giveTempHp(target, amount) {
-  const h = helpers();
-  if (target.isOwner) return h.grantTempHP(target, amount);
-  game.socket.emit(SOCKET, { action: "tempHP", targetUuid: target.uuid, amount });
-  return null;
-}
+// Temporary HP on a creature this client may not own: the GM writes it.
+// Moved to relay.mjs at 0.12.0, where the Healer's abilities share it.
 
 export async function onOverheal({ caster, target, excess, spell }) {
   if (!caster?.isOwner || !target || !(excess > 0)) return;
@@ -408,13 +403,11 @@ export function onActionAttempt({ action, targetActor }) {
 /* The GM's half                                                        */
 /* ------------------------------------------------------------------ */
 
+/**
+ * The module's socket (0.11.0, Grace beyond Need). Since 0.12.0 one handler
+ * carries every relayed write — temporary HP, a condition step, Lifeline —
+ * so it lives in relay.mjs; this name is kept for the entry script.
+ */
 export function registerPassSocket() {
-  game.socket.on(SOCKET, async (data) => {
-    if (data?.action !== "tempHP" || !game.user?.isGM) return;
-    const active = game.users?.activeGM ?? game.users?.find?.((u) => u.isGM && u.active);
-    if (active && active.id !== game.user.id) return;
-    const target = await fromUuid(data.targetUuid).catch(() => null);
-    const actor = target?.documentName === "Actor" ? target : target?.actor;
-    if (actor) await helpers().grantTempHP(actor, Number(data.amount) || 0);
-  });
+  registerRelaySocket();
 }
