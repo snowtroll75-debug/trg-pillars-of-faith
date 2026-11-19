@@ -30,6 +30,7 @@ jobs:
         if: env.skip != 'true'
         run: |
           mkdir -p dist
+          node -e "const fs=require('fs');const p='module.json';const m=JSON.parse(fs.readFileSync(p,'utf8'));const root='https://github.com/snowtroll75-debug/trg-pillars-of-faith';m.url=root;m.manifest='https://raw.githubusercontent.com/snowtroll75-debug/trg-pillars-of-faith/main/module.json';m.download=root+'/releases/download/v'+m.version+'/trg-pillars-of-faith.zip';fs.writeFileSync(p,JSON.stringify(m,null,2)+'\\n');"
           cp module.json dist/
           for dir in assets module scripts packs; do
             if [ -d "$dir" ]; then cp -a "$dir" dist/; fi
